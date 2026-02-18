@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Large data files
+grifo-crawler/sync/sync-data/*.json
+grifo-crawler/sync/sync-logs/*.json
+grifo-crawler/*.json
+
+# Keep only dashboard summary
+!grifo-crawler/dashboard_summary.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temp files
+*.tmp
+*.temp

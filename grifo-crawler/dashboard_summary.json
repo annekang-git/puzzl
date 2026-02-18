@@ -1,0 +1,63 @@
+{
+  "last_updated": "2026-02-19T05:44:00Z",
+  "recent_diffs": [
+    {
+      "date": "2026-02-18",
+      "summary": {
+        "to_delete": 78,
+        "to_update": 1685,
+        "to_add": 214
+      },
+      "execution_results": {
+        "delete_success": 78,
+        "delete_failed": 0,
+        "update_success": 1685,
+        "update_failed": 0,
+        "add_success": 212,
+        "add_failed": 2
+      },
+      "total_processed": 1977,
+      "success_rate": "99.9%",
+      "status": "완료"
+    },
+    {
+      "date": "2026-02-17", 
+      "summary": {
+        "to_delete": 0,
+        "to_update": 0,
+        "to_add": 426
+      },
+      "total_processed": 426,
+      "status": "완료 (추가 전용)"
+    },
+    {
+      "date": "2026-02-15",
+      "summary": {
+        "to_delete": 1041,
+        "to_update": 591,
+        "to_add": 2
+      },
+      "total_processed": 1634,
+      "status": "완료"
+    }
+  ],
+  "statistics": {
+    "total_products_synced": 4037,
+    "period_summary": {
+      "total_deletions": 1119,
+      "total_updates": 2276,
+      "total_additions": 642,
+      "total_operations": 4037
+    },
+    "success_metrics": {
+      "feb_18_success_rate": "99.9%",
+      "total_failed_operations": 2,
+      "most_recent_success": "212/214 additions completed"
+    },
+    "operational_overview": {
+      "largest_update_day": "2026-02-18 (1977 operations)",
+      "additions_focus_day": "2026-02-17 (426 new products)",
+      "cleanup_day": "2026-02-15 (1041 deletions)"
+    }
+  }
+}
