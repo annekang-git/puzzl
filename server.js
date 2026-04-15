@@ -175,7 +175,7 @@ app.get('/auth/refresh', async (req, res) => {
 // ============ Dresscode 키즈 상품 API ============
 
 const DRESSCODE_API_KEY = process.env.DRESSCODE_API_KEY || 'puzzl-kids-2026';
-const DRESSCODE_DATA_DIR = path.join(__dirname, 'grifo-crawler', 'sync', 'sync-data');
+const KIDS_DATA_PATH = path.join(__dirname, 'data', 'dresscode-kids.json');
 
 // 캐시 (10분 TTL)
 let kidsCache = { data: null, loadedAt: 0, dataDate: '' };
@@ -187,26 +187,12 @@ function loadKidsProducts() {
     return kidsCache;
   }
 
-  const files = fs.readdirSync(DRESSCODE_DATA_DIR)
-    .filter(f => /^dresscode_products_\d{4}-\d{2}-\d{2}\.json$/.test(f))
-    .sort()
-    .reverse();
-
-  if (files.length === 0) {
-    throw new Error('Dresscode 데이터 파일이 없습니다.');
+  if (!fs.existsSync(KIDS_DATA_PATH)) {
+    throw new Error('키즈 상품 데이터 파일이 없습니다: ' + KIDS_DATA_PATH);
   }
 
-  const latestFile = files[0];
-  const dataDate = latestFile.match(/(\d{4}-\d{2}-\d{2})/)[1];
-  const raw = JSON.parse(fs.readFileSync(path.join(DRESSCODE_DATA_DIR, latestFile), 'utf-8'));
-  const allProducts = raw.raw_api_response || raw.products || [];
-
-  const kids = allProducts.filter(p => {
-    const genre = (p.genre || '').trim();
-    return genre.startsWith('Baby') || genre === 'Unisex baby';
-  });
-
-  kidsCache = { data: kids, loadedAt: now, dataDate };
+  const raw = JSON.parse(fs.readFileSync(KIDS_DATA_PATH, 'utf-8'));
+  kidsCache = { data: raw.products || [], loadedAt: now, dataDate: raw.dataDate || '' };
   return kidsCache;
 }
 
