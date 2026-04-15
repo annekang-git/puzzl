@@ -10,12 +10,12 @@ const PORT = 3001;
 // ============ 설정 ============
 const CONFIG = {
   mall_id: 'revintique',
-  client_id: 'iwbFTe0UPideWxknm6FsrB',
-  client_secret: 'qw1JPh0gB5Knn8ESDGkr5B',
-  redirect_uri: 'https://unfathomable-distractedly-lilliana.ngrok-free.dev/oauth/cafe24/callback',
+  client_id: 'C6tfSZmTX6ZP9LlZOdjn7D',
+  client_secret: 'ZFqUoN0ODFXoSh2Q7MTcBA',
+  redirect_uri: 'https://puzzl.kr/api/cafe24/oauth/callback',
   state: 'anneTest01',
   scope: 'mall.read_product,mall.write_product,mall.read_collection,mall.write_collection',
-  api_version: '2025-12-01'
+  api_version: '2026-03-01'
 };
 
 // Base64 인코딩
@@ -169,6 +169,95 @@ app.get('/auth/refresh', async (req, res) => {
   } catch (error) {
     console.error('❌ 토큰 갱신 실패:', error.response?.data || error.message);
     res.status(500).json(error.response?.data || { error: error.message });
+  }
+});
+
+// ============ Dresscode 키즈 상품 API ============
+
+const DRESSCODE_API_KEY = process.env.DRESSCODE_API_KEY || 'puzzl-kids-2026';
+const DRESSCODE_DATA_DIR = path.join(__dirname, 'grifo-crawler', 'sync', 'sync-data');
+
+// 캐시 (10분 TTL)
+let kidsCache = { data: null, loadedAt: 0, dataDate: '' };
+const CACHE_TTL = 10 * 60 * 1000;
+
+function loadKidsProducts() {
+  const now = Date.now();
+  if (kidsCache.data && (now - kidsCache.loadedAt) < CACHE_TTL) {
+    return kidsCache;
+  }
+
+  const files = fs.readdirSync(DRESSCODE_DATA_DIR)
+    .filter(f => /^dresscode_products_\d{4}-\d{2}-\d{2}\.json$/.test(f))
+    .sort()
+    .reverse();
+
+  if (files.length === 0) {
+    throw new Error('Dresscode 데이터 파일이 없습니다.');
+  }
+
+  const latestFile = files[0];
+  const dataDate = latestFile.match(/(\d{4}-\d{2}-\d{2})/)[1];
+  const raw = JSON.parse(fs.readFileSync(path.join(DRESSCODE_DATA_DIR, latestFile), 'utf-8'));
+  const allProducts = raw.raw_api_response || raw.products || [];
+
+  const kids = allProducts.filter(p => {
+    const genre = (p.genre || '').trim();
+    return genre.startsWith('Baby') || genre === 'Unisex baby';
+  });
+
+  kidsCache = { data: kids, loadedAt: now, dataDate };
+  return kidsCache;
+}
+
+// API 키 인증 미들웨어
+function requireDresscodeApiKey(req, res, next) {
+  const key = req.headers['x-api-key'];
+  if (!key || key !== DRESSCODE_API_KEY) {
+    return res.status(401).json({ error: 'Invalid or missing API key. Set x-api-key header.' });
+  }
+  next();
+}
+
+// 키즈 상품 목록
+app.get('/api/dresscode/kids', requireDresscodeApiKey, (req, res) => {
+  try {
+    const { data, dataDate } = loadKidsProducts();
+    let products = data;
+
+    // 브랜드 필터
+    if (req.query.brand) {
+      const brand = req.query.brand.toLowerCase();
+      products = products.filter(p => (p.brand || '').toLowerCase().includes(brand));
+    }
+
+    // 장르 필터
+    if (req.query.genre) {
+      products = products.filter(p => p.genre === req.query.genre);
+    }
+
+    // SKU 필터
+    if (req.query.sku) {
+      products = products.filter(p => p.sku === req.query.sku);
+    }
+
+    res.json({
+      total: products.length,
+      dataDate,
+      products
+    });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// 키즈 상품 수
+app.get('/api/dresscode/kids/count', requireDresscodeApiKey, (req, res) => {
+  try {
+    const { data, dataDate } = loadKidsProducts();
+    res.json({ total: data.length, dataDate });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
   }
 });
 
