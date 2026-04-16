@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: puzzl-kids-api
+    runtime: node
+    plan: free
+    region: singapore
+    rootDir: .
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: DRESSCODE_API_KEY
+        value: puzzl-kids-2026
+      - key: NODE_VERSION
+        value: 20
+    healthCheckPath: /
+    autoDeploy: true
