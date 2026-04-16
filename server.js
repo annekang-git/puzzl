@@ -7,6 +7,9 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+// Render/Cloudflare 뒤에서 HTTPS가 정상적으로 인식되도록 신뢰
+app.set('trust proxy', true);
+
 // ============ 설정 ============
 const CONFIG = {
   mall_id: 'revintique',
@@ -205,6 +208,67 @@ function requireDresscodeApiKey(req, res, next) {
   next();
 }
 
+// 공개 베이스 URL (프록시 이미지 URL 생성용)
+function getPublicBaseUrl(req) {
+  if (process.env.PUBLIC_BASE_URL) return process.env.PUBLIC_BASE_URL.replace(/\/$/, '');
+  const proto = req.get('x-forwarded-proto') || req.protocol;
+  const host = req.get('host');
+  return `${proto}://${host}`;
+}
+
+// 상품 응답에서 photos 배열을 프록시 URL로 교체
+function withProxiedPhotos(product, baseUrl) {
+  const skuEncoded = encodeURIComponent(product.sku);
+  const photoCount = (product.photos || []).length;
+  const proxied = Array.from({ length: photoCount }, (_, idx) =>
+    `${baseUrl}/api/dresscode/kids/image/${skuEncoded}/${idx}`
+  );
+  return { ...product, photos: proxied };
+}
+
+// 키즈 상품 이미지 프록시 (API 키 없이 접근 가능 - img 태그 호환)
+app.get('/api/dresscode/kids/image/:sku/:idx', async (req, res) => {
+  try {
+    const { sku, idx } = req.params;
+    const idxNum = parseInt(idx, 10);
+    if (Number.isNaN(idxNum) || idxNum < 0) {
+      return res.status(400).json({ error: 'Invalid image index' });
+    }
+
+    const { data } = loadKidsProducts();
+    const product = data.find(p => p.sku === sku);
+    if (!product) {
+      return res.status(404).json({ error: 'Product not found' });
+    }
+    const imageUrl = (product.photos || [])[idxNum];
+    if (!imageUrl) {
+      return res.status(404).json({ error: 'Image not found' });
+    }
+
+    const upstream = await axios.get(imageUrl, {
+      responseType: 'stream',
+      timeout: 15000
+    });
+
+    res.set('Content-Type', upstream.headers['content-type'] || 'image/jpeg');
+    if (upstream.headers['content-length']) {
+      res.set('Content-Length', upstream.headers['content-length']);
+    }
+    // 브라우저/CDN 에서 하루 캐싱
+    res.set('Cache-Control', 'public, max-age=86400, immutable');
+    upstream.data.pipe(res);
+
+    upstream.data.on('error', (err) => {
+      console.error('이미지 스트리밍 오류:', err.message);
+      if (!res.headersSent) res.status(502).end();
+    });
+  } catch (err) {
+    const status = err.response?.status || 500;
+    console.error(`❌ 이미지 프록시 실패 [${req.params.sku}/${req.params.idx}]: ${err.message}`);
+    res.status(status === 404 ? 404 : 502).json({ error: 'Failed to fetch image' });
+  }
+});
+
 // 키즈 상품 목록
 app.get('/api/dresscode/kids', requireDresscodeApiKey, (req, res) => {
   try {
@@ -227,10 +291,13 @@ app.get('/api/dresscode/kids', requireDresscodeApiKey, (req, res) => {
       products = products.filter(p => p.sku === req.query.sku);
     }
 
+    const baseUrl = getPublicBaseUrl(req);
+    const transformed = products.map(p => withProxiedPhotos(p, baseUrl));
+
     res.json({
-      total: products.length,
+      total: transformed.length,
       dataDate,
-      products
+      products: transformed
     });
   } catch (err) {
     res.status(500).json({ error: err.message });
