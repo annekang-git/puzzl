@@ -157,6 +157,7 @@ curl -H "x-api-key: {API_KEY}" \
       "sizeType": "KID MONTH AGE",
       "weight": 1,
       "price": 112400,
+      "retailPrice": 257000,
       "currency": "KRW",
       "sizes": [
         {
@@ -164,6 +165,7 @@ curl -H "x-api-key: {API_KEY}" \
           "stock": 1,
           "gtin": "001907021172",
           "price": 118600,
+          "retailPrice": 271300,
           "currency": "KRW"
         }
       ],
@@ -251,7 +253,8 @@ curl -o main.jpg \
 | `productLastUpdated` | string (ISO 8601) | ✅ | 상품 정보 최종 수정 시각 (UTC) |
 | `sizeType` | string | ⚪ | 사이즈 체계 (예: `KID MONTH AGE`, `KID YEAR`) |
 | `weight` | number | ⚪ | 무게 (kg) |
-| `price` | number | ✅ | 상품 대표 판매가 (원) — 최저 사이즈 가격 기준 |
+| `price` | number | ✅ | 상품 대표 **판매가** (원) — PUZZL 공급가 |
+| `retailPrice` | number | ✅ | 상품 **정가(MSRP)** (원) — 브랜드 권장소비자가를 환율로 환전한 값. 할인율/정가 표시용 |
 | `currency` | string | ✅ | 통화 코드 — 항상 `"KRW"` |
 | `sizes` | array\<Size\> | ✅ | 사이즈별 재고 및 가격 |
 | `photos` | array\<string\> | ✅ | 상품 이미지 URL 배열 (PUZZL 프록시 URL, 고해상도 JPG). 상품당 2~5장. 배열 순서가 곧 표시 순서(첫 번째 = 메인 이미지). `<img src="...">` 또는 별도 다운로드로 바로 사용 가능 (API 키 불필요) |
@@ -263,7 +266,8 @@ curl -o main.jpg \
 | `size` | string | ✅ | 사이즈 표기 (예: `10`, `12 Months`, `EU 30`) |
 | `stock` | number | ✅ | 현재 재고 수량 (0이면 품절) |
 | `gtin` | string | ⚪ | GTIN/EAN 바코드 (13자리) |
-| `price` | number | ✅ | 해당 사이즈 판매가 (원) |
+| `price` | number | ✅ | 해당 사이즈 **판매가** (원) — PUZZL 공급가 |
+| `retailPrice` | number | ✅ | 해당 사이즈 **정가(MSRP)** (원) — 할인율/정가 표시용 |
 | `currency` | string | ✅ | 통화 코드 — 항상 `"KRW"` |
 
 > ⚠️ **중요**: 사이즈마다 가격이 다를 수 있습니다. 결제 시 반드시 `sizes[].price`를 사용하세요.

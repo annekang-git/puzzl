@@ -96,6 +96,16 @@ function calculateKrwPrice(priceEur, product) {
   return salePrice;
 }
 
+/**
+ * EUR 정가(MSRP) → KRW 정가 변환
+ *  마진/원산지/금액대 요율 없이 단순 환율만 적용
+ *  (브랜드의 권장소비자가 그대로 유지)
+ */
+function calculateKrwRetailPrice(retailPriceEur) {
+  if (!retailPriceEur || retailPriceEur <= 0) return 0;
+  return roundTo100(retailPriceEur * EXCHANGE_RATE);
+}
+
 // ========================================================================
 // 메인
 // ========================================================================
@@ -135,22 +145,25 @@ function main() {
 
     // 상품 레벨 가격
     const priceKrw = calculateKrwPrice(p.price, p);
+    const retailPriceKrw = calculateKrwRetailPrice(p.retailPrice);
 
     // 사이즈별 가격
     const sizes = (p.sizes || []).map(s => {
-      const { retailPrice: _rp, price: sizePriceEur, ...rest } = s;
+      const { retailPrice: sizeRetailEur, price: sizePriceEur, ...rest } = s;
       return {
         ...rest,
         price: calculateKrwPrice(sizePriceEur, p),
+        retailPrice: calculateKrwRetailPrice(sizeRetailEur),
         currency: 'KRW',
       };
     });
 
-    // 상품 본체에서 retailPrice, pricesIncludeVat 제거
-    const { retailPrice: _rp, pricesIncludeVat: _vat, price: _origPrice, ...rest } = p;
+    // 상품 본체에서 pricesIncludeVat 만 제거 (retailPrice 는 KRW 로 재계산하여 유지)
+    const { retailPrice: _rpEur, pricesIncludeVat: _vat, price: _origPrice, ...rest } = p;
     return {
       ...rest,
       price: priceKrw,
+      retailPrice: retailPriceKrw,
       currency: 'KRW',
       sizes,
     };
@@ -169,7 +182,8 @@ function main() {
       surcharges: { shoes: SHOE_SURCHARGE },
       note:
         'price = roundTo100(EUR × 환율 × 마진 × 원산지요율 × 금액대요율) + 신발 추가금. ' +
-        'retailPrice, pricesIncludeVat 필드는 API 응답에서 제거됨.',
+        'retailPrice = roundTo100(retailPriceEUR × 환율) — 브랜드 권장소비자가(MSRP)를 단순 환전한 값. ' +
+        'pricesIncludeVat 필드는 API 응답에서 제거됨.',
     },
     products: processed,
   };
