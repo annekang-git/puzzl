@@ -84,15 +84,28 @@ function isShoes(product) {
 
 /**
  * EUR 가격 → KRW 판매가 변환
- *  KRW = round100(EUR × 환율 × 마진 × 원산지요율 × 금액대요율) + (신발이면 +30,000원)
+ *  순서:
+ *    1. krwRaw = EUR × 환율            (환율만 적용한 원화 금액)
+ *    2. tierRate = getPriceTierRate(krwRaw)  (원화 금액으로 바로 tier 판정)
+ *    3. salePrice = round100(krwRaw × 마진 × 원산지요율 × tierRate)
+ *    4. 신발이면 + 30,000원
  */
 function calculateKrwPrice(priceEur, product) {
   if (!priceEur || priceEur <= 0) return 0;
   const countryRate = getCountryRate(product.madeIn);
-  const base = priceEur * EXCHANGE_RATE * MARKUP_RATE * countryRate;
-  const tierRate = getPriceTierRate(base);
-  let salePrice = roundTo100(base * tierRate);
+
+  // 1) 환율만 적용한 원화
+  const krwRaw = priceEur * EXCHANGE_RATE;
+
+  // 2) 원화 기준으로 tier 판정 (마진/원산지 미반영)
+  const tierRate = getPriceTierRate(krwRaw);
+
+  // 3) 나머지 마진 요율을 모두 적용
+  let salePrice = roundTo100(krwRaw * MARKUP_RATE * countryRate * tierRate);
+
+  // 4) 신발 추가금
   if (isShoes(product)) salePrice += SHOE_SURCHARGE;
+
   return salePrice;
 }
 
@@ -181,7 +194,8 @@ function main() {
       markupPercent: `${Math.round((MARKUP_RATE - 1) * 100)}%`,
       surcharges: { shoes: SHOE_SURCHARGE },
       note:
-        'price = roundTo100(EUR × 환율 × 마진 × 원산지요율 × 금액대요율) + 신발 추가금. ' +
+        'price 계산 순서: (1) krwRaw = EUR × 환율 → (2) krwRaw 금액으로 금액대요율(tier) 결정 → ' +
+        '(3) round100(krwRaw × 마진 × 원산지요율 × tier) → (4) 신발이면 +30,000원. ' +
         'retailPrice = roundTo100(retailPriceEUR × 환율) — 브랜드 권장소비자가(MSRP)를 단순 환전한 값. ' +
         'pricesIncludeVat 필드는 API 응답에서 제거됨.',
     },
