@@ -100,6 +100,8 @@ const SHOE_SURCHARGE = 30000;
 const DRESSCODE_CONFIG = {
   exchangeRate: 1742, // EUR -> KRW
   markup: 1.25,       // 25% 마진 (공통 정책의 키즈 30% 대비 -5%p)
+  vatRate: 1.22,      // EU VAT 22% — Dresscode 원본 데이터는 모두 pricesIncludeVat=false (VAT 제외)
+                      // 정가(retailPrice)를 API 로 노출할 때 실제 브랜드 MSRP 수준으로 올리기 위해 VAT 를 더해줌
 };
 
 function isDresscodeShoes(product) {
@@ -116,9 +118,13 @@ function calculateDresscodeKrwPrice(priceEur, product) {
   return salePrice;
 }
 
-function calculateDresscodeKrwRetailPrice(retailPriceEur) {
+// Dresscode 원본 데이터는 VAT 제외 가격이므로 정가에 VAT 를 더해 실제 브랜드 MSRP 로 환산
+//   retailPrice_KRW = retailPriceEUR × VAT(1.22) × 환율(1742)
+// 예: €151.64(VAT 제외) × 1.22 × 1742 = ₩322,271 (실제 MSRP €185.00 기준)
+function calculateDresscodeKrwRetailPrice(retailPriceEur, pricesIncludeVat = false) {
   if (!retailPriceEur || retailPriceEur <= 0) return 0;
-  return roundTo100(retailPriceEur * DRESSCODE_CONFIG.exchangeRate);
+  const vat = pricesIncludeVat ? 1 : DRESSCODE_CONFIG.vatRate;
+  return roundTo100(retailPriceEur * vat * DRESSCODE_CONFIG.exchangeRate);
 }
 
 // ========================================================================
@@ -195,8 +201,9 @@ function inferGrifoGenre(crawlSource) {
 // ========================================================================
 
 function normalizeDresscode(p) {
+  const vatIncluded = p.pricesIncludeVat === true;
   const priceKrw = calculateDresscodeKrwPrice(p.price, p);
-  let retailKrw = calculateDresscodeKrwRetailPrice(p.retailPrice);
+  let retailKrw = calculateDresscodeKrwRetailPrice(p.retailPrice, vatIncluded);
   // 공통 정책: 판매가가 정가보다 크면 정가를 판매가 × 1.1 로 조정
   if (priceKrw > retailKrw && priceKrw > 0) {
     retailKrw = roundTo100(priceKrw * 1.1);
@@ -205,7 +212,7 @@ function normalizeDresscode(p) {
   const sizes = (p.sizes || []).map((s) => {
     const { retailPrice: _r, price: _p, ...rest } = s;
     const sizePriceKrw = calculateDresscodeKrwPrice(s.price, p);
-    let sizeRetailKrw = calculateDresscodeKrwRetailPrice(s.retailPrice);
+    let sizeRetailKrw = calculateDresscodeKrwRetailPrice(s.retailPrice, vatIncluded);
     if (sizePriceKrw > sizeRetailKrw && sizePriceKrw > 0) {
       sizeRetailKrw = roundTo100(sizePriceKrw * 1.1);
     }
@@ -363,6 +370,7 @@ function main() {
         exchangeRate: DRESSCODE_CONFIG.exchangeRate,
         markupRate: DRESSCODE_CONFIG.markup,
         markupPercent: `${Math.round((DRESSCODE_CONFIG.markup - 1) * 100)}%`,
+        retailVatRate: DRESSCODE_CONFIG.vatRate,
       },
       grifo: {
         exchangeRate: GRIFO_CONFIG.exchangeRate,
@@ -375,7 +383,8 @@ function main() {
         '공통 순서: (1) krwRaw = 원가USD/EUR × 환율 → (2) krwRaw 금액으로 금액대요율(tier) 결정 → ' +
         '(3) round100(krwRaw × 마진 × 원산지요율 × tier) → (4) 신발이면 +30,000원. ' +
         'Grifo는 비세일 상품의 경우 기준가(regular_price)에 0.85 를 곱한 값을 krwRaw 계산의 기준가로 사용. ' +
-        'retailPrice = round100(정가원가 × 환율) — 브랜드 권장소비자가를 단순 환전한 값. ' +
+        'retailPrice(정가): Dresscode 는 원본 retailPrice(VAT 제외)에 EU VAT 22% 를 더한 뒤 환율 적용. ' +
+        'Grifo 는 원본 regular_price(USD, 이미 VAT 포함)에 환율만 적용. ' +
         'source 필드 = "dresscode" 또는 "grifo".',
     },
     products: merged,
