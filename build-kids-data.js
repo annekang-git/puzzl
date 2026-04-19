@@ -341,9 +341,35 @@ function main() {
   });
   console.log(`   👦 Grifo 키즈 추출: ${gfKids.length}개`);
 
-  // ─── 3) 정규화 + 병합 ───────────────────────────────────────────────────
+  // ─── 3) 정규화 ─────────────────────────────────────────────────────────
   const processedDc = dcKids.map(normalizeDresscode);
-  const processedGf = gfKids.map(normalizeGrifo);
+  const processedGfAll = gfKids.map(normalizeGrifo);
+
+  // ─── 3-1) 중복 제거: Dresscode 우선 ──────────────────────────────────
+  // Dresscode 에 존재하는 SKU / SPU 는 모두 "예약" 처리하고
+  // 동일 Reference(short_reference / full_reference) 를 가진 Grifo 항목을 제외
+  const dcReservedKeys = new Set();
+  processedDc.forEach((p) => {
+    if (p.sku) dcReservedKeys.add(String(p.sku).trim().toUpperCase());
+    if (p.spu) dcReservedKeys.add(String(p.spu).trim().toUpperCase());
+  });
+
+  const processedGf = [];
+  const dedupDropped = [];
+  processedGfAll.forEach((g) => {
+    const gSku = String(g.sku || '').trim().toUpperCase();
+    const gSpu = String(g.spu || '').trim().toUpperCase();
+    if ((gSku && dcReservedKeys.has(gSku)) || (gSpu && dcReservedKeys.has(gSpu))) {
+      dedupDropped.push({ sku: g.sku, brand: g.brand, name: g.name });
+      return;
+    }
+    processedGf.push(g);
+  });
+
+  if (dedupDropped.length > 0) {
+    console.log(`   🔁 Dresscode 중복으로 Grifo 제외: ${dedupDropped.length}개`);
+  }
+
   const merged = [...processedDc, ...processedGf];
 
   // 통계
@@ -361,7 +387,11 @@ function main() {
     total: merged.length,
     sources: {
       dresscode: { dataDate: dc.date, count: processedDc.length },
-      grifo: { dataDate: gf.date, count: processedGf.length },
+      grifo: {
+        dataDate: gf.date,
+        count: processedGf.length,
+        dedupDroppedByDresscode: dedupDropped.length,
+      },
     },
     updatedAt: new Date().toISOString(),
     priceInfo: {
