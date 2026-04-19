@@ -1,11 +1,20 @@
 #!/usr/bin/env node
 /**
  * build-kids-data.js
- * 최신 dresscode 데이터에서 키즈 상품만 추출하여
- * 가격을 KRW로 변환(25% 마진 + 원산지/금액대/신발 정책)한 후
- * data/dresscode-kids.json 에 저장한다.
+ * 최신 Dresscode + Grifo 크롤링 결과에서 키즈 상품만 추출하여
+ * 공통 스키마의 KRW 가격으로 변환한 뒤 data/dresscode-kids.json 에 저장한다.
  *
- * API 응답용이므로 retailPrice, pricesIncludeVat 필드는 제거한다.
+ * 각 소스의 가격 정책 (공통 가격정책 기반):
+ *   ─ Dresscode (EUR):
+ *       판매가 = round100(EUR × 1742 × 1.25 × 원산지요율 × tier) + 신발 30,000원
+ *       정가   = round100(retailPriceEUR × 1742)
+ *   ─ Grifo (USD):
+ *       priceForCalc = 세일이면 final_price, 비세일이면 regular_price × 0.85
+ *       판매가       = round100(priceForCalc × 1490 × 1.3 × 원산지요율 × tier) + 키즈신발 30,000원
+ *       정가         = round100(regular_priceUSD × 1490)
+ *
+ * tier 판정은 항상 "krwRaw = 원가 × 환율" 기준 (마진/원산지 미반영).
+ * retailPrice/pricesIncludeVat(EUR 원본) 필드는 API 응답에서 제거된다.
  */
 
 import fs from 'fs';
@@ -15,16 +24,10 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // ========================================================================
-// 가격 정책 (API 전용)
-// - 기존 dresscode-price-policy.js 의 키즈 정책 기반
-// - 마진 30% → 25%, 환율 1730 → 1742 로 변경
-// - 원산지별 요율, 금액대별 요율, 신발 +30,000원 정책은 유지
+// 공통 유틸
 // ========================================================================
-const EXCHANGE_RATE = 1742;     // EUR -> KRW
-const MARKUP_RATE = 1.25;       // 25% 마진 (기존 키즈 1.3 → 1.25)
-const SHOE_SURCHARGE = 30000;   // 신발 추가금 (원)
 
-// 원산지별 요율 (기존 정책 그대로)
+// 원산지별 요율 (공통 정책)
 const COUNTRY_RATES = {
   IT: 1, ES: 1, DE: 1, KR: 1, RO: 1, PL: 1, HU: 1, FR: 1, PT: 1, CZ: 1, BG: 1,
   CN: 1.06, US: 1.06, BD: 1.06, TN: 1.06, TH: 1.06, PK: 1.06, BR: 1.06,
@@ -66,6 +69,7 @@ function getCountryRate(madeIn) {
   return COUNTRY_RATES.default;
 }
 
+// 공통 금액대별 요율
 function getPriceTierRate(priceKrw) {
   if (priceKrw <= 40000) return 1.9;
   if (priceKrw <= 65000) return 1.4;
@@ -78,136 +82,312 @@ function roundTo100(price) {
   return Math.round(price / 100) * 100;
 }
 
-function isShoes(product) {
+// "$71.00" / "€71.00" / "71.00" 숫자만 추출
+function parseMoney(str) {
+  if (!str) return 0;
+  if (typeof str === 'number') return str;
+  const match = String(str).match(/[\d,.]+/);
+  if (!match) return 0;
+  return parseFloat(match[0].replace(',', ''));
+}
+
+const SHOE_SURCHARGE = 30000;
+
+// ========================================================================
+// Dresscode 가격 정책
+//   EUR → KRW, 마진 25%
+// ========================================================================
+const DRESSCODE_CONFIG = {
+  exchangeRate: 1742, // EUR -> KRW
+  markup: 1.25,       // 25% 마진 (공통 정책의 키즈 30% 대비 -5%p)
+};
+
+function isDresscodeShoes(product) {
   return (product.type || '').toLowerCase() === 'shoes';
 }
 
-/**
- * EUR 가격 → KRW 판매가 변환
- *  순서:
- *    1. krwRaw = EUR × 환율            (환율만 적용한 원화 금액)
- *    2. tierRate = getPriceTierRate(krwRaw)  (원화 금액으로 바로 tier 판정)
- *    3. salePrice = round100(krwRaw × 마진 × 원산지요율 × tierRate)
- *    4. 신발이면 + 30,000원
- */
-function calculateKrwPrice(priceEur, product) {
+function calculateDresscodeKrwPrice(priceEur, product) {
   if (!priceEur || priceEur <= 0) return 0;
   const countryRate = getCountryRate(product.madeIn);
-
-  // 1) 환율만 적용한 원화
-  const krwRaw = priceEur * EXCHANGE_RATE;
-
-  // 2) 원화 기준으로 tier 판정 (마진/원산지 미반영)
+  const krwRaw = priceEur * DRESSCODE_CONFIG.exchangeRate;
   const tierRate = getPriceTierRate(krwRaw);
-
-  // 3) 나머지 마진 요율을 모두 적용
-  let salePrice = roundTo100(krwRaw * MARKUP_RATE * countryRate * tierRate);
-
-  // 4) 신발 추가금
-  if (isShoes(product)) salePrice += SHOE_SURCHARGE;
-
+  let salePrice = roundTo100(krwRaw * DRESSCODE_CONFIG.markup * countryRate * tierRate);
+  if (isDresscodeShoes(product)) salePrice += SHOE_SURCHARGE;
   return salePrice;
 }
 
-/**
- * EUR 정가(MSRP) → KRW 정가 변환
- *  마진/원산지/금액대 요율 없이 단순 환율만 적용
- *  (브랜드의 권장소비자가 그대로 유지)
- */
-function calculateKrwRetailPrice(retailPriceEur) {
+function calculateDresscodeKrwRetailPrice(retailPriceEur) {
   if (!retailPriceEur || retailPriceEur <= 0) return 0;
-  return roundTo100(retailPriceEur * EXCHANGE_RATE);
+  return roundTo100(retailPriceEur * DRESSCODE_CONFIG.exchangeRate);
+}
+
+// ========================================================================
+// Grifo 가격 정책 (공통 price-policy.js 의 GRIFO_KIDS 정책과 동일)
+//   USD → KRW, 키즈 마진 30%, 비세일 할인 ×0.85
+// ========================================================================
+const GRIFO_CONFIG = {
+  exchangeRate: 1490,      // USD -> KRW
+  kidsMarkup: 1.3,         // 키즈 30% (공통 정책 유지)
+  nonSaleDiscount: 0.85,   // 비세일 기준가(regular_price) × 0.85
+};
+
+const GRIFO_SHOE_KEYWORDS = [
+  'sneaker', 'shoe', 'boot', 'sandal', 'loafer',
+  'slipper', 'trainer', 'runner', 'slip-on', 'moccasin',
+];
+
+function isGrifoKidsShoe(product) {
+  const cs = (product.crawl_source || '').toLowerCase();
+  if (cs.includes('shoes')) return true;
+  const name = (product.name || '').toLowerCase();
+  return GRIFO_SHOE_KEYWORDS.some((k) => name.includes(k));
+}
+
+function isGrifoSale(product) {
+  const finalUsd = parseMoney(product.final_price);
+  const regularUsd = parseMoney(product.regular_price);
+  return regularUsd > 0 && finalUsd > 0 && finalUsd < regularUsd * 0.95;
+}
+
+/**
+ * Grifo 상품의 USD 가격 → KRW 판매가
+ * 세일이면 해당 USD 그대로, 비세일이면 regular × 0.85 적용
+ *
+ * 원본 정책 재현:
+ *   priceForCalc = isSale ? sizePriceUSD : (sizeRegularUSD ?? sizePriceUSD) × 0.85
+ *   krwRaw       = priceForCalc × 1490
+ *   tier         = getPriceTierRate(krwRaw)
+ *   salePrice    = round100(krwRaw × 1.3 × countryRate × tier) + 키즈신발 30,000원
+ */
+function calculateGrifoKrwPrice(sizePriceUsd, sizeRegularUsd, product, isSale) {
+  const finalUsd = parseMoney(sizePriceUsd);
+  const regularUsd = parseMoney(sizeRegularUsd) || finalUsd;
+
+  const priceForCalc = isSale ? finalUsd : regularUsd * GRIFO_CONFIG.nonSaleDiscount;
+  if (!priceForCalc || priceForCalc <= 0) return 0;
+
+  const countryRate = getCountryRate(product.made_in);
+  const krwRaw = priceForCalc * GRIFO_CONFIG.exchangeRate;
+  const tierRate = getPriceTierRate(krwRaw);
+  let salePrice = roundTo100(krwRaw * GRIFO_CONFIG.kidsMarkup * countryRate * tierRate);
+  if (isGrifoKidsShoe(product)) salePrice += SHOE_SURCHARGE;
+  return salePrice;
+}
+
+// Grifo 정가: regular_price USD × 환율 (단순 환전, Dresscode와 동일한 정가 정의)
+function calculateGrifoKrwRetailPrice(regularUsd) {
+  const usd = parseMoney(regularUsd);
+  if (!usd || usd <= 0) return 0;
+  return roundTo100(usd * GRIFO_CONFIG.exchangeRate);
+}
+
+// Grifo crawl_source → 공통 genre
+function inferGrifoGenre(crawlSource) {
+  const cs = (crawlSource || '').toLowerCase();
+  if (cs.includes('boy')) return 'Baby boy';
+  if (cs.includes('girl')) return 'Baby girl';
+  if (cs.includes('baby')) return 'Unisex baby';
+  return 'Unisex baby';
+}
+
+// ========================================================================
+// 소스별 정규화 (공통 스키마로 매핑)
+// ========================================================================
+
+function normalizeDresscode(p) {
+  const priceKrw = calculateDresscodeKrwPrice(p.price, p);
+  let retailKrw = calculateDresscodeKrwRetailPrice(p.retailPrice);
+  // 공통 정책: 판매가가 정가보다 크면 정가를 판매가 × 1.1 로 조정
+  if (priceKrw > retailKrw && priceKrw > 0) {
+    retailKrw = roundTo100(priceKrw * 1.1);
+  }
+
+  const sizes = (p.sizes || []).map((s) => {
+    const { retailPrice: _r, price: _p, ...rest } = s;
+    const sizePriceKrw = calculateDresscodeKrwPrice(s.price, p);
+    let sizeRetailKrw = calculateDresscodeKrwRetailPrice(s.retailPrice);
+    if (sizePriceKrw > sizeRetailKrw && sizePriceKrw > 0) {
+      sizeRetailKrw = roundTo100(sizePriceKrw * 1.1);
+    }
+    return {
+      ...rest,
+      price: sizePriceKrw,
+      retailPrice: sizeRetailKrw,
+      currency: 'KRW',
+    };
+  });
+
+  const { retailPrice: _rpEur, pricesIncludeVat: _vat, price: _origPrice, ...rest } = p;
+  return {
+    source: 'dresscode',
+    ...rest,
+    price: priceKrw,
+    retailPrice: retailKrw,
+    currency: 'KRW',
+    sizes,
+  };
+}
+
+function normalizeGrifo(p) {
+  const isSale = isGrifoSale(p);
+
+  const sizes = (p.all_sizes || []).map((s) => {
+    const priceKrw = calculateGrifoKrwPrice(s.price, s.regular_price || s.price, p, isSale);
+    let retailPriceKrw = calculateGrifoKrwRetailPrice(s.regular_price || s.price);
+    // 공통 정책: 판매가가 정가보다 크면 정가를 판매가 × 1.1 로 조정
+    if (priceKrw > retailPriceKrw && priceKrw > 0) {
+      retailPriceKrw = roundTo100(priceKrw * 1.1);
+    }
+    return {
+      size: s.size,
+      stock: Number(s.stock) || 0,
+      gtin: null,
+      price: priceKrw,
+      retailPrice: retailPriceKrw,
+      currency: 'KRW',
+    };
+  });
+
+  const priceKrw = sizes.length > 0
+    ? Math.min(...sizes.map((s) => s.price).filter((v) => v > 0))
+    : calculateGrifoKrwPrice(p.final_price, p.regular_price, p, isSale);
+
+  let retailKrw = calculateGrifoKrwRetailPrice(p.regular_price);
+  if (priceKrw > retailKrw && priceKrw > 0) {
+    retailKrw = roundTo100(priceKrw * 1.1);
+  }
+
+  const photos = (p.images && p.images.length) ? p.images : (p.image_urls || []);
+
+  return {
+    source: 'grifo',
+    productID: String(p.id || ''),
+    clientProductID: String(p.id_product_attribute || ''),
+    spu: p.full_reference || p.short_reference || '',
+    sku: p.short_reference || p.full_reference || '',
+    brand: p.brand || '',
+    name: p.name || '',
+    description: p.description || '',
+    genre: inferGrifoGenre(p.crawl_source),
+    type: p.type || '',
+    category: p.category || '',
+    season: p.season || '',
+    isCarryOver: String(p.is_carry_over || '').toLowerCase() === 'true',
+    color: p.color || '',
+    composition: p.composition || '',
+    madeIn: p.made_in || '',
+    sizeAndFit: p.size_and_fit || '',
+    productLastUpdated: null, // Grifo 원본에 없음
+    sizeType: null,
+    weight: null,
+    price: Number.isFinite(priceKrw) ? priceKrw : 0,
+    retailPrice: retailKrw,
+    currency: 'KRW',
+    sizes,
+    photos,
+  };
 }
 
 // ========================================================================
 // 메인
 // ========================================================================
+function loadLatest(dir, regex, keyExtractor = 'products') {
+  const files = fs.readdirSync(dir).filter((f) => regex.test(f)).sort().reverse();
+  if (files.length === 0) return { file: null, date: null, products: [] };
+  const file = files[0];
+  const data = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf-8'));
+  const products = data[keyExtractor] || data.raw_api_response || [];
+  const date = file.match(/\d{4}-\d{2}-\d{2}/)[0];
+  return { file, date, products };
+}
+
 function main() {
   const syncDataDir = path.join(__dirname, 'grifo-crawler/sync/sync-data');
   const outputFile = path.join(__dirname, 'data/dresscode-kids.json');
 
-  // 최신 dresscode_products_YYYY-MM-DD.json 찾기
-  const files = fs.readdirSync(syncDataDir)
-    .filter(f => /^dresscode_products_\d{4}-\d{2}-\d{2}\.json$/.test(f))
-    .sort()
-    .reverse();
-
-  if (files.length === 0) {
+  // ─── 1) Dresscode 로드 & 키즈 필터 ──────────────────────────────────────
+  const dc = loadLatest(syncDataDir, /^dresscode_products_\d{4}-\d{2}-\d{2}\.json$/, 'raw_api_response');
+  if (!dc.file) {
     console.error('❌ dresscode_products_YYYY-MM-DD.json 파일을 찾을 수 없습니다.');
     process.exit(1);
   }
+  console.log(`📂 Dresscode 소스: ${dc.file} (전체 ${dc.products.length}개)`);
 
-  const latestFile = files[0];
-  console.log(`📂 소스 파일: ${latestFile}`);
-
-  const raw = JSON.parse(fs.readFileSync(path.join(syncDataDir, latestFile), 'utf-8'));
-  const allProducts = raw.raw_api_response || raw.products || [];
-  console.log(`   전체 상품: ${allProducts.length}개`);
-
-  // 키즈 필터 (Baby boy / Baby girl / Unisex baby)
-  const kidsProducts = allProducts.filter(p => {
+  const dcKids = dc.products.filter((p) => {
     const g = (p.genre || '').trim();
     return g.startsWith('Baby') || g === 'Unisex baby';
   });
-  console.log(`   키즈 상품: ${kidsProducts.length}개`);
+  console.log(`   👶 Dresscode 키즈 추출: ${dcKids.length}개`);
 
-  // 가격 변환 + 필드 정리
-  let shoesCount = 0;
-  const processed = kidsProducts.map(p => {
-    if (isShoes(p)) shoesCount++;
+  // ─── 2) Grifo 로드 (이미 전부 키즈) ────────────────────────────────────
+  const gf = loadLatest(syncDataDir, /^grifo_products_\d{4}-\d{2}-\d{2}\.json$/, 'products');
+  if (!gf.file) {
+    console.warn('⚠️  grifo_products_YYYY-MM-DD.json 없음 — Dresscode만 사용');
+  } else {
+    console.log(`📂 Grifo 소스: ${gf.file} (전체 ${gf.products.length}개)`);
+  }
 
-    // 상품 레벨 가격
-    const priceKrw = calculateKrwPrice(p.price, p);
-    const retailPriceKrw = calculateKrwRetailPrice(p.retailPrice);
-
-    // 사이즈별 가격
-    const sizes = (p.sizes || []).map(s => {
-      const { retailPrice: sizeRetailEur, price: sizePriceEur, ...rest } = s;
-      return {
-        ...rest,
-        price: calculateKrwPrice(sizePriceEur, p),
-        retailPrice: calculateKrwRetailPrice(sizeRetailEur),
-        currency: 'KRW',
-      };
-    });
-
-    // 상품 본체에서 pricesIncludeVat 만 제거 (retailPrice 는 KRW 로 재계산하여 유지)
-    const { retailPrice: _rpEur, pricesIncludeVat: _vat, price: _origPrice, ...rest } = p;
-    return {
-      ...rest,
-      price: priceKrw,
-      retailPrice: retailPriceKrw,
-      currency: 'KRW',
-      sizes,
-    };
+  const gfKids = (gf.products || []).filter((p) => {
+    // Grifo 전수 데이터가 이미 키즈지만 방어적으로 crawl_source 로 재확인
+    const cs = (p.crawl_source || '').toLowerCase();
+    return cs.includes('boy') || cs.includes('girl') || cs.includes('baby') || cs.includes('kid');
   });
+  console.log(`   👦 Grifo 키즈 추출: ${gfKids.length}개`);
 
-  const dataDate = latestFile.match(/\d{4}-\d{2}-\d{2}/)[0];
+  // ─── 3) 정규화 + 병합 ───────────────────────────────────────────────────
+  const processedDc = dcKids.map(normalizeDresscode);
+  const processedGf = gfKids.map(normalizeGrifo);
+  const merged = [...processedDc, ...processedGf];
+
+  // 통계
+  const shoesCount = merged.filter((p) =>
+    (p.type || '').toLowerCase() === 'shoes' ||
+    // Grifo는 source=grifo + isGrifoKidsShoe 판정 불가(이미 정규화됨)이지만 type 기준만 카운트
+    false
+  ).length;
+
+  // dataDate: 두 소스 중 최신 날짜
+  const dataDate = [dc.date, gf.date].filter(Boolean).sort().reverse()[0];
+
   const output = {
     dataDate,
-    total: processed.length,
+    total: merged.length,
+    sources: {
+      dresscode: { dataDate: dc.date, count: processedDc.length },
+      grifo: { dataDate: gf.date, count: processedGf.length },
+    },
     updatedAt: new Date().toISOString(),
     priceInfo: {
       currency: 'KRW',
-      exchangeRate: EXCHANGE_RATE,
-      markupRate: MARKUP_RATE,
-      markupPercent: `${Math.round((MARKUP_RATE - 1) * 100)}%`,
+      dresscode: {
+        exchangeRate: DRESSCODE_CONFIG.exchangeRate,
+        markupRate: DRESSCODE_CONFIG.markup,
+        markupPercent: `${Math.round((DRESSCODE_CONFIG.markup - 1) * 100)}%`,
+      },
+      grifo: {
+        exchangeRate: GRIFO_CONFIG.exchangeRate,
+        markupRate: GRIFO_CONFIG.kidsMarkup,
+        markupPercent: `${Math.round((GRIFO_CONFIG.kidsMarkup - 1) * 100)}%`,
+        nonSaleDiscount: GRIFO_CONFIG.nonSaleDiscount,
+      },
       surcharges: { shoes: SHOE_SURCHARGE },
       note:
-        'price 계산 순서: (1) krwRaw = EUR × 환율 → (2) krwRaw 금액으로 금액대요율(tier) 결정 → ' +
+        '공통 순서: (1) krwRaw = 원가USD/EUR × 환율 → (2) krwRaw 금액으로 금액대요율(tier) 결정 → ' +
         '(3) round100(krwRaw × 마진 × 원산지요율 × tier) → (4) 신발이면 +30,000원. ' +
-        'retailPrice = roundTo100(retailPriceEUR × 환율) — 브랜드 권장소비자가(MSRP)를 단순 환전한 값. ' +
-        'pricesIncludeVat 필드는 API 응답에서 제거됨.',
+        'Grifo는 비세일 상품의 경우 기준가(regular_price)에 0.85 를 곱한 값을 krwRaw 계산의 기준가로 사용. ' +
+        'retailPrice = round100(정가원가 × 환율) — 브랜드 권장소비자가를 단순 환전한 값. ' +
+        'source 필드 = "dresscode" 또는 "grifo".',
     },
-    products: processed,
+    products: merged,
   };
 
   fs.mkdirSync(path.dirname(outputFile), { recursive: true });
   fs.writeFileSync(outputFile, JSON.stringify(output));
 
   console.log(`\n✅ 출력: ${outputFile}`);
-  console.log(`   상품 ${processed.length}개 (신발 ${shoesCount}개)`);
-  console.log(`   💱 환율 ${EXCHANGE_RATE}원/EUR, 마진 ${((MARKUP_RATE - 1) * 100).toFixed(0)}%`);
+  console.log(`   총 ${merged.length}개 = Dresscode ${processedDc.length} + Grifo ${processedGf.length}`);
+  console.log(`   신발(type=Shoes): ${shoesCount}개`);
+  console.log(`   💱 Dresscode ${DRESSCODE_CONFIG.exchangeRate}원/EUR × ${DRESSCODE_CONFIG.markup} | Grifo ${GRIFO_CONFIG.exchangeRate}원/USD × ${GRIFO_CONFIG.kidsMarkup}`);
 }
 
 main();
