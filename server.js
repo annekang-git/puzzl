@@ -216,18 +216,21 @@ function getPublicBaseUrl(req) {
   return `${proto}://${host}`;
 }
 
-// 상품 응답에서 photos 배열을 프록시 URL로 교체
-function withProxiedPhotos(product, baseUrl) {
+// 상품 응답에서 photos 배열을 프록시 URL로 교체 (+ 내부 전용 필드 제거)
+function sanitizeForApi(product, baseUrl) {
   const skuEncoded = encodeURIComponent(product.sku);
   const photoCount = (product.photos || []).length;
   const proxied = Array.from({ length: photoCount }, (_, idx) =>
-    `${baseUrl}/api/dresscode/kids/image/${skuEncoded}/${idx}`
+    `${baseUrl}/api/puzzl/kids/image/${skuEncoded}/${idx}`
   );
-  return { ...product, photos: proxied };
+  // source, _internal 등 내부 필드는 응답에서 제외
+  const { source: _source, ...publicFields } = product;
+  return { ...publicFields, photos: proxied };
 }
 
-// 키즈 상품 이미지 프록시 (API 키 없이 접근 가능 - img 태그 호환)
-app.get('/api/dresscode/kids/image/:sku/:idx', async (req, res) => {
+// 키즈 상품 이미지 프록시 핸들러 (공통)
+// API 키 없이 접근 가능 - img 태그 호환
+async function kidsImageProxyHandler(req, res) {
   try {
     const { sku, idx } = req.params;
     const idxNum = parseInt(idx, 10);
@@ -267,7 +270,12 @@ app.get('/api/dresscode/kids/image/:sku/:idx', async (req, res) => {
     console.error(`❌ 이미지 프록시 실패 [${req.params.sku}/${req.params.idx}]: ${err.message}`);
     res.status(status === 404 ? 404 : 502).json({ error: 'Failed to fetch image' });
   }
-});
+}
+
+// 신규 경로 (응답에 노출되는 주 엔드포인트)
+app.get('/api/puzzl/kids/image/:sku/:idx', kidsImageProxyHandler);
+// 기존 경로 호환용 alias (이미 발급된 URL 을 위한 하위호환, 새 응답에는 사용 안 함)
+app.get('/api/dresscode/kids/image/:sku/:idx', kidsImageProxyHandler);
 
 // 키즈 상품 목록
 app.get('/api/dresscode/kids', requireDresscodeApiKey, (req, res) => {
@@ -292,7 +300,7 @@ app.get('/api/dresscode/kids', requireDresscodeApiKey, (req, res) => {
     }
 
     const baseUrl = getPublicBaseUrl(req);
-    const transformed = products.map(p => withProxiedPhotos(p, baseUrl));
+    const transformed = products.map(p => sanitizeForApi(p, baseUrl));
 
     res.json({
       total: transformed.length,
