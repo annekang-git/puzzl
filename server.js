@@ -348,7 +348,7 @@ app.get('/api/dresscode/kids/count', requireDresscodeApiKey, (req, res) => {
 
 // ============ Orders (뭉클 주문 webhook) ============
 
-const WEBHOOK_API_KEY = process.env.WEBHOOK_API_KEY || 'puzzl-munkle-orders-2026';
+const WEBHOOK_API_KEY = process.env.WEBHOOK_API_KEY || 'puzzl-mnkl-orders-2026';
 const ORDERS_SHEET_ID = process.env.ORDERS_SHEET_ID || '1aydD9Jxplk9bQhtYmvQ8bnHZ9InUGlmankb68yuKD5Y';
 const ORDERS_SHEET_TAB = 'Orders';
 const ORDERS_HEADER = ['order_id', 'sku', 'size', 'delta', 'timestamp', 'status', 'buyer_info'];
