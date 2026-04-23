@@ -3,12 +3,16 @@ const axios = require('axios');
 const open = require('open');
 const fs = require('fs');
 const path = require('path');
+const { google } = require('googleapis');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Render/Cloudflare 뒤에서 HTTPS가 정상적으로 인식되도록 신뢰
 app.set('trust proxy', true);
+
+// JSON body 파싱 (POST /api/orders 용)
+app.use(express.json({ limit: '1mb' }));
 
 // ============ 설정 ============
 const CONFIG = {
@@ -217,15 +221,25 @@ function getPublicBaseUrl(req) {
 }
 
 // 상품 응답에서 photos 배열을 프록시 URL로 교체 (+ 내부 전용 필드 제거)
-function sanitizeForApi(product, baseUrl) {
+// + 주문 차감량(deltasBySkuSize) 반영: sizes[].stock = max(0, stock + delta)
+function sanitizeForApi(product, baseUrl, deltasBySkuSize) {
   const skuEncoded = encodeURIComponent(product.sku);
   const photoCount = (product.photos || []).length;
   const proxied = Array.from({ length: photoCount }, (_, idx) =>
     `${baseUrl}/api/puzzl/kids/image/${skuEncoded}/${idx}`
   );
   // source, _internal 등 내부 필드는 응답에서 제외
-  const { source: _source, ...publicFields } = product;
-  return { ...publicFields, photos: proxied };
+  const { source: _source, sizes: rawSizes, ...publicFields } = product;
+
+  const sizes = (rawSizes || []).map((s) => {
+    const key = `${product.sku}|${s.size}`;
+    const delta = (deltasBySkuSize && deltasBySkuSize.get(key)) || 0;
+    const baseStock = Number(s.stock) || 0;
+    const effective = Math.max(0, baseStock + delta);
+    return { ...s, stock: effective };
+  });
+
+  return { ...publicFields, sizes, photos: proxied };
 }
 
 // 키즈 상품 이미지 프록시 핸들러 (공통)
@@ -278,7 +292,7 @@ app.get('/api/puzzl/kids/image/:sku/:idx', kidsImageProxyHandler);
 app.get('/api/dresscode/kids/image/:sku/:idx', kidsImageProxyHandler);
 
 // 키즈 상품 목록
-app.get('/api/dresscode/kids', requireDresscodeApiKey, (req, res) => {
+app.get('/api/dresscode/kids', requireDresscodeApiKey, async (req, res) => {
   try {
     const { data, dataDate } = loadKidsProducts();
     let products = data;
@@ -300,7 +314,17 @@ app.get('/api/dresscode/kids', requireDresscodeApiKey, (req, res) => {
     }
 
     const baseUrl = getPublicBaseUrl(req);
-    const transformed = products.map(p => sanitizeForApi(p, baseUrl));
+
+    // 주문 차감량 로드 (Sheets 실패해도 응답 진행)
+    let deltasBySkuSize = null;
+    try {
+      const orders = await loadOrders();
+      deltasBySkuSize = orders.deltasBySkuSize;
+    } catch (err) {
+      console.warn('⚠️ Orders 시트 로드 실패 (재고 차감 미반영):', err.message);
+    }
+
+    const transformed = products.map(p => sanitizeForApi(p, baseUrl, deltasBySkuSize));
 
     res.json({
       total: transformed.length,
@@ -319,6 +343,221 @@ app.get('/api/dresscode/kids/count', requireDresscodeApiKey, (req, res) => {
     res.json({ total: data.length, dataDate });
   } catch (err) {
     res.status(500).json({ error: err.message });
+  }
+});
+
+// ============ Orders (뭉클 주문 webhook) ============
+
+const WEBHOOK_API_KEY = process.env.WEBHOOK_API_KEY || 'puzzl-munkle-orders-2026';
+const ORDERS_SHEET_ID = process.env.ORDERS_SHEET_ID || '1aydD9Jxplk9bQhtYmvQ8bnHZ9InUGlmankb68yuKD5Y';
+const ORDERS_SHEET_TAB = 'Orders';
+const ORDERS_HEADER = ['order_id', 'sku', 'size', 'delta', 'timestamp', 'status', 'buyer_info'];
+
+// 서비스 계정 인증 (env var 또는 로컬 파일)
+let _sheetsClient = null;
+async function getSheetsClient() {
+  if (_sheetsClient) return _sheetsClient;
+
+  let credentials = null;
+  if (process.env.GOOGLE_SERVICE_ACCOUNT_JSON) {
+    try { credentials = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON); }
+    catch (e) { throw new Error('GOOGLE_SERVICE_ACCOUNT_JSON 파싱 실패: ' + e.message); }
+  } else {
+    // 로컬 dev fallback
+    const candidates = [
+      path.join(__dirname, 'service-account.json'),
+      path.join(__dirname, 'grifo-crawler', 'sync', 'sheet-sync', 'service-account.json'),
+    ];
+    for (const p of candidates) {
+      if (fs.existsSync(p)) { credentials = JSON.parse(fs.readFileSync(p, 'utf-8')); break; }
+    }
+  }
+
+  if (!credentials) {
+    throw new Error('Google 서비스 계정 자격이 없습니다. GOOGLE_SERVICE_ACCOUNT_JSON 환경변수를 설정하세요.');
+  }
+
+  const auth = new google.auth.GoogleAuth({
+    credentials,
+    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+  });
+  _sheetsClient = google.sheets({ version: 'v4', auth });
+  return _sheetsClient;
+}
+
+// 주문 차감량 캐시 (5분 TTL)
+let _ordersCache = { rows: null, deltasBySkuSize: null, loadedAt: 0 };
+const ORDERS_CACHE_TTL = 5 * 60 * 1000;
+
+async function loadOrders(force = false) {
+  const now = Date.now();
+  if (!force && _ordersCache.rows && (now - _ordersCache.loadedAt) < ORDERS_CACHE_TTL) {
+    return _ordersCache;
+  }
+
+  const sheets = await getSheetsClient();
+  const resp = await sheets.spreadsheets.values.get({
+    spreadsheetId: ORDERS_SHEET_ID,
+    range: `${ORDERS_SHEET_TAB}!A:G`,
+  });
+  const rows = resp.data.values || [];
+  if (rows.length === 0) {
+    _ordersCache = { rows: [], deltasBySkuSize: new Map(), orderIds: new Set(), loadedAt: now };
+    return _ordersCache;
+  }
+  const header = rows[0].map((c) => (c || '').trim().toLowerCase());
+  const idx = {
+    order_id: header.indexOf('order_id'),
+    sku: header.indexOf('sku'),
+    size: header.indexOf('size'),
+    delta: header.indexOf('delta'),
+    status: header.indexOf('status'),
+  };
+
+  const deltasBySkuSize = new Map();
+  const orderIds = new Set();
+  const dataRows = rows.slice(1);
+
+  for (const r of dataRows) {
+    const orderId = String(r[idx.order_id] || '').trim();
+    const sku = String(r[idx.sku] || '').trim();
+    const size = String(r[idx.size] || '').trim();
+    const delta = parseInt(r[idx.delta], 10) || 0;
+    const status = String(r[idx.status] || '').trim().toLowerCase();
+
+    if (orderId) orderIds.add(orderId);
+    if (status === 'void' || status === 'deleted') continue; // 무효 주문 제외
+
+    const key = `${sku}|${size}`;
+    deltasBySkuSize.set(key, (deltasBySkuSize.get(key) || 0) + delta);
+  }
+
+  _ordersCache = { rows: dataRows, deltasBySkuSize, orderIds, loadedAt: now };
+  return _ordersCache;
+}
+
+function invalidateOrdersCache() {
+  _ordersCache.loadedAt = 0;
+}
+
+async function appendOrderRow(row) {
+  const sheets = await getSheetsClient();
+  await sheets.spreadsheets.values.append({
+    spreadsheetId: ORDERS_SHEET_ID,
+    range: `${ORDERS_SHEET_TAB}!A:G`,
+    valueInputOption: 'USER_ENTERED',
+    requestBody: { values: [row] },
+  });
+}
+
+// Webhook 키 인증
+function requireWebhookKey(req, res, next) {
+  const key = req.headers['x-webhook-key'];
+  if (!key || key !== WEBHOOK_API_KEY) {
+    return res.status(401).json({ ok: false, error: 'Invalid or missing webhook key. Set x-webhook-key header.' });
+  }
+  next();
+}
+
+function nowKstIso() {
+  const d = new Date();
+  const kst = new Date(d.getTime() + 9 * 60 * 60 * 1000);
+  return kst.toISOString().replace('Z', '+09:00');
+}
+
+// POST /api/orders — 주문(판매/취소) 웹훅
+app.post('/api/orders', requireWebhookKey, async (req, res) => {
+  try {
+    const { order_id, sku, size, action, buyer_info } = req.body || {};
+
+    // 1) 필수 필드 검증
+    if (!order_id || !sku || !size || !action) {
+      return res.status(400).json({
+        ok: false,
+        error: 'Missing required fields. Required: order_id, sku, size, action.',
+      });
+    }
+    if (!['sold', 'canceled'].includes(action)) {
+      return res.status(400).json({
+        ok: false,
+        error: "Invalid 'action'. Must be 'sold' or 'canceled'.",
+      });
+    }
+
+    // 2) SKU + size 존재 여부 확인
+    const { data: products } = loadKidsProducts();
+    const product = products.find((p) => p.sku === sku);
+    if (!product) {
+      return res.status(404).json({ ok: false, error: `SKU not found: ${sku}` });
+    }
+    const sizeEntry = (product.sizes || []).find((s) => String(s.size) === String(size));
+    if (!sizeEntry) {
+      return res.status(404).json({ ok: false, error: `Size not found for SKU ${sku}: ${size}` });
+    }
+
+    // 3) 멱등성 (idempotency): 기존 order_id 중복 체크
+    const orders = await loadOrders(true);
+    if (orders.orderIds.has(String(order_id))) {
+      return res.status(409).json({
+        ok: false,
+        error: 'Duplicate order_id. Order already recorded.',
+        order_id,
+      });
+    }
+
+    // 4) 재고 확인 (판매인 경우만)
+    const crawlStock = Number(sizeEntry.stock) || 0;
+    const existingDelta = orders.deltasBySkuSize.get(`${sku}|${size}`) || 0;
+    const beforeStock = Math.max(0, crawlStock + existingDelta);
+
+    if (action === 'sold' && beforeStock <= 0) {
+      return res.status(422).json({
+        ok: false,
+        error: 'Insufficient stock',
+        sku,
+        size,
+        remaining_stock: beforeStock,
+      });
+    }
+
+    // 5) 시트에 append
+    const delta = action === 'sold' ? -1 : +1;
+    const status = 'active';
+    const ts = nowKstIso();
+    const buyerJson = buyer_info ? JSON.stringify(buyer_info) : '';
+    await appendOrderRow([String(order_id), sku, String(size), delta, ts, status, buyerJson]);
+    invalidateOrdersCache();
+
+    const afterStock = Math.max(0, beforeStock + delta);
+    return res.json({
+      ok: true,
+      order_id,
+      sku,
+      size,
+      action,
+      delta,
+      crawl_stock: crawlStock,
+      remaining_stock: afterStock,
+      timestamp: ts,
+    });
+  } catch (err) {
+    console.error('❌ /api/orders 실패:', err.message);
+    return res.status(500).json({ ok: false, error: err.message });
+  }
+});
+
+// GET /api/orders/:orderId — 단일 주문 조회 (감사용)
+app.get('/api/orders/:orderId', requireWebhookKey, async (req, res) => {
+  try {
+    const orders = await loadOrders(true);
+    const target = String(req.params.orderId).trim();
+    const header = ORDERS_HEADER;
+    const match = orders.rows.find((r) => String(r[0] || '').trim() === target);
+    if (!match) return res.status(404).json({ ok: false, error: 'Order not found' });
+    const obj = Object.fromEntries(header.map((h, i) => [h, match[i] ?? null]));
+    res.json({ ok: true, order: obj });
+  } catch (err) {
+    res.status(500).json({ ok: false, error: err.message });
   }
 });
 

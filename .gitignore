@@ -18,6 +18,10 @@ npm-debug.log*
 .env.local
 .env.production
 
+# Google service account (Render 에서는 GOOGLE_SERVICE_ACCOUNT_JSON env var 로 주입)
+service-account.json
+puzzlwhitelisted-*.json
+
 # OS files
 .DS_Store
 Thumbs.db
