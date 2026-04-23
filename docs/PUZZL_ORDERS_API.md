@@ -111,7 +111,8 @@ curl -X POST https://puzzl-kids-api.onrender.com/api/orders \
   "action": "sold",
   "delta": -1,
   "crawl_stock": 2,
-  "remaining_stock": 1
+  "remaining_stock": 1,
+  "timestamp": "2026-04-23T12:34:56.000+09:00"
 }
 ```
 
@@ -122,6 +123,7 @@ curl -X POST https://puzzl-kids-api.onrender.com/api/orders \
 | `delta` | 재고 변동량 (`sold`=-1, `canceled`=+1) |
 | `crawl_stock` | PUZZL이 마지막 크롤링 시점에 확인한 재고 |
 | `remaining_stock` | 본 주문 반영 후 남은 재고 (= `crawl_stock + 누적 delta`, 0 이하 방지) |
+| `timestamp` | 서버 기록 시각 (KST) |
 
 #### 실패 응답 코드
 

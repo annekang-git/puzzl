@@ -538,6 +538,7 @@ app.post('/api/orders', requireWebhookKey, async (req, res) => {
       delta,
       crawl_stock: crawlStock,
       remaining_stock: afterStock,
+      timestamp: ts,
     });
   } catch (err) {
     console.error('❌ /api/orders 실패:', err.message);
