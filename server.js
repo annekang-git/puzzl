@@ -351,7 +351,21 @@ app.get('/api/dresscode/kids/count', requireDresscodeApiKey, (req, res) => {
 const WEBHOOK_API_KEY = process.env.WEBHOOK_API_KEY || 'puzzl-mnkl-orders-2026';
 const ORDERS_SHEET_ID = process.env.ORDERS_SHEET_ID || '1aydD9Jxplk9bQhtYmvQ8bnHZ9InUGlmankb68yuKD5Y';
 const ORDERS_SHEET_TAB = 'Orders';
-const ORDERS_HEADER = ['order_id', 'sku', 'size', 'delta', 'timestamp', 'status', 'buyer_info'];
+const ORDERS_HEADER = [
+  'order_id',
+  'sku',
+  'size',
+  'delta',
+  'timestamp',
+  'status',
+  'buyer_info',
+  // ▼ 발주/배송 상태 (수동 또는 별도 프로세스로 채움)
+  'order_status',      // pending / confirmed / shipping / completed / canceled
+  'confirmed_at',      // ISO8601 KST — 해외 공급사 발주확인 완료 시각
+  'tracking_carrier',  // 운송사 (DHL / FedEx / UPS …)
+  'tracking_number',   // 운송장 번호
+];
+const ORDERS_RANGE = 'A:K';
 
 // 서비스 계정 인증 (env var 또는 로컬 파일)
 let _sheetsClient = null;
@@ -398,7 +412,7 @@ async function loadOrders(force = false) {
   const sheets = await getSheetsClient();
   const resp = await sheets.spreadsheets.values.get({
     spreadsheetId: ORDERS_SHEET_ID,
-    range: `${ORDERS_SHEET_TAB}!A:G`,
+    range: `${ORDERS_SHEET_TAB}!${ORDERS_RANGE}`,
   });
   const rows = resp.data.values || [];
   if (rows.length === 0) {
@@ -444,7 +458,7 @@ async function appendOrderRow(row) {
   const sheets = await getSheetsClient();
   await sheets.spreadsheets.values.append({
     spreadsheetId: ORDERS_SHEET_ID,
-    range: `${ORDERS_SHEET_TAB}!A:G`,
+    range: `${ORDERS_SHEET_TAB}!${ORDERS_RANGE}`,
     valueInputOption: 'USER_ENTERED',
     requestBody: { values: [row] },
   });
@@ -546,16 +560,41 @@ app.post('/api/orders', requireWebhookKey, async (req, res) => {
   }
 });
 
-// GET /api/orders/:orderId — 단일 주문 조회 (감사용)
+// 시트 row → 정규화된 주문 객체 (order_status 자동 계산 포함)
+function rowToOrder(row) {
+  const obj = Object.fromEntries(ORDERS_HEADER.map((h, i) => [h, row[i] ?? null]));
+
+  // 빈 문자열 → null 정규화 (뭉클 클라이언트가 분기 쉽게)
+  for (const k of ['confirmed_at', 'tracking_carrier', 'tracking_number', 'order_status']) {
+    if (obj[k] === '' || obj[k] == null) obj[k] = null;
+  }
+
+  // order_status 자동 도출 규칙
+  //   1) 'status' 컬럼이 void/deleted → canceled
+  //   2) order_status 셀이 명시적으로 채워져 있으면 그 값 사용
+  //   3) tracking_number 가 있으면 → shipping
+  //   4) confirmed_at 이 있으면 → confirmed
+  //   5) 기본 → pending
+  const internalStatus = String(obj.status || '').trim().toLowerCase();
+  if (internalStatus === 'void' || internalStatus === 'deleted') {
+    obj.order_status = 'canceled';
+  } else if (!obj.order_status) {
+    if (obj.tracking_number) obj.order_status = 'shipping';
+    else if (obj.confirmed_at) obj.order_status = 'confirmed';
+    else obj.order_status = 'pending';
+  }
+
+  return obj;
+}
+
+// GET /api/orders/:orderId — 단일 주문 조회 (발주/배송 상태 포함)
 app.get('/api/orders/:orderId', requireWebhookKey, async (req, res) => {
   try {
     const orders = await loadOrders(true);
     const target = String(req.params.orderId).trim();
-    const header = ORDERS_HEADER;
     const match = orders.rows.find((r) => String(r[0] || '').trim() === target);
     if (!match) return res.status(404).json({ ok: false, error: 'Order not found' });
-    const obj = Object.fromEntries(header.map((h, i) => [h, match[i] ?? null]));
-    res.json({ ok: true, order: obj });
+    res.json({ ok: true, order: rowToOrder(match) });
   } catch (err) {
     res.status(500).json({ ok: false, error: err.message });
   }
