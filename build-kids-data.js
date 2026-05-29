@@ -296,6 +296,122 @@ function normalizeGrifo(p) {
 }
 
 // ========================================================================
+// b2bfashion 가격 정책 (dresscode 와 동일 공급사 Julian Fashion — EUR, 마진 25%, retail VAT 22%)
+//   판매가 = round100(finalEUR × 환율 × 마진 × 원산지요율 × 금액대tier) (+신발 30,000)
+//   정가   = round100(retailEUR × VAT(1.22) × 환율)
+//   재고   = 무조건 1 (b2b 원본에 재고 정보 없음)
+// ========================================================================
+const B2B_CONFIG = {
+  exchangeRate: 1743, // EUR -> KRW
+  markup: 1.25,       // 25% 마진 (dresscode 와 동일)
+  vatRate: 1.22,      // EU VAT 22% (정가 환산용)
+};
+
+function isB2bShoes(product) {
+  return (product.type || '').toLowerCase() === 'shoes';
+}
+
+function calculateB2bKrwPrice(priceEur, product) {
+  if (!priceEur || priceEur <= 0) return 0;
+  const countryRate = getCountryRate(product.madeIn);
+  const krwRaw = priceEur * B2B_CONFIG.exchangeRate;
+  const tierRate = getPriceTierRate(krwRaw);
+  let salePrice = roundTo100(krwRaw * B2B_CONFIG.markup * countryRate * tierRate);
+  if (isB2bShoes(product)) salePrice += SHOE_SURCHARGE;
+  return salePrice;
+}
+
+function calculateB2bKrwRetailPrice(retailPriceEur) {
+  if (!retailPriceEur || retailPriceEur <= 0) return 0;
+  return roundTo100(retailPriceEur * B2B_CONFIG.vatRate * B2B_CONFIG.exchangeRate);
+}
+
+// b2b gender → 공통 genre (재크롤링 데이터는 이미 "Baby girl" 형식이나 방어적 정규화)
+function normalizeB2bGenre(gender) {
+  const g = (gender || '').trim().toLowerCase();
+  if (g === 'baby girl' || g === 'girl') return 'Baby girl';
+  if (g === 'baby boy' || g === 'boy') return 'Baby boy';
+  if (g === 'unisex baby') return 'Unisex baby';
+  return 'Unisex baby';
+}
+
+function titleCaseWords(s) {
+  return (s || '').toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function normalizeB2b(p) {
+  const priceKrw = calculateB2bKrwPrice(p.finalPriceEUR, p);
+  let retailKrw = calculateB2bKrwRetailPrice(p.retailPriceEUR);
+  if (priceKrw > retailKrw && priceKrw > 0) {
+    retailKrw = roundTo100(priceKrw * 1.1);
+  }
+
+  // 사이즈: sizeVariants(사이즈별 동일가) 우선, 없으면 sizes 문자열 배열. 재고 무조건 1.
+  const sizeList = Array.isArray(p.sizeVariants) && p.sizeVariants.length
+    ? p.sizeVariants.map((v) => v.size)
+    : (Array.isArray(p.sizes) ? p.sizes : []);
+  const sizes = sizeList.map((sz) => ({
+    size: String(sz),
+    stock: 1,             // ← b2b 무재고 → 1 고정
+    gtin: null,
+    price: priceKrw,
+    retailPrice: retailKrw,
+    currency: 'KRW',
+  }));
+
+  return {
+    source: 'b2bfashion',
+    productID: p.idProduct ? String(p.idProduct) : (p.spu || ''),
+    clientProductID: p.idProductAttribute ? String(p.idProductAttribute) : '',
+    spu: p.spu || '',
+    sku: p.short_reference || p.spu || '',   // 색상 포함 변형 키 (dresscode sku=spu+color 와 동일)
+    brand: p.brand ? `${titleCaseWords(p.brand)} Kids` : '',
+    name: p.name || '',
+    description: p.detailDescription || p.description || '',
+    genre: normalizeB2bGenre(p.gender),
+    type: titleCaseWords(p.type),            // CLOTHING → Clothing
+    category: '',                            // b2b 세부 category 없음
+    season: p.season || '',
+    isCarryOver: false,
+    color: titleCaseWords(p.color),
+    composition: p.composition || '',
+    madeIn: titleCaseWords(p.madeIn),
+    sizeAndFit: p.sizeAndFit || '',
+    productLastUpdated: null,
+    sizeType: null,
+    weight: null,
+    price: priceKrw,
+    retailPrice: retailKrw,
+    currency: 'KRW',
+    sizes,
+    photos: (p.images && p.images.length) ? p.images : [],
+  };
+}
+
+// b2bfashion 키즈 4개 카테고리 파일 로드 + short_reference 기준 dedup
+//   - 색상별(short_reference 다름)은 보존, 카테고리 간 동일상품 중복은 제거
+function loadB2bKids(dir) {
+  const cats = ['baby-girl', 'baby-boy', 'boy', 'girl'];
+  const all = [];
+  let latestMs = 0;
+  for (const c of cats) {
+    const f = path.join(dir, `b2bfashion_kids_${c}.json`);
+    if (!fs.existsSync(f)) continue;
+    const st = fs.statSync(f);
+    if (st.mtimeMs > latestMs) latestMs = st.mtimeMs;
+    JSON.parse(fs.readFileSync(f, 'utf-8')).forEach((p) => all.push(p));
+  }
+  const byKey = new Map();
+  for (const p of all) {
+    const key = String(p.short_reference || p.spu || '').trim().toUpperCase();
+    if (!key) continue;
+    if (!byKey.has(key)) byKey.set(key, p);
+  }
+  const date = latestMs ? new Date(latestMs).toISOString().split('T')[0] : null;
+  return { raw: all.length, products: [...byKey.values()], date };
+}
+
+// ========================================================================
 // 메인
 // ========================================================================
 function loadLatest(dir, regex, keyExtractor = 'products') {
@@ -341,56 +457,114 @@ function main() {
   });
   console.log(`   👦 Grifo 키즈 추출: ${gfKids.length}개`);
 
+  // ─── 2-b) b2bfashion 키즈 로드 (short_reference 기준 dedup) ──────────────
+  const b2bDir = path.join(__dirname, 'grifo-crawler');
+  const b2b = loadB2bKids(b2bDir);
+  console.log(`📂 b2bfashion 키즈: raw ${b2b.raw} → 고유(short_reference) ${b2b.products.length}개${b2b.date ? ` (${b2b.date})` : ''}`);
+
   // ─── 3) 정규화 ─────────────────────────────────────────────────────────
   const processedDc = dcKids.map(normalizeDresscode);
+  const processedB2bAll = b2b.products.map(normalizeB2b);
   const processedGfAll = gfKids.map(normalizeGrifo);
 
-  // ─── 3-1) 중복 제거: Dresscode 우선 ──────────────────────────────────
-  // Dresscode 에 존재하는 SKU / SPU 는 모두 "예약" 처리하고
-  // 동일 Reference(short_reference / full_reference) 를 가진 Grifo 항목을 제외
+  // ─── 3-1) 중복 제거: Dresscode > b2bfashion > Grifo ──────────────────
+  const normKey = (s) => String(s || '').trim().toUpperCase();
+
+  // 예외 가격 정책: 아래 SKU 들은 b2b/grifo 둘 다 있을 때 "더 비싼" grifo 가격으로 올린다.
+  //   동작: 해당 SKU 의 b2b 항목을 (grifo 에 존재할 때만) 버려서 grifo 항목이 살아남게 함.
+  //   ※ grifo 에 없으면 안전하게 b2b 유지 (상품 누락 방지)
+  const PRICE_EXCEPTION_GRIFO_SKUS = new Set([
+    'L19518C0001289BCPF05', // Moncler Striped t-shirt — grifo($134) 가 b2b(€71) 보다 비쌈
+  ].map((s) => s.toUpperCase()));
+
+  // grifo 보유 키 셋 (예외 SKU 가 grifo 에 실제 존재하는지 확인용)
+  const grifoKeys = new Set();
+  processedGfAll.forEach((g) => {
+    if (g.sku) grifoKeys.add(normKey(g.sku));
+    if (g.spu) grifoKeys.add(normKey(g.spu));
+  });
+  const isExceptionWithGrifo = (p) => {
+    const sku = normKey(p.sku), spu = normKey(p.spu);
+    const isException = PRICE_EXCEPTION_GRIFO_SKUS.has(sku) || PRICE_EXCEPTION_GRIFO_SKUS.has(spu);
+    const grifoHas = grifoKeys.has(sku) || grifoKeys.has(spu);
+    return isException && grifoHas;
+  };
+
+  // (a) Dresscode 예약 키 (현재 dresscode 키즈는 API 장애로 0건일 수 있음)
   const dcReservedKeys = new Set();
   processedDc.forEach((p) => {
-    if (p.sku) dcReservedKeys.add(String(p.sku).trim().toUpperCase());
-    if (p.spu) dcReservedKeys.add(String(p.spu).trim().toUpperCase());
+    if (p.sku) dcReservedKeys.add(normKey(p.sku));
+    if (p.spu) dcReservedKeys.add(normKey(p.spu));
+  });
+
+  // (b) b2b: Dresscode 와 겹치면 제외 (Dresscode 우선) + 예외 SKU 는 grifo 우선이라 제외
+  const processedB2b = [];
+  const b2bDroppedByDc = [];
+  const b2bDroppedByException = [];
+  processedB2bAll.forEach((b) => {
+    if (isExceptionWithGrifo(b)) {
+      b2bDroppedByException.push({ sku: b.sku, brand: b.brand, name: b.name });
+      return; // grifo 가격으로 올리기 위해 b2b 버림 (reservedKeys 에도 안 들어감)
+    }
+    if ((b.sku && dcReservedKeys.has(normKey(b.sku))) || (b.spu && dcReservedKeys.has(normKey(b.spu)))) {
+      b2bDroppedByDc.push({ sku: b.sku, brand: b.brand, name: b.name });
+      return;
+    }
+    processedB2b.push(b);
+  });
+
+  // (c) Dresscode + b2b 예약 키 → Grifo 제외 (b2b 우선)
+  const reservedKeys = new Set(dcReservedKeys);
+  processedB2b.forEach((p) => {
+    if (p.sku) reservedKeys.add(normKey(p.sku));
+    if (p.spu) reservedKeys.add(normKey(p.spu));
   });
 
   const processedGf = [];
   const dedupDropped = [];
   processedGfAll.forEach((g) => {
-    const gSku = String(g.sku || '').trim().toUpperCase();
-    const gSpu = String(g.spu || '').trim().toUpperCase();
-    if ((gSku && dcReservedKeys.has(gSku)) || (gSpu && dcReservedKeys.has(gSpu))) {
+    const gSku = normKey(g.sku);
+    const gSpu = normKey(g.spu);
+    if ((gSku && reservedKeys.has(gSku)) || (gSpu && reservedKeys.has(gSpu))) {
       dedupDropped.push({ sku: g.sku, brand: g.brand, name: g.name });
       return;
     }
     processedGf.push(g);
   });
 
+  if (b2bDroppedByException.length > 0) {
+    console.log(`   💰 예외 가격정책(grifo 우선)으로 b2b 제외: ${b2bDroppedByException.length}개 → [${b2bDroppedByException.map((x) => x.sku).join(', ')}]`);
+  }
+  if (b2bDroppedByDc.length > 0) {
+    console.log(`   🔁 Dresscode 중복으로 b2b 제외: ${b2bDroppedByDc.length}개`);
+  }
   if (dedupDropped.length > 0) {
-    console.log(`   🔁 Dresscode 중복으로 Grifo 제외: ${dedupDropped.length}개`);
+    console.log(`   🔁 Dresscode/b2b 중복으로 Grifo 제외: ${dedupDropped.length}개`);
   }
 
-  const merged = [...processedDc, ...processedGf];
+  const merged = [...processedDc, ...processedB2b, ...processedGf];
 
   // 통계
-  const shoesCount = merged.filter((p) =>
-    (p.type || '').toLowerCase() === 'shoes' ||
-    // Grifo는 source=grifo + isGrifoKidsShoe 판정 불가(이미 정규화됨)이지만 type 기준만 카운트
-    false
-  ).length;
+  const shoesCount = merged.filter((p) => (p.type || '').toLowerCase() === 'shoes').length;
 
-  // dataDate: 두 소스 중 최신 날짜
-  const dataDate = [dc.date, gf.date].filter(Boolean).sort().reverse()[0];
+  // dataDate: 세 소스 중 최신 날짜
+  const dataDate = [dc.date, gf.date, b2b.date].filter(Boolean).sort().reverse()[0];
 
   const output = {
     dataDate,
     total: merged.length,
     sources: {
       dresscode: { dataDate: dc.date, count: processedDc.length },
+      b2bfashion: {
+        dataDate: b2b.date,
+        count: processedB2b.length,
+        raw: b2b.raw,
+        droppedByDresscode: b2bDroppedByDc.length,
+      },
       grifo: {
         dataDate: gf.date,
         count: processedGf.length,
-        dedupDroppedByDresscode: dedupDropped.length,
+        dedupDroppedByDresscodeOrB2b: dedupDropped.length,
       },
     },
     updatedAt: new Date().toISOString(),
@@ -401,6 +575,13 @@ function main() {
         markupRate: DRESSCODE_CONFIG.markup,
         markupPercent: `${Math.round((DRESSCODE_CONFIG.markup - 1) * 100)}%`,
         retailVatRate: DRESSCODE_CONFIG.vatRate,
+      },
+      b2bfashion: {
+        exchangeRate: B2B_CONFIG.exchangeRate,
+        markupRate: B2B_CONFIG.markup,
+        markupPercent: `${Math.round((B2B_CONFIG.markup - 1) * 100)}%`,
+        retailVatRate: B2B_CONFIG.vatRate,
+        stockPolicy: 'fixed 1 (재고정보 없음)',
       },
       grifo: {
         exchangeRate: GRIFO_CONFIG.exchangeRate,
@@ -413,9 +594,11 @@ function main() {
         '공통 순서: (1) krwRaw = 원가USD/EUR × 환율 → (2) krwRaw 금액으로 금액대요율(tier) 결정 → ' +
         '(3) round100(krwRaw × 마진 × 원산지요율 × tier) → (4) 신발이면 +30,000원. ' +
         'Grifo는 비세일 상품의 경우 기준가(regular_price)에 0.85 를 곱한 값을 krwRaw 계산의 기준가로 사용. ' +
-        'retailPrice(정가): Dresscode 는 원본 retailPrice(VAT 제외)에 EU VAT 22% 를 더한 뒤 환율 적용. ' +
+        'retailPrice(정가): Dresscode/b2bfashion 는 원본 retailPrice(VAT 제외)에 EU VAT 22% 를 더한 뒤 환율 적용. ' +
         'Grifo 는 원본 regular_price(USD, 이미 VAT 포함)에 환율만 적용. ' +
-        'source 필드 = "dresscode" 또는 "grifo".',
+        'b2bfashion 은 dresscode 와 동일 공급사(Julian Fashion)이며 재고는 1 고정. ' +
+        '중복 우선순위: Dresscode > b2bfashion > Grifo. ' +
+        'source 필드 = "dresscode" / "b2bfashion" / "grifo".',
     },
     products: merged,
   };
@@ -424,9 +607,9 @@ function main() {
   fs.writeFileSync(outputFile, JSON.stringify(output));
 
   console.log(`\n✅ 출력: ${outputFile}`);
-  console.log(`   총 ${merged.length}개 = Dresscode ${processedDc.length} + Grifo ${processedGf.length}`);
+  console.log(`   총 ${merged.length}개 = Dresscode ${processedDc.length} + b2bfashion ${processedB2b.length} + Grifo ${processedGf.length}`);
   console.log(`   신발(type=Shoes): ${shoesCount}개`);
-  console.log(`   💱 Dresscode ${DRESSCODE_CONFIG.exchangeRate}원/EUR × ${DRESSCODE_CONFIG.markup} | Grifo ${GRIFO_CONFIG.exchangeRate}원/USD × ${GRIFO_CONFIG.kidsMarkup}`);
+  console.log(`   💱 Dresscode ${DRESSCODE_CONFIG.exchangeRate}원/EUR × ${DRESSCODE_CONFIG.markup} | b2b ${B2B_CONFIG.exchangeRate}원/EUR × ${B2B_CONFIG.markup} | Grifo ${GRIFO_CONFIG.exchangeRate}원/USD × ${GRIFO_CONFIG.kidsMarkup}`);
 }
 
 main();
