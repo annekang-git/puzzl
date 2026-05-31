@@ -14,3 +14,22 @@ services:
         value: 20
     healthCheckPath: /
     autoDeploy: true
+
+  # KREAM 시세 비교 UI — kream/results/kream_market_*.json 을 읽어 화면에 마진율 비교 표시.
+  # 데이터 갱신 흐름: 로컬에서 fetch-product-market.js 실행 → results/*.json git commit & push → Render 자동 재배포.
+  - type: web
+    name: puzzl-kream-ui
+    runtime: node
+    plan: free
+    region: singapore
+    rootDir: kream
+    buildCommand: npm install --omit=dev
+    startCommand: node kream-ui-server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      # Render 에서는 UI 서버만 돌리고 Playwright 브라우저는 불필요 (devDependency 로 격리하지만 안전망)
+      - key: PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD
+        value: "1"
+    healthCheckPath: /
+    autoDeploy: true

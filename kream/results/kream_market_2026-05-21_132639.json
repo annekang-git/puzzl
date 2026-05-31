@@ -1,0 +1,96 @@
+{
+  "fetched_at": "2026-05-21T04:26:39.138Z",
+  "input_file": "targets-test.json",
+  "total_targets": 3,
+  "matched": 0,
+  "failed": 3,
+  "results": [
+    {
+      "sku": "1100601A0801A08",
+      "option": "S",
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1100601A0801A08\"",
+      "candidates": [
+        {
+          "product_id": 819007,
+          "text": "Moncler\n\n몽클레르 로고 패치 스윔 쇼츠 블랙 - 26SS\n\n37%\n\n377,000원\n\n관심 7\n\n · 거래 1"
+        },
+        {
+          "product_id": 834029,
+          "text": "Moncler\n\n몽클레르 베르 쇼트 다운 자켓 블랙 - 26SS\n\n22%\n\n1,893,000원\n\n관심 3"
+        },
+        {
+          "product_id": 365555,
+          "text": "Moncler\n\n몽클레르 몽제네브르 쇼트 다운 자켓 블랙 - 24FW\n\n36%\n\n2,348,000원\n\n관심 95\n\n · 리뷰 5\n\n · 거래 12"
+        },
+        {
+          "product_id": 584986,
+          "text": "Moncler\n\n몽클레르 클라피에 레인 자켓 블랙 - 24SS\n\n789,000원\n\n관심 8"
+        },
+        {
+          "product_id": 834106,
+          "text": "Moncler\n\n몽클레르 햄모어 3-In-1 자켓 블랙 - 26SS\n\n36%\n\n1,609,000원\n\n관심 5"
+        }
+      ]
+    },
+    {
+      "sku": "120749600096000",
+      "option": "L",
+      "eur_price": 122.95,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"120749600096000\"",
+      "candidates": [
+        {
+          "product_id": 38204,
+          "text": "Asics\n\n아식스 x 키코 코스타디노브 젤 퀀텀 레비트렉 파이어드 브릭\n\n900,000원\n\n관심 877\n\n · 리뷰 12\n\n · 거래 57"
+        },
+        {
+          "product_id": 27774,
+          "text": "Asics\n\n아식스 x 키코 코스타디노브 젤 델바 1 무라사키\n\n500,000원\n\n관심 1,251\n\n · 리뷰 15\n\n · 거래 84"
+        },
+        {
+          "product_id": 195941,
+          "text": "Asics\n\n아식스 x 키코 코스타디노브 노발리스 오르모시안시 셔츠 옵시디언 블랙\n\n11%\n\n300,000원\n\n관심 15\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 195940,
+          "text": "Asics\n\n아식스 x 키코 코스타디노브 노발리스 헤비언노이드 파카 옵시디언 블랙\n\n1,000,000원\n\n관심 22"
+        },
+        {
+          "product_id": 53943,
+          "text": "Asics\n\n(W) 아식스 x 키코 코스타디노브 젤 글라이드라이트 3 레드 버드\n\n26%\n\n168,000원\n\n관심 19"
+        }
+      ]
+    },
+    {
+      "sku": "120749600096000",
+      "option": "S",
+      "eur_price": 122.95,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"120749600096000\"",
+      "candidates": [
+        {
+          "product_id": 38204,
+          "text": "Asics\n\n아식스 x 키코 코스타디노브 젤 퀀텀 레비트렉 파이어드 브릭\n\n900,000원\n\n관심 877\n\n · 리뷰 12\n\n · 거래 57"
+        },
+        {
+          "product_id": 27774,
+          "text": "Asics\n\n아식스 x 키코 코스타디노브 젤 델바 1 무라사키\n\n500,000원\n\n관심 1,251\n\n · 리뷰 15\n\n · 거래 84"
+        },
+        {
+          "product_id": 195941,
+          "text": "Asics\n\n아식스 x 키코 코스타디노브 노발리스 오르모시안시 셔츠 옵시디언 블랙\n\n11%\n\n300,000원\n\n관심 15\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 195940,
+          "text": "Asics\n\n아식스 x 키코 코스타디노브 노발리스 헤비언노이드 파카 옵시디언 블랙\n\n1,000,000원\n\n관심 22"
+        },
+        {
+          "product_id": 53943,
+          "text": "Asics\n\n(W) 아식스 x 키코 코스타디노브 젤 글라이드라이트 3 레드 버드\n\n26%\n\n168,000원\n\n관심 19"
+        }
+      ]
+    }
+  ]
+}

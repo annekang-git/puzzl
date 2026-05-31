@@ -1,0 +1,204 @@
+{
+  "fetched_at": "2026-05-17T11:20:57.733Z",
+  "input_file": "targets.json",
+  "total_targets": 2,
+  "matched": 1,
+  "failed": 1,
+  "results": [
+    {
+      "sku": "SSX03L101N",
+      "option": "40mm",
+      "eur_price": 1200,
+      "matched": true,
+      "product_id": 916477,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/916477",
+      "market": {
+        "last_sale_price": 1800000,
+        "lowest_ask": 1900000,
+        "highest_bid": 1620000,
+        "change_text": "▲ 200,000원(+12.5%)"
+      },
+      "sales": [
+        {
+          "price": 1800000,
+          "option": "40mm",
+          "date_created": "2026-05-16T14:21:33Z",
+          "date_text": "20시간 전",
+          "is_immediate": false
+        },
+        {
+          "price": 1600000,
+          "option": "40mm",
+          "date_created": "2026-05-16T09:36:17Z",
+          "date_text": "26/05/16",
+          "is_immediate": false
+        },
+        {
+          "price": 1550000,
+          "option": "40mm",
+          "date_created": "2026-05-16T09:05:08Z",
+          "date_text": "26/05/16",
+          "is_immediate": false
+        },
+        {
+          "price": 1320000,
+          "option": "40mm",
+          "date_created": "2026-05-16T05:58:13Z",
+          "date_text": "26/05/16",
+          "is_immediate": false
+        },
+        {
+          "price": 901000,
+          "option": "40mm",
+          "date_created": "2026-05-15T18:37:19Z",
+          "date_text": "26/05/16",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 1900000,
+          "option": "40mm",
+          "quantity": 1
+        },
+        {
+          "price": 1940000,
+          "option": "40mm",
+          "quantity": 1
+        },
+        {
+          "price": 3000000,
+          "option": "40mm",
+          "quantity": 1
+        },
+        {
+          "price": 4790000,
+          "option": "40mm",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 1620000,
+          "option": "40mm",
+          "quantity": 1
+        },
+        {
+          "price": 1610000,
+          "option": "40mm",
+          "quantity": 1
+        },
+        {
+          "price": 1600000,
+          "option": "40mm",
+          "quantity": 1
+        },
+        {
+          "price": 1500000,
+          "option": "40mm",
+          "quantity": 1
+        },
+        {
+          "price": 1400000,
+          "option": "40mm",
+          "quantity": 1
+        },
+        {
+          "price": 1020000,
+          "option": "40mm",
+          "quantity": 1
+        },
+        {
+          "price": 1010000,
+          "option": "40mm",
+          "quantity": 1
+        },
+        {
+          "price": 910000,
+          "option": "40mm",
+          "quantity": 2
+        },
+        {
+          "price": 900000,
+          "option": "40mm",
+          "quantity": 1
+        },
+        {
+          "price": 800000,
+          "option": "40mm",
+          "quantity": 1
+        },
+        {
+          "price": 630000,
+          "option": "40mm",
+          "quantity": 1
+        },
+        {
+          "price": 600000,
+          "option": "40mm",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 5,
+        "asks": 4,
+        "bids": 12
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 200,000원(+12.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      }
+    },
+    {
+      "sku": "FAKESKU-DOESNOTEXIST",
+      "option": "10",
+      "eur_price": 0,
+      "matched": false,
+      "error": "No exact SKU match among 50 candidate(s) for \"FAKESKU-DOESNOTEXIST\"",
+      "candidates": [
+        {
+          "product_id": 690701,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 x 나나 오브 브레이슬릿 플래티넘 블랙 에나멜 그레이\n\n700,000원\n\n관심 130\n\n · 거래 4"
+        },
+        {
+          "product_id": 704968,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 컨듀잇 스트릿 링 실버 블랙\n\n359,000원\n\n관심 287"
+        },
+        {
+          "product_id": 678188,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 그라지엘라 펄 브레이슬릿 화이트\n\n374,000원\n\n관심 48"
+        },
+        {
+          "product_id": 894947,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 페이 로고 참 브레이슬릿 실버\n\n243,000원\n\n관심 31"
+        },
+        {
+          "product_id": 298650,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 시모네타 펄 브레이슬릿 실버\n\n235,000원\n\n관심 387\n\n · 리뷰 1\n\n · 거래 11"
+        }
+      ]
+    }
+  ]
+}

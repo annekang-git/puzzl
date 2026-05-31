@@ -1,0 +1,18 @@
+{
+  "name": "kream",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "KREAM 크림 시세/마진 비교 UI + 로컬 수집 스크립트",
+  "scripts": {
+    "start": "node kream-ui-server.js",
+    "ui": "node kream-ui-server.js",
+    "login": "node kream-login-mypage.js",
+    "fetch": "node fetch-product-market.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "playwright": "^1.50.0"
+  }
+}

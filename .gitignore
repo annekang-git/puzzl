@@ -33,3 +33,19 @@ Thumbs.db
 # Temp files
 *.tmp
 *.temp
+
+# KREAM — 민감 데이터 (로그인 세션·토큰·스크린샷·자격증명)
+kream/.browser-data/
+kream/kream-tokens.json
+kream/kream-error.png
+kream/results/login-*.png
+kream/explore-output/
+kream/explore-output-v2/
+kream/explore-output-v3/
+kream/explore-output-v4/
+kream/explore-search-output/
+# KREAM — 이전 실험 산출물 (큰 덤프, 필요 시 개별 force-add)
+kream/kream_selling_bids_*.json
+# KREAM — 즉석 조회용 임시 입력은 커밋하지 않음
+kream/targets-adhoc.json
+kream/input-kream-codes.tsv

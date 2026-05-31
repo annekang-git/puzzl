@@ -1,0 +1,1764 @@
+{
+  "fetched_at": "2026-05-17T23:48:01.124Z",
+  "input_file": "targets-from-tsv.json",
+  "total_targets": 58,
+  "matched": 58,
+  "failed": 0,
+  "results": [
+    {
+      "sku": "Y0228-LCL504S-EBU",
+      "option": "U",
+      "eur_price": null,
+      "matched": true,
+      "product_id": 838144,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/838144",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": 500000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [
+        {
+          "price": 500000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 450000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 2
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "1BA495-2G52-F0002",
+      "option": "U",
+      "eur_price": 2159.83,
+      "matched": true,
+      "product_id": 757302,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/757302",
+      "market": {
+        "last_sale_price": 4000000,
+        "lowest_ask": 4597000,
+        "highest_bid": 3901000,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 4000000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-13T11:08:38Z",
+          "date_text": "26/05/13",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 4597000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4598000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 5920000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 3901000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3900000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 1,
+        "asks": 3,
+        "bids": 2
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "MW00105KJ7026-0448",
+      "option": "XS",
+      "eur_price": 45.08,
+      "matched": true,
+      "product_id": 790881,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/790881",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "MW00105KJ7026-0448",
+      "option": "S",
+      "eur_price": 45.08,
+      "matched": true,
+      "product_id": 790881,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/790881",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "MW00105KJ7026-0448",
+      "option": "M",
+      "eur_price": 45.08,
+      "matched": true,
+      "product_id": 790881,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/790881",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "MW00105KJ7026-0063",
+      "option": "XS",
+      "eur_price": 45.08,
+      "matched": true,
+      "product_id": 766206,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/766206",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "MW00105KJ7026-0063",
+      "option": "S",
+      "eur_price": 45.08,
+      "matched": true,
+      "product_id": 766206,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/766206",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "MW00105KJ7026-0063",
+      "option": "M",
+      "eur_price": 45.08,
+      "matched": true,
+      "product_id": 766206,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/766206",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "MW00105KJ7026-0413",
+      "option": "XS",
+      "eur_price": 45.08,
+      "matched": true,
+      "product_id": 817800,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/817800",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "MW00105KJ7026-0413",
+      "option": "S",
+      "eur_price": 45.08,
+      "matched": true,
+      "product_id": 817800,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/817800",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "MW00105KJ7026-0413",
+      "option": "M",
+      "eur_price": 45.08,
+      "matched": true,
+      "product_id": 817800,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/817800",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "PW00502KT1181-P199",
+      "option": "M",
+      "eur_price": null,
+      "matched": true,
+      "product_id": 611647,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/611647",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "10342HSR119",
+      "option": "U",
+      "eur_price": 157.38,
+      "matched": true,
+      "product_id": 758608,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/758608",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "1D820N-055-F0002",
+      "option": "37.5",
+      "eur_price": 649.18,
+      "matched": true,
+      "product_id": 409756,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/409756",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "2NA002-2HE1-F0008",
+      "option": "U",
+      "eur_price": 536.48,
+      "matched": true,
+      "product_id": 698376,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/698376",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SC847-1WQ9-F0002",
+      "option": "L",
+      "eur_price": 745.9,
+      "matched": true,
+      "product_id": 839875,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/839875",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "1N204W-NZV-F0632",
+      "option": "U",
+      "eur_price": 1036.06,
+      "matched": true,
+      "product_id": 776996,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/776996",
+      "market": {
+        "last_sale_price": 2420000,
+        "lowest_ask": 2400000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 2420000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-04T11:18:06Z",
+          "date_text": "26/05/04",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 2400000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2420000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2600000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "IU7936-001",
+      "option": "5",
+      "eur_price": 71.72,
+      "matched": true,
+      "product_id": 854216,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/854216",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "IU7936-001",
+      "option": "5.5",
+      "eur_price": 71.72,
+      "matched": true,
+      "product_id": 854216,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/854216",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "IU7936-001",
+      "option": "6",
+      "eur_price": 71.72,
+      "matched": true,
+      "product_id": 854216,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/854216",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "IU7936-001",
+      "option": "6.5",
+      "eur_price": 71.72,
+      "matched": true,
+      "product_id": 854216,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/854216",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "IU7936-001",
+      "option": "8.5",
+      "eur_price": 71.72,
+      "matched": true,
+      "product_id": 854216,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/854216",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "IU7936-001",
+      "option": "9",
+      "eur_price": 71.72,
+      "matched": true,
+      "product_id": 854216,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/854216",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "IU7936-001",
+      "option": "9.5",
+      "eur_price": 71.72,
+      "matched": true,
+      "product_id": 854216,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/854216",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "IU7936-001",
+      "option": "10",
+      "eur_price": 71.72,
+      "matched": true,
+      "product_id": 854216,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/854216",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "822073-FADJM-1043",
+      "option": "U",
+      "eur_price": 983.61,
+      "matched": true,
+      "product_id": 475037,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/475037",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 2388000,
+        "highest_bid": 500000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 2388000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2389000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3137000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3281000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [
+        {
+          "price": 500000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 4,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "865849WTR2G1800",
+      "option": "44",
+      "eur_price": 522.54,
+      "matched": true,
+      "product_id": 813289,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/813289",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "865849WTR2G1800",
+      "option": "45",
+      "eur_price": 522.54,
+      "matched": true,
+      "product_id": 813289,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/813289",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "542023W1GB11000",
+      "option": "41",
+      "eur_price": 606.56,
+      "matched": true,
+      "product_id": 25313,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/25313",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "542023W1GB11000",
+      "option": "42",
+      "eur_price": 606.56,
+      "matched": true,
+      "product_id": 25313,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/25313",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "542023W1GB11000",
+      "option": "43",
+      "eur_price": 606.56,
+      "matched": true,
+      "product_id": 25313,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/25313",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "542023W1GB11000",
+      "option": "44",
+      "eur_price": 606.56,
+      "matched": true,
+      "product_id": 25313,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/25313",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "542023W1GB11000",
+      "option": "45",
+      "eur_price": 606.56,
+      "matched": true,
+      "product_id": 25313,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/25313",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "839088TSO351000",
+      "option": "XS",
+      "eur_price": 1137.29,
+      "matched": true,
+      "product_id": 696209,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/696209",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "839088TSO351000",
+      "option": "S",
+      "eur_price": 1137.29,
+      "matched": true,
+      "product_id": 696209,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/696209",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "767877TSVO31083",
+      "option": "xs",
+      "eur_price": 550.21,
+      "matched": true,
+      "product_id": 537901,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/537901",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "767877TSVO31083",
+      "option": "S",
+      "eur_price": 550.21,
+      "matched": true,
+      "product_id": 537901,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/537901",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "767877TSVO31083",
+      "option": "M",
+      "eur_price": 550.21,
+      "matched": true,
+      "product_id": 537901,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/537901",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "8685852ACJS1000",
+      "option": "U",
+      "eur_price": 1704.92,
+      "matched": true,
+      "product_id": 786252,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/786252",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 5621000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 5621000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "853693-A3N00-9540",
+      "option": "38",
+      "eur_price": 631.15,
+      "matched": true,
+      "product_id": 868938,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/868938",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S0J72THGRAV",
+      "option": "40",
+      "eur_price": 339.34,
+      "matched": true,
+      "product_id": 420161,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/420161",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "FZX051AUW0F0QA1",
+      "option": "48",
+      "eur_price": 487.7,
+      "matched": true,
+      "product_id": 773085,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/773085",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "FZX051AUW0F0QA1",
+      "option": "50",
+      "eur_price": 487.7,
+      "matched": true,
+      "product_id": 773085,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/773085",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "7X1548AJZEF0R7R",
+      "option": "7",
+      "eur_price": 338.53,
+      "matched": true,
+      "product_id": 309863,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/309863",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "7X1548AJZEF0R7R",
+      "option": "8",
+      "eur_price": 338.53,
+      "matched": true,
+      "product_id": 309863,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/309863",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "FY0936ARYYF0QA0",
+      "option": "M",
+      "eur_price": 372.95,
+      "matched": true,
+      "product_id": 570470,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/570470",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "FY0936ARYYF0QA0",
+      "option": "L",
+      "eur_price": 372.95,
+      "matched": true,
+      "product_id": 570470,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/570470",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "FY0936ARYYF0QA0",
+      "option": "XL",
+      "eur_price": 372.95,
+      "matched": true,
+      "product_id": 570470,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/570470",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "FAA615AVIEF0QG0",
+      "option": "52",
+      "eur_price": 799.18,
+      "matched": true,
+      "product_id": 693996,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/693996",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "814321-FAFHR-4746",
+      "option": "37",
+      "eur_price": null,
+      "matched": true,
+      "product_id": 855219,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/855219",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "814321-FAFHR-4746",
+      "option": "37.5",
+      "eur_price": null,
+      "matched": true,
+      "product_id": 855219,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/855219",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "L1S1512000-03S0069-V0029",
+      "option": "L",
+      "eur_price": null,
+      "matched": true,
+      "product_id": 783512,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/783512",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "L1S1412000-02S00J7-VJ201",
+      "option": "XL",
+      "eur_price": null,
+      "matched": true,
+      "product_id": 822320,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/822320",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "L1S1551000-34S0N12-V0M65",
+      "option": "L",
+      "eur_price": 284.02,
+      "matched": true,
+      "product_id": 808494,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/808494",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "L1S1551000-34S0N12-V0M65",
+      "option": "XL",
+      "eur_price": 284.02,
+      "matched": true,
+      "product_id": 808494,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/808494",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "L1S1562000-10S0M51-V0M64",
+      "option": "XL",
+      "eur_price": null,
+      "matched": true,
+      "product_id": 899164,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/899164",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "1803002Q-Y003F-A408",
+      "option": "S",
+      "eur_price": 157.17,
+      "matched": true,
+      "product_id": 906339,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/906339",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "1803002Q-Y003F-A408",
+      "option": "M",
+      "eur_price": 157.17,
+      "matched": true,
+      "product_id": 906339,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/906339",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    }
+  ]
+}

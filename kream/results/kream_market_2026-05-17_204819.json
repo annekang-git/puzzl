@@ -1,0 +1,522 @@
+{
+  "fetched_at": "2026-05-17T11:48:19.793Z",
+  "input_file": "targets-from-diff.json",
+  "total_targets": 19,
+  "matched": 6,
+  "failed": 13,
+  "results": [
+    {
+      "sku": "N235HIKENAVY",
+      "option": "U",
+      "eur_price": 399.59,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"N235HIKENAVY\" SPU=\"N235HIKE\"",
+      "candidates": [
+        {
+          "product_id": 171817,
+          "text": "Fjallraven\n\n피엘라벤 칸켄 그래파이트\n\n22%\n\n100,000원\n\n관심 659\n\n · 리뷰 15\n\n · 거래 99"
+        },
+        {
+          "product_id": 171818,
+          "text": "Fjallraven\n\n피엘라벤 칸켄 블랙\n\n20%\n\n102,000원\n\n관심 208\n\n · 리뷰 10\n\n · 거래 27"
+        },
+        {
+          "product_id": 791261,
+          "text": "J.Estina\n\n(W) 제이에스티나 에테르 하트 네클리스 실버\n\n24%\n\n104,000원\n\n관심 13"
+        },
+        {
+          "product_id": 791271,
+          "text": "J.Estina\n\n(W) 제이에스티나 헤르보 네클리스 화이트 실버\n\n12%\n\n95,000원\n\n관심 20\n\n · 거래 1"
+        },
+        {
+          "product_id": 752264,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 x 나나 오브 이어링 실버\n\n700,000원\n\n관심 76"
+        }
+      ]
+    },
+    {
+      "sku": "L49147500LUNARROCKFTWSILVERBRIGHTCHARTREUSE",
+      "option": "10",
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 869385,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/869385",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null
+    },
+    {
+      "sku": "L49147500LUNARROCKFTWSILVERBRIGHTCHARTREUSE",
+      "option": "11",
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 869385,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/869385",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null
+    },
+    {
+      "sku": "L49147500LUNARROCKFTWSILVERBRIGHTCHARTREUSE",
+      "option": "12",
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 869385,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/869385",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null
+    },
+    {
+      "sku": "L49147500LUNARROCKFTWSILVERBRIGHTCHARTREUSE",
+      "option": "7",
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 869385,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/869385",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null
+    },
+    {
+      "sku": "L49147500LUNARROCKFTWSILVERBRIGHTCHARTREUSE",
+      "option": "9",
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 869385,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/869385",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null
+    },
+    {
+      "sku": "L49147500LUNARROCKFTWSILVERBRIGHTCHARTREUSE",
+      "option": "9.5",
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 869385,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/869385",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": null,
+        "asks": null,
+        "bids": null
+      },
+      "raw_chart_recently": null
+    },
+    {
+      "sku": "UP5112DS0041330E19",
+      "option": "33",
+      "eur_price": 125.2,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UP5112DS0041330E19\" SPU=\"UP5112DS0041\"",
+      "candidates": [
+        {
+          "product_id": 182771,
+          "text": "Maison Margiela\n\n메종 마르지엘라 글램 슬램 백팩 블랙\n\n10%\n\n1,849,000원\n\n관심 8,122\n\n · 리뷰 75\n\n · 거래 525\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 107880,
+          "text": "Alexander Wang\n\n(W) 알렉산더 왕 코튼 테일러링 사파리 쇼츠 블랙\n\n25%\n\n550,000원\n\n관심 964\n\n · 리뷰 8\n\n · 거래 42"
+        },
+        {
+          "product_id": 853729,
+          "text": "Maison Margiela\n\n메종 마르지엘라 글램 슬램 백팩 다크 블루\n\n1,665,000원"
+        },
+        {
+          "product_id": 80972,
+          "text": "Valentino\n\n발렌티노 VLTN 프린트 디테일 오픈 스니커즈 화이트 블랙\n\n559,000원\n\n관심 55\n\n · 리뷰 1\n\n · 거래 9"
+        },
+        {
+          "product_id": 570240,
+          "text": "Alexander Wang\n\n(W) 알렉산더 왕 로고 엘라스틱 디테일 하이 웨이스트 플리츠 쇼츠 블랙\n\n48%\n\n440,000원\n\n관심 22"
+        }
+      ]
+    },
+    {
+      "sku": "HKJ12500BLACK1",
+      "option": "3",
+      "eur_price": 673.77,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"HKJ12500BLACK1\" SPU=\"HKJ12500\"",
+      "candidates": [
+        {
+          "product_id": 608270,
+          "text": "Adidas\n\n(W) 아디다스 핸드볼 스페지알 클라우드 화이트 코어 블랙\n\n128,000원\n\n관심 480\n\n · 리뷰 7\n\n · 거래 47"
+        },
+        {
+          "product_id": 468987,
+          "text": "Adidas\n\n(인펀트) 아디다스 핸드볼 스페지알 컴포트 클로저 코어 블랙 클라우드 화이트\n\n46,000원\n\n관심 6\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 537767,
+          "text": "Adidas\n\n아디다스 핸드볼 스페지알 코어 블랙 원더 화이트\n\n14%\n\n128,000원\n\n관심 236\n\n · 리뷰 10\n\n · 거래 60"
+        },
+        {
+          "product_id": 796777,
+          "text": "Adidas\n\n(W) 아디다스 핸드볼 스페지알 로퍼 원더 화이트 검\n\n267,000원\n\n관심 1"
+        },
+        {
+          "product_id": 467014,
+          "text": "Adidas\n\n아디다스 오리지널스 핸드볼 스페지알 블랙 실버\n\n99,000원\n\n관심 308\n\n · 리뷰 5\n\n · 거래 39"
+        }
+      ]
+    },
+    {
+      "sku": "N355TESNAVY",
+      "option": "U",
+      "eur_price": 306.35,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"N355TESNAVY\" SPU=\"N355TES\"",
+      "candidates": [
+        {
+          "product_id": 355687,
+          "text": "Isabel Marant\n\n(W) 이자벨 마랑 로스 로고 스웨트셔츠 에크루 - 24FW\n\n54%\n\n316,000원\n\n관심 384\n\n · 리뷰 6\n\n · 거래 49"
+        },
+        {
+          "product_id": 791273,
+          "text": "J.Estina\n\n(W) 제이에스티나 델리케이트 티아라 네클리스 화이트 실버\n\n20%\n\n88,000원\n\n관심 8"
+        },
+        {
+          "product_id": 438798,
+          "text": "Isabel Marant\n\n(W) 이자벨 마랑 밀리니 코튼 로고 스웨트셔츠 블랙 - 25SS\n\n64%\n\n197,000원\n\n관심 11\n\n · 거래 4"
+        },
+        {
+          "product_id": 791261,
+          "text": "J.Estina\n\n(W) 제이에스티나 에테르 하트 네클리스 실버\n\n24%\n\n104,000원\n\n관심 13"
+        },
+        {
+          "product_id": 791272,
+          "text": "J.Estina\n\n(W) 제이에스티나 위시 J 미오엘로 네클리스 화이트 실버\n\n29%\n\n133,000원\n\n관심 2"
+        }
+      ]
+    },
+    {
+      "sku": "COZYCLOUDVESTMICRORIBNYLONMICROOLIVEGREEN",
+      "option": "XS",
+      "eur_price": 295.49,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"COZYCLOUDVESTMICRORIBNYLONMICROOLIVEGREEN\" SPU=\"COZYCLOUDVESTMICRORIBNYLON\"",
+      "candidates": [
+        {
+          "product_id": 486268,
+          "text": "On Running\n\n(W) 온 러닝 클라우드 X 4 실버 플레임\n\n213,000원\n\n관심 8\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 689484,
+          "text": "Danton\n\n(W) 단톤 나일론 태피터 미들 다운 후드 자켓 블랙\n\n400,000원\n\n관심 43\n\n · 거래 2"
+        },
+        {
+          "product_id": 498455,
+          "text": "On Running\n\n(W) 온 러닝 클라우드존 아이스 블랙\n\n200,000원\n\n관심 83\n\n · 리뷰 5\n\n · 거래 29"
+        },
+        {
+          "product_id": 760576,
+          "text": "비기너 러닝화\n\nOn Running\n\n(W) 온 러닝 클라우드 6 샌드\n\n189,000원\n\n관심 4\n\n · 거래 4"
+        },
+        {
+          "product_id": 334664,
+          "text": "On Running\n\n(W) 온 러닝 클라우드원더 워터프루프 샌드 블랙\n\n10%\n\n295,000원\n\n관심 134\n\n · 리뷰 3\n\n · 거래 7"
+        }
+      ]
+    },
+    {
+      "sku": "UC2E4815BLACK",
+      "option": "3",
+      "eur_price": 164.96,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UC2E4815BLACK\" SPU=\"UC2E4815\"",
+      "candidates": [
+        {
+          "product_id": 120679,
+          "text": "New Balance\n\n뉴발란스 327 블랙\n\n43%\n\n118,000원\n\n관심 200\n\n · 리뷰 11\n\n · 거래 100\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 139559,
+          "text": "Alexander Wang\n\n(W) 알렉산더 왕 코튼 저지 퍼프 로고 슈렁큰 티셔츠 블랙\n\n39%\n\n162,000원\n\n관심 169\n\n · 리뷰 4\n\n · 거래 14"
+        },
+        {
+          "product_id": 25108,
+          "text": "New Balance\n\n(W) 뉴발란스 327 화이트 블랙\n\n500,000원\n\n관심 423\n\n · 리뷰 9\n\n · 거래 221"
+        },
+        {
+          "product_id": 416552,
+          "text": "Alexander Wang\n\n(W) 알렉산더 왕 AW 풀 슬라이드 블랙\n\n190,000원\n\n관심 10"
+        },
+        {
+          "product_id": 121624,
+          "text": "Alexander Wang\n\n(W) 알렉산더 왕 스트레치 니트 로고 엘라스틱 브라 탑 블랙\n\n230,000원\n\n관심 70\n\n · 리뷰 1"
+        }
+      ]
+    },
+    {
+      "sku": "UC2E4815BLACK",
+      "option": "4",
+      "eur_price": 164.96,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UC2E4815BLACK\" SPU=\"UC2E4815\"",
+      "candidates": [
+        {
+          "product_id": 120679,
+          "text": "New Balance\n\n뉴발란스 327 블랙\n\n43%\n\n118,000원\n\n관심 200\n\n · 리뷰 11\n\n · 거래 100\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 139559,
+          "text": "Alexander Wang\n\n(W) 알렉산더 왕 코튼 저지 퍼프 로고 슈렁큰 티셔츠 블랙\n\n39%\n\n162,000원\n\n관심 169\n\n · 리뷰 4\n\n · 거래 14"
+        },
+        {
+          "product_id": 25108,
+          "text": "New Balance\n\n(W) 뉴발란스 327 화이트 블랙\n\n500,000원\n\n관심 423\n\n · 리뷰 9\n\n · 거래 221"
+        },
+        {
+          "product_id": 416552,
+          "text": "Alexander Wang\n\n(W) 알렉산더 왕 AW 풀 슬라이드 블랙\n\n190,000원\n\n관심 10"
+        },
+        {
+          "product_id": 121624,
+          "text": "Alexander Wang\n\n(W) 알렉산더 왕 스트레치 니트 로고 엘라스틱 브라 탑 블랙\n\n230,000원\n\n관심 70\n\n · 리뷰 1"
+        }
+      ]
+    },
+    {
+      "sku": "UC2E4815BLACK",
+      "option": "5",
+      "eur_price": 164.96,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UC2E4815BLACK\" SPU=\"UC2E4815\"",
+      "candidates": [
+        {
+          "product_id": 120679,
+          "text": "New Balance\n\n뉴발란스 327 블랙\n\n43%\n\n118,000원\n\n관심 200\n\n · 리뷰 11\n\n · 거래 100\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 139559,
+          "text": "Alexander Wang\n\n(W) 알렉산더 왕 코튼 저지 퍼프 로고 슈렁큰 티셔츠 블랙\n\n39%\n\n162,000원\n\n관심 169\n\n · 리뷰 4\n\n · 거래 14"
+        },
+        {
+          "product_id": 25108,
+          "text": "New Balance\n\n(W) 뉴발란스 327 화이트 블랙\n\n500,000원\n\n관심 423\n\n · 리뷰 9\n\n · 거래 221"
+        },
+        {
+          "product_id": 416552,
+          "text": "Alexander Wang\n\n(W) 알렉산더 왕 AW 풀 슬라이드 블랙\n\n190,000원\n\n관심 10"
+        },
+        {
+          "product_id": 121624,
+          "text": "Alexander Wang\n\n(W) 알렉산더 왕 스트레치 니트 로고 엘라스틱 브라 탑 블랙\n\n230,000원\n\n관심 70\n\n · 리뷰 1"
+        }
+      ]
+    },
+    {
+      "sku": "871354TQW562279",
+      "option": "31",
+      "eur_price": 688.52,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"871354TQW562279\" SPU=\"871354TQW56\"",
+      "candidates": [
+        {
+          "product_id": 86029,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 2.0 트레이너 샤이니 블랙\n\n71%\n\n370,000원\n\n관심 693\n\n · 리뷰 64\n\n · 거래 252\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 138640,
+          "text": "Balenciaga\n\n(W) 발렌시아가 폴리티컬 캠페인 스몰 핏 티셔츠 블랙\n\n58%\n\n330,000원\n\n관심 85\n\n · 리뷰 1\n\n · 거래 5"
+        },
+        {
+          "product_id": 28282,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 트레이너 블랙 화이트 2021/2022\n\n59%\n\n488,000원\n\n관심 3,033\n\n · 리뷰 154\n\n · 거래 2,478\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 30753,
+          "text": "Balenciaga\n\n발렌시아가 스피드 트레이너 블랙 화이트 2021/2022\n\n58%\n\n500,000원\n\n관심 3,173\n\n · 리뷰 275\n\n · 거래 2,431\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 72115,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스무스 카프스킨 라운드 플랫 샌들 블랙 화이트\n\n37%\n\n495,000원\n\n관심 141\n\n · 거래 13"
+        }
+      ]
+    },
+    {
+      "sku": "R13WR543R666BBLACKECRUPLAIDWITHREDLEOPARD",
+      "option": "XS",
+      "eur_price": 489.34,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"R13WR543R666BBLACKECRUPLAIDWITHREDLEOPARD\" SPU=\"R13WR543R666B\"",
+      "candidates": [
+        {
+          "product_id": 859893,
+          "text": "INSEOWL\n\n인스아울 새깅 레이어 숏팬츠 메란지\n\n23,000원\n\n관심 4\n\n쿠폰\n\n적립"
+        },
+        {
+          "product_id": 864737,
+          "text": "runwhither\n\n[KREAM 단독] 런위더 x 메어 쇼퍼 백 스카이 블루\n\n33,000원\n\n관심 25\n\n · 리뷰 6\n\n쿠폰\n\n적립"
+        },
+        {
+          "product_id": 491443,
+          "text": "Miu Miu\n\n(W) 미우 미우 리가드 선글라스 핑크 렌즈\n\n915,000원\n\n관심 11"
+        },
+        {
+          "product_id": 631730,
+          "text": "Zara\n\n자라 x 챔피온 릴렉스드 핏 플리티드 팬츠 그레이 말\n\n200,000원\n\n관심 20\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 133658,
+          "text": "Cardinal Red\n\n카디널 레드 하우아백 믹스\n\n339,000원\n\n관심 2,182\n\n · 리뷰 35\n\n · 거래 555"
+        }
+      ]
+    },
+    {
+      "sku": "784361XJGKA4735",
+      "option": "S",
+      "eur_price": 276.64,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"784361XJGKA4735\" SPU=\"784361XJGKA\"",
+      "candidates": [
+        {
+          "product_id": 286867,
+          "text": "Gucci\n\n구찌 코튼 저지 티셔츠 프린트 블랙 헤비 코튼 저지\n\n21%\n\n690,000원\n\n관심 5"
+        },
+        {
+          "product_id": 442338,
+          "text": "Gucci\n\n구찌 숏슬리브 티셔츠 화이트\n\n549,000원\n\n관심 7"
+        },
+        {
+          "product_id": 286867,
+          "text": "Gucci\n\n구찌 코튼 저지 티셔츠 프린트 블랙 헤비 코튼 저지\n\n21%\n\n690,000원\n\n관심 5"
+        }
+      ]
+    },
+    {
+      "sku": "858145TTVV11000",
+      "option": "M",
+      "eur_price": 540.98,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"858145TTVV11000\" SPU=\"858145TTVV1\"",
+      "candidates": [
+        {
+          "product_id": 138640,
+          "text": "Balenciaga\n\n(W) 발렌시아가 폴리티컬 캠페인 스몰 핏 티셔츠 블랙\n\n58%\n\n330,000원\n\n관심 85\n\n · 리뷰 1\n\n · 거래 5"
+        },
+        {
+          "product_id": 28282,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 트레이너 블랙 화이트 2021/2022\n\n59%\n\n488,000원\n\n관심 3,033\n\n · 리뷰 154\n\n · 거래 2,478\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 86029,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 2.0 트레이너 샤이니 블랙\n\n71%\n\n370,000원\n\n관심 693\n\n · 리뷰 64\n\n · 거래 252\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 30753,
+          "text": "Balenciaga\n\n발렌시아가 스피드 트레이너 블랙 화이트 2021/2022\n\n58%\n\n500,000원\n\n관심 3,173\n\n · 리뷰 275\n\n · 거래 2,431\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 18585,
+          "text": "Balenciaga\n\n(W) 발렌시아가 트랙 스니커즈 화이트 오렌지\n\n50%\n\n579,000원\n\n관심 163\n\n · 리뷰 20\n\n · 거래 17"
+        }
+      ]
+    },
+    {
+      "sku": "858145TTVV11000",
+      "option": "S",
+      "eur_price": 540.98,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"858145TTVV11000\" SPU=\"858145TTVV1\"",
+      "candidates": [
+        {
+          "product_id": 138640,
+          "text": "Balenciaga\n\n(W) 발렌시아가 폴리티컬 캠페인 스몰 핏 티셔츠 블랙\n\n58%\n\n330,000원\n\n관심 85\n\n · 리뷰 1\n\n · 거래 5"
+        },
+        {
+          "product_id": 28282,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 트레이너 블랙 화이트 2021/2022\n\n59%\n\n488,000원\n\n관심 3,033\n\n · 리뷰 154\n\n · 거래 2,478\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 86029,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 2.0 트레이너 샤이니 블랙\n\n71%\n\n370,000원\n\n관심 693\n\n · 리뷰 64\n\n · 거래 252\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 30753,
+          "text": "Balenciaga\n\n발렌시아가 스피드 트레이너 블랙 화이트 2021/2022\n\n58%\n\n500,000원\n\n관심 3,173\n\n · 리뷰 275\n\n · 거래 2,431\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 18585,
+          "text": "Balenciaga\n\n(W) 발렌시아가 트랙 스니커즈 화이트 오렌지\n\n50%\n\n579,000원\n\n관심 163\n\n · 리뷰 20\n\n · 거래 17"
+        }
+      ]
+    }
+  ]
+}
