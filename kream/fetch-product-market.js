@@ -555,10 +555,16 @@ async function main() {
 
   const lock = path.join(BROWSER_DATA_DIR, 'SingletonLock');
   if (fs.existsSync(lock)) fs.unlinkSync(lock);
+  // KREAM_HEADLESS=1 (cron 자동화용) 이면 headless 모드.
+  // channel:'chrome' 은 headless 모드와 호환 떨어질 수 있으니 headless 일 땐 chromium 으로.
+  const isHeadless = process.env.KREAM_HEADLESS === '1';
   const context = await chromium.launchPersistentContext(BROWSER_DATA_DIR, {
-    headless: false, channel: 'chrome', viewport: { width: 1440, height: 900 },
+    headless: isHeadless,
+    ...(isHeadless ? {} : { channel: 'chrome' }),
+    viewport: { width: 1440, height: 900 },
     args: ['--disable-blink-features=AutomationControlled', '--disable-popup-blocking'],
   });
+  if (isHeadless) console.log('🤖 headless 모드 (cron 자동화)');
   const page = context.pages()[0] || (await context.newPage());
   await page.addInitScript(() => Object.defineProperty(navigator, 'webdriver', { get: () => undefined }));
 
