@@ -41,8 +41,10 @@ if (fs.existsSync(envFile)) {
   console.log(`📄 .env 로드`);
 }
 
-// cron 자동화는 항상 headless
-process.env.KREAM_HEADLESS = '1';
+// KREAM 이 headless 를 차단해서 cron 도 headed 로 실행 (Mac mini 로그인 유지 필요).
+// 새벽 4am 에 실제 Chrome 창이 떴다 닫힘 — 사용자는 자고있어 안 보임.
+// 환경변수로 명시적 override 가능: KREAM_HEADLESS=1 로 외부에서 강제 시 headless 사용.
+if (!('KREAM_HEADLESS' in process.env)) process.env.KREAM_HEADLESS = '0';
 
 if (!process.env.KREAM_EMAIL || !process.env.KREAM_PASSWORD) {
   console.error('❌ KREAM_EMAIL / KREAM_PASSWORD 환경변수 없음 (.env 파일 확인)');

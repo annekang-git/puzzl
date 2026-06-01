@@ -56,6 +56,26 @@ console.log(`   전체 상품: ${products.length}`);
 
 function norm(s) { return String(s || '').trim().toUpperCase().replace(/\s+/g, ' '); }
 
+// Stone Island 등 dresscode reference 를 KREAM 검색용 대시 형식으로 변환.
+// 규칙: 뒤에서 5자(V+4) | 그 앞 7자 | 나머지(앞부분)  → "-" 로 join
+//   L1S156100060S0051V0029 → L1S1561000-60S0051-V0029
+//   159100011S0076V0029     → 1591000-11S0076-V0029
+function formatKreamSku(ref) {
+  if (!ref) return ref;
+  const n = String(ref).replace(/[^A-Za-z0-9]/g, '').toUpperCase();
+  if (n.length < 12) return ref; // 너무 짧으면 패턴 안 맞음
+  const tail = n.slice(-5);
+  const mid  = n.slice(-12, -5);
+  const head = n.slice(0, -12);
+  return head ? `${head}-${mid}-${tail}` : `${mid}-${tail}`;
+}
+
+// 브랜드별 KREAM 검색 키 추출 — Stone Island 는 대시 형식 적용
+function deriveSearchSku(brandNorm, ref) {
+  if (brandNorm === 'STONE ISLAND') return formatKreamSku(ref);
+  return ref; // 다른 브랜드는 reference 그대로
+}
+
 for (const spec of brandSpecs) {
   const [brandRaw, slugRaw] = spec.split(':');
   if (!brandRaw || !slugRaw) {
@@ -81,12 +101,15 @@ for (const spec of brandSpecs) {
     const ref = p.reference;
     if (!ref) { skippedNoRef++; continue; }
 
+    // KREAM 검색용 SKU (Stone Island 는 대시 형식, 나머지는 ref 그대로)
+    const searchSku = deriveSearchSku(brand, ref);
+
     const sizes = p.sizes || p.crawled_data?.sizes || [];
     if (sizes.length === 0) {
       // 사이즈 없으면 옵션 빈값 1건
       targets.push({
-        sku: ref,
-        spu: p.spu || null,
+        sku: searchSku,
+        spu: ref, // 원본 reference 는 검증/fallback 용
         b2b_sku: ref,
         brand: p.brand || null,
         name: p.name || null,
@@ -103,8 +126,8 @@ for (const spec of brandSpecs) {
       const stock = sz.stock ?? 0;
       if (!flags.allStock && stock <= 0) { skippedNoStock++; continue; }
       targets.push({
-        sku: ref,
-        spu: p.spu || null,
+        sku: searchSku,
+        spu: ref, // 원본 reference 는 검증/fallback 용
         b2b_sku: ref,
         brand: p.brand || null,
         name: p.name || null,
