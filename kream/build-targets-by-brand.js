@@ -70,9 +70,21 @@ function formatKreamSku(ref) {
   return head ? `${head}-${mid}-${tail}` : `${mid}-${tail}`;
 }
 
-// 브랜드별 KREAM 검색 키 추출 — Stone Island 는 대시 형식 적용
+// PRADA 변환 — dresscode 코드에서 중간 4자리(pos 6-9) 제거하면 KREAM 검색 형식.
+// 의류/가방/신발 (18-20자리) 만 변환 대상이고, 액세서리 (14-15자리) 는 그대로.
+// 예: UJL90BSWMO11OQF0002 (19자) → UJL90B + 11OQF0002 = UJL90B11OQF0002 (15자)
+//     2MO513QHHF0002 (14자, 액세서리) → 그대로
+function formatPradaSku(ref) {
+  if (!ref) return ref;
+  const n = String(ref).replace(/[^A-Za-z0-9]/g, '').toUpperCase();
+  if (n.length >= 16) return n.slice(0, 6) + n.slice(10);
+  return n;
+}
+
+// 브랜드별 KREAM 검색 키 추출 — Stone Island 는 대시 형식, PRADA 는 중간 4자리 제거
 function deriveSearchSku(brandNorm, ref) {
   if (brandNorm === 'STONE ISLAND') return formatKreamSku(ref);
+  if (brandNorm === 'PRADA') return formatPradaSku(ref);
   return ref; // 다른 브랜드는 reference 그대로
 }
 

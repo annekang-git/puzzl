@@ -26,6 +26,7 @@ const BRANDS = [
   { dresscode: 'CARHARTT WIP', slug: 'carhartt' },
   { dresscode: 'STONE ISLAND', slug: 'stoneisland' },
   { dresscode: 'THOM BROWNE',  slug: 'tombrown' },
+  { dresscode: 'PRADA',         slug: 'prada' },
 ];
 const KEEP_DAYS = 7; // 브랜드당 최근 N개 결과만 유지
 
