@@ -414,14 +414,38 @@ function loadB2bKids(dir) {
 // ========================================================================
 // 메인
 // ========================================================================
-function loadLatest(dir, regex, keyExtractor = 'products') {
+// 최신 파일 로드. 단 minCount 미달이면 그 이전 날짜 파일로 fallback (최대 maxLookback 일).
+//   사용 의도: 크롤러가 어느 날 빈 결과를 내도 전날의 정상 데이터를 유지해서 API 소비자(뭉클) 가 영향을 안 받게 함.
+function loadLatest(dir, regex, keyExtractor = 'products', minCount = 1, maxLookback = 14) {
   const files = fs.readdirSync(dir).filter((f) => regex.test(f)).sort().reverse();
-  if (files.length === 0) return { file: null, date: null, products: [] };
+  if (files.length === 0) return { file: null, date: null, products: [], fallback: false };
+
+  let fallbackFromFile = null;
+  for (let i = 0; i < Math.min(files.length, maxLookback); i++) {
+    const file = files[i];
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf-8'));
+      const products = data[keyExtractor] || data.raw_api_response || [];
+      if (products.length >= minCount) {
+        const date = file.match(/\d{4}-\d{2}-\d{2}/)[0];
+        if (i > 0) {
+          console.warn(`⚠️  ${fallbackFromFile} 부적합 → ${file} (${date}) fallback 사용 (${products.length}개)`);
+        }
+        return { file, date, products, fallback: i > 0 };
+      }
+      if (i === 0) fallbackFromFile = `${file}(${products.length}개)`;
+      console.warn(`⚠️  ${file} 비어있음 또는 minCount(${minCount}) 미달: ${products.length}개`);
+    } catch (e) {
+      if (i === 0) fallbackFromFile = `${file}(파싱실패)`;
+      console.warn(`⚠️  ${file} 파싱 실패: ${e.message}`);
+    }
+  }
+  // 최후의 수단: 어쨌든 가장 최신 파일 그대로 반환 (빈 배열일 수 있음)
   const file = files[0];
   const data = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf-8'));
   const products = data[keyExtractor] || data.raw_api_response || [];
   const date = file.match(/\d{4}-\d{2}-\d{2}/)[0];
-  return { file, date, products };
+  return { file, date, products, fallback: false };
 }
 
 function main() {
@@ -443,11 +467,13 @@ function main() {
   console.log(`   👶 Dresscode 키즈 추출: ${dcKids.length}개`);
 
   // ─── 2) Grifo 로드 (이미 전부 키즈) ────────────────────────────────────
-  const gf = loadLatest(syncDataDir, /^grifo_products_\d{4}-\d{2}-\d{2}\.json$/, 'products');
+  //   minCount=50: 평상시 ≥800개. 50 미만이면 크롤러 실패로 간주하고 전날(또는 그 이전) 정상 파일 사용.
+  const gf = loadLatest(syncDataDir, /^grifo_products_\d{4}-\d{2}-\d{2}\.json$/, 'products', 50);
   if (!gf.file) {
     console.warn('⚠️  grifo_products_YYYY-MM-DD.json 없음 — Dresscode만 사용');
   } else {
-    console.log(`📂 Grifo 소스: ${gf.file} (전체 ${gf.products.length}개)`);
+    const tag = gf.fallback ? ' [📦 fallback]' : '';
+    console.log(`📂 Grifo 소스: ${gf.file}${tag} (전체 ${gf.products.length}개)`);
   }
 
   const gfKids = (gf.products || []).filter((p) => {
