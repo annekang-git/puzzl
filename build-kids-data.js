@@ -388,27 +388,89 @@ function normalizeB2b(p) {
   };
 }
 
-// b2bfashion 키즈 4개 카테고리 파일 로드 + short_reference 기준 dedup
-//   - 색상별(short_reference 다름)은 보존, 카테고리 간 동일상품 중복은 제거
+// b2bfashion 키즈 카테고리별 최신 정상파일 선택
+//   - 우선: 날짜 suffix 파일 (b2bfashion_kids_<cat>_YYYY-MM-DD.json) 중 lookback 윈도우 내 max count 의 50% 이상인 가장 최신
+//   - 보조 fallback: 고정명 파일 (legacy)
+//   - 부분실패(오늘만 적게)한 카테고리는 자동으로 어제 정상 데이터 사용
+function selectLatestGoodB2bFile(dir, cat, maxLookback = 7) {
+  const datedRe = new RegExp(`^b2bfashion_kids_${cat}_(\\d{4}-\\d{2}-\\d{2})\\.json$`);
+  const allFiles = fs.readdirSync(dir);
+
+  // 날짜 suffix 파일들 — 최신순
+  const dated = allFiles
+    .map((f) => { const m = f.match(datedRe); return m ? { f, date: m[1] } : null; })
+    .filter(Boolean)
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .slice(0, maxLookback);
+
+  if (dated.length > 0) {
+    const withCounts = dated.map((x) => {
+      try {
+        const arr = JSON.parse(fs.readFileSync(path.join(dir, x.f), 'utf-8'));
+        return { ...x, count: arr.length, arr };
+      } catch (e) {
+        console.warn(`⚠️  ${x.f} 파싱 실패: ${e.message}`);
+        return { ...x, count: 0, arr: [] };
+      }
+    });
+    const maxCount = Math.max(...withCounts.map((x) => x.count));
+    const threshold = Math.max(5, maxCount * 0.5); // 최근 7일 max 의 50% 또는 최소 5
+    // 최신부터 threshold 이상 첫 파일
+    for (const x of withCounts) {
+      if (x.count >= threshold) {
+        if (x.f !== withCounts[0].f) {
+          console.warn(`⚠️  b2b ${cat}: ${withCounts[0].f} (${withCounts[0].count}개, min ${Math.round(threshold)} 미달) → ${x.f} (${x.count}개) fallback`);
+        }
+        return { products: x.arr, date: x.date, file: x.f, fallback: x.f !== withCounts[0].f };
+      }
+    }
+    // 모든 dated 파일이 threshold 미달 → 가장 최신 dated 사용
+    const latest = withCounts[0];
+    console.warn(`⚠️  b2b ${cat}: 모든 dated 파일이 임계치 미달, 최신(${latest.f}, ${latest.count}개) 사용`);
+    return { products: latest.arr, date: latest.date, file: latest.f, fallback: false };
+  }
+
+  // 날짜 suffix 파일이 없으면 고정명 (legacy) fallback
+  const legacy = path.join(dir, `b2bfashion_kids_${cat}.json`);
+  if (fs.existsSync(legacy)) {
+    try {
+      const arr = JSON.parse(fs.readFileSync(legacy, 'utf-8'));
+      const date = new Date(fs.statSync(legacy).mtimeMs).toISOString().split('T')[0];
+      return { products: arr, date, file: `b2bfashion_kids_${cat}.json`, fallback: false };
+    } catch (e) {
+      console.warn(`⚠️  legacy ${legacy} 파싱 실패: ${e.message}`);
+    }
+  }
+  return { products: [], date: null, file: null, fallback: false };
+}
+
 function loadB2bKids(dir) {
   const cats = ['baby-girl', 'baby-boy', 'boy', 'girl'];
   const all = [];
-  let latestMs = 0;
+  let latestDate = null;
+  const perCat = {};
   for (const c of cats) {
-    const f = path.join(dir, `b2bfashion_kids_${c}.json`);
-    if (!fs.existsSync(f)) continue;
-    const st = fs.statSync(f);
-    if (st.mtimeMs > latestMs) latestMs = st.mtimeMs;
-    JSON.parse(fs.readFileSync(f, 'utf-8')).forEach((p) => all.push(p));
+    const sel = selectLatestGoodB2bFile(dir, c);
+    perCat[c] = { count: sel.products.length, file: sel.file, fallback: sel.fallback, date: sel.date };
+    sel.products.forEach((p) => all.push(p));
+    if (sel.date && (!latestDate || sel.date > latestDate)) latestDate = sel.date;
   }
+  // 카테고리별 선택 결과 로그
+  console.log(`   📂 b2b 카테고리별 선택:`);
+  for (const c of cats) {
+    const x = perCat[c];
+    const tag = x.fallback ? ' [📦 fallback]' : '';
+    console.log(`      - ${c.padEnd(10)} ${x.count}개${tag}  ${x.file || '(없음)'}`);
+  }
+
   const byKey = new Map();
   for (const p of all) {
     const key = String(p.short_reference || p.spu || '').trim().toUpperCase();
     if (!key) continue;
     if (!byKey.has(key)) byKey.set(key, p);
   }
-  const date = latestMs ? new Date(latestMs).toISOString().split('T')[0] : null;
-  return { raw: all.length, products: [...byKey.values()], date };
+  const anyFallback = Object.values(perCat).some((x) => x.fallback);
+  return { raw: all.length, products: [...byKey.values()], date: latestDate, fallback: anyFallback };
 }
 
 // ========================================================================
