@@ -59,14 +59,30 @@ const nowKstStamp = () => {
 };
 const DATE_TAG = nowKstStamp();
 
+// cron 환경에서는 PATH 가 /usr/bin:/bin 만 있어서 node/git 절대경로 필요.
+// 'node' / 'git' 토큰을 받으면 자동으로 절대경로로 치환한다.
+const NODE = process.execPath; // 현재 실행 중인 node 바이너리의 절대경로
+// git 은 homebrew 또는 macOS 기본 둘 다 가능 — homebrew 우선, fallback /usr/bin/git
+import { existsSync } from 'fs';
+const GIT = existsSync('/opt/homebrew/bin/git') ? '/opt/homebrew/bin/git' : '/usr/bin/git';
+
+function resolveCmd(cmd) {
+  if (cmd === 'node') return NODE;
+  if (cmd === 'git')  return GIT;
+  return cmd;
+}
+
 function run(cmd, args, opts = {}) {
+  const realCmd = resolveCmd(cmd);
   console.log(`\n$ ${cmd} ${args.join(' ')}`);
-  const r = spawnSync(cmd, args, { stdio: 'inherit', env: process.env, cwd: __dirname, ...opts });
-  if (r.status !== 0) throw new Error(`exit=${r.status}: ${cmd} ${args.join(' ')}`);
+  const r = spawnSync(realCmd, args, { stdio: 'inherit', env: process.env, cwd: __dirname, ...opts });
+  if (r.error) throw new Error(`spawn failed: ${cmd} (${r.error.code || r.error.message})`);
+  if (r.status !== 0) throw new Error(`exit=${r.status} signal=${r.signal}: ${cmd} ${args.join(' ')}`);
 }
 
 function runQuiet(cmd, args, opts = {}) {
-  const r = spawnSync(cmd, args, { encoding: 'utf-8', env: process.env, cwd: __dirname, ...opts });
+  const realCmd = resolveCmd(cmd);
+  const r = spawnSync(realCmd, args, { encoding: 'utf-8', env: process.env, cwd: __dirname, ...opts });
   return { ok: r.status === 0, stdout: r.stdout || '', stderr: r.stderr || '' };
 }
 
