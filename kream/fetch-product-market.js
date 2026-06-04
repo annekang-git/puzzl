@@ -537,6 +537,79 @@ async function fetchMarketData(page, productId, option) {
 // ──────────────────────────────────────────────────
 // 메인
 // ──────────────────────────────────────────────────
+// CHUNK 모드 — chromium 메모리 누적/IPC crash 완화를 위해 N 타겟마다 브라우저 컨텍스트 재시작.
+// KREAM_CHUNK_SIZE 환경변수로 조정 가능 (기본 50). 0 이면 chunk 비활성 (단일 컨텍스트).
+const CHUNK_SIZE = Number(process.env.KREAM_CHUNK_SIZE ?? 50);
+
+// 브라우저 컨텍스트 열기 — chunk 마다 호출
+async function openContext(isHeadless) {
+  const lock = path.join(BROWSER_DATA_DIR, 'SingletonLock');
+  if (fs.existsSync(lock)) fs.unlinkSync(lock);
+  const ctx = await chromium.launchPersistentContext(BROWSER_DATA_DIR, {
+    headless: isHeadless,
+    ...(isHeadless ? {} : { channel: 'chrome' }),
+    viewport: { width: 1440, height: 900 },
+    args: ['--disable-blink-features=AutomationControlled', '--disable-popup-blocking'],
+  });
+  const page = ctx.pages()[0] || (await ctx.newPage());
+  await page.addInitScript(() => Object.defineProperty(navigator, 'webdriver', { get: () => undefined }));
+  return { ctx, page };
+}
+
+// 단일 타겟 처리 — chunk 내 loop 가 호출
+async function processTarget(page, t, results, skuCache, productMarketCache, i, total) {
+  const tag = `[${i + 1}/${total}] ${t.sku} / ${t.option}`;
+  console.log(`🔍 ${tag}`);
+
+  // 1) SKU 해결
+  let resolved = skuCache.get(t.sku);
+  if (!resolved) {
+    try { resolved = await resolveSkuToProductId(page, t); }
+    catch (e) { resolved = { error: `Resolve threw: ${e.message}` }; }
+    skuCache.set(t.sku, resolved);
+  }
+
+  if (resolved.error) {
+    console.log(`   ❌ ${resolved.error}`);
+    results.push({
+      sku: t.sku, option: t.option, eur_price: t.eur_price ?? null,
+      matched: false, error: resolved.error, candidates: resolved.candidates,
+    });
+    return;
+  }
+
+  // 2) market data
+  try {
+    let allOptionsData = productMarketCache.get(resolved.product_id);
+    if (!allOptionsData) {
+      allOptionsData = await fetchAllOptionsForProduct(page, resolved.product_id);
+      productMarketCache.set(resolved.product_id, allOptionsData);
+    }
+    const market = pickOptionFromCache(allOptionsData, t.option);
+    console.log(
+      `   ✅ pid=${resolved.product_id}  ` +
+      `lastSale=${market.market.last_sale_price ?? '-'}  ` +
+      `lowAsk=${market.market.lowest_ask ?? '-'}  ` +
+      `highBid=${market.market.highest_bid ?? '-'}  ` +
+      `(${market.totals.sales}/${market.totals.asks}/${market.totals.bids})`
+    );
+    results.push({
+      sku: t.sku, option: t.option, eur_price: t.eur_price ?? null,
+      matched: true, product_id: resolved.product_id,
+      product_name_ko: resolved.product_name_ko || null,
+      product_url: `${KREAM_URL}/products/${resolved.product_id}`,
+      ...market,
+    });
+  } catch (e) {
+    console.log(`   ❌ fetchMarketData 실패: ${e.message}`);
+    results.push({
+      sku: t.sku, option: t.option, eur_price: t.eur_price ?? null,
+      matched: false, product_id: resolved.product_id,
+      error: `fetchMarketData: ${e.message}`,
+    });
+  }
+}
+
 async function main() {
   const inputFile = process.argv[2] || path.join(__dirname, 'targets.json');
   if (!fs.existsSync(inputFile)) {
@@ -551,103 +624,22 @@ async function main() {
     console.error('❌ targets 는 배열이어야 하고 1개 이상 항목이 있어야 함');
     process.exit(1);
   }
-  console.log(`📥 ${targets.length}개 타겟 로드: ${inputFile}\n`);
 
-  const lock = path.join(BROWSER_DATA_DIR, 'SingletonLock');
-  if (fs.existsSync(lock)) fs.unlinkSync(lock);
-  // KREAM_HEADLESS=1 (cron 자동화용) 이면 headless 모드.
-  // channel:'chrome' 은 headless 모드와 호환 떨어질 수 있으니 headless 일 땐 chromium 으로.
   const isHeadless = process.env.KREAM_HEADLESS === '1';
-  const context = await chromium.launchPersistentContext(BROWSER_DATA_DIR, {
-    headless: isHeadless,
-    ...(isHeadless ? {} : { channel: 'chrome' }),
-    viewport: { width: 1440, height: 900 },
-    args: ['--disable-blink-features=AutomationControlled', '--disable-popup-blocking'],
-  });
+  const chunkSize = CHUNK_SIZE > 0 ? CHUNK_SIZE : targets.length;
+  const totalChunks = Math.ceil(targets.length / chunkSize);
+  console.log(`📥 ${targets.length}개 타겟 로드: ${inputFile}`);
+  console.log(`📦 Chunk 모드: ${chunkSize} 타겟 × ${totalChunks} chunk  (KREAM_CHUNK_SIZE 로 조정)`);
   if (isHeadless) console.log('🤖 headless 모드 (cron 자동화)');
-  const page = context.pages()[0] || (await context.newPage());
-  await page.addInitScript(() => Object.defineProperty(navigator, 'webdriver', { get: () => undefined }));
+  console.log();
 
   const results = [];
-  // SKU → product_id 캐시 (같은 SKU 여러 옵션이면 재사용)
-  const skuCache = new Map();
-  // product_id → {captured 모든 옵션} 캐시 — 같은 상품 여러 사이즈일 때 페이지 1번만 방문
-  const productMarketCache = new Map();
+  const skuCache = new Map();         // SKU → product_id
+  const productMarketCache = new Map(); // product_id → 옵션별 시세
 
-  try {
-    await ensureLoggedIn(page, context);
-    console.log();
-
-    for (let i = 0; i < targets.length; i++) {
-      const t = targets[i];
-      const tag = `[${i + 1}/${targets.length}] ${t.sku} / ${t.option}`;
-      console.log(`🔍 ${tag}`);
-
-      // 1) SKU 해결 (캐시 사용)
-      let resolved = skuCache.get(t.sku);
-      if (!resolved) {
-        try {
-          resolved = await resolveSkuToProductId(page, t); // 객체 전체 전달 (sku + spu 둘 다 사용)
-        } catch (e) {
-          resolved = { error: `Resolve threw: ${e.message}` };
-        }
-        skuCache.set(t.sku, resolved);
-      }
-
-      if (resolved.error) {
-        console.log(`   ❌ ${resolved.error}`);
-        results.push({
-          sku: t.sku,
-          option: t.option,
-          eur_price: t.eur_price ?? null,
-          matched: false,
-          error: resolved.error,
-          candidates: resolved.candidates,
-        });
-        continue;
-      }
-
-      // 2) market data — product_id 캐시 사용 (페이지 한 번만 방문)
-      try {
-        let allOptionsData = productMarketCache.get(resolved.product_id);
-        if (!allOptionsData) {
-          allOptionsData = await fetchAllOptionsForProduct(page, resolved.product_id);
-          productMarketCache.set(resolved.product_id, allOptionsData);
-        }
-        const market = pickOptionFromCache(allOptionsData, t.option);
-        console.log(
-          `   ✅ pid=${resolved.product_id}  ` +
-          `lastSale=${market.market.last_sale_price ?? '-'}  ` +
-          `lowAsk=${market.market.lowest_ask ?? '-'}  ` +
-          `highBid=${market.market.highest_bid ?? '-'}  ` +
-          `(${market.totals.sales}/${market.totals.asks}/${market.totals.bids})`
-        );
-        results.push({
-          sku: t.sku,
-          option: t.option,
-          eur_price: t.eur_price ?? null,
-          matched: true,
-          product_id: resolved.product_id,
-          product_name_ko: resolved.product_name_ko || null,
-          product_url: `${KREAM_URL}/products/${resolved.product_id}`,
-          ...market,
-        });
-      } catch (e) {
-        console.log(`   ❌ fetchMarketData 실패: ${e.message}`);
-        results.push({
-          sku: t.sku,
-          option: t.option,
-          eur_price: t.eur_price ?? null,
-          matched: false,
-          product_id: resolved.product_id,
-          error: `fetchMarketData: ${e.message}`,
-        });
-      }
-
-      // rate limit 회피
-      await delay(800);
-    }
-
+  // 결과 파일을 미리 정해두고 chunk 마다 덮어쓰기 (incremental save)
+  const outFile = path.join(RESULTS_DIR, `kream_market_${nowKstStamp()}.json`);
+  const saveProgress = () => {
     const out = {
       fetched_at: new Date().toISOString(),
       input_file: path.basename(inputFile),
@@ -656,17 +648,70 @@ async function main() {
       failed: results.filter((r) => !r.matched).length,
       results,
     };
-
-    const outFile = path.join(RESULTS_DIR, `kream_market_${nowKstStamp()}.json`);
     fs.writeFileSync(outFile, JSON.stringify(out, null, 2));
-    console.log(`\n📁 저장 완료: ${outFile}`);
-    console.log(`   매칭 성공: ${out.matched}개, 실패: ${out.failed}개`);
-  } catch (e) {
-    console.error('❌', e.message);
-    console.error(e.stack);
-  } finally {
-    await context.close();
+  };
+
+  for (let chunkIdx = 0; chunkIdx < totalChunks; chunkIdx++) {
+    const chunkStart = chunkIdx * chunkSize;
+    const chunkEnd = Math.min(chunkStart + chunkSize, targets.length);
+    console.log(`\n${'═'.repeat(60)}\n📦 Chunk ${chunkIdx + 1}/${totalChunks}  (targets ${chunkStart + 1}-${chunkEnd}/${targets.length})\n${'═'.repeat(60)}`);
+
+    let ctx, page;
+    try {
+      ({ ctx, page } = await openContext(isHeadless));
+
+      // 첫 chunk 만 명시적 로그인 — 후속 chunk 는 .browser-data 세션 그대로 사용
+      if (chunkIdx === 0) {
+        await ensureLoggedIn(page, ctx);
+        console.log();
+      } else {
+        // 세션 유효성 빠른 확인 (실패 시 ensureLoggedIn 으로 재로그인)
+        try {
+          await page.goto(`${KREAM_URL}/my`, { waitUntil: 'domcontentloaded', timeout: 15000 });
+          await delay(1500);
+          if (!page.url().includes('/my') || page.url().includes('login')) {
+            await ensureLoggedIn(page, ctx);
+          }
+        } catch (_) {
+          await ensureLoggedIn(page, ctx);
+        }
+      }
+
+      // chunk 내 targets 순회
+      for (let i = chunkStart; i < chunkEnd; i++) {
+        await processTarget(page, targets[i], results, skuCache, productMarketCache, i, targets.length);
+        await delay(800);
+      }
+
+      console.log(`✅ Chunk ${chunkIdx + 1} 완료  (누적 결과: ${results.length}/${targets.length})`);
+    } catch (e) {
+      console.error(`❌ Chunk ${chunkIdx + 1} 도중 치명적 에러: ${e.message}`);
+      console.error(e.stack);
+      // 이 chunk 에서 아직 results 에 들어가지 못한 미처리 타겟을 fail 로 기록.
+      // processTarget 는 항상 results 에 1건 push 하므로 results.length = 다음 처리할 인덱스.
+      for (let i = results.length; i < chunkEnd; i++) {
+        const t = targets[i];
+        results.push({
+          sku: t.sku, option: t.option, eur_price: t.eur_price ?? null,
+          matched: false, error: `chunk crash: ${e.message.slice(0, 100)}`,
+        });
+      }
+    } finally {
+      if (ctx) await ctx.close().catch(() => {});
+    }
+
+    // chunk 마다 incremental save → 다음 chunk 가 죽어도 진행분 보존
+    saveProgress();
+
+    // 마지막 chunk 가 아니면 잠깐 쉬고 다음 chunk 진행 (chromium 리소스 정리 시간)
+    if (chunkIdx < totalChunks - 1) await delay(3000);
   }
+
+  const matched = results.filter((r) => r.matched).length;
+  const failed = results.filter((r) => !r.matched).length;
+  console.log(`\n${'═'.repeat(60)}`);
+  console.log(`📁 저장 완료: ${outFile}`);
+  console.log(`   매칭 성공: ${matched}개, 실패: ${failed}개  (전체 ${targets.length})`);
 }
 
 main();
