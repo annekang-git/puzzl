@@ -86,13 +86,57 @@ function runQuiet(cmd, args, opts = {}) {
   return { ok: r.status === 0, stdout: r.stdout || '', stderr: r.stderr || '' };
 }
 
-// ── 1) targets 재빌드 ────────────────────────────
-console.log(`\n${'='.repeat(60)}\n📅 KREAM 일일 갱신  ${new Date().toISOString()}  tag=${DATE_TAG}\n${'='.repeat(60)}`);
-const specs = BRANDS.map((b) => `${b.dresscode}:${b.slug}`);
-run('node', ['build-targets-by-brand.js', ...specs]);
+// ── Slack 알림 ────────────────────────────────────
+const SLACK_WEBHOOK = process.env.SLACK_WEBHOOK_URL;
+async function sendSlack(text) {
+  if (!SLACK_WEBHOOK) {
+    console.log('   (SLACK_WEBHOOK_URL 없음 — 알림 생략)');
+    return;
+  }
+  try {
+    const r = await fetch(SLACK_WEBHOOK, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text }),
+    });
+    if (!r.ok) console.error(`   ⚠️  Slack 전송 실패: HTTP ${r.status}`);
+    else      console.log(`   📨 Slack 알림 전송됨`);
+  } catch (e) {
+    console.error(`   ⚠️  Slack 전송 에러: ${e.message}`);
+  }
+}
+
+function buildSummaryMessage(summary, pushOk, pushNote) {
+  const lines = [`*🎯 KREAM 일일 갱신* — \`${DATE_TAG}\``, ''];
+  for (const s of summary) {
+    if (s.ok && s.total != null) {
+      const pct = (s.matched / s.total * 100).toFixed(1);
+      lines.push(`✅ *${s.brand}*: ${s.matched}/${s.total} 매칭 (${pct}%)`);
+    } else if (s.ok) {
+      lines.push(`✅ *${s.brand}*: 완료`);
+    } else {
+      lines.push(`❌ *${s.brand}*: ${s.reason}`);
+    }
+  }
+  lines.push('');
+  if (pushOk === true)  lines.push(`📤 git push 완료 — <https://puzzl-kream-ui.onrender.com|대시보드>`);
+  else if (pushOk === 'skip') lines.push(`⏭ 변경사항 없음 — push 생략`);
+  else if (pushOk === false)  lines.push(`⚠️ push 실패: ${pushNote || ''}`);
+  return lines.join('\n');
+}
+
+// ── main flow (try/catch 로 감싸 Slack 알림 보장) ──
+const summary = [];
+let pushStatus = null;  // true | false | 'skip'
+let pushNote = '';
+
+try {
+  // ── 1) targets 재빌드 ──
+  console.log(`\n${'='.repeat(60)}\n📅 KREAM 일일 갱신  ${new Date().toISOString()}  tag=${DATE_TAG}\n${'='.repeat(60)}`);
+  const specs = BRANDS.map((b) => `${b.dresscode}:${b.slug}`);
+  run('node', ['build-targets-by-brand.js', ...specs]);
 
 // ── 2) 브랜드별 fetch ────────────────────────────
-const summary = [];
 for (const b of BRANDS) {
   console.log(`\n\n${'─'.repeat(60)}\n🏷  ${b.dresscode} → ${b.slug}\n${'─'.repeat(60)}`);
   try {
@@ -150,17 +194,29 @@ for (const s of summary) {
   else      console.log(`  ❌ ${s.brand}: ${s.reason}`);
 }
 
-// ── 5) git commit & push ─────────────────────────
-console.log(`\n${'─'.repeat(60)}\n📤 git commit & push\n${'─'.repeat(60)}`);
-const status = runQuiet('git', ['status', '--porcelain', 'kream/results/'], { cwd: REPO_ROOT });
-if (!status.stdout.trim()) {
-  console.log('변경된 결과 파일 없음 — commit 생략');
-  process.exit(0);
+  // ── 5) git commit & push ──
+  console.log(`\n${'─'.repeat(60)}\n📤 git commit & push\n${'─'.repeat(60)}`);
+  const status = runQuiet('git', ['status', '--porcelain', 'kream/results/'], { cwd: REPO_ROOT });
+  if (!status.stdout.trim()) {
+    console.log('변경된 결과 파일 없음 — commit 생략');
+    pushStatus = 'skip';
+  } else {
+    console.log(status.stdout);
+    run('git', ['add', 'kream/results/'], { cwd: REPO_ROOT });
+    run('git', ['commit', '-m', `chore(kream): daily update ${DATE_TAG}`], { cwd: REPO_ROOT });
+    run('git', ['push'], { cwd: REPO_ROOT });
+    pushStatus = true;
+  }
+} catch (e) {
+  pushStatus = false;
+  pushNote = e.message.slice(0, 200);
+  console.error(`\n❌ 치명적 에러: ${e.message}`);
+  console.error(e.stack);
 }
-console.log(status.stdout);
 
-run('git', ['add', 'kream/results/'], { cwd: REPO_ROOT });
-run('git', ['commit', '-m', `chore(kream): daily update ${DATE_TAG}`], { cwd: REPO_ROOT });
-run('git', ['push'], { cwd: REPO_ROOT });
+// ── 6) Slack 알림 (성공이든 실패든 항상 전송) ──
+console.log(`\n${'─'.repeat(60)}\n📨 Slack 알림\n${'─'.repeat(60)}`);
+await sendSlack(buildSummaryMessage(summary, pushStatus, pushNote));
 
-console.log(`\n✅ 완료 ${new Date().toISOString()}`);
+console.log(`\n${pushStatus === false ? '❌' : '✅'} 완료 ${new Date().toISOString()}`);
+process.exit(pushStatus === false ? 1 : 0);
