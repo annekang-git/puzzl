@@ -28,7 +28,7 @@ const BRANDS = [
   { dresscode: 'THOM BROWNE',  slug: 'tombrown' },
   { dresscode: 'PRADA',         slug: 'prada' },
 ];
-const KEEP_DAYS = 7; // 브랜드당 최근 N개 결과만 유지
+const KEEP_DAYS = 3; // 브랜드당 최근 N개 결과만 유지 (cleanup-old-results.js 와 일치)
 
 // ── .env 로드 ─────────────────────────────────────
 const envFile = path.join(__dirname, '.env');
@@ -171,21 +171,11 @@ for (const b of BRANDS) {
   }
 }
 
-// ── 3) 결과 파일 rotation (브랜드당 KEEP_DAYS 개만 유지) ─────
-console.log(`\n${'─'.repeat(60)}\n🗑  rotation — 브랜드당 최근 ${KEEP_DAYS}개만 유지\n${'─'.repeat(60)}`);
-for (const b of BRANDS) {
-  const re = new RegExp(`^kream_market_${b.slug}_\\d{4}\\.json$`);
-  const files = fs.readdirSync(RESULTS_DIR)
-    .filter((f) => re.test(f))
-    .map((f) => ({ f, t: fs.statSync(path.join(RESULTS_DIR, f)).mtimeMs }))
-    .sort((a, c) => c.t - a.t);
-  while (files.length > KEEP_DAYS) {
-    const old = files.pop();
-    fs.unlinkSync(path.join(RESULTS_DIR, old.f));
-    console.log(`   - ${old.f}`);
-  }
-  console.log(`   ${b.slug}: ${Math.min(files.length, KEEP_DAYS)}개 유지`);
-}
+// ── 3) 결과 파일 정리 (cleanup-old-results.js 호출) ─────
+//    - 브랜드별 최근 KEEP_DAYS 일치만 유지
+//    - orphan raw partial 파일 (rename 안 된 crash 잔재) 삭제
+console.log(`\n${'─'.repeat(60)}\n🗑  결과 파일 정리\n${'─'.repeat(60)}`);
+run('node', ['cleanup-old-results.js', `--keep=${KEEP_DAYS}`]);
 
 // ── 4) 요약 출력 ─────────────────────────────────
 console.log(`\n${'='.repeat(60)}\n📊 요약\n${'='.repeat(60)}`);
