@@ -637,6 +637,21 @@ async function main() {
   const skuCache = new Map();         // SKU → product_id
   const productMarketCache = new Map(); // product_id → 옵션별 시세
 
+  // ── chromium IPC 충돌 (Playwright pipeTransport SyntaxError) 대응 ──
+  // chromium 서브프로세스가 잘린 JSON 응답 보내면 uncaughtException 으로 올라와 process 강제 종료.
+  // 핸들러 등록 → Node 가 죽지 않음 → flag 만 세팅 → chunk loop 가 감지해서 현재 chunk 중단,
+  // 다음 chunk 에서 새 context 로 깨끗하게 재시작.
+  let browserCrashed = false;
+  process.on('uncaughtException', (err) => {
+    console.error(`⚠️ uncaughtException — chromium IPC 충돌 추정: ${(err.message || String(err)).slice(0, 200)}`);
+    browserCrashed = true;
+  });
+  process.on('unhandledRejection', (err) => {
+    const msg = err?.message || String(err);
+    console.error(`⚠️ unhandledRejection: ${msg.slice(0, 200)}`);
+    if (/JSON|pipe|Target closed|browser has been closed/i.test(msg)) browserCrashed = true;
+  });
+
   // 결과 파일을 미리 정해두고 chunk 마다 덮어쓰기 (incremental save)
   const outFile = path.join(RESULTS_DIR, `kream_market_${nowKstStamp()}.json`);
   const saveProgress = () => {
@@ -655,6 +670,9 @@ async function main() {
     const chunkStart = chunkIdx * chunkSize;
     const chunkEnd = Math.min(chunkStart + chunkSize, targets.length);
     console.log(`\n${'═'.repeat(60)}\n📦 Chunk ${chunkIdx + 1}/${totalChunks}  (targets ${chunkStart + 1}-${chunkEnd}/${targets.length})\n${'═'.repeat(60)}`);
+
+    // chunk 시작 — 이전 chunk 의 crash 플래그 리셋
+    browserCrashed = false;
 
     let ctx, page;
     try {
@@ -677,13 +695,29 @@ async function main() {
         }
       }
 
-      // chunk 내 targets 순회
+      // chunk 내 targets 순회 — chromium IPC 충돌 감지 시 즉시 중단하고 나머지는 fail 마킹
       for (let i = chunkStart; i < chunkEnd; i++) {
+        if (browserCrashed) {
+          console.log(`   ⏭  browser crash 감지 — chunk 잔여 타겟 fail 마킹 후 다음 chunk 로`);
+          break;
+        }
         await processTarget(page, targets[i], results, skuCache, productMarketCache, i, targets.length);
         await delay(800);
       }
 
-      console.log(`✅ Chunk ${chunkIdx + 1} 완료  (누적 결과: ${results.length}/${targets.length})`);
+      if (browserCrashed) {
+        // 남은 타겟을 fail 로 채워서 results.length 일치시킴
+        for (let i = results.length; i < chunkEnd; i++) {
+          const t = targets[i];
+          results.push({
+            sku: t.sku, option: t.option, eur_price: t.eur_price ?? null,
+            matched: false, error: 'chromium IPC 충돌로 skip (다음 chunk 에서 새 context 재시작)',
+          });
+        }
+        console.log(`⚠️ Chunk ${chunkIdx + 1} crash 회복  (누적 결과: ${results.length}/${targets.length})`);
+      } else {
+        console.log(`✅ Chunk ${chunkIdx + 1} 완료  (누적 결과: ${results.length}/${targets.length})`);
+      }
     } catch (e) {
       console.error(`❌ Chunk ${chunkIdx + 1} 도중 치명적 에러: ${e.message}`);
       console.error(e.stack);
