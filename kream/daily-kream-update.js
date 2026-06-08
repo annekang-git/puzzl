@@ -27,6 +27,7 @@ const BRANDS = [
   { dresscode: 'STONE ISLAND', slug: 'stoneisland' },
   { dresscode: 'THOM BROWNE',  slug: 'tombrown' },
   { dresscode: 'PRADA',         slug: 'prada' },
+  { dresscode: 'BALENCIAGA',    slug: 'balenciaga' },
 ];
 const KEEP_DAYS = 3; // 브랜드당 최근 N개 결과만 유지 (cleanup-old-results.js 와 일치)
 
