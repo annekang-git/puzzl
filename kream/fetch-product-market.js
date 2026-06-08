@@ -572,7 +572,7 @@ async function processTarget(page, t, results, skuCache, productMarketCache, i, 
   if (resolved.error) {
     console.log(`   ❌ ${resolved.error}`);
     results.push({
-      sku: t.sku, option: t.option, eur_price: t.eur_price ?? null,
+      sku: t.sku, option: t.option, stock: t.stock ?? null, eur_price: t.eur_price ?? null,
       matched: false, error: resolved.error, candidates: resolved.candidates,
     });
     return;
@@ -594,7 +594,7 @@ async function processTarget(page, t, results, skuCache, productMarketCache, i, 
       `(${market.totals.sales}/${market.totals.asks}/${market.totals.bids})`
     );
     results.push({
-      sku: t.sku, option: t.option, eur_price: t.eur_price ?? null,
+      sku: t.sku, option: t.option, stock: t.stock ?? null, eur_price: t.eur_price ?? null,
       matched: true, product_id: resolved.product_id,
       product_name_ko: resolved.product_name_ko || null,
       product_url: `${KREAM_URL}/products/${resolved.product_id}`,
@@ -603,7 +603,7 @@ async function processTarget(page, t, results, skuCache, productMarketCache, i, 
   } catch (e) {
     console.log(`   ❌ fetchMarketData 실패: ${e.message}`);
     results.push({
-      sku: t.sku, option: t.option, eur_price: t.eur_price ?? null,
+      sku: t.sku, option: t.option, stock: t.stock ?? null, eur_price: t.eur_price ?? null,
       matched: false, product_id: resolved.product_id,
       error: `fetchMarketData: ${e.message}`,
     });
@@ -710,7 +710,7 @@ async function main() {
         for (let i = results.length; i < chunkEnd; i++) {
           const t = targets[i];
           results.push({
-            sku: t.sku, option: t.option, eur_price: t.eur_price ?? null,
+            sku: t.sku, option: t.option, stock: t.stock ?? null, eur_price: t.eur_price ?? null,
             matched: false, error: 'chromium IPC 충돌로 skip (다음 chunk 에서 새 context 재시작)',
           });
         }
@@ -726,7 +726,7 @@ async function main() {
       for (let i = results.length; i < chunkEnd; i++) {
         const t = targets[i];
         results.push({
-          sku: t.sku, option: t.option, eur_price: t.eur_price ?? null,
+          sku: t.sku, option: t.option, stock: t.stock ?? null, eur_price: t.eur_price ?? null,
           matched: false, error: `chunk crash: ${e.message.slice(0, 100)}`,
         });
       }

@@ -299,6 +299,7 @@ function render() {
       switch (SORT_KEY) {
         case 'sku': return r.sku || '';
         case 'option': return r.option || '';
+        case 'stock': return r.stock ?? -1;
         case 'eur': return r.eur_price ?? -1;
         case 'cost': return r._margin?.cost ?? -1;
         case 'last': return r.market?.last_sale_price ?? -1;
@@ -326,6 +327,7 @@ function render() {
   let html = '<table><thead><tr>';
   html += ths('sku', 'SKU');
   html += ths('option', '옵션');
+  html += ths('stock', '재고');
   html += '<th>상품명</th>';
   html += ths('eur', 'EUR');
   html += ths('cost', '원가(₩)');
@@ -338,7 +340,7 @@ function render() {
   html += '</tr></thead><tbody>';
 
   if (rows.length === 0) {
-    html += '<tr><td colspan="11" class="empty">표시할 행이 없습니다</td></tr>';
+    html += '<tr><td colspan="12" class="empty">표시할 행이 없습니다</td></tr>';
   } else {
     const REASON_LABEL = {
       noEur: '<span class="badge warn">EUR가격없음</span>',
@@ -350,6 +352,7 @@ function render() {
         html += '<tr>';
         html += '<td class="sku">' + escapeHtml(r.sku) + '</td>';
         html += '<td>' + escapeHtml(r.option || '-') + '</td>';
+        html += '<td class="num">' + (r.stock != null ? r.stock : '-') + '</td>';
         html += '<td colspan="8"><span class="badge error">매칭 실패</span> ' + escapeHtml(r.error || '') + '</td>';
         html += '<td>-</td>';
         html += '</tr>';
@@ -380,9 +383,14 @@ function render() {
       } else {
         marginCell = '<span class="badge warn">계산불가</span>';
       }
+      // 재고 셀 — 숫자로 표시, 1 이하면 빨간색 강조
+      const stockCell = r.stock != null
+        ? '<span style="' + (r.stock <= 1 ? 'color:#cc3344;font-weight:600;' : '') + '">' + r.stock + '</span>'
+        : '-';
       html += '<tr>';
       html += '<td class="sku" title="B2B: ' + escapeHtml(r.b2b_sku || '-') + '">' + escapeHtml(r.sku) + '</td>';
       html += '<td>' + optionCell + '</td>';
+      html += '<td class="num">' + stockCell + '</td>';
       html += '<td class="name"><a href="' + (r.product_url || '#') + '" target="_blank">' + escapeHtml(r.product_name_ko || r.name || ('pid=' + r.product_id)) + '</a></td>';
       html += '<td class="num">' + (r.eur_price != null ? fmt(r.eur_price) + '€' : '-') + '</td>';
       html += '<td class="num">' + (r.eur_price != null ? fmt(Math.round(r.eur_price * eurRate)) : '-') + '</td>';
