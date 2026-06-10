@@ -158,6 +158,7 @@ const HTML = `<!DOCTYPE html>
     <div class="control-group">
       <label>마진 기준</label>
       <select id="margin-basis" onchange="render()">
+        <option value="honey">🍯 꿀단지 (Honey Pot)</option>
         <option value="bid">즉시 매도 (highest_bid)</option>
         <option value="ask">최저호가 매칭 (lowest_ask - 100)</option>
         <option value="sale">최근 체결가 (last_sale)</option>
@@ -217,6 +218,12 @@ function computeMargin(row, eurRate, feePct, basis) {
     sellPrice = row.market?.highest_bid; basisLabel = '즉시매도';
   } else if (basis === 'ask') {
     sellPrice = row.market?.lowest_ask != null ? row.market.lowest_ask - 100 : null; basisLabel = '최저호가';
+  } else if (basis === 'honey') {
+    // 🍯 꿀단지: 마진 계산은 최저호가 - 100 우선, 없으면 체결가, 없으면 입찰가
+    // (실제 판매 가능성에 가까운 기준)
+    if (row.market?.lowest_ask != null) { sellPrice = row.market.lowest_ask - 100; basisLabel = '최저호가'; }
+    else if (row.market?.last_sale_price != null) { sellPrice = row.market.last_sale_price; basisLabel = '최근체결'; }
+    else { sellPrice = row.market?.highest_bid; basisLabel = '입찰'; }
   } else {
     sellPrice = row.market?.last_sale_price; basisLabel = '최근체결';
   }
@@ -293,27 +300,63 @@ function render() {
     rows = rows.filter((r) => r._margin && typeof r._margin.pct === 'number' && r._margin.pct >= min);
   }
 
-  // 정렬
-  rows.sort((a, b) => {
-    const get = (r) => {
-      switch (SORT_KEY) {
-        case 'sku': return r.sku || '';
-        case 'option': return r.option || '';
-        case 'stock': return r.stock ?? -1;
-        case 'eur': return r.eur_price ?? -1;
-        case 'cost': return r._margin?.cost ?? -1;
-        case 'last': return r.market?.last_sale_price ?? -1;
-        case 'ask': return r.market?.lowest_ask ?? -1;
-        case 'bid': return r.market?.highest_bid ?? -1;
-        case 'margin': return r._margin?.pct ?? -Infinity;
-        case 'profit': return r._margin?.profit ?? -Infinity;
-        default: return 0;
-      }
-    };
-    const av = get(a), bv = get(b);
-    if (typeof av === 'number') return SORT_DESC ? bv - av : av - bv;
-    return SORT_DESC ? String(bv).localeCompare(String(av)) : String(av).localeCompare(String(bv));
-  });
+  // 정렬 — basis 가 'honey' 이고 SORT_KEY 가 'margin' 이면 특수 multi-tier 정렬
+  // (헤더 클릭으로 다른 컬럼 정렬할 땐 일반 정렬 적용)
+  if (basis === 'honey' && SORT_KEY === 'margin') {
+    // Tier 부여:
+    //   1 = 양수 마진 (초록)
+    //   2 = 판매호가 없고 구매입찰만 있는 것 (마진 부호 무관)
+    //   3 = 음수 마진인데 구매입찰은 있는 것
+    //   4 = 입찰도 호가도 없거나, 마진 계산 불가
+    rows.forEach((r) => {
+      const m = r._margin;
+      const hasBid = r.market?.highest_bid != null && r.market.highest_bid > 0;
+      const hasAsk = r.market?.lowest_ask != null && r.market.lowest_ask > 0;
+      const pct = (m && typeof m.pct === 'number') ? m.pct : null;
+      const cost = m?.cost ?? null;
+      const bidGap = (hasBid && cost != null) ? Math.abs(cost - r.market.highest_bid) : Infinity;
+
+      let tier;
+      if (pct != null && pct >= 0)              tier = 1;
+      else if (!hasAsk && hasBid)               tier = 2;
+      else if (pct != null && pct < 0 && hasBid) tier = 3;
+      else                                       tier = 4;
+      r._honeyTier = tier;
+      r._honeyBidGap = bidGap;
+      r._honeyPct = pct;
+    });
+    rows.sort((a, b) => {
+      // 1. tier 작은 게 먼저
+      if (a._honeyTier !== b._honeyTier) return a._honeyTier - b._honeyTier;
+      // 2. tier 1: 마진 % 내림차순
+      if (a._honeyTier === 1) return (b._honeyPct ?? -Infinity) - (a._honeyPct ?? -Infinity);
+      // 3. tier 2, 3: |원가 - 입찰가| 작은 순 (오름차순)
+      if (a._honeyTier === 2 || a._honeyTier === 3) return a._honeyBidGap - b._honeyBidGap;
+      // 4. tier 4: 마진 큰 순 (있으면)
+      return (b._honeyPct ?? -Infinity) - (a._honeyPct ?? -Infinity);
+    });
+  } else {
+    rows.sort((a, b) => {
+      const get = (r) => {
+        switch (SORT_KEY) {
+          case 'sku': return r.sku || '';
+          case 'option': return r.option || '';
+          case 'stock': return r.stock ?? -1;
+          case 'eur': return r.eur_price ?? -1;
+          case 'cost': return r._margin?.cost ?? -1;
+          case 'last': return r.market?.last_sale_price ?? -1;
+          case 'ask': return r.market?.lowest_ask ?? -1;
+          case 'bid': return r.market?.highest_bid ?? -1;
+          case 'margin': return r._margin?.pct ?? -Infinity;
+          case 'profit': return r._margin?.profit ?? -Infinity;
+          default: return 0;
+        }
+      };
+      const av = get(a), bv = get(b);
+      if (typeof av === 'number') return SORT_DESC ? bv - av : av - bv;
+      return SORT_DESC ? String(bv).localeCompare(String(av)) : String(av).localeCompare(String(bv));
+    });
+  }
 
   document.getElementById('stat-total').textContent = (RAW.results || []).length;
   document.getElementById('stat-shown').textContent = rows.length;
