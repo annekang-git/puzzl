@@ -315,6 +315,10 @@ function render() {
       const pct = (m && typeof m.pct === 'number') ? m.pct : null;
       const cost = m?.cost ?? null;
       const bidGap = (hasBid && cost != null) ? Math.abs(cost - r.market.highest_bid) : Infinity;
+      // 즉시매도(highest_bid) 기준 마진 % — tier 1 정렬에 사용
+      const bidPct = (hasBid && cost != null && cost > 0)
+        ? ((r.market.highest_bid * (1 - feePct / 100)) - cost) / cost * 100
+        : null;
 
       let tier;
       if (pct != null && pct >= 0)              tier = 1;
@@ -324,12 +328,18 @@ function render() {
       r._honeyTier = tier;
       r._honeyBidGap = bidGap;
       r._honeyPct = pct;
+      r._honeyBidPct = bidPct;
     });
     rows.sort((a, b) => {
       // 1. tier 작은 게 먼저
       if (a._honeyTier !== b._honeyTier) return a._honeyTier - b._honeyTier;
-      // 2. tier 1: 마진 % 내림차순
-      if (a._honeyTier === 1) return (b._honeyPct ?? -Infinity) - (a._honeyPct ?? -Infinity);
+      // 2. tier 1: 즉시매도(highest_bid) 기준 마진 큰 순.
+      //    bid 없는 항목은 honey 마진 fallback (그래도 없으면 맨 아래).
+      if (a._honeyTier === 1) {
+        const av = a._honeyBidPct ?? a._honeyPct ?? -Infinity;
+        const bv = b._honeyBidPct ?? b._honeyPct ?? -Infinity;
+        return bv - av;
+      }
       // 3. tier 2, 3: |원가 - 입찰가| 작은 순 (오름차순)
       if (a._honeyTier === 2 || a._honeyTier === 3) return a._honeyBidGap - b._honeyBidGap;
       // 4. tier 4: 마진 큰 순 (있으면)
