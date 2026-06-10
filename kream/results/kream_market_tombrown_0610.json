@@ -1,13 +1,14 @@
 {
-  "fetched_at": "2026-06-06T20:46:43.436Z",
+  "fetched_at": "2026-06-09T20:48:12.402Z",
   "input_file": "targets-tombrown.json",
-  "total_targets": 152,
-  "matched": 117,
-  "failed": 35,
+  "total_targets": 147,
+  "matched": 113,
+  "failed": 34,
   "results": [
     {
       "sku": "FFD104B07524001",
       "option": "39.5",
+      "stock": 1,
       "eur_price": 326.43,
       "matched": true,
       "product_id": 53957,
@@ -35,6 +36,7 @@
     {
       "sku": "MWL010E03113100",
       "option": "2",
+      "stock": 2,
       "eur_price": 245.9,
       "matched": true,
       "product_id": 37599,
@@ -43,7 +45,7 @@
       "market": {
         "last_sale_price": 420000,
         "lowest_ask": 420000,
-        "highest_bid": 280000,
+        "highest_bid": null,
         "change_text": "▲ 60,000원(+16.7%)"
       },
       "sales": [
@@ -175,17 +177,11 @@
           "quantity": 1
         }
       ],
-      "bids": [
-        {
-          "price": 280000,
-          "option": "2",
-          "quantity": 1
-        }
-      ],
+      "bids": [],
       "totals": {
         "sales": 10,
         "asks": 11,
-        "bids": 1
+        "bids": 0
       },
       "raw_chart_recently": {
         "text": ";tl_0;",
@@ -225,6 +221,7 @@
     {
       "sku": "MWL010E03113100",
       "option": "3",
+      "stock": 1,
       "eur_price": 245.9,
       "matched": true,
       "product_id": 37599,
@@ -386,17 +383,12 @@
           "price": 575000,
           "option": "3",
           "quantity": 1
-        },
-        {
-          "price": 579000,
-          "option": "3",
-          "quantity": 1
         }
       ],
       "bids": [],
       "totals": {
         "sales": 14,
-        "asks": 11,
+        "asks": 10,
         "bids": 0
       },
       "raw_chart_recently": {
@@ -437,6 +429,7 @@
     {
       "sku": "MWL010E03113100",
       "option": "4",
+      "stock": 2,
       "eur_price": 245.9,
       "matched": true,
       "product_id": 37599,
@@ -631,11 +624,6 @@
           "price": 575000,
           "option": "4",
           "quantity": 1
-        },
-        {
-          "price": 579000,
-          "option": "4",
-          "quantity": 1
         }
       ],
       "bids": [
@@ -652,7 +640,7 @@
       ],
       "totals": {
         "sales": 18,
-        "asks": 12,
+        "asks": 11,
         "bids": 2
       },
       "raw_chart_recently": {
@@ -693,6 +681,7 @@
     {
       "sku": "MJS010A01454100",
       "option": "4",
+      "stock": 3,
       "eur_price": 168.04,
       "matched": true,
       "product_id": 67414,
@@ -700,8 +689,8 @@
       "product_url": "https://kream.co.kr/products/67414",
       "market": {
         "last_sale_price": 258000,
-        "lowest_ask": 259000,
-        "highest_bid": 250000,
+        "lowest_ask": 258000,
+        "highest_bid": 141000,
         "change_text": "▲ 3,000원(+1.2%)"
       },
       "sales": [
@@ -799,9 +788,14 @@
       ],
       "asks": [
         {
+          "price": 258000,
+          "option": "4",
+          "quantity": 2
+        },
+        {
           "price": 259000,
           "option": "4",
-          "quantity": 3
+          "quantity": 1
         },
         {
           "price": 260000,
@@ -854,11 +848,6 @@
           "quantity": 1
         },
         {
-          "price": 349000,
-          "option": "4",
-          "quantity": 2
-        },
-        {
           "price": 353000,
           "option": "4",
           "quantity": 1
@@ -881,17 +870,7 @@
       ],
       "bids": [
         {
-          "price": 250000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
           "price": 141000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 140000,
           "option": "4",
           "quantity": 1
         }
@@ -899,7 +878,7 @@
       "totals": {
         "sales": 13,
         "asks": 16,
-        "bids": 3
+        "bids": 1
       },
       "raw_chart_recently": {
         "text": ";tl_0;",
@@ -940,6 +919,7 @@
     {
       "sku": "MJS010A01454100",
       "option": "5",
+      "stock": 1,
       "eur_price": 168.04,
       "matched": true,
       "product_id": 67414,
@@ -1127,6 +1107,7 @@
     {
       "sku": "MAC019LL0044415",
       "option": "U",
+      "stock": 3,
       "eur_price": 377.05,
       "matched": true,
       "product_id": 209396,
@@ -1154,7 +1135,8 @@
     {
       "sku": "MJT022H00535068",
       "option": "2",
-      "eur_price": 457.38,
+      "stock": 4,
+      "eur_price": 381.15,
       "matched": true,
       "product_id": 59015,
       "product_name_ko": "Thom Browne",
@@ -1162,7 +1144,7 @@
       "market": {
         "last_sale_price": 700000,
         "lowest_ask": 810000,
-        "highest_bid": 593000,
+        "highest_bid": 624000,
         "change_text": "▼ 103,000원(-12.8%)"
       },
       "sales": [
@@ -1229,12 +1211,12 @@
       ],
       "bids": [
         {
-          "price": 593000,
+          "price": 624000,
           "option": "2",
           "quantity": 1
         },
         {
-          "price": 592000,
+          "price": 623000,
           "option": "2",
           "quantity": 1
         },
@@ -1300,6 +1282,7 @@
     {
       "sku": "MKQ016AY2001415",
       "option": "3",
+      "stock": 1,
       "eur_price": 331.97,
       "matched": true,
       "product_id": 622414,
@@ -1327,6 +1310,7 @@
     {
       "sku": "MKQ016AY2001415",
       "option": "4",
+      "stock": 1,
       "eur_price": 331.97,
       "matched": true,
       "product_id": 622414,
@@ -1354,6 +1338,7 @@
     {
       "sku": "MKQ016AY2001415",
       "option": "5",
+      "stock": 1,
       "eur_price": 331.97,
       "matched": true,
       "product_id": 622414,
@@ -1381,6 +1366,7 @@
     {
       "sku": "MKC160A00014415",
       "option": "3",
+      "stock": 3,
       "eur_price": 659.02,
       "matched": true,
       "product_id": 455017,
@@ -1592,6 +1578,7 @@
     {
       "sku": "MJT545AJ0233415",
       "option": "3",
+      "stock": 1,
       "eur_price": 676.23,
       "matched": true,
       "product_id": 672363,
@@ -1629,65 +1616,68 @@
     {
       "sku": "FBC947UF1063260",
       "option": "40 IT",
+      "stock": 1,
       "eur_price": 649.18,
       "matched": false,
       "error": "No KREAM match for SKU=\"FBC947UF1063260\" SPU=\"FBC947UF1063260\"",
       "candidates": [
         {
-          "product_id": 59014,
-          "text": "Thom Browne\n\n톰브라운 클래식 루프백 엔지니어드 사선 클래식 스웨트팬츠 네이비\n\n44%\n\n599,000원\n\n관심 541\n\n · 리뷰 132\n\n · 거래 720\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 325374,
+          "text": "Thom Browne\n\n톰브라운 모헤어 트위드 사선 클래식 브이넥 가디건 블루\n\n820,000원\n\n관심 104\n\n · 리뷰 4\n\n · 거래 14"
         },
         {
-          "product_id": 65483,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 크루넥 스웨트셔츠 미디움 그레이\n\n58%\n\n450,000원\n\n관심 66\n\n · 거래 15"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 64731,
-          "text": "Thom Browne\n\n톰브라운 오픈 라셀 스티치 사선 스웨트셔츠 화이트\n\n28%\n\n905,000원\n\n관심 105\n\n · 리뷰 1\n\n · 거래 14"
+          "product_id": 317709,
+          "text": "Thom Browne\n\n톰브라운 모헤어 트위드 사선 클래식 브이넥 가디건 라이트 그레이\n\n51%\n\n898,000원\n\n관심 149\n\n · 리뷰 8\n\n · 거래 20"
         },
         {
-          "product_id": 322949,
-          "text": "Thom Browne\n\n톰브라운 사선 애슬레틱 미드 카프 삭스 블랙\n\n63%\n\n98,000원\n\n관심 18\n\n · 거래 1"
+          "product_id": 102565,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 암밴드 후디 라이트 그레이\n\n66%\n\n885,000원\n\n관심 172\n\n · 리뷰 2\n\n · 거래 47"
         },
         {
-          "product_id": 67415,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 크루넥 스웨트셔츠 네이비\n\n49%\n\n549,000원\n\n관심 81\n\n · 리뷰 3\n\n · 거래 11"
+          "product_id": 321223,
+          "text": "Thom Browne\n\n톰브라운 캐시미어 암밴드 집업 후디 네이비\n\n32%\n\n2,258,000원\n\n관심 12\n\n · 리뷰 1\n\n · 거래 1"
         }
       ]
     },
     {
       "sku": "UAW085A00198250",
       "option": "U",
+      "stock": 4,
       "eur_price": 144.26,
       "matched": false,
       "error": "No KREAM match for SKU=\"UAW085A00198250\" SPU=\"UAW085A00198250\"",
       "candidates": [
         {
-          "product_id": 51275,
-          "text": "Thom Browne\n\n톰브라운 스트라이프 스웨트팬츠 라이트 그레이\n\n53%\n\n590,000원\n\n관심 76\n\n · 리뷰 2\n\n · 거래 16\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 36939,
-          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 스트라이프 노트 컴파트먼트 카드 홀더 블랙\n\n213,000원\n\n관심 1.7만\n\n · 리뷰 825\n\n · 거래 1.1만\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 63838,
+          "text": "Thom Browne\n\n톰브라운 코튼 헥터 자카드 백 사선 후드 집업 네이비\n\n30%\n\n1,732,000원\n\n관심 41\n\n · 리뷰 1\n\n · 거래 4"
         },
         {
-          "product_id": 229176,
-          "text": "Thom Browne\n\n톰브라운 울 플란넬 클리어 솔 테크 러너 미디움 그레이\n\n47%\n\n625,000원\n\n관심 31\n\n · 거래 12"
+          "product_id": 102566,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 암밴드 후디 네이비\n\n47%\n\n1,398,000원\n\n관심 1,893\n\n · 리뷰 24\n\n · 거래 269"
         },
         {
-          "product_id": 72123,
-          "text": "Thom Browne\n\n톰브라운 립스탑 메쉬 사선 후드 자켓 미디움 그레이\n\n2,490,000원\n\n관심 586\n\n · 리뷰 4\n\n · 거래 75"
+          "product_id": 176919,
+          "text": "Thom Browne\n\n톰브라운 코튼 캐시미어 인터락 사선 폴로 칼라 자켓 미디움 그레이\n\n63%\n\n2,492,000원\n\n관심 46"
         },
         {
-          "product_id": 44681,
-          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 스트라이프 노트 컴파트먼트 카드 홀더 블랙\n\n230,000원\n\n관심 4,539\n\n · 리뷰 235\n\n · 거래 2,418\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 773200,
+          "text": "Thom Browne Vintage\n\n톰브라운 MJT006AK8 네이비 4바 남여공용 롱슬리브 티셔츠aa59928\n\n443,000원\n\n관심 31\n\n무료배송"
         }
       ]
     },
     {
       "sku": "MKA581AY3014100",
       "option": "3",
-      "eur_price": 431.56,
+      "stock": 1,
+      "eur_price": 424.18,
       "matched": true,
       "product_id": 815670,
       "product_name_ko": "Thom Browne",
@@ -1733,6 +1723,7 @@
     {
       "sku": "MJP244EJ0251415",
       "option": "2",
+      "stock": 1,
       "eur_price": 284.02,
       "matched": true,
       "product_id": 815674,
@@ -1772,6 +1763,7 @@
     {
       "sku": "MJP244EJ0251415",
       "option": "3",
+      "stock": 2,
       "eur_price": 284.02,
       "matched": true,
       "product_id": 815674,
@@ -1791,7 +1783,7 @@
           "quantity": 2
         },
         {
-          "price": 1036000,
+          "price": 1493000,
           "option": "3",
           "quantity": 1
         }
@@ -1816,6 +1808,7 @@
     {
       "sku": "MJP244EJ0251415",
       "option": "4",
+      "stock": 1,
       "eur_price": 284.02,
       "matched": true,
       "product_id": 815674,
@@ -1835,7 +1828,7 @@
           "quantity": 2
         },
         {
-          "price": 1036000,
+          "price": 1493000,
           "option": "4",
           "quantity": 1
         }
@@ -1860,36 +1853,38 @@
     {
       "sku": "UAW090A00198001",
       "option": "U",
-      "eur_price": 189.34,
+      "stock": 5,
+      "eur_price": 157.78,
       "matched": false,
       "error": "No KREAM match for SKU=\"UAW090A00198001\" SPU=\"UAW090A00198001\"",
       "candidates": [
         {
-          "product_id": 36939,
-          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 스트라이프 노트 컴파트먼트 카드 홀더 블랙\n\n213,000원\n\n관심 1.7만\n\n · 리뷰 825\n\n · 거래 1.1만\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 110525,
-          "text": "Thom Browne\n\n톰브라운 캔버스 타르탄 트레드 컬리지에이트 로우탑 트레이너 화이트\n\n65%\n\n336,000원\n\n관심 106\n\n · 리뷰 3\n\n · 거래 28"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 44681,
-          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 스트라이프 노트 컴파트먼트 카드 홀더 블랙\n\n230,000원\n\n관심 4,539\n\n · 리뷰 235\n\n · 거래 2,418\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 829089,
+          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
         },
         {
-          "product_id": 59531,
-          "text": "Thom Browne\n\n톰브라운 RWB 컵솔 러버 카프스킨 트레이너 화이트\n\n56%\n\n498,000원\n\n관심 77\n\n · 거래 27"
+          "product_id": 822094,
+          "text": "Thom Browne\n\n톰브라운 싱글 카드 홀더 블랙\n\n297,000원"
         },
         {
-          "product_id": 63828,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 센터 백 스트라이프 후드 집업 네이비\n\n45%\n\n785,000원\n\n관심 1,770\n\n · 리뷰 99\n\n · 거래 473\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 764423,
+          "text": "Thom Browne\n\n톰브라운 헥터 인타르시아 메리노 집업 후드 네이비\n\n2,787,000원\n\n관심 15"
         }
       ]
     },
     {
       "sku": "MWL150EF0313100",
       "option": "1",
-      "eur_price": 275.41,
+      "stock": 4,
+      "eur_price": 233.6,
       "matched": true,
       "product_id": 206297,
       "product_name_ko": "Thom Browne",
@@ -1991,7 +1986,8 @@
     {
       "sku": "MWL150EF0313100",
       "option": "2",
-      "eur_price": 275.41,
+      "stock": 2,
+      "eur_price": 233.6,
       "matched": true,
       "product_id": 206297,
       "product_name_ko": "Thom Browne",
@@ -2115,7 +2111,8 @@
     {
       "sku": "MWL150EF0313100",
       "option": "3",
-      "eur_price": 275.41,
+      "stock": 4,
+      "eur_price": 233.6,
       "matched": true,
       "product_id": 206297,
       "product_name_ko": "Thom Browne",
@@ -2227,7 +2224,8 @@
     {
       "sku": "MWL150EF0313100",
       "option": "5",
-      "eur_price": 275.41,
+      "stock": 2,
+      "eur_price": 233.6,
       "matched": true,
       "product_id": 206297,
       "product_name_ko": "Thom Browne",
@@ -2381,6 +2379,7 @@
     {
       "sku": "MJQ008H00535068",
       "option": "4",
+      "stock": 1,
       "eur_price": 336.06,
       "matched": true,
       "product_id": 63498,
@@ -2537,6 +2536,7 @@
     {
       "sku": "MJQ008H00535068",
       "option": "5",
+      "stock": 2,
       "eur_price": 336.06,
       "matched": true,
       "product_id": 63498,
@@ -2544,19 +2544,19 @@
       "product_url": "https://kream.co.kr/products/63498",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 698000,
+        "lowest_ask": 697000,
         "highest_bid": 221000,
         "change_text": "▲ 4,000원(+0.7%)"
       },
       "sales": [],
       "asks": [
         {
-          "price": 698000,
+          "price": 697000,
           "option": "5",
           "quantity": 1
         },
         {
-          "price": 699000,
+          "price": 698000,
           "option": "5",
           "quantity": 1
         },
@@ -2628,6 +2628,7 @@
     {
       "sku": "MWL010EF0313480",
       "option": "1",
+      "stock": 2,
       "eur_price": 275.41,
       "matched": true,
       "product_id": 225857,
@@ -2720,6 +2721,7 @@
     {
       "sku": "MWL010EF0313480",
       "option": "2",
+      "stock": 3,
       "eur_price": 275.41,
       "matched": true,
       "product_id": 225857,
@@ -2905,6 +2907,7 @@
     {
       "sku": "MWL010EF0313480",
       "option": "3",
+      "stock": 1,
       "eur_price": 275.41,
       "matched": true,
       "product_id": 225857,
@@ -3100,6 +3103,7 @@
     {
       "sku": "MWL010EF0313480",
       "option": "4",
+      "stock": 3,
       "eur_price": 275.41,
       "matched": true,
       "product_id": 225857,
@@ -3163,7 +3167,7 @@
           "quantity": 1
         },
         {
-          "price": 520000,
+          "price": 509000,
           "option": "4",
           "quantity": 1
         },
@@ -3228,6 +3232,7 @@
     {
       "sku": "MWL010EF0313480",
       "option": "5",
+      "stock": 1,
       "eur_price": 275.41,
       "matched": true,
       "product_id": 225857,
@@ -3371,6 +3376,7 @@
     {
       "sku": "MJP193AJ0129100",
       "option": "4",
+      "stock": 1,
       "eur_price": 317.21,
       "matched": true,
       "product_id": 332574,
@@ -3395,7 +3401,12 @@
         {
           "price": 462000,
           "option": "4",
-          "quantity": 2
+          "quantity": 1
+        },
+        {
+          "price": 474000,
+          "option": "4",
+          "quantity": 1
         },
         {
           "price": 708000,
@@ -3406,7 +3417,7 @@
       "bids": [],
       "totals": {
         "sales": 1,
-        "asks": 2,
+        "asks": 3,
         "bids": 0
       },
       "raw_chart_recently": {
@@ -3447,7 +3458,8 @@
     {
       "sku": "MKA002AY1014058",
       "option": "1",
-      "eur_price": 422.13,
+      "stock": 1,
+      "eur_price": 430.33,
       "matched": true,
       "product_id": 94365,
       "product_name_ko": "Thom Browne",
@@ -3547,7 +3559,8 @@
     {
       "sku": "MKA002AY1014058",
       "option": "2",
-      "eur_price": 422.13,
+      "stock": 3,
+      "eur_price": 430.33,
       "matched": true,
       "product_id": 94365,
       "product_name_ko": "Thom Browne",
@@ -3640,7 +3653,7 @@
         {
           "price": 900000,
           "option": "2",
-          "quantity": 1
+          "quantity": 2
         },
         {
           "price": 1060000,
@@ -3704,6 +3717,7 @@
     {
       "sku": "MKA544AY3006055",
       "option": "3",
+      "stock": 1,
       "eur_price": 512.7,
       "matched": true,
       "product_id": 454887,
@@ -3723,6 +3737,11 @@
           "quantity": 1
         },
         {
+          "price": 1438000,
+          "option": "3",
+          "quantity": 1
+        },
+        {
           "price": 1658000,
           "option": "3",
           "quantity": 1
@@ -3737,7 +3756,7 @@
       ],
       "totals": {
         "sales": 0,
-        "asks": 2,
+        "asks": 3,
         "bids": 1
       },
       "raw_chart_recently": null,
@@ -3753,6 +3772,7 @@
     {
       "sku": "MTU335WF0576415",
       "option": "3",
+      "stock": 2,
       "eur_price": 282.78,
       "matched": true,
       "product_id": 558342,
@@ -3833,6 +3853,7 @@
     {
       "sku": "MTU335WF0576415",
       "option": "4",
+      "stock": 1,
       "eur_price": 282.78,
       "matched": true,
       "product_id": 558342,
@@ -3908,7 +3929,8 @@
     {
       "sku": "MJT554AJ0248415",
       "option": "2",
-      "eur_price": 474.59,
+      "stock": 1,
+      "eur_price": 395.49,
       "matched": true,
       "product_id": 829089,
       "product_name_ko": "Thom Browne",
@@ -3967,7 +3989,8 @@
     {
       "sku": "MJT554AJ0248415",
       "option": "4",
-      "eur_price": 474.59,
+      "stock": 1,
+      "eur_price": 395.49,
       "matched": true,
       "product_id": 829089,
       "product_name_ko": "Thom Browne",
@@ -3986,7 +4009,7 @@
           "quantity": 1
         },
         {
-          "price": 1275000,
+          "price": 1108000,
           "option": "4",
           "quantity": 1
         },
@@ -3996,12 +4019,17 @@
           "quantity": 1
         },
         {
-          "price": 1373000,
+          "price": 1395000,
           "option": "4",
           "quantity": 1
         },
         {
-          "price": 1395000,
+          "price": 1834000,
+          "option": "4",
+          "quantity": 1
+        },
+        {
+          "price": 2052000,
           "option": "4",
           "quantity": 1
         }
@@ -4009,7 +4037,7 @@
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 5,
+        "asks": 6,
         "bids": 0
       },
       "raw_chart_recently": null,
@@ -4025,7 +4053,8 @@
     {
       "sku": "MJT554AJ0248415",
       "option": "5",
-      "eur_price": 474.59,
+      "stock": 1,
+      "eur_price": 395.49,
       "matched": true,
       "product_id": 829089,
       "product_name_ko": "Thom Browne",
@@ -4044,12 +4073,12 @@
           "quantity": 1
         },
         {
-          "price": 1380000,
+          "price": 1319000,
           "option": "5",
-          "quantity": 2
+          "quantity": 1
         },
         {
-          "price": 1381000,
+          "price": 1379000,
           "option": "5",
           "quantity": 1
         },
@@ -4078,35 +4107,37 @@
     {
       "sku": "FAS020B01690450",
       "option": "U",
+      "stock": 3,
       "eur_price": 69.67,
       "matched": false,
       "error": "No KREAM match for SKU=\"FAS020B01690450\" SPU=\"FAS020B01690450\"",
       "candidates": [
         {
-          "product_id": 177419,
-          "text": "Thom Browne\n\n톰브라운 셰틀랜드 울 래글런 사선 크루넥 풀오버 화이트\n\n44%\n\n874,000원\n\n관심 245\n\n · 리뷰 3\n\n · 거래 32"
+          "product_id": 63828,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 센터 백 스트라이프 후드 집업 네이비\n\n45%\n\n795,000원\n\n관심 1,772\n\n · 리뷰 99\n\n · 거래 474\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 96309,
-          "text": "Thom Browne\n\n톰브라운 저지 스티치 도네갈 사선 크루넥 풀오버 라이트 그레이\n\n57%\n\n560,000원\n\n관심 648\n\n · 리뷰 7\n\n · 거래 106"
+          "product_id": 37603,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 네이비\n\n39%\n\n730,000원\n\n관심 3,518\n\n · 리뷰 120\n\n · 거래 793\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 165279,
-          "text": "Thom Browne\n\n톰브라운 도네갈 트위스트 케이블 사선 클래식 크루넥 풀오버 블루\n\n47%\n\n619,000원\n\n관심 1,434\n\n · 리뷰 55\n\n · 거래 360\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 71374,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 후드 집업 네이비\n\n29%\n\n1,049,000원\n\n관심 68\n\n · 거래 6"
         },
         {
-          "product_id": 67408,
-          "text": "Thom Browne\n\n(W) 톰브라운 루프백 저지 니트 엔지니어드 사선 스트라이프 크루넥 풀오버 라이트 그레이\n\n61%\n\n420,000원\n\n관심 981\n\n · 리뷰 13\n\n · 거래 120\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 73028,
+          "text": "Thom Browne\n\n톰브라운 솔리드 스윔 테크 사선 후드 아노락 네이비\n\n47%\n\n1,497,000원\n\n관심 25"
         },
         {
-          "product_id": 165278,
-          "text": "Thom Browne\n\n톰브라운 도네갈 트위스트 케이블 사선 클래식 크루넥 풀오버 라이트 그레이\n\n39%\n\n712,000원\n\n관심 1,730\n\n · 리뷰 32\n\n · 거래 303"
+          "product_id": 612290,
+          "text": "Thom Browne\n\n톰브라운 사선 집업 울 후드 네이비\n\n2,630,000원\n\n관심 12"
         }
       ]
     },
     {
       "sku": "MKC641AY3016035",
       "option": "1",
+      "stock": 1,
       "eur_price": 527.46,
       "matched": true,
       "product_id": 834122,
@@ -4134,6 +4165,7 @@
     {
       "sku": "MKC641AY3016035",
       "option": "2",
+      "stock": 1,
       "eur_price": 527.46,
       "matched": true,
       "product_id": 834122,
@@ -4161,6 +4193,7 @@
     {
       "sku": "MKC641AY3016035",
       "option": "3",
+      "stock": 1,
       "eur_price": 527.46,
       "matched": true,
       "product_id": 834122,
@@ -4188,94 +4221,98 @@
     {
       "sku": "MWL430OF1098996",
       "option": "1",
-      "eur_price": 521.31,
+      "stock": 1,
+      "eur_price": 434.42,
       "matched": false,
       "error": "No KREAM match for SKU=\"MWL430OF1098996\" SPU=\"MWL430OF1098996\"",
       "candidates": [
         {
-          "product_id": 59013,
-          "text": "Thom Browne\n\n톰브라운 솔리드 포플린 그로그랭 암밴드 클래식 롱슬리브 포인트 칼라 버튼 다운 셔츠 화이트\n\n36%\n\n499,000원\n\n관심 463\n\n · 리뷰 18\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 610749,
+          "text": "Thom Browne\n\n톰브라운 애니멀 아이콘 사선 크루넥 스웨트셔츠 네이비\n\n842,000원\n\n관심 4"
         },
         {
-          "product_id": 196182,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 클래식 그로그랭 플래킷 셔츠 화이트\n\n43%\n\n428,000원\n\n관심 917\n\n · 리뷰 63\n\n · 거래 350\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 37603,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 네이비\n\n39%\n\n730,000원\n\n관심 3,518\n\n · 리뷰 120\n\n · 거래 793\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 818957,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 사선 스트레이트 핏 셔츠 화이트\n\n509,000원\n\n관심 2\n\n · 리뷰 1"
+          "product_id": 611550,
+          "text": "Thom Browne\n\n톰브라운 루프백 팁 사이드 스트라이프 스웨트셔츠 네이비\n\n677,000원\n\n관심 3"
         },
         {
-          "product_id": 112282,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 사선 오버사이즈 버튼 다운 셔츠 화이트 다크 그레이\n\n5%\n\n1,018,000원\n\n관심 627\n\n · 리뷰 15\n\n · 거래 140"
+          "product_id": 63286,
+          "text": "Thom Browne\n\n톰브라운 래글런 슬리브 크루넥 스웨트셔츠 네이비\n\n670,000원\n\n관심 396\n\n · 리뷰 7\n\n · 거래 48"
         },
         {
-          "product_id": 206297,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 스트라이프 그로그랭 암밴드 클래식 셔츠 화이트\n\n40%\n\n455,000원\n\n관심 61\n\n · 리뷰 11\n\n · 거래 22"
+          "product_id": 67080,
+          "text": "Thom Browne\n\n톰브라운 코튼 옥스포드 그로그랭 플래킷 셔츠 라이트 블루\n\n64%\n\n295,000원\n\n관심 54\n\n · 리뷰 1\n\n · 거래 21\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
     {
       "sku": "MWL430OF1098996",
       "option": "2",
-      "eur_price": 521.31,
+      "stock": 2,
+      "eur_price": 434.42,
       "matched": false,
       "error": "No KREAM match for SKU=\"MWL430OF1098996\" SPU=\"MWL430OF1098996\"",
       "candidates": [
         {
-          "product_id": 59013,
-          "text": "Thom Browne\n\n톰브라운 솔리드 포플린 그로그랭 암밴드 클래식 롱슬리브 포인트 칼라 버튼 다운 셔츠 화이트\n\n36%\n\n499,000원\n\n관심 463\n\n · 리뷰 18\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 610749,
+          "text": "Thom Browne\n\n톰브라운 애니멀 아이콘 사선 크루넥 스웨트셔츠 네이비\n\n842,000원\n\n관심 4"
         },
         {
-          "product_id": 196182,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 클래식 그로그랭 플래킷 셔츠 화이트\n\n43%\n\n428,000원\n\n관심 917\n\n · 리뷰 63\n\n · 거래 350\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 37603,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 네이비\n\n39%\n\n730,000원\n\n관심 3,518\n\n · 리뷰 120\n\n · 거래 793\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 818957,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 사선 스트레이트 핏 셔츠 화이트\n\n509,000원\n\n관심 2\n\n · 리뷰 1"
+          "product_id": 611550,
+          "text": "Thom Browne\n\n톰브라운 루프백 팁 사이드 스트라이프 스웨트셔츠 네이비\n\n677,000원\n\n관심 3"
         },
         {
-          "product_id": 112282,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 사선 오버사이즈 버튼 다운 셔츠 화이트 다크 그레이\n\n5%\n\n1,018,000원\n\n관심 627\n\n · 리뷰 15\n\n · 거래 140"
+          "product_id": 63286,
+          "text": "Thom Browne\n\n톰브라운 래글런 슬리브 크루넥 스웨트셔츠 네이비\n\n670,000원\n\n관심 396\n\n · 리뷰 7\n\n · 거래 48"
         },
         {
-          "product_id": 206297,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 스트라이프 그로그랭 암밴드 클래식 셔츠 화이트\n\n40%\n\n455,000원\n\n관심 61\n\n · 리뷰 11\n\n · 거래 22"
+          "product_id": 67080,
+          "text": "Thom Browne\n\n톰브라운 코튼 옥스포드 그로그랭 플래킷 셔츠 라이트 블루\n\n64%\n\n295,000원\n\n관심 54\n\n · 리뷰 1\n\n · 거래 21\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
     {
       "sku": "MWL430OF1098996",
       "option": "3",
-      "eur_price": 521.31,
+      "stock": 1,
+      "eur_price": 434.42,
       "matched": false,
       "error": "No KREAM match for SKU=\"MWL430OF1098996\" SPU=\"MWL430OF1098996\"",
       "candidates": [
         {
-          "product_id": 59013,
-          "text": "Thom Browne\n\n톰브라운 솔리드 포플린 그로그랭 암밴드 클래식 롱슬리브 포인트 칼라 버튼 다운 셔츠 화이트\n\n36%\n\n499,000원\n\n관심 463\n\n · 리뷰 18\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 610749,
+          "text": "Thom Browne\n\n톰브라운 애니멀 아이콘 사선 크루넥 스웨트셔츠 네이비\n\n842,000원\n\n관심 4"
         },
         {
-          "product_id": 196182,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 클래식 그로그랭 플래킷 셔츠 화이트\n\n43%\n\n428,000원\n\n관심 917\n\n · 리뷰 63\n\n · 거래 350\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 37603,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 네이비\n\n39%\n\n730,000원\n\n관심 3,518\n\n · 리뷰 120\n\n · 거래 793\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 818957,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 사선 스트레이트 핏 셔츠 화이트\n\n509,000원\n\n관심 2\n\n · 리뷰 1"
+          "product_id": 611550,
+          "text": "Thom Browne\n\n톰브라운 루프백 팁 사이드 스트라이프 스웨트셔츠 네이비\n\n677,000원\n\n관심 3"
         },
         {
-          "product_id": 112282,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 사선 오버사이즈 버튼 다운 셔츠 화이트 다크 그레이\n\n5%\n\n1,018,000원\n\n관심 627\n\n · 리뷰 15\n\n · 거래 140"
+          "product_id": 63286,
+          "text": "Thom Browne\n\n톰브라운 래글런 슬리브 크루넥 스웨트셔츠 네이비\n\n670,000원\n\n관심 396\n\n · 리뷰 7\n\n · 거래 48"
         },
         {
-          "product_id": 206297,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 스트라이프 그로그랭 암밴드 클래식 셔츠 화이트\n\n40%\n\n455,000원\n\n관심 61\n\n · 리뷰 11\n\n · 거래 22"
+          "product_id": 67080,
+          "text": "Thom Browne\n\n톰브라운 코튼 옥스포드 그로그랭 플래킷 셔츠 라이트 블루\n\n64%\n\n295,000원\n\n관심 54\n\n · 리뷰 1\n\n · 거래 21\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
     {
       "sku": "MTU349CF1095415",
       "option": "2",
-      "eur_price": 491.8,
+      "stock": 1,
+      "eur_price": 409.84,
       "matched": true,
       "product_id": 834134,
       "product_name_ko": "Thom Browne",
@@ -4301,7 +4338,7 @@
         {
           "price": 1016000,
           "option": "2",
-          "quantity": 2
+          "quantity": 6
         }
       ],
       "bids": [],
@@ -4321,7 +4358,8 @@
     {
       "sku": "MTU349CF1095415",
       "option": "4",
-      "eur_price": 491.8,
+      "stock": 1,
+      "eur_price": 409.84,
       "matched": true,
       "product_id": 834134,
       "product_name_ko": "Thom Browne",
@@ -4356,65 +4394,38 @@
     },
     {
       "sku": "FKK132BY1037100",
-      "option": "38 IT",
-      "eur_price": 265.58,
-      "matched": false,
-      "error": "No KREAM match for SKU=\"FKK132BY1037100\" SPU=\"FKK132BY1037100\"",
-      "candidates": [
-        {
-          "product_id": 77066,
-          "text": "Thom Browne\n\n톰브라운 브이넥 가디건 바시티 피케 네이비\n\n949,000원\n\n관심 224\n\n · 리뷰 3\n\n · 거래 19"
-        },
-        {
-          "product_id": 829089,
-          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
-        },
-        {
-          "product_id": 177419,
-          "text": "Thom Browne\n\n톰브라운 셰틀랜드 울 래글런 사선 크루넥 풀오버 화이트\n\n44%\n\n874,000원\n\n관심 245\n\n · 리뷰 3\n\n · 거래 32"
-        },
-        {
-          "product_id": 226036,
-          "text": "Thom Browne\n\n톰브라운 울 릴렉스드 케이블 풀오버 네이비\n\n51%\n\n600,000원\n\n관심 98\n\n · 리뷰 1\n\n · 거래 11"
-        },
-        {
-          "product_id": 830430,
-          "text": "Thom Browne\n\n톰브라운 밀라노 스티치 사선 가디건 라이트 블루\n\n1,376,000원\n\n관심 4"
-        }
-      ]
-    },
-    {
-      "sku": "FKK132BY1037100",
       "option": "40 IT",
+      "stock": 2,
       "eur_price": 265.58,
       "matched": false,
       "error": "No KREAM match for SKU=\"FKK132BY1037100\" SPU=\"FKK132BY1037100\"",
       "candidates": [
         {
-          "product_id": 77066,
-          "text": "Thom Browne\n\n톰브라운 브이넥 가디건 바시티 피케 네이비\n\n949,000원\n\n관심 224\n\n · 리뷰 3\n\n · 거래 19"
+          "product_id": 916010,
+          "text": "Thom Browne Vintage\n\n톰브라운 MKJ076A 네이비 암밴드 폴로 니트 집업 남성 자켓aa63799\n\n1,493,000원\n\n관심 4\n\n무료배송"
         },
         {
-          "product_id": 829089,
-          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
+          "product_id": 423258,
+          "text": "AMI\n\n아미 스몰 하트 로고 테크니컬 캔버스 지퍼 자켓 블랙 화이트\n\n33%\n\n736,000원\n\n관심 570\n\n · 리뷰 2\n\n · 거래 25"
         },
         {
-          "product_id": 177419,
-          "text": "Thom Browne\n\n톰브라운 셰틀랜드 울 래글런 사선 크루넥 풀오버 화이트\n\n44%\n\n874,000원\n\n관심 245\n\n · 리뷰 3\n\n · 거래 32"
+          "product_id": 303448,
+          "text": "Pleats Please Issey Miyake\n\n(W) 플리츠 플리즈 이세이 미야케 베이직 가디건 블랙\n\n33%\n\n399,000원\n\n관심 449\n\n · 리뷰 61\n\n · 거래 226\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 226036,
-          "text": "Thom Browne\n\n톰브라운 울 릴렉스드 케이블 풀오버 네이비\n\n51%\n\n600,000원\n\n관심 98\n\n · 리뷰 1\n\n · 거래 11"
+          "product_id": 262593,
+          "text": "Pleats Please Issey Miyake\n\n(W) 플리츠 플리즈 이세이 미야케 미스트 베이직 탑 블랙\n\n10%\n\n430,000원\n\n관심 621\n\n · 리뷰 48\n\n · 거래 290\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 830430,
-          "text": "Thom Browne\n\n톰브라운 밀라노 스티치 사선 가디건 라이트 블루\n\n1,376,000원\n\n관심 4"
+          "product_id": 916498,
+          "text": "Pleats Please Issey Miyake\n\n(W) 플리츠 플리즈 이세이 미야케 MC 메이 탑 아이보리\n\n23%\n\n422,000원\n\n관심 10\n\n · 리뷰 1\n\n · 거래 4"
         }
       ]
     },
     {
       "sku": "FJT388AJ0215415",
       "option": "44 IT",
+      "stock": 1,
       "eur_price": 357.79,
       "matched": true,
       "product_id": 673358,
@@ -4457,72 +4468,75 @@
     {
       "sku": "FBR062BF1002980",
       "option": "38 IT",
+      "stock": 1,
       "eur_price": 1536.88,
       "matched": false,
       "error": "No KREAM match for SKU=\"FBR062BF1002980\" SPU=\"FBR062BF1002980\"",
       "candidates": [
         {
-          "product_id": 829089,
-          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 177419,
-          "text": "Thom Browne\n\n톰브라운 셰틀랜드 울 래글런 사선 크루넥 풀오버 화이트\n\n44%\n\n874,000원\n\n관심 245\n\n · 리뷰 3\n\n · 거래 32"
+          "product_id": 610749,
+          "text": "Thom Browne\n\n톰브라운 애니멀 아이콘 사선 크루넥 스웨트셔츠 네이비\n\n842,000원\n\n관심 4"
         },
         {
-          "product_id": 77066,
-          "text": "Thom Browne\n\n톰브라운 브이넥 가디건 바시티 피케 네이비\n\n949,000원\n\n관심 224\n\n · 리뷰 3\n\n · 거래 19"
+          "product_id": 50558,
+          "text": "Thom Browne\n\n톰브라운 루프백 센터 백 스트라이프 크루넥 풀오버 니트 네이비\n\n52%\n\n475,000원\n\n관심 2,532\n\n · 리뷰 225\n\n · 거래 1,609\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 317709,
-          "text": "Thom Browne\n\n톰브라운 모헤어 트위드 사선 클래식 브이넥 가디건 라이트 그레이\n\n52%\n\n898,000원\n\n관심 149\n\n · 리뷰 8\n\n · 거래 20"
+          "product_id": 611550,
+          "text": "Thom Browne\n\n톰브라운 루프백 팁 사이드 스트라이프 스웨트셔츠 네이비\n\n677,000원\n\n관심 3"
         },
         {
-          "product_id": 66527,
-          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 스트라이프 암밴드 크루넥 스웨터 라이트 그레이\n\n56%\n\n790,000원\n\n관심 150\n\n · 리뷰 7\n\n · 거래 51"
+          "product_id": 71374,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 후드 집업 네이비\n\n29%\n\n1,049,000원\n\n관심 68\n\n · 거래 6"
         }
       ]
     },
     {
       "sku": "FBR062BF1002980",
       "option": "40 IT",
+      "stock": 1,
       "eur_price": 1536.88,
       "matched": false,
       "error": "No KREAM match for SKU=\"FBR062BF1002980\" SPU=\"FBR062BF1002980\"",
       "candidates": [
         {
-          "product_id": 829089,
-          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 177419,
-          "text": "Thom Browne\n\n톰브라운 셰틀랜드 울 래글런 사선 크루넥 풀오버 화이트\n\n44%\n\n874,000원\n\n관심 245\n\n · 리뷰 3\n\n · 거래 32"
+          "product_id": 610749,
+          "text": "Thom Browne\n\n톰브라운 애니멀 아이콘 사선 크루넥 스웨트셔츠 네이비\n\n842,000원\n\n관심 4"
         },
         {
-          "product_id": 77066,
-          "text": "Thom Browne\n\n톰브라운 브이넥 가디건 바시티 피케 네이비\n\n949,000원\n\n관심 224\n\n · 리뷰 3\n\n · 거래 19"
+          "product_id": 50558,
+          "text": "Thom Browne\n\n톰브라운 루프백 센터 백 스트라이프 크루넥 풀오버 니트 네이비\n\n52%\n\n475,000원\n\n관심 2,532\n\n · 리뷰 225\n\n · 거래 1,609\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 317709,
-          "text": "Thom Browne\n\n톰브라운 모헤어 트위드 사선 클래식 브이넥 가디건 라이트 그레이\n\n52%\n\n898,000원\n\n관심 149\n\n · 리뷰 8\n\n · 거래 20"
+          "product_id": 611550,
+          "text": "Thom Browne\n\n톰브라운 루프백 팁 사이드 스트라이프 스웨트셔츠 네이비\n\n677,000원\n\n관심 3"
         },
         {
-          "product_id": 66527,
-          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 스트라이프 암밴드 크루넥 스웨터 라이트 그레이\n\n56%\n\n790,000원\n\n관심 150\n\n · 리뷰 7\n\n · 거래 51"
+          "product_id": 71374,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 후드 집업 네이비\n\n29%\n\n1,049,000원\n\n관심 68\n\n · 거래 6"
         }
       ]
     },
     {
       "sku": "MJS245A07323100",
       "option": "3",
-      "eur_price": 290.56,
+      "stock": 1,
+      "eur_price": 245.9,
       "matched": true,
       "product_id": 322977,
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/322977",
       "market": {
         "last_sale_price": 468000,
-        "lowest_ask": 561000,
+        "lowest_ask": 562000,
         "highest_bid": 215000,
         "change_text": "▲ 1,000원(+0.2%)"
       },
@@ -4544,14 +4558,14 @@
       ],
       "asks": [
         {
-          "price": 561000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
           "price": 562000,
           "option": "3",
           "quantity": 5
+        },
+        {
+          "price": 574000,
+          "option": "3",
+          "quantity": 1
         },
         {
           "price": 582000,
@@ -4566,7 +4580,12 @@
         {
           "price": 709000,
           "option": "3",
-          "quantity": 2
+          "quantity": 1
+        },
+        {
+          "price": 740000,
+          "option": "3",
+          "quantity": 1
         },
         {
           "price": 743000,
@@ -4583,7 +4602,7 @@
       ],
       "totals": {
         "sales": 2,
-        "asks": 6,
+        "asks": 7,
         "bids": 1
       },
       "raw_chart_recently": {
@@ -4623,7 +4642,8 @@
     {
       "sku": "MJS245A07323100",
       "option": "4",
-      "eur_price": 290.56,
+      "stock": 3,
+      "eur_price": 245.9,
       "matched": true,
       "product_id": 322977,
       "product_name_ko": "Thom Browne",
@@ -4728,7 +4748,8 @@
     {
       "sku": "MKC635AY3065415",
       "option": "2",
-      "eur_price": 695.9,
+      "stock": 1,
+      "eur_price": 579.92,
       "matched": true,
       "product_id": 715415,
       "product_name_ko": "Thom Browne",
@@ -4766,7 +4787,8 @@
     {
       "sku": "MKC635AY3065415",
       "option": "3",
-      "eur_price": 695.9,
+      "stock": 3,
+      "eur_price": 579.92,
       "matched": true,
       "product_id": 715415,
       "product_name_ko": "Thom Browne",
@@ -4804,7 +4826,8 @@
     {
       "sku": "MKC635AY3065415",
       "option": "4",
-      "eur_price": 695.9,
+      "stock": 1,
+      "eur_price": 579.92,
       "matched": true,
       "product_id": 715415,
       "product_name_ko": "Thom Browne",
@@ -4847,7 +4870,8 @@
     {
       "sku": "MKC635AY3065415",
       "option": "5",
-      "eur_price": 695.9,
+      "stock": 1,
+      "eur_price": 579.92,
       "matched": true,
       "product_id": 715415,
       "product_name_ko": "Thom Browne",
@@ -4891,36 +4915,37 @@
     {
       "sku": "MKC635AY3065260",
       "option": "3",
-      "eur_price": 695.9,
+      "stock": 2,
+      "eur_price": 579.92,
       "matched": true,
       "product_id": 715416,
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/715416",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 2000000,
+        "lowest_ask": 2829000,
         "highest_bid": 420000,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 2000000,
+          "price": 2829000,
           "option": "3",
           "quantity": 1
         },
         {
-          "price": 2001000,
+          "price": 2830000,
           "option": "3",
           "quantity": 1
         },
         {
-          "price": 2075000,
+          "price": 2834000,
           "option": "3",
           "quantity": 1
         },
         {
-          "price": 2077000,
+          "price": 3153000,
           "option": "3",
           "quantity": 1
         }
@@ -4952,7 +4977,8 @@
     {
       "sku": "MKC635AY3065260",
       "option": "4",
-      "eur_price": 695.9,
+      "stock": 1,
+      "eur_price": 579.92,
       "matched": true,
       "product_id": 715416,
       "product_name_ko": "Thom Browne",
@@ -4992,45 +5018,47 @@
     {
       "sku": "MJQ222A03037055",
       "option": "4",
-      "eur_price": 296.93,
+      "stock": 1,
+      "eur_price": 298.77,
       "matched": false,
       "error": "No KREAM match for SKU=\"MJQ222A03037055\" SPU=\"MJQ222A03037055\"",
       "candidates": [
         {
-          "product_id": 553721,
-          "text": "Thom Browne\n\n톰브라운 클래식 피케 사선 숏슬리브 폴로 네이비\n\n539,000원\n\n관심 423\n\n · 리뷰 46\n\n · 거래 188\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
           "product_id": 66542,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 니트 엔지니어드 사선 스웨트쇼츠 네이비\n\n46%\n\n680,000원\n\n관심 416\n\n · 리뷰 55\n\n · 거래 286\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 니트 엔지니어드 사선 스웨트쇼츠 네이비\n\n45%\n\n685,000원\n\n관심 419\n\n · 리뷰 56\n\n · 거래 287\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 63498,
-          "text": "Thom Browne\n\n톰브라운 클래식 루프백 엔지니어드 사선 클래식 스웨트팬츠 라이트 그레이\n\n560,000원\n\n관심 431\n\n · 리뷰 50\n\n · 거래 289\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 37603,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 네이비\n\n39%\n\n730,000원\n\n관심 3,518\n\n · 리뷰 120\n\n · 거래 793\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 54266,
+          "text": "Thom Browne\n\n톰브라운 밀라노 스티치 사선 크루넥 풀오버 니트 네이비\n\n45%\n\n800,000원\n\n관심 1,703\n\n · 리뷰 113\n\n · 거래 886\n\n빠른배송\n\n내일 도착 예정"
         },
         {
           "product_id": 72765,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 니트 엔지니어드 사선 스웨트쇼츠 라이트 그레이\n\n62%\n\n478,000원\n\n관심 259\n\n · 리뷰 30\n\n · 거래 161\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 니트 엔지니어드 사선 스웨트쇼츠 라이트 그레이\n\n63%\n\n456,000원\n\n관심 259\n\n · 리뷰 30\n\n · 거래 162"
         },
         {
-          "product_id": 59014,
-          "text": "Thom Browne\n\n톰브라운 클래식 루프백 엔지니어드 사선 클래식 스웨트팬츠 네이비\n\n44%\n\n599,000원\n\n관심 541\n\n · 리뷰 132\n\n · 거래 720\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 321226,
+          "text": "Thom Browne\n\n톰브라운 메리노 울 암밴드 피케 풀오버 네이비\n\n67%\n\n573,000원\n\n관심 31\n\n · 거래 2"
         }
       ]
     },
     {
       "sku": "MWL010EF0313100",
       "option": "1",
+      "stock": 3,
       "eur_price": 229.51,
       "matched": true,
       "product_id": 196182,
-      "product_name_ko": "Thom Browne",
+      "product_name_ko": null,
       "product_url": "https://kream.co.kr/products/196182",
       "market": {
         "last_sale_price": 498000,
         "lowest_ask": 465000,
         "highest_bid": 265000,
-        "change_text": "▲ 66,000원(+15.4%)"
+        "change_text": "▲ 45,000원(+9.1%)"
       },
       "sales": [
         {
@@ -5080,11 +5108,6 @@
           "price": 519000,
           "option": "1",
           "quantity": 1
-        },
-        {
-          "price": 521000,
-          "option": "1",
-          "quantity": 1
         }
       ],
       "bids": [
@@ -5096,7 +5119,7 @@
       ],
       "totals": {
         "sales": 3,
-        "asks": 6,
+        "asks": 5,
         "bids": 1
       },
       "raw_chart_recently": {
@@ -5104,7 +5127,7 @@
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "▲ 66,000원(+15.4%)",
+            "text": "▲ 45,000원(+9.1%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -5137,16 +5160,17 @@
     {
       "sku": "MWL010EF0313100",
       "option": "2",
+      "stock": 3,
       "eur_price": 229.51,
       "matched": true,
       "product_id": 196182,
-      "product_name_ko": "Thom Browne",
+      "product_name_ko": null,
       "product_url": "https://kream.co.kr/products/196182",
       "market": {
         "last_sale_price": 430000,
         "lowest_ask": 428000,
         "highest_bid": 282000,
-        "change_text": "▲ 66,000원(+15.4%)"
+        "change_text": "▲ 45,000원(+9.1%)"
       },
       "sales": [
         {
@@ -5249,6 +5273,11 @@
           "quantity": 2
         },
         {
+          "price": 489000,
+          "option": "2",
+          "quantity": 1
+        },
+        {
           "price": 495000,
           "option": "2",
           "quantity": 3
@@ -5265,11 +5294,6 @@
         },
         {
           "price": 520000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 521000,
           "option": "2",
           "quantity": 1
         }
@@ -5301,7 +5325,7 @@
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "▲ 66,000원(+15.4%)",
+            "text": "▲ 45,000원(+9.1%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -5334,16 +5358,17 @@
     {
       "sku": "MWL010EF0313100",
       "option": "3",
+      "stock": 4,
       "eur_price": 229.51,
       "matched": true,
       "product_id": 196182,
-      "product_name_ko": "Thom Browne",
+      "product_name_ko": null,
       "product_url": "https://kream.co.kr/products/196182",
       "market": {
         "last_sale_price": 440000,
         "lowest_ask": 428000,
         "highest_bid": 385000,
-        "change_text": "▲ 66,000원(+15.4%)"
+        "change_text": "▲ 45,000원(+9.1%)"
       },
       "sales": [
         {
@@ -5482,6 +5507,11 @@
           "quantity": 1
         },
         {
+          "price": 489000,
+          "option": "3",
+          "quantity": 1
+        },
+        {
           "price": 495000,
           "option": "3",
           "quantity": 1
@@ -5526,7 +5556,7 @@
       ],
       "totals": {
         "sales": 14,
-        "asks": 10,
+        "asks": 11,
         "bids": 5
       },
       "raw_chart_recently": {
@@ -5534,7 +5564,7 @@
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "▲ 66,000원(+15.4%)",
+            "text": "▲ 45,000원(+9.1%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -5567,16 +5597,17 @@
     {
       "sku": "MWL010EF0313100",
       "option": "4",
+      "stock": 3,
       "eur_price": 229.51,
       "matched": true,
       "product_id": 196182,
-      "product_name_ko": "Thom Browne",
+      "product_name_ko": null,
       "product_url": "https://kream.co.kr/products/196182",
       "market": {
         "last_sale_price": 494000,
         "lowest_ask": 428000,
-        "highest_bid": 383000,
-        "change_text": "▲ 66,000원(+15.4%)"
+        "highest_bid": 401000,
+        "change_text": "▲ 45,000원(+9.1%)"
       },
       "sales": [
         {
@@ -5718,13 +5749,6 @@
           "date_created": "2026-03-09T01:12:32Z",
           "date_text": "26/03/09",
           "is_immediate": false
-        },
-        {
-          "price": 408000,
-          "option": "4",
-          "date_created": "2026-02-28T08:55:17Z",
-          "date_text": "26/02/28",
-          "is_immediate": false
         }
       ],
       "asks": [
@@ -5779,6 +5803,11 @@
           "quantity": 1
         },
         {
+          "price": 489000,
+          "option": "4",
+          "quantity": 1
+        },
+        {
           "price": 495000,
           "option": "4",
           "quantity": 2
@@ -5786,7 +5815,12 @@
       ],
       "bids": [
         {
-          "price": 383000,
+          "price": 401000,
+          "option": "4",
+          "quantity": 1
+        },
+        {
+          "price": 400000,
           "option": "4",
           "quantity": 1
         },
@@ -5817,16 +5851,16 @@
         }
       ],
       "totals": {
-        "sales": 21,
-        "asks": 11,
-        "bids": 6
+        "sales": 20,
+        "asks": 12,
+        "bids": 7
       },
       "raw_chart_recently": {
         "text": ";tl_0;",
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "▲ 66,000원(+15.4%)",
+            "text": "▲ 45,000원(+9.1%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -5859,18 +5893,26 @@
     {
       "sku": "MWL010EF0313100",
       "option": "5",
+      "stock": 1,
       "eur_price": 229.51,
       "matched": true,
       "product_id": 196182,
-      "product_name_ko": "Thom Browne",
+      "product_name_ko": null,
       "product_url": "https://kream.co.kr/products/196182",
       "market": {
-        "last_sale_price": 367000,
+        "last_sale_price": 539000,
         "lowest_ask": 447000,
         "highest_bid": 367000,
-        "change_text": "▲ 66,000원(+15.4%)"
+        "change_text": "▲ 45,000원(+9.1%)"
       },
       "sales": [
+        {
+          "price": 539000,
+          "option": "5",
+          "date_created": "2026-06-08T00:47:45Z",
+          "date_text": "26/06/08",
+          "is_immediate": true
+        },
         {
           "price": 367000,
           "option": "5",
@@ -5941,12 +5983,7 @@
           "quantity": 3
         },
         {
-          "price": 495000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 520000,
+          "price": 479000,
           "option": "5",
           "quantity": 1
         }
@@ -5974,8 +6011,8 @@
         }
       ],
       "totals": {
-        "sales": 6,
-        "asks": 7,
+        "sales": 7,
+        "asks": 6,
         "bids": 4
       },
       "raw_chart_recently": {
@@ -5983,7 +6020,7 @@
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "▲ 66,000원(+15.4%)",
+            "text": "▲ 45,000원(+9.1%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -6016,6 +6053,7 @@
     {
       "sku": "MKA002AY1014038",
       "option": "2",
+      "stock": 3,
       "eur_price": 422.13,
       "matched": true,
       "product_id": 64751,
@@ -6023,7 +6061,7 @@
       "product_url": "https://kream.co.kr/products/64751",
       "market": {
         "last_sale_price": 649000,
-        "lowest_ask": 773000,
+        "lowest_ask": 772000,
         "highest_bid": 380000,
         "change_text": "▲ 24,000원(+3.1%)"
       },
@@ -6066,6 +6104,11 @@
       ],
       "asks": [
         {
+          "price": 772000,
+          "option": "2",
+          "quantity": 2
+        },
+        {
           "price": 773000,
           "option": "2",
           "quantity": 1
@@ -6086,11 +6129,6 @@
           "quantity": 3
         },
         {
-          "price": 802000,
-          "option": "2",
-          "quantity": 2
-        },
-        {
           "price": 803000,
           "option": "2",
           "quantity": 2
@@ -6098,7 +6136,7 @@
         {
           "price": 872000,
           "option": "2",
-          "quantity": 1
+          "quantity": 2
         },
         {
           "price": 876000,
@@ -6189,197 +6227,9 @@
       "option_mismatch": false
     },
     {
-      "sku": "MJP022A01455415",
-      "option": "2",
-      "eur_price": 206.56,
-      "matched": true,
-      "product_id": 61725,
-      "product_name_ko": "Thom Browne",
-      "product_url": "https://kream.co.kr/products/61725",
-      "market": {
-        "last_sale_price": 327000,
-        "lowest_ask": 335000,
-        "highest_bid": 282000,
-        "change_text": "▼ 13,000원(-3.4%)"
-      },
-      "sales": [
-        {
-          "price": 327000,
-          "option": "2",
-          "date_created": "2026-05-30T09:55:17Z",
-          "date_text": "26/05/30",
-          "is_immediate": false
-        },
-        {
-          "price": 390000,
-          "option": "2",
-          "date_created": "2026-05-23T23:44:50Z",
-          "date_text": "26/05/24",
-          "is_immediate": true
-        },
-        {
-          "price": 339000,
-          "option": "2",
-          "date_created": "2026-05-11T17:19:45Z",
-          "date_text": "26/05/12",
-          "is_immediate": false
-        },
-        {
-          "price": 339000,
-          "option": "2",
-          "date_created": "2026-04-25T12:31:10Z",
-          "date_text": "26/04/25",
-          "is_immediate": false
-        },
-        {
-          "price": 348000,
-          "option": "2",
-          "date_created": "2026-04-15T04:40:37Z",
-          "date_text": "26/04/15",
-          "is_immediate": true
-        },
-        {
-          "price": 367000,
-          "option": "2",
-          "date_created": "2025-06-25T04:59:53Z",
-          "date_text": "25/06/25",
-          "is_immediate": false
-        },
-        {
-          "price": 300000,
-          "option": "2",
-          "date_created": "2025-06-19T11:32:11Z",
-          "date_text": "25/06/19",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 335000,
-          "option": "2",
-          "quantity": 2
-        },
-        {
-          "price": 340000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 394000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 399000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 401000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 417000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 429000,
-          "option": "2",
-          "quantity": 2
-        },
-        {
-          "price": 436000,
-          "option": "2",
-          "quantity": 2
-        },
-        {
-          "price": 445000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 465000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 484000,
-          "option": "2",
-          "quantity": 3
-        }
-      ],
-      "bids": [
-        {
-          "price": 282000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 281000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 265000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 170000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 133000,
-          "option": "2",
-          "quantity": 1
-        }
-      ],
-      "totals": {
-        "sales": 7,
-        "asks": 11,
-        "bids": 5
-      },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 13,000원(-3.4%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "2",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
-    },
-    {
       "sku": "MJC001A00626035",
       "option": "3",
+      "stock": 1,
       "eur_price": 889.34,
       "matched": true,
       "product_id": 385513,
@@ -6452,6 +6302,7 @@
     {
       "sku": "MJC001A00626035",
       "option": "5",
+      "stock": 1,
       "eur_price": 889.34,
       "matched": true,
       "product_id": 385513,
@@ -6522,6 +6373,7 @@
     {
       "sku": "MKA518AY1029415",
       "option": "2",
+      "stock": 1,
       "eur_price": 354.1,
       "matched": true,
       "product_id": 321226,
@@ -6542,6 +6394,11 @@
         },
         {
           "price": 574000,
+          "option": "2",
+          "quantity": 2
+        },
+        {
+          "price": 607000,
           "option": "2",
           "quantity": 2
         },
@@ -6575,7 +6432,7 @@
       ],
       "totals": {
         "sales": 0,
-        "asks": 6,
+        "asks": 7,
         "bids": 1
       },
       "raw_chart_recently": {
@@ -6616,6 +6473,7 @@
     {
       "sku": "MKA518AY1029415",
       "option": "3",
+      "stock": 1,
       "eur_price": 354.1,
       "matched": true,
       "product_id": 321226,
@@ -6715,118 +6573,122 @@
     {
       "sku": "FFD143A00216001",
       "option": "37",
+      "stock": 2,
       "eur_price": 295.49,
       "matched": false,
       "error": "No KREAM match for SKU=\"FFD143A00216001\" SPU=\"FFD143A00216001\"",
       "candidates": [
         {
-          "product_id": 519057,
-          "text": "Thom Browne\n\n(W) 톰브라운 저지 사선 숏슬리브 티셔츠 네이비\n\n267,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 34\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 73035,
-          "text": "Thom Browne\n\n톰브라운 사선 테일러드 트라우저 미디움 그레이\n\n54%\n\n803,000원\n\n관심 172\n\n · 리뷰 13\n\n · 거래 24"
+          "product_id": 63809,
+          "text": "Thom Browne\n\n(W) 톰브라운 코튼 크레이프 밀라노 스티치 크루넥 사선 풀오버 네이비\n\n47%\n\n869,000원\n\n관심 864\n\n · 리뷰 4\n\n · 거래 80"
         },
         {
-          "product_id": 120596,
-          "text": "Thom Browne\n\n(W) 톰브라운 비텔로 카프 클리어 솔 테크 러너 화이트\n\n66%\n\n375,000원\n\n관심 27\n\n · 리뷰 1\n\n · 거래 9"
+          "product_id": 829089,
+          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
         },
         {
-          "product_id": 63498,
-          "text": "Thom Browne\n\n톰브라운 클래식 루프백 엔지니어드 사선 클래식 스웨트팬츠 라이트 그레이\n\n560,000원\n\n관심 431\n\n · 리뷰 50\n\n · 거래 289\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 73549,
+          "text": "Thom Browne\n\n(W) 톰브라운 나일론 테크 러너 화이트 그레이\n\n42%\n\n556,000원\n\n관심 112\n\n · 리뷰 6\n\n · 거래 62"
         },
         {
-          "product_id": 553721,
-          "text": "Thom Browne\n\n톰브라운 클래식 피케 사선 숏슬리브 폴로 네이비\n\n539,000원\n\n관심 423\n\n · 리뷰 46\n\n · 거래 188\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 715412,
+          "text": "Thom Browne\n\n톰브라운 메리노 베이비 케이블 스티치 RWB 스트라이프 가디건 블랙\n\n41%\n\n1,734,000원\n\n관심 8"
         }
       ]
     },
     {
       "sku": "FFD143A00216001",
       "option": "38",
+      "stock": 1,
       "eur_price": 295.49,
       "matched": false,
       "error": "No KREAM match for SKU=\"FFD143A00216001\" SPU=\"FFD143A00216001\"",
       "candidates": [
         {
-          "product_id": 519057,
-          "text": "Thom Browne\n\n(W) 톰브라운 저지 사선 숏슬리브 티셔츠 네이비\n\n267,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 34\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 73035,
-          "text": "Thom Browne\n\n톰브라운 사선 테일러드 트라우저 미디움 그레이\n\n54%\n\n803,000원\n\n관심 172\n\n · 리뷰 13\n\n · 거래 24"
+          "product_id": 63809,
+          "text": "Thom Browne\n\n(W) 톰브라운 코튼 크레이프 밀라노 스티치 크루넥 사선 풀오버 네이비\n\n47%\n\n869,000원\n\n관심 864\n\n · 리뷰 4\n\n · 거래 80"
         },
         {
-          "product_id": 120596,
-          "text": "Thom Browne\n\n(W) 톰브라운 비텔로 카프 클리어 솔 테크 러너 화이트\n\n66%\n\n375,000원\n\n관심 27\n\n · 리뷰 1\n\n · 거래 9"
+          "product_id": 829089,
+          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
         },
         {
-          "product_id": 63498,
-          "text": "Thom Browne\n\n톰브라운 클래식 루프백 엔지니어드 사선 클래식 스웨트팬츠 라이트 그레이\n\n560,000원\n\n관심 431\n\n · 리뷰 50\n\n · 거래 289\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 73549,
+          "text": "Thom Browne\n\n(W) 톰브라운 나일론 테크 러너 화이트 그레이\n\n42%\n\n556,000원\n\n관심 112\n\n · 리뷰 6\n\n · 거래 62"
         },
         {
-          "product_id": 553721,
-          "text": "Thom Browne\n\n톰브라운 클래식 피케 사선 숏슬리브 폴로 네이비\n\n539,000원\n\n관심 423\n\n · 리뷰 46\n\n · 거래 188\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 715412,
+          "text": "Thom Browne\n\n톰브라운 메리노 베이비 케이블 스티치 RWB 스트라이프 가디건 블랙\n\n41%\n\n1,734,000원\n\n관심 8"
         }
       ]
     },
     {
       "sku": "MWL420AF0325035",
       "option": "3",
+      "stock": 2,
       "eur_price": 285.24,
       "matched": false,
       "error": "No KREAM match for SKU=\"MWL420AF0325035\" SPU=\"MWL420AF0325035\"",
       "candidates": [
         {
-          "product_id": 58373,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 스트라이프 그로그랭 암밴드 클래식 셔츠 화이트\n\n36%\n\n460,000원\n\n관심 1,390\n\n · 리뷰 52\n\n · 거래 332\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
+        },
+        {
+          "product_id": 829089,
+          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
+        },
+        {
+          "product_id": 120241,
+          "text": "Thom Browne\n\n톰브라운 핀코드 암밴드 숏슬리브 셔츠 네이비\n\n48%\n\n449,000원\n\n관심 13\n\n · 리뷰 1\n\n · 거래 5"
         },
         {
           "product_id": 196182,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 클래식 그로그랭 플래킷 셔츠 화이트\n\n43%\n\n428,000원\n\n관심 917\n\n · 리뷰 63\n\n · 거래 350\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Thom Browne\n\n톰브라운 옥스포드 클래식 그로그랭 플래킷 셔츠 화이트\n\n42%\n\n428,000원\n\n관심 923\n\n · 리뷰 63\n\n · 거래 351\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 59013,
-          "text": "Thom Browne\n\n톰브라운 솔리드 포플린 그로그랭 암밴드 클래식 롱슬리브 포인트 칼라 버튼 다운 셔츠 화이트\n\n36%\n\n499,000원\n\n관심 463\n\n · 리뷰 18\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 553721,
-          "text": "Thom Browne\n\n톰브라운 클래식 피케 사선 숏슬리브 폴로 네이비\n\n539,000원\n\n관심 423\n\n · 리뷰 46\n\n · 거래 188\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 61725,
-          "text": "Thom Browne\n\n톰브라운 RWB 포켓 트림 피케 폴로 셔츠 네이비\n\n335,000원\n\n관심 445\n\n · 리뷰 26\n\n · 거래 148\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 67080,
+          "text": "Thom Browne\n\n톰브라운 코튼 옥스포드 그로그랭 플래킷 셔츠 라이트 블루\n\n64%\n\n295,000원\n\n관심 54\n\n · 리뷰 1\n\n · 거래 21\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
     {
       "sku": "MJT517A03037055",
       "option": "3",
-      "eur_price": 390.98,
+      "stock": 1,
+      "eur_price": 365.17,
       "matched": true,
       "product_id": 569930,
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/569930",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 1036000,
+        "lowest_ask": 1032000,
         "highest_bid": 370000,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 1036000,
+          "price": 1032000,
+          "option": "3",
+          "quantity": 1
+        },
+        {
+          "price": 1033000,
           "option": "3",
           "quantity": 1
         },
         {
           "price": 1037000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 1350000,
           "option": "3",
           "quantity": 1
         }
@@ -6856,7 +6718,8 @@
     {
       "sku": "MJT517A03037055",
       "option": "4",
-      "eur_price": 390.98,
+      "stock": 1,
+      "eur_price": 365.17,
       "matched": true,
       "product_id": 569930,
       "product_name_ko": "Thom Browne",
@@ -6904,21 +6767,27 @@
     {
       "sku": "MJT517A03037055",
       "option": "5",
-      "eur_price": 390.98,
+      "stock": 1,
+      "eur_price": 365.17,
       "matched": true,
       "product_id": 569930,
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/569930",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 1036000,
+        "lowest_ask": 1032000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 1036000,
+          "price": 1032000,
+          "option": "1",
+          "quantity": 1
+        },
+        {
+          "price": 1033000,
           "option": "1",
           "quantity": 1
         },
@@ -6929,11 +6798,6 @@
         },
         {
           "price": 1251000,
-          "option": "1",
-          "quantity": 1
-        },
-        {
-          "price": 1350000,
           "option": "1",
           "quantity": 1
         }
@@ -6957,6 +6821,7 @@
     {
       "sku": "UAG259A00198250",
       "option": "U",
+      "stock": 1,
       "eur_price": 613.11,
       "matched": true,
       "product_id": 767064,
@@ -6984,64 +6849,67 @@
     {
       "sku": "FGCA40UF1063260",
       "option": "42 IT",
+      "stock": 1,
       "eur_price": 490.57,
       "matched": false,
       "error": "No KREAM match for SKU=\"FGCA40UF1063260\" SPU=\"FGCA40UF1063260\"",
       "candidates": [
         {
-          "product_id": 73035,
-          "text": "Thom Browne\n\n톰브라운 사선 테일러드 트라우저 미디움 그레이\n\n54%\n\n803,000원\n\n관심 172\n\n · 리뷰 13\n\n · 거래 24"
+          "product_id": 715404,
+          "text": "Thom Browne\n\n톰브라운 폴리 테크 코쿤 윈드브레이커 네이비\n\n6,292,000원\n\n관심 1"
         },
         {
-          "product_id": 64731,
-          "text": "Thom Browne\n\n톰브라운 오픈 라셀 스티치 사선 스웨트셔츠 화이트\n\n28%\n\n905,000원\n\n관심 105\n\n · 리뷰 1\n\n · 거래 14"
+          "product_id": 138165,
+          "text": "Thom Browne\n\n톰브라운 플레인 위브 수팅 사선 니트 블루종 자켓 미디움 그레이\n\n20%\n\n2,427,000원\n\n관심 68\n\n · 거래 10"
         },
         {
-          "product_id": 177419,
-          "text": "Thom Browne\n\n톰브라운 셰틀랜드 울 래글런 사선 크루넥 풀오버 화이트\n\n44%\n\n874,000원\n\n관심 245\n\n · 리뷰 3\n\n · 거래 32"
+          "product_id": 306207,
+          "text": "Thom Browne\n\n톰브라운 립스탑 사선 스트라이프 자켓 네이비\n\n2,352,000원\n\n관심 31\n\n · 리뷰 2\n\n · 거래 5"
         },
         {
-          "product_id": 59016,
-          "text": "Thom Browne\n\n톰브라운 클래식 루프백 센터 백 RWB 스트라이프 후드 풀오버 라이트 그레이\n\n40%\n\n727,000원\n\n관심 191\n\n · 리뷰 6\n\n · 거래 42"
+          "product_id": 63818,
+          "text": "Thom Browne\n\n톰브라운 울 사선 클래식 스포츠 코트 네이비\n\n59%\n\n1,488,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
         },
         {
-          "product_id": 610749,
-          "text": "Thom Browne\n\n톰브라운 애니멀 아이콘 사선 크루넥 스웨트셔츠 네이비\n\n842,000원\n\n관심 4"
+          "product_id": 64737,
+          "text": "Thom Browne\n\n톰브라운 울 사선 클래식 스포츠 코트 미디움 그레이\n\n59%\n\n1,482,000원\n\n관심 221\n\n · 리뷰 13\n\n · 거래 24"
         }
       ]
     },
     {
       "sku": "MTU328UF0175415",
       "option": "3",
+      "stock": 1,
       "eur_price": 280.33,
       "matched": false,
       "error": "No KREAM match for SKU=\"MTU328UF0175415\" SPU=\"MTU328UF0175415\"",
       "candidates": [
         {
-          "product_id": 63498,
-          "text": "Thom Browne\n\n톰브라운 클래식 루프백 엔지니어드 사선 클래식 스웨트팬츠 라이트 그레이\n\n560,000원\n\n관심 431\n\n · 리뷰 50\n\n · 거래 289\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 338024,
+          "text": "Miu Miu\n\n(W) 미우 미우 플리스 스웨트셔츠 그레이\n\n21%\n\n2,500,000원\n\n관심 306\n\n · 리뷰 3\n\n · 거래 5"
         },
         {
-          "product_id": 59013,
-          "text": "Thom Browne\n\n톰브라운 솔리드 포플린 그로그랭 암밴드 클래식 롱슬리브 포인트 칼라 버튼 다운 셔츠 화이트\n\n36%\n\n499,000원\n\n관심 463\n\n · 리뷰 18\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 451929,
+          "text": "Miu Miu\n\n미우 미우 비스코스 터틀넥 스웨터 블랙\n\n44%\n\n1,227,000원\n\n관심 10"
         },
         {
-          "product_id": 51275,
-          "text": "Thom Browne\n\n톰브라운 스트라이프 스웨트팬츠 라이트 그레이\n\n53%\n\n590,000원\n\n관심 76\n\n · 리뷰 2\n\n · 거래 16\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 771962,
+          "text": "Miu Miu\n\n(W) 미우 미우 캐시미어 스웨터 네이비\n\n29%\n\n1,801,000원\n\n관심 36"
         },
         {
-          "product_id": 96315,
-          "text": "Thom Browne\n\n톰브라운 밀리터리 립스탑 메쉬 사선 패커블 집 후드 화이트\n\n40%\n\n1,165,000원\n\n관심 261\n\n · 리뷰 5\n\n · 거래 41\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 585955,
+          "text": "Miu Miu\n\n(W) 미우 미우 코튼 플리스 지퍼 후드 네이비\n\n14%\n\n2,899,000원\n\n관심 51"
         },
         {
-          "product_id": 818957,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 사선 스트레이트 핏 셔츠 화이트\n\n509,000원\n\n관심 2\n\n · 리뷰 1"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         }
       ]
     },
     {
       "sku": "MTC159A00626415",
       "option": "1",
+      "stock": 1,
       "eur_price": 312.7,
       "matched": true,
       "product_id": 389999,
@@ -7130,6 +6998,7 @@
     {
       "sku": "MKL007BY1051001",
       "option": "3",
+      "stock": 1,
       "eur_price": 350.82,
       "matched": true,
       "product_id": 672353,
@@ -7137,14 +7006,19 @@
       "product_url": "https://kream.co.kr/products/672353",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 850000,
+        "lowest_ask": 848000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 850000,
+          "price": 848000,
+          "option": "3",
+          "quantity": 1
+        },
+        {
+          "price": 849000,
           "option": "3",
           "quantity": 1
         },
@@ -7162,7 +7036,7 @@
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 3,
+        "asks": 4,
         "bids": 0
       },
       "raw_chart_recently": null,
@@ -7178,7 +7052,8 @@
     {
       "sku": "MKA580AY3065415",
       "option": "2",
-      "eur_price": 550.82,
+      "stock": 1,
+      "eur_price": 459.02,
       "matched": true,
       "product_id": 715421,
       "product_name_ko": "Thom Browne",
@@ -7216,7 +7091,8 @@
     {
       "sku": "MKA580AY3065415",
       "option": "3",
-      "eur_price": 550.82,
+      "stock": 2,
+      "eur_price": 459.02,
       "matched": true,
       "product_id": 715421,
       "product_name_ko": "Thom Browne",
@@ -7260,7 +7136,8 @@
     {
       "sku": "MKA580AY3065415",
       "option": "4",
-      "eur_price": 550.82,
+      "stock": 1,
+      "eur_price": 459.02,
       "matched": true,
       "product_id": 715421,
       "product_name_ko": "Thom Browne",
@@ -7304,65 +7181,68 @@
     {
       "sku": "FLR005OF1004100",
       "option": "42 IT",
+      "stock": 1,
       "eur_price": 261.89,
       "matched": false,
       "error": "No KREAM match for SKU=\"FLR005OF1004100\" SPU=\"FLR005OF1004100\"",
       "candidates": [
         {
-          "product_id": 64742,
-          "text": "Thom Browne\n\n톰브라운 사선 컴프레션 집업 자켓 네이비\n\n71%\n\n699,000원\n\n관심 34\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 715404,
+          "text": "Thom Browne\n\n톰브라운 폴리 테크 코쿤 윈드브레이커 네이비\n\n6,292,000원\n\n관심 1"
         },
         {
-          "product_id": 205646,
-          "text": "Thom Browne\n\n톰브라운 사선 컴프레션 집업 자켓 라이트 그레이\n\n691,000원\n\n관심 19"
+          "product_id": 138165,
+          "text": "Thom Browne\n\n톰브라운 플레인 위브 수팅 사선 니트 블루종 자켓 미디움 그레이\n\n20%\n\n2,427,000원\n\n관심 68\n\n · 거래 10"
         },
         {
-          "product_id": 64731,
-          "text": "Thom Browne\n\n톰브라운 오픈 라셀 스티치 사선 스웨트셔츠 화이트\n\n28%\n\n905,000원\n\n관심 105\n\n · 리뷰 1\n\n · 거래 14"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 59013,
-          "text": "Thom Browne\n\n톰브라운 솔리드 포플린 그로그랭 암밴드 클래식 롱슬리브 포인트 칼라 버튼 다운 셔츠 화이트\n\n36%\n\n499,000원\n\n관심 463\n\n · 리뷰 18\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 141866,
-          "text": "Thom Browne\n\n톰브라운 라이트웨이트 앵커 루프백 사선 후드 집업 네이비\n\n50%\n\n970,000원\n\n관심 53\n\n · 리뷰 2\n\n · 거래 4"
+          "product_id": 103767,
+          "text": "Thom Browne\n\n톰브라운 RWB 스트라이프 브이넥 가디건 네이비\n\n999,000원\n\n관심 14"
         }
       ]
     },
     {
       "sku": "FLR005OF1004100",
       "option": "44 IT",
+      "stock": 1,
       "eur_price": 261.89,
       "matched": false,
       "error": "No KREAM match for SKU=\"FLR005OF1004100\" SPU=\"FLR005OF1004100\"",
       "candidates": [
         {
-          "product_id": 64742,
-          "text": "Thom Browne\n\n톰브라운 사선 컴프레션 집업 자켓 네이비\n\n71%\n\n699,000원\n\n관심 34\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 715404,
+          "text": "Thom Browne\n\n톰브라운 폴리 테크 코쿤 윈드브레이커 네이비\n\n6,292,000원\n\n관심 1"
         },
         {
-          "product_id": 205646,
-          "text": "Thom Browne\n\n톰브라운 사선 컴프레션 집업 자켓 라이트 그레이\n\n691,000원\n\n관심 19"
+          "product_id": 138165,
+          "text": "Thom Browne\n\n톰브라운 플레인 위브 수팅 사선 니트 블루종 자켓 미디움 그레이\n\n20%\n\n2,427,000원\n\n관심 68\n\n · 거래 10"
         },
         {
-          "product_id": 64731,
-          "text": "Thom Browne\n\n톰브라운 오픈 라셀 스티치 사선 스웨트셔츠 화이트\n\n28%\n\n905,000원\n\n관심 105\n\n · 리뷰 1\n\n · 거래 14"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 59013,
-          "text": "Thom Browne\n\n톰브라운 솔리드 포플린 그로그랭 암밴드 클래식 롱슬리브 포인트 칼라 버튼 다운 셔츠 화이트\n\n36%\n\n499,000원\n\n관심 463\n\n · 리뷰 18\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 141866,
-          "text": "Thom Browne\n\n톰브라운 라이트웨이트 앵커 루프백 사선 후드 집업 네이비\n\n50%\n\n970,000원\n\n관심 53\n\n · 리뷰 2\n\n · 거래 4"
+          "product_id": 103767,
+          "text": "Thom Browne\n\n톰브라운 RWB 스트라이프 브이넥 가디건 네이비\n\n999,000원\n\n관심 14"
         }
       ]
     },
     {
       "sku": "MJO030A06146415",
       "option": "1",
-      "eur_price": 1101.64,
+      "stock": 1,
+      "eur_price": 918.04,
       "matched": true,
       "product_id": 65509,
       "product_name_ko": "Thom Browne",
@@ -7445,14 +7325,15 @@
     {
       "sku": "MJO030A06146415",
       "option": "3",
-      "eur_price": 1101.64,
+      "stock": 1,
+      "eur_price": 918.04,
       "matched": true,
       "product_id": 65509,
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/65509",
       "market": {
         "last_sale_price": 1200000,
-        "lowest_ask": 2192000,
+        "lowest_ask": 2182000,
         "highest_bid": 750000,
         "change_text": "▼ 791,000원(-46.8%)"
       },
@@ -7488,12 +7369,12 @@
       ],
       "asks": [
         {
-          "price": 2192000,
+          "price": 2182000,
           "option": "3",
           "quantity": 1
         },
         {
-          "price": 2402000,
+          "price": 2183000,
           "option": "3",
           "quantity": 1
         }
@@ -7554,6 +7435,7 @@
     {
       "sku": "MKA002AY1014415",
       "option": "1",
+      "stock": 1,
       "eur_price": 422.13,
       "matched": true,
       "product_id": 64752,
@@ -7617,9 +7499,9 @@
           "quantity": 1
         },
         {
-          "price": 1031000,
+          "price": 1048000,
           "option": "1",
-          "quantity": 1
+          "quantity": 2
         }
       ],
       "bids": [
@@ -7627,17 +7509,12 @@
           "price": 610000,
           "option": "1",
           "quantity": 1
-        },
-        {
-          "price": 600000,
-          "option": "1",
-          "quantity": 1
         }
       ],
       "totals": {
         "sales": 4,
         "asks": 5,
-        "bids": 2
+        "bids": 1
       },
       "raw_chart_recently": {
         "text": ";tl_0;",
@@ -7678,6 +7555,7 @@
     {
       "sku": "MKA002AY1014415",
       "option": "2",
+      "stock": 5,
       "eur_price": 422.13,
       "matched": true,
       "product_id": 64752,
@@ -7685,7 +7563,7 @@
       "product_url": "https://kream.co.kr/products/64752",
       "market": {
         "last_sale_price": 690000,
-        "lowest_ask": 840000,
+        "lowest_ask": 799000,
         "highest_bid": 700000,
         "change_text": "▼ 89,000원(-11.4%)"
       },
@@ -7742,7 +7620,7 @@
       ],
       "asks": [
         {
-          "price": 840000,
+          "price": 799000,
           "option": "2",
           "quantity": 1
         },
@@ -7787,9 +7665,9 @@
           "quantity": 1
         },
         {
-          "price": 1132000,
+          "price": 1084000,
           "option": "2",
-          "quantity": 2
+          "quantity": 1
         }
       ],
       "bids": [
@@ -7853,6 +7731,7 @@
     {
       "sku": "MKA002AY1014415",
       "option": "3",
+      "stock": 7,
       "eur_price": 422.13,
       "matched": true,
       "product_id": 64752,
@@ -7861,7 +7740,7 @@
       "market": {
         "last_sale_price": 929000,
         "lowest_ask": 842000,
-        "highest_bid": 707000,
+        "highest_bid": 711000,
         "change_text": "▼ 89,000원(-11.4%)"
       },
       "sales": [
@@ -8025,29 +7904,24 @@
           "quantity": 1
         },
         {
-          "price": 1132000,
+          "price": 1084000,
           "option": "3",
-          "quantity": 2
+          "quantity": 1
         }
       ],
       "bids": [
         {
-          "price": 707000,
+          "price": 711000,
           "option": "3",
           "quantity": 1
         },
         {
-          "price": 706000,
+          "price": 710000,
           "option": "3",
           "quantity": 1
         },
         {
           "price": 611000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 530000,
           "option": "3",
           "quantity": 1
         },
@@ -8065,7 +7939,7 @@
       "totals": {
         "sales": 16,
         "asks": 10,
-        "bids": 6
+        "bids": 5
       },
       "raw_chart_recently": {
         "text": ";tl_0;",
@@ -8106,6 +7980,7 @@
     {
       "sku": "MKA002AY1014415",
       "option": "4",
+      "stock": 5,
       "eur_price": 422.13,
       "matched": true,
       "product_id": 64752,
@@ -8113,7 +7988,7 @@
       "product_url": "https://kream.co.kr/products/64752",
       "market": {
         "last_sale_price": 631000,
-        "lowest_ask": 725000,
+        "lowest_ask": 721000,
         "highest_bid": 730000,
         "change_text": "▼ 89,000원(-11.4%)"
       },
@@ -8254,7 +8129,7 @@
       ],
       "asks": [
         {
-          "price": 725000,
+          "price": 721000,
           "option": "4",
           "quantity": 1
         },
@@ -8324,14 +8199,14 @@
           "quantity": 1
         },
         {
-          "price": 1031000,
+          "price": 1048000,
           "option": "4",
           "quantity": 1
         },
         {
-          "price": 1132000,
+          "price": 1084000,
           "option": "4",
-          "quantity": 2
+          "quantity": 1
         }
       ],
       "bids": [
@@ -8356,11 +8231,6 @@
           "quantity": 1
         },
         {
-          "price": 592000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
           "price": 571000,
           "option": "4",
           "quantity": 1
@@ -8369,7 +8239,7 @@
       "totals": {
         "sales": 19,
         "asks": 16,
-        "bids": 6
+        "bids": 5
       },
       "raw_chart_recently": {
         "text": ";tl_0;",
@@ -8410,6 +8280,7 @@
     {
       "sku": "MKA002AY1014415",
       "option": "5",
+      "stock": 2,
       "eur_price": 422.13,
       "matched": true,
       "product_id": 64752,
@@ -8483,17 +8354,17 @@
           "quantity": 1
         },
         {
-          "price": 1007000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
           "price": 1021000,
           "option": "5",
           "quantity": 1
         },
         {
-          "price": 1031000,
+          "price": 1048000,
+          "option": "5",
+          "quantity": 2
+        },
+        {
+          "price": 1084000,
           "option": "5",
           "quantity": 1
         }
@@ -8569,6 +8440,7 @@
     {
       "sku": "MJP022A01455100",
       "option": "1",
+      "stock": 1,
       "eur_price": 206.56,
       "matched": true,
       "product_id": 68303,
@@ -8630,17 +8502,12 @@
           "price": 231000,
           "option": "1",
           "quantity": 1
-        },
-        {
-          "price": 190000,
-          "option": "1",
-          "quantity": 1
         }
       ],
       "totals": {
         "sales": 3,
         "asks": 4,
-        "bids": 2
+        "bids": 1
       },
       "raw_chart_recently": {
         "text": ";tl_0;",
@@ -8678,223 +8545,70 @@
       "option_mismatch": false
     },
     {
-      "sku": "MJP022A01455100",
-      "option": "5",
-      "eur_price": 206.56,
-      "matched": true,
-      "product_id": 68303,
-      "product_name_ko": "Thom Browne",
-      "product_url": "https://kream.co.kr/products/68303",
-      "market": {
-        "last_sale_price": 309000,
-        "lowest_ask": 350000,
-        "highest_bid": null,
-        "change_text": "▲ 38,000원(+11.2%)"
-      },
-      "sales": [
-        {
-          "price": 309000,
-          "option": "5",
-          "date_created": "2025-09-09T12:16:37Z",
-          "date_text": "25/09/09",
-          "is_immediate": false
-        },
-        {
-          "price": 309000,
-          "option": "5",
-          "date_created": "2025-07-01T08:47:46Z",
-          "date_text": "25/07/01",
-          "is_immediate": false
-        },
-        {
-          "price": 309000,
-          "option": "5",
-          "date_created": "2025-02-06T00:33:20Z",
-          "date_text": "25/02/06",
-          "is_immediate": false
-        },
-        {
-          "price": 339000,
-          "option": "5",
-          "date_created": "2024-08-26T09:06:19Z",
-          "date_text": "24/08/26",
-          "is_immediate": false
-        },
-        {
-          "price": 341000,
-          "option": "5",
-          "date_created": "2024-08-13T03:21:36Z",
-          "date_text": "24/08/13",
-          "is_immediate": false
-        },
-        {
-          "price": 390000,
-          "option": "5",
-          "date_created": "2024-07-01T04:02:17Z",
-          "date_text": "24/07/01",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 350000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 360000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 378000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 390000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 391000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 394000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 395000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 405000,
-          "option": "5",
-          "quantity": 2
-        },
-        {
-          "price": 465000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 495000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 534000,
-          "option": "5",
-          "quantity": 1
-        }
-      ],
-      "bids": [],
-      "totals": {
-        "sales": 6,
-        "asks": 11,
-        "bids": 0
-      },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▲ 38,000원(+11.2%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#F15746",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "5",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
-    },
-    {
       "sku": "MJO165OF0496055",
       "option": "1",
+      "stock": 1,
       "eur_price": 756.15,
       "matched": false,
       "error": "No KREAM match for SKU=\"MJO165OF0496055\" SPU=\"MJO165OF0496055\"",
       "candidates": [
         {
-          "product_id": 63828,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 센터 백 스트라이프 후드 집업 네이비\n\n45%\n\n785,000원\n\n관심 1,770\n\n · 리뷰 99\n\n · 거래 473\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 50558,
-          "text": "Thom Browne\n\n톰브라운 루프백 센터 백 스트라이프 크루넥 풀오버 니트 네이비\n\n53%\n\n474,000원\n\n관심 2,534\n\n · 리뷰 225\n\n · 거래 1,608\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 829089,
+          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
         },
         {
-          "product_id": 123769,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n63%\n\n737,000원\n\n관심 248\n\n · 리뷰 11\n\n · 거래 54"
+          "product_id": 321226,
+          "text": "Thom Browne\n\n톰브라운 메리노 울 암밴드 피케 풀오버 네이비\n\n67%\n\n573,000원\n\n관심 31\n\n · 거래 2"
         },
         {
-          "product_id": 102565,
-          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 암밴드 후디 라이트 그레이\n\n66%\n\n885,000원\n\n관심 172\n\n · 리뷰 2\n\n · 거래 47"
+          "product_id": 77066,
+          "text": "Thom Browne\n\n톰브라운 브이넥 가디건 바시티 피케 네이비\n\n949,000원\n\n관심 224\n\n · 리뷰 3\n\n · 거래 19"
         },
         {
-          "product_id": 64160,
-          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n30%\n\n580,000원\n\n관심 1,200\n\n · 리뷰 43\n\n · 거래 240\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 715412,
+          "text": "Thom Browne\n\n톰브라운 메리노 베이비 케이블 스티치 RWB 스트라이프 가디건 블랙\n\n41%\n\n1,734,000원\n\n관심 8"
         }
       ]
     },
     {
       "sku": "MJO165OF0496055",
       "option": "2",
+      "stock": 1,
       "eur_price": 756.15,
       "matched": false,
       "error": "No KREAM match for SKU=\"MJO165OF0496055\" SPU=\"MJO165OF0496055\"",
       "candidates": [
         {
-          "product_id": 63828,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 센터 백 스트라이프 후드 집업 네이비\n\n45%\n\n785,000원\n\n관심 1,770\n\n · 리뷰 99\n\n · 거래 473\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 50558,
-          "text": "Thom Browne\n\n톰브라운 루프백 센터 백 스트라이프 크루넥 풀오버 니트 네이비\n\n53%\n\n474,000원\n\n관심 2,534\n\n · 리뷰 225\n\n · 거래 1,608\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 829089,
+          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
         },
         {
-          "product_id": 123769,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n63%\n\n737,000원\n\n관심 248\n\n · 리뷰 11\n\n · 거래 54"
+          "product_id": 321226,
+          "text": "Thom Browne\n\n톰브라운 메리노 울 암밴드 피케 풀오버 네이비\n\n67%\n\n573,000원\n\n관심 31\n\n · 거래 2"
         },
         {
-          "product_id": 102565,
-          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 암밴드 후디 라이트 그레이\n\n66%\n\n885,000원\n\n관심 172\n\n · 리뷰 2\n\n · 거래 47"
+          "product_id": 77066,
+          "text": "Thom Browne\n\n톰브라운 브이넥 가디건 바시티 피케 네이비\n\n949,000원\n\n관심 224\n\n · 리뷰 3\n\n · 거래 19"
         },
         {
-          "product_id": 64160,
-          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n30%\n\n580,000원\n\n관심 1,200\n\n · 리뷰 43\n\n · 거래 240\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 715412,
+          "text": "Thom Browne\n\n톰브라운 메리노 베이비 케이블 스티치 RWB 스트라이프 가디건 블랙\n\n41%\n\n1,734,000원\n\n관심 8"
         }
       ]
     },
     {
       "sku": "MJT517A03037415",
       "option": "3",
-      "eur_price": 390.98,
+      "stock": 1,
+      "eur_price": 365.17,
       "matched": true,
       "product_id": 453765,
       "product_name_ko": "Thom Browne",
@@ -8941,7 +8655,8 @@
     {
       "sku": "MKA580AY3065260",
       "option": "3",
-      "eur_price": 550.82,
+      "stock": 3,
+      "eur_price": 459.02,
       "matched": true,
       "product_id": 715422,
       "product_name_ko": "Thom Browne",
@@ -8993,24 +8708,20 @@
     {
       "sku": "MKA580AY3065260",
       "option": "4",
-      "eur_price": 550.82,
+      "stock": 2,
+      "eur_price": 459.02,
       "matched": true,
       "product_id": 715422,
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/715422",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 1490000,
+        "lowest_ask": 1657000,
         "highest_bid": 580000,
         "change_text": null
       },
       "sales": [],
       "asks": [
-        {
-          "price": 1490000,
-          "option": "4",
-          "quantity": 1
-        },
         {
           "price": 1657000,
           "option": "4",
@@ -9031,7 +8742,7 @@
       ],
       "totals": {
         "sales": 0,
-        "asks": 3,
+        "asks": 2,
         "bids": 1
       },
       "raw_chart_recently": null,
@@ -9050,7 +8761,8 @@
     {
       "sku": "MKA580AY3065260",
       "option": "5",
-      "eur_price": 550.82,
+      "stock": 1,
+      "eur_price": 459.02,
       "matched": true,
       "product_id": 715422,
       "product_name_ko": "Thom Browne",
@@ -9091,7 +8803,8 @@
     {
       "sku": "MJQ222A03037415",
       "option": "4",
-      "eur_price": 296.93,
+      "stock": 1,
+      "eur_price": 298.77,
       "matched": true,
       "product_id": 453251,
       "product_name_ko": "Thom Browne",
@@ -9134,6 +8847,7 @@
     {
       "sku": "MKC581AY3043415",
       "option": "4",
+      "stock": 2,
       "eur_price": 528.69,
       "matched": true,
       "product_id": 419121,
@@ -9232,7 +8946,8 @@
     {
       "sku": "MJP234AJ0248415",
       "option": "3",
-      "eur_price": 418.03,
+      "stock": 1,
+      "eur_price": 348.36,
       "matched": true,
       "product_id": 715392,
       "product_name_ko": "Thom Browne",
@@ -9281,7 +8996,8 @@
     {
       "sku": "MJP234AJ0248415",
       "option": "4",
-      "eur_price": 418.03,
+      "stock": 3,
+      "eur_price": 348.36,
       "matched": true,
       "product_id": 715392,
       "product_name_ko": "Thom Browne",
@@ -9324,7 +9040,8 @@
     {
       "sku": "MJP234AJ0248415",
       "option": "5",
-      "eur_price": 418.03,
+      "stock": 1,
+      "eur_price": 348.36,
       "matched": true,
       "product_id": 715392,
       "product_name_ko": "Thom Browne",
@@ -9373,93 +9090,97 @@
     {
       "sku": "MJT554AJ0248050",
       "option": "4",
-      "eur_price": 474.59,
+      "stock": 1,
+      "eur_price": 395.49,
       "matched": false,
       "error": "No KREAM match for SKU=\"MJT554AJ0248050\" SPU=\"MJT554AJ0248050\"",
       "candidates": [
         {
-          "product_id": 64742,
-          "text": "Thom Browne\n\n톰브라운 사선 컴프레션 집업 자켓 네이비\n\n71%\n\n699,000원\n\n관심 34\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 50558,
-          "text": "Thom Browne\n\n톰브라운 루프백 센터 백 스트라이프 크루넥 풀오버 니트 네이비\n\n53%\n\n474,000원\n\n관심 2,534\n\n · 리뷰 225\n\n · 거래 1,608\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 72123,
-          "text": "Thom Browne\n\n톰브라운 립스탑 메쉬 사선 후드 자켓 미디움 그레이\n\n2,490,000원\n\n관심 586\n\n · 리뷰 4\n\n · 거래 75"
+          "product_id": 321226,
+          "text": "Thom Browne\n\n톰브라운 메리노 울 암밴드 피케 풀오버 네이비\n\n67%\n\n573,000원\n\n관심 31\n\n · 거래 2"
         },
         {
-          "product_id": 102565,
-          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 암밴드 후디 라이트 그레이\n\n66%\n\n885,000원\n\n관심 172\n\n · 리뷰 2\n\n · 거래 47"
+          "product_id": 829089,
+          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
         },
         {
-          "product_id": 102566,
-          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 암밴드 후디 네이비\n\n47%\n\n1,398,000원\n\n관심 1,889\n\n · 리뷰 24\n\n · 거래 270"
+          "product_id": 715412,
+          "text": "Thom Browne\n\n톰브라운 메리노 베이비 케이블 스티치 RWB 스트라이프 가디건 블랙\n\n41%\n\n1,734,000원\n\n관심 8"
         }
       ]
     },
     {
       "sku": "MWL437OF1158960",
       "option": "2",
+      "stock": 2,
       "eur_price": 261.89,
       "matched": false,
       "error": "No KREAM match for SKU=\"MWL437OF1158960\" SPU=\"MWL437OF1158960\"",
       "candidates": [
         {
-          "product_id": 59013,
-          "text": "Thom Browne\n\n톰브라운 솔리드 포플린 그로그랭 암밴드 클래식 롱슬리브 포인트 칼라 버튼 다운 셔츠 화이트\n\n36%\n\n499,000원\n\n관심 463\n\n · 리뷰 18\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 58373,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 스트라이프 그로그랭 암밴드 클래식 셔츠 화이트\n\n36%\n\n460,000원\n\n관심 1,390\n\n · 리뷰 52\n\n · 거래 332\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 196182,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 클래식 그로그랭 플래킷 셔츠 화이트\n\n43%\n\n428,000원\n\n관심 917\n\n · 리뷰 63\n\n · 거래 350\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 829089,
+          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
         },
         {
-          "product_id": 112282,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 사선 오버사이즈 버튼 다운 셔츠 화이트 다크 그레이\n\n5%\n\n1,018,000원\n\n관심 627\n\n · 리뷰 15\n\n · 거래 140"
+          "product_id": 176919,
+          "text": "Thom Browne\n\n톰브라운 코튼 캐시미어 인터락 사선 폴로 칼라 자켓 미디움 그레이\n\n63%\n\n2,492,000원\n\n관심 46"
         },
         {
-          "product_id": 64160,
-          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n30%\n\n580,000원\n\n관심 1,200\n\n · 리뷰 43\n\n · 거래 240\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 69833,
+          "text": "Thom Browne\n\n톰브라운 슈퍼 120수 울 트윌 싱글 브레스티드 클래식 자켓 네이비\n\n41%\n\n1,866,000원\n\n관심 146\n\n · 리뷰 8\n\n · 거래 18"
         }
       ]
     },
     {
       "sku": "MWL437OF1158960",
       "option": "3",
+      "stock": 2,
       "eur_price": 261.89,
       "matched": false,
       "error": "No KREAM match for SKU=\"MWL437OF1158960\" SPU=\"MWL437OF1158960\"",
       "candidates": [
         {
-          "product_id": 59013,
-          "text": "Thom Browne\n\n톰브라운 솔리드 포플린 그로그랭 암밴드 클래식 롱슬리브 포인트 칼라 버튼 다운 셔츠 화이트\n\n36%\n\n499,000원\n\n관심 463\n\n · 리뷰 18\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 58373,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 스트라이프 그로그랭 암밴드 클래식 셔츠 화이트\n\n36%\n\n460,000원\n\n관심 1,390\n\n · 리뷰 52\n\n · 거래 332\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 196182,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 클래식 그로그랭 플래킷 셔츠 화이트\n\n43%\n\n428,000원\n\n관심 917\n\n · 리뷰 63\n\n · 거래 350\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 829089,
+          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
         },
         {
-          "product_id": 112282,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 사선 오버사이즈 버튼 다운 셔츠 화이트 다크 그레이\n\n5%\n\n1,018,000원\n\n관심 627\n\n · 리뷰 15\n\n · 거래 140"
+          "product_id": 176919,
+          "text": "Thom Browne\n\n톰브라운 코튼 캐시미어 인터락 사선 폴로 칼라 자켓 미디움 그레이\n\n63%\n\n2,492,000원\n\n관심 46"
         },
         {
-          "product_id": 64160,
-          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n30%\n\n580,000원\n\n관심 1,200\n\n · 리뷰 43\n\n · 거래 240\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 69833,
+          "text": "Thom Browne\n\n톰브라운 슈퍼 120수 울 트윌 싱글 브레스티드 클래식 자켓 네이비\n\n41%\n\n1,866,000원\n\n관심 146\n\n · 리뷰 8\n\n · 거래 18"
         }
       ]
     },
     {
       "sku": "FLL152AF0184100",
       "option": "40 IT",
+      "stock": 1,
       "eur_price": 150.82,
       "matched": true,
       "product_id": 185447,
@@ -9498,6 +9219,7 @@
     {
       "sku": "MJT021H00535461",
       "option": "2",
+      "stock": 2,
       "eur_price": 334.43,
       "matched": true,
       "product_id": 49293,
@@ -9507,7 +9229,7 @@
         "last_sale_price": 598000,
         "lowest_ask": 598000,
         "highest_bid": 539000,
-        "change_text": "▲ 79,000원(+13.2%)"
+        "change_text": "▼ 87,000원(-12.9%)"
       },
       "sales": [
         {
@@ -9584,6 +9306,11 @@
           "quantity": 1
         },
         {
+          "price": 612000,
+          "option": "2",
+          "quantity": 4
+        },
+        {
           "price": 619000,
           "option": "2",
           "quantity": 1
@@ -9592,11 +9319,6 @@
           "price": 634000,
           "option": "2",
           "quantity": 1
-        },
-        {
-          "price": 638000,
-          "option": "2",
-          "quantity": 2
         },
         {
           "price": 640000,
@@ -9627,6 +9349,16 @@
           "price": 668000,
           "option": "2",
           "quantity": 1
+        },
+        {
+          "price": 679000,
+          "option": "2",
+          "quantity": 1
+        },
+        {
+          "price": 681000,
+          "option": "2",
+          "quantity": 1
         }
       ],
       "bids": [
@@ -9653,7 +9385,7 @@
       ],
       "totals": {
         "sales": 8,
-        "asks": 12,
+        "asks": 14,
         "bids": 4
       },
       "raw_chart_recently": {
@@ -9661,7 +9393,7 @@
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "▲ 79,000원(+13.2%)",
+            "text": "▼ 87,000원(-12.9%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -9670,7 +9402,7 @@
             "action_type": null,
             "action_value": null,
             "adjustment": 0,
-            "color": "#F15746",
+            "color": "#31B46E",
             "type": "text"
           }
         ],
@@ -9697,6 +9429,7 @@
     {
       "sku": "MJT021H00535461",
       "option": "3",
+      "stock": 6,
       "eur_price": 334.43,
       "matched": true,
       "product_id": 49293,
@@ -9705,8 +9438,8 @@
       "market": {
         "last_sale_price": 639000,
         "lowest_ask": 583000,
-        "highest_bid": 536000,
-        "change_text": "▲ 79,000원(+13.2%)"
+        "highest_bid": 540000,
+        "change_text": "▼ 87,000원(-12.9%)"
       },
       "sales": [
         {
@@ -9833,12 +9566,12 @@
         {
           "price": 639000,
           "option": "3",
-          "quantity": 1
+          "quantity": 2
         },
         {
           "price": 640000,
           "option": "3",
-          "quantity": 1
+          "quantity": 2
         },
         {
           "price": 642000,
@@ -9851,16 +9584,6 @@
           "quantity": 3
         },
         {
-          "price": 659000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 660000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
           "price": 676000,
           "option": "3",
           "quantity": 1
@@ -9868,12 +9591,12 @@
       ],
       "bids": [
         {
-          "price": 536000,
+          "price": 540000,
           "option": "3",
           "quantity": 1
         },
         {
-          "price": 535000,
+          "price": 510000,
           "option": "3",
           "quantity": 1
         },
@@ -9895,7 +9618,7 @@
       ],
       "totals": {
         "sales": 12,
-        "asks": 14,
+        "asks": 12,
         "bids": 5
       },
       "raw_chart_recently": {
@@ -9903,7 +9626,7 @@
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "▲ 79,000원(+13.2%)",
+            "text": "▼ 87,000원(-12.9%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -9912,7 +9635,7 @@
             "action_type": null,
             "action_value": null,
             "adjustment": 0,
-            "color": "#F15746",
+            "color": "#31B46E",
             "type": "text"
           }
         ],
@@ -9939,6 +9662,7 @@
     {
       "sku": "FGC402V06146415",
       "option": "36 IT",
+      "stock": 1,
       "eur_price": 639.34,
       "matched": true,
       "product_id": 72186,
@@ -9946,7 +9670,7 @@
       "product_url": "https://kream.co.kr/products/72186",
       "market": {
         "last_sale_price": 926000,
-        "lowest_ask": 1292000,
+        "lowest_ask": 1364000,
         "highest_bid": 188000,
         "change_text": "▲ 1,000원(+0.1%)"
       },
@@ -9975,14 +9699,9 @@
       ],
       "asks": [
         {
-          "price": 1292000,
-          "option": "36",
-          "quantity": 1
-        },
-        {
           "price": 1364000,
           "option": "36",
-          "quantity": 1
+          "quantity": 2
         },
         {
           "price": 1365000,
@@ -10004,7 +9723,7 @@
       ],
       "totals": {
         "sales": 3,
-        "asks": 4,
+        "asks": 3,
         "bids": 1
       },
       "raw_chart_recently": {
@@ -10045,64 +9764,67 @@
     {
       "sku": "MJO165OF0496415",
       "option": "3",
+      "stock": 1,
       "eur_price": 756.15,
       "matched": false,
       "error": "No KREAM match for SKU=\"MJO165OF0496415\" SPU=\"MJO165OF0496415\"",
       "candidates": [
         {
-          "product_id": 72765,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 니트 엔지니어드 사선 스웨트쇼츠 라이트 그레이\n\n62%\n\n478,000원\n\n관심 259\n\n · 리뷰 30\n\n · 거래 161\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 58373,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 스트라이프 그로그랭 암밴드 클래식 셔츠 화이트\n\n36%\n\n460,000원\n\n관심 1,390\n\n · 리뷰 52\n\n · 거래 332\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 829089,
+          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
         },
         {
-          "product_id": 66542,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 니트 엔지니어드 사선 스웨트쇼츠 네이비\n\n46%\n\n680,000원\n\n관심 416\n\n · 리뷰 55\n\n · 거래 286\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 321226,
+          "text": "Thom Browne\n\n톰브라운 메리노 울 암밴드 피케 풀오버 네이비\n\n67%\n\n573,000원\n\n관심 31\n\n · 거래 2"
         },
         {
-          "product_id": 50558,
-          "text": "Thom Browne\n\n톰브라운 루프백 센터 백 스트라이프 크루넥 풀오버 니트 네이비\n\n53%\n\n474,000원\n\n관심 2,534\n\n · 리뷰 225\n\n · 거래 1,608\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 63828,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 센터 백 스트라이프 후드 집업 네이비\n\n45%\n\n785,000원\n\n관심 1,770\n\n · 리뷰 99\n\n · 거래 473\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 77066,
+          "text": "Thom Browne\n\n톰브라운 브이넥 가디건 바시티 피케 네이비\n\n949,000원\n\n관심 224\n\n · 리뷰 3\n\n · 거래 19"
         }
       ]
     },
     {
       "sku": "MJO165OF0496415",
       "option": "4",
+      "stock": 1,
       "eur_price": 756.15,
       "matched": false,
       "error": "No KREAM match for SKU=\"MJO165OF0496415\" SPU=\"MJO165OF0496415\"",
       "candidates": [
         {
-          "product_id": 72765,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 니트 엔지니어드 사선 스웨트쇼츠 라이트 그레이\n\n62%\n\n478,000원\n\n관심 259\n\n · 리뷰 30\n\n · 거래 161\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 58373,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 스트라이프 그로그랭 암밴드 클래식 셔츠 화이트\n\n36%\n\n460,000원\n\n관심 1,390\n\n · 리뷰 52\n\n · 거래 332\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 829089,
+          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
         },
         {
-          "product_id": 66542,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 니트 엔지니어드 사선 스웨트쇼츠 네이비\n\n46%\n\n680,000원\n\n관심 416\n\n · 리뷰 55\n\n · 거래 286\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 321226,
+          "text": "Thom Browne\n\n톰브라운 메리노 울 암밴드 피케 풀오버 네이비\n\n67%\n\n573,000원\n\n관심 31\n\n · 거래 2"
         },
         {
-          "product_id": 50558,
-          "text": "Thom Browne\n\n톰브라운 루프백 센터 백 스트라이프 크루넥 풀오버 니트 네이비\n\n53%\n\n474,000원\n\n관심 2,534\n\n · 리뷰 225\n\n · 거래 1,608\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 63828,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 센터 백 스트라이프 후드 집업 네이비\n\n45%\n\n785,000원\n\n관심 1,770\n\n · 리뷰 99\n\n · 거래 473\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 77066,
+          "text": "Thom Browne\n\n톰브라운 브이넥 가디건 바시티 피케 네이비\n\n949,000원\n\n관심 224\n\n · 리뷰 3\n\n · 거래 19"
         }
       ]
     },
     {
       "sku": "MFE007B05584100",
       "option": "8",
+      "stock": 1,
       "eur_price": 274.59,
       "matched": true,
       "product_id": 419226,
@@ -10146,6 +9868,7 @@
     {
       "sku": "MFE007B05584100",
       "option": "8.5",
+      "stock": 1,
       "eur_price": 274.59,
       "matched": true,
       "product_id": 419226,
@@ -10189,6 +9912,7 @@
     {
       "sku": "MJP209AJ0199100",
       "option": "1",
+      "stock": 1,
       "eur_price": 319.67,
       "matched": true,
       "product_id": 479404,
@@ -10228,6 +9952,7 @@
     {
       "sku": "MJP209AJ0199100",
       "option": "2",
+      "stock": 1,
       "eur_price": 319.67,
       "matched": true,
       "product_id": 479404,
@@ -10260,17 +9985,12 @@
           "price": 842000,
           "option": "2",
           "quantity": 1
-        },
-        {
-          "price": 932000,
-          "option": "2",
-          "quantity": 1
         }
       ],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 5,
+        "asks": 4,
         "bids": 0
       },
       "raw_chart_recently": null,
@@ -10287,6 +10007,7 @@
     {
       "sku": "MJP209AJ0199100",
       "option": "4",
+      "stock": 2,
       "eur_price": 319.67,
       "matched": true,
       "product_id": 479404,
@@ -10314,17 +10035,12 @@
           "price": 864000,
           "option": "4",
           "quantity": 1
-        },
-        {
-          "price": 932000,
-          "option": "4",
-          "quantity": 1
         }
       ],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 4,
+        "asks": 3,
         "bids": 0
       },
       "raw_chart_recently": null,
@@ -10341,35 +10057,37 @@
     {
       "sku": "MOU629A06111250",
       "option": "2",
+      "stock": 1,
       "eur_price": 710.66,
       "matched": false,
       "error": "No KREAM match for SKU=\"MOU629A06111250\" SPU=\"MOU629A06111250\"",
       "candidates": [
         {
-          "product_id": 110525,
-          "text": "Thom Browne\n\n톰브라운 캔버스 타르탄 트레드 컬리지에이트 로우탑 트레이너 화이트\n\n65%\n\n336,000원\n\n관심 106\n\n · 리뷰 3\n\n · 거래 28"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 59015,
-          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 라이트 그레이\n\n33%\n\n793,000원\n\n관심 2,149\n\n · 리뷰 79\n\n · 거래 459\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 829089,
+          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
         },
         {
-          "product_id": 72123,
-          "text": "Thom Browne\n\n톰브라운 립스탑 메쉬 사선 후드 자켓 미디움 그레이\n\n2,490,000원\n\n관심 586\n\n · 리뷰 4\n\n · 거래 75"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 63286,
-          "text": "Thom Browne\n\n톰브라운 래글런 슬리브 크루넥 스웨트셔츠 네이비\n\n670,000원\n\n관심 395\n\n · 리뷰 7\n\n · 거래 48"
+          "product_id": 176919,
+          "text": "Thom Browne\n\n톰브라운 코튼 캐시미어 인터락 사선 폴로 칼라 자켓 미디움 그레이\n\n63%\n\n2,492,000원\n\n관심 46"
         },
         {
-          "product_id": 73028,
-          "text": "Thom Browne\n\n톰브라운 솔리드 스윔 테크 사선 후드 아노락 네이비\n\n47%\n\n1,497,000원\n\n관심 25"
+          "product_id": 332620,
+          "text": "Thom Browne\n\n톰브라운 울트라라이트 립스탑 사선 퍼넬 넥 자켓 라이트 그레이\n\n32%\n\n2,300,000원\n\n관심 21\n\n · 리뷰 2\n\n · 거래 5"
         }
       ]
     },
     {
       "sku": "MKC612AY2001055",
       "option": "2",
+      "stock": 1,
       "eur_price": 1006.97,
       "matched": true,
       "product_id": 672367,
@@ -10408,6 +10126,7 @@
     {
       "sku": "MKC612AY2001055",
       "option": "3",
+      "stock": 2,
       "eur_price": 1006.97,
       "matched": true,
       "product_id": 672367,
@@ -10446,6 +10165,7 @@
     {
       "sku": "MKC612AY2001055",
       "option": "4",
+      "stock": 1,
       "eur_price": 1006.97,
       "matched": true,
       "product_id": 672367,
@@ -10482,110 +10202,69 @@
       "option_mismatch": true
     },
     {
-      "sku": "MJS298EJ0251415",
-      "option": "4",
-      "eur_price": 232.38,
-      "matched": true,
-      "product_id": 815672,
-      "product_name_ko": "Thom Browne",
-      "product_url": "https://kream.co.kr/products/815672",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": 627000,
-        "highest_bid": null,
-        "change_text": null
-      },
-      "sales": [],
-      "asks": [
-        {
-          "price": 627000,
-          "option": "4",
-          "quantity": 2
-        },
-        {
-          "price": 879000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
-      "bids": [],
-      "totals": {
-        "sales": 0,
-        "asks": 2,
-        "bids": 0
-      },
-      "raw_chart_recently": null,
-      "kream_option": "4",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
-    },
-    {
       "sku": "MKA581AY3014415",
       "option": "2",
-      "eur_price": 431.56,
+      "stock": 1,
+      "eur_price": 424.18,
       "matched": false,
       "error": "No KREAM match for SKU=\"MKA581AY3014415\" SPU=\"MKA581AY3014415\"",
       "candidates": [
         {
-          "product_id": 63835,
-          "text": "Thom Browne\n\n톰브라운 코튼 브이넥 사선 가디건 토날 그레이\n\n11%\n\n1,768,000원\n\n관심 160\n\n · 리뷰 2\n\n · 거래 11"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 64752,
-          "text": "Thom Browne\n\n톰브라운 파인 메리노 울 스티치 사선 클래식 크루넥 풀오버 니트 네이비\n\n725,000원\n\n관심 1,694\n\n · 리뷰 53\n\n · 거래 490\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 102566,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 암밴드 후디 네이비\n\n47%\n\n1,398,000원\n\n관심 1,893\n\n · 리뷰 24\n\n · 거래 269"
         },
         {
-          "product_id": 50558,
-          "text": "Thom Browne\n\n톰브라운 루프백 센터 백 스트라이프 크루넥 풀오버 니트 네이비\n\n53%\n\n474,000원\n\n관심 2,534\n\n · 리뷰 225\n\n · 거래 1,608\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 321226,
+          "text": "Thom Browne\n\n톰브라운 메리노 울 암밴드 피케 풀오버 네이비\n\n67%\n\n573,000원\n\n관심 31\n\n · 거래 2"
         },
         {
-          "product_id": 54265,
-          "text": "Thom Browne\n\n톰브라운 밀라노 스티치 사선 크루넥 풀오버 니트 미디움 그레이\n\n45%\n\n800,000원\n\n관심 2,408\n\n · 리뷰 120\n\n · 거래 892\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 829089,
+          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
         },
         {
-          "product_id": 610749,
-          "text": "Thom Browne\n\n톰브라운 애니멀 아이콘 사선 크루넥 스웨트셔츠 네이비\n\n842,000원\n\n관심 4"
+          "product_id": 77066,
+          "text": "Thom Browne\n\n톰브라운 브이넥 가디건 바시티 피케 네이비\n\n949,000원\n\n관심 224\n\n · 리뷰 3\n\n · 거래 19"
         }
       ]
     },
     {
       "sku": "MKA581AY3014415",
       "option": "3",
-      "eur_price": 431.56,
+      "stock": 1,
+      "eur_price": 424.18,
       "matched": false,
       "error": "No KREAM match for SKU=\"MKA581AY3014415\" SPU=\"MKA581AY3014415\"",
       "candidates": [
         {
-          "product_id": 63835,
-          "text": "Thom Browne\n\n톰브라운 코튼 브이넥 사선 가디건 토날 그레이\n\n11%\n\n1,768,000원\n\n관심 160\n\n · 리뷰 2\n\n · 거래 11"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 64752,
-          "text": "Thom Browne\n\n톰브라운 파인 메리노 울 스티치 사선 클래식 크루넥 풀오버 니트 네이비\n\n725,000원\n\n관심 1,694\n\n · 리뷰 53\n\n · 거래 490\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 102566,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 암밴드 후디 네이비\n\n47%\n\n1,398,000원\n\n관심 1,893\n\n · 리뷰 24\n\n · 거래 269"
         },
         {
-          "product_id": 50558,
-          "text": "Thom Browne\n\n톰브라운 루프백 센터 백 스트라이프 크루넥 풀오버 니트 네이비\n\n53%\n\n474,000원\n\n관심 2,534\n\n · 리뷰 225\n\n · 거래 1,608\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 321226,
+          "text": "Thom Browne\n\n톰브라운 메리노 울 암밴드 피케 풀오버 네이비\n\n67%\n\n573,000원\n\n관심 31\n\n · 거래 2"
         },
         {
-          "product_id": 54265,
-          "text": "Thom Browne\n\n톰브라운 밀라노 스티치 사선 크루넥 풀오버 니트 미디움 그레이\n\n45%\n\n800,000원\n\n관심 2,408\n\n · 리뷰 120\n\n · 거래 892\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 829089,
+          "text": "Thom Browne\n\n톰브라운 텍스쳐드 피케 사선 가디건 네이비\n\n41%\n\n1,016,000원\n\n관심 3"
         },
         {
-          "product_id": 610749,
-          "text": "Thom Browne\n\n톰브라운 애니멀 아이콘 사선 크루넥 스웨트셔츠 네이비\n\n842,000원\n\n관심 4"
+          "product_id": 77066,
+          "text": "Thom Browne\n\n톰브라운 브이넥 가디건 바시티 피케 네이비\n\n949,000원\n\n관심 224\n\n · 리뷰 3\n\n · 거래 19"
         }
       ]
     },
     {
       "sku": "MJU586OF0672960",
       "option": "2",
+      "stock": 1,
       "eur_price": 1755.74,
       "matched": true,
       "product_id": 815671,
@@ -10612,91 +10291,23 @@
     },
     {
       "sku": "MTU345SF1101415",
-      "option": "2",
-      "eur_price": 309.83,
-      "matched": true,
-      "product_id": 793115,
-      "product_name_ko": "Thom Browne",
-      "product_url": "https://kream.co.kr/products/793115",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": 910000,
-        "highest_bid": 480000,
-        "change_text": null
-      },
-      "sales": [],
-      "asks": [
-        {
-          "price": 910000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 911000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 1002000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 1084000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 1484000,
-          "option": "2",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 480000,
-          "option": "2",
-          "quantity": 1
-        }
-      ],
-      "totals": {
-        "sales": 0,
-        "asks": 5,
-        "bids": 1
-      },
-      "raw_chart_recently": null,
-      "kream_option": "2",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "option_mismatch": false
-    },
-    {
-      "sku": "MTU345SF1101415",
       "option": "3",
-      "eur_price": 309.83,
+      "stock": 2,
+      "eur_price": 265.57,
       "matched": true,
       "product_id": 793115,
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/793115",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 1082000,
+        "lowest_ask": 1546000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 1082000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 1083000,
+          "price": 1546000,
           "option": "3",
           "quantity": 1
         }
@@ -10704,7 +10315,7 @@
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 2,
+        "asks": 1,
         "bids": 0
       },
       "raw_chart_recently": null,
@@ -10720,181 +10331,188 @@
     {
       "sku": "FGCA42A06455415",
       "option": "36 IT",
+      "stock": 1,
       "eur_price": 490.57,
       "matched": false,
       "error": "No KREAM match for SKU=\"FGCA42A06455415\" SPU=\"FGCA42A06455415\"",
       "candidates": [
         {
-          "product_id": 112282,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 사선 오버사이즈 버튼 다운 셔츠 화이트 다크 그레이\n\n5%\n\n1,018,000원\n\n관심 627\n\n · 리뷰 15\n\n · 거래 140"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 64732,
-          "text": "Thom Browne\n\n톰브라운 오픈 라셀 스티치 사선 스웨트셔츠 미디움 그레이\n\n430,000원\n\n관심 528\n\n · 리뷰 5\n\n · 거래 92"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 610749,
-          "text": "Thom Browne\n\n톰브라운 애니멀 아이콘 사선 크루넥 스웨트셔츠 네이비\n\n842,000원\n\n관심 4"
+          "product_id": 793114,
+          "text": "Thom Browne\n\n톰브라운 셀비지 데님 백스트랩 유틸리티 자켓 네이비\n\n34%\n\n1,478,000원\n\n관심 11\n\n · 거래 1"
         },
         {
-          "product_id": 56574,
-          "text": "Thom Browne\n\n톰브라운 샴브레이 프린티드 사선 네임택 스트레이트 핏 셔츠 블루\n\n27%\n\n599,000원\n\n관심 183\n\n · 리뷰 13\n\n · 거래 51"
+          "product_id": 577902,
+          "text": "Thom Browne\n\n톰브라운 나일론 사선 립스탑 윈드브레이커 차콜\n\n3,672,000원\n\n관심 15\n\n · 거래 1\n\n레디투런"
         },
         {
-          "product_id": 453735,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 숏슬리브 셔츠 블루\n\n43%\n\n569,000원\n\n관심 3\n\n · 리뷰 1\n\n · 거래 1"
+          "product_id": 72123,
+          "text": "Thom Browne\n\n톰브라운 립스탑 메쉬 사선 후드 자켓 미디움 그레이\n\n2,490,000원\n\n관심 587\n\n · 리뷰 4\n\n · 거래 75"
         }
       ]
     },
     {
       "sku": "FGCA42A06455415",
       "option": "38 IT",
+      "stock": 1,
       "eur_price": 490.57,
       "matched": false,
       "error": "No KREAM match for SKU=\"FGCA42A06455415\" SPU=\"FGCA42A06455415\"",
       "candidates": [
         {
-          "product_id": 112282,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 사선 오버사이즈 버튼 다운 셔츠 화이트 다크 그레이\n\n5%\n\n1,018,000원\n\n관심 627\n\n · 리뷰 15\n\n · 거래 140"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 64732,
-          "text": "Thom Browne\n\n톰브라운 오픈 라셀 스티치 사선 스웨트셔츠 미디움 그레이\n\n430,000원\n\n관심 528\n\n · 리뷰 5\n\n · 거래 92"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 610749,
-          "text": "Thom Browne\n\n톰브라운 애니멀 아이콘 사선 크루넥 스웨트셔츠 네이비\n\n842,000원\n\n관심 4"
+          "product_id": 793114,
+          "text": "Thom Browne\n\n톰브라운 셀비지 데님 백스트랩 유틸리티 자켓 네이비\n\n34%\n\n1,478,000원\n\n관심 11\n\n · 거래 1"
         },
         {
-          "product_id": 56574,
-          "text": "Thom Browne\n\n톰브라운 샴브레이 프린티드 사선 네임택 스트레이트 핏 셔츠 블루\n\n27%\n\n599,000원\n\n관심 183\n\n · 리뷰 13\n\n · 거래 51"
+          "product_id": 577902,
+          "text": "Thom Browne\n\n톰브라운 나일론 사선 립스탑 윈드브레이커 차콜\n\n3,672,000원\n\n관심 15\n\n · 거래 1\n\n레디투런"
         },
         {
-          "product_id": 453735,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 숏슬리브 셔츠 블루\n\n43%\n\n569,000원\n\n관심 3\n\n · 리뷰 1\n\n · 거래 1"
+          "product_id": 72123,
+          "text": "Thom Browne\n\n톰브라운 립스탑 메쉬 사선 후드 자켓 미디움 그레이\n\n2,490,000원\n\n관심 587\n\n · 리뷰 4\n\n · 거래 75"
         }
       ]
     },
     {
       "sku": "FGCA42A06455415",
       "option": "40 IT",
+      "stock": 1,
       "eur_price": 490.57,
       "matched": false,
       "error": "No KREAM match for SKU=\"FGCA42A06455415\" SPU=\"FGCA42A06455415\"",
       "candidates": [
         {
-          "product_id": 112282,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 사선 오버사이즈 버튼 다운 셔츠 화이트 다크 그레이\n\n5%\n\n1,018,000원\n\n관심 627\n\n · 리뷰 15\n\n · 거래 140"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 64732,
-          "text": "Thom Browne\n\n톰브라운 오픈 라셀 스티치 사선 스웨트셔츠 미디움 그레이\n\n430,000원\n\n관심 528\n\n · 리뷰 5\n\n · 거래 92"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 610749,
-          "text": "Thom Browne\n\n톰브라운 애니멀 아이콘 사선 크루넥 스웨트셔츠 네이비\n\n842,000원\n\n관심 4"
+          "product_id": 793114,
+          "text": "Thom Browne\n\n톰브라운 셀비지 데님 백스트랩 유틸리티 자켓 네이비\n\n34%\n\n1,478,000원\n\n관심 11\n\n · 거래 1"
         },
         {
-          "product_id": 56574,
-          "text": "Thom Browne\n\n톰브라운 샴브레이 프린티드 사선 네임택 스트레이트 핏 셔츠 블루\n\n27%\n\n599,000원\n\n관심 183\n\n · 리뷰 13\n\n · 거래 51"
+          "product_id": 577902,
+          "text": "Thom Browne\n\n톰브라운 나일론 사선 립스탑 윈드브레이커 차콜\n\n3,672,000원\n\n관심 15\n\n · 거래 1\n\n레디투런"
         },
         {
-          "product_id": 453735,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 숏슬리브 셔츠 블루\n\n43%\n\n569,000원\n\n관심 3\n\n · 리뷰 1\n\n · 거래 1"
+          "product_id": 72123,
+          "text": "Thom Browne\n\n톰브라운 립스탑 메쉬 사선 후드 자켓 미디움 그레이\n\n2,490,000원\n\n관심 587\n\n · 리뷰 4\n\n · 거래 75"
         }
       ]
     },
     {
       "sku": "FGCA42A06455415",
       "option": "42 IT",
+      "stock": 1,
       "eur_price": 490.57,
       "matched": false,
       "error": "No KREAM match for SKU=\"FGCA42A06455415\" SPU=\"FGCA42A06455415\"",
       "candidates": [
         {
-          "product_id": 112282,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 사선 오버사이즈 버튼 다운 셔츠 화이트 다크 그레이\n\n5%\n\n1,018,000원\n\n관심 627\n\n · 리뷰 15\n\n · 거래 140"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 348\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
-          "product_id": 64732,
-          "text": "Thom Browne\n\n톰브라운 오픈 라셀 스티치 사선 스웨트셔츠 미디움 그레이\n\n430,000원\n\n관심 528\n\n · 리뷰 5\n\n · 거래 92"
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
-          "product_id": 610749,
-          "text": "Thom Browne\n\n톰브라운 애니멀 아이콘 사선 크루넥 스웨트셔츠 네이비\n\n842,000원\n\n관심 4"
+          "product_id": 793114,
+          "text": "Thom Browne\n\n톰브라운 셀비지 데님 백스트랩 유틸리티 자켓 네이비\n\n34%\n\n1,478,000원\n\n관심 11\n\n · 거래 1"
         },
         {
-          "product_id": 56574,
-          "text": "Thom Browne\n\n톰브라운 샴브레이 프린티드 사선 네임택 스트레이트 핏 셔츠 블루\n\n27%\n\n599,000원\n\n관심 183\n\n · 리뷰 13\n\n · 거래 51"
+          "product_id": 577902,
+          "text": "Thom Browne\n\n톰브라운 나일론 사선 립스탑 윈드브레이커 차콜\n\n3,672,000원\n\n관심 15\n\n · 거래 1\n\n레디투런"
         },
         {
-          "product_id": 453735,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 숏슬리브 셔츠 블루\n\n43%\n\n569,000원\n\n관심 3\n\n · 리뷰 1\n\n · 거래 1"
+          "product_id": 72123,
+          "text": "Thom Browne\n\n톰브라운 립스탑 메쉬 사선 후드 자켓 미디움 그레이\n\n2,490,000원\n\n관심 587\n\n · 리뷰 4\n\n · 거래 75"
         }
       ]
     },
     {
       "sku": "FKV231AY3014472",
       "option": "40 IT",
+      "stock": 1,
       "eur_price": 357.79,
       "matched": false,
       "error": "No KREAM match for SKU=\"FKV231AY3014472\" SPU=\"FKV231AY3014472\"",
       "candidates": [
         {
-          "product_id": 67405,
-          "text": "Thom Browne\n\n(W) 톰브라운 코튼 루프백 니트 엔지니어드 사선 클래식 스웨트팬츠 네이비\n\n53%\n\n612,000원\n\n관심 73\n\n · 리뷰 1\n\n · 거래 16"
+          "product_id": 77066,
+          "text": "Thom Browne\n\n톰브라운 브이넥 가디건 바시티 피케 네이비\n\n949,000원\n\n관심 224\n\n · 리뷰 3\n\n · 거래 19"
+        },
+        {
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
           "product_id": 317709,
-          "text": "Thom Browne\n\n톰브라운 모헤어 트위드 사선 클래식 브이넥 가디건 라이트 그레이\n\n52%\n\n898,000원\n\n관심 149\n\n · 리뷰 8\n\n · 거래 20"
+          "text": "Thom Browne\n\n톰브라운 모헤어 트위드 사선 클래식 브이넥 가디건 라이트 그레이\n\n51%\n\n898,000원\n\n관심 149\n\n · 리뷰 8\n\n · 거래 20"
         },
         {
-          "product_id": 69833,
-          "text": "Thom Browne\n\n톰브라운 슈퍼 120수 울 트윌 싱글 브레스티드 클래식 자켓 네이비\n\n42%\n\n1,866,000원\n\n관심 146\n\n · 리뷰 8\n\n · 거래 19"
+          "product_id": 325374,
+          "text": "Thom Browne\n\n톰브라운 모헤어 트위드 사선 클래식 브이넥 가디건 블루\n\n820,000원\n\n관심 104\n\n · 리뷰 4\n\n · 거래 14"
         },
         {
           "product_id": 138165,
-          "text": "Thom Browne\n\n톰브라운 플레인 위브 수팅 사선 니트 블루종 자켓 미디움 그레이\n\n22%\n\n2,417,000원\n\n관심 68\n\n · 거래 10"
-        },
-        {
-          "product_id": 321226,
-          "text": "Thom Browne\n\n톰브라운 메리노 울 암밴드 피케 풀오버 네이비\n\n67%\n\n573,000원\n\n관심 31\n\n · 거래 2"
+          "text": "Thom Browne\n\n톰브라운 플레인 위브 수팅 사선 니트 블루종 자켓 미디움 그레이\n\n20%\n\n2,427,000원\n\n관심 68\n\n · 거래 10"
         }
       ]
     },
     {
       "sku": "FKV231AY3014472",
       "option": "42 IT",
+      "stock": 1,
       "eur_price": 357.79,
       "matched": false,
       "error": "No KREAM match for SKU=\"FKV231AY3014472\" SPU=\"FKV231AY3014472\"",
       "candidates": [
         {
-          "product_id": 67405,
-          "text": "Thom Browne\n\n(W) 톰브라운 코튼 루프백 니트 엔지니어드 사선 클래식 스웨트팬츠 네이비\n\n53%\n\n612,000원\n\n관심 73\n\n · 리뷰 1\n\n · 거래 16"
+          "product_id": 77066,
+          "text": "Thom Browne\n\n톰브라운 브이넥 가디건 바시티 피케 네이비\n\n949,000원\n\n관심 224\n\n · 리뷰 3\n\n · 거래 19"
+        },
+        {
+          "product_id": 672363,
+          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 18"
         },
         {
           "product_id": 317709,
-          "text": "Thom Browne\n\n톰브라운 모헤어 트위드 사선 클래식 브이넥 가디건 라이트 그레이\n\n52%\n\n898,000원\n\n관심 149\n\n · 리뷰 8\n\n · 거래 20"
+          "text": "Thom Browne\n\n톰브라운 모헤어 트위드 사선 클래식 브이넥 가디건 라이트 그레이\n\n51%\n\n898,000원\n\n관심 149\n\n · 리뷰 8\n\n · 거래 20"
         },
         {
-          "product_id": 69833,
-          "text": "Thom Browne\n\n톰브라운 슈퍼 120수 울 트윌 싱글 브레스티드 클래식 자켓 네이비\n\n42%\n\n1,866,000원\n\n관심 146\n\n · 리뷰 8\n\n · 거래 19"
+          "product_id": 325374,
+          "text": "Thom Browne\n\n톰브라운 모헤어 트위드 사선 클래식 브이넥 가디건 블루\n\n820,000원\n\n관심 104\n\n · 리뷰 4\n\n · 거래 14"
         },
         {
           "product_id": 138165,
-          "text": "Thom Browne\n\n톰브라운 플레인 위브 수팅 사선 니트 블루종 자켓 미디움 그레이\n\n22%\n\n2,417,000원\n\n관심 68\n\n · 거래 10"
-        },
-        {
-          "product_id": 321226,
-          "text": "Thom Browne\n\n톰브라운 메리노 울 암밴드 피케 풀오버 네이비\n\n67%\n\n573,000원\n\n관심 31\n\n · 거래 2"
+          "text": "Thom Browne\n\n톰브라운 플레인 위브 수팅 사선 니트 블루종 자켓 미디움 그레이\n\n20%\n\n2,427,000원\n\n관심 68\n\n · 거래 10"
         }
       ]
     },
     {
       "sku": "FGC402V00626035",
       "option": "36 IT",
-      "eur_price": 555.74,
+      "stock": 1,
+      "eur_price": 463.12,
       "matched": true,
       "product_id": 68293,
       "product_name_ko": "Thom Browne",
@@ -10956,14 +10574,15 @@
     {
       "sku": "FGC402V00626035",
       "option": "38 IT",
-      "eur_price": 555.74,
+      "stock": 5,
+      "eur_price": 463.12,
       "matched": true,
       "product_id": 68293,
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/68293",
       "market": {
         "last_sale_price": 899000,
-        "lowest_ask": 797000,
+        "lowest_ask": 775000,
         "highest_bid": null,
         "change_text": "▼ 69,000원(-7.1%)"
       },
@@ -10985,7 +10604,12 @@
       ],
       "asks": [
         {
-          "price": 797000,
+          "price": 775000,
+          "option": "38",
+          "quantity": 2
+        },
+        {
+          "price": 792000,
           "option": "38",
           "quantity": 1
         },
@@ -11001,11 +10625,6 @@
         },
         {
           "price": 1037000,
-          "option": "38",
-          "quantity": 1
-        },
-        {
-          "price": 1039000,
           "option": "38",
           "quantity": 1
         },
@@ -11058,7 +10677,8 @@
     {
       "sku": "FGC402V00626035",
       "option": "40 IT",
-      "eur_price": 555.74,
+      "stock": 4,
+      "eur_price": 463.12,
       "matched": true,
       "product_id": 68293,
       "product_name_ko": "Thom Browne",
@@ -11085,16 +10705,6 @@
           "quantity": 1
         },
         {
-          "price": 939000,
-          "option": "40",
-          "quantity": 1
-        },
-        {
-          "price": 1039000,
-          "option": "40",
-          "quantity": 1
-        },
-        {
           "price": 1175000,
           "option": "40",
           "quantity": 1
@@ -11103,7 +10713,7 @@
       "bids": [],
       "totals": {
         "sales": 1,
-        "asks": 4,
+        "asks": 2,
         "bids": 0
       },
       "raw_chart_recently": {
@@ -11143,7 +10753,8 @@
     {
       "sku": "FGC402V00626035",
       "option": "42 IT",
-      "eur_price": 555.74,
+      "stock": 2,
+      "eur_price": 463.12,
       "matched": true,
       "product_id": 68293,
       "product_name_ko": "Thom Browne",
@@ -11214,7 +10825,8 @@
     {
       "sku": "FGC402V00626035",
       "option": "44 IT",
-      "eur_price": 555.74,
+      "stock": 1,
+      "eur_price": 463.12,
       "matched": true,
       "product_id": 68293,
       "product_name_ko": "Thom Browne",
@@ -11276,21 +10888,27 @@
     {
       "sku": "MTT030A06146415",
       "option": "2",
-      "eur_price": 555.74,
+      "stock": 1,
+      "eur_price": 463.12,
       "matched": true,
       "product_id": 326806,
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/326806",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 830000,
+        "lowest_ask": 766000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 830000,
+          "price": 766000,
+          "option": "2",
+          "quantity": 1
+        },
+        {
+          "price": 829000,
           "option": "2",
           "quantity": 1
         },
@@ -11308,7 +10926,7 @@
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 3,
+        "asks": 4,
         "bids": 0
       },
       "raw_chart_recently": null,
@@ -11325,7 +10943,8 @@
     {
       "sku": "MTT030A06146415",
       "option": "3",
-      "eur_price": 555.74,
+      "stock": 1,
+      "eur_price": 463.12,
       "matched": true,
       "product_id": 326806,
       "product_name_ko": "Thom Browne",
@@ -11370,7 +10989,8 @@
     {
       "sku": "MTT030A06146415",
       "option": "4",
-      "eur_price": 555.74,
+      "stock": 1,
+      "eur_price": 463.12,
       "matched": true,
       "product_id": 326806,
       "product_name_ko": "Thom Browne",
@@ -11409,6 +11029,7 @@
     {
       "sku": "MKC002AY1014415",
       "option": "4",
+      "stock": 3,
       "eur_price": 580.33,
       "matched": true,
       "product_id": 48686,
@@ -11416,9 +11037,9 @@
       "product_url": "https://kream.co.kr/products/48686",
       "market": {
         "last_sale_price": 745000,
-        "lowest_ask": 745000,
+        "lowest_ask": 728000,
         "highest_bid": 681000,
-        "change_text": "▼ 45,000원(-5.8%)"
+        "change_text": "▲ 25,000원(+3.7%)"
       },
       "sales": [
         {
@@ -11487,7 +11108,7 @@
       ],
       "asks": [
         {
-          "price": 745000,
+          "price": 728000,
           "option": "4",
           "quantity": 2
         },
@@ -11502,24 +11123,29 @@
           "quantity": 1
         },
         {
-          "price": 828000,
+          "price": 781000,
           "option": "4",
           "quantity": 1
         },
         {
-          "price": 829000,
+          "price": 782000,
           "option": "4",
           "quantity": 1
         },
         {
-          "price": 839000,
+          "price": 790000,
+          "option": "4",
+          "quantity": 1
+        },
+        {
+          "price": 805000,
           "option": "4",
           "quantity": 1
         },
         {
           "price": 850000,
           "option": "4",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "price": 859000,
@@ -11547,14 +11173,9 @@
           "quantity": 2
         },
         {
-          "price": 1045000,
+          "price": 1041000,
           "option": "4",
           "quantity": 1
-        },
-        {
-          "price": 1048000,
-          "option": "4",
-          "quantity": 3
         }
       ],
       "bids": [
@@ -11579,17 +11200,7 @@
           "quantity": 2
         },
         {
-          "price": 500000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
           "price": 450000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 420000,
           "option": "4",
           "quantity": 1
         },
@@ -11607,14 +11218,14 @@
       "totals": {
         "sales": 9,
         "asks": 14,
-        "bids": 9
+        "bids": 7
       },
       "raw_chart_recently": {
         "text": ";tl_0;",
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "▼ 45,000원(-5.8%)",
+            "text": "▲ 25,000원(+3.7%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -11623,7 +11234,7 @@
             "action_type": null,
             "action_value": null,
             "adjustment": 0,
-            "color": "#31B46E",
+            "color": "#F15746",
             "type": "text"
           }
         ],
@@ -11650,7 +11261,8 @@
     {
       "sku": "FGC402V06146035",
       "option": "38 IT",
-      "eur_price": 639.34,
+      "stock": 1,
+      "eur_price": 532.78,
       "matched": true,
       "product_id": 72187,
       "product_name_ko": "Thom Browne",
@@ -11773,25 +11385,19 @@
     {
       "sku": "MKA326AY3001055",
       "option": "3",
+      "stock": 2,
       "eur_price": 555.74,
       "matched": true,
       "product_id": 66527,
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/66527",
       "market": {
-        "last_sale_price": 500000,
+        "last_sale_price": 430000,
         "lowest_ask": 850000,
-        "highest_bid": null,
-        "change_text": "▼ 190,000원(-27.5%)"
+        "highest_bid": 500000,
+        "change_text": "▲ 10,000원(+1.5%)"
       },
       "sales": [
-        {
-          "price": 500000,
-          "option": "3",
-          "date_created": "2026-05-28T04:42:08Z",
-          "date_text": "26/05/28",
-          "is_immediate": false
-        },
         {
           "price": 430000,
           "option": "3",
@@ -11896,6 +11502,13 @@
           "date_created": "2022-09-28T06:06:56Z",
           "date_text": "22/09/28",
           "is_immediate": false
+        },
+        {
+          "price": 1080000,
+          "option": "3",
+          "date_created": "2022-09-12T04:32:37Z",
+          "date_text": "22/09/12",
+          "is_immediate": false
         }
       ],
       "asks": [
@@ -11940,18 +11553,24 @@
           "quantity": 1
         }
       ],
-      "bids": [],
+      "bids": [
+        {
+          "price": 500000,
+          "option": "3",
+          "quantity": 1
+        }
+      ],
       "totals": {
         "sales": 16,
         "asks": 8,
-        "bids": 0
+        "bids": 1
       },
       "raw_chart_recently": {
         "text": ";tl_0;",
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "▼ 190,000원(-27.5%)",
+            "text": "▲ 10,000원(+1.5%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -11960,7 +11579,7 @@
             "action_type": null,
             "action_value": null,
             "adjustment": 0,
-            "color": "#31B46E",
+            "color": "#F15746",
             "type": "text"
           }
         ],
@@ -11985,6 +11604,7 @@
     {
       "sku": "MKA326AY3001055",
       "option": "4",
+      "stock": 4,
       "eur_price": 555.74,
       "matched": true,
       "product_id": 66527,
@@ -11994,7 +11614,7 @@
         "last_sale_price": 690000,
         "lowest_ask": 920000,
         "highest_bid": 580000,
-        "change_text": "▼ 190,000원(-27.5%)"
+        "change_text": "▲ 10,000원(+1.5%)"
       },
       "sales": [
         {
@@ -12146,7 +11766,7 @@
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "▼ 190,000원(-27.5%)",
+            "text": "▲ 10,000원(+1.5%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -12155,7 +11775,7 @@
             "action_type": null,
             "action_value": null,
             "adjustment": 0,
-            "color": "#31B46E",
+            "color": "#F15746",
             "type": "text"
           }
         ],
