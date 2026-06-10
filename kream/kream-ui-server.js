@@ -333,12 +333,14 @@ function render() {
     rows.sort((a, b) => {
       // 1. tier 작은 게 먼저
       if (a._honeyTier !== b._honeyTier) return a._honeyTier - b._honeyTier;
-      // 2. tier 1: 즉시매도(highest_bid) 기준 마진 큰 순.
-      //    bid 없는 항목은 honey 마진 fallback (그래도 없으면 맨 아래).
+      // 2. tier 1: 입찰(bid) 있는 것 먼저 — bid 마진 큰 순.
+      //    입찰 없는 것 뒤로 — honey 마진 큰 순 (호가 기반 양수).
       if (a._honeyTier === 1) {
-        const av = a._honeyBidPct ?? a._honeyPct ?? -Infinity;
-        const bv = b._honeyBidPct ?? b._honeyPct ?? -Infinity;
-        return bv - av;
+        const aHasBid = a._honeyBidPct != null;
+        const bHasBid = b._honeyBidPct != null;
+        if (aHasBid !== bHasBid) return aHasBid ? -1 : 1;  // bid 있는 게 위
+        if (aHasBid) return b._honeyBidPct - a._honeyBidPct;  // bid % 큰 순
+        return (b._honeyPct ?? -Infinity) - (a._honeyPct ?? -Infinity);
       }
       // 3. tier 2, 3: |원가 - 입찰가| 작은 순 (오름차순)
       if (a._honeyTier === 2 || a._honeyTier === 3) return a._honeyBidGap - b._honeyBidGap;
