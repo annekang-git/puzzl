@@ -81,10 +81,24 @@ function formatPradaSku(ref) {
   return n;
 }
 
-// 브랜드별 KREAM 검색 키 추출 — Stone Island 는 대시 형식, PRADA 는 중간 4자리 제거
+// TOM FORD 변환 — reference 의 의미 없는 끝 토큰 제거
+//   NAA (보통 단일 컬러 / 무옵션 의미) → 제거
+//   001 (KREAM 에서 컬러 코드로 단축되는 경우 많음) → 제거
+//   예: Y0228LCL158SNAA → Y0228LCL158S, TB248LCL237G1N001 → TB248LCL237G1N
+function formatTomFordSku(ref) {
+  if (!ref) return ref;
+  const n = String(ref).trim().toUpperCase();
+  if (n.endsWith('NAA')) return n.slice(0, -3);
+  if (n.endsWith('001')) return n.slice(0, -3);
+  return n;
+}
+
+// 브랜드별 KREAM 검색 키 추출 — Stone Island 는 대시 형식, PRADA 는 중간 4자리 제거,
+// TOM FORD 는 의미없는 suffix 제거
 function deriveSearchSku(brandNorm, ref) {
   if (brandNorm === 'STONE ISLAND') return formatKreamSku(ref);
   if (brandNorm === 'PRADA') return formatPradaSku(ref);
+  if (brandNorm === 'TOM FORD') return formatTomFordSku(ref);
   return ref; // 다른 브랜드는 reference 그대로
 }
 
