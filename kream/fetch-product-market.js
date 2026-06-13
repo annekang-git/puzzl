@@ -348,11 +348,17 @@ async function fetchAllOptionsForProduct(page, productId) {
 
 // 사이즈 별칭 — 의미적으로 같은 사이즈를 동일하게 취급
 const UNIVERSAL_SIZES = new Set(['U', 'UNICA', 'FREE', 'ONE SIZE', 'ONESIZE', 'OS', 'F', 'UNI', 'UNIVERSAL']);
+// 지역 접두/접미사 — EU 42 == 42 == 42 IT 처럼 취급
+const SIZE_REGION_RE = /^(EU|US|UK|IT|FR|JP|JPN|KR|KOR|EUR)\s+|\s+(EU|US|UK|IT|FR|JP|JPN|KR|KOR|EUR)$/i;
 function normSize(s) { return String(s ?? '').trim().toUpperCase().replace(/\s+/g, ' '); }
+function stripSizeRegion(s) { return normSize(s).replace(SIZE_REGION_RE, '').trim(); }
 function isSameSizeGroup(a, b) {
   const na = normSize(a), nb = normSize(b);
   if (na === nb) return true;
   if (UNIVERSAL_SIZES.has(na) && UNIVERSAL_SIZES.has(nb)) return true;
+  // 지역 접두/접미 (EU 42 ↔ 42, 42 IT ↔ 42, EU 42 ↔ US 42) 떼고 비교
+  const sa = stripSizeRegion(na), sb = stripSizeRegion(nb);
+  if (sa && sb && sa === sb) return true;
   return false;
 }
 

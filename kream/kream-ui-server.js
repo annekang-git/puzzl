@@ -195,7 +195,9 @@ const fmtPct = (n) => n == null ? '-' : (n >= 0 ? '+' : '') + n.toFixed(1) + '%'
 
 // 사이즈 별칭 — 의미적으로 같은 사이즈 그룹
 const UNIVERSAL_SIZES = new Set(['U', 'UNICA', 'FREE', 'ONE SIZE', 'ONESIZE', 'OS', 'F', 'UNI', 'UNIVERSAL']);
+const SIZE_REGION_RE = /^(EU|US|UK|IT|FR|JP|JPN|KR|KOR|EUR)\s+|\s+(EU|US|UK|IT|FR|JP|JPN|KR|KOR|EUR)$/i;
 function normalizeSize(s) { return String(s ?? '').trim().toUpperCase().replace(/\s+/g, ' '); }
+function stripSizeRegion(s) { return normalizeSize(s).replace(SIZE_REGION_RE, '').trim(); }
 function isOptionEffectivelyMatched(row) {
   // 1) 그냥 일치
   if (!row.option_mismatch) return true;
@@ -205,6 +207,9 @@ function isOptionEffectivelyMatched(row) {
   const req = normalizeSize(row.option);
   const got = normalizeSize(row.kream_option);
   if (UNIVERSAL_SIZES.has(req) && UNIVERSAL_SIZES.has(got)) return true;
+  // 4) 지역 접두/접미사 (EU 42 ↔ 42, 42 IT ↔ 42) 떼고 같으면 매칭
+  const sReq = stripSizeRegion(req), sGot = stripSizeRegion(got);
+  if (sReq && sGot && sReq === sGot) return true;
   return false;
 }
 
