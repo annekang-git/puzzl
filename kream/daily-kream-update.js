@@ -28,7 +28,16 @@ const BRANDS = [
   { dresscode: 'THOM BROWNE',  slug: 'tombrown' },
   { dresscode: 'PRADA',         slug: 'prada' },
   { dresscode: 'BALENCIAGA',    slug: 'balenciaga' },
-  { dresscode: 'TOM FORD',      slug: 'tomford' },
+  { dresscode: 'TOM FORD',          slug: 'tomford' },
+  { dresscode: 'MONCLER',           slug: 'moncler' },
+  { dresscode: 'NEW BALANCE',       slug: 'newbalance' },
+  { dresscode: 'GOLDEN GOOSE',      slug: 'goldengoose' },
+  { dresscode: 'GUCCI',             slug: 'gucci' },
+  { dresscode: 'SAINT LAURENT',     slug: 'saintlaurent' },
+  { dresscode: 'ASICS',             slug: 'asics' },
+  { dresscode: 'ADIDAS ORIGINALS',  slug: 'adidasoriginals' },
+  { dresscode: 'AUTRY',             slug: 'autry' },
+  { dresscode: 'SALOMON',           slug: 'salomon' },
 ];
 const KEEP_DAYS = 3; // 브랜드당 최근 N개 결과만 유지 (cleanup-old-results.js 와 일치)
 
