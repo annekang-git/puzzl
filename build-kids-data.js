@@ -6,8 +6,8 @@
  *
  * 각 소스의 가격 정책 (공통 가격정책 기반):
  *   ─ Dresscode (EUR):
- *       판매가 = round100(EUR × 1742 × 1.25 × 원산지요율 × tier) + 신발 30,000원
- *       정가   = round100(retailPriceEUR × 1742)
+ *       판매가 = round100(EUR × 1750 × 1.25 × 원산지요율 × tier) + 신발 30,000원
+ *       정가   = round100(retailPriceEUR × 1750)
  *   ─ Grifo (USD):
  *       priceForCalc = 세일이면 final_price, 비세일이면 regular_price × 0.85
  *       판매가       = round100(priceForCalc × 1490 × 1.3 × 원산지요율 × tier) + 키즈신발 30,000원
@@ -28,36 +28,101 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // ========================================================================
 
 // 원산지별 요율 (공통 정책)
+// 2026-06-16 변경: 비유럽 1.06 → 1.1 / 유럽 기준 EU+EEA+GB+CH 로 확장.
+// 유럽 = 1.0 (한·EU·EFTA·영 FTA 로 의류 0% 관세) / 그 외 = 1.1
 const COUNTRY_RATES = {
-  IT: 1, ES: 1, DE: 1, KR: 1, RO: 1, PL: 1, HU: 1, FR: 1, PT: 1, CZ: 1, BG: 1,
-  CN: 1.06, US: 1.06, BD: 1.06, TN: 1.06, TH: 1.06, PK: 1.06, BR: 1.06,
-  LK: 1.06, MM: 1.06, CO: 1.06, CL: 1.06, IN: 1.06, GB: 1.06, JP: 1.06,
-  VN: 1.06, TR: 1.06, MA: 1.06, ID: 1.06, KH: 1.06, EG: 1.06, MX: 1.06,
-  PH: 1.06, PE: 1.06, AR: 1.06, AM: 1.06, AL: 1.06, RS: 1.06, MD: 1.06,
-  default: 1.06,
+  // === 유럽 1.0 ===
+  // EU 27 — 한·EU FTA 의류 0%
+  AT: 1, BE: 1, BG: 1, CY: 1, CZ: 1, DE: 1, DK: 1, EE: 1,
+  ES: 1, FI: 1, FR: 1, GR: 1, HR: 1, HU: 1, IE: 1, IT: 1,
+  LT: 1, LU: 1, LV: 1, MT: 1, NL: 1, PL: 1, PT: 1, RO: 1,
+  SE: 1, SI: 1, SK: 1,
+  // EEA 비EU — 한·EFTA FTA 의류 0% (노르웨이·아이슬란드·리히텐슈타인)
+  IS: 1, LI: 1, NO: 1,
+  // 영국 — 한·영 FTA 의류 0%
+  GB: 1,
+  // 스위스 — 한·EFTA FTA 의류 0%
+  CH: 1,
+  // 한국 — 국내 생산 (관세 없음)
+  KR: 1,
+  // === 비유럽 1.1 ===
+  AL: 1.1, AM: 1.1, AR: 1.1, BD: 1.1, BR: 1.1, CL: 1.1, CN: 1.1,
+  CO: 1.1, EG: 1.1, HK: 1.1, ID: 1.1, IN: 1.1, JP: 1.1, KH: 1.1,
+  LK: 1.1, MA: 1.1, MD: 1.1, MG: 1.1, MM: 1.1, MX: 1.1, PE: 1.1,
+  PH: 1.1, PK: 1.1, RS: 1.1, TH: 1.1, TN: 1.1, TR: 1.1, US: 1.1,
+  VN: 1.1,
+  default: 1.1,
 };
 
 const COUNTRY_NAME_MAP = {
+  // === 유럽 (1.0) ===
+  // EU 27
   italy: 'IT', italia: 'IT',
-  china: 'CN', cina: 'CN',
-  spain: 'ES', españa: 'ES',
+  spain: 'ES', españa: 'ES', espana: 'ES',
   germany: 'DE', deutschland: 'DE',
-  usa: 'US', 'united states': 'US',
-  korea: 'KR', 'south korea': 'KR',
   france: 'FR',
   portugal: 'PT',
   romania: 'RO',
   poland: 'PL',
   hungary: 'HU',
-  vietnam: 'VN',
-  turkey: 'TR', türkiye: 'TR',
-  morocco: 'MA',
+  netherlands: 'NL', holland: 'NL',
+  belgium: 'BE', belgique: 'BE', belgie: 'BE',
+  austria: 'AT', österreich: 'AT', osterreich: 'AT',
+  sweden: 'SE', sverige: 'SE',
+  denmark: 'DK', danmark: 'DK',
+  finland: 'FI', suomi: 'FI',
+  ireland: 'IE',
+  greece: 'GR', hellas: 'GR',
+  czech: 'CZ', czechia: 'CZ',
+  slovakia: 'SK',
+  slovenia: 'SI',
+  croatia: 'HR', hrvatska: 'HR',
+  bulgaria: 'BG',
+  estonia: 'EE',
+  latvia: 'LV',
+  lithuania: 'LT',
+  luxembourg: 'LU',
+  malta: 'MT',
+  cyprus: 'CY',
+  // EEA (비EU)
+  norway: 'NO', norge: 'NO',
+  iceland: 'IS', ísland: 'IS',
+  liechtenstein: 'LI',
+  // GB + CH
+  uk: 'GB', 'united kingdom': 'GB', 'great britain': 'GB', england: 'GB', britain: 'GB',
+  switzerland: 'CH', schweiz: 'CH', suisse: 'CH',
+  // 한국
+  korea: 'KR', 'south korea': 'KR', republic: 'KR',
+  // === 비유럽 (1.1) ===
+  china: 'CN', cina: 'CN',
+  usa: 'US', 'united states': 'US', america: 'US',
+  vietnam: 'VN', 'viet nam': 'VN',
+  turkey: 'TR', türkiye: 'TR', turkiye: 'TR',
+  morocco: 'MA', maroc: 'MA',
   indonesia: 'ID',
   india: 'IN',
   bangladesh: 'BD',
   thailand: 'TH',
-  uk: 'GB', 'united kingdom': 'GB', 'great britain': 'GB',
+  cambodia: 'KH',
+  pakistan: 'PK',
+  'sri lanka': 'LK',
+  myanmar: 'MM',
+  philippines: 'PH',
+  japan: 'JP',
+  'hong kong': 'HK',
+  egypt: 'EG',
+  tunisia: 'TN',
+  brazil: 'BR',
+  mexico: 'MX',
+  argentina: 'AR',
+  peru: 'PE',
+  colombia: 'CO',
+  chile: 'CL',
+  armenia: 'AM',
+  albania: 'AL',
+  serbia: 'RS',
   moldova: 'MD',
+  madagascar: 'MG',
 };
 
 function getCountryRate(madeIn) {
@@ -98,7 +163,7 @@ const SHOE_SURCHARGE = 30000;
 //   EUR → KRW, 마진 25%
 // ========================================================================
 const DRESSCODE_CONFIG = {
-  exchangeRate: 1742, // EUR -> KRW
+  exchangeRate: 1750, // EUR -> KRW (2026-06-16: 1742 → 1750)
   markup: 1.25,       // 25% 마진 (공통 정책의 키즈 30% 대비 -5%p)
   vatRate: 1.22,      // EU VAT 22% — Dresscode 원본 데이터는 모두 pricesIncludeVat=false (VAT 제외)
                       // 정가(retailPrice)를 API 로 노출할 때 실제 브랜드 MSRP 수준으로 올리기 위해 VAT 를 더해줌
@@ -119,8 +184,8 @@ function calculateDresscodeKrwPrice(priceEur, product) {
 }
 
 // Dresscode 원본 데이터는 VAT 제외 가격이므로 정가에 VAT 를 더해 실제 브랜드 MSRP 로 환산
-//   retailPrice_KRW = retailPriceEUR × VAT(1.22) × 환율(1742)
-// 예: €151.64(VAT 제외) × 1.22 × 1742 = ₩322,271 (실제 MSRP €185.00 기준)
+//   retailPrice_KRW = retailPriceEUR × VAT(1.22) × 환율(1750)
+// 예: €151.64(VAT 제외) × 1.22 × 1750 = ₩323,800 (실제 MSRP €185.00 기준)
 function calculateDresscodeKrwRetailPrice(retailPriceEur, pricesIncludeVat = false) {
   if (!retailPriceEur || retailPriceEur <= 0) return 0;
   const vat = pricesIncludeVat ? 1 : DRESSCODE_CONFIG.vatRate;
