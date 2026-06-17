@@ -197,7 +197,7 @@ function calculateDresscodeKrwRetailPrice(retailPriceEur, pricesIncludeVat = fal
 //   USD → KRW, 키즈 마진 30%, 비세일 할인 ×0.85
 // ========================================================================
 const GRIFO_CONFIG = {
-  exchangeRate: 1467,      // USD -> KRW (2026-04-20 변경: 1490 → 1467)
+  exchangeRate: 1497,      // USD -> KRW (2026-06-18: 1467 → 1497)
   kidsMarkup: 1.25,        // 키즈 25% (2026-04-20 변경: 30% → 25%, Dresscode 와 동일화)
   nonSaleDiscount: 0.85,   // 비세일 기준가(regular_price) × 0.85
 };
