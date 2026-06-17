@@ -67,10 +67,32 @@ async function ensureLoggedIn(page, context) {
   console.log('   /my 접근 불가 — 새로 로그인 필요');
 
   console.log(`🔐 KREAM 직접 로그인 진행 (${KREAM_EMAIL})...`);
+  // 1단계: /login 진입 (소셜 로그인 + '이메일 로그인' 버튼 선택 화면)
   await page.goto(`${KREAM_URL}/login`, { waitUntil: 'networkidle', timeout: 30000 }).catch(() => {});
-  await delay(4000); // 페이지 hydration 대기
-  console.log(`   📍 로그인 페이지 URL: ${page.url()}`);
+  await delay(3000);
+  console.log(`   📍 1단계 URL: ${page.url()}`);
   await page.screenshot({ path: path.join(RESULTS_DIR, 'login-step1-page.png'), fullPage: true }).catch(() => {});
+
+  // 2단계: '이메일 로그인' 버튼/링크 클릭 → /login/email 로 이동
+  // 클릭이 실패하면 직접 URL 이동으로 fallback
+  const emailLoginEntry = page.locator([
+    'a:has-text("이메일 로그인")',
+    'button:has-text("이메일 로그인")',
+    'a[href*="/login/email"]',
+    '[class*="email"]:has-text("이메일")',
+  ].join(', ')).first();
+
+  try {
+    await emailLoginEntry.waitFor({ state: 'visible', timeout: 5000 });
+    await emailLoginEntry.click({ timeout: 3000 });
+    console.log('   ✓ "이메일 로그인" 버튼 클릭');
+    await delay(2500);
+  } catch (_) {
+    console.log('   ℹ️ 버튼 못 찾음 — /login/email 직접 이동');
+    await page.goto(`${KREAM_URL}/login/email`, { waitUntil: 'networkidle', timeout: 20000 }).catch(() => {});
+    await delay(2500);
+  }
+  console.log(`   📍 2단계 URL (이메일 폼): ${page.url()}`);
 
   // KREAM 로그인 폼: 이메일 + 비밀번호 input
   // 셀렉터 다양화 (페이지 구조 변동 대응)
