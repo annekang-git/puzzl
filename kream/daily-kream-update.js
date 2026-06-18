@@ -36,10 +36,10 @@ const BRANDS = [
   { dresscode: 'GOLDEN GOOSE',      slug: 'goldengoose', source: 'dresscode' },
   { dresscode: 'GUCCI',             slug: 'gucci', source: 'dresscode' },
   { dresscode: 'SAINT LAURENT',     slug: 'saintlaurent', source: 'dresscode' },
-  { dresscode: 'ASICS',             slug: 'asics', source: 'dresscode' },
   { dresscode: 'ADIDAS ORIGINALS',  slug: 'adidasoriginals', source: 'dresscode' },
   { dresscode: 'AUTRY',             slug: 'autry', source: 'dresscode' },
   { dresscode: 'SALOMON',           slug: 'salomon', source: 'dresscode' },
+  { dresscode: 'THE ROW',           slug: 'therow', source: 'dresscode' },
   // ── giglio (fast-shipping CSV 기반) — 가장 마지막에 배치 ──
   { slug: 'giglio_saintlaurent',    source: 'giglio' },
   { slug: 'giglio_bottegaveneta',   source: 'giglio' },
