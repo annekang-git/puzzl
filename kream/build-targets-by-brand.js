@@ -93,12 +93,21 @@ function formatTomFordSku(ref) {
   return n;
 }
 
+// SALOMON 변환 — reference 의 앞 9자리만 사용 (L + 8자리 숫자가 실제 모델 코드, 나머지는 색상명)
+// 예: L49147500LUNARROCKFTWSILVERBRIGHTCHARTREUSE → L49147500
+function formatSalomonSku(ref) {
+  if (!ref) return ref;
+  const n = String(ref).trim().toUpperCase();
+  return n.length >= 9 ? n.slice(0, 9) : n;
+}
+
 // 브랜드별 KREAM 검색 키 추출 — Stone Island 는 대시 형식, PRADA 는 중간 4자리 제거,
-// TOM FORD 는 의미없는 suffix 제거
+// TOM FORD 는 의미없는 suffix 제거, SALOMON 는 앞 9자리만
 function deriveSearchSku(brandNorm, ref) {
   if (brandNorm === 'STONE ISLAND') return formatKreamSku(ref);
   if (brandNorm === 'PRADA') return formatPradaSku(ref);
   if (brandNorm === 'TOM FORD') return formatTomFordSku(ref);
+  if (brandNorm === 'SALOMON') return formatSalomonSku(ref);
   return ref; // 다른 브랜드는 reference 그대로
 }
 
