@@ -198,6 +198,17 @@ for (const b of BRANDS) {
     } catch (_) {
       summary.push({ brand: b.slug, ok: true });
     }
+
+    // ── 브랜드 1개씩 즉시 commit + push (중간 실패 시 진행분 보존) ──
+    try {
+      run('git', ['add', `kream/results/${dst}`], { cwd: REPO_ROOT });
+      run('git', ['commit', '-m', `chore(kream): ${b.slug} ${DATE_TAG}`], { cwd: REPO_ROOT });
+      run('git', ['push'], { cwd: REPO_ROOT });
+      console.log(`📤 ${dst} push 완료`);
+    } catch (e) {
+      // push 실패해도 다음 브랜드로 계속 — 마지막 정리 push 가 누적분 함께 처리
+      console.error(`⚠️  ${b.slug} push 실패 (다음 브랜드 계속): ${e.message.slice(0, 120)}`);
+    }
   } catch (e) {
     console.error(`❌ ${b.slug} 실패: ${e.message}`);
     summary.push({ brand: b.slug, ok: false, reason: e.message });
