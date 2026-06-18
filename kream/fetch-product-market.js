@@ -669,14 +669,27 @@ async function main() {
   // chromium 서브프로세스가 잘린 JSON 응답 보내면 uncaughtException 으로 올라와 process 강제 종료.
   // 핸들러 등록 → Node 가 죽지 않음 → flag 만 세팅 → chunk loop 가 감지해서 현재 chunk 중단,
   // 다음 chunk 에서 새 context 로 깨끗하게 재시작.
+  //
+  // ⚠️ stuck 방지: 같은 chunk 내에서 uncaughtException 이 너무 많이 발생하면
+  // (chromium 이 완전히 망가짐) fetch 전체를 종료 → daily-kream-update.js 가 다음 브랜드로 이행.
   let browserCrashed = false;
+  let totalUncaught = 0;
+  const MAX_UNCAUGHT = 50; // 이 값 초과 시 fetch 전체 abort
   process.on('uncaughtException', (err) => {
-    console.error(`⚠️ uncaughtException — chromium IPC 충돌 추정: ${(err.message || String(err)).slice(0, 200)}`);
+    totalUncaught++;
+    if (totalUncaught <= 3 || totalUncaught % 20 === 0) {
+      console.error(`⚠️ uncaughtException (#${totalUncaught}): ${(err.message || String(err)).slice(0, 150)}`);
+    }
     browserCrashed = true;
+    if (totalUncaught >= MAX_UNCAUGHT) {
+      console.error(`\n❌ uncaughtException 누적 ${MAX_UNCAUGHT}회 초과 — chromium 회복 불가, fetch 중단`);
+      try { saveProgress(); } catch (_) {}
+      process.exit(2);
+    }
   });
   process.on('unhandledRejection', (err) => {
     const msg = err?.message || String(err);
-    console.error(`⚠️ unhandledRejection: ${msg.slice(0, 200)}`);
+    if (totalUncaught < 3) console.error(`⚠️ unhandledRejection: ${msg.slice(0, 150)}`);
     if (/JSON|pipe|Target closed|browser has been closed/i.test(msg)) browserCrashed = true;
   });
 
