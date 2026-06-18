@@ -22,22 +22,41 @@ const REPO_ROOT = path.resolve(__dirname, '..');
 const RESULTS_DIR = path.join(__dirname, 'results');
 
 // ── 설정 ──────────────────────────────────────────
+// source: 'dresscode' — daily-build (build-targets-by-brand.js) 로 매일 새로 생성
+// source: 'giglio'   — 정적 targets 파일 (build-targets-giglio.js 로 사전 빌드, 매일 재빌드 안 함)
 const BRANDS = [
-  { dresscode: 'CARHARTT WIP', slug: 'carhartt' },
-  { dresscode: 'STONE ISLAND', slug: 'stoneisland' },
-  { dresscode: 'THOM BROWNE',  slug: 'tombrown' },
-  { dresscode: 'PRADA',         slug: 'prada' },
-  { dresscode: 'BALENCIAGA',    slug: 'balenciaga' },
-  { dresscode: 'TOM FORD',          slug: 'tomford' },
-  { dresscode: 'MONCLER',           slug: 'moncler' },
-  { dresscode: 'NEW BALANCE',       slug: 'newbalance' },
-  { dresscode: 'GOLDEN GOOSE',      slug: 'goldengoose' },
-  { dresscode: 'GUCCI',             slug: 'gucci' },
-  { dresscode: 'SAINT LAURENT',     slug: 'saintlaurent' },
-  { dresscode: 'ASICS',             slug: 'asics' },
-  { dresscode: 'ADIDAS ORIGINALS',  slug: 'adidasoriginals' },
-  { dresscode: 'AUTRY',             slug: 'autry' },
-  { dresscode: 'SALOMON',           slug: 'salomon' },
+  { dresscode: 'CARHARTT WIP', slug: 'carhartt', source: 'dresscode' },
+  { dresscode: 'STONE ISLAND', slug: 'stoneisland', source: 'dresscode' },
+  { dresscode: 'THOM BROWNE',  slug: 'tombrown', source: 'dresscode' },
+  { dresscode: 'PRADA',         slug: 'prada', source: 'dresscode' },
+  { dresscode: 'BALENCIAGA',    slug: 'balenciaga', source: 'dresscode' },
+  { dresscode: 'TOM FORD',          slug: 'tomford', source: 'dresscode' },
+  { dresscode: 'MONCLER',           slug: 'moncler', source: 'dresscode' },
+  { dresscode: 'NEW BALANCE',       slug: 'newbalance', source: 'dresscode' },
+  { dresscode: 'GOLDEN GOOSE',      slug: 'goldengoose', source: 'dresscode' },
+  { dresscode: 'GUCCI',             slug: 'gucci', source: 'dresscode' },
+  { dresscode: 'SAINT LAURENT',     slug: 'saintlaurent', source: 'dresscode' },
+  { dresscode: 'ASICS',             slug: 'asics', source: 'dresscode' },
+  { dresscode: 'ADIDAS ORIGINALS',  slug: 'adidasoriginals', source: 'dresscode' },
+  { dresscode: 'AUTRY',             slug: 'autry', source: 'dresscode' },
+  { dresscode: 'SALOMON',           slug: 'salomon', source: 'dresscode' },
+  // ── giglio (fast-shipping CSV 기반) — 가장 마지막에 배치 ──
+  { slug: 'giglio_saintlaurent',    source: 'giglio' },
+  { slug: 'giglio_bottegaveneta',   source: 'giglio' },
+  { slug: 'giglio_msgm',            source: 'giglio' },
+  { slug: 'giglio_maxmara',         source: 'giglio' },
+  { slug: 'giglio_drmartens',       source: 'giglio' },
+  { slug: 'giglio_balmain',         source: 'giglio' },
+  { slug: 'giglio_longchamp',       source: 'giglio' },
+  { slug: 'giglio_diesel',          source: 'giglio' },
+  { slug: 'giglio_tods',            source: 'giglio' },
+  { slug: 'giglio_givenchy',        source: 'giglio' },
+  { slug: 'giglio_burberry',        source: 'giglio' },
+  { slug: 'giglio_fendi',           source: 'giglio' },
+  { slug: 'giglio_goldengoose',     source: 'giglio' },
+  { slug: 'giglio_moncler',         source: 'giglio' },
+  { slug: 'giglio_rogervivier',     source: 'giglio' },
+  { slug: 'giglio_onrunning',       source: 'giglio' },
 ];
 const KEEP_DAYS = 3; // 브랜드당 최근 N개 결과만 유지 (cleanup-old-results.js 와 일치)
 
@@ -143,13 +162,16 @@ let pushNote = '';
 
 try {
   // ── 1) targets 재빌드 ──
+  // dresscode 브랜드만 매일 재빌드. giglio 는 사전 빌드된 정적 targets 사용.
   console.log(`\n${'='.repeat(60)}\n📅 KREAM 일일 갱신  ${new Date().toISOString()}  tag=${DATE_TAG}\n${'='.repeat(60)}`);
-  const specs = BRANDS.map((b) => `${b.dresscode}:${b.slug}`);
+  const dsBrands = BRANDS.filter((b) => b.source !== 'giglio');
+  const specs = dsBrands.map((b) => `${b.dresscode}:${b.slug}`);
   run('node', ['build-targets-by-brand.js', ...specs]);
 
 // ── 2) 브랜드별 fetch ────────────────────────────
 for (const b of BRANDS) {
-  console.log(`\n\n${'─'.repeat(60)}\n🏷  ${b.dresscode} → ${b.slug}\n${'─'.repeat(60)}`);
+  const label = b.source === 'giglio' ? `[giglio] ${b.slug}` : `${b.dresscode} → ${b.slug}`;
+  console.log(`\n\n${'─'.repeat(60)}\n🏷  ${label}\n${'─'.repeat(60)}`);
   try {
     // fetch 실행
     run('node', ['fetch-product-market.js', `targets-${b.slug}.json`]);

@@ -35,7 +35,7 @@ console.log(`   브랜드당 유지: ${KEEP}개${DRY_RUN ? '  [DRY-RUN]' : ''}`)
 const files = fs.readdirSync(RESULTS_DIR);
 
 // 1) 브랜드별 그룹핑 — kream_market_{slug}_MMDD.json
-const BRAND_RE = /^kream_market_([a-z0-9]+)_(\d{4})\.json$/;
+const BRAND_RE = /^kream_market_([a-z0-9_]+)_(\d{4})\.json$/;
 const byBrand = {};
 for (const f of files) {
   const m = f.match(BRAND_RE);
