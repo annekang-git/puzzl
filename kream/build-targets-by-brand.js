@@ -82,15 +82,16 @@ function formatPradaSku(ref) {
 }
 
 // TOM FORD 변환 — reference 의 의미 없는 끝 토큰 제거
-//   NAA / UNA (보통 단일 컬러 / 무옵션 의미) → 제거
+//   NAA / UNA / EBU (보통 단일 컬러 / 무옵션 의미) → 제거
 //   001 (KREAM 에서 컬러 코드로 단축되는 경우 많음) → 제거
 //   예: Y0228LCL158SNAA → Y0228LCL158S, TB178LCL236SUNA → TB178LCL236S,
-//       TB248LCL237G1N001 → TB248LCL237G1N
+//       Y0232LCL504SEBU → Y0232LCL504S, TB248LCL237G1N001 → TB248LCL237G1N
 function formatTomFordSku(ref) {
   if (!ref) return ref;
   const n = String(ref).trim().toUpperCase();
   if (n.endsWith('NAA')) return n.slice(0, -3);
   if (n.endsWith('UNA')) return n.slice(0, -3);
+  if (n.endsWith('EBU')) return n.slice(0, -3);
   if (n.endsWith('001')) return n.slice(0, -3);
   return n;
 }
