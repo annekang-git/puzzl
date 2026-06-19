@@ -35,7 +35,6 @@ const BRANDS = [
   { dresscode: 'NEW BALANCE',       slug: 'newbalance', source: 'dresscode' },
   { dresscode: 'GUCCI',             slug: 'gucci', source: 'dresscode' },
   { dresscode: 'SAINT LAURENT',     slug: 'saintlaurent', source: 'dresscode' },
-  { dresscode: 'ADIDAS ORIGINALS',  slug: 'adidasoriginals', source: 'dresscode' },
   { dresscode: 'SALOMON',           slug: 'salomon', source: 'dresscode' },
   { dresscode: 'THE ROW',           slug: 'therow', source: 'dresscode' },
   { dresscode: 'KITON',             slug: 'kiton', source: 'dresscode' },
