@@ -1,0 +1,4070 @@
+{
+  "fetched_at": "2026-06-19T12:52:18.058Z",
+  "input_file": "targets-giglio_onrunning.json",
+  "total_targets": 56,
+  "matched": 36,
+  "failed": 20,
+  "results": [
+    {
+      "sku": "3WD11282238WHITE ZEPHYR",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 65.57,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3WD11282238WHITE ZEPHYR\" SPU=\"3WD11282238WHITE ZEPHYR\"",
+      "candidates": [
+        {
+          "product_id": 781856,
+          "text": "Roger Vivier Vintage\n\n로저비비에 RVW40415280 트럼펫 여성 플랫슈즈 구두aa60411\n\n406,000원\n\n관심 10\n\n무료배송"
+        },
+        {
+          "product_id": 812543,
+          "text": "Roger Vivier Vintage\n\n로저비비에 RVW48221040 버티고 디아뎀 펌프스 여성 구두aa61353\n\n493,000원\n\n관심 1\n\n무료배송"
+        },
+        {
+          "product_id": 835236,
+          "text": "Louis Vuitton Vintage\n\n루이비통 1A66S0 블랙 화이트 투톤 카프스킨 하트브레이커 발레리나 여성 플랫 슈즈 35\n\n457,700원\n\n관심 1\n\n무료배송"
+        },
+        {
+          "product_id": 835237,
+          "text": "Roger Vivier Vintage\n\n로저비비에 블랙 레더 메탈 버클 트럼펫 펌프스 여성구두 35\n\n342,700원\n\n관심 4\n\n무료배송"
+        },
+        {
+          "product_id": 86141,
+          "text": "Roger Vivier\n\n(W) 로저 비비에 트럼펫 메탈 버클 펌프스 페이턴트 레더 베이지\n\n20%\n\n878,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "3WD11482252UNDYED SPICE",
+      "option": "40½",
+      "stock": 1,
+      "eur_price": 49.18,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3WD11482252UNDYED SPICE\" SPU=\"3WD11482252UNDYED SPICE\"",
+      "candidates": [
+        {
+          "product_id": 812543,
+          "text": "Roger Vivier Vintage\n\n로저비비에 RVW48221040 버티고 디아뎀 펌프스 여성 구두aa61353\n\n493,000원\n\n관심 1\n\n무료배송"
+        },
+        {
+          "product_id": 835237,
+          "text": "Roger Vivier Vintage\n\n로저비비에 블랙 레더 메탈 버클 트럼펫 펌프스 여성구두 35\n\n342,700원\n\n관심 4\n\n무료배송"
+        },
+        {
+          "product_id": 781856,
+          "text": "Roger Vivier Vintage\n\n로저비비에 RVW40415280 트럼펫 여성 플랫슈즈 구두aa60411\n\n406,000원\n\n관심 10\n\n무료배송"
+        },
+        {
+          "product_id": 86141,
+          "text": "Roger Vivier\n\n(W) 로저 비비에 트럼펫 메탈 버클 펌프스 페이턴트 레더 베이지\n\n20%\n\n878,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 763481,
+          "text": "Chanel Vintage\n\n샤넬 G31630 발레리나 플랫 슈즈 레더 베이지 블랙 36\n\n15%\n\n667,700원\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "3WF10061200",
+      "option": "6½",
+      "stock": 2,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 447272,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/447272",
+      "market": {
+        "last_sale_price": 227000,
+        "lowest_ask": 180000,
+        "highest_bid": 175000,
+        "change_text": "▲ 10,000원(+4.6%)"
+      },
+      "sales": [
+        {
+          "price": 227000,
+          "option": "EU 39W",
+          "date_created": "2026-06-19T11:36:04Z",
+          "date_text": "1시간 전",
+          "is_immediate": true
+        },
+        {
+          "price": 226000,
+          "option": "EU 39W",
+          "date_created": "2026-06-18T02:43:10Z",
+          "date_text": "26/06/18",
+          "is_immediate": true
+        },
+        {
+          "price": 224000,
+          "option": "EU 39W",
+          "date_created": "2026-06-09T07:18:00Z",
+          "date_text": "26/06/09",
+          "is_immediate": false
+        },
+        {
+          "price": 224000,
+          "option": "EU 39W",
+          "date_created": "2026-06-07T09:07:12Z",
+          "date_text": "26/06/07",
+          "is_immediate": false
+        },
+        {
+          "price": 170000,
+          "option": "EU 39W",
+          "date_created": "2026-06-04T11:55:57Z",
+          "date_text": "26/06/04",
+          "is_immediate": false
+        },
+        {
+          "price": 190000,
+          "option": "EU 39W",
+          "date_created": "2026-06-02T00:51:34Z",
+          "date_text": "26/06/02",
+          "is_immediate": false
+        },
+        {
+          "price": 223000,
+          "option": "EU 39W",
+          "date_created": "2026-05-29T20:51:48Z",
+          "date_text": "26/05/30",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 180000,
+          "option": "EU 39W",
+          "quantity": 1
+        },
+        {
+          "price": 184000,
+          "option": "EU 39W",
+          "quantity": 5
+        },
+        {
+          "price": 185000,
+          "option": "EU 39W",
+          "quantity": 2
+        },
+        {
+          "price": 189000,
+          "option": "EU 39W",
+          "quantity": 4
+        },
+        {
+          "price": 223000,
+          "option": "EU 39W",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 175000,
+          "option": "EU 39W",
+          "quantity": 1
+        },
+        {
+          "price": 170000,
+          "option": "EU 39W",
+          "quantity": 1
+        },
+        {
+          "price": 165000,
+          "option": "EU 39W",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 7,
+        "asks": 5,
+        "bids": 3
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 10,000원(+4.6%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 39W",
+      "kream_options_available": [
+        "EU 39W",
+        "EU 37W",
+        "EU 38.5W",
+        "EU 40.5W",
+        "EU 37.5W",
+        "EU 38W",
+        "EU 36.5W",
+        "EU 40W",
+        "EU 36W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3WF10061200",
+      "option": "8½",
+      "stock": 2,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 447272,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/447272",
+      "market": {
+        "last_sale_price": 227000,
+        "lowest_ask": 180000,
+        "highest_bid": 175000,
+        "change_text": "▲ 10,000원(+4.6%)"
+      },
+      "sales": [
+        {
+          "price": 227000,
+          "option": "EU 39W",
+          "date_created": "2026-06-19T11:36:04Z",
+          "date_text": "1시간 전",
+          "is_immediate": true
+        },
+        {
+          "price": 226000,
+          "option": "EU 39W",
+          "date_created": "2026-06-18T02:43:10Z",
+          "date_text": "26/06/18",
+          "is_immediate": true
+        },
+        {
+          "price": 224000,
+          "option": "EU 39W",
+          "date_created": "2026-06-09T07:18:00Z",
+          "date_text": "26/06/09",
+          "is_immediate": false
+        },
+        {
+          "price": 224000,
+          "option": "EU 39W",
+          "date_created": "2026-06-07T09:07:12Z",
+          "date_text": "26/06/07",
+          "is_immediate": false
+        },
+        {
+          "price": 170000,
+          "option": "EU 39W",
+          "date_created": "2026-06-04T11:55:57Z",
+          "date_text": "26/06/04",
+          "is_immediate": false
+        },
+        {
+          "price": 190000,
+          "option": "EU 39W",
+          "date_created": "2026-06-02T00:51:34Z",
+          "date_text": "26/06/02",
+          "is_immediate": false
+        },
+        {
+          "price": 223000,
+          "option": "EU 39W",
+          "date_created": "2026-05-29T20:51:48Z",
+          "date_text": "26/05/30",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 180000,
+          "option": "EU 39W",
+          "quantity": 1
+        },
+        {
+          "price": 184000,
+          "option": "EU 39W",
+          "quantity": 5
+        },
+        {
+          "price": 185000,
+          "option": "EU 39W",
+          "quantity": 2
+        },
+        {
+          "price": 189000,
+          "option": "EU 39W",
+          "quantity": 4
+        },
+        {
+          "price": 223000,
+          "option": "EU 39W",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 175000,
+          "option": "EU 39W",
+          "quantity": 1
+        },
+        {
+          "price": 170000,
+          "option": "EU 39W",
+          "quantity": 1
+        },
+        {
+          "price": 165000,
+          "option": "EU 39W",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 7,
+        "asks": 5,
+        "bids": 3
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 10,000원(+4.6%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 39W",
+      "kream_options_available": [
+        "EU 39W",
+        "EU 37W",
+        "EU 38.5W",
+        "EU 40.5W",
+        "EU 37.5W",
+        "EU 38W",
+        "EU 36.5W",
+        "EU 40W",
+        "EU 36W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3WF10061200",
+      "option": "7½",
+      "stock": 1,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 447272,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/447272",
+      "market": {
+        "last_sale_price": 227000,
+        "lowest_ask": 180000,
+        "highest_bid": 175000,
+        "change_text": "▲ 10,000원(+4.6%)"
+      },
+      "sales": [
+        {
+          "price": 227000,
+          "option": "EU 39W",
+          "date_created": "2026-06-19T11:36:04Z",
+          "date_text": "1시간 전",
+          "is_immediate": true
+        },
+        {
+          "price": 226000,
+          "option": "EU 39W",
+          "date_created": "2026-06-18T02:43:10Z",
+          "date_text": "26/06/18",
+          "is_immediate": true
+        },
+        {
+          "price": 224000,
+          "option": "EU 39W",
+          "date_created": "2026-06-09T07:18:00Z",
+          "date_text": "26/06/09",
+          "is_immediate": false
+        },
+        {
+          "price": 224000,
+          "option": "EU 39W",
+          "date_created": "2026-06-07T09:07:12Z",
+          "date_text": "26/06/07",
+          "is_immediate": false
+        },
+        {
+          "price": 170000,
+          "option": "EU 39W",
+          "date_created": "2026-06-04T11:55:57Z",
+          "date_text": "26/06/04",
+          "is_immediate": false
+        },
+        {
+          "price": 190000,
+          "option": "EU 39W",
+          "date_created": "2026-06-02T00:51:34Z",
+          "date_text": "26/06/02",
+          "is_immediate": false
+        },
+        {
+          "price": 223000,
+          "option": "EU 39W",
+          "date_created": "2026-05-29T20:51:48Z",
+          "date_text": "26/05/30",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 180000,
+          "option": "EU 39W",
+          "quantity": 1
+        },
+        {
+          "price": 184000,
+          "option": "EU 39W",
+          "quantity": 5
+        },
+        {
+          "price": 185000,
+          "option": "EU 39W",
+          "quantity": 2
+        },
+        {
+          "price": 189000,
+          "option": "EU 39W",
+          "quantity": 4
+        },
+        {
+          "price": 223000,
+          "option": "EU 39W",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 175000,
+          "option": "EU 39W",
+          "quantity": 1
+        },
+        {
+          "price": 170000,
+          "option": "EU 39W",
+          "quantity": 1
+        },
+        {
+          "price": 165000,
+          "option": "EU 39W",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 7,
+        "asks": 5,
+        "bids": 3
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 10,000원(+4.6%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 39W",
+      "kream_options_available": [
+        "EU 39W",
+        "EU 37W",
+        "EU 38.5W",
+        "EU 40.5W",
+        "EU 37.5W",
+        "EU 38W",
+        "EU 36.5W",
+        "EU 40W",
+        "EU 36W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3WF10061200",
+      "option": "5½",
+      "stock": 1,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 447272,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/447272",
+      "market": {
+        "last_sale_price": 227000,
+        "lowest_ask": 180000,
+        "highest_bid": 175000,
+        "change_text": "▲ 10,000원(+4.6%)"
+      },
+      "sales": [
+        {
+          "price": 227000,
+          "option": "EU 39W",
+          "date_created": "2026-06-19T11:36:04Z",
+          "date_text": "1시간 전",
+          "is_immediate": true
+        },
+        {
+          "price": 226000,
+          "option": "EU 39W",
+          "date_created": "2026-06-18T02:43:10Z",
+          "date_text": "26/06/18",
+          "is_immediate": true
+        },
+        {
+          "price": 224000,
+          "option": "EU 39W",
+          "date_created": "2026-06-09T07:18:00Z",
+          "date_text": "26/06/09",
+          "is_immediate": false
+        },
+        {
+          "price": 224000,
+          "option": "EU 39W",
+          "date_created": "2026-06-07T09:07:12Z",
+          "date_text": "26/06/07",
+          "is_immediate": false
+        },
+        {
+          "price": 170000,
+          "option": "EU 39W",
+          "date_created": "2026-06-04T11:55:57Z",
+          "date_text": "26/06/04",
+          "is_immediate": false
+        },
+        {
+          "price": 190000,
+          "option": "EU 39W",
+          "date_created": "2026-06-02T00:51:34Z",
+          "date_text": "26/06/02",
+          "is_immediate": false
+        },
+        {
+          "price": 223000,
+          "option": "EU 39W",
+          "date_created": "2026-05-29T20:51:48Z",
+          "date_text": "26/05/30",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 180000,
+          "option": "EU 39W",
+          "quantity": 1
+        },
+        {
+          "price": 184000,
+          "option": "EU 39W",
+          "quantity": 5
+        },
+        {
+          "price": 185000,
+          "option": "EU 39W",
+          "quantity": 2
+        },
+        {
+          "price": 189000,
+          "option": "EU 39W",
+          "quantity": 4
+        },
+        {
+          "price": 223000,
+          "option": "EU 39W",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 175000,
+          "option": "EU 39W",
+          "quantity": 1
+        },
+        {
+          "price": 170000,
+          "option": "EU 39W",
+          "quantity": 1
+        },
+        {
+          "price": 165000,
+          "option": "EU 39W",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 7,
+        "asks": 5,
+        "bids": 3
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 10,000원(+4.6%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 39W",
+      "kream_options_available": [
+        "EU 39W",
+        "EU 37W",
+        "EU 38.5W",
+        "EU 40.5W",
+        "EU 37.5W",
+        "EU 38W",
+        "EU 36.5W",
+        "EU 40W",
+        "EU 36W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3MF10071200101",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 91.8,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3MF10071200101\" SPU=\"3MF10071200101\"",
+      "candidates": [
+        {
+          "product_id": 560371,
+          "text": "비기너 러닝화\n\nOn Running\n\n(W) 온 러닝 클라우드 6 벌사 화이트\n\n291,000원\n\n관심 52\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 447272,
+          "text": "비기너 러닝화\n\nOn Running\n\n(W) 온 러닝 클라우드 6 화이트\n\n180,000원\n\n관심 983\n\n · 리뷰 56\n\n · 거래 474\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 448279,
+          "text": "비기너 러닝화\n\nOn Running\n\n온 러닝 클라우드 6 화이트\n\n35%\n\n180,000원\n\n관심 375\n\n · 리뷰 25\n\n · 거래 172\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 562286,
+          "text": "비기너 러닝화\n\nOn Running\n\n온 러닝 클라우드 6 벌사 화이트\n\n239,000원\n\n관심 107\n\n · 리뷰 3\n\n · 거래 29"
+        },
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        }
+      ]
+    },
+    {
+      "sku": "3WF10061200101",
+      "option": "6",
+      "stock": 2,
+      "eur_price": 91.8,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3WF10061200101\" SPU=\"3WF10061200101\"",
+      "candidates": [
+        {
+          "product_id": 560371,
+          "text": "비기너 러닝화\n\nOn Running\n\n(W) 온 러닝 클라우드 6 벌사 화이트\n\n291,000원\n\n관심 52\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 447272,
+          "text": "비기너 러닝화\n\nOn Running\n\n(W) 온 러닝 클라우드 6 화이트\n\n180,000원\n\n관심 983\n\n · 리뷰 56\n\n · 거래 474\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 448279,
+          "text": "비기너 러닝화\n\nOn Running\n\n온 러닝 클라우드 6 화이트\n\n35%\n\n180,000원\n\n관심 375\n\n · 리뷰 25\n\n · 거래 172\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        },
+        {
+          "product_id": 562286,
+          "text": "비기너 러닝화\n\nOn Running\n\n온 러닝 클라우드 6 벌사 화이트\n\n239,000원\n\n관심 107\n\n · 리뷰 3\n\n · 거래 29"
+        }
+      ]
+    },
+    {
+      "sku": "3ME30040106",
+      "option": "8½",
+      "stock": 2,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 322145,
+      "product_name_ko": "On Running",
+      "product_url": "https://kream.co.kr/products/322145",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": 199000,
+        "change_text": "▲ 16,000원(+8.9%)"
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [
+        {
+          "price": 199000,
+          "option": "EU 46",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 16,000원(+8.9%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 46",
+      "kream_options_available": [
+        "EU 46",
+        "EU 40.5",
+        "EU 44.5",
+        "EU 44",
+        "EU 42.5",
+        "EU 41",
+        "EU 43",
+        "EU 42",
+        "EU 45",
+        "EU 47",
+        "EU 40"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3ME30040106",
+      "option": "8",
+      "stock": 2,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 322145,
+      "product_name_ko": "On Running",
+      "product_url": "https://kream.co.kr/products/322145",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": 199000,
+        "change_text": "▲ 16,000원(+8.9%)"
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [
+        {
+          "price": 199000,
+          "option": "EU 46",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 16,000원(+8.9%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 46",
+      "kream_options_available": [
+        "EU 46",
+        "EU 40.5",
+        "EU 44.5",
+        "EU 44",
+        "EU 42.5",
+        "EU 41",
+        "EU 43",
+        "EU 42",
+        "EU 45",
+        "EU 47",
+        "EU 40"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3ME30040106002",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 91.8,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3ME30040106002\" SPU=\"3ME30040106002\"",
+      "candidates": [
+        {
+          "product_id": 324056,
+          "text": "On Running\n\n(W) 온 러닝 클라우드 X 4 아이보리 블랙\n\n11%\n\n176,000원\n\n관심 2,003\n\n · 리뷰 193\n\n · 거래 1,654\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 324058,
+          "text": "On Running\n\n(W) 온 러닝 클라우드 X 4 블랙 이클립스\n\n186,000원\n\n관심 1,904\n\n · 리뷰 72\n\n · 거래 634\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 265368,
+          "text": "10K\n\nOn Running\n\n(W) 온 러닝 클라우드어웨이 올 블랙\n\n41%\n\n151,000원\n\n관심 899\n\n · 리뷰 23\n\n · 거래 236"
+        },
+        {
+          "product_id": 441198,
+          "text": "10K\n\nOn Running\n\n(W) 온 러닝 클라우드어웨이 블랙 락\n\n155,000원\n\n관심 32\n\n · 리뷰 2\n\n · 거래 5"
+        },
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        }
+      ]
+    },
+    {
+      "sku": "3ME30040791",
+      "option": "9½",
+      "stock": 1,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 324046,
+      "product_name_ko": "On Running",
+      "product_url": "https://kream.co.kr/products/324046",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": 200000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [
+        {
+          "price": 200000,
+          "option": "EU 46",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 46",
+      "kream_options_available": [
+        "EU 46",
+        "EU 41",
+        "EU 44",
+        "EU 42.5",
+        "EU 43",
+        "EU 44.5",
+        "EU 45",
+        "EU 42",
+        "EU 40.5",
+        "EU 47"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3ME30040791",
+      "option": "10",
+      "stock": 1,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 324046,
+      "product_name_ko": "On Running",
+      "product_url": "https://kream.co.kr/products/324046",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": 200000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [
+        {
+          "price": 200000,
+          "option": "EU 46",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 46",
+      "kream_options_available": [
+        "EU 46",
+        "EU 41",
+        "EU 44",
+        "EU 42.5",
+        "EU 43",
+        "EU 44.5",
+        "EU 45",
+        "EU 42",
+        "EU 40.5",
+        "EU 47"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3ME30040791",
+      "option": "11",
+      "stock": 1,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 324046,
+      "product_name_ko": "On Running",
+      "product_url": "https://kream.co.kr/products/324046",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": 200000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [
+        {
+          "price": 200000,
+          "option": "EU 46",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 46",
+      "kream_options_available": [
+        "EU 46",
+        "EU 41",
+        "EU 44",
+        "EU 42.5",
+        "EU 43",
+        "EU 44.5",
+        "EU 45",
+        "EU 42",
+        "EU 40.5",
+        "EU 47"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3ME30040791",
+      "option": "8",
+      "stock": 2,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 324046,
+      "product_name_ko": "On Running",
+      "product_url": "https://kream.co.kr/products/324046",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": 200000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [
+        {
+          "price": 200000,
+          "option": "EU 46",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 46",
+      "kream_options_available": [
+        "EU 46",
+        "EU 41",
+        "EU 44",
+        "EU 42.5",
+        "EU 43",
+        "EU 44.5",
+        "EU 45",
+        "EU 42",
+        "EU 40.5",
+        "EU 47"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3MF10070299",
+      "option": "7",
+      "stock": 1,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 480177,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/480177",
+      "market": {
+        "last_sale_price": 152000,
+        "lowest_ask": 180000,
+        "highest_bid": 100000,
+        "change_text": "▲ 55,000원(+45.8%)"
+      },
+      "sales": [
+        {
+          "price": 152000,
+          "option": "EU 47",
+          "date_created": "2026-01-31T06:23:04Z",
+          "date_text": "26/01/31",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 180000,
+          "option": "EU 47",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 100000,
+          "option": "EU 47",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 1,
+        "asks": 1,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 55,000원(+45.8%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 47",
+      "kream_options_available": [
+        "EU 41",
+        "EU 42.5",
+        "EU 42",
+        "EU 44",
+        "EU 43",
+        "EU 47",
+        "EU 45",
+        "EU 44.5",
+        "EU 40",
+        "EU 46",
+        "EU 40.5"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3MF10071200",
+      "option": "9½",
+      "stock": 2,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 448279,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/448279",
+      "market": {
+        "last_sale_price": 180000,
+        "lowest_ask": 180000,
+        "highest_bid": 115000,
+        "change_text": "▲ 25,000원(+13.9%)"
+      },
+      "sales": [
+        {
+          "price": 180000,
+          "option": "EU 44",
+          "date_created": "2026-06-13T15:25:29Z",
+          "date_text": "26/06/14",
+          "is_immediate": false
+        },
+        {
+          "price": 205000,
+          "option": "EU 44",
+          "date_created": "2026-05-21T03:28:21Z",
+          "date_text": "26/05/21",
+          "is_immediate": true
+        },
+        {
+          "price": 194000,
+          "option": "EU 44",
+          "date_created": "2026-05-05T03:55:56Z",
+          "date_text": "26/05/05",
+          "is_immediate": true
+        },
+        {
+          "price": 192000,
+          "option": "EU 44",
+          "date_created": "2026-04-12T00:40:48Z",
+          "date_text": "26/04/12",
+          "is_immediate": true
+        },
+        {
+          "price": 179000,
+          "option": "EU 44",
+          "date_created": "2026-04-01T03:16:36Z",
+          "date_text": "26/04/01",
+          "is_immediate": false
+        },
+        {
+          "price": 178000,
+          "option": "EU 44",
+          "date_created": "2026-03-12T07:09:12Z",
+          "date_text": "26/03/12",
+          "is_immediate": true
+        }
+      ],
+      "asks": [
+        {
+          "price": 180000,
+          "option": "EU 44",
+          "quantity": 1
+        },
+        {
+          "price": 181000,
+          "option": "EU 44",
+          "quantity": 1
+        },
+        {
+          "price": 188000,
+          "option": "EU 44",
+          "quantity": 4
+        },
+        {
+          "price": 197000,
+          "option": "EU 44",
+          "quantity": 1
+        },
+        {
+          "price": 198000,
+          "option": "EU 44",
+          "quantity": 1
+        },
+        {
+          "price": 209000,
+          "option": "EU 44",
+          "quantity": 1
+        },
+        {
+          "price": 215000,
+          "option": "EU 44",
+          "quantity": 1
+        },
+        {
+          "price": 219000,
+          "option": "EU 44",
+          "quantity": 2
+        },
+        {
+          "price": 230000,
+          "option": "EU 44",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 115000,
+          "option": "EU 44",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 6,
+        "asks": 9,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 25,000원(+13.9%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 44",
+      "kream_options_available": [
+        "EU 44",
+        "EU 44.5",
+        "EU 45",
+        "EU 43",
+        "EU 42.5",
+        "EU 42",
+        "EU 41",
+        "EU 46",
+        "EU 40.5",
+        "EU 47",
+        "EU 40"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3MF10070299",
+      "option": "9½",
+      "stock": 1,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 480177,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/480177",
+      "market": {
+        "last_sale_price": 180000,
+        "lowest_ask": 185000,
+        "highest_bid": 150000,
+        "change_text": "▲ 55,000원(+45.8%)"
+      },
+      "sales": [
+        {
+          "price": 180000,
+          "option": "EU 41",
+          "date_created": "2026-06-05T02:40:59Z",
+          "date_text": "26/06/05",
+          "is_immediate": false
+        },
+        {
+          "price": 180000,
+          "option": "EU 41",
+          "date_created": "2026-06-01T04:23:12Z",
+          "date_text": "26/06/01",
+          "is_immediate": false
+        },
+        {
+          "price": 178000,
+          "option": "EU 41",
+          "date_created": "2026-02-05T12:22:35Z",
+          "date_text": "26/02/05",
+          "is_immediate": false
+        },
+        {
+          "price": 179000,
+          "option": "EU 41",
+          "date_created": "2025-11-22T09:13:23Z",
+          "date_text": "25/11/22",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 185000,
+          "option": "EU 41",
+          "quantity": 3
+        },
+        {
+          "price": 190000,
+          "option": "EU 41",
+          "quantity": 1
+        },
+        {
+          "price": 208000,
+          "option": "EU 41",
+          "quantity": 1
+        },
+        {
+          "price": 217000,
+          "option": "EU 41",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 150000,
+          "option": "EU 41",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 4,
+        "asks": 4,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 55,000원(+45.8%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 41",
+      "kream_options_available": [
+        "EU 41",
+        "EU 42.5",
+        "EU 42",
+        "EU 44",
+        "EU 43",
+        "EU 47",
+        "EU 45",
+        "EU 44.5",
+        "EU 40",
+        "EU 46",
+        "EU 40.5"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3MF10071200",
+      "option": "8½",
+      "stock": 1,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 448279,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/448279",
+      "market": {
+        "last_sale_price": 180000,
+        "lowest_ask": 180000,
+        "highest_bid": 115000,
+        "change_text": "▲ 25,000원(+13.9%)"
+      },
+      "sales": [
+        {
+          "price": 180000,
+          "option": "EU 44",
+          "date_created": "2026-06-13T15:25:29Z",
+          "date_text": "26/06/14",
+          "is_immediate": false
+        },
+        {
+          "price": 205000,
+          "option": "EU 44",
+          "date_created": "2026-05-21T03:28:21Z",
+          "date_text": "26/05/21",
+          "is_immediate": true
+        },
+        {
+          "price": 194000,
+          "option": "EU 44",
+          "date_created": "2026-05-05T03:55:56Z",
+          "date_text": "26/05/05",
+          "is_immediate": true
+        },
+        {
+          "price": 192000,
+          "option": "EU 44",
+          "date_created": "2026-04-12T00:40:48Z",
+          "date_text": "26/04/12",
+          "is_immediate": true
+        },
+        {
+          "price": 179000,
+          "option": "EU 44",
+          "date_created": "2026-04-01T03:16:36Z",
+          "date_text": "26/04/01",
+          "is_immediate": false
+        },
+        {
+          "price": 178000,
+          "option": "EU 44",
+          "date_created": "2026-03-12T07:09:12Z",
+          "date_text": "26/03/12",
+          "is_immediate": true
+        }
+      ],
+      "asks": [
+        {
+          "price": 180000,
+          "option": "EU 44",
+          "quantity": 1
+        },
+        {
+          "price": 181000,
+          "option": "EU 44",
+          "quantity": 1
+        },
+        {
+          "price": 188000,
+          "option": "EU 44",
+          "quantity": 4
+        },
+        {
+          "price": 197000,
+          "option": "EU 44",
+          "quantity": 1
+        },
+        {
+          "price": 198000,
+          "option": "EU 44",
+          "quantity": 1
+        },
+        {
+          "price": 209000,
+          "option": "EU 44",
+          "quantity": 1
+        },
+        {
+          "price": 215000,
+          "option": "EU 44",
+          "quantity": 1
+        },
+        {
+          "price": 219000,
+          "option": "EU 44",
+          "quantity": 2
+        },
+        {
+          "price": 230000,
+          "option": "EU 44",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 115000,
+          "option": "EU 44",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 6,
+        "asks": 9,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 25,000원(+13.9%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 44",
+      "kream_options_available": [
+        "EU 44",
+        "EU 44.5",
+        "EU 45",
+        "EU 43",
+        "EU 42.5",
+        "EU 42",
+        "EU 41",
+        "EU 46",
+        "EU 40.5",
+        "EU 47",
+        "EU 40"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3MF10070299",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 480177,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/480177",
+      "market": {
+        "last_sale_price": 180000,
+        "lowest_ask": 185000,
+        "highest_bid": 150000,
+        "change_text": "▲ 55,000원(+45.8%)"
+      },
+      "sales": [
+        {
+          "price": 180000,
+          "option": "EU 41",
+          "date_created": "2026-06-05T02:40:59Z",
+          "date_text": "26/06/05",
+          "is_immediate": false
+        },
+        {
+          "price": 180000,
+          "option": "EU 41",
+          "date_created": "2026-06-01T04:23:12Z",
+          "date_text": "26/06/01",
+          "is_immediate": false
+        },
+        {
+          "price": 178000,
+          "option": "EU 41",
+          "date_created": "2026-02-05T12:22:35Z",
+          "date_text": "26/02/05",
+          "is_immediate": false
+        },
+        {
+          "price": 179000,
+          "option": "EU 41",
+          "date_created": "2025-11-22T09:13:23Z",
+          "date_text": "25/11/22",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 185000,
+          "option": "EU 41",
+          "quantity": 3
+        },
+        {
+          "price": 190000,
+          "option": "EU 41",
+          "quantity": 1
+        },
+        {
+          "price": 208000,
+          "option": "EU 41",
+          "quantity": 1
+        },
+        {
+          "price": 217000,
+          "option": "EU 41",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 150000,
+          "option": "EU 41",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 4,
+        "asks": 4,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 55,000원(+45.8%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 41",
+      "kream_options_available": [
+        "EU 41",
+        "EU 42.5",
+        "EU 42",
+        "EU 44",
+        "EU 43",
+        "EU 47",
+        "EU 45",
+        "EU 44.5",
+        "EU 40",
+        "EU 46",
+        "EU 40.5"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3MF30741200",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 753431,
+      "product_name_ko": "하프 코스",
+      "product_url": "https://kream.co.kr/products/753431",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 220000,
+        "highest_bid": 120000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 220000,
+          "option": "EU 44.5",
+          "quantity": 2
+        },
+        {
+          "price": 227000,
+          "option": "EU 44.5",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 120000,
+          "option": "EU 44.5",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 44.5",
+      "kream_options_available": [
+        "EU 44.5",
+        "EU 45",
+        "EU 42.5",
+        "EU 43",
+        "EU 44",
+        "EU 41",
+        "EU 42",
+        "EU 40.5"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3MF30741200",
+      "option": "8½",
+      "stock": 5,
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 753431,
+      "product_name_ko": "하프 코스",
+      "product_url": "https://kream.co.kr/products/753431",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 220000,
+        "highest_bid": 120000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 220000,
+          "option": "EU 44.5",
+          "quantity": 2
+        },
+        {
+          "price": 227000,
+          "option": "EU 44.5",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 120000,
+          "option": "EU 44.5",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 44.5",
+      "kream_options_available": [
+        "EU 44.5",
+        "EU 45",
+        "EU 42.5",
+        "EU 43",
+        "EU 44",
+        "EU 41",
+        "EU 42",
+        "EU 40.5"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3MF30741200",
+      "option": "9½",
+      "stock": 4,
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 753431,
+      "product_name_ko": "하프 코스",
+      "product_url": "https://kream.co.kr/products/753431",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 220000,
+        "highest_bid": 120000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 220000,
+          "option": "EU 44.5",
+          "quantity": 2
+        },
+        {
+          "price": 227000,
+          "option": "EU 44.5",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 120000,
+          "option": "EU 44.5",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 44.5",
+      "kream_options_available": [
+        "EU 44.5",
+        "EU 45",
+        "EU 42.5",
+        "EU 43",
+        "EU 44",
+        "EU 41",
+        "EU 42",
+        "EU 40.5"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3MF30741200",
+      "option": "8",
+      "stock": 3,
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 753431,
+      "product_name_ko": "하프 코스",
+      "product_url": "https://kream.co.kr/products/753431",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 220000,
+        "highest_bid": 120000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 220000,
+          "option": "EU 44.5",
+          "quantity": 2
+        },
+        {
+          "price": 227000,
+          "option": "EU 44.5",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 120000,
+          "option": "EU 44.5",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 44.5",
+      "kream_options_available": [
+        "EU 44.5",
+        "EU 45",
+        "EU 42.5",
+        "EU 43",
+        "EU 44",
+        "EU 41",
+        "EU 42",
+        "EU 40.5"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3MF30741200",
+      "option": "10",
+      "stock": 4,
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 753431,
+      "product_name_ko": "하프 코스",
+      "product_url": "https://kream.co.kr/products/753431",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 220000,
+        "highest_bid": 120000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 220000,
+          "option": "EU 44.5",
+          "quantity": 2
+        },
+        {
+          "price": 227000,
+          "option": "EU 44.5",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 120000,
+          "option": "EU 44.5",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 44.5",
+      "kream_options_available": [
+        "EU 44.5",
+        "EU 45",
+        "EU 42.5",
+        "EU 43",
+        "EU 44",
+        "EU 41",
+        "EU 42",
+        "EU 40.5"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3ME30210485ALL BLACK",
+      "option": "10",
+      "stock": 1,
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 757452,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/757452",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 247000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 247000,
+          "option": "EU 40.5",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "EU 40.5",
+      "kream_options_available": [
+        "EU 40.5",
+        "EU 41",
+        "EU 42",
+        "EU 42.5",
+        "EU 43"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3ME30210485ALL BLACK",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 757452,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/757452",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 247000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 247000,
+          "option": "EU 40.5",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "EU 40.5",
+      "kream_options_available": [
+        "EU 40.5",
+        "EU 41",
+        "EU 42",
+        "EU 42.5",
+        "EU 43"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3ME30210485ALL BLACK",
+      "option": "8½",
+      "stock": 1,
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 757452,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/757452",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 247000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 247000,
+          "option": "EU 40.5",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "EU 40.5",
+      "kream_options_available": [
+        "EU 40.5",
+        "EU 41",
+        "EU 42",
+        "EU 42.5",
+        "EU 43"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3WF30481200WHITE WHITE",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 757481,
+      "product_name_ko": "하프 코스",
+      "product_url": "https://kream.co.kr/products/757481",
+      "market": {
+        "last_sale_price": 239000,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 239000,
+          "option": "EU 36W",
+          "date_created": "2026-05-19T02:17:07Z",
+          "date_text": "26/05/19",
+          "is_immediate": false
+        }
+      ],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "33,100원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 36W",
+      "kream_options_available": [
+        "EU 36W",
+        "EU 37.5W",
+        "EU 38.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3WF30481200WHITE WHITE",
+      "option": "8½",
+      "stock": 1,
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 757481,
+      "product_name_ko": "하프 코스",
+      "product_url": "https://kream.co.kr/products/757481",
+      "market": {
+        "last_sale_price": 239000,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 239000,
+          "option": "EU 36W",
+          "date_created": "2026-05-19T02:17:07Z",
+          "date_text": "26/05/19",
+          "is_immediate": false
+        }
+      ],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "33,100원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 36W",
+      "kream_options_available": [
+        "EU 36W",
+        "EU 37.5W",
+        "EU 38.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3WF30481200WHITE WHITE",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 757481,
+      "product_name_ko": "하프 코스",
+      "product_url": "https://kream.co.kr/products/757481",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 221000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 221000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        },
+        {
+          "price": 222000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        },
+        {
+          "price": 225000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        },
+        {
+          "price": 236000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        },
+        {
+          "price": 241000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 5,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "33,100원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 37.5W",
+      "kream_options_available": [
+        "EU 36W",
+        "EU 37.5W",
+        "EU 38.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3WF30481200WHITE WHITE",
+      "option": "7½",
+      "stock": 2,
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 757481,
+      "product_name_ko": "하프 코스",
+      "product_url": "https://kream.co.kr/products/757481",
+      "market": {
+        "last_sale_price": 239000,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 239000,
+          "option": "EU 36W",
+          "date_created": "2026-05-19T02:17:07Z",
+          "date_text": "26/05/19",
+          "is_immediate": false
+        }
+      ],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "33,100원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 36W",
+      "kream_options_available": [
+        "EU 36W",
+        "EU 37.5W",
+        "EU 38.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3WF30481200WHITE WHITE",
+      "option": "5½",
+      "stock": 2,
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 757481,
+      "product_name_ko": "하프 코스",
+      "product_url": "https://kream.co.kr/products/757481",
+      "market": {
+        "last_sale_price": 239000,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 239000,
+          "option": "EU 36W",
+          "date_created": "2026-05-19T02:17:07Z",
+          "date_text": "26/05/19",
+          "is_immediate": false
+        }
+      ],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "33,100원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 36W",
+      "kream_options_available": [
+        "EU 36W",
+        "EU 37.5W",
+        "EU 38.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3WF30481200WHITE WHITE",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 109.02,
+      "matched": true,
+      "product_id": 757481,
+      "product_name_ko": "하프 코스",
+      "product_url": "https://kream.co.kr/products/757481",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 224000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 224000,
+          "option": "EU 38.5W",
+          "quantity": 1
+        },
+        {
+          "price": 225000,
+          "option": "EU 38.5W",
+          "quantity": 1
+        },
+        {
+          "price": 235000,
+          "option": "EU 38.5W",
+          "quantity": 1
+        },
+        {
+          "price": 236000,
+          "option": "EU 38.5W",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 4,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "33,100원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 38.5W",
+      "kream_options_available": [
+        "EU 36W",
+        "EU 37.5W",
+        "EU 38.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3WF10060299",
+      "option": "6",
+      "stock": 2,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 443920,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/443920",
+      "market": {
+        "last_sale_price": 259000,
+        "lowest_ask": 279000,
+        "highest_bid": null,
+        "change_text": "▲ 1,000원(+0.5%)"
+      },
+      "sales": [
+        {
+          "price": 259000,
+          "option": "EU 36.5W",
+          "date_created": "2025-05-29T07:16:19Z",
+          "date_text": "25/05/29",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 279000,
+          "option": "EU 36.5W",
+          "quantity": 1
+        },
+        {
+          "price": 280000,
+          "option": "EU 36.5W",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 1,000원(+0.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 36.5W",
+      "kream_options_available": [
+        "EU 38.5W",
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W",
+        "EU 41W",
+        "EU 36W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3WF10060299",
+      "option": "7½",
+      "stock": 1,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 443920,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/443920",
+      "market": {
+        "last_sale_price": 198000,
+        "lowest_ask": 200000,
+        "highest_bid": null,
+        "change_text": "▲ 1,000원(+0.5%)"
+      },
+      "sales": [
+        {
+          "price": 198000,
+          "option": "EU 38.5W",
+          "date_created": "2026-03-30T10:16:18Z",
+          "date_text": "26/03/30",
+          "is_immediate": false
+        },
+        {
+          "price": 208000,
+          "option": "EU 38.5W",
+          "date_created": "2025-10-01T13:32:22Z",
+          "date_text": "25/10/01",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 200000,
+          "option": "EU 38.5W",
+          "quantity": 1
+        },
+        {
+          "price": 204000,
+          "option": "EU 38.5W",
+          "quantity": 1
+        },
+        {
+          "price": 219000,
+          "option": "EU 38.5W",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 2,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 1,000원(+0.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 38.5W",
+      "kream_options_available": [
+        "EU 38.5W",
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W",
+        "EU 41W",
+        "EU 36W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3WF10060299",
+      "option": "6½",
+      "stock": 2,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 443920,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/443920",
+      "market": {
+        "last_sale_price": 198000,
+        "lowest_ask": 200000,
+        "highest_bid": null,
+        "change_text": "▲ 1,000원(+0.5%)"
+      },
+      "sales": [
+        {
+          "price": 198000,
+          "option": "EU 38.5W",
+          "date_created": "2026-03-30T10:16:18Z",
+          "date_text": "26/03/30",
+          "is_immediate": false
+        },
+        {
+          "price": 208000,
+          "option": "EU 38.5W",
+          "date_created": "2025-10-01T13:32:22Z",
+          "date_text": "25/10/01",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 200000,
+          "option": "EU 38.5W",
+          "quantity": 1
+        },
+        {
+          "price": 204000,
+          "option": "EU 38.5W",
+          "quantity": 1
+        },
+        {
+          "price": 219000,
+          "option": "EU 38.5W",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 2,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 1,000원(+0.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 38.5W",
+      "kream_options_available": [
+        "EU 38.5W",
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W",
+        "EU 41W",
+        "EU 36W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3WF10060299",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 443920,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/443920",
+      "market": {
+        "last_sale_price": 198000,
+        "lowest_ask": 200000,
+        "highest_bid": null,
+        "change_text": "▲ 1,000원(+0.5%)"
+      },
+      "sales": [
+        {
+          "price": 198000,
+          "option": "EU 38.5W",
+          "date_created": "2026-03-30T10:16:18Z",
+          "date_text": "26/03/30",
+          "is_immediate": false
+        },
+        {
+          "price": 208000,
+          "option": "EU 38.5W",
+          "date_created": "2025-10-01T13:32:22Z",
+          "date_text": "25/10/01",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 200000,
+          "option": "EU 38.5W",
+          "quantity": 1
+        },
+        {
+          "price": 204000,
+          "option": "EU 38.5W",
+          "quantity": 1
+        },
+        {
+          "price": 219000,
+          "option": "EU 38.5W",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 2,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 1,000원(+0.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 38.5W",
+      "kream_options_available": [
+        "EU 38.5W",
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W",
+        "EU 41W",
+        "EU 36W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3WF10060299",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 443920,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/443920",
+      "market": {
+        "last_sale_price": 224000,
+        "lowest_ask": 204000,
+        "highest_bid": null,
+        "change_text": "▲ 1,000원(+0.5%)"
+      },
+      "sales": [
+        {
+          "price": 224000,
+          "option": "EU 37.5W",
+          "date_created": "2025-06-09T05:34:10Z",
+          "date_text": "25/06/09",
+          "is_immediate": false
+        },
+        {
+          "price": 222000,
+          "option": "EU 37.5W",
+          "date_created": "2025-05-15T03:04:40Z",
+          "date_text": "25/05/15",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 204000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        },
+        {
+          "price": 208000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        },
+        {
+          "price": 219000,
+          "option": "EU 37.5W",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 2,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 1,000원(+0.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 37.5W",
+      "kream_options_available": [
+        "EU 38.5W",
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W",
+        "EU 41W",
+        "EU 36W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3WF10060299",
+      "option": "5½",
+      "stock": 1,
+      "eur_price": 91.8,
+      "matched": true,
+      "product_id": 443920,
+      "product_name_ko": "비기너 러닝화",
+      "product_url": "https://kream.co.kr/products/443920",
+      "market": {
+        "last_sale_price": 198000,
+        "lowest_ask": 200000,
+        "highest_bid": null,
+        "change_text": "▲ 1,000원(+0.5%)"
+      },
+      "sales": [
+        {
+          "price": 198000,
+          "option": "EU 38.5W",
+          "date_created": "2026-03-30T10:16:18Z",
+          "date_text": "26/03/30",
+          "is_immediate": false
+        },
+        {
+          "price": 208000,
+          "option": "EU 38.5W",
+          "date_created": "2025-10-01T13:32:22Z",
+          "date_text": "25/10/01",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 200000,
+          "option": "EU 38.5W",
+          "quantity": 1
+        },
+        {
+          "price": 204000,
+          "option": "EU 38.5W",
+          "quantity": 1
+        },
+        {
+          "price": 219000,
+          "option": "EU 38.5W",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 2,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 1,000원(+0.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 38.5W",
+      "kream_options_available": [
+        "EU 38.5W",
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W",
+        "EU 41W",
+        "EU 36W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3MF10081926",
+      "option": "7",
+      "stock": 1,
+      "eur_price": 86.06,
+      "matched": true,
+      "product_id": 498488,
+      "product_name_ko": "On Running",
+      "product_url": "https://kream.co.kr/products/498488",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": 160000,
+        "change_text": "▲ 49,000원(+24.6%)"
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [
+        {
+          "price": 160000,
+          "option": "EU 47.5",
+          "quantity": 1
+        },
+        {
+          "price": 70000,
+          "option": "EU 47.5",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 2
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 49,000원(+24.6%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 47.5",
+      "kream_options_available": [
+        "EU 45",
+        "EU 42",
+        "EU 44.5",
+        "EU 42.5",
+        "EU 44",
+        "EU 43",
+        "EU 40.5",
+        "EU 41",
+        "EU 47.5",
+        "EU 46",
+        "EU 40",
+        "EU 47"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "3WF10064657680",
+      "option": "6",
+      "stock": 2,
+      "eur_price": 91.8,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3WF10064657680\" SPU=\"3WF10064657680\"",
+      "candidates": [
+        {
+          "product_id": 560371,
+          "text": "비기너 러닝화\n\nOn Running\n\n(W) 온 러닝 클라우드 6 벌사 화이트\n\n291,000원\n\n관심 52\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        },
+        {
+          "product_id": 791352,
+          "text": "5K\n\nOn Running\n\n(W) 온 러닝 클라우드스위프트 4 화이트 화이트\n\n264,000원\n\n관심 13\n\n · 거래 1"
+        },
+        {
+          "product_id": 588531,
+          "text": "5K\n\nOn Running\n\n(W) 온 러닝 클라우드틸트 문 화이트 프로스트\n\n220,000원\n\n관심 191\n\n · 리뷰 14\n\n · 거래 90\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 512331,
+          "text": "비기너 러닝화\n\nOn Running\n\n(W) 온 러닝 클라우드 6 WP 블랙\n\n9%\n\n190,000원\n\n관심 417\n\n · 리뷰 42\n\n · 거래 280\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "3WF10064657680",
+      "option": "6½",
+      "stock": 1,
+      "eur_price": 91.8,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3WF10064657680\" SPU=\"3WF10064657680\"",
+      "candidates": [
+        {
+          "product_id": 560371,
+          "text": "비기너 러닝화\n\nOn Running\n\n(W) 온 러닝 클라우드 6 벌사 화이트\n\n291,000원\n\n관심 52\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        },
+        {
+          "product_id": 791352,
+          "text": "5K\n\nOn Running\n\n(W) 온 러닝 클라우드스위프트 4 화이트 화이트\n\n264,000원\n\n관심 13\n\n · 거래 1"
+        },
+        {
+          "product_id": 588531,
+          "text": "5K\n\nOn Running\n\n(W) 온 러닝 클라우드틸트 문 화이트 프로스트\n\n220,000원\n\n관심 191\n\n · 리뷰 14\n\n · 거래 90\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 512331,
+          "text": "비기너 러닝화\n\nOn Running\n\n(W) 온 러닝 클라우드 6 WP 블랙\n\n9%\n\n190,000원\n\n관심 417\n\n · 리뷰 42\n\n · 거래 280\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "3WF10064657680",
+      "option": "5½",
+      "stock": 1,
+      "eur_price": 91.8,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3WF10064657680\" SPU=\"3WF10064657680\"",
+      "candidates": [
+        {
+          "product_id": 560371,
+          "text": "비기너 러닝화\n\nOn Running\n\n(W) 온 러닝 클라우드 6 벌사 화이트\n\n291,000원\n\n관심 52\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        },
+        {
+          "product_id": 791352,
+          "text": "5K\n\nOn Running\n\n(W) 온 러닝 클라우드스위프트 4 화이트 화이트\n\n264,000원\n\n관심 13\n\n · 거래 1"
+        },
+        {
+          "product_id": 588531,
+          "text": "5K\n\nOn Running\n\n(W) 온 러닝 클라우드틸트 문 화이트 프로스트\n\n220,000원\n\n관심 191\n\n · 리뷰 14\n\n · 거래 90\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 512331,
+          "text": "비기너 러닝화\n\nOn Running\n\n(W) 온 러닝 클라우드 6 WP 블랙\n\n9%\n\n190,000원\n\n관심 417\n\n · 리뷰 42\n\n · 거래 280\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "3WF10064657680",
+      "option": "8½",
+      "stock": 2,
+      "eur_price": 91.8,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3WF10064657680\" SPU=\"3WF10064657680\"",
+      "candidates": [
+        {
+          "product_id": 560371,
+          "text": "비기너 러닝화\n\nOn Running\n\n(W) 온 러닝 클라우드 6 벌사 화이트\n\n291,000원\n\n관심 52\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        },
+        {
+          "product_id": 791352,
+          "text": "5K\n\nOn Running\n\n(W) 온 러닝 클라우드스위프트 4 화이트 화이트\n\n264,000원\n\n관심 13\n\n · 거래 1"
+        },
+        {
+          "product_id": 588531,
+          "text": "5K\n\nOn Running\n\n(W) 온 러닝 클라우드틸트 문 화이트 프로스트\n\n220,000원\n\n관심 191\n\n · 리뷰 14\n\n · 거래 90\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 512331,
+          "text": "비기너 러닝화\n\nOn Running\n\n(W) 온 러닝 클라우드 6 WP 블랙\n\n9%\n\n190,000원\n\n관심 417\n\n · 리뷰 42\n\n · 거래 280\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "3ME30210108101",
+      "option": "8½",
+      "stock": 1,
+      "eur_price": 97.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3ME30210108101\" SPU=\"3ME30210108101\"",
+      "candidates": [
+        {
+          "product_id": 618607,
+          "text": "5K\n\nOn Running\n\n온 러닝 클라우드서퍼 넥스트 글레이셔\n\n17%\n\n155,000원\n\n관심 26\n\n · 거래 1"
+        },
+        {
+          "product_id": 324383,
+          "text": "10K\n\nOn Running\n\n온 러닝 클라우드어웨이 2 블랙 이클립스\n\n14%\n\n162,000원\n\n관심 2,493\n\n · 리뷰 213\n\n · 거래 1,214\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 265368,
+          "text": "10K\n\nOn Running\n\n(W) 온 러닝 클라우드어웨이 올 블랙\n\n41%\n\n151,000원\n\n관심 899\n\n · 리뷰 23\n\n · 거래 236"
+        },
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        },
+        {
+          "product_id": 498488,
+          "text": "On Running\n\n온 러닝 클라우드존 아이스 블랙\n\n190,000원\n\n관심 131\n\n · 리뷰 23\n\n · 거래 58"
+        }
+      ]
+    },
+    {
+      "sku": "3ME30210108101",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 97.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3ME30210108101\" SPU=\"3ME30210108101\"",
+      "candidates": [
+        {
+          "product_id": 618607,
+          "text": "5K\n\nOn Running\n\n온 러닝 클라우드서퍼 넥스트 글레이셔\n\n17%\n\n155,000원\n\n관심 26\n\n · 거래 1"
+        },
+        {
+          "product_id": 324383,
+          "text": "10K\n\nOn Running\n\n온 러닝 클라우드어웨이 2 블랙 이클립스\n\n14%\n\n162,000원\n\n관심 2,493\n\n · 리뷰 213\n\n · 거래 1,214\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 265368,
+          "text": "10K\n\nOn Running\n\n(W) 온 러닝 클라우드어웨이 올 블랙\n\n41%\n\n151,000원\n\n관심 899\n\n · 리뷰 23\n\n · 거래 236"
+        },
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        },
+        {
+          "product_id": 498488,
+          "text": "On Running\n\n온 러닝 클라우드존 아이스 블랙\n\n190,000원\n\n관심 131\n\n · 리뷰 23\n\n · 거래 58"
+        }
+      ]
+    },
+    {
+      "sku": "3ME30210108101",
+      "option": "10",
+      "stock": 2,
+      "eur_price": 97.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3ME30210108101\" SPU=\"3ME30210108101\"",
+      "candidates": [
+        {
+          "product_id": 618607,
+          "text": "5K\n\nOn Running\n\n온 러닝 클라우드서퍼 넥스트 글레이셔\n\n17%\n\n155,000원\n\n관심 26\n\n · 거래 1"
+        },
+        {
+          "product_id": 324383,
+          "text": "10K\n\nOn Running\n\n온 러닝 클라우드어웨이 2 블랙 이클립스\n\n14%\n\n162,000원\n\n관심 2,493\n\n · 리뷰 213\n\n · 거래 1,214\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 265368,
+          "text": "10K\n\nOn Running\n\n(W) 온 러닝 클라우드어웨이 올 블랙\n\n41%\n\n151,000원\n\n관심 899\n\n · 리뷰 23\n\n · 거래 236"
+        },
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        },
+        {
+          "product_id": 498488,
+          "text": "On Running\n\n온 러닝 클라우드존 아이스 블랙\n\n190,000원\n\n관심 131\n\n · 리뷰 23\n\n · 거래 58"
+        }
+      ]
+    },
+    {
+      "sku": "3ME30210108101",
+      "option": "8",
+      "stock": 2,
+      "eur_price": 97.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3ME30210108101\" SPU=\"3ME30210108101\"",
+      "candidates": [
+        {
+          "product_id": 618607,
+          "text": "5K\n\nOn Running\n\n온 러닝 클라우드서퍼 넥스트 글레이셔\n\n17%\n\n155,000원\n\n관심 26\n\n · 거래 1"
+        },
+        {
+          "product_id": 324383,
+          "text": "10K\n\nOn Running\n\n온 러닝 클라우드어웨이 2 블랙 이클립스\n\n14%\n\n162,000원\n\n관심 2,493\n\n · 리뷰 213\n\n · 거래 1,214\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 265368,
+          "text": "10K\n\nOn Running\n\n(W) 온 러닝 클라우드어웨이 올 블랙\n\n41%\n\n151,000원\n\n관심 899\n\n · 리뷰 23\n\n · 거래 236"
+        },
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        },
+        {
+          "product_id": 498488,
+          "text": "On Running\n\n온 러닝 클라우드존 아이스 블랙\n\n190,000원\n\n관심 131\n\n · 리뷰 23\n\n · 거래 58"
+        }
+      ]
+    },
+    {
+      "sku": "3ME30210108101",
+      "option": "9½",
+      "stock": 1,
+      "eur_price": 97.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3ME30210108101\" SPU=\"3ME30210108101\"",
+      "candidates": [
+        {
+          "product_id": 618607,
+          "text": "5K\n\nOn Running\n\n온 러닝 클라우드서퍼 넥스트 글레이셔\n\n17%\n\n155,000원\n\n관심 26\n\n · 거래 1"
+        },
+        {
+          "product_id": 324383,
+          "text": "10K\n\nOn Running\n\n온 러닝 클라우드어웨이 2 블랙 이클립스\n\n14%\n\n162,000원\n\n관심 2,493\n\n · 리뷰 213\n\n · 거래 1,214\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 265368,
+          "text": "10K\n\nOn Running\n\n(W) 온 러닝 클라우드어웨이 올 블랙\n\n41%\n\n151,000원\n\n관심 899\n\n · 리뷰 23\n\n · 거래 236"
+        },
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        },
+        {
+          "product_id": 498488,
+          "text": "On Running\n\n온 러닝 클라우드존 아이스 블랙\n\n190,000원\n\n관심 131\n\n · 리뷰 23\n\n · 거래 58"
+        }
+      ]
+    },
+    {
+      "sku": "3MF10080106002",
+      "option": "7",
+      "stock": 1,
+      "eur_price": 86.06,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3MF10080106002\" SPU=\"3MF10080106002\"",
+      "candidates": [
+        {
+          "product_id": 560371,
+          "text": "비기너 러닝화\n\nOn Running\n\n(W) 온 러닝 클라우드 6 벌사 화이트\n\n291,000원\n\n관심 52\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 480177,
+          "text": "비기너 러닝화\n\nOn Running\n\n온 러닝 클라우드 6 블랙 화이트\n\n21%\n\n149,000원\n\n관심 66\n\n · 리뷰 13\n\n · 거래 68"
+        },
+        {
+          "product_id": 447272,
+          "text": "비기너 러닝화\n\nOn Running\n\n(W) 온 러닝 클라우드 6 화이트\n\n180,000원\n\n관심 983\n\n · 리뷰 56\n\n · 거래 474\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 562286,
+          "text": "비기너 러닝화\n\nOn Running\n\n온 러닝 클라우드 6 벌사 화이트\n\n239,000원\n\n관심 107\n\n · 리뷰 3\n\n · 거래 29"
+        },
+        {
+          "product_id": 448279,
+          "text": "비기너 러닝화\n\nOn Running\n\n온 러닝 클라우드 6 화이트\n\n35%\n\n180,000원\n\n관심 375\n\n · 리뷰 25\n\n · 거래 172\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "3MF30744641510",
+      "option": "10",
+      "stock": 1,
+      "eur_price": 103.28,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3MF30744641510\" SPU=\"3MF30744641510\"",
+      "candidates": [
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        },
+        {
+          "product_id": 480177,
+          "text": "비기너 러닝화\n\nOn Running\n\n온 러닝 클라우드 6 블랙 화이트\n\n21%\n\n149,000원\n\n관심 66\n\n · 리뷰 13\n\n · 거래 68"
+        },
+        {
+          "product_id": 791314,
+          "text": "안정화\n\nOn Running\n\n온 러닝 클라우드러너 3 화이트 글레이셔\n\n21%\n\n190,000원\n\n관심 17\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 576084,
+          "text": "5K\n\nOn Running\n\n온 러닝 클라우드스위프트 4 AD 아이보리 아이보리\n\n33%\n\n171,000원\n\n관심 7\n\n · 거래 1"
+        },
+        {
+          "product_id": 265368,
+          "text": "10K\n\nOn Running\n\n(W) 온 러닝 클라우드어웨이 올 블랙\n\n41%\n\n151,000원\n\n관심 899\n\n · 리뷰 23\n\n · 거래 236"
+        }
+      ]
+    },
+    {
+      "sku": "3MF30744641510",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 103.28,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3MF30744641510\" SPU=\"3MF30744641510\"",
+      "candidates": [
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        },
+        {
+          "product_id": 480177,
+          "text": "비기너 러닝화\n\nOn Running\n\n온 러닝 클라우드 6 블랙 화이트\n\n21%\n\n149,000원\n\n관심 66\n\n · 리뷰 13\n\n · 거래 68"
+        },
+        {
+          "product_id": 791314,
+          "text": "안정화\n\nOn Running\n\n온 러닝 클라우드러너 3 화이트 글레이셔\n\n21%\n\n190,000원\n\n관심 17\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 576084,
+          "text": "5K\n\nOn Running\n\n온 러닝 클라우드스위프트 4 AD 아이보리 아이보리\n\n33%\n\n171,000원\n\n관심 7\n\n · 거래 1"
+        },
+        {
+          "product_id": 265368,
+          "text": "10K\n\nOn Running\n\n(W) 온 러닝 클라우드어웨이 올 블랙\n\n41%\n\n151,000원\n\n관심 899\n\n · 리뷰 23\n\n · 거래 236"
+        }
+      ]
+    },
+    {
+      "sku": "3MF30744641510",
+      "option": "8",
+      "stock": 2,
+      "eur_price": 103.28,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3MF30744641510\" SPU=\"3MF30744641510\"",
+      "candidates": [
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        },
+        {
+          "product_id": 480177,
+          "text": "비기너 러닝화\n\nOn Running\n\n온 러닝 클라우드 6 블랙 화이트\n\n21%\n\n149,000원\n\n관심 66\n\n · 리뷰 13\n\n · 거래 68"
+        },
+        {
+          "product_id": 791314,
+          "text": "안정화\n\nOn Running\n\n온 러닝 클라우드러너 3 화이트 글레이셔\n\n21%\n\n190,000원\n\n관심 17\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 576084,
+          "text": "5K\n\nOn Running\n\n온 러닝 클라우드스위프트 4 AD 아이보리 아이보리\n\n33%\n\n171,000원\n\n관심 7\n\n · 거래 1"
+        },
+        {
+          "product_id": 265368,
+          "text": "10K\n\nOn Running\n\n(W) 온 러닝 클라우드어웨이 올 블랙\n\n41%\n\n151,000원\n\n관심 899\n\n · 리뷰 23\n\n · 거래 236"
+        }
+      ]
+    },
+    {
+      "sku": "3MF30744641510",
+      "option": "9½",
+      "stock": 2,
+      "eur_price": 103.28,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3MF30744641510\" SPU=\"3MF30744641510\"",
+      "candidates": [
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        },
+        {
+          "product_id": 480177,
+          "text": "비기너 러닝화\n\nOn Running\n\n온 러닝 클라우드 6 블랙 화이트\n\n21%\n\n149,000원\n\n관심 66\n\n · 리뷰 13\n\n · 거래 68"
+        },
+        {
+          "product_id": 791314,
+          "text": "안정화\n\nOn Running\n\n온 러닝 클라우드러너 3 화이트 글레이셔\n\n21%\n\n190,000원\n\n관심 17\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 576084,
+          "text": "5K\n\nOn Running\n\n온 러닝 클라우드스위프트 4 AD 아이보리 아이보리\n\n33%\n\n171,000원\n\n관심 7\n\n · 거래 1"
+        },
+        {
+          "product_id": 265368,
+          "text": "10K\n\nOn Running\n\n(W) 온 러닝 클라우드어웨이 올 블랙\n\n41%\n\n151,000원\n\n관심 899\n\n · 리뷰 23\n\n · 거래 236"
+        }
+      ]
+    },
+    {
+      "sku": "3MF30744641510",
+      "option": "8½",
+      "stock": 1,
+      "eur_price": 103.28,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3MF30744641510\" SPU=\"3MF30744641510\"",
+      "candidates": [
+        {
+          "product_id": 887355,
+          "text": "On Running\n\n(W) 온 러닝 클라우드틸트 화이트 아이보리\n\n218,000원\n\n관심 74\n\n · 리뷰 7\n\n · 거래 41"
+        },
+        {
+          "product_id": 480177,
+          "text": "비기너 러닝화\n\nOn Running\n\n온 러닝 클라우드 6 블랙 화이트\n\n21%\n\n149,000원\n\n관심 66\n\n · 리뷰 13\n\n · 거래 68"
+        },
+        {
+          "product_id": 791314,
+          "text": "안정화\n\nOn Running\n\n온 러닝 클라우드러너 3 화이트 글레이셔\n\n21%\n\n190,000원\n\n관심 17\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 576084,
+          "text": "5K\n\nOn Running\n\n온 러닝 클라우드스위프트 4 AD 아이보리 아이보리\n\n33%\n\n171,000원\n\n관심 7\n\n · 거래 1"
+        },
+        {
+          "product_id": 265368,
+          "text": "10K\n\nOn Running\n\n(W) 온 러닝 클라우드어웨이 올 블랙\n\n41%\n\n151,000원\n\n관심 899\n\n · 리뷰 23\n\n · 거래 236"
+        }
+      ]
+    }
+  ]
+}

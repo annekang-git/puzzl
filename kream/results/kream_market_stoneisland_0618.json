@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-06-13T20:24:07.800Z",
+  "fetched_at": "2026-06-17T20:18:28.727Z",
   "input_file": "targets-stoneisland.json",
-  "total_targets": 219,
-  "matched": 191,
-  "failed": 28,
+  "total_targets": 207,
+  "matched": 173,
+  "failed": 34,
   "results": [
     {
       "sku": "K2SFWS1001-20S0172-V0029",
@@ -216,71 +216,6 @@
       "option_mismatch": false
     },
     {
-      "sku": "K2S15J1000-05S00J5-V0029",
-      "option": "36",
-      "stock": 1,
-      "eur_price": 157.38,
-      "matched": true,
-      "product_id": 680641,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/680641",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": 499000,
-        "highest_bid": null,
-        "change_text": "▲ 60,000원(+20.1%)"
-      },
-      "sales": [],
-      "asks": [
-        {
-          "price": 499000,
-          "option": "36",
-          "quantity": 1
-        }
-      ],
-      "bids": [],
-      "totals": {
-        "sales": 0,
-        "asks": 1,
-        "bids": 0
-      },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▲ 60,000원(+20.1%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#F15746",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "36",
-      "kream_options_available": [
-        "30",
-        "31",
-        "32",
-        "33",
-        "34",
-        "36"
-      ],
-      "option_mismatch": false
-    },
-    {
       "sku": "L1S1512000-14S0184-V019A",
       "option": "L",
       "stock": 2,
@@ -335,29 +270,24 @@
       "product_url": "https://kream.co.kr/products/709426",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 558000,
+        "lowest_ask": 555000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 558000,
+          "price": 555000,
           "option": "XL",
           "quantity": 1
         },
         {
-          "price": 559000,
+          "price": 556000,
           "option": "XL",
           "quantity": 1
         },
         {
           "price": 567000,
-          "option": "XL",
-          "quantity": 1
-        },
-        {
-          "price": 577000,
           "option": "XL",
           "quantity": 1
         },
@@ -375,7 +305,7 @@
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 6,
+        "asks": 5,
         "bids": 0
       },
       "raw_chart_recently": null,
@@ -391,7 +321,7 @@
     {
       "sku": "L1S1592000-12S0251-V0029",
       "option": "U",
-      "stock": 3,
+      "stock": 2,
       "eur_price": 166.8,
       "matched": true,
       "product_id": 813227,
@@ -425,24 +355,24 @@
       "error": "No KREAM match for SKU=\"L1SFWS1000-10S0448-V009B\" SPU=\"L1SFWS100010S0448V009B\"",
       "candidates": [
         {
-          "product_id": 554123,
-          "text": "Stone Island\n\n스톤 아일랜드 Q100008 립스탑 라이트 HT 나일론 라이트 후드 자켓 안티-드롭 앤 리플렉티브 디테일 리드 그레이 - 25FW\n\n42%\n\n816,000원\n\n관심 110\n\n · 리뷰 1\n\n · 거래 8"
+          "product_id": 513540,
+          "text": "Stone Island\n\n스톤 아일랜드 4100091 수피마 코튼 트윌 스트레치-TC 체스트 포켓 안티 드롭 후드 자켓 블랙 - 25SS\n\n46%\n\n634,000원\n\n관심 236\n\n · 리뷰 6\n\n · 거래 33\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 808381,
-          "text": "Stone Island\n\n스톤 아일랜드 2100021 오가닉 코튼 저지 크레이프 S.I. 고스트 슬림핏 티셔츠 블랙 - 26SS\n\n27%\n\n281,000원\n\n관심 1"
+          "product_id": 801021,
+          "text": "Stone Island\n\n스톤 아일랜드 4100072 덴스 나일론-TC 핸드 스프레이 리플렉티브 안티 드롭 후드 자켓 블랙 - 26SS\n\n14%\n\n2,840,000원\n\n관심 51\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 138464,
-          "text": "Stone Island\n\n스톤 아일랜드 40130 하이퍼 덴스 나일론 라소 후드 자켓 블랙 - 23SS\n\n750,000원\n\n관심 145\n\n · 리뷰 6\n\n · 거래 14"
+          "product_id": 808482,
+          "text": "Stone Island\n\n스톤 아일랜드 L100019 브러쉬드 오가닉 코튼 캔버스 올드 이펙트 슬림핏 카고 쇼츠 집 포켓 네이비 블루 - 26SS\n\n32%\n\n342,000원\n\n관심 2"
         },
         {
-          "product_id": 771042,
-          "text": "Stone Island\n\n스톤 아일랜드 9200032 더블 코티드 코튼 립스탑 백팩 포켓 앤 패딩 스트랩 밀리터리 그린 - 26SS\n\n866,000원"
+          "product_id": 789717,
+          "text": "Stone Island\n\n스톤 아일랜드 6100018 코튼 플리스 레귤러 핏 시즈널 포켓 트랙 자켓 블랙 - 26SS\n\n480,000원\n\n관심 27\n\n · 리뷰 1\n\n · 거래 3"
         },
         {
-          "product_id": 813227,
-          "text": "Stone Island\n\n스톤 아일랜드 9200012 집 포켓 토트백 블랙 - 26SS\n\n397,000원\n\n관심 14\n\n · 리뷰 1\n\n · 거래 1"
+          "product_id": 808351,
+          "text": "Stone Island\n\n스톤 아일랜드 4100052 라이트 컴팩트 터치 폴리-TC 후드 자켓 안티 드롭 올리앤더 - 26SS\n\n36%\n\n1,104,000원\n\n관심 25\n\n · 거래 5"
         }
       ]
     },
@@ -455,24 +385,24 @@
       "error": "No KREAM match for SKU=\"L1SFWS1000-10S0448-V009B\" SPU=\"L1SFWS100010S0448V009B\"",
       "candidates": [
         {
-          "product_id": 554123,
-          "text": "Stone Island\n\n스톤 아일랜드 Q100008 립스탑 라이트 HT 나일론 라이트 후드 자켓 안티-드롭 앤 리플렉티브 디테일 리드 그레이 - 25FW\n\n42%\n\n816,000원\n\n관심 110\n\n · 리뷰 1\n\n · 거래 8"
+          "product_id": 513540,
+          "text": "Stone Island\n\n스톤 아일랜드 4100091 수피마 코튼 트윌 스트레치-TC 체스트 포켓 안티 드롭 후드 자켓 블랙 - 25SS\n\n46%\n\n634,000원\n\n관심 236\n\n · 리뷰 6\n\n · 거래 33\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 808381,
-          "text": "Stone Island\n\n스톤 아일랜드 2100021 오가닉 코튼 저지 크레이프 S.I. 고스트 슬림핏 티셔츠 블랙 - 26SS\n\n27%\n\n281,000원\n\n관심 1"
+          "product_id": 801021,
+          "text": "Stone Island\n\n스톤 아일랜드 4100072 덴스 나일론-TC 핸드 스프레이 리플렉티브 안티 드롭 후드 자켓 블랙 - 26SS\n\n14%\n\n2,840,000원\n\n관심 51\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 138464,
-          "text": "Stone Island\n\n스톤 아일랜드 40130 하이퍼 덴스 나일론 라소 후드 자켓 블랙 - 23SS\n\n750,000원\n\n관심 145\n\n · 리뷰 6\n\n · 거래 14"
+          "product_id": 808482,
+          "text": "Stone Island\n\n스톤 아일랜드 L100019 브러쉬드 오가닉 코튼 캔버스 올드 이펙트 슬림핏 카고 쇼츠 집 포켓 네이비 블루 - 26SS\n\n32%\n\n342,000원\n\n관심 2"
         },
         {
-          "product_id": 771042,
-          "text": "Stone Island\n\n스톤 아일랜드 9200032 더블 코티드 코튼 립스탑 백팩 포켓 앤 패딩 스트랩 밀리터리 그린 - 26SS\n\n866,000원"
+          "product_id": 789717,
+          "text": "Stone Island\n\n스톤 아일랜드 6100018 코튼 플리스 레귤러 핏 시즈널 포켓 트랙 자켓 블랙 - 26SS\n\n480,000원\n\n관심 27\n\n · 리뷰 1\n\n · 거래 3"
         },
         {
-          "product_id": 813227,
-          "text": "Stone Island\n\n스톤 아일랜드 9200012 집 포켓 토트백 블랙 - 26SS\n\n397,000원\n\n관심 14\n\n · 리뷰 1\n\n · 거래 1"
+          "product_id": 808351,
+          "text": "Stone Island\n\n스톤 아일랜드 4100052 라이트 컴팩트 터치 폴리-TC 후드 자켓 안티 드롭 올리앤더 - 26SS\n\n36%\n\n1,104,000원\n\n관심 25\n\n · 거래 5"
         }
       ]
     },
@@ -485,24 +415,24 @@
       "error": "No KREAM match for SKU=\"L1SFWS1000-10S0448-V009B\" SPU=\"L1SFWS100010S0448V009B\"",
       "candidates": [
         {
-          "product_id": 554123,
-          "text": "Stone Island\n\n스톤 아일랜드 Q100008 립스탑 라이트 HT 나일론 라이트 후드 자켓 안티-드롭 앤 리플렉티브 디테일 리드 그레이 - 25FW\n\n42%\n\n816,000원\n\n관심 110\n\n · 리뷰 1\n\n · 거래 8"
+          "product_id": 513540,
+          "text": "Stone Island\n\n스톤 아일랜드 4100091 수피마 코튼 트윌 스트레치-TC 체스트 포켓 안티 드롭 후드 자켓 블랙 - 25SS\n\n46%\n\n634,000원\n\n관심 236\n\n · 리뷰 6\n\n · 거래 33\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 808381,
-          "text": "Stone Island\n\n스톤 아일랜드 2100021 오가닉 코튼 저지 크레이프 S.I. 고스트 슬림핏 티셔츠 블랙 - 26SS\n\n27%\n\n281,000원\n\n관심 1"
+          "product_id": 801021,
+          "text": "Stone Island\n\n스톤 아일랜드 4100072 덴스 나일론-TC 핸드 스프레이 리플렉티브 안티 드롭 후드 자켓 블랙 - 26SS\n\n14%\n\n2,840,000원\n\n관심 51\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 138464,
-          "text": "Stone Island\n\n스톤 아일랜드 40130 하이퍼 덴스 나일론 라소 후드 자켓 블랙 - 23SS\n\n750,000원\n\n관심 145\n\n · 리뷰 6\n\n · 거래 14"
+          "product_id": 808482,
+          "text": "Stone Island\n\n스톤 아일랜드 L100019 브러쉬드 오가닉 코튼 캔버스 올드 이펙트 슬림핏 카고 쇼츠 집 포켓 네이비 블루 - 26SS\n\n32%\n\n342,000원\n\n관심 2"
         },
         {
-          "product_id": 771042,
-          "text": "Stone Island\n\n스톤 아일랜드 9200032 더블 코티드 코튼 립스탑 백팩 포켓 앤 패딩 스트랩 밀리터리 그린 - 26SS\n\n866,000원"
+          "product_id": 789717,
+          "text": "Stone Island\n\n스톤 아일랜드 6100018 코튼 플리스 레귤러 핏 시즈널 포켓 트랙 자켓 블랙 - 26SS\n\n480,000원\n\n관심 27\n\n · 리뷰 1\n\n · 거래 3"
         },
         {
-          "product_id": 813227,
-          "text": "Stone Island\n\n스톤 아일랜드 9200012 집 포켓 토트백 블랙 - 26SS\n\n397,000원\n\n관심 14\n\n · 리뷰 1\n\n · 거래 1"
+          "product_id": 808351,
+          "text": "Stone Island\n\n스톤 아일랜드 4100052 라이트 컴팩트 터치 폴리-TC 후드 자켓 안티 드롭 올리앤더 - 26SS\n\n36%\n\n1,104,000원\n\n관심 25\n\n · 거래 5"
         }
       ]
     },
@@ -515,24 +445,24 @@
       "error": "No KREAM match for SKU=\"L1SFWS1000-10S0448-V009B\" SPU=\"L1SFWS100010S0448V009B\"",
       "candidates": [
         {
-          "product_id": 554123,
-          "text": "Stone Island\n\n스톤 아일랜드 Q100008 립스탑 라이트 HT 나일론 라이트 후드 자켓 안티-드롭 앤 리플렉티브 디테일 리드 그레이 - 25FW\n\n42%\n\n816,000원\n\n관심 110\n\n · 리뷰 1\n\n · 거래 8"
+          "product_id": 513540,
+          "text": "Stone Island\n\n스톤 아일랜드 4100091 수피마 코튼 트윌 스트레치-TC 체스트 포켓 안티 드롭 후드 자켓 블랙 - 25SS\n\n46%\n\n634,000원\n\n관심 236\n\n · 리뷰 6\n\n · 거래 33\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 808381,
-          "text": "Stone Island\n\n스톤 아일랜드 2100021 오가닉 코튼 저지 크레이프 S.I. 고스트 슬림핏 티셔츠 블랙 - 26SS\n\n27%\n\n281,000원\n\n관심 1"
+          "product_id": 801021,
+          "text": "Stone Island\n\n스톤 아일랜드 4100072 덴스 나일론-TC 핸드 스프레이 리플렉티브 안티 드롭 후드 자켓 블랙 - 26SS\n\n14%\n\n2,840,000원\n\n관심 51\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 138464,
-          "text": "Stone Island\n\n스톤 아일랜드 40130 하이퍼 덴스 나일론 라소 후드 자켓 블랙 - 23SS\n\n750,000원\n\n관심 145\n\n · 리뷰 6\n\n · 거래 14"
+          "product_id": 808482,
+          "text": "Stone Island\n\n스톤 아일랜드 L100019 브러쉬드 오가닉 코튼 캔버스 올드 이펙트 슬림핏 카고 쇼츠 집 포켓 네이비 블루 - 26SS\n\n32%\n\n342,000원\n\n관심 2"
         },
         {
-          "product_id": 771042,
-          "text": "Stone Island\n\n스톤 아일랜드 9200032 더블 코티드 코튼 립스탑 백팩 포켓 앤 패딩 스트랩 밀리터리 그린 - 26SS\n\n866,000원"
+          "product_id": 789717,
+          "text": "Stone Island\n\n스톤 아일랜드 6100018 코튼 플리스 레귤러 핏 시즈널 포켓 트랙 자켓 블랙 - 26SS\n\n480,000원\n\n관심 27\n\n · 리뷰 1\n\n · 거래 3"
         },
         {
-          "product_id": 813227,
-          "text": "Stone Island\n\n스톤 아일랜드 9200012 집 포켓 토트백 블랙 - 26SS\n\n397,000원\n\n관심 14\n\n · 리뷰 1\n\n · 거래 1"
+          "product_id": 808351,
+          "text": "Stone Island\n\n스톤 아일랜드 4100052 라이트 컴팩트 터치 폴리-TC 후드 자켓 안티 드롭 올리앤더 - 26SS\n\n36%\n\n1,104,000원\n\n관심 25\n\n · 거래 5"
         }
       ]
     },
@@ -545,139 +475,26 @@
       "error": "No KREAM match for SKU=\"L1SFWS1000-10S0448-V009B\" SPU=\"L1SFWS100010S0448V009B\"",
       "candidates": [
         {
-          "product_id": 554123,
-          "text": "Stone Island\n\n스톤 아일랜드 Q100008 립스탑 라이트 HT 나일론 라이트 후드 자켓 안티-드롭 앤 리플렉티브 디테일 리드 그레이 - 25FW\n\n42%\n\n816,000원\n\n관심 110\n\n · 리뷰 1\n\n · 거래 8"
+          "product_id": 513540,
+          "text": "Stone Island\n\n스톤 아일랜드 4100091 수피마 코튼 트윌 스트레치-TC 체스트 포켓 안티 드롭 후드 자켓 블랙 - 25SS\n\n46%\n\n634,000원\n\n관심 236\n\n · 리뷰 6\n\n · 거래 33\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 808381,
-          "text": "Stone Island\n\n스톤 아일랜드 2100021 오가닉 코튼 저지 크레이프 S.I. 고스트 슬림핏 티셔츠 블랙 - 26SS\n\n27%\n\n281,000원\n\n관심 1"
+          "product_id": 801021,
+          "text": "Stone Island\n\n스톤 아일랜드 4100072 덴스 나일론-TC 핸드 스프레이 리플렉티브 안티 드롭 후드 자켓 블랙 - 26SS\n\n14%\n\n2,840,000원\n\n관심 51\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 138464,
-          "text": "Stone Island\n\n스톤 아일랜드 40130 하이퍼 덴스 나일론 라소 후드 자켓 블랙 - 23SS\n\n750,000원\n\n관심 145\n\n · 리뷰 6\n\n · 거래 14"
+          "product_id": 808482,
+          "text": "Stone Island\n\n스톤 아일랜드 L100019 브러쉬드 오가닉 코튼 캔버스 올드 이펙트 슬림핏 카고 쇼츠 집 포켓 네이비 블루 - 26SS\n\n32%\n\n342,000원\n\n관심 2"
         },
         {
-          "product_id": 771042,
-          "text": "Stone Island\n\n스톤 아일랜드 9200032 더블 코티드 코튼 립스탑 백팩 포켓 앤 패딩 스트랩 밀리터리 그린 - 26SS\n\n866,000원"
+          "product_id": 789717,
+          "text": "Stone Island\n\n스톤 아일랜드 6100018 코튼 플리스 레귤러 핏 시즈널 포켓 트랙 자켓 블랙 - 26SS\n\n480,000원\n\n관심 27\n\n · 리뷰 1\n\n · 거래 3"
         },
         {
-          "product_id": 813227,
-          "text": "Stone Island\n\n스톤 아일랜드 9200012 집 포켓 토트백 블랙 - 26SS\n\n397,000원\n\n관심 14\n\n · 리뷰 1\n\n · 거래 1"
+          "product_id": 808351,
+          "text": "Stone Island\n\n스톤 아일랜드 4100052 라이트 컴팩트 터치 폴리-TC 후드 자켓 안티 드롭 올리앤더 - 26SS\n\n36%\n\n1,104,000원\n\n관심 25\n\n · 거래 5"
         }
       ]
-    },
-    {
-      "sku": "L1S1561000-19S0410-V0029",
-      "option": "M",
-      "stock": 1,
-      "eur_price": 175.82,
-      "matched": true,
-      "product_id": 797637,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/797637",
-      "market": {
-        "last_sale_price": 380000,
-        "lowest_ask": 379000,
-        "highest_bid": null,
-        "change_text": "▼ 34,000원(-8.2%)"
-      },
-      "sales": [
-        {
-          "price": 380000,
-          "option": "M",
-          "date_created": "2026-05-01T22:43:16Z",
-          "date_text": "26/05/02",
-          "is_immediate": true
-        }
-      ],
-      "asks": [
-        {
-          "price": 379000,
-          "option": "M",
-          "quantity": 1
-        },
-        {
-          "price": 380000,
-          "option": "M",
-          "quantity": 1
-        },
-        {
-          "price": 406000,
-          "option": "M",
-          "quantity": 1
-        },
-        {
-          "price": 415000,
-          "option": "M",
-          "quantity": 1
-        },
-        {
-          "price": 429000,
-          "option": "M",
-          "quantity": 6
-        },
-        {
-          "price": 438000,
-          "option": "M",
-          "quantity": 1
-        },
-        {
-          "price": 461000,
-          "option": "M",
-          "quantity": 1
-        },
-        {
-          "price": 487000,
-          "option": "M",
-          "quantity": 1
-        },
-        {
-          "price": 495000,
-          "option": "M",
-          "quantity": 1
-        }
-      ],
-      "bids": [],
-      "totals": {
-        "sales": 1,
-        "asks": 9,
-        "bids": 0
-      },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 34,000원(-8.2%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "M",
-      "kream_options_available": [
-        "M",
-        "XXL",
-        "XL",
-        "S",
-        "L",
-        "XXXL"
-      ],
-      "option_mismatch": false
     },
     {
       "sku": "L1S1551000-33S0N12-V0M61",
@@ -690,19 +507,19 @@
       "product_url": "https://kream.co.kr/products/756755",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 523000,
+        "lowest_ask": 535000,
         "highest_bid": 210000,
         "change_text": "-"
       },
       "sales": [],
       "asks": [
         {
-          "price": 523000,
+          "price": 535000,
           "option": "L",
           "quantity": 1
         },
         {
-          "price": 524000,
+          "price": 536000,
           "option": "L",
           "quantity": 1
         },
@@ -743,7 +560,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "142,100원(0%)",
+            "text": "140,300원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -765,9 +582,9 @@
       },
       "kream_option": "L",
       "kream_options_available": [
-        "XL",
         "L",
         "M",
+        "XL",
         "XXL"
       ],
       "option_mismatch": false
@@ -783,7 +600,7 @@
       "product_url": "https://kream.co.kr/products/756755",
       "market": {
         "last_sale_price": 552000,
-        "lowest_ask": 523000,
+        "lowest_ask": 535000,
         "highest_bid": 300000,
         "change_text": "-"
       },
@@ -798,12 +615,12 @@
       ],
       "asks": [
         {
-          "price": 523000,
+          "price": 535000,
           "option": "XL",
           "quantity": 1
         },
         {
-          "price": 524000,
+          "price": 536000,
           "option": "XL",
           "quantity": 1
         },
@@ -849,7 +666,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "142,100원(0%)",
+            "text": "140,300원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -871,92 +688,9 @@
       },
       "kream_option": "XL",
       "kream_options_available": [
-        "XL",
         "L",
         "M",
-        "XXL"
-      ],
-      "option_mismatch": false
-    },
-    {
-      "sku": "L1S1551000-33S0N12-V0M61",
-      "option": "XXL",
-      "stock": 1,
-      "eur_price": 210.45,
-      "matched": true,
-      "product_id": 756755,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/756755",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": 620000,
-        "highest_bid": 400000,
-        "change_text": "-"
-      },
-      "sales": [],
-      "asks": [
-        {
-          "price": 620000,
-          "option": "XXL",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 400000,
-          "option": "XXL",
-          "quantity": 1
-        }
-      ],
-      "totals": {
-        "sales": 0,
-        "asks": 1,
-        "bids": 1
-      },
-      "raw_chart_recently": {
-        "text": ";tl_0; ;tl_1;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "-",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": true,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#4E4E4E",
-            "type": "text"
-          },
-          {
-            "key": ";tl_1;",
-            "text": "142,100원(0%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#4E4E4E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "XXL",
-      "kream_options_available": [
         "XL",
-        "L",
-        "M",
         "XXL"
       ],
       "option_mismatch": false
@@ -972,12 +706,17 @@
       "product_url": "https://kream.co.kr/products/822329",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 534000,
+        "lowest_ask": 450000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
+        {
+          "price": 450000,
+          "option": "30",
+          "quantity": 1
+        },
         {
           "price": 534000,
           "option": "30",
@@ -987,7 +726,7 @@
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 1,
+        "asks": 2,
         "bids": 0
       },
       "raw_chart_recently": null,
@@ -1050,17 +789,12 @@
       "product_url": "https://kream.co.kr/products/822329",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 484000,
+        "lowest_ask": 534000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
-        {
-          "price": 484000,
-          "option": "32",
-          "quantity": 1
-        },
         {
           "price": 534000,
           "option": "32",
@@ -1070,7 +804,7 @@
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 2,
+        "asks": 1,
         "bids": 0
       },
       "raw_chart_recently": null,
@@ -1138,12 +872,17 @@
       "product_url": "https://kream.co.kr/products/822329",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 534000,
+        "lowest_ask": 450000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
+        {
+          "price": 450000,
+          "option": "30",
+          "quantity": 1
+        },
         {
           "price": 534000,
           "option": "30",
@@ -1153,7 +892,7 @@
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 1,
+        "asks": 2,
         "bids": 0
       },
       "raw_chart_recently": null,
@@ -1177,12 +916,17 @@
       "product_url": "https://kream.co.kr/products/822329",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 534000,
+        "lowest_ask": 450000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
+        {
+          "price": 450000,
+          "option": "30",
+          "quantity": 1
+        },
         {
           "price": 534000,
           "option": "30",
@@ -1192,7 +936,7 @@
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 1,
+        "asks": 2,
         "bids": 0
       },
       "raw_chart_recently": null,
@@ -1214,54 +958,54 @@
       "error": "No KREAM match for SKU=\"L2S1591000-11S0076-V0029\" SPU=\"L2S159100011S0076V0029\"",
       "candidates": [
         {
+          "product_id": 801021,
+          "text": "Stone Island\n\n스톤 아일랜드 4100072 덴스 나일론-TC 핸드 스프레이 리플렉티브 안티 드롭 후드 자켓 블랙 - 26SS\n\n14%\n\n2,840,000원\n\n관심 51\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
           "product_id": 554528,
-          "text": "Stone Island\n\n스톤 아일랜드 9100011 나일론 메탈 에코닐 베이스볼 캡 드로우코드 컴퍼스 자수 블랙\n\n42%\n\n192,000원\n\n관심 1,952\n\n · 리뷰 33\n\n · 거래 1,113\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Stone Island\n\n스톤 아일랜드 9100011 나일론 메탈 에코닐 베이스볼 캡 드로우코드 컴퍼스 자수 블랙\n\n42%\n\n193,000원\n\n관심 1,976\n\n · 리뷰 33\n\n · 거래 1,136\n\n빠른배송\n\n내일 도착 예정"
         },
         {
           "product_id": 51502,
-          "text": "Stone Island\n\n스톤 아일랜드 99576 나일론 메탈 6-패널 캡 블랙\n\n22%\n\n220,000원\n\n관심 1,989\n\n · 리뷰 149\n\n · 거래 1,776\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Stone Island\n\n스톤 아일랜드 99576 나일론 메탈 6-패널 캡 블랙\n\n22%\n\n220,000원\n\n관심 1,992\n\n · 리뷰 149\n\n · 거래 1,776\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 821377,
+          "text": "Stone Island\n\n스톤 아일랜드 1200038 나일론 메탈 에코닐 레귤러핏 오버셔츠 펄 그레이 - 26SS\n\n561,000원\n\n관심 299\n\n · 리뷰 36\n\n · 거래 98\n\n빠른배송\n\n내일 도착 예정"
         },
         {
           "product_id": 566814,
-          "text": "Stone Island\n\n스톤 아일랜드 9100011 나일론 메탈 에코닐 드로우코드 컴퍼스 자수 베이스볼 캡 펄 그레이 - 25FW\n\n39%\n\n182,000원\n\n관심 732\n\n · 리뷰 2\n\n · 거래 294\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 71051,
-          "text": "Stone Island\n\n스톤 아일랜드 99675 6-패널 캡 블랙\n\n5%\n\n250,000원\n\n관심 791\n\n · 리뷰 18\n\n · 거래 404\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 744581,
-          "text": "Stone Island\n\n스톤 아일랜드 9100001 리사이클 나일론 옥스포드 베이스볼 캡 컴퍼스 패치 블랙 - 26SS\n\n24%\n\n200,000원\n\n관심 110\n\n · 리뷰 1\n\n · 거래 36\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Stone Island\n\n스톤 아일랜드 9100011 나일론 메탈 에코닐 드로우코드 컴퍼스 자수 베이스볼 캡 펄 그레이 - 25FW\n\n38%\n\n184,000원\n\n관심 738\n\n · 리뷰 2\n\n · 거래 307\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
     {
       "sku": "L2S1591000-11S0076-V0029",
       "option": "M",
-      "stock": 4,
+      "stock": 3,
       "eur_price": 92.21,
       "matched": false,
       "error": "No KREAM match for SKU=\"L2S1591000-11S0076-V0029\" SPU=\"L2S159100011S0076V0029\"",
       "candidates": [
         {
+          "product_id": 801021,
+          "text": "Stone Island\n\n스톤 아일랜드 4100072 덴스 나일론-TC 핸드 스프레이 리플렉티브 안티 드롭 후드 자켓 블랙 - 26SS\n\n14%\n\n2,840,000원\n\n관심 51\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
           "product_id": 554528,
-          "text": "Stone Island\n\n스톤 아일랜드 9100011 나일론 메탈 에코닐 베이스볼 캡 드로우코드 컴퍼스 자수 블랙\n\n42%\n\n192,000원\n\n관심 1,952\n\n · 리뷰 33\n\n · 거래 1,113\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Stone Island\n\n스톤 아일랜드 9100011 나일론 메탈 에코닐 베이스볼 캡 드로우코드 컴퍼스 자수 블랙\n\n42%\n\n193,000원\n\n관심 1,976\n\n · 리뷰 33\n\n · 거래 1,136\n\n빠른배송\n\n내일 도착 예정"
         },
         {
           "product_id": 51502,
-          "text": "Stone Island\n\n스톤 아일랜드 99576 나일론 메탈 6-패널 캡 블랙\n\n22%\n\n220,000원\n\n관심 1,989\n\n · 리뷰 149\n\n · 거래 1,776\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Stone Island\n\n스톤 아일랜드 99576 나일론 메탈 6-패널 캡 블랙\n\n22%\n\n220,000원\n\n관심 1,992\n\n · 리뷰 149\n\n · 거래 1,776\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 821377,
+          "text": "Stone Island\n\n스톤 아일랜드 1200038 나일론 메탈 에코닐 레귤러핏 오버셔츠 펄 그레이 - 26SS\n\n561,000원\n\n관심 299\n\n · 리뷰 36\n\n · 거래 98\n\n빠른배송\n\n내일 도착 예정"
         },
         {
           "product_id": 566814,
-          "text": "Stone Island\n\n스톤 아일랜드 9100011 나일론 메탈 에코닐 드로우코드 컴퍼스 자수 베이스볼 캡 펄 그레이 - 25FW\n\n39%\n\n182,000원\n\n관심 732\n\n · 리뷰 2\n\n · 거래 294\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 71051,
-          "text": "Stone Island\n\n스톤 아일랜드 99675 6-패널 캡 블랙\n\n5%\n\n250,000원\n\n관심 791\n\n · 리뷰 18\n\n · 거래 404\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 744581,
-          "text": "Stone Island\n\n스톤 아일랜드 9100001 리사이클 나일론 옥스포드 베이스볼 캡 컴퍼스 패치 블랙 - 26SS\n\n24%\n\n200,000원\n\n관심 110\n\n · 리뷰 1\n\n · 거래 36\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Stone Island\n\n스톤 아일랜드 9100011 나일론 메탈 에코닐 드로우코드 컴퍼스 자수 베이스볼 캡 펄 그레이 - 25FW\n\n38%\n\n184,000원\n\n관심 738\n\n · 리뷰 2\n\n · 거래 307\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -1424,19 +1168,19 @@
       "product_url": "https://kream.co.kr/products/696043",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 398000,
+        "lowest_ask": 404000,
         "highest_bid": null,
         "change_text": "-"
       },
       "sales": [],
       "asks": [
         {
-          "price": 398000,
+          "price": 404000,
           "option": "32",
           "quantity": 1
         },
         {
-          "price": 399000,
+          "price": 405000,
           "option": "32",
           "quantity": 1
         },
@@ -1444,12 +1188,17 @@
           "price": 413000,
           "option": "32",
           "quantity": 1
+        },
+        {
+          "price": 416000,
+          "option": "32",
+          "quantity": 1
         }
       ],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 3,
+        "asks": 4,
         "bids": 0
       },
       "raw_chart_recently": {
@@ -1471,7 +1220,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "191,000원(0%)",
+            "text": "189,400원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -1512,19 +1261,24 @@
       "product_url": "https://kream.co.kr/products/696043",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 399000,
+        "lowest_ask": 407000,
         "highest_bid": null,
         "change_text": "-"
       },
       "sales": [],
       "asks": [
         {
-          "price": 399000,
+          "price": 407000,
           "option": "34",
           "quantity": 1
         },
         {
-          "price": 400000,
+          "price": 408000,
+          "option": "34",
+          "quantity": 1
+        },
+        {
+          "price": 416000,
           "option": "34",
           "quantity": 1
         }
@@ -1532,7 +1286,7 @@
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 2,
+        "asks": 3,
         "bids": 0
       },
       "raw_chart_recently": {
@@ -1554,7 +1308,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "191,000원(0%)",
+            "text": "189,400원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -1632,7 +1386,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "191,000원(0%)",
+            "text": "189,400원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -1671,24 +1425,24 @@
       "error": "No KREAM match for SKU=\"L1S15G1000-07S0183-V005G\" SPU=\"L1S15G100007S0183V005G\"",
       "candidates": [
         {
+          "product_id": 808450,
+          "text": "Stone Island\n\n스톤 아일랜드 L100001 Organic-Look 나일론 Panama-TC Loose-와이드-Leg-Fit 카고 버뮤다 쇼츠 블랙 - 26SS\n\n31%\n\n448,000원\n\n관심 13\n\n · 거래 1"
+        },
+        {
+          "product_id": 822329,
+          "text": "Stone Island\n\n스톤 아일랜드 J100006 인디고 데님 린스드 루즈핏 파이브 포켓 진 블루 린스 - 26SS\n\n26%\n\n450,000원\n\n관심 6"
+        },
+        {
+          "product_id": 470503,
+          "text": "Stone Island\n\n스톤 아일랜드 L100011 수피마 코튼 트윌 스트레치 TC 슬림 핏 집 포켓 카고 버뮤다 쇼츠 블랙 - 25SS\n\n40%\n\n299,000원\n\n관심 12\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
           "product_id": 808352,
-          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 블랙 - 26SS\n\n24%\n\n510,000원\n\n관심 40\n\n · 리뷰 3\n\n · 거래 11"
+          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 블랙 - 26SS\n\n24%\n\n508,000원\n\n관심 41\n\n · 리뷰 3\n\n · 거래 13"
         },
         {
           "product_id": 854816,
-          "text": "Stone Island\n\n스톤 아일랜드 3100043 스트레치 코튼 텔라 파라슈트 루즈핏 카고 트라우저 드로우스트링 커프스 차콜 그레이 - 26SS\n\n22%\n\n535,000원\n\n관심 6\n\n · 거래 1"
-        },
-        {
-          "product_id": 808353,
-          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 밀리터리 그린 - 26SS\n\n27%\n\n493,000원\n\n관심 4\n\n · 거래 2"
-        },
-        {
-          "product_id": 332283,
-          "text": "Stone Island\n\n스톤 아일랜드 313L1 스트레치 코튼 카고 트라우저 리드 그레이 - 24FW\n\n459,000원\n\n관심 46\n\n · 리뷰 5\n\n · 거래 22"
-        },
-        {
-          "product_id": 808437,
-          "text": "Stone Island\n\n스톤 아일랜드 2100013 콤베드 오가닉 코튼 저지 리플렉티브 가먼트 라미네이션 티셔츠 블랙 - 26SS\n\n600,000원\n\n관심 9"
+          "text": "Stone Island\n\n스톤 아일랜드 3100043 스트레치 코튼 텔라 파라슈트 루즈핏 카고 트라우저 드로우스트링 커프스 차콜 그레이 - 26SS\n\n20%\n\n549,000원\n\n관심 6\n\n · 거래 1"
         }
       ]
     },
@@ -1701,24 +1455,24 @@
       "error": "No KREAM match for SKU=\"L1S15G1000-07S0183-V005G\" SPU=\"L1S15G100007S0183V005G\"",
       "candidates": [
         {
+          "product_id": 808450,
+          "text": "Stone Island\n\n스톤 아일랜드 L100001 Organic-Look 나일론 Panama-TC Loose-와이드-Leg-Fit 카고 버뮤다 쇼츠 블랙 - 26SS\n\n31%\n\n448,000원\n\n관심 13\n\n · 거래 1"
+        },
+        {
+          "product_id": 822329,
+          "text": "Stone Island\n\n스톤 아일랜드 J100006 인디고 데님 린스드 루즈핏 파이브 포켓 진 블루 린스 - 26SS\n\n26%\n\n450,000원\n\n관심 6"
+        },
+        {
+          "product_id": 470503,
+          "text": "Stone Island\n\n스톤 아일랜드 L100011 수피마 코튼 트윌 스트레치 TC 슬림 핏 집 포켓 카고 버뮤다 쇼츠 블랙 - 25SS\n\n40%\n\n299,000원\n\n관심 12\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
           "product_id": 808352,
-          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 블랙 - 26SS\n\n24%\n\n510,000원\n\n관심 40\n\n · 리뷰 3\n\n · 거래 11"
+          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 블랙 - 26SS\n\n24%\n\n508,000원\n\n관심 41\n\n · 리뷰 3\n\n · 거래 13"
         },
         {
           "product_id": 854816,
-          "text": "Stone Island\n\n스톤 아일랜드 3100043 스트레치 코튼 텔라 파라슈트 루즈핏 카고 트라우저 드로우스트링 커프스 차콜 그레이 - 26SS\n\n22%\n\n535,000원\n\n관심 6\n\n · 거래 1"
-        },
-        {
-          "product_id": 808353,
-          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 밀리터리 그린 - 26SS\n\n27%\n\n493,000원\n\n관심 4\n\n · 거래 2"
-        },
-        {
-          "product_id": 332283,
-          "text": "Stone Island\n\n스톤 아일랜드 313L1 스트레치 코튼 카고 트라우저 리드 그레이 - 24FW\n\n459,000원\n\n관심 46\n\n · 리뷰 5\n\n · 거래 22"
-        },
-        {
-          "product_id": 808437,
-          "text": "Stone Island\n\n스톤 아일랜드 2100013 콤베드 오가닉 코튼 저지 리플렉티브 가먼트 라미네이션 티셔츠 블랙 - 26SS\n\n600,000원\n\n관심 9"
+          "text": "Stone Island\n\n스톤 아일랜드 3100043 스트레치 코튼 텔라 파라슈트 루즈핏 카고 트라우저 드로우스트링 커프스 차콜 그레이 - 26SS\n\n20%\n\n549,000원\n\n관심 6\n\n · 거래 1"
         }
       ]
     },
@@ -1731,24 +1485,24 @@
       "error": "No KREAM match for SKU=\"L1S15G1000-07S0183-V005G\" SPU=\"L1S15G100007S0183V005G\"",
       "candidates": [
         {
+          "product_id": 808450,
+          "text": "Stone Island\n\n스톤 아일랜드 L100001 Organic-Look 나일론 Panama-TC Loose-와이드-Leg-Fit 카고 버뮤다 쇼츠 블랙 - 26SS\n\n31%\n\n448,000원\n\n관심 13\n\n · 거래 1"
+        },
+        {
+          "product_id": 822329,
+          "text": "Stone Island\n\n스톤 아일랜드 J100006 인디고 데님 린스드 루즈핏 파이브 포켓 진 블루 린스 - 26SS\n\n26%\n\n450,000원\n\n관심 6"
+        },
+        {
+          "product_id": 470503,
+          "text": "Stone Island\n\n스톤 아일랜드 L100011 수피마 코튼 트윌 스트레치 TC 슬림 핏 집 포켓 카고 버뮤다 쇼츠 블랙 - 25SS\n\n40%\n\n299,000원\n\n관심 12\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
           "product_id": 808352,
-          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 블랙 - 26SS\n\n24%\n\n510,000원\n\n관심 40\n\n · 리뷰 3\n\n · 거래 11"
+          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 블랙 - 26SS\n\n24%\n\n508,000원\n\n관심 41\n\n · 리뷰 3\n\n · 거래 13"
         },
         {
           "product_id": 854816,
-          "text": "Stone Island\n\n스톤 아일랜드 3100043 스트레치 코튼 텔라 파라슈트 루즈핏 카고 트라우저 드로우스트링 커프스 차콜 그레이 - 26SS\n\n22%\n\n535,000원\n\n관심 6\n\n · 거래 1"
-        },
-        {
-          "product_id": 808353,
-          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 밀리터리 그린 - 26SS\n\n27%\n\n493,000원\n\n관심 4\n\n · 거래 2"
-        },
-        {
-          "product_id": 332283,
-          "text": "Stone Island\n\n스톤 아일랜드 313L1 스트레치 코튼 카고 트라우저 리드 그레이 - 24FW\n\n459,000원\n\n관심 46\n\n · 리뷰 5\n\n · 거래 22"
-        },
-        {
-          "product_id": 808437,
-          "text": "Stone Island\n\n스톤 아일랜드 2100013 콤베드 오가닉 코튼 저지 리플렉티브 가먼트 라미네이션 티셔츠 블랙 - 26SS\n\n600,000원\n\n관심 9"
+          "text": "Stone Island\n\n스톤 아일랜드 3100043 스트레치 코튼 텔라 파라슈트 루즈핏 카고 트라우저 드로우스트링 커프스 차콜 그레이 - 26SS\n\n20%\n\n549,000원\n\n관심 6\n\n · 거래 1"
         }
       ]
     },
@@ -1761,24 +1515,24 @@
       "error": "No KREAM match for SKU=\"L1S15G1000-07S0183-V005G\" SPU=\"L1S15G100007S0183V005G\"",
       "candidates": [
         {
+          "product_id": 808450,
+          "text": "Stone Island\n\n스톤 아일랜드 L100001 Organic-Look 나일론 Panama-TC Loose-와이드-Leg-Fit 카고 버뮤다 쇼츠 블랙 - 26SS\n\n31%\n\n448,000원\n\n관심 13\n\n · 거래 1"
+        },
+        {
+          "product_id": 822329,
+          "text": "Stone Island\n\n스톤 아일랜드 J100006 인디고 데님 린스드 루즈핏 파이브 포켓 진 블루 린스 - 26SS\n\n26%\n\n450,000원\n\n관심 6"
+        },
+        {
+          "product_id": 470503,
+          "text": "Stone Island\n\n스톤 아일랜드 L100011 수피마 코튼 트윌 스트레치 TC 슬림 핏 집 포켓 카고 버뮤다 쇼츠 블랙 - 25SS\n\n40%\n\n299,000원\n\n관심 12\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
           "product_id": 808352,
-          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 블랙 - 26SS\n\n24%\n\n510,000원\n\n관심 40\n\n · 리뷰 3\n\n · 거래 11"
+          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 블랙 - 26SS\n\n24%\n\n508,000원\n\n관심 41\n\n · 리뷰 3\n\n · 거래 13"
         },
         {
           "product_id": 854816,
-          "text": "Stone Island\n\n스톤 아일랜드 3100043 스트레치 코튼 텔라 파라슈트 루즈핏 카고 트라우저 드로우스트링 커프스 차콜 그레이 - 26SS\n\n22%\n\n535,000원\n\n관심 6\n\n · 거래 1"
-        },
-        {
-          "product_id": 808353,
-          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 밀리터리 그린 - 26SS\n\n27%\n\n493,000원\n\n관심 4\n\n · 거래 2"
-        },
-        {
-          "product_id": 332283,
-          "text": "Stone Island\n\n스톤 아일랜드 313L1 스트레치 코튼 카고 트라우저 리드 그레이 - 24FW\n\n459,000원\n\n관심 46\n\n · 리뷰 5\n\n · 거래 22"
-        },
-        {
-          "product_id": 808437,
-          "text": "Stone Island\n\n스톤 아일랜드 2100013 콤베드 오가닉 코튼 저지 리플렉티브 가먼트 라미네이션 티셔츠 블랙 - 26SS\n\n600,000원\n\n관심 9"
+          "text": "Stone Island\n\n스톤 아일랜드 3100043 스트레치 코튼 텔라 파라슈트 루즈핏 카고 트라우저 드로우스트링 커프스 차콜 그레이 - 26SS\n\n20%\n\n549,000원\n\n관심 6\n\n · 거래 1"
         }
       ]
     },
@@ -1791,24 +1545,24 @@
       "error": "No KREAM match for SKU=\"L1S15G1000-07S0183-V005G\" SPU=\"L1S15G100007S0183V005G\"",
       "candidates": [
         {
+          "product_id": 808450,
+          "text": "Stone Island\n\n스톤 아일랜드 L100001 Organic-Look 나일론 Panama-TC Loose-와이드-Leg-Fit 카고 버뮤다 쇼츠 블랙 - 26SS\n\n31%\n\n448,000원\n\n관심 13\n\n · 거래 1"
+        },
+        {
+          "product_id": 822329,
+          "text": "Stone Island\n\n스톤 아일랜드 J100006 인디고 데님 린스드 루즈핏 파이브 포켓 진 블루 린스 - 26SS\n\n26%\n\n450,000원\n\n관심 6"
+        },
+        {
+          "product_id": 470503,
+          "text": "Stone Island\n\n스톤 아일랜드 L100011 수피마 코튼 트윌 스트레치 TC 슬림 핏 집 포켓 카고 버뮤다 쇼츠 블랙 - 25SS\n\n40%\n\n299,000원\n\n관심 12\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
           "product_id": 808352,
-          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 블랙 - 26SS\n\n24%\n\n510,000원\n\n관심 40\n\n · 리뷰 3\n\n · 거래 11"
+          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 블랙 - 26SS\n\n24%\n\n508,000원\n\n관심 41\n\n · 리뷰 3\n\n · 거래 13"
         },
         {
           "product_id": 854816,
-          "text": "Stone Island\n\n스톤 아일랜드 3100043 스트레치 코튼 텔라 파라슈트 루즈핏 카고 트라우저 드로우스트링 커프스 차콜 그레이 - 26SS\n\n22%\n\n535,000원\n\n관심 6\n\n · 거래 1"
-        },
-        {
-          "product_id": 808353,
-          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 밀리터리 그린 - 26SS\n\n27%\n\n493,000원\n\n관심 4\n\n · 거래 2"
-        },
-        {
-          "product_id": 332283,
-          "text": "Stone Island\n\n스톤 아일랜드 313L1 스트레치 코튼 카고 트라우저 리드 그레이 - 24FW\n\n459,000원\n\n관심 46\n\n · 리뷰 5\n\n · 거래 22"
-        },
-        {
-          "product_id": 808437,
-          "text": "Stone Island\n\n스톤 아일랜드 2100013 콤베드 오가닉 코튼 저지 리플렉티브 가먼트 라미네이션 티셔츠 블랙 - 26SS\n\n600,000원\n\n관심 9"
+          "text": "Stone Island\n\n스톤 아일랜드 3100043 스트레치 코튼 텔라 파라슈트 루즈핏 카고 트라우저 드로우스트링 커프스 차콜 그레이 - 26SS\n\n20%\n\n549,000원\n\n관심 6\n\n · 거래 1"
         }
       ]
     },
@@ -1851,7 +1605,7 @@
       "product_url": "https://kream.co.kr/products/797638",
       "market": {
         "last_sale_price": 469000,
-        "lowest_ask": 444000,
+        "lowest_ask": 462000,
         "highest_bid": null,
         "change_text": "-"
       },
@@ -1866,12 +1620,12 @@
       ],
       "asks": [
         {
-          "price": 444000,
+          "price": 462000,
           "option": "L",
           "quantity": 1
         },
         {
-          "price": 445000,
+          "price": 463000,
           "option": "L",
           "quantity": 1
         }
@@ -1923,9 +1677,9 @@
       },
       "kream_option": "L",
       "kream_options_available": [
+        "L",
         "M",
         "XL",
-        "L",
         "XXL"
       ],
       "option_mismatch": false
@@ -1958,12 +1712,12 @@
           "quantity": 1
         },
         {
-          "price": 459000,
+          "price": 460000,
           "option": "M",
           "quantity": 1
         },
         {
-          "price": 460000,
+          "price": 467000,
           "option": "M",
           "quantity": 1
         }
@@ -2015,9 +1769,9 @@
       },
       "kream_option": "M",
       "kream_options_available": [
+        "L",
         "M",
         "XL",
-        "L",
         "XXL"
       ],
       "option_mismatch": false
@@ -2050,12 +1804,12 @@
           "quantity": 1
         },
         {
-          "price": 459000,
+          "price": 460000,
           "option": "XL",
           "quantity": 1
         },
         {
-          "price": 460000,
+          "price": 467000,
           "option": "XL",
           "quantity": 1
         }
@@ -2107,9 +1861,9 @@
       },
       "kream_option": "XL",
       "kream_options_available": [
+        "L",
         "M",
         "XL",
-        "L",
         "XXL"
       ],
       "option_mismatch": false
@@ -2125,19 +1879,19 @@
       "product_url": "https://kream.co.kr/products/797638",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 444000,
+        "lowest_ask": 462000,
         "highest_bid": null,
         "change_text": "-"
       },
       "sales": [],
       "asks": [
         {
-          "price": 444000,
+          "price": 462000,
           "option": "XXL",
           "quantity": 1
         },
         {
-          "price": 445000,
+          "price": 463000,
           "option": "XXL",
           "quantity": 1
         }
@@ -2189,9 +1943,9 @@
       },
       "kream_option": "XXL",
       "kream_options_available": [
+        "L",
         "M",
         "XL",
-        "L",
         "XXL"
       ],
       "option_mismatch": false
@@ -2205,24 +1959,24 @@
       "error": "No KREAM match for SKU=\"L1S1551001-24S00D8-V0093\" SPU=\"L1S155100124S00D8V0093\"",
       "candidates": [
         {
-          "product_id": 808352,
-          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 블랙 - 26SS\n\n24%\n\n510,000원\n\n관심 40\n\n · 리뷰 3\n\n · 거래 11"
+          "product_id": 801021,
+          "text": "Stone Island\n\n스톤 아일랜드 4100072 덴스 나일론-TC 핸드 스프레이 리플렉티브 안티 드롭 후드 자켓 블랙 - 26SS\n\n14%\n\n2,840,000원\n\n관심 51\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 808353,
-          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 밀리터리 그린 - 26SS\n\n27%\n\n493,000원\n\n관심 4\n\n · 거래 2"
+          "product_id": 491515,
+          "text": "Stone Island\n\n스톤 아일랜드 1200012 밀 스펙 스트레치 립스탑-TC 오버셔츠 체스트 포켓 앤 투웨이 집 블랙 - 25SS\n\n30%\n\n589,000원\n\n관심 288\n\n · 리뷰 9\n\n · 거래 30"
         },
         {
-          "product_id": 808482,
-          "text": "Stone Island\n\n스톤 아일랜드 L100019 브러쉬드 오가닉 코튼 캔버스 올드 이펙트 슬림핏 카고 쇼츠 집 포켓 네이비 블루 - 26SS\n\n32%\n\n342,000원\n\n관심 2"
+          "product_id": 821377,
+          "text": "Stone Island\n\n스톤 아일랜드 1200038 나일론 메탈 에코닐 레귤러핏 오버셔츠 펄 그레이 - 26SS\n\n561,000원\n\n관심 299\n\n · 리뷰 36\n\n · 거래 98\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 854816,
-          "text": "Stone Island\n\n스톤 아일랜드 3100043 스트레치 코튼 텔라 파라슈트 루즈핏 카고 트라우저 드로우스트링 커프스 차콜 그레이 - 26SS\n\n22%\n\n535,000원\n\n관심 6\n\n · 거래 1"
+          "product_id": 862342,
+          "text": "Stone Island\n\n스톤 아일랜드 6100044 스트레치 코튼 텔라 파라슈트 오버사이즈핏 집업 트랙 자켓 래글런 슬리브 블랙 - 26SS\n\n28%\n\n624,000원\n\n관심 6"
         },
         {
-          "product_id": 568469,
-          "text": "Stone Island\n\n스톤 아일랜드 3100033 스트레치 오가닉 브로큰 트윌 코튼 올드 이펙트 레귤러 테이퍼드 핏 카고 트라우저 엘라스티케이티드 웨이스트밴드 블랙 - 25FW\n\n40%\n\n414,000원\n\n관심 20\n\n · 리뷰 11\n\n · 거래 13"
+          "product_id": 490759,
+          "text": "Stone Island\n\n스톤 아일랜드 1200005 나일론 메탈 포켓 투웨이 지퍼 에코닐 오버셔츠 블랙 - 25SS\n\n26%\n\n640,000원\n\n관심 794\n\n · 리뷰 103\n\n · 거래 355\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -2235,24 +1989,24 @@
       "error": "No KREAM match for SKU=\"L1S1551001-24S00D8-V0093\" SPU=\"L1S155100124S00D8V0093\"",
       "candidates": [
         {
-          "product_id": 808352,
-          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 블랙 - 26SS\n\n24%\n\n510,000원\n\n관심 40\n\n · 리뷰 3\n\n · 거래 11"
+          "product_id": 801021,
+          "text": "Stone Island\n\n스톤 아일랜드 4100072 덴스 나일론-TC 핸드 스프레이 리플렉티브 안티 드롭 후드 자켓 블랙 - 26SS\n\n14%\n\n2,840,000원\n\n관심 51\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 808353,
-          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 밀리터리 그린 - 26SS\n\n27%\n\n493,000원\n\n관심 4\n\n · 거래 2"
+          "product_id": 491515,
+          "text": "Stone Island\n\n스톤 아일랜드 1200012 밀 스펙 스트레치 립스탑-TC 오버셔츠 체스트 포켓 앤 투웨이 집 블랙 - 25SS\n\n30%\n\n589,000원\n\n관심 288\n\n · 리뷰 9\n\n · 거래 30"
         },
         {
-          "product_id": 808482,
-          "text": "Stone Island\n\n스톤 아일랜드 L100019 브러쉬드 오가닉 코튼 캔버스 올드 이펙트 슬림핏 카고 쇼츠 집 포켓 네이비 블루 - 26SS\n\n32%\n\n342,000원\n\n관심 2"
+          "product_id": 821377,
+          "text": "Stone Island\n\n스톤 아일랜드 1200038 나일론 메탈 에코닐 레귤러핏 오버셔츠 펄 그레이 - 26SS\n\n561,000원\n\n관심 299\n\n · 리뷰 36\n\n · 거래 98\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 854816,
-          "text": "Stone Island\n\n스톤 아일랜드 3100043 스트레치 코튼 텔라 파라슈트 루즈핏 카고 트라우저 드로우스트링 커프스 차콜 그레이 - 26SS\n\n22%\n\n535,000원\n\n관심 6\n\n · 거래 1"
+          "product_id": 862342,
+          "text": "Stone Island\n\n스톤 아일랜드 6100044 스트레치 코튼 텔라 파라슈트 오버사이즈핏 집업 트랙 자켓 래글런 슬리브 블랙 - 26SS\n\n28%\n\n624,000원\n\n관심 6"
         },
         {
-          "product_id": 568469,
-          "text": "Stone Island\n\n스톤 아일랜드 3100033 스트레치 오가닉 브로큰 트윌 코튼 올드 이펙트 레귤러 테이퍼드 핏 카고 트라우저 엘라스티케이티드 웨이스트밴드 블랙 - 25FW\n\n40%\n\n414,000원\n\n관심 20\n\n · 리뷰 11\n\n · 거래 13"
+          "product_id": 490759,
+          "text": "Stone Island\n\n스톤 아일랜드 1200005 나일론 메탈 포켓 투웨이 지퍼 에코닐 오버셔츠 블랙 - 25SS\n\n26%\n\n640,000원\n\n관심 794\n\n · 리뷰 103\n\n · 거래 355\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -2265,31 +2019,31 @@
       "error": "No KREAM match for SKU=\"L1S1551001-24S00D8-V0093\" SPU=\"L1S155100124S00D8V0093\"",
       "candidates": [
         {
-          "product_id": 808352,
-          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 블랙 - 26SS\n\n24%\n\n510,000원\n\n관심 40\n\n · 리뷰 3\n\n · 거래 11"
+          "product_id": 801021,
+          "text": "Stone Island\n\n스톤 아일랜드 4100072 덴스 나일론-TC 핸드 스프레이 리플렉티브 안티 드롭 후드 자켓 블랙 - 26SS\n\n14%\n\n2,840,000원\n\n관심 51\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 808353,
-          "text": "Stone Island\n\n스톤 아일랜드 3100020 스트레치 오가닉 코튼 트윌 루즈핏 카고 팬츠 엘라스틱 웨이스트밴드 밀리터리 그린 - 26SS\n\n27%\n\n493,000원\n\n관심 4\n\n · 거래 2"
+          "product_id": 491515,
+          "text": "Stone Island\n\n스톤 아일랜드 1200012 밀 스펙 스트레치 립스탑-TC 오버셔츠 체스트 포켓 앤 투웨이 집 블랙 - 25SS\n\n30%\n\n589,000원\n\n관심 288\n\n · 리뷰 9\n\n · 거래 30"
         },
         {
-          "product_id": 808482,
-          "text": "Stone Island\n\n스톤 아일랜드 L100019 브러쉬드 오가닉 코튼 캔버스 올드 이펙트 슬림핏 카고 쇼츠 집 포켓 네이비 블루 - 26SS\n\n32%\n\n342,000원\n\n관심 2"
+          "product_id": 821377,
+          "text": "Stone Island\n\n스톤 아일랜드 1200038 나일론 메탈 에코닐 레귤러핏 오버셔츠 펄 그레이 - 26SS\n\n561,000원\n\n관심 299\n\n · 리뷰 36\n\n · 거래 98\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 854816,
-          "text": "Stone Island\n\n스톤 아일랜드 3100043 스트레치 코튼 텔라 파라슈트 루즈핏 카고 트라우저 드로우스트링 커프스 차콜 그레이 - 26SS\n\n22%\n\n535,000원\n\n관심 6\n\n · 거래 1"
+          "product_id": 862342,
+          "text": "Stone Island\n\n스톤 아일랜드 6100044 스트레치 코튼 텔라 파라슈트 오버사이즈핏 집업 트랙 자켓 래글런 슬리브 블랙 - 26SS\n\n28%\n\n624,000원\n\n관심 6"
         },
         {
-          "product_id": 568469,
-          "text": "Stone Island\n\n스톤 아일랜드 3100033 스트레치 오가닉 브로큰 트윌 코튼 올드 이펙트 레귤러 테이퍼드 핏 카고 트라우저 엘라스티케이티드 웨이스트밴드 블랙 - 25FW\n\n40%\n\n414,000원\n\n관심 20\n\n · 리뷰 11\n\n · 거래 13"
+          "product_id": 490759,
+          "text": "Stone Island\n\n스톤 아일랜드 1200005 나일론 메탈 포켓 투웨이 지퍼 에코닐 오버셔츠 블랙 - 25SS\n\n26%\n\n640,000원\n\n관심 794\n\n · 리뷰 103\n\n · 거래 355\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
     {
       "sku": "L1S1551000-53S00B2-V0029",
       "option": "XL",
-      "stock": 3,
+      "stock": 1,
       "eur_price": 167.83,
       "matched": true,
       "product_id": 768409,
@@ -2321,7 +2075,7 @@
         {
           "price": 387000,
           "option": "XL",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "price": 389000,
@@ -2344,12 +2098,17 @@
           "quantity": 1
         },
         {
-          "price": 401000,
+          "price": 399000,
+          "option": "XL",
+          "quantity": 2
+        },
+        {
+          "price": 400000,
           "option": "XL",
           "quantity": 1
         },
         {
-          "price": 407000,
+          "price": 401000,
           "option": "XL",
           "quantity": 1
         },
@@ -2359,7 +2118,7 @@
           "quantity": 1
         },
         {
-          "price": 422000,
+          "price": 419000,
           "option": "XL",
           "quantity": 1
         }
@@ -2373,7 +2132,7 @@
       ],
       "totals": {
         "sales": 0,
-        "asks": 12,
+        "asks": 13,
         "bids": 1
       },
       "raw_chart_recently": {
@@ -2403,10 +2162,10 @@
       },
       "kream_option": "XL",
       "kream_options_available": [
-        "M",
-        "S",
         "XL",
         "L",
+        "M",
+        "S",
         "XXL",
         "XXXL"
       ],
@@ -2442,7 +2201,7 @@
         {
           "price": 384000,
           "option": "XXL",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "price": 386000,
@@ -2467,18 +2226,23 @@
         {
           "price": 407000,
           "option": "XXL",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "price": 416000,
           "option": "XXL",
           "quantity": 2
+        },
+        {
+          "price": 419000,
+          "option": "XXL",
+          "quantity": 1
         }
       ],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 9,
+        "asks": 10,
         "bids": 0
       },
       "raw_chart_recently": {
@@ -2508,10 +2272,10 @@
       },
       "kream_option": "XXL",
       "kream_options_available": [
-        "M",
-        "S",
         "XL",
         "L",
+        "M",
+        "S",
         "XXL",
         "XXXL"
       ],
@@ -2528,14 +2292,14 @@
       "product_url": "https://kream.co.kr/products/822304",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 939000,
+        "lowest_ask": 830000,
         "highest_bid": null,
         "change_text": "▲ 40,000원(+4.7%)"
       },
       "sales": [],
       "asks": [
         {
-          "price": 939000,
+          "price": 830000,
           "option": "S",
           "quantity": 1
         },
@@ -2578,11 +2342,11 @@
       },
       "kream_option": "S",
       "kream_options_available": [
-        "M",
+        "S",
         "XL",
         "L",
         "XXL",
-        "S"
+        "M"
       ],
       "option_mismatch": false
     },
@@ -2701,7 +2465,7 @@
     {
       "sku": "L1S1551000-52S00B0-V008E",
       "option": "XXL",
-      "stock": 1,
+      "stock": 2,
       "eur_price": 167.83,
       "matched": true,
       "product_id": 808452,
@@ -2727,57 +2491,111 @@
       "option_mismatch": true
     },
     {
-      "sku": "L1S1512000-38S0019-V0031",
+      "sku": "L1S1541000-53S0069-V0029",
       "option": "L",
-      "stock": 2,
-      "eur_price": 250.41,
+      "stock": 1,
+      "eur_price": 423.57,
       "matched": true,
-      "product_id": 808431,
+      "product_id": 821433,
       "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/808431",
+      "product_url": "https://kream.co.kr/products/821433",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 669000,
-        "highest_bid": 150000,
-        "change_text": null
+        "lowest_ask": 948000,
+        "highest_bid": 500000,
+        "change_text": "-"
       },
       "sales": [],
       "asks": [
         {
-          "price": 669000,
+          "price": 948000,
           "option": "L",
           "quantity": 1
         },
         {
-          "price": 670000,
+          "price": 950000,
           "option": "L",
           "quantity": 1
         },
         {
-          "price": 689000,
+          "price": 1090000,
           "option": "L",
           "quantity": 1
+        },
+        {
+          "price": 1110000,
+          "option": "L",
+          "quantity": 1
+        },
+        {
+          "price": 1132000,
+          "option": "L",
+          "quantity": 1
+        },
+        {
+          "price": 1169000,
+          "option": "L",
+          "quantity": 3
         }
       ],
       "bids": [
         {
-          "price": 150000,
+          "price": 500000,
           "option": "L",
           "quantity": 1
         }
       ],
       "totals": {
         "sales": 0,
-        "asks": 3,
+        "asks": 6,
         "bids": 1
       },
-      "raw_chart_recently": null,
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
       "kream_option": "L",
       "kream_options_available": [
-        "L",
-        "M",
         "XL",
-        "XXL"
+        "L",
+        "XXL",
+        "M",
+        "S"
       ],
       "option_mismatch": false
     },
@@ -2804,12 +2622,12 @@
           "quantity": 1
         },
         {
-          "price": 340000,
+          "price": 337000,
           "option": "XXL",
           "quantity": 1
         },
         {
-          "price": 358000,
+          "price": 364000,
           "option": "XXL",
           "quantity": 1
         }
@@ -2952,8 +2770,8 @@
       "kream_options_available": [
         "S",
         "L",
-        "XXXL",
         "XXL",
+        "XXXL",
         "M",
         "XL"
       ],
@@ -3116,30 +2934,30 @@
     {
       "sku": "L1S1551000-24S01B2-V0029",
       "option": "L",
-      "stock": 3,
+      "stock": 2,
       "eur_price": 239.75,
       "matched": false,
       "error": "No KREAM match for SKU=\"L1S1551000-24S01B2-V0029\" SPU=\"L1S155100024S01B2V0029\"",
       "candidates": [
         {
-          "product_id": 452245,
-          "text": "Stone Island\n\n스톤 아일랜드 5100026 립드 소프트 오가닉 코튼 지퍼 가디건 리빙 블랙 - 25SS\n\n680,000원\n\n관심 259\n\n · 리뷰 7\n\n · 거래 28"
+          "product_id": 789717,
+          "text": "Stone Island\n\n스톤 아일랜드 6100018 코튼 플리스 레귤러 핏 시즈널 포켓 트랙 자켓 블랙 - 26SS\n\n480,000원\n\n관심 27\n\n · 리뷰 1\n\n · 거래 3"
         },
         {
-          "product_id": 744544,
-          "text": "Stone Island\n\n스톤 아일랜드 5100126 립드 소프트 오가닉 코튼 레귤러핏 집업 점퍼 블랙 - 26SS\n\n548,000원\n\n관심 144\n\n · 리뷰 4\n\n · 거래 23\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 719963,
+          "text": "Stone Island\n\n스톤 아일랜드 5100074 퓨어 라이트 RWS 울 스톤 아일랜드 고스트 크루넥 점퍼 립드 트림 네이비 블루 - 25FW\n\n393,000원\n\n관심 18"
         },
         {
-          "product_id": 756778,
-          "text": "Stone Island\n\n스톤 아일랜드 6100056 오가닉 코튼 와플 플리스 레귤러핏 크루넥 스웨트셔츠 블랙 - 26SS\n\n38%\n\n317,000원\n\n관심 62\n\n · 리뷰 4\n\n · 거래 10\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 862342,
+          "text": "Stone Island\n\n스톤 아일랜드 6100044 스트레치 코튼 텔라 파라슈트 오버사이즈핏 집업 트랙 자켓 래글런 슬리브 블랙 - 26SS\n\n28%\n\n624,000원\n\n관심 6"
         },
         {
-          "product_id": 257046,
-          "text": "Stone Island\n\n스톤 아일랜드 522B3 컬러 스프레이드 테이프 하프 집 니트 블랙 - 24SS\n\n46%\n\n556,000원\n\n관심 8"
+          "product_id": 771019,
+          "text": "Stone Island\n\n스톤 아일랜드 6100033 말파일 플리스 올드 이펙트 레귤러핏 집업 트랙 자켓 포켓 차콜 그레이 - 26SS\n\n27%\n\n483,000원\n\n관심 67\n\n · 거래 2"
         },
         {
-          "product_id": 350314,
-          "text": "Stone Island\n\n스톤 아일랜드 508A3 램스울 크루넥 스웨터 위드 스티치 디테일 네이비 블루 - 24FW\n\n48%\n\n367,000원\n\n관심 100\n\n · 리뷰 8\n\n · 거래 29"
+          "product_id": 797637,
+          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n45%\n\n363,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -3152,24 +2970,24 @@
       "error": "No KREAM match for SKU=\"L1S1551000-24S01B2-V0029\" SPU=\"L1S155100024S01B2V0029\"",
       "candidates": [
         {
-          "product_id": 452245,
-          "text": "Stone Island\n\n스톤 아일랜드 5100026 립드 소프트 오가닉 코튼 지퍼 가디건 리빙 블랙 - 25SS\n\n680,000원\n\n관심 259\n\n · 리뷰 7\n\n · 거래 28"
+          "product_id": 789717,
+          "text": "Stone Island\n\n스톤 아일랜드 6100018 코튼 플리스 레귤러 핏 시즈널 포켓 트랙 자켓 블랙 - 26SS\n\n480,000원\n\n관심 27\n\n · 리뷰 1\n\n · 거래 3"
         },
         {
-          "product_id": 744544,
-          "text": "Stone Island\n\n스톤 아일랜드 5100126 립드 소프트 오가닉 코튼 레귤러핏 집업 점퍼 블랙 - 26SS\n\n548,000원\n\n관심 144\n\n · 리뷰 4\n\n · 거래 23\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 719963,
+          "text": "Stone Island\n\n스톤 아일랜드 5100074 퓨어 라이트 RWS 울 스톤 아일랜드 고스트 크루넥 점퍼 립드 트림 네이비 블루 - 25FW\n\n393,000원\n\n관심 18"
         },
         {
-          "product_id": 756778,
-          "text": "Stone Island\n\n스톤 아일랜드 6100056 오가닉 코튼 와플 플리스 레귤러핏 크루넥 스웨트셔츠 블랙 - 26SS\n\n38%\n\n317,000원\n\n관심 62\n\n · 리뷰 4\n\n · 거래 10\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 862342,
+          "text": "Stone Island\n\n스톤 아일랜드 6100044 스트레치 코튼 텔라 파라슈트 오버사이즈핏 집업 트랙 자켓 래글런 슬리브 블랙 - 26SS\n\n28%\n\n624,000원\n\n관심 6"
         },
         {
-          "product_id": 257046,
-          "text": "Stone Island\n\n스톤 아일랜드 522B3 컬러 스프레이드 테이프 하프 집 니트 블랙 - 24SS\n\n46%\n\n556,000원\n\n관심 8"
+          "product_id": 771019,
+          "text": "Stone Island\n\n스톤 아일랜드 6100033 말파일 플리스 올드 이펙트 레귤러핏 집업 트랙 자켓 포켓 차콜 그레이 - 26SS\n\n27%\n\n483,000원\n\n관심 67\n\n · 거래 2"
         },
         {
-          "product_id": 350314,
-          "text": "Stone Island\n\n스톤 아일랜드 508A3 램스울 크루넥 스웨터 위드 스티치 디테일 네이비 블루 - 24FW\n\n48%\n\n367,000원\n\n관심 100\n\n · 리뷰 8\n\n · 거래 29"
+          "product_id": 797637,
+          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n45%\n\n363,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -3182,24 +3000,24 @@
       "error": "No KREAM match for SKU=\"L1S1551000-24S01B2-V0029\" SPU=\"L1S155100024S01B2V0029\"",
       "candidates": [
         {
-          "product_id": 452245,
-          "text": "Stone Island\n\n스톤 아일랜드 5100026 립드 소프트 오가닉 코튼 지퍼 가디건 리빙 블랙 - 25SS\n\n680,000원\n\n관심 259\n\n · 리뷰 7\n\n · 거래 28"
+          "product_id": 789717,
+          "text": "Stone Island\n\n스톤 아일랜드 6100018 코튼 플리스 레귤러 핏 시즈널 포켓 트랙 자켓 블랙 - 26SS\n\n480,000원\n\n관심 27\n\n · 리뷰 1\n\n · 거래 3"
         },
         {
-          "product_id": 744544,
-          "text": "Stone Island\n\n스톤 아일랜드 5100126 립드 소프트 오가닉 코튼 레귤러핏 집업 점퍼 블랙 - 26SS\n\n548,000원\n\n관심 144\n\n · 리뷰 4\n\n · 거래 23\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 719963,
+          "text": "Stone Island\n\n스톤 아일랜드 5100074 퓨어 라이트 RWS 울 스톤 아일랜드 고스트 크루넥 점퍼 립드 트림 네이비 블루 - 25FW\n\n393,000원\n\n관심 18"
         },
         {
-          "product_id": 756778,
-          "text": "Stone Island\n\n스톤 아일랜드 6100056 오가닉 코튼 와플 플리스 레귤러핏 크루넥 스웨트셔츠 블랙 - 26SS\n\n38%\n\n317,000원\n\n관심 62\n\n · 리뷰 4\n\n · 거래 10\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 862342,
+          "text": "Stone Island\n\n스톤 아일랜드 6100044 스트레치 코튼 텔라 파라슈트 오버사이즈핏 집업 트랙 자켓 래글런 슬리브 블랙 - 26SS\n\n28%\n\n624,000원\n\n관심 6"
         },
         {
-          "product_id": 257046,
-          "text": "Stone Island\n\n스톤 아일랜드 522B3 컬러 스프레이드 테이프 하프 집 니트 블랙 - 24SS\n\n46%\n\n556,000원\n\n관심 8"
+          "product_id": 771019,
+          "text": "Stone Island\n\n스톤 아일랜드 6100033 말파일 플리스 올드 이펙트 레귤러핏 집업 트랙 자켓 포켓 차콜 그레이 - 26SS\n\n27%\n\n483,000원\n\n관심 67\n\n · 거래 2"
         },
         {
-          "product_id": 350314,
-          "text": "Stone Island\n\n스톤 아일랜드 508A3 램스울 크루넥 스웨터 위드 스티치 디테일 네이비 블루 - 24FW\n\n48%\n\n367,000원\n\n관심 100\n\n · 리뷰 8\n\n · 거래 29"
+          "product_id": 797637,
+          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n45%\n\n363,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -3212,24 +3030,24 @@
       "error": "No KREAM match for SKU=\"L1S1551000-24S01B2-V0029\" SPU=\"L1S155100024S01B2V0029\"",
       "candidates": [
         {
-          "product_id": 452245,
-          "text": "Stone Island\n\n스톤 아일랜드 5100026 립드 소프트 오가닉 코튼 지퍼 가디건 리빙 블랙 - 25SS\n\n680,000원\n\n관심 259\n\n · 리뷰 7\n\n · 거래 28"
+          "product_id": 789717,
+          "text": "Stone Island\n\n스톤 아일랜드 6100018 코튼 플리스 레귤러 핏 시즈널 포켓 트랙 자켓 블랙 - 26SS\n\n480,000원\n\n관심 27\n\n · 리뷰 1\n\n · 거래 3"
         },
         {
-          "product_id": 744544,
-          "text": "Stone Island\n\n스톤 아일랜드 5100126 립드 소프트 오가닉 코튼 레귤러핏 집업 점퍼 블랙 - 26SS\n\n548,000원\n\n관심 144\n\n · 리뷰 4\n\n · 거래 23\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 719963,
+          "text": "Stone Island\n\n스톤 아일랜드 5100074 퓨어 라이트 RWS 울 스톤 아일랜드 고스트 크루넥 점퍼 립드 트림 네이비 블루 - 25FW\n\n393,000원\n\n관심 18"
         },
         {
-          "product_id": 756778,
-          "text": "Stone Island\n\n스톤 아일랜드 6100056 오가닉 코튼 와플 플리스 레귤러핏 크루넥 스웨트셔츠 블랙 - 26SS\n\n38%\n\n317,000원\n\n관심 62\n\n · 리뷰 4\n\n · 거래 10\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 862342,
+          "text": "Stone Island\n\n스톤 아일랜드 6100044 스트레치 코튼 텔라 파라슈트 오버사이즈핏 집업 트랙 자켓 래글런 슬리브 블랙 - 26SS\n\n28%\n\n624,000원\n\n관심 6"
         },
         {
-          "product_id": 257046,
-          "text": "Stone Island\n\n스톤 아일랜드 522B3 컬러 스프레이드 테이프 하프 집 니트 블랙 - 24SS\n\n46%\n\n556,000원\n\n관심 8"
+          "product_id": 771019,
+          "text": "Stone Island\n\n스톤 아일랜드 6100033 말파일 플리스 올드 이펙트 레귤러핏 집업 트랙 자켓 포켓 차콜 그레이 - 26SS\n\n27%\n\n483,000원\n\n관심 67\n\n · 거래 2"
         },
         {
-          "product_id": 350314,
-          "text": "Stone Island\n\n스톤 아일랜드 508A3 램스울 크루넥 스웨터 위드 스티치 디테일 네이비 블루 - 24FW\n\n48%\n\n367,000원\n\n관심 100\n\n · 리뷰 8\n\n · 거래 29"
+          "product_id": 797637,
+          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n45%\n\n363,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -3244,19 +3062,19 @@
       "product_url": "https://kream.co.kr/products/744552",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 597000,
+        "lowest_ask": 611000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 597000,
+          "price": 611000,
           "option": "L",
           "quantity": 1
         },
         {
-          "price": 598000,
+          "price": 612000,
           "option": "L",
           "quantity": 1
         },
@@ -3276,9 +3094,9 @@
       "kream_option": "L",
       "kream_options_available": [
         "M",
-        "L",
         "XL",
-        "XXL"
+        "XXL",
+        "L"
       ],
       "option_mismatch": false
     },
@@ -3293,19 +3111,19 @@
       "product_url": "https://kream.co.kr/products/744552",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 597000,
+        "lowest_ask": 609000,
         "highest_bid": 180000,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 597000,
+          "price": 609000,
           "option": "M",
           "quantity": 1
         },
         {
-          "price": 598000,
+          "price": 610000,
           "option": "M",
           "quantity": 1
         },
@@ -3331,9 +3149,9 @@
       "kream_option": "M",
       "kream_options_available": [
         "M",
-        "L",
         "XL",
-        "XXL"
+        "XXL",
+        "L"
       ],
       "option_mismatch": false
     },
@@ -3348,19 +3166,19 @@
       "product_url": "https://kream.co.kr/products/744552",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 597000,
+        "lowest_ask": 609000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 597000,
+          "price": 609000,
           "option": "XL",
           "quantity": 1
         },
         {
-          "price": 598000,
+          "price": 610000,
           "option": "XL",
           "quantity": 1
         },
@@ -3380,9 +3198,9 @@
       "kream_option": "XL",
       "kream_options_available": [
         "M",
-        "L",
         "XL",
-        "XXL"
+        "XXL",
+        "L"
       ],
       "option_mismatch": false
     },
@@ -3397,19 +3215,19 @@
       "product_url": "https://kream.co.kr/products/744552",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 597000,
+        "lowest_ask": 609000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 597000,
+          "price": 609000,
           "option": "XXL",
           "quantity": 1
         },
         {
-          "price": 598000,
+          "price": 610000,
           "option": "XXL",
           "quantity": 1
         },
@@ -3429,9 +3247,9 @@
       "kream_option": "XXL",
       "kream_options_available": [
         "M",
-        "L",
         "XL",
-        "XXL"
+        "XXL",
+        "L"
       ],
       "option_mismatch": false
     },
@@ -3523,6 +3341,11 @@
           "quantity": 2
         },
         {
+          "price": 882000,
+          "option": "L",
+          "quantity": 1
+        },
+        {
           "price": 883000,
           "option": "L",
           "quantity": 1
@@ -3530,12 +3353,7 @@
         {
           "price": 909000,
           "option": "L",
-          "quantity": 5
-        },
-        {
-          "price": 919000,
-          "option": "L",
-          "quantity": 1
+          "quantity": 6
         }
       ],
       "bids": [
@@ -3577,11 +3395,11 @@
       },
       "kream_option": "L",
       "kream_options_available": [
-        "L",
+        "XL",
         "XXL",
         "M",
-        "XL",
         "XXXL",
+        "L",
         "S"
       ],
       "option_mismatch": false
@@ -3632,7 +3450,7 @@
           "quantity": 1
         },
         {
-          "price": 825000,
+          "price": 882000,
           "option": "M",
           "quantity": 1
         },
@@ -3645,11 +3463,6 @@
           "price": 909000,
           "option": "M",
           "quantity": 2
-        },
-        {
-          "price": 919000,
-          "option": "M",
-          "quantity": 1
         }
       ],
       "bids": [
@@ -3661,7 +3474,7 @@
       ],
       "totals": {
         "sales": 1,
-        "asks": 8,
+        "asks": 7,
         "bids": 1
       },
       "raw_chart_recently": {
@@ -3691,11 +3504,11 @@
       },
       "kream_option": "M",
       "kream_options_available": [
-        "L",
+        "XL",
         "XXL",
         "M",
-        "XL",
         "XXXL",
+        "L",
         "S"
       ],
       "option_mismatch": false
@@ -3711,7 +3524,7 @@
       "product_url": "https://kream.co.kr/products/744602",
       "market": {
         "last_sale_price": 714000,
-        "lowest_ask": 709000,
+        "lowest_ask": 710000,
         "highest_bid": 580000,
         "change_text": "▼ 3,000원(-0.4%)"
       },
@@ -3739,11 +3552,6 @@
         }
       ],
       "asks": [
-        {
-          "price": 709000,
-          "option": "XL",
-          "quantity": 1
-        },
         {
           "price": 710000,
           "option": "XL",
@@ -3780,6 +3588,11 @@
           "quantity": 3
         },
         {
+          "price": 882000,
+          "option": "XL",
+          "quantity": 1
+        },
+        {
           "price": 883000,
           "option": "XL",
           "quantity": 1
@@ -3787,12 +3600,7 @@
         {
           "price": 909000,
           "option": "XL",
-          "quantity": 5
-        },
-        {
-          "price": 929000,
-          "option": "XL",
-          "quantity": 1
+          "quantity": 6
         }
       ],
       "bids": [
@@ -3819,7 +3627,7 @@
       ],
       "totals": {
         "sales": 3,
-        "asks": 11,
+        "asks": 10,
         "bids": 4
       },
       "raw_chart_recently": {
@@ -3849,160 +3657,11 @@
       },
       "kream_option": "XL",
       "kream_options_available": [
-        "L",
+        "XL",
         "XXL",
         "M",
-        "XL",
         "XXXL",
-        "S"
-      ],
-      "option_mismatch": false
-    },
-    {
-      "sku": "L1S1541001-11S0A23-V005G",
-      "option": "XXL",
-      "stock": 1,
-      "eur_price": 317,
-      "matched": true,
-      "product_id": 744602,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/744602",
-      "market": {
-        "last_sale_price": 710000,
-        "lowest_ask": 714000,
-        "highest_bid": 555000,
-        "change_text": "▼ 3,000원(-0.4%)"
-      },
-      "sales": [
-        {
-          "price": 710000,
-          "option": "XXL",
-          "date_created": "2026-04-14T00:03:29Z",
-          "date_text": "26/04/14",
-          "is_immediate": false
-        },
-        {
-          "price": 758000,
-          "option": "XXL",
-          "date_created": "2026-04-01T02:10:01Z",
-          "date_text": "26/04/01",
-          "is_immediate": false
-        },
-        {
-          "price": 714000,
-          "option": "XXL",
-          "date_created": "2026-04-01T00:22:52Z",
-          "date_text": "26/04/01",
-          "is_immediate": false
-        },
-        {
-          "price": 714000,
-          "option": "XXL",
-          "date_created": "2026-03-31T06:31:30Z",
-          "date_text": "26/03/31",
-          "is_immediate": false
-        },
-        {
-          "price": 720000,
-          "option": "XXL",
-          "date_created": "2026-03-29T04:25:30Z",
-          "date_text": "26/03/29",
-          "is_immediate": true
-        },
-        {
-          "price": 714000,
-          "option": "XXL",
-          "date_created": "2026-03-12T10:53:52Z",
-          "date_text": "26/03/12",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 714000,
-          "option": "XXL",
-          "quantity": 1
-        },
-        {
-          "price": 715000,
-          "option": "XXL",
-          "quantity": 1
-        },
-        {
-          "price": 717000,
-          "option": "XXL",
-          "quantity": 1
-        },
-        {
-          "price": 817000,
-          "option": "XXL",
-          "quantity": 1
-        },
-        {
-          "price": 844000,
-          "option": "XXL",
-          "quantity": 1
-        },
-        {
-          "price": 909000,
-          "option": "XXL",
-          "quantity": 3
-        }
-      ],
-      "bids": [
-        {
-          "price": 555000,
-          "option": "XXL",
-          "quantity": 1
-        },
-        {
-          "price": 550000,
-          "option": "XXL",
-          "quantity": 1
-        },
-        {
-          "price": 314000,
-          "option": "XXL",
-          "quantity": 1
-        }
-      ],
-      "totals": {
-        "sales": 6,
-        "asks": 6,
-        "bids": 3
-      },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 3,000원(-0.4%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "XXL",
-      "kream_options_available": [
         "L",
-        "XXL",
-        "M",
-        "XL",
-        "XXXL",
         "S"
       ],
       "option_mismatch": false
@@ -4010,7 +3669,7 @@
     {
       "sku": "L1S1541000-01S0A23-V005G",
       "option": "L",
-      "stock": 4,
+      "stock": 3,
       "eur_price": 325,
       "matched": true,
       "product_id": 717446,
@@ -4076,17 +3735,17 @@
           "quantity": 6
         },
         {
-          "price": 833000,
-          "option": "L",
-          "quantity": 1
-        },
-        {
           "price": 839000,
           "option": "L",
           "quantity": 1
         },
         {
           "price": 842000,
+          "option": "L",
+          "quantity": 1
+        },
+        {
+          "price": 870000,
           "option": "L",
           "quantity": 1
         },
@@ -4154,10 +3813,10 @@
       },
       "kream_option": "L",
       "kream_options_available": [
-        "L",
+        "XL",
         "M",
         "XXL",
-        "XL",
+        "L",
         "XXXL"
       ],
       "option_mismatch": false
@@ -4215,12 +3874,12 @@
           "quantity": 5
         },
         {
-          "price": 833000,
+          "price": 842000,
           "option": "M",
           "quantity": 1
         },
         {
-          "price": 842000,
+          "price": 870000,
           "option": "M",
           "quantity": 1
         },
@@ -4293,164 +3952,10 @@
       },
       "kream_option": "M",
       "kream_options_available": [
-        "L",
+        "XL",
         "M",
         "XXL",
-        "XL",
-        "XXXL"
-      ],
-      "option_mismatch": false
-    },
-    {
-      "sku": "L1S1541000-01S0A23-V005G",
-      "option": "XL",
-      "stock": 1,
-      "eur_price": 325,
-      "matched": true,
-      "product_id": 717446,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/717446",
-      "market": {
-        "last_sale_price": 695000,
-        "lowest_ask": 697000,
-        "highest_bid": 625000,
-        "change_text": "-"
-      },
-      "sales": [
-        {
-          "price": 695000,
-          "option": "XL",
-          "date_created": "2026-04-29T17:31:09Z",
-          "date_text": "26/04/30",
-          "is_immediate": false
-        },
-        {
-          "price": 677000,
-          "option": "XL",
-          "date_created": "2026-04-13T03:37:53Z",
-          "date_text": "26/04/13",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 697000,
-          "option": "XL",
-          "quantity": 1
-        },
-        {
-          "price": 698000,
-          "option": "XL",
-          "quantity": 1
-        },
-        {
-          "price": 750000,
-          "option": "XL",
-          "quantity": 1
-        },
-        {
-          "price": 759000,
-          "option": "XL",
-          "quantity": 1
-        },
-        {
-          "price": 770000,
-          "option": "XL",
-          "quantity": 1
-        },
-        {
-          "price": 805000,
-          "option": "XL",
-          "quantity": 1
-        },
-        {
-          "price": 833000,
-          "option": "XL",
-          "quantity": 1
-        },
-        {
-          "price": 842000,
-          "option": "XL",
-          "quantity": 1
-        },
-        {
-          "price": 903000,
-          "option": "XL",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 625000,
-          "option": "XL",
-          "quantity": 1
-        },
-        {
-          "price": 575000,
-          "option": "XL",
-          "quantity": 1
-        },
-        {
-          "price": 562000,
-          "option": "XL",
-          "quantity": 1
-        },
-        {
-          "price": 500000,
-          "option": "XL",
-          "quantity": 1
-        }
-      ],
-      "totals": {
-        "sales": 2,
-        "asks": 9,
-        "bids": 4
-      },
-      "raw_chart_recently": {
-        "text": ";tl_0; ;tl_1;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "-",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": true,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#4E4E4E",
-            "type": "text"
-          },
-          {
-            "key": ";tl_1;",
-            "text": "0원(0%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#4E4E4E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "XL",
-      "kream_options_available": [
         "L",
-        "M",
-        "XXL",
-        "XL",
         "XXXL"
       ],
       "option_mismatch": false
@@ -4458,7 +3963,7 @@
     {
       "sku": "L1S1541000-01S0A23-V005G",
       "option": "XXL",
-      "stock": 3,
+      "stock": 1,
       "eur_price": 325,
       "matched": true,
       "product_id": 717446,
@@ -4466,7 +3971,7 @@
       "product_url": "https://kream.co.kr/products/717446",
       "market": {
         "last_sale_price": 698000,
-        "lowest_ask": 749000,
+        "lowest_ask": 746000,
         "highest_bid": 421000,
         "change_text": "-"
       },
@@ -4495,7 +4000,17 @@
       ],
       "asks": [
         {
-          "price": 749000,
+          "price": 746000,
+          "option": "XXL",
+          "quantity": 1
+        },
+        {
+          "price": 747000,
+          "option": "XXL",
+          "quantity": 1
+        },
+        {
+          "price": 748000,
           "option": "XXL",
           "quantity": 1
         },
@@ -4510,11 +4025,6 @@
           "quantity": 1
         },
         {
-          "price": 789000,
-          "option": "XXL",
-          "quantity": 2
-        },
-        {
           "price": 805000,
           "option": "XXL",
           "quantity": 1
@@ -4525,12 +4035,12 @@
           "quantity": 2
         },
         {
-          "price": 833000,
+          "price": 842000,
           "option": "XXL",
           "quantity": 1
         },
         {
-          "price": 842000,
+          "price": 870000,
           "option": "XXL",
           "quantity": 1
         },
@@ -4549,7 +4059,7 @@
       ],
       "totals": {
         "sales": 3,
-        "asks": 9,
+        "asks": 10,
         "bids": 1
       },
       "raw_chart_recently": {
@@ -4593,10 +4103,10 @@
       },
       "kream_option": "XXL",
       "kream_options_available": [
-        "L",
+        "XL",
         "M",
         "XXL",
-        "XL",
+        "L",
         "XXXL"
       ],
       "option_mismatch": false
@@ -4651,10 +4161,10 @@
         {
           "price": 368000,
           "option": "XL",
-          "quantity": 4
+          "quantity": 5
         },
         {
-          "price": 389000,
+          "price": 386000,
           "option": "XL",
           "quantity": 1
         },
@@ -4727,9 +4237,9 @@
       "kream_option": "XL",
       "kream_options_available": [
         "M",
-        "L",
         "XL",
         "XXL",
+        "L",
         "XXXL",
         "S"
       ],
@@ -4783,7 +4293,7 @@
           "quantity": 3
         },
         {
-          "price": 389000,
+          "price": 386000,
           "option": "XXL",
           "quantity": 1
         },
@@ -4846,9 +4356,9 @@
       "kream_option": "XXL",
       "kream_options_available": [
         "M",
-        "L",
         "XL",
         "XXL",
+        "L",
         "XXXL",
         "S"
       ],
@@ -4897,7 +4407,7 @@
     {
       "sku": "L1S1551000-53S00B2-V0020",
       "option": "M",
-      "stock": 3,
+      "stock": 2,
       "eur_price": 167.83,
       "matched": true,
       "product_id": 942482,
@@ -5030,7 +4540,7 @@
       "product_url": "https://kream.co.kr/products/771007",
       "market": {
         "last_sale_price": 1006000,
-        "lowest_ask": 890000,
+        "lowest_ask": 889000,
         "highest_bid": null,
         "change_text": "-"
       },
@@ -5044,6 +4554,11 @@
         }
       ],
       "asks": [
+        {
+          "price": 889000,
+          "option": "XL",
+          "quantity": 1
+        },
         {
           "price": 890000,
           "option": "XL",
@@ -5060,12 +4575,7 @@
           "quantity": 2
         },
         {
-          "price": 973000,
-          "option": "XL",
-          "quantity": 1
-        },
-        {
-          "price": 1005000,
+          "price": 1021000,
           "option": "XL",
           "quantity": 1
         },
@@ -5105,7 +4615,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "215,300원(0%)",
+            "text": "212,100원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -5146,19 +4656,19 @@
       "product_url": "https://kream.co.kr/products/899156",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 910000,
+        "lowest_ask": 919000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 910000,
+          "price": 919000,
           "option": "XXL",
           "quantity": 1
         },
         {
-          "price": 1350000,
+          "price": 920000,
           "option": "XXL",
           "quantity": 1
         }
@@ -5172,10 +4682,10 @@
       "raw_chart_recently": null,
       "kream_option": "XXL",
       "kream_options_available": [
+        "L",
         "XXL",
         "M",
-        "XL",
-        "L"
+        "XL"
       ],
       "option_mismatch": false
     },
@@ -5190,19 +4700,19 @@
       "product_url": "https://kream.co.kr/products/794865",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 209000,
+        "lowest_ask": 208000,
         "highest_bid": null,
         "change_text": "▲ 6,000원(+2.8%)"
       },
       "sales": [],
       "asks": [
         {
-          "price": 209000,
+          "price": 208000,
           "option": "M",
           "quantity": 1
         },
         {
-          "price": 210000,
+          "price": 209000,
           "option": "M",
           "quantity": 1
         },
@@ -5222,12 +4732,12 @@
           "quantity": 1
         },
         {
-          "price": 251000,
+          "price": 260000,
           "option": "M",
           "quantity": 1
         },
         {
-          "price": 265000,
+          "price": 262000,
           "option": "M",
           "quantity": 3
         },
@@ -5290,8 +4800,8 @@
       "product_url": "https://kream.co.kr/products/794865",
       "market": {
         "last_sale_price": 220000,
-        "lowest_ask": 210000,
-        "highest_bid": null,
+        "lowest_ask": 209000,
+        "highest_bid": 190000,
         "change_text": "▲ 6,000원(+2.8%)"
       },
       "sales": [
@@ -5312,9 +4822,14 @@
       ],
       "asks": [
         {
+          "price": 209000,
+          "option": "XL",
+          "quantity": 1
+        },
+        {
           "price": 210000,
           "option": "XL",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "price": 214000,
@@ -5337,7 +4852,7 @@
           "quantity": 1
         },
         {
-          "price": 251000,
+          "price": 245000,
           "option": "XL",
           "quantity": 1
         },
@@ -5347,7 +4862,12 @@
           "quantity": 1
         },
         {
-          "price": 265000,
+          "price": 260000,
+          "option": "XL",
+          "quantity": 1
+        },
+        {
+          "price": 262000,
           "option": "XL",
           "quantity": 3
         },
@@ -5357,11 +4877,17 @@
           "quantity": 1
         }
       ],
-      "bids": [],
+      "bids": [
+        {
+          "price": 190000,
+          "option": "XL",
+          "quantity": 1
+        }
+      ],
       "totals": {
         "sales": 2,
-        "asks": 9,
-        "bids": 0
+        "asks": 11,
+        "bids": 1
       },
       "raw_chart_recently": {
         "text": ";tl_0;",
@@ -5410,7 +4936,7 @@
       "product_url": "https://kream.co.kr/products/794865",
       "market": {
         "last_sale_price": 224000,
-        "lowest_ask": 210000,
+        "lowest_ask": 205000,
         "highest_bid": null,
         "change_text": "▲ 6,000원(+2.8%)"
       },
@@ -5425,22 +4951,12 @@
       ],
       "asks": [
         {
-          "price": 210000,
+          "price": 205000,
           "option": "XXL",
           "quantity": 2
         },
         {
           "price": 214000,
-          "option": "XXL",
-          "quantity": 1
-        },
-        {
-          "price": 225000,
-          "option": "XXL",
-          "quantity": 1
-        },
-        {
-          "price": 235000,
           "option": "XXL",
           "quantity": 1
         },
@@ -5460,12 +4976,12 @@
           "quantity": 1
         },
         {
-          "price": 251000,
+          "price": 260000,
           "option": "XXL",
           "quantity": 1
         },
         {
-          "price": 265000,
+          "price": 262000,
           "option": "XXL",
           "quantity": 3
         },
@@ -5478,7 +4994,7 @@
       "bids": [],
       "totals": {
         "sales": 1,
-        "asks": 10,
+        "asks": 8,
         "bids": 0
       },
       "raw_chart_recently": {
@@ -5550,7 +5066,7 @@
           "quantity": 1
         },
         {
-          "price": 433000,
+          "price": 440000,
           "option": "L",
           "quantity": 1
         }
@@ -5604,7 +5120,7 @@
           "quantity": 1
         },
         {
-          "price": 433000,
+          "price": 440000,
           "option": "XL",
           "quantity": 1
         }
@@ -5658,7 +5174,7 @@
           "quantity": 1
         },
         {
-          "price": 433000,
+          "price": 440000,
           "option": "XXL",
           "quantity": 1
         }
@@ -5797,45 +5313,6 @@
       "option_mismatch": false
     },
     {
-      "sku": "L1S1551000-52S00B0-V005H",
-      "option": "XXL",
-      "stock": 1,
-      "eur_price": 167.83,
-      "matched": true,
-      "product_id": 808455,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/808455",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": 499000,
-        "highest_bid": null,
-        "change_text": null
-      },
-      "sales": [],
-      "asks": [
-        {
-          "price": 499000,
-          "option": "XXL",
-          "quantity": 1
-        }
-      ],
-      "bids": [],
-      "totals": {
-        "sales": 0,
-        "asks": 1,
-        "bids": 0
-      },
-      "raw_chart_recently": null,
-      "kream_option": "XXL",
-      "kream_options_available": [
-        "L",
-        "M",
-        "XL",
-        "XXL"
-      ],
-      "option_mismatch": false
-    },
-    {
       "sku": "L1S1412000-02S0J24-V0029",
       "option": "S",
       "stock": 1,
@@ -5846,29 +5323,29 @@
       "product_url": "https://kream.co.kr/products/822327",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 620000,
+        "lowest_ask": 637000,
         "highest_bid": 500000,
-        "change_text": "▲ 26,000원(+4.7%)"
+        "change_text": "▼ 5,000원(-0.9%)"
       },
       "sales": [],
       "asks": [
         {
-          "price": 620000,
+          "price": 637000,
           "option": "S",
           "quantity": 1
         },
         {
-          "price": 654000,
+          "price": 638000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 640000,
           "option": "S",
           "quantity": 1
         },
         {
           "price": 655000,
-          "option": "S",
-          "quantity": 1
-        },
-        {
-          "price": 765000,
           "option": "S",
           "quantity": 1
         }
@@ -5890,7 +5367,7 @@
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "▲ 26,000원(+4.7%)",
+            "text": "▼ 5,000원(-0.9%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -5899,7 +5376,7 @@
             "action_type": null,
             "action_value": null,
             "adjustment": 0,
-            "color": "#F15746",
+            "color": "#31B46E",
             "type": "text"
           }
         ],
@@ -5912,11 +5389,11 @@
       },
       "kream_option": "S",
       "kream_options_available": [
-        "M",
         "L",
-        "XL",
         "S",
-        "XXL"
+        "XXL",
+        "M",
+        "XL"
       ],
       "option_mismatch": false
     },
@@ -6003,7 +5480,7 @@
       "product_url": "https://kream.co.kr/products/709456",
       "market": {
         "last_sale_price": 1014000,
-        "lowest_ask": 996000,
+        "lowest_ask": 989000,
         "highest_bid": 200000,
         "change_text": "▲ 32,000원(+3.2%)"
       },
@@ -6025,17 +5502,17 @@
       ],
       "asks": [
         {
-          "price": 996000,
+          "price": 989000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 990000,
           "option": "M",
           "quantity": 1
         },
         {
           "price": 997000,
-          "option": "M",
-          "quantity": 1
-        },
-        {
-          "price": 999000,
           "option": "M",
           "quantity": 1
         },
@@ -6055,12 +5532,17 @@
           "quantity": 1
         },
         {
+          "price": 1048000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
           "price": 1090000,
           "option": "M",
           "quantity": 1
         },
         {
-          "price": 1142000,
+          "price": 1108000,
           "option": "M",
           "quantity": 1
         }
@@ -6074,7 +5556,7 @@
       ],
       "totals": {
         "sales": 2,
-        "asks": 8,
+        "asks": 9,
         "bids": 1
       },
       "raw_chart_recently": {
@@ -6340,30 +5822,24 @@
       "product_url": "https://kream.co.kr/products/808504",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 484000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 484000,
-          "option": "L",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 1,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "L",
+      "kream_option": "__all",
       "kream_options_available": [
-        "L"
+        "S"
       ],
-      "option_mismatch": false
+      "option_mismatch": true
     },
     {
       "sku": "L1S1561000-31S0060-V015G",
@@ -6376,28 +5852,22 @@
       "product_url": "https://kream.co.kr/products/808504",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 484000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 484000,
-          "option": "L",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 1,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "L",
+      "kream_option": "__all",
       "kream_options_available": [
-        "L"
+        "S"
       ],
       "option_mismatch": true
     },
@@ -6412,28 +5882,22 @@
       "product_url": "https://kream.co.kr/products/808504",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 484000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 484000,
-          "option": "L",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 1,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "L",
+      "kream_option": "__all",
       "kream_options_available": [
-        "L"
+        "S"
       ],
       "option_mismatch": true
     },
@@ -6486,24 +5950,24 @@
       "error": "No KREAM match for SKU=\"L1S1561000-34S0060-V0124\" SPU=\"L1S156100034S0060V0124\"",
       "candidates": [
         {
+          "product_id": 862342,
+          "text": "Stone Island\n\n스톤 아일랜드 6100044 스트레치 코튼 텔라 파라슈트 오버사이즈핏 집업 트랙 자켓 래글런 슬리브 블랙 - 26SS\n\n28%\n\n624,000원\n\n관심 6"
+        },
+        {
           "product_id": 797637,
-          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n44%\n\n374,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n45%\n\n363,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 139264,
-          "text": "Stone Island\n\n스톤 아일랜드 64151 코튼 플리스 후드 스웨트셔츠 네이비 블루 - 23SS\n\n52%\n\n299,000원\n\n관심 83\n\n · 리뷰 3\n\n · 거래 14"
+          "product_id": 48101,
+          "text": "Stone Island\n\n스톤 아일랜드 63051 크루넥 스웨트셔츠 블랙 - 22SS\n\n7%\n\n439,000원\n\n관심 3,912\n\n · 리뷰 96\n\n · 거래 3,575"
         },
         {
-          "product_id": 885994,
-          "text": "Stone Island\n\n스톤 아일랜드 6100061 오가닉 코튼 플리스 레귤러핏 집업 후드 스웨트셔츠 포켓 밀리터리 그린 - 26SS\n\n23%\n\n462,000원\n\n관심 6"
+          "product_id": 789717,
+          "text": "Stone Island\n\n스톤 아일랜드 6100018 코튼 플리스 레귤러 핏 시즈널 포켓 트랙 자켓 블랙 - 26SS\n\n480,000원\n\n관심 27\n\n · 리뷰 1\n\n · 거래 3"
         },
         {
-          "product_id": 427342,
-          "text": "Stone Island\n\n스톤 아일랜드 6100045 오가닉 코튼 플리스 스웨트셔츠 드로우스트링 후드 앤 포켓 블랙 - 25SS\n\n40%\n\n369,000원\n\n관심 829\n\n · 리뷰 57\n\n · 거래 187"
-        },
-        {
-          "product_id": 630272,
-          "text": "Stone Island\n\n스톤 아일랜드 6100063 오가닉 코튼 플리스 스웨트셔츠 블랙 - 25FW\n\n455,000원\n\n관심 34\n\n · 리뷰 1\n\n · 거래 3"
+          "product_id": 771019,
+          "text": "Stone Island\n\n스톤 아일랜드 6100033 말파일 플리스 올드 이펙트 레귤러핏 집업 트랙 자켓 포켓 차콜 그레이 - 26SS\n\n27%\n\n483,000원\n\n관심 67\n\n · 거래 2"
         }
       ]
     },
@@ -6589,7 +6053,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "785,500원(0%)",
+            "text": "781,000원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -6686,7 +6150,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "785,500원(0%)",
+            "text": "781,000원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -6788,7 +6252,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "785,500원(0%)",
+            "text": "781,000원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -7097,7 +6561,7 @@
           "quantity": 1
         },
         {
-          "price": 1219000,
+          "price": 1166000,
           "option": "XXL",
           "quantity": 1
         }
@@ -7129,14 +6593,14 @@
       "product_url": "https://kream.co.kr/products/808505",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 480000,
+        "lowest_ask": 450000,
         "highest_bid": 202000,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 480000,
+          "price": 450000,
           "option": "L",
           "quantity": 1
         }
@@ -7156,8 +6620,7 @@
       "raw_chart_recently": null,
       "kream_option": "L",
       "kream_options_available": [
-        "L",
-        "M"
+        "L"
       ],
       "option_mismatch": false
     },
@@ -7172,51 +6635,14 @@
       "product_url": "https://kream.co.kr/products/808505",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 484000,
-        "highest_bid": null,
-        "change_text": null
-      },
-      "sales": [],
-      "asks": [
-        {
-          "price": 484000,
-          "option": "M",
-          "quantity": 1
-        }
-      ],
-      "bids": [],
-      "totals": {
-        "sales": 0,
-        "asks": 1,
-        "bids": 0
-      },
-      "raw_chart_recently": null,
-      "kream_option": "M",
-      "kream_options_available": [
-        "L",
-        "M"
-      ],
-      "option_mismatch": false
-    },
-    {
-      "sku": "L1S1561000-31S0060-V0165",
-      "option": "XL",
-      "stock": 2,
-      "eur_price": 186.48,
-      "matched": true,
-      "product_id": 808505,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/808505",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": 480000,
+        "lowest_ask": 450000,
         "highest_bid": 202000,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 480000,
+          "price": 450000,
           "option": "L",
           "quantity": 1
         }
@@ -7236,8 +6662,49 @@
       "raw_chart_recently": null,
       "kream_option": "L",
       "kream_options_available": [
-        "L",
-        "M"
+        "L"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "L1S1561000-31S0060-V0165",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 186.48,
+      "matched": true,
+      "product_id": 808505,
+      "product_name_ko": "Stone Island",
+      "product_url": "https://kream.co.kr/products/808505",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 450000,
+        "highest_bid": 202000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 450000,
+          "option": "L",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 202000,
+          "option": "L",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "L",
+      "kream_options_available": [
+        "L"
       ],
       "option_mismatch": true
     },
@@ -7252,14 +6719,14 @@
       "product_url": "https://kream.co.kr/products/901766",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 707000,
+        "lowest_ask": 706000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 707000,
+          "price": 706000,
           "option": "32",
           "quantity": 1
         }
@@ -7293,14 +6760,14 @@
       "product_url": "https://kream.co.kr/products/901766",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 707000,
+        "lowest_ask": 706000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 707000,
+          "price": 706000,
           "option": "33",
           "quantity": 1
         }
@@ -7334,14 +6801,14 @@
       "product_url": "https://kream.co.kr/products/901766",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 707000,
+        "lowest_ask": 706000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 707000,
+          "price": 706000,
           "option": "36",
           "quantity": 1
         }
@@ -7537,7 +7004,7 @@
     {
       "sku": "L1S1512000-13S0A10-V0093",
       "option": "L",
-      "stock": 4,
+      "stock": 3,
       "eur_price": 231.76,
       "matched": true,
       "product_id": 764234,
@@ -7546,7 +7013,7 @@
       "market": {
         "last_sale_price": null,
         "lowest_ask": 455000,
-        "highest_bid": 350000,
+        "highest_bid": null,
         "change_text": null
       },
       "sales": [],
@@ -7559,7 +7026,7 @@
         {
           "price": 479000,
           "option": "L",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "price": 498000,
@@ -7572,17 +7039,11 @@
           "quantity": 1
         }
       ],
-      "bids": [
-        {
-          "price": 350000,
-          "option": "L",
-          "quantity": 1
-        }
-      ],
+      "bids": [],
       "totals": {
         "sales": 0,
         "asks": 4,
-        "bids": 1
+        "bids": 0
       },
       "raw_chart_recently": null,
       "kream_option": "L",
@@ -7606,7 +7067,7 @@
       "market": {
         "last_sale_price": null,
         "lowest_ask": 455000,
-        "highest_bid": 301000,
+        "highest_bid": null,
         "change_text": null
       },
       "sales": [],
@@ -7619,7 +7080,7 @@
         {
           "price": 479000,
           "option": "M",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "price": 498000,
@@ -7637,17 +7098,11 @@
           "quantity": 3
         }
       ],
-      "bids": [
-        {
-          "price": 301000,
-          "option": "M",
-          "quantity": 1
-        }
-      ],
+      "bids": [],
       "totals": {
         "sales": 0,
         "asks": 5,
-        "bids": 1
+        "bids": 0
       },
       "raw_chart_recently": null,
       "kream_option": "M",
@@ -7671,7 +7126,7 @@
       "market": {
         "last_sale_price": null,
         "lowest_ask": 455000,
-        "highest_bid": 350000,
+        "highest_bid": null,
         "change_text": null
       },
       "sales": [],
@@ -7684,7 +7139,7 @@
         {
           "price": 479000,
           "option": "L",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "price": 498000,
@@ -7697,17 +7152,11 @@
           "quantity": 1
         }
       ],
-      "bids": [
-        {
-          "price": 350000,
-          "option": "L",
-          "quantity": 1
-        }
-      ],
+      "bids": [],
       "totals": {
         "sales": 0,
         "asks": 4,
-        "bids": 1
+        "bids": 0
       },
       "raw_chart_recently": null,
       "kream_option": "L",
@@ -7731,7 +7180,7 @@
       "market": {
         "last_sale_price": null,
         "lowest_ask": 455000,
-        "highest_bid": 377000,
+        "highest_bid": null,
         "change_text": null
       },
       "sales": [],
@@ -7744,7 +7193,7 @@
         {
           "price": 479000,
           "option": "XL",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "price": 498000,
@@ -7762,17 +7211,11 @@
           "quantity": 3
         }
       ],
-      "bids": [
-        {
-          "price": 377000,
-          "option": "XL",
-          "quantity": 1
-        }
-      ],
+      "bids": [],
       "totals": {
         "sales": 0,
         "asks": 5,
-        "bids": 1
+        "bids": 0
       },
       "raw_chart_recently": null,
       "kream_option": "XL",
@@ -7809,7 +7252,7 @@
         {
           "price": 479000,
           "option": "XXL",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "price": 498000,
@@ -7839,34 +7282,6 @@
       "option_mismatch": false
     },
     {
-      "sku": "L1S1592000-12S0251-V008F",
-      "option": "U",
-      "stock": 1,
-      "eur_price": 181.97,
-      "matched": true,
-      "product_id": 709421,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/709421",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": null,
-        "highest_bid": null,
-        "change_text": null
-      },
-      "sales": [],
-      "asks": [],
-      "bids": [],
-      "totals": {
-        "sales": 0,
-        "asks": 0,
-        "bids": 0
-      },
-      "raw_chart_recently": null,
-      "kream_option": null,
-      "kream_options_available": [],
-      "option_mismatch": true
-    },
-    {
       "sku": "L1S1531000-37S0184-V019A",
       "option": "36",
       "stock": 1,
@@ -7894,7 +7309,7 @@
           "quantity": 1
         },
         {
-          "price": 601000,
+          "price": 573000,
           "option": "30",
           "quantity": 1
         }
@@ -7927,19 +7342,19 @@
       "product_url": "https://kream.co.kr/products/767003",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 551000,
+        "lowest_ask": 563000,
         "highest_bid": 200000,
         "change_text": "-"
       },
       "sales": [],
       "asks": [
         {
-          "price": 551000,
+          "price": 563000,
           "option": "XL",
           "quantity": 1
         },
         {
-          "price": 552000,
+          "price": 564000,
           "option": "XL",
           "quantity": 1
         },
@@ -8130,7 +7545,7 @@
         "last_sale_price": 488000,
         "lowest_ask": 478000,
         "highest_bid": 450000,
-        "change_text": "-"
+        "change_text": "▲ 100,000원(+24.7%)"
       },
       "sales": [
         {
@@ -8181,17 +7596,17 @@
           "quantity": 1
         },
         {
-          "price": 484000,
+          "price": 480000,
           "option": "M",
           "quantity": 2
         },
         {
-          "price": 485000,
+          "price": 484000,
           "option": "M",
           "quantity": 1
         },
         {
-          "price": 488000,
+          "price": 485000,
           "option": "M",
           "quantity": 1
         },
@@ -8249,25 +7664,11 @@
         "bids": 2
       },
       "raw_chart_recently": {
-        "text": ";tl_0; ;tl_1;",
+        "text": ";tl_0;",
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "-",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": true,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#4E4E4E",
-            "type": "text"
-          },
-          {
-            "key": ";tl_1;",
-            "text": "0원(0%)",
+            "text": "▲ 100,000원(+24.7%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -8276,7 +7677,7 @@
             "action_type": null,
             "action_value": null,
             "adjustment": 0,
-            "color": "#4E4E4E",
+            "color": "#F15746",
             "type": "text"
           }
         ],
@@ -8309,9 +7710,9 @@
       "product_url": "https://kream.co.kr/products/751100",
       "market": {
         "last_sale_price": 459000,
-        "lowest_ask": 482000,
+        "lowest_ask": 479000,
         "highest_bid": 450000,
-        "change_text": "-"
+        "change_text": "▲ 100,000원(+24.7%)"
       },
       "sales": [
         {
@@ -8425,35 +7826,21 @@
           "date_created": "2026-04-09T13:21:20Z",
           "date_text": "26/04/09",
           "is_immediate": true
-        },
-        {
-          "price": 498000,
-          "option": "XL",
-          "date_created": "2026-04-06T14:40:38Z",
-          "date_text": "26/04/06",
-          "is_immediate": true
-        },
-        {
-          "price": 497000,
-          "option": "XL",
-          "date_created": "2026-04-06T14:29:59Z",
-          "date_text": "26/04/06",
-          "is_immediate": true
         }
       ],
       "asks": [
         {
-          "price": 482000,
+          "price": 479000,
+          "option": "XL",
+          "quantity": 1
+        },
+        {
+          "price": 480000,
           "option": "XL",
           "quantity": 1
         },
         {
           "price": 483000,
-          "option": "XL",
-          "quantity": 1
-        },
-        {
-          "price": 488000,
           "option": "XL",
           "quantity": 1
         },
@@ -8471,6 +7858,11 @@
           "price": 529000,
           "option": "XL",
           "quantity": 1
+        },
+        {
+          "price": 549000,
+          "option": "XL",
+          "quantity": 1
         }
       ],
       "bids": [
@@ -8486,30 +7878,16 @@
         }
       ],
       "totals": {
-        "sales": 18,
-        "asks": 6,
+        "sales": 16,
+        "asks": 7,
         "bids": 2
       },
       "raw_chart_recently": {
-        "text": ";tl_0; ;tl_1;",
+        "text": ";tl_0;",
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "-",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": true,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#4E4E4E",
-            "type": "text"
-          },
-          {
-            "key": ";tl_1;",
-            "text": "0원(0%)",
+            "text": "▲ 100,000원(+24.7%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -8518,7 +7896,7 @@
             "action_type": null,
             "action_value": null,
             "adjustment": 0,
-            "color": "#4E4E4E",
+            "color": "#F15746",
             "type": "text"
           }
         ],
@@ -8582,9 +7960,9 @@
       "raw_chart_recently": null,
       "kream_option": "XL",
       "kream_options_available": [
+        "XXL",
         "M",
         "XL",
-        "XXL",
         "L"
       ],
       "option_mismatch": false
@@ -8740,43 +8118,6 @@
     },
     {
       "sku": "L1S1551000-33S0N12-V0M8G",
-      "option": "M",
-      "stock": 1,
-      "eur_price": 210.45,
-      "matched": true,
-      "product_id": 756753,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/756753",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": null,
-        "highest_bid": 300000,
-        "change_text": null
-      },
-      "sales": [],
-      "asks": [],
-      "bids": [
-        {
-          "price": 300000,
-          "option": "XXL",
-          "quantity": 1
-        }
-      ],
-      "totals": {
-        "sales": 0,
-        "asks": 0,
-        "bids": 1
-      },
-      "raw_chart_recently": null,
-      "kream_option": "XXL",
-      "kream_options_available": [
-        "XXL",
-        "L"
-      ],
-      "option_mismatch": true
-    },
-    {
-      "sku": "L1S1551000-33S0N12-V0M8G",
       "option": "XL",
       "stock": 2,
       "eur_price": 210.45,
@@ -8823,15 +8164,15 @@
       "product_url": "https://kream.co.kr/products/822328",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 441000,
+        "lowest_ask": 416000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 441000,
-          "option": "32",
+          "price": 416000,
+          "option": "33",
           "quantity": 1
         }
       ],
@@ -8842,9 +8183,9 @@
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "32",
+      "kream_option": "33",
       "kream_options_available": [
-        "32"
+        "33"
       ],
       "option_mismatch": true
     },
@@ -8859,15 +8200,15 @@
       "product_url": "https://kream.co.kr/products/822328",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 441000,
+        "lowest_ask": 416000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 441000,
-          "option": "32",
+          "price": 416000,
+          "option": "33",
           "quantity": 1
         }
       ],
@@ -8878,11 +8219,11 @@
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "32",
+      "kream_option": "33",
       "kream_options_available": [
-        "32"
+        "33"
       ],
-      "option_mismatch": false
+      "option_mismatch": true
     },
     {
       "sku": "L1S14J1000-05S00J7-VJ201",
@@ -8895,15 +8236,15 @@
       "product_url": "https://kream.co.kr/products/822328",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 441000,
+        "lowest_ask": 416000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 441000,
-          "option": "32",
+          "price": 416000,
+          "option": "33",
           "quantity": 1
         }
       ],
@@ -8914,11 +8255,11 @@
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "32",
+      "kream_option": "33",
       "kream_options_available": [
-        "32"
+        "33"
       ],
-      "option_mismatch": true
+      "option_mismatch": false
     },
     {
       "sku": "L1S14J1000-05S00J7-VJ201",
@@ -8931,15 +8272,15 @@
       "product_url": "https://kream.co.kr/products/822328",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 441000,
+        "lowest_ask": 416000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 441000,
-          "option": "32",
+          "price": 416000,
+          "option": "33",
           "quantity": 1
         }
       ],
@@ -8950,9 +8291,9 @@
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "32",
+      "kream_option": "33",
       "kream_options_available": [
-        "32"
+        "33"
       ],
       "option_mismatch": true
     },
@@ -8968,7 +8309,7 @@
       "market": {
         "last_sale_price": null,
         "lowest_ask": 750000,
-        "highest_bid": null,
+        "highest_bid": 300000,
         "change_text": "-"
       },
       "sales": [],
@@ -8979,11 +8320,17 @@
           "quantity": 1
         }
       ],
-      "bids": [],
+      "bids": [
+        {
+          "price": 300000,
+          "option": "30",
+          "quantity": 1
+        }
+      ],
       "totals": {
         "sales": 0,
         "asks": 1,
-        "bids": 0
+        "bids": 1
       },
       "raw_chart_recently": {
         "text": ";tl_0; ;tl_1;",
@@ -9004,7 +8351,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "165,300원(0%)",
+            "text": "163,500원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -9085,7 +8432,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "165,300원(0%)",
+            "text": "163,500원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -9128,7 +8475,7 @@
       "market": {
         "last_sale_price": null,
         "lowest_ask": 734000,
-        "highest_bid": 279000,
+        "highest_bid": null,
         "change_text": "-"
       },
       "sales": [],
@@ -9149,17 +8496,11 @@
           "quantity": 1
         }
       ],
-      "bids": [
-        {
-          "price": 279000,
-          "option": "34",
-          "quantity": 1
-        }
-      ],
+      "bids": [],
       "totals": {
         "sales": 0,
         "asks": 3,
-        "bids": 1
+        "bids": 0
       },
       "raw_chart_recently": {
         "text": ";tl_0; ;tl_1;",
@@ -9180,7 +8521,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "165,300원(0%)",
+            "text": "163,500원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -9234,12 +8575,17 @@
           "quantity": 1
         },
         {
-          "price": 900000,
+          "price": 850000,
           "option": "L",
           "quantity": 1
         },
         {
-          "price": 919000,
+          "price": 854000,
+          "option": "L",
+          "quantity": 1
+        },
+        {
+          "price": 876000,
           "option": "L",
           "quantity": 3
         }
@@ -9247,7 +8593,7 @@
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 3,
+        "asks": 4,
         "bids": 0
       },
       "raw_chart_recently": null,
@@ -9272,24 +8618,29 @@
       "product_url": "https://kream.co.kr/products/812632",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 853000,
+        "lowest_ask": 849000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 853000,
+          "price": 849000,
           "option": "M",
           "quantity": 1
         },
         {
-          "price": 900000,
+          "price": 850000,
           "option": "M",
           "quantity": 1
         },
         {
-          "price": 919000,
+          "price": 854000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 876000,
           "option": "M",
           "quantity": 1
         }
@@ -9297,7 +8648,7 @@
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 3,
+        "asks": 4,
         "bids": 0
       },
       "raw_chart_recently": null,
@@ -9322,31 +8673,31 @@
       "product_url": "https://kream.co.kr/products/812632",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 853000,
+        "lowest_ask": 849000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 853000,
+          "price": 849000,
           "option": "XL",
           "quantity": 1
         },
         {
-          "price": 900000,
+          "price": 850000,
           "option": "XL",
           "quantity": 1
         },
         {
-          "price": 919000,
+          "price": 854000,
+          "option": "XL",
+          "quantity": 1
+        },
+        {
+          "price": 876000,
           "option": "XL",
           "quantity": 3
-        },
-        {
-          "price": 1240000,
-          "option": "XL",
-          "quantity": 1
         }
       ],
       "bids": [],
@@ -9389,7 +8740,17 @@
           "quantity": 1
         },
         {
-          "price": 919000,
+          "price": 854000,
+          "option": "XXL",
+          "quantity": 1
+        },
+        {
+          "price": 876000,
+          "option": "XXL",
+          "quantity": 1
+        },
+        {
+          "price": 1240000,
           "option": "XXL",
           "quantity": 1
         }
@@ -9397,7 +8758,7 @@
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 2,
+        "asks": 4,
         "bids": 0
       },
       "raw_chart_recently": null,
@@ -9422,8 +8783,8 @@
       "product_url": "https://kream.co.kr/products/799232",
       "market": {
         "last_sale_price": 340000,
-        "lowest_ask": 359000,
-        "highest_bid": 200000,
+        "lowest_ask": 355000,
+        "highest_bid": 340000,
         "change_text": "▲ 24,000원(+7.1%)"
       },
       "sales": [
@@ -9451,12 +8812,12 @@
       ],
       "asks": [
         {
-          "price": 359000,
+          "price": 355000,
           "option": "L",
           "quantity": 1
         },
         {
-          "price": 360000,
+          "price": 356000,
           "option": "L",
           "quantity": 1
         },
@@ -9503,10 +8864,15 @@
         {
           "price": 426000,
           "option": "L",
-          "quantity": 10
+          "quantity": 9
         }
       ],
       "bids": [
+        {
+          "price": 340000,
+          "option": "L",
+          "quantity": 1
+        },
         {
           "price": 200000,
           "option": "L",
@@ -9516,7 +8882,7 @@
       "totals": {
         "sales": 3,
         "asks": 11,
-        "bids": 1
+        "bids": 2
       },
       "raw_chart_recently": {
         "text": ";tl_0;",
@@ -9545,10 +8911,10 @@
       },
       "kream_option": "L",
       "kream_options_available": [
-        "M",
-        "XL",
         "L",
+        "XL",
         "XXL",
+        "M",
         "S"
       ],
       "option_mismatch": false
@@ -9564,8 +8930,8 @@
       "product_url": "https://kream.co.kr/products/799232",
       "market": {
         "last_sale_price": 360000,
-        "lowest_ask": 358000,
-        "highest_bid": 330000,
+        "lowest_ask": 354000,
+        "highest_bid": null,
         "change_text": "▲ 24,000원(+7.1%)"
       },
       "sales": [
@@ -9586,12 +8952,12 @@
       ],
       "asks": [
         {
-          "price": 358000,
+          "price": 354000,
           "option": "M",
           "quantity": 1
         },
         {
-          "price": 359000,
+          "price": 355000,
           "option": "M",
           "quantity": 1
         },
@@ -9643,20 +9009,14 @@
         {
           "price": 426000,
           "option": "M",
-          "quantity": 6
+          "quantity": 5
         }
       ],
-      "bids": [
-        {
-          "price": 330000,
-          "option": "M",
-          "quantity": 1
-        }
-      ],
+      "bids": [],
       "totals": {
         "sales": 2,
         "asks": 12,
-        "bids": 1
+        "bids": 0
       },
       "raw_chart_recently": {
         "text": ";tl_0;",
@@ -9685,10 +9045,10 @@
       },
       "kream_option": "M",
       "kream_options_available": [
-        "M",
-        "XL",
         "L",
+        "XL",
         "XXL",
+        "M",
         "S"
       ],
       "option_mismatch": false
@@ -9704,7 +9064,7 @@
       "product_url": "https://kream.co.kr/products/799232",
       "market": {
         "last_sale_price": 336000,
-        "lowest_ask": 359000,
+        "lowest_ask": 355000,
         "highest_bid": 211000,
         "change_text": "▲ 24,000원(+7.1%)"
       },
@@ -9747,12 +9107,12 @@
       ],
       "asks": [
         {
-          "price": 359000,
+          "price": 355000,
           "option": "XL",
           "quantity": 1
         },
         {
-          "price": 360000,
+          "price": 356000,
           "option": "XL",
           "quantity": 1
         },
@@ -9846,10 +9206,10 @@
       },
       "kream_option": "XL",
       "kream_options_available": [
-        "M",
-        "XL",
         "L",
+        "XL",
         "XXL",
+        "M",
         "S"
       ],
       "option_mismatch": false
@@ -9964,10 +9324,10 @@
       },
       "kream_option": "XXL",
       "kream_options_available": [
-        "M",
-        "XL",
         "L",
+        "XL",
         "XXL",
+        "M",
         "S"
       ],
       "option_mismatch": false
@@ -9983,26 +9343,26 @@
       "product_url": "https://kream.co.kr/products/865004",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 453000,
+        "lowest_ask": 452000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 453000,
+          "price": 452000,
           "option": "M",
           "quantity": 2
         },
         {
-          "price": 454000,
+          "price": 453000,
           "option": "M",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "price": 486000,
           "option": "M",
-          "quantity": 1
+          "quantity": 2
         }
       ],
       "bids": [],
@@ -10060,30 +9420,30 @@
     {
       "sku": "L1S1561000-32S0060-V0193",
       "option": "XL",
-      "stock": 4,
+      "stock": 3,
       "eur_price": 210.45,
       "matched": false,
       "error": "No KREAM match for SKU=\"L1S1561000-32S0060-V0193\" SPU=\"L1S156100032S0060V0193\"",
       "candidates": [
         {
+          "product_id": 630272,
+          "text": "Stone Island\n\n스톤 아일랜드 6100063 오가닉 코튼 플리스 스웨트셔츠 블랙 - 25FW\n\n455,000원\n\n관심 34\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 183426,
+          "text": "Stone Island\n\n스톤 아일랜드 62420 브러쉬드 코튼 플리스 가먼트 다이드 크루넥 스웨트셔츠 다크 그레이 멜란지 - 23FW\n\n50%\n\n275,000원\n\n관심 126\n\n · 리뷰 1\n\n · 거래 15"
+        },
+        {
+          "product_id": 295768,
+          "text": "Stone Island\n\n스톤 아일랜드 63051 코튼 플리스 가먼트 다이드 스웨트셔츠 더스트 멜란지 - 24SS\n\n427,000원\n\n관심 49\n\n · 리뷰 3\n\n · 거래 16"
+        },
+        {
+          "product_id": 489075,
+          "text": "Stone Island\n\n스톤 아일랜드 6100044 오가닉 코튼 플리스 크루넥 스웨트셔츠 립드 디테일 더스트 그레이 멜란지 - 25SS\n\n319,000원\n\n관심 245\n\n · 리뷰 30\n\n · 거래 83"
+        },
+        {
           "product_id": 427342,
-          "text": "Stone Island\n\n스톤 아일랜드 6100045 오가닉 코튼 플리스 스웨트셔츠 드로우스트링 후드 앤 포켓 블랙 - 25SS\n\n40%\n\n369,000원\n\n관심 829\n\n · 리뷰 57\n\n · 거래 187"
-        },
-        {
-          "product_id": 797637,
-          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n44%\n\n374,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 69639,
-          "text": "Stone Island\n\n스톤 아일랜드 64120 코튼 플리스 후드 스웨트셔츠 블랙 - 22FW\n\n377,000원\n\n관심 2,622\n\n · 리뷰 53\n\n · 거래 925\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 421641,
-          "text": "Stone Island\n\n스톤 아일랜드 6100003 코튼 플리스 크루넥 스웨트셔츠 집 슬리브 포켓 블랙 - 25SS\n\n38%\n\n403,000원\n\n관심 96\n\n · 리뷰 5\n\n · 거래 30\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 760737,
-          "text": "Stone Island\n\n스톤 아일랜드 6100032 말파일 플리스 올드 이펙트 레귤러핏 집업 후드 스웨트셔츠 블랙 - 26SS\n\n452,000원\n\n관심 19"
+          "text": "Stone Island\n\n스톤 아일랜드 6100045 오가닉 코튼 플리스 스웨트셔츠 드로우스트링 후드 앤 포켓 블랙 - 25SS\n\n40%\n\n369,000원\n\n관심 827\n\n · 리뷰 57\n\n · 거래 187"
         }
       ]
     },
@@ -10110,7 +9470,7 @@
           "quantity": 3
         },
         {
-          "price": 875000,
+          "price": 864000,
           "option": "L",
           "quantity": 3
         }
@@ -10130,10 +9490,10 @@
       "raw_chart_recently": null,
       "kream_option": "L",
       "kream_options_available": [
+        "XL",
         "L",
         "M",
         "S",
-        "XL",
         "XXL"
       ],
       "option_mismatch": false
@@ -10161,12 +9521,12 @@
           "quantity": 5
         },
         {
-          "price": 808000,
+          "price": 772000,
           "option": "M",
           "quantity": 1
         },
         {
-          "price": 875000,
+          "price": 864000,
           "option": "M",
           "quantity": 3
         }
@@ -10186,10 +9546,10 @@
       "raw_chart_recently": null,
       "kream_option": "M",
       "kream_options_available": [
+        "XL",
         "L",
         "M",
         "S",
-        "XL",
         "XXL"
       ],
       "option_mismatch": false
@@ -10205,19 +9565,19 @@
       "product_url": "https://kream.co.kr/products/744593",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 875000,
+        "lowest_ask": 864000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 875000,
+          "price": 864000,
           "option": "XXL",
           "quantity": 2
         },
         {
-          "price": 911000,
+          "price": 900000,
           "option": "XXL",
           "quantity": 1
         },
@@ -10236,10 +9596,10 @@
       "raw_chart_recently": null,
       "kream_option": "XXL",
       "kream_options_available": [
+        "XL",
         "L",
         "M",
         "S",
-        "XL",
         "XXL"
       ],
       "option_mismatch": false
@@ -10247,7 +9607,7 @@
     {
       "sku": "L1S1551000-52S00B0-V0041",
       "option": "L",
-      "stock": 3,
+      "stock": 1,
       "eur_price": 167.83,
       "matched": true,
       "product_id": 771000,
@@ -10378,50 +9738,6 @@
     },
     {
       "sku": "L1S1551000-52S00B0-V0041",
-      "option": "XL",
-      "stock": 1,
-      "eur_price": 167.83,
-      "matched": true,
-      "product_id": 771000,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/771000",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": 443000,
-        "highest_bid": null,
-        "change_text": null
-      },
-      "sales": [],
-      "asks": [
-        {
-          "price": 443000,
-          "option": "XL",
-          "quantity": 3
-        },
-        {
-          "price": 599000,
-          "option": "XL",
-          "quantity": 1
-        }
-      ],
-      "bids": [],
-      "totals": {
-        "sales": 0,
-        "asks": 2,
-        "bids": 0
-      },
-      "raw_chart_recently": null,
-      "kream_option": "XL",
-      "kream_options_available": [
-        "L",
-        "M",
-        "XL",
-        "XXL"
-      ],
-      "option_mismatch": false
-    },
-    {
-      "sku": "L1S1551000-52S00B0-V0041",
       "option": "XXL",
       "stock": 1,
       "eur_price": 167.83,
@@ -10512,7 +9828,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "77,300원(0%)",
+            "text": "75,800원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -10596,7 +9912,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "77,300원(0%)",
+            "text": "75,800원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -10680,7 +9996,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "77,300원(0%)",
+            "text": "75,800원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -10722,14 +10038,14 @@
       "product_url": "https://kream.co.kr/products/822319",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 441000,
+        "lowest_ask": 416000,
         "highest_bid": null,
         "change_text": "-"
       },
       "sales": [],
       "asks": [
         {
-          "price": 441000,
+          "price": 416000,
           "option": "33",
           "quantity": 1
         },
@@ -10769,7 +10085,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "77,300원(0%)",
+            "text": "75,800원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -10820,7 +10136,7 @@
         {
           "price": 398000,
           "option": "L",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "price": 399000,
@@ -10845,7 +10161,7 @@
         {
           "price": 468000,
           "option": "L",
-          "quantity": 1
+          "quantity": 2
         },
         {
           "price": 475000,
@@ -10890,7 +10206,7 @@
         {
           "price": 398000,
           "option": "M",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "price": 399000,
@@ -10955,7 +10271,7 @@
         {
           "price": 398000,
           "option": "XL",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "price": 399000,
@@ -10985,7 +10301,7 @@
         {
           "price": 468000,
           "option": "XL",
-          "quantity": 1
+          "quantity": 2
         },
         {
           "price": 475000,
@@ -11030,7 +10346,7 @@
         {
           "price": 398000,
           "option": "XXL",
-          "quantity": 2
+          "quantity": 1
         },
         {
           "price": 399000,
@@ -11180,68 +10496,32 @@
       "option_mismatch": true
     },
     {
-      "sku": "L1S1512000-13S0A10-V0055",
-      "option": "XXL",
-      "stock": 1,
-      "eur_price": 231.76,
-      "matched": true,
-      "product_id": 808395,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/808395",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": null,
-        "highest_bid": 122000,
-        "change_text": null
-      },
-      "sales": [],
-      "asks": [],
-      "bids": [
-        {
-          "price": 122000,
-          "option": "M",
-          "quantity": 1
-        }
-      ],
-      "totals": {
-        "sales": 0,
-        "asks": 0,
-        "bids": 1
-      },
-      "raw_chart_recently": null,
-      "kream_option": "M",
-      "kream_options_available": [
-        "M"
-      ],
-      "option_mismatch": true
-    },
-    {
       "sku": "L1S14J1000-05S00J9-VJ203",
       "option": "30",
-      "stock": 1,
+      "stock": 2,
       "eur_price": 186.48,
       "matched": false,
       "error": "No KREAM match for SKU=\"L1S14J1000-05S00J9-VJ203\" SPU=\"L1S14J100005S00J9VJ203\"",
       "candidates": [
         {
-          "product_id": 770999,
-          "text": "Stone Island\n\n스톤 아일랜드 4100033 마이크로 트윌 스탠드 칼라 자켓 안티 드롭 블랙 - 26SS\n\n37%\n\n759,000원\n\n관심 109\n\n · 리뷰 6\n\n · 거래 16\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 822302,
+          "text": "Stone Island\n\n스톤 아일랜드 4100003 라이트 불 데님 인디고-TC 후드 집업 자켓 안티 드롭 인디고 - 26SS\n\n7%\n\n1,450,000원\n\n관심 6\n\n · 거래 2"
         },
         {
-          "product_id": 797637,
-          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n44%\n\n374,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 789717,
+          "text": "Stone Island\n\n스톤 아일랜드 6100018 코튼 플리스 레귤러 핏 시즈널 포켓 트랙 자켓 블랙 - 26SS\n\n480,000원\n\n관심 27\n\n · 리뷰 1\n\n · 거래 3"
         },
         {
-          "product_id": 822322,
-          "text": "Stone Island\n\n스톤 아일랜드 4100006 라이트 불 데님-TC 코치 자켓 안티 드롭 블랙 - 26SS\n\n13%\n\n899,000원\n\n관심 64\n\n · 리뷰 1\n\n · 거래 1"
+          "product_id": 72669,
+          "text": "Stone Island\n\n스톤 아일랜드 10303 나슬란 라이트 가먼트 다이드 오버셔츠 블랙 - 22FW\n\n579,000원\n\n관심 424\n\n · 리뷰 10\n\n · 거래 90"
         },
         {
           "product_id": 513540,
-          "text": "Stone Island\n\n스톤 아일랜드 4100091 수피마 코튼 트윌 스트레치-TC 체스트 포켓 안티 드롭 후드 자켓 블랙 - 25SS\n\n48%\n\n622,000원\n\n관심 236\n\n · 리뷰 6\n\n · 거래 33\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Stone Island\n\n스톤 아일랜드 4100091 수피마 코튼 트윌 스트레치-TC 체스트 포켓 안티 드롭 후드 자켓 블랙 - 25SS\n\n46%\n\n634,000원\n\n관심 236\n\n · 리뷰 6\n\n · 거래 33\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 138464,
-          "text": "Stone Island\n\n스톤 아일랜드 40130 하이퍼 덴스 나일론 라소 후드 자켓 블랙 - 23SS\n\n750,000원\n\n관심 145\n\n · 리뷰 6\n\n · 거래 14"
+          "product_id": 611746,
+          "text": "Stone Island\n\n스톤 아일랜드 1200027 퍼포먼스 플란넬 스톤 아일랜드 고스트 컴포트 핏 집업 오버셔츠 윈드 레지스턴트 멤브레인 네이비 블루 - 25FW\n\n36%\n\n950,000원\n\n관심 17\n\n · 거래 1"
         }
       ]
     },
@@ -11254,24 +10534,24 @@
       "error": "No KREAM match for SKU=\"L1S14J1000-05S00J9-VJ203\" SPU=\"L1S14J100005S00J9VJ203\"",
       "candidates": [
         {
-          "product_id": 770999,
-          "text": "Stone Island\n\n스톤 아일랜드 4100033 마이크로 트윌 스탠드 칼라 자켓 안티 드롭 블랙 - 26SS\n\n37%\n\n759,000원\n\n관심 109\n\n · 리뷰 6\n\n · 거래 16\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 822302,
+          "text": "Stone Island\n\n스톤 아일랜드 4100003 라이트 불 데님 인디고-TC 후드 집업 자켓 안티 드롭 인디고 - 26SS\n\n7%\n\n1,450,000원\n\n관심 6\n\n · 거래 2"
         },
         {
-          "product_id": 797637,
-          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n44%\n\n374,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 789717,
+          "text": "Stone Island\n\n스톤 아일랜드 6100018 코튼 플리스 레귤러 핏 시즈널 포켓 트랙 자켓 블랙 - 26SS\n\n480,000원\n\n관심 27\n\n · 리뷰 1\n\n · 거래 3"
         },
         {
-          "product_id": 822322,
-          "text": "Stone Island\n\n스톤 아일랜드 4100006 라이트 불 데님-TC 코치 자켓 안티 드롭 블랙 - 26SS\n\n13%\n\n899,000원\n\n관심 64\n\n · 리뷰 1\n\n · 거래 1"
+          "product_id": 72669,
+          "text": "Stone Island\n\n스톤 아일랜드 10303 나슬란 라이트 가먼트 다이드 오버셔츠 블랙 - 22FW\n\n579,000원\n\n관심 424\n\n · 리뷰 10\n\n · 거래 90"
         },
         {
           "product_id": 513540,
-          "text": "Stone Island\n\n스톤 아일랜드 4100091 수피마 코튼 트윌 스트레치-TC 체스트 포켓 안티 드롭 후드 자켓 블랙 - 25SS\n\n48%\n\n622,000원\n\n관심 236\n\n · 리뷰 6\n\n · 거래 33\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Stone Island\n\n스톤 아일랜드 4100091 수피마 코튼 트윌 스트레치-TC 체스트 포켓 안티 드롭 후드 자켓 블랙 - 25SS\n\n46%\n\n634,000원\n\n관심 236\n\n · 리뷰 6\n\n · 거래 33\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 138464,
-          "text": "Stone Island\n\n스톤 아일랜드 40130 하이퍼 덴스 나일론 라소 후드 자켓 블랙 - 23SS\n\n750,000원\n\n관심 145\n\n · 리뷰 6\n\n · 거래 14"
+          "product_id": 611746,
+          "text": "Stone Island\n\n스톤 아일랜드 1200027 퍼포먼스 플란넬 스톤 아일랜드 고스트 컴포트 핏 집업 오버셔츠 윈드 레지스턴트 멤브레인 네이비 블루 - 25FW\n\n36%\n\n950,000원\n\n관심 17\n\n · 거래 1"
         }
       ]
     },
@@ -11284,24 +10564,24 @@
       "error": "No KREAM match for SKU=\"L1S14J1000-05S00J9-VJ203\" SPU=\"L1S14J100005S00J9VJ203\"",
       "candidates": [
         {
-          "product_id": 770999,
-          "text": "Stone Island\n\n스톤 아일랜드 4100033 마이크로 트윌 스탠드 칼라 자켓 안티 드롭 블랙 - 26SS\n\n37%\n\n759,000원\n\n관심 109\n\n · 리뷰 6\n\n · 거래 16\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 822302,
+          "text": "Stone Island\n\n스톤 아일랜드 4100003 라이트 불 데님 인디고-TC 후드 집업 자켓 안티 드롭 인디고 - 26SS\n\n7%\n\n1,450,000원\n\n관심 6\n\n · 거래 2"
         },
         {
-          "product_id": 797637,
-          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n44%\n\n374,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 789717,
+          "text": "Stone Island\n\n스톤 아일랜드 6100018 코튼 플리스 레귤러 핏 시즈널 포켓 트랙 자켓 블랙 - 26SS\n\n480,000원\n\n관심 27\n\n · 리뷰 1\n\n · 거래 3"
         },
         {
-          "product_id": 822322,
-          "text": "Stone Island\n\n스톤 아일랜드 4100006 라이트 불 데님-TC 코치 자켓 안티 드롭 블랙 - 26SS\n\n13%\n\n899,000원\n\n관심 64\n\n · 리뷰 1\n\n · 거래 1"
+          "product_id": 72669,
+          "text": "Stone Island\n\n스톤 아일랜드 10303 나슬란 라이트 가먼트 다이드 오버셔츠 블랙 - 22FW\n\n579,000원\n\n관심 424\n\n · 리뷰 10\n\n · 거래 90"
         },
         {
           "product_id": 513540,
-          "text": "Stone Island\n\n스톤 아일랜드 4100091 수피마 코튼 트윌 스트레치-TC 체스트 포켓 안티 드롭 후드 자켓 블랙 - 25SS\n\n48%\n\n622,000원\n\n관심 236\n\n · 리뷰 6\n\n · 거래 33\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Stone Island\n\n스톤 아일랜드 4100091 수피마 코튼 트윌 스트레치-TC 체스트 포켓 안티 드롭 후드 자켓 블랙 - 25SS\n\n46%\n\n634,000원\n\n관심 236\n\n · 리뷰 6\n\n · 거래 33\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 138464,
-          "text": "Stone Island\n\n스톤 아일랜드 40130 하이퍼 덴스 나일론 라소 후드 자켓 블랙 - 23SS\n\n750,000원\n\n관심 145\n\n · 리뷰 6\n\n · 거래 14"
+          "product_id": 611746,
+          "text": "Stone Island\n\n스톤 아일랜드 1200027 퍼포먼스 플란넬 스톤 아일랜드 고스트 컴포트 핏 집업 오버셔츠 윈드 레지스턴트 멤브레인 네이비 블루 - 25FW\n\n36%\n\n950,000원\n\n관심 17\n\n · 거래 1"
         }
       ]
     },
@@ -11318,7 +10598,7 @@
         "last_sale_price": 719000,
         "lowest_ask": 712000,
         "highest_bid": 460000,
-        "change_text": "▼ 12,000원(-1.7%)"
+        "change_text": "▲ 6,000원(+0.8%)"
       },
       "sales": [
         {
@@ -11390,7 +10670,7 @@
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "▼ 12,000원(-1.7%)",
+            "text": "▲ 6,000원(+0.8%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -11399,7 +10679,7 @@
             "action_type": null,
             "action_value": null,
             "adjustment": 0,
-            "color": "#31B46E",
+            "color": "#F15746",
             "type": "text"
           }
         ],
@@ -11412,9 +10692,9 @@
       },
       "kream_option": "S",
       "kream_options_available": [
-        "L",
         "XL",
         "XXL",
+        "L",
         "M",
         "XXXL",
         "S"
@@ -11432,24 +10712,19 @@
       "product_url": "https://kream.co.kr/products/709433",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 581000,
+        "lowest_ask": 562000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 581000,
+          "price": 562000,
           "option": "L",
           "quantity": 1
         },
         {
-          "price": 582000,
-          "option": "L",
-          "quantity": 1
-        },
-        {
-          "price": 598000,
+          "price": 564000,
           "option": "L",
           "quantity": 1
         },
@@ -11461,7 +10736,12 @@
         {
           "price": 604000,
           "option": "L",
-          "quantity": 3
+          "quantity": 4
+        },
+        {
+          "price": 609000,
+          "option": "L",
+          "quantity": 1
         },
         {
           "price": 685000,
@@ -11498,19 +10778,19 @@
       "product_url": "https://kream.co.kr/products/709433",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 581000,
+        "lowest_ask": 595000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 581000,
+          "price": 595000,
           "option": "M",
           "quantity": 1
         },
         {
-          "price": 582000,
+          "price": 596000,
           "option": "M",
           "quantity": 1
         },
@@ -11522,7 +10802,7 @@
         {
           "price": 604000,
           "option": "M",
-          "quantity": 3
+          "quantity": 4
         },
         {
           "price": 685000,
@@ -11573,7 +10853,7 @@
         {
           "price": 604000,
           "option": "S",
-          "quantity": 1
+          "quantity": 2
         },
         {
           "price": 685000,
@@ -11602,7 +10882,7 @@
     {
       "sku": "L1S1512000-08S00WN-V019A",
       "option": "XL",
-      "stock": 3,
+      "stock": 2,
       "eur_price": 239.75,
       "matched": true,
       "product_id": 709433,
@@ -11610,19 +10890,19 @@
       "product_url": "https://kream.co.kr/products/709433",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 581000,
+        "lowest_ask": 595000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 581000,
+          "price": 595000,
           "option": "XL",
           "quantity": 1
         },
         {
-          "price": 582000,
+          "price": 596000,
           "option": "XL",
           "quantity": 1
         },
@@ -11634,7 +10914,7 @@
         {
           "price": 604000,
           "option": "XL",
-          "quantity": 1
+          "quantity": 2
         },
         {
           "price": 685000,
@@ -11671,19 +10951,19 @@
       "product_url": "https://kream.co.kr/products/709433",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 581000,
+        "lowest_ask": 595000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 581000,
+          "price": 595000,
           "option": "XXL",
           "quantity": 1
         },
         {
-          "price": 582000,
+          "price": 596000,
           "option": "XXL",
           "quantity": 1
         },
@@ -11695,7 +10975,7 @@
         {
           "price": 604000,
           "option": "XXL",
-          "quantity": 1
+          "quantity": 2
         }
       ],
       "bids": [],
@@ -11769,7 +11049,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "219,400원(0%)",
+            "text": "218,000원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -11846,7 +11126,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "219,400원(0%)",
+            "text": "218,000원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -11876,128 +11156,6 @@
       "option_mismatch": false
     },
     {
-      "sku": "L1S1561000-56S0044-V0029",
-      "option": "XXL",
-      "stock": 1,
-      "eur_price": 157.17,
-      "matched": true,
-      "product_id": 756778,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/756778",
-      "market": {
-        "last_sale_price": 317000,
-        "lowest_ask": 317000,
-        "highest_bid": null,
-        "change_text": "-"
-      },
-      "sales": [
-        {
-          "price": 317000,
-          "option": "XXL",
-          "date_created": "2026-05-07T14:12:03Z",
-          "date_text": "26/05/07",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 317000,
-          "option": "XXL",
-          "quantity": 1
-        },
-        {
-          "price": 329000,
-          "option": "XXL",
-          "quantity": 1
-        },
-        {
-          "price": 348000,
-          "option": "XXL",
-          "quantity": 1
-        },
-        {
-          "price": 370000,
-          "option": "XXL",
-          "quantity": 1
-        },
-        {
-          "price": 380000,
-          "option": "XXL",
-          "quantity": 1
-        },
-        {
-          "price": 399000,
-          "option": "XXL",
-          "quantity": 3
-        },
-        {
-          "price": 419000,
-          "option": "XXL",
-          "quantity": 1
-        },
-        {
-          "price": 455000,
-          "option": "XXL",
-          "quantity": 1
-        }
-      ],
-      "bids": [],
-      "totals": {
-        "sales": 1,
-        "asks": 8,
-        "bids": 0
-      },
-      "raw_chart_recently": {
-        "text": ";tl_0; ;tl_1;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "-",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": true,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#4E4E4E",
-            "type": "text"
-          },
-          {
-            "key": ";tl_1;",
-            "text": "0원(0%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#4E4E4E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "XXL",
-      "kream_options_available": [
-        "L",
-        "XL",
-        "M",
-        "XXL",
-        "XXXL",
-        "S"
-      ],
-      "option_mismatch": false
-    },
-    {
       "sku": "L1S1551000-24S01B2-V0093",
       "option": "L",
       "stock": 4,
@@ -12006,24 +11164,24 @@
       "error": "No KREAM match for SKU=\"L1S1551000-24S01B2-V0093\" SPU=\"L1S155100024S01B2V0093\"",
       "candidates": [
         {
+          "product_id": 719963,
+          "text": "Stone Island\n\n스톤 아일랜드 5100074 퓨어 라이트 RWS 울 스톤 아일랜드 고스트 크루넥 점퍼 립드 트림 네이비 블루 - 25FW\n\n393,000원\n\n관심 18"
+        },
+        {
           "product_id": 797637,
-          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n44%\n\n374,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 780637,
-          "text": "Stone Island\n\n스톤 아일랜드 6100061 오가닉 코튼 플리스 레귤러핏 집업 후드 스웨트셔츠 블랙 - 26SS\n\n469,000원\n\n관심 276\n\n · 리뷰 18\n\n · 거래 74\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 799232,
-          "text": "Stone Island\n\n스톤 아일랜드 6100062 오가닉 코튼 플리스 파우치 포켓 레귤러 핏 후드 스웨트셔츠 블랙 - 26SS\n\n43%\n\n356,000원\n\n관심 52\n\n · 리뷰 3\n\n · 거래 12\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n45%\n\n363,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         },
         {
           "product_id": 224734,
           "text": "Stone Island\n\n스톤아일랜드 540B2 소프트 코튼 크루넥 니트 블랙 - 24SS\n\n14%\n\n484,000원\n\n관심 592\n\n · 리뷰 24\n\n · 거래 120"
         },
         {
-          "product_id": 554162,
-          "text": "Stone Island\n\n스톤 아일랜드 6100028 브러쉬드 오가닉 코튼 플리스 레귤러 핏 크루넥 스웨트셔츠 립드 인서트 블랙 - 25FW\n\n35%\n\n367,000원\n\n관심 1,237\n\n · 리뷰 257\n\n · 거래 612\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 448842,
+          "text": "Stone Island\n\n스톤 아일랜드 5100036 소프트 오가닉 코튼 마이크로 스티치 스웨트셔츠 네이비 블루 - 25SS\n\n397,000원\n\n관심 18\n\n · 리뷰 3\n\n · 거래 4"
+        },
+        {
+          "product_id": 568668,
+          "text": "Stone Island\n\n스톤 아일랜드 5100040 램스울 하프집 점퍼 펠트 블루 네이비 블루 - 25FW\n\n22%\n\n534,000원\n\n관심 46\n\n · 리뷰 1\n\n · 거래 6"
         }
       ]
     },
@@ -12036,24 +11194,24 @@
       "error": "No KREAM match for SKU=\"L1S1551000-24S01B2-V0093\" SPU=\"L1S155100024S01B2V0093\"",
       "candidates": [
         {
+          "product_id": 719963,
+          "text": "Stone Island\n\n스톤 아일랜드 5100074 퓨어 라이트 RWS 울 스톤 아일랜드 고스트 크루넥 점퍼 립드 트림 네이비 블루 - 25FW\n\n393,000원\n\n관심 18"
+        },
+        {
           "product_id": 797637,
-          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n44%\n\n374,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 780637,
-          "text": "Stone Island\n\n스톤 아일랜드 6100061 오가닉 코튼 플리스 레귤러핏 집업 후드 스웨트셔츠 블랙 - 26SS\n\n469,000원\n\n관심 276\n\n · 리뷰 18\n\n · 거래 74\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 799232,
-          "text": "Stone Island\n\n스톤 아일랜드 6100062 오가닉 코튼 플리스 파우치 포켓 레귤러 핏 후드 스웨트셔츠 블랙 - 26SS\n\n43%\n\n356,000원\n\n관심 52\n\n · 리뷰 3\n\n · 거래 12\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n45%\n\n363,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         },
         {
           "product_id": 224734,
           "text": "Stone Island\n\n스톤아일랜드 540B2 소프트 코튼 크루넥 니트 블랙 - 24SS\n\n14%\n\n484,000원\n\n관심 592\n\n · 리뷰 24\n\n · 거래 120"
         },
         {
-          "product_id": 554162,
-          "text": "Stone Island\n\n스톤 아일랜드 6100028 브러쉬드 오가닉 코튼 플리스 레귤러 핏 크루넥 스웨트셔츠 립드 인서트 블랙 - 25FW\n\n35%\n\n367,000원\n\n관심 1,237\n\n · 리뷰 257\n\n · 거래 612\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 448842,
+          "text": "Stone Island\n\n스톤 아일랜드 5100036 소프트 오가닉 코튼 마이크로 스티치 스웨트셔츠 네이비 블루 - 25SS\n\n397,000원\n\n관심 18\n\n · 리뷰 3\n\n · 거래 4"
+        },
+        {
+          "product_id": 568668,
+          "text": "Stone Island\n\n스톤 아일랜드 5100040 램스울 하프집 점퍼 펠트 블루 네이비 블루 - 25FW\n\n22%\n\n534,000원\n\n관심 46\n\n · 리뷰 1\n\n · 거래 6"
         }
       ]
     },
@@ -12066,24 +11224,24 @@
       "error": "No KREAM match for SKU=\"L1S1551000-24S01B2-V0093\" SPU=\"L1S155100024S01B2V0093\"",
       "candidates": [
         {
+          "product_id": 719963,
+          "text": "Stone Island\n\n스톤 아일랜드 5100074 퓨어 라이트 RWS 울 스톤 아일랜드 고스트 크루넥 점퍼 립드 트림 네이비 블루 - 25FW\n\n393,000원\n\n관심 18"
+        },
+        {
           "product_id": 797637,
-          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n44%\n\n374,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 780637,
-          "text": "Stone Island\n\n스톤 아일랜드 6100061 오가닉 코튼 플리스 레귤러핏 집업 후드 스웨트셔츠 블랙 - 26SS\n\n469,000원\n\n관심 276\n\n · 리뷰 18\n\n · 거래 74\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 799232,
-          "text": "Stone Island\n\n스톤 아일랜드 6100062 오가닉 코튼 플리스 파우치 포켓 레귤러 핏 후드 스웨트셔츠 블랙 - 26SS\n\n43%\n\n356,000원\n\n관심 52\n\n · 리뷰 3\n\n · 거래 12\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n45%\n\n363,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         },
         {
           "product_id": 224734,
           "text": "Stone Island\n\n스톤아일랜드 540B2 소프트 코튼 크루넥 니트 블랙 - 24SS\n\n14%\n\n484,000원\n\n관심 592\n\n · 리뷰 24\n\n · 거래 120"
         },
         {
-          "product_id": 554162,
-          "text": "Stone Island\n\n스톤 아일랜드 6100028 브러쉬드 오가닉 코튼 플리스 레귤러 핏 크루넥 스웨트셔츠 립드 인서트 블랙 - 25FW\n\n35%\n\n367,000원\n\n관심 1,237\n\n · 리뷰 257\n\n · 거래 612\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 448842,
+          "text": "Stone Island\n\n스톤 아일랜드 5100036 소프트 오가닉 코튼 마이크로 스티치 스웨트셔츠 네이비 블루 - 25SS\n\n397,000원\n\n관심 18\n\n · 리뷰 3\n\n · 거래 4"
+        },
+        {
+          "product_id": 568668,
+          "text": "Stone Island\n\n스톤 아일랜드 5100040 램스울 하프집 점퍼 펠트 블루 네이비 블루 - 25FW\n\n22%\n\n534,000원\n\n관심 46\n\n · 리뷰 1\n\n · 거래 6"
         }
       ]
     },
@@ -12096,24 +11254,24 @@
       "error": "No KREAM match for SKU=\"L1S1551000-24S01B2-V0093\" SPU=\"L1S155100024S01B2V0093\"",
       "candidates": [
         {
+          "product_id": 719963,
+          "text": "Stone Island\n\n스톤 아일랜드 5100074 퓨어 라이트 RWS 울 스톤 아일랜드 고스트 크루넥 점퍼 립드 트림 네이비 블루 - 25FW\n\n393,000원\n\n관심 18"
+        },
+        {
           "product_id": 797637,
-          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n44%\n\n374,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 780637,
-          "text": "Stone Island\n\n스톤 아일랜드 6100061 오가닉 코튼 플리스 레귤러핏 집업 후드 스웨트셔츠 블랙 - 26SS\n\n469,000원\n\n관심 276\n\n · 리뷰 18\n\n · 거래 74\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 799232,
-          "text": "Stone Island\n\n스톤 아일랜드 6100062 오가닉 코튼 플리스 파우치 포켓 레귤러 핏 후드 스웨트셔츠 블랙 - 26SS\n\n43%\n\n356,000원\n\n관심 52\n\n · 리뷰 3\n\n · 거래 12\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Stone Island\n\n스톤 아일랜드 6100019 코튼 플리스 크루넥 스웨트셔츠 블랙 - 26SS\n\n45%\n\n363,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
         },
         {
           "product_id": 224734,
           "text": "Stone Island\n\n스톤아일랜드 540B2 소프트 코튼 크루넥 니트 블랙 - 24SS\n\n14%\n\n484,000원\n\n관심 592\n\n · 리뷰 24\n\n · 거래 120"
         },
         {
-          "product_id": 554162,
-          "text": "Stone Island\n\n스톤 아일랜드 6100028 브러쉬드 오가닉 코튼 플리스 레귤러 핏 크루넥 스웨트셔츠 립드 인서트 블랙 - 25FW\n\n35%\n\n367,000원\n\n관심 1,237\n\n · 리뷰 257\n\n · 거래 612\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 448842,
+          "text": "Stone Island\n\n스톤 아일랜드 5100036 소프트 오가닉 코튼 마이크로 스티치 스웨트셔츠 네이비 블루 - 25SS\n\n397,000원\n\n관심 18\n\n · 리뷰 3\n\n · 거래 4"
+        },
+        {
+          "product_id": 568668,
+          "text": "Stone Island\n\n스톤 아일랜드 5100040 램스울 하프집 점퍼 펠트 블루 네이비 블루 - 25FW\n\n22%\n\n534,000원\n\n관심 46\n\n · 리뷰 1\n\n · 거래 6"
         }
       ]
     },
@@ -12162,7 +11320,7 @@
           "quantity": 1
         },
         {
-          "price": 288000,
+          "price": 302000,
           "option": "L",
           "quantity": 1
         }
@@ -12234,17 +11392,12 @@
           "price": 529000,
           "option": "XL",
           "quantity": 1
-        },
-        {
-          "price": 530000,
-          "option": "XL",
-          "quantity": 1
         }
       ],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 2,
+        "asks": 1,
         "bids": 0
       },
       "raw_chart_recently": {
@@ -12266,7 +11419,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "193,100원(0%)",
+            "text": "191,300원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -12288,8 +11441,8 @@
       },
       "kream_option": "XL",
       "kream_options_available": [
-        "L",
         "XXL",
+        "L",
         "XL",
         "S"
       ],
@@ -12306,17 +11459,12 @@
       "product_url": "https://kream.co.kr/products/709420",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 510000,
+        "lowest_ask": 520000,
         "highest_bid": null,
         "change_text": "-"
       },
       "sales": [],
       "asks": [
-        {
-          "price": 510000,
-          "option": "XXL",
-          "quantity": 1
-        },
         {
           "price": 520000,
           "option": "XXL",
@@ -12326,7 +11474,7 @@
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 2,
+        "asks": 1,
         "bids": 0
       },
       "raw_chart_recently": {
@@ -12348,7 +11496,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "193,100원(0%)",
+            "text": "191,300원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -12370,8 +11518,8 @@
       },
       "kream_option": "XXL",
       "kream_options_available": [
-        "L",
         "XXL",
+        "L",
         "XL",
         "S"
       ],
@@ -12435,7 +11583,7 @@
           "quantity": 1
         },
         {
-          "price": 919000,
+          "price": 876000,
           "option": "XXL",
           "quantity": 1
         }
@@ -12471,7 +11619,7 @@
           },
           {
             "key": ";tl_1;",
-            "text": "370,600원(0%)",
+            "text": "367,800원(0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -12505,24 +11653,52 @@
     {
       "sku": "L1S1522000-10S0018-V1001",
       "option": "L",
-      "stock": 3,
+      "stock": 2,
       "eur_price": 95.9,
       "matched": true,
       "product_id": 794889,
       "product_name_ko": "Stone Island",
       "product_url": "https://kream.co.kr/products/794889",
       "market": {
-        "last_sale_price": 236000,
-        "lowest_ask": 200000,
-        "highest_bid": 171000,
-        "change_text": "▲ 1,000원(+0.4%)"
+        "last_sale_price": 210000,
+        "lowest_ask": 211000,
+        "highest_bid": 200000,
+        "change_text": "▲ 10,000원(+5.0%)"
       },
       "sales": [
+        {
+          "price": 210000,
+          "option": "L",
+          "date_created": "2026-06-17T12:30:07Z",
+          "date_text": "7시간 전",
+          "is_immediate": true
+        },
+        {
+          "price": 208000,
+          "option": "L",
+          "date_created": "2026-06-16T04:40:46Z",
+          "date_text": "26/06/16",
+          "is_immediate": true
+        },
+        {
+          "price": 200000,
+          "option": "L",
+          "date_created": "2026-06-15T08:28:45Z",
+          "date_text": "26/06/15",
+          "is_immediate": false
+        },
+        {
+          "price": 239000,
+          "option": "L",
+          "date_created": "2026-06-14T04:53:29Z",
+          "date_text": "26/06/14",
+          "is_immediate": true
+        },
         {
           "price": 236000,
           "option": "L",
           "date_created": "2026-06-13T08:31:58Z",
-          "date_text": "11시간 전",
+          "date_text": "26/06/13",
           "is_immediate": true
         },
         {
@@ -12563,12 +11739,7 @@
       ],
       "asks": [
         {
-          "price": 200000,
-          "option": "L",
-          "quantity": 1
-        },
-        {
-          "price": 203000,
+          "price": 211000,
           "option": "L",
           "quantity": 1
         },
@@ -12583,6 +11754,16 @@
           "quantity": 1
         },
         {
+          "price": 220000,
+          "option": "L",
+          "quantity": 1
+        },
+        {
+          "price": 226000,
+          "option": "L",
+          "quantity": 1
+        },
+        {
           "price": 227000,
           "option": "L",
           "quantity": 1
@@ -12590,27 +11771,22 @@
         {
           "price": 229000,
           "option": "L",
-          "quantity": 3
+          "quantity": 2
         },
         {
           "price": 230000,
-          "option": "L",
-          "quantity": 1
-        },
-        {
-          "price": 239000,
-          "option": "L",
-          "quantity": 1
-        },
-        {
-          "price": 243000,
           "option": "L",
           "quantity": 1
         }
       ],
       "bids": [
         {
-          "price": 171000,
+          "price": 200000,
+          "option": "L",
+          "quantity": 1
+        },
+        {
+          "price": 191000,
           "option": "L",
           "quantity": 1
         },
@@ -12621,16 +11797,16 @@
         }
       ],
       "totals": {
-        "sales": 6,
-        "asks": 9,
-        "bids": 2
+        "sales": 10,
+        "asks": 8,
+        "bids": 3
       },
       "raw_chart_recently": {
         "text": ";tl_0;",
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "▲ 1,000원(+0.4%)",
+            "text": "▲ 10,000원(+5.0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -12653,9 +11829,9 @@
       "kream_option": "L",
       "kream_options_available": [
         "L",
+        "M",
         "XL",
         "XXL",
-        "M",
         "S",
         "XXXL"
       ],
@@ -12671,12 +11847,33 @@
       "product_name_ko": "Stone Island",
       "product_url": "https://kream.co.kr/products/794889",
       "market": {
-        "last_sale_price": 239000,
-        "lowest_ask": 197000,
+        "last_sale_price": 200000,
+        "lowest_ask": 200000,
         "highest_bid": 171000,
-        "change_text": "▲ 1,000원(+0.4%)"
+        "change_text": "▲ 10,000원(+5.0%)"
       },
       "sales": [
+        {
+          "price": 200000,
+          "option": "M",
+          "date_created": "2026-06-17T09:44:43Z",
+          "date_text": "10시간 전",
+          "is_immediate": false
+        },
+        {
+          "price": 199000,
+          "option": "M",
+          "date_created": "2026-06-16T13:37:11Z",
+          "date_text": "26/06/16",
+          "is_immediate": false
+        },
+        {
+          "price": 197000,
+          "option": "M",
+          "date_created": "2026-06-16T09:08:32Z",
+          "date_text": "26/06/16",
+          "is_immediate": false
+        },
         {
           "price": 239000,
           "option": "M",
@@ -12686,16 +11883,6 @@
         }
       ],
       "asks": [
-        {
-          "price": 197000,
-          "option": "M",
-          "quantity": 1
-        },
-        {
-          "price": 198000,
-          "option": "M",
-          "quantity": 1
-        },
         {
           "price": 200000,
           "option": "M",
@@ -12707,14 +11894,44 @@
           "quantity": 1
         },
         {
+          "price": 208000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 212000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
           "price": 213000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 214000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 215000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 216000,
           "option": "M",
           "quantity": 1
         },
         {
           "price": 218000,
           "option": "M",
-          "quantity": 3
+          "quantity": 1
+        },
+        {
+          "price": 226000,
+          "option": "M",
+          "quantity": 2
         },
         {
           "price": 227000,
@@ -12724,7 +11941,7 @@
         {
           "price": 229000,
           "option": "M",
-          "quantity": 3
+          "quantity": 2
         },
         {
           "price": 230000,
@@ -12733,16 +11950,6 @@
         },
         {
           "price": 232000,
-          "option": "M",
-          "quantity": 2
-        },
-        {
-          "price": 242000,
-          "option": "M",
-          "quantity": 1
-        },
-        {
-          "price": 243000,
           "option": "M",
           "quantity": 2
         }
@@ -12760,8 +11967,8 @@
         }
       ],
       "totals": {
-        "sales": 1,
-        "asks": 12,
+        "sales": 4,
+        "asks": 14,
         "bids": 2
       },
       "raw_chart_recently": {
@@ -12769,7 +11976,7 @@
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "▲ 1,000원(+0.4%)",
+            "text": "▲ 10,000원(+5.0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -12792,9 +11999,9 @@
       "kream_option": "M",
       "kream_options_available": [
         "L",
+        "M",
         "XL",
         "XXL",
-        "M",
         "S",
         "XXXL"
       ],
@@ -12811,9 +12018,9 @@
       "product_url": "https://kream.co.kr/products/794889",
       "market": {
         "last_sale_price": 230000,
-        "lowest_ask": 217000,
+        "lowest_ask": 225000,
         "highest_bid": null,
-        "change_text": "▲ 1,000원(+0.4%)"
+        "change_text": "▲ 10,000원(+5.0%)"
       },
       "sales": [
         {
@@ -12826,14 +12033,14 @@
       ],
       "asks": [
         {
-          "price": 217000,
+          "price": 225000,
           "option": "S",
           "quantity": 1
         },
         {
-          "price": 218000,
+          "price": 226000,
           "option": "S",
-          "quantity": 4
+          "quantity": 1
         },
         {
           "price": 229000,
@@ -12857,7 +12064,7 @@
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "▲ 1,000원(+0.4%)",
+            "text": "▲ 10,000원(+5.0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -12880,9 +12087,9 @@
       "kream_option": "S",
       "kream_options_available": [
         "L",
+        "M",
         "XL",
         "XXL",
-        "M",
         "S",
         "XXXL"
       ],
@@ -12901,7 +12108,7 @@
         "last_sale_price": 215000,
         "lowest_ask": 200000,
         "highest_bid": 140000,
-        "change_text": "▲ 1,000원(+0.4%)"
+        "change_text": "▲ 10,000원(+5.0%)"
       },
       "sales": [
         {
@@ -12948,12 +12155,12 @@
           "quantity": 1
         },
         {
-          "price": 217000,
+          "price": 218000,
           "option": "XL",
           "quantity": 1
         },
         {
-          "price": 218000,
+          "price": 226000,
           "option": "XL",
           "quantity": 4
         },
@@ -12965,7 +12172,7 @@
         {
           "price": 229000,
           "option": "XL",
-          "quantity": 3
+          "quantity": 2
         },
         {
           "price": 230000,
@@ -12976,11 +12183,6 @@
           "price": 232000,
           "option": "XL",
           "quantity": 2
-        },
-        {
-          "price": 239000,
-          "option": "XL",
-          "quantity": 1
         }
       ],
       "bids": [
@@ -12997,7 +12199,7 @@
       ],
       "totals": {
         "sales": 3,
-        "asks": 11,
+        "asks": 10,
         "bids": 2
       },
       "raw_chart_recently": {
@@ -13005,7 +12207,7 @@
         "lookups": [
           {
             "key": ";tl_0;",
-            "text": "▲ 1,000원(+0.4%)",
+            "text": "▲ 10,000원(+5.0%)",
             "is_italic": false,
             "is_semibold": false,
             "is_bold": false,
@@ -13028,49 +12230,13 @@
       "kream_option": "XL",
       "kream_options_available": [
         "L",
+        "M",
         "XL",
         "XXL",
-        "M",
         "S",
         "XXXL"
       ],
       "option_mismatch": false
-    },
-    {
-      "sku": "L1S1551000-34S0N12-V0M65",
-      "option": "XXL",
-      "stock": 1,
-      "eur_price": 263.73,
-      "matched": true,
-      "product_id": 808494,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/808494",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": null,
-        "highest_bid": 250000,
-        "change_text": null
-      },
-      "sales": [],
-      "asks": [],
-      "bids": [
-        {
-          "price": 250000,
-          "option": "L",
-          "quantity": 1
-        }
-      ],
-      "totals": {
-        "sales": 0,
-        "asks": 0,
-        "bids": 1
-      },
-      "raw_chart_recently": null,
-      "kream_option": "L",
-      "kream_options_available": [
-        "L"
-      ],
-      "option_mismatch": true
     },
     {
       "sku": "L1S1531000-20S0A10-V009A",
@@ -13083,19 +12249,19 @@
       "product_url": "https://kream.co.kr/products/808355",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 503000,
+        "lowest_ask": 523000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 503000,
+          "price": 523000,
           "option": "36",
           "quantity": 1
         },
         {
-          "price": 504000,
+          "price": 524000,
           "option": "36",
           "quantity": 1
         }
@@ -13129,19 +12295,24 @@
       "product_url": "https://kream.co.kr/products/808351",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 1165000,
-        "highest_bid": 1060000,
+        "lowest_ask": 1104000,
+        "highest_bid": 1010000,
         "change_text": "▼ 54,000원(-4.1%)"
       },
       "sales": [],
       "asks": [
         {
-          "price": 1165000,
+          "price": 1104000,
           "option": "M",
           "quantity": 1
         },
         {
-          "price": 1178000,
+          "price": 1105000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 1106000,
           "option": "M",
           "quantity": 1
         },
@@ -13154,16 +12325,11 @@
           "price": 1258000,
           "option": "M",
           "quantity": 1
-        },
-        {
-          "price": 1281000,
-          "option": "M",
-          "quantity": 1
         }
       ],
       "bids": [
         {
-          "price": 1060000,
+          "price": 1010000,
           "option": "M",
           "quantity": 1
         }
@@ -13200,11 +12366,11 @@
       },
       "kream_option": "M",
       "kream_options_available": [
-        "M",
-        "L",
-        "XL",
         "S",
-        "XXXL"
+        "M",
+        "XXXL",
+        "XL",
+        "L"
       ],
       "option_mismatch": false
     },
@@ -13219,19 +12385,19 @@
       "product_url": "https://kream.co.kr/products/854753",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 1267000,
+        "lowest_ask": 1288000,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [
         {
-          "price": 1267000,
+          "price": 1288000,
           "option": "L",
           "quantity": 1
         },
         {
-          "price": 1268000,
+          "price": 1289000,
           "option": "L",
           "quantity": 1
         },
@@ -13250,9 +12416,9 @@
       "raw_chart_recently": null,
       "kream_option": "L",
       "kream_options_available": [
+        "XXL",
         "L",
         "M",
-        "XXL",
         "XL"
       ],
       "option_mismatch": false
@@ -13262,246 +12428,48 @@
       "option": "M",
       "stock": 2,
       "eur_price": 506.15,
-      "matched": true,
-      "product_id": 854753,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/854753",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": 1267000,
-        "highest_bid": null,
-        "change_text": null
-      },
-      "sales": [],
-      "asks": [
-        {
-          "price": 1267000,
-          "option": "M",
-          "quantity": 1
-        },
-        {
-          "price": 1268000,
-          "option": "M",
-          "quantity": 1
-        },
-        {
-          "price": 1301000,
-          "option": "M",
-          "quantity": 1
-        }
-      ],
-      "bids": [],
-      "totals": {
-        "sales": 0,
-        "asks": 3,
-        "bids": 0
-      },
-      "raw_chart_recently": null,
-      "kream_option": "M",
-      "kream_options_available": [
-        "L",
-        "M",
-        "XXL",
-        "XL"
-      ],
-      "option_mismatch": false
+      "matched": false,
+      "error": "chromium IPC 충돌로 skip (다음 chunk 에서 새 context 재시작)"
     },
     {
       "sku": "L1S1541000-64S0020-V0029",
       "option": "XL",
       "stock": 1,
       "eur_price": 506.15,
-      "matched": true,
-      "product_id": 854753,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/854753",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": 1301000,
-        "highest_bid": null,
-        "change_text": null
-      },
-      "sales": [],
-      "asks": [
-        {
-          "price": 1301000,
-          "option": "XL",
-          "quantity": 1
-        }
-      ],
-      "bids": [],
-      "totals": {
-        "sales": 0,
-        "asks": 1,
-        "bids": 0
-      },
-      "raw_chart_recently": null,
-      "kream_option": "XL",
-      "kream_options_available": [
-        "L",
-        "M",
-        "XXL",
-        "XL"
-      ],
-      "option_mismatch": false
+      "matched": false,
+      "error": "chromium IPC 충돌로 skip (다음 chunk 에서 새 context 재시작)"
     },
     {
       "sku": "L1S1541000-64S0020-V0029",
       "option": "XXL",
       "stock": 2,
       "eur_price": 506.15,
-      "matched": true,
-      "product_id": 854753,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/854753",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": 1267000,
-        "highest_bid": null,
-        "change_text": null
-      },
-      "sales": [],
-      "asks": [
-        {
-          "price": 1267000,
-          "option": "XXL",
-          "quantity": 1
-        },
-        {
-          "price": 1268000,
-          "option": "XXL",
-          "quantity": 1
-        }
-      ],
-      "bids": [],
-      "totals": {
-        "sales": 0,
-        "asks": 2,
-        "bids": 0
-      },
-      "raw_chart_recently": null,
-      "kream_option": "XXL",
-      "kream_options_available": [
-        "L",
-        "M",
-        "XXL",
-        "XL"
-      ],
-      "option_mismatch": false
+      "matched": false,
+      "error": "chromium IPC 충돌로 skip (다음 chunk 에서 새 context 재시작)"
     },
     {
       "sku": "L1S1531000-35S0019-V0031",
       "option": "31",
       "stock": 1,
       "eur_price": 263.73,
-      "matched": true,
-      "product_id": 909838,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/909838",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": 735000,
-        "highest_bid": null,
-        "change_text": null
-      },
-      "sales": [],
-      "asks": [
-        {
-          "price": 735000,
-          "option": "31",
-          "quantity": 1
-        }
-      ],
-      "bids": [],
-      "totals": {
-        "sales": 0,
-        "asks": 1,
-        "bids": 0
-      },
-      "raw_chart_recently": null,
-      "kream_option": "31",
-      "kream_options_available": [
-        "31",
-        "33",
-        "36"
-      ],
-      "option_mismatch": false
+      "matched": false,
+      "error": "chromium IPC 충돌로 skip (다음 chunk 에서 새 context 재시작)"
     },
     {
       "sku": "L1S1531000-35S0019-V0031",
       "option": "34",
       "stock": 1,
       "eur_price": 263.73,
-      "matched": true,
-      "product_id": 909838,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/909838",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": 735000,
-        "highest_bid": null,
-        "change_text": null
-      },
-      "sales": [],
-      "asks": [
-        {
-          "price": 735000,
-          "option": "31",
-          "quantity": 1
-        }
-      ],
-      "bids": [],
-      "totals": {
-        "sales": 0,
-        "asks": 1,
-        "bids": 0
-      },
-      "raw_chart_recently": null,
-      "kream_option": "31",
-      "kream_options_available": [
-        "31",
-        "33",
-        "36"
-      ],
-      "option_mismatch": true
+      "matched": false,
+      "error": "chromium IPC 충돌로 skip (다음 chunk 에서 새 context 재시작)"
     },
     {
       "sku": "L1S1531000-35S0019-V0031",
       "option": "36",
       "stock": 1,
       "eur_price": 263.73,
-      "matched": true,
-      "product_id": 909838,
-      "product_name_ko": "Stone Island",
-      "product_url": "https://kream.co.kr/products/909838",
-      "market": {
-        "last_sale_price": null,
-        "lowest_ask": 735000,
-        "highest_bid": null,
-        "change_text": null
-      },
-      "sales": [],
-      "asks": [
-        {
-          "price": 735000,
-          "option": "36",
-          "quantity": 1
-        }
-      ],
-      "bids": [],
-      "totals": {
-        "sales": 0,
-        "asks": 1,
-        "bids": 0
-      },
-      "raw_chart_recently": null,
-      "kream_option": "36",
-      "kream_options_available": [
-        "31",
-        "33",
-        "36"
-      ],
-      "option_mismatch": false
+      "matched": false,
+      "error": "chromium IPC 충돌로 skip (다음 chunk 에서 새 context 재시작)"
     }
   ]
 }
