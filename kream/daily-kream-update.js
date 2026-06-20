@@ -36,6 +36,7 @@ const BRANDS = [
   { dresscode: 'SAINT LAURENT',     slug: 'saintlaurent', source: 'dresscode' },
   { dresscode: 'THE ROW',           slug: 'therow', source: 'dresscode' },
   { dresscode: 'KITON',             slug: 'kiton', source: 'dresscode' },
+  { dresscode: 'VIVIENNE WESTWOOD', slug: 'viviennewestwood', source: 'dresscode' },
   // ── giglio (fast-shipping CSV 기반) — 가장 마지막에 배치 ──
   { slug: 'giglio_saintlaurent',    source: 'giglio' },
   { slug: 'giglio_bottegaveneta',   source: 'giglio' },
