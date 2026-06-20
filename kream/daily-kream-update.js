@@ -53,6 +53,7 @@ const BRANDS = [
   { slug: 'giglio_moncler',         source: 'giglio' },
   { slug: 'giglio_rogervivier',     source: 'giglio' },
   { slug: 'giglio_onrunning',       source: 'giglio' },
+  { slug: 'giglio_celine',          source: 'giglio' },
 ];
 const KEEP_DAYS = 3; // 브랜드당 최근 N개 결과만 유지 (cleanup-old-results.js 와 일치)
 
