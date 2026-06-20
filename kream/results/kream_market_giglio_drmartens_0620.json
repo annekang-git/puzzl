@@ -1,0 +1,6555 @@
+{
+  "fetched_at": "2026-06-20T05:10:26.269Z",
+  "input_file": "targets-giglio_drmartens.json",
+  "total_targets": 66,
+  "matched": 59,
+  "failed": 7,
+  "results": [
+    {
+      "sku": "25851207",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 29.18,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"25851207\" SPU=\"25851207\"",
+      "candidates": [
+        {
+          "product_id": 708296,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 1460 페이턴트 레더 레이스업 부츠 블랙커런트\n\n48%\n\n110,000원\n\n관심 5"
+        },
+        {
+          "product_id": 628315,
+          "text": "Dr. Martens\n\n닥터마틴 제브잭 리거 레더 부츠 블랙\n\n43%\n\n130,000원\n\n관심 484\n\n · 리뷰 31\n\n · 거래 99"
+        },
+        {
+          "product_id": 867150,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 1460 스무스 클래시 핑크\n\n32%\n\n163,000원\n\n관심 1"
+        },
+        {
+          "product_id": 628334,
+          "text": "Dr. Martens\n\n닥터마틴 제브잭 레이스리스 레더 부츠 블랙\n\n21%\n\n180,000원\n\n관심 49\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 628387,
+          "text": "Dr. Martens\n\n닥터마틴 1460 파스칼 레더 부츠 브라운\n\n23%\n\n269,000원\n\n관심 22\n\n · 리뷰 1\n\n · 거래 7"
+        }
+      ]
+    },
+    {
+      "sku": "31564357",
+      "option": "9½",
+      "stock": 3,
+      "eur_price": 52.46,
+      "matched": true,
+      "product_id": 608523,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/608523",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "21975001",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 49.18,
+      "matched": true,
+      "product_id": 612839,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/612839",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 220000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 220000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "240(UK 5)",
+      "kream_options_available": [
+        "230(UK 4)",
+        "240(UK 5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "26925001",
+      "option": "6½",
+      "stock": 1,
+      "eur_price": 106.56,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"26925001\" SPU=\"26925001\"",
+      "candidates": [
+        {
+          "product_id": 609904,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 보스 쿼드 샌들 블랙\n\n34%\n\n118,000원\n\n관심 29\n\n · 거래 2"
+        },
+        {
+          "product_id": 675431,
+          "text": "Dr. Martens\n\n(키즈) 닥터마틴 2976 소프티 T 레더 첼시 부츠 블랙\n\n158,000원\n\n관심 2\n\n · 거래 1"
+        },
+        {
+          "product_id": 139731,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 보스 II 하이드로 레더 스트랩 샌들 블랙\n\n33%\n\n134,000원\n\n관심 525\n\n · 리뷰 11\n\n · 거래 30"
+        },
+        {
+          "product_id": 708296,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 1460 페이턴트 레더 레이스업 부츠 블랙커런트\n\n48%\n\n110,000원\n\n관심 5"
+        },
+        {
+          "product_id": 628315,
+          "text": "Dr. Martens\n\n닥터마틴 제브잭 리거 레더 부츠 블랙\n\n43%\n\n130,000원\n\n관심 484\n\n · 리뷰 31\n\n · 거래 99"
+        }
+      ]
+    },
+    {
+      "sku": "13512006",
+      "option": "4",
+      "stock": 6,
+      "eur_price": 73.77,
+      "matched": true,
+      "product_id": 118758,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/118758",
+      "market": {
+        "last_sale_price": 216000,
+        "lowest_ask": 306000,
+        "highest_bid": 140000,
+        "change_text": "▲ 102,000원(+89.5%)"
+      },
+      "sales": [
+        {
+          "price": 216000,
+          "option": "230(UK 4)",
+          "date_created": "2026-05-19T13:52:00Z",
+          "date_text": "26/05/19",
+          "is_immediate": false
+        },
+        {
+          "price": 230000,
+          "option": "230(UK 4)",
+          "date_created": "2026-05-07T05:03:16Z",
+          "date_text": "26/05/07",
+          "is_immediate": false
+        },
+        {
+          "price": 206000,
+          "option": "230(UK 4)",
+          "date_created": "2026-03-16T14:13:16Z",
+          "date_text": "26/03/16",
+          "is_immediate": false
+        },
+        {
+          "price": 150000,
+          "option": "230(UK 4)",
+          "date_created": "2023-09-22T10:07:15Z",
+          "date_text": "23/09/22",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 306000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 307000,
+          "option": "230(UK 4)",
+          "quantity": 2
+        },
+        {
+          "price": 310000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 140000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 4,
+        "asks": 3,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 102,000원(+89.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "230(UK 4)",
+      "kream_options_available": [
+        "255(UK 6.5)",
+        "220(UK 3)",
+        "230(UK 4)",
+        "240(UK 5)",
+        "250(UK 6)",
+        "260(UK 7)",
+        "270(UK 8)",
+        "280(UK 9)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "31558001BLACK",
+      "option": "5",
+      "stock": 3,
+      "eur_price": 74.59,
+      "matched": true,
+      "product_id": 609906,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/609906",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 145000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 145000,
+          "option": "250(UK 6)",
+          "quantity": 1
+        },
+        {
+          "price": 183000,
+          "option": "250(UK 6)",
+          "quantity": 1
+        },
+        {
+          "price": 200000,
+          "option": "250(UK 6)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "250(UK 6)",
+      "kream_options_available": [
+        "220(UK 3)",
+        "230(UK 4)",
+        "250(UK 6)",
+        "240(UK 5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "26230001",
+      "option": "7",
+      "stock": 1,
+      "eur_price": 70.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"26230001\" SPU=\"26230001\"",
+      "candidates": [
+        {
+          "product_id": 609904,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 보스 쿼드 샌들 블랙\n\n34%\n\n118,000원\n\n관심 29\n\n · 거래 2"
+        },
+        {
+          "product_id": 628315,
+          "text": "Dr. Martens\n\n닥터마틴 제브잭 리거 레더 부츠 블랙\n\n43%\n\n130,000원\n\n관심 484\n\n · 리뷰 31\n\n · 거래 99"
+        },
+        {
+          "product_id": 118760,
+          "text": "Dr. Martens\n\n닥터마틴 1460 벡스 부츠 블랙\n\n27%\n\n188,000원\n\n관심 201\n\n · 리뷰 14\n\n · 거래 44"
+        },
+        {
+          "product_id": 609906,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 보스 2 샌들 블랙\n\n143,000원\n\n관심 31\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 627625,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 메이볼 하이 레더 첼시 부츠 블랙\n\n34%\n\n190,000원\n\n관심 11"
+        }
+      ]
+    },
+    {
+      "sku": "41324200",
+      "option": "6½",
+      "stock": 2,
+      "eur_price": 84.83,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"41324200\" SPU=\"41324200\"",
+      "candidates": [
+        {
+          "product_id": 627643,
+          "text": "Dr. Martens\n\n닥터마틴 라케텐 사바나 탄\n\n22%\n\n178,000원\n\n관심 72\n\n · 거래 7"
+        },
+        {
+          "product_id": 628315,
+          "text": "Dr. Martens\n\n닥터마틴 제브잭 리거 레더 부츠 블랙\n\n43%\n\n130,000원\n\n관심 484\n\n · 리뷰 31\n\n · 거래 99"
+        },
+        {
+          "product_id": 708296,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 1460 페이턴트 레더 레이스업 부츠 블랙커런트\n\n48%\n\n110,000원\n\n관심 5"
+        },
+        {
+          "product_id": 628387,
+          "text": "Dr. Martens\n\n닥터마틴 1460 파스칼 레더 부츠 브라운\n\n23%\n\n269,000원\n\n관심 22\n\n · 리뷰 1\n\n · 거래 7"
+        },
+        {
+          "product_id": 118742,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 나틸라 하이드로 레더 샌들 브라운\n\n48%\n\n88,000원\n\n관심 86\n\n · 리뷰 4\n\n · 거래 11"
+        }
+      ]
+    },
+    {
+      "sku": "21975001",
+      "option": "4",
+      "stock": 2,
+      "eur_price": 49.18,
+      "matched": true,
+      "product_id": 612839,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/612839",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 171000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 171000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "230(UK 4)",
+      "kream_options_available": [
+        "230(UK 4)",
+        "240(UK 5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "21992001",
+      "option": "5",
+      "stock": 3,
+      "eur_price": 49.18,
+      "matched": true,
+      "product_id": 614427,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/614427",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 135000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 135000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 167000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "240(UK 5)",
+      "kream_options_available": [
+        "230(UK 4)",
+        "240(UK 5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "21975001",
+      "option": "5½",
+      "stock": 2,
+      "eur_price": 49.18,
+      "matched": true,
+      "product_id": 612839,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/612839",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 171000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 171000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "230(UK 4)",
+      "kream_options_available": [
+        "230(UK 4)",
+        "240(UK 5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "21992001",
+      "option": "5½",
+      "stock": 2,
+      "eur_price": 49.18,
+      "matched": true,
+      "product_id": 614427,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/614427",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 135000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 135000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 171000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "230(UK 4)",
+      "kream_options_available": [
+        "230(UK 4)",
+        "240(UK 5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "16708001",
+      "option": "11",
+      "stock": 1,
+      "eur_price": 36.89,
+      "matched": true,
+      "product_id": 675431,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/675431",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 158000,
+        "highest_bid": 65000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 158000,
+          "option": "185(UK 12)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 65000,
+          "option": "185(UK 12)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "43,500원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "185(UK 12)",
+      "kream_options_available": [
+        "185(UK 12)",
+        "170(UK 10)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "26378001",
+      "option": "4",
+      "stock": 3,
+      "eur_price": 131.96,
+      "matched": true,
+      "product_id": 118751,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/118751",
+      "market": {
+        "last_sale_price": 298000,
+        "lowest_ask": 278000,
+        "highest_bid": null,
+        "change_text": "▲ 97,000원(+40.1%)"
+      },
+      "sales": [
+        {
+          "price": 298000,
+          "option": "240(UK 5)",
+          "date_created": "2026-02-25T14:04:43Z",
+          "date_text": "26/02/25",
+          "is_immediate": false
+        },
+        {
+          "price": 271000,
+          "option": "240(UK 5)",
+          "date_created": "2025-09-29T03:30:07Z",
+          "date_text": "25/09/29",
+          "is_immediate": false
+        },
+        {
+          "price": 280000,
+          "option": "240(UK 5)",
+          "date_created": "2025-09-21T05:54:50Z",
+          "date_text": "25/09/21",
+          "is_immediate": false
+        },
+        {
+          "price": 283000,
+          "option": "240(UK 5)",
+          "date_created": "2025-09-01T16:12:13Z",
+          "date_text": "25/09/02",
+          "is_immediate": false
+        },
+        {
+          "price": 220000,
+          "option": "240(UK 5)",
+          "date_created": "2025-05-17T14:04:20Z",
+          "date_text": "25/05/17",
+          "is_immediate": false
+        },
+        {
+          "price": 266000,
+          "option": "240(UK 5)",
+          "date_created": "2025-02-25T16:13:13Z",
+          "date_text": "25/02/26",
+          "is_immediate": false
+        },
+        {
+          "price": 230000,
+          "option": "240(UK 5)",
+          "date_created": "2025-01-04T23:54:41Z",
+          "date_text": "25/01/05",
+          "is_immediate": false
+        },
+        {
+          "price": 265000,
+          "option": "240(UK 5)",
+          "date_created": "2024-12-13T16:33:27Z",
+          "date_text": "24/12/14",
+          "is_immediate": false
+        },
+        {
+          "price": 290000,
+          "option": "240(UK 5)",
+          "date_created": "2024-12-04T05:37:50Z",
+          "date_text": "24/12/04",
+          "is_immediate": false
+        },
+        {
+          "price": 185000,
+          "option": "240(UK 5)",
+          "date_created": "2024-09-22T07:31:06Z",
+          "date_text": "24/09/22",
+          "is_immediate": false
+        },
+        {
+          "price": 210000,
+          "option": "240(UK 5)",
+          "date_created": "2024-09-09T11:19:20Z",
+          "date_text": "24/09/09",
+          "is_immediate": false
+        },
+        {
+          "price": 219000,
+          "option": "240(UK 5)",
+          "date_created": "2024-09-05T18:16:59Z",
+          "date_text": "24/09/06",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 278000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 338000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 339000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 505000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 12,
+        "asks": 4,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 97,000원(+40.1%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "240(UK 5)",
+      "kream_options_available": [
+        "220(UK 3)",
+        "290(UK 10)",
+        "255(UK 6.5)",
+        "250(UK 6)",
+        "260(UK 7)",
+        "240(UK 5)",
+        "230(UK 4)",
+        "270(UK 8)",
+        "280(UK 9)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "16708001",
+      "option": "12",
+      "stock": 1,
+      "eur_price": 36.89,
+      "matched": true,
+      "product_id": 675431,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/675431",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 158000,
+        "highest_bid": 65000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 158000,
+          "option": "185(UK 12)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 65000,
+          "option": "185(UK 12)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "43,500원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "185(UK 12)",
+      "kream_options_available": [
+        "185(UK 12)",
+        "170(UK 10)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "16708001",
+      "option": "2,5",
+      "stock": 1,
+      "eur_price": 36.89,
+      "matched": true,
+      "product_id": 675431,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/675431",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 158000,
+        "highest_bid": 65000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 158000,
+          "option": "185(UK 12)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 65000,
+          "option": "185(UK 12)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "43,500원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "185(UK 12)",
+      "kream_options_available": [
+        "185(UK 12)",
+        "170(UK 10)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "26378001",
+      "option": "6½",
+      "stock": 2,
+      "eur_price": 131.96,
+      "matched": true,
+      "product_id": 118751,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/118751",
+      "market": {
+        "last_sale_price": 294000,
+        "lowest_ask": 315000,
+        "highest_bid": 210000,
+        "change_text": "▲ 97,000원(+40.1%)"
+      },
+      "sales": [
+        {
+          "price": 294000,
+          "option": "220(UK 3)",
+          "date_created": "2025-10-02T12:07:55Z",
+          "date_text": "25/10/02",
+          "is_immediate": false
+        },
+        {
+          "price": 278000,
+          "option": "220(UK 3)",
+          "date_created": "2025-01-19T01:54:58Z",
+          "date_text": "25/01/19",
+          "is_immediate": false
+        },
+        {
+          "price": 230000,
+          "option": "220(UK 3)",
+          "date_created": "2024-12-22T02:00:41Z",
+          "date_text": "24/12/22",
+          "is_immediate": false
+        },
+        {
+          "price": 250000,
+          "option": "220(UK 3)",
+          "date_created": "2024-08-28T16:08:45Z",
+          "date_text": "24/08/29",
+          "is_immediate": true
+        },
+        {
+          "price": 217000,
+          "option": "220(UK 3)",
+          "date_created": "2024-08-23T02:05:14Z",
+          "date_text": "24/08/23",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 315000,
+          "option": "220(UK 3)",
+          "quantity": 1
+        },
+        {
+          "price": 339000,
+          "option": "220(UK 3)",
+          "quantity": 1
+        },
+        {
+          "price": 505000,
+          "option": "220(UK 3)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 210000,
+          "option": "220(UK 3)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 5,
+        "asks": 3,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 97,000원(+40.1%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "220(UK 3)",
+      "kream_options_available": [
+        "220(UK 3)",
+        "290(UK 10)",
+        "255(UK 6.5)",
+        "250(UK 6)",
+        "260(UK 7)",
+        "240(UK 5)",
+        "230(UK 4)",
+        "270(UK 8)",
+        "280(UK 9)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "16708001",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 36.89,
+      "matched": true,
+      "product_id": 675431,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/675431",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 158000,
+        "highest_bid": 65000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 158000,
+          "option": "185(UK 12)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 65000,
+          "option": "185(UK 12)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "43,500원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "185(UK 12)",
+      "kream_options_available": [
+        "185(UK 12)",
+        "170(UK 10)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "26378001",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 131.96,
+      "matched": true,
+      "product_id": 118751,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/118751",
+      "market": {
+        "last_sale_price": 242000,
+        "lowest_ask": 263000,
+        "highest_bid": null,
+        "change_text": "▲ 97,000원(+40.1%)"
+      },
+      "sales": [
+        {
+          "price": 242000,
+          "option": "260(UK 7)",
+          "date_created": "2026-05-25T12:39:46Z",
+          "date_text": "26/05/25",
+          "is_immediate": false
+        },
+        {
+          "price": 257000,
+          "option": "260(UK 7)",
+          "date_created": "2026-04-29T09:06:13Z",
+          "date_text": "26/04/29",
+          "is_immediate": false
+        },
+        {
+          "price": 258000,
+          "option": "260(UK 7)",
+          "date_created": "2026-04-01T09:53:44Z",
+          "date_text": "26/04/01",
+          "is_immediate": false
+        },
+        {
+          "price": 287000,
+          "option": "260(UK 7)",
+          "date_created": "2025-10-14T15:21:04Z",
+          "date_text": "25/10/15",
+          "is_immediate": false
+        },
+        {
+          "price": 241000,
+          "option": "260(UK 7)",
+          "date_created": "2025-01-01T05:56:47Z",
+          "date_text": "25/01/01",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 263000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 264000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 339000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 505000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 5,
+        "asks": 4,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 97,000원(+40.1%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "260(UK 7)",
+      "kream_options_available": [
+        "220(UK 3)",
+        "290(UK 10)",
+        "255(UK 6.5)",
+        "250(UK 6)",
+        "260(UK 7)",
+        "240(UK 5)",
+        "230(UK 4)",
+        "270(UK 8)",
+        "280(UK 9)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "42653001",
+      "option": "5",
+      "stock": 2,
+      "eur_price": 66.39,
+      "matched": true,
+      "product_id": 628334,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/628334",
+      "market": {
+        "last_sale_price": 190000,
+        "lowest_ask": 289000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 190000,
+          "option": "250(UK 6)",
+          "date_created": "2026-02-03T06:57:24Z",
+          "date_text": "26/02/03",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 289000,
+          "option": "250(UK 6)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "250(UK 6)",
+      "kream_options_available": [
+        "230(UK 4)",
+        "270(UK 8)",
+        "250(UK 6)",
+        "260(UK 7)",
+        "220(UK 3)",
+        "240(UK 5)",
+        "280(UK 9)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "15382001",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 36.89,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"15382001\" SPU=\"15382001\"",
+      "candidates": [
+        {
+          "product_id": 675431,
+          "text": "Dr. Martens\n\n(키즈) 닥터마틴 2976 소프티 T 레더 첼시 부츠 블랙\n\n158,000원\n\n관심 2\n\n · 거래 1"
+        },
+        {
+          "product_id": 628315,
+          "text": "Dr. Martens\n\n닥터마틴 제브잭 리거 레더 부츠 블랙\n\n43%\n\n130,000원\n\n관심 484\n\n · 리뷰 31\n\n · 거래 99"
+        },
+        {
+          "product_id": 609904,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 보스 쿼드 샌들 블랙\n\n34%\n\n118,000원\n\n관심 29\n\n · 거래 2"
+        },
+        {
+          "product_id": 628387,
+          "text": "Dr. Martens\n\n닥터마틴 1460 파스칼 레더 부츠 브라운\n\n23%\n\n269,000원\n\n관심 22\n\n · 리뷰 1\n\n · 거래 7"
+        },
+        {
+          "product_id": 708296,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 1460 페이턴트 레더 레이스업 부츠 블랙커런트\n\n48%\n\n110,000원\n\n관심 5"
+        }
+      ]
+    },
+    {
+      "sku": "15382001",
+      "option": "11",
+      "stock": 1,
+      "eur_price": 36.89,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"15382001\" SPU=\"15382001\"",
+      "candidates": [
+        {
+          "product_id": 675431,
+          "text": "Dr. Martens\n\n(키즈) 닥터마틴 2976 소프티 T 레더 첼시 부츠 블랙\n\n158,000원\n\n관심 2\n\n · 거래 1"
+        },
+        {
+          "product_id": 628315,
+          "text": "Dr. Martens\n\n닥터마틴 제브잭 리거 레더 부츠 블랙\n\n43%\n\n130,000원\n\n관심 484\n\n · 리뷰 31\n\n · 거래 99"
+        },
+        {
+          "product_id": 609904,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 보스 쿼드 샌들 블랙\n\n34%\n\n118,000원\n\n관심 29\n\n · 거래 2"
+        },
+        {
+          "product_id": 628387,
+          "text": "Dr. Martens\n\n닥터마틴 1460 파스칼 레더 부츠 브라운\n\n23%\n\n269,000원\n\n관심 22\n\n · 리뷰 1\n\n · 거래 7"
+        },
+        {
+          "product_id": 708296,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 1460 페이턴트 레더 레이스업 부츠 블랙커런트\n\n48%\n\n110,000원\n\n관심 5"
+        }
+      ]
+    },
+    {
+      "sku": "42653001",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 66.39,
+      "matched": true,
+      "product_id": 628334,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/628334",
+      "market": {
+        "last_sale_price": 190000,
+        "lowest_ask": 289000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 190000,
+          "option": "250(UK 6)",
+          "date_created": "2026-02-03T06:57:24Z",
+          "date_text": "26/02/03",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 289000,
+          "option": "250(UK 6)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "250(UK 6)",
+      "kream_options_available": [
+        "230(UK 4)",
+        "270(UK 8)",
+        "250(UK 6)",
+        "260(UK 7)",
+        "220(UK 3)",
+        "240(UK 5)",
+        "280(UK 9)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "42653001",
+      "option": "6½",
+      "stock": 1,
+      "eur_price": 66.39,
+      "matched": true,
+      "product_id": 628334,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/628334",
+      "market": {
+        "last_sale_price": 180000,
+        "lowest_ask": 194000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 180000,
+          "option": "230(UK 4)",
+          "date_created": "2026-03-26T03:01:49Z",
+          "date_text": "26/03/26",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 194000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 195000,
+          "option": "230(UK 4)",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "230(UK 4)",
+      "kream_options_available": [
+        "230(UK 4)",
+        "270(UK 8)",
+        "250(UK 6)",
+        "260(UK 7)",
+        "220(UK 3)",
+        "240(UK 5)",
+        "280(UK 9)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "15382001",
+      "option": "11,5",
+      "stock": 1,
+      "eur_price": 36.89,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"15382001\" SPU=\"15382001\"",
+      "candidates": [
+        {
+          "product_id": 675431,
+          "text": "Dr. Martens\n\n(키즈) 닥터마틴 2976 소프티 T 레더 첼시 부츠 블랙\n\n158,000원\n\n관심 2\n\n · 거래 1"
+        },
+        {
+          "product_id": 628315,
+          "text": "Dr. Martens\n\n닥터마틴 제브잭 리거 레더 부츠 블랙\n\n43%\n\n130,000원\n\n관심 484\n\n · 리뷰 31\n\n · 거래 99"
+        },
+        {
+          "product_id": 609904,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 보스 쿼드 샌들 블랙\n\n34%\n\n118,000원\n\n관심 29\n\n · 거래 2"
+        },
+        {
+          "product_id": 628387,
+          "text": "Dr. Martens\n\n닥터마틴 1460 파스칼 레더 부츠 브라운\n\n23%\n\n269,000원\n\n관심 22\n\n · 리뷰 1\n\n · 거래 7"
+        },
+        {
+          "product_id": 708296,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 1460 페이턴트 레더 레이스업 부츠 블랙커런트\n\n48%\n\n110,000원\n\n관심 5"
+        }
+      ]
+    },
+    {
+      "sku": "42653001",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 66.39,
+      "matched": true,
+      "product_id": 628334,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/628334",
+      "market": {
+        "last_sale_price": 180000,
+        "lowest_ask": 194000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 180000,
+          "option": "230(UK 4)",
+          "date_created": "2026-03-26T03:01:49Z",
+          "date_text": "26/03/26",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 194000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 195000,
+          "option": "230(UK 4)",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "230(UK 4)",
+      "kream_options_available": [
+        "230(UK 4)",
+        "270(UK 8)",
+        "250(UK 6)",
+        "260(UK 7)",
+        "220(UK 3)",
+        "240(UK 5)",
+        "280(UK 9)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "11822002",
+      "option": "4",
+      "stock": 8,
+      "eur_price": 73.77,
+      "matched": true,
+      "product_id": 113015,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/113015",
+      "market": {
+        "last_sale_price": 150000,
+        "lowest_ask": 149000,
+        "highest_bid": null,
+        "change_text": "▼ 153,000원(-50.5%)"
+      },
+      "sales": [
+        {
+          "price": 150000,
+          "option": "230(UK 4)",
+          "date_created": "2026-06-14T16:01:44Z",
+          "date_text": "26/06/15",
+          "is_immediate": false
+        },
+        {
+          "price": 149000,
+          "option": "230(UK 4)",
+          "date_created": "2026-05-30T03:50:38Z",
+          "date_text": "26/05/30",
+          "is_immediate": false
+        },
+        {
+          "price": 150000,
+          "option": "230(UK 4)",
+          "date_created": "2026-04-25T00:40:50Z",
+          "date_text": "26/04/25",
+          "is_immediate": false
+        },
+        {
+          "price": 229000,
+          "option": "230(UK 4)",
+          "date_created": "2026-01-12T14:49:04Z",
+          "date_text": "26/01/12",
+          "is_immediate": true
+        },
+        {
+          "price": 226000,
+          "option": "230(UK 4)",
+          "date_created": "2025-11-23T14:37:09Z",
+          "date_text": "25/11/23",
+          "is_immediate": false
+        },
+        {
+          "price": 195000,
+          "option": "230(UK 4)",
+          "date_created": "2025-11-13T14:11:43Z",
+          "date_text": "25/11/13",
+          "is_immediate": false
+        },
+        {
+          "price": 159000,
+          "option": "230(UK 4)",
+          "date_created": "2025-11-11T02:27:56Z",
+          "date_text": "25/11/11",
+          "is_immediate": false
+        },
+        {
+          "price": 151000,
+          "option": "230(UK 4)",
+          "date_created": "2025-10-23T10:49:36Z",
+          "date_text": "25/10/23",
+          "is_immediate": false
+        },
+        {
+          "price": 192000,
+          "option": "230(UK 4)",
+          "date_created": "2025-08-18T22:24:27Z",
+          "date_text": "25/08/19",
+          "is_immediate": false
+        },
+        {
+          "price": 198000,
+          "option": "230(UK 4)",
+          "date_created": "2025-04-17T03:44:24Z",
+          "date_text": "25/04/17",
+          "is_immediate": true
+        }
+      ],
+      "asks": [
+        {
+          "price": 149000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 260000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 269000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 308000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 10,
+        "asks": 4,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 153,000원(-50.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "230(UK 4)",
+      "kream_options_available": [
+        "280(UK 9)",
+        "300(UK 11)",
+        "290(UK 10)",
+        "270(UK 8)",
+        "230(UK 4)",
+        "285(UK 9.5)",
+        "260(UK 7)",
+        "220(UK 3)",
+        "250(UK 6)",
+        "240(UK 5)",
+        "255(UK 6.5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "11822002",
+      "option": "3",
+      "stock": 3,
+      "eur_price": 73.77,
+      "matched": true,
+      "product_id": 113015,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/113015",
+      "market": {
+        "last_sale_price": 159000,
+        "lowest_ask": 281000,
+        "highest_bid": 150000,
+        "change_text": "▼ 153,000원(-50.5%)"
+      },
+      "sales": [
+        {
+          "price": 159000,
+          "option": "300(UK 11)",
+          "date_created": "2025-10-13T11:26:49Z",
+          "date_text": "25/10/13",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 281000,
+          "option": "300(UK 11)",
+          "quantity": 2
+        },
+        {
+          "price": 307000,
+          "option": "300(UK 11)",
+          "quantity": 1
+        },
+        {
+          "price": 308000,
+          "option": "300(UK 11)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 150000,
+          "option": "300(UK 11)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 1,
+        "asks": 3,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 153,000원(-50.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "300(UK 11)",
+      "kream_options_available": [
+        "280(UK 9)",
+        "300(UK 11)",
+        "290(UK 10)",
+        "270(UK 8)",
+        "230(UK 4)",
+        "285(UK 9.5)",
+        "260(UK 7)",
+        "220(UK 3)",
+        "250(UK 6)",
+        "240(UK 5)",
+        "255(UK 6.5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "14345001",
+      "option": "8",
+      "stock": 2,
+      "eur_price": 108.44,
+      "matched": true,
+      "product_id": 118744,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/118744",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": 181000,
+        "change_text": "▼ 20,000원(-11.8%)"
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [
+        {
+          "price": 181000,
+          "option": "285(UK 9.5)",
+          "quantity": 1
+        },
+        {
+          "price": 180000,
+          "option": "285(UK 9.5)",
+          "quantity": 1
+        },
+        {
+          "price": 150000,
+          "option": "285(UK 9.5)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 3
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 20,000원(-11.8%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "285(UK 9.5)",
+      "kream_options_available": [
+        "255(UK 6.5)",
+        "285(UK 9.5)",
+        "290(UK 10)",
+        "270(UK 8)",
+        "280(UK 9)",
+        "310(UK 12)",
+        "260(UK 7)",
+        "300(UK 11)",
+        "230(UK 4)",
+        "250(UK 6)",
+        "220(UK 3)",
+        "240(UK 5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "14345001",
+      "option": "9½",
+      "stock": 1,
+      "eur_price": 108.44,
+      "matched": true,
+      "product_id": 118744,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/118744",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": 190000,
+        "change_text": "▼ 20,000원(-11.8%)"
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [
+        {
+          "price": 190000,
+          "option": "255(UK 6.5)",
+          "quantity": 1
+        },
+        {
+          "price": 170000,
+          "option": "255(UK 6.5)",
+          "quantity": 1
+        },
+        {
+          "price": 120000,
+          "option": "255(UK 6.5)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 3
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 20,000원(-11.8%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "255(UK 6.5)",
+      "kream_options_available": [
+        "255(UK 6.5)",
+        "285(UK 9.5)",
+        "290(UK 10)",
+        "270(UK 8)",
+        "280(UK 9)",
+        "310(UK 12)",
+        "260(UK 7)",
+        "300(UK 11)",
+        "230(UK 4)",
+        "250(UK 6)",
+        "220(UK 3)",
+        "240(UK 5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "14345001",
+      "option": "10",
+      "stock": 2,
+      "eur_price": 108.44,
+      "matched": true,
+      "product_id": 118744,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/118744",
+      "market": {
+        "last_sale_price": 235000,
+        "lowest_ask": null,
+        "highest_bid": 156000,
+        "change_text": "▼ 20,000원(-11.8%)"
+      },
+      "sales": [
+        {
+          "price": 235000,
+          "option": "290(UK 10)",
+          "date_created": "2026-06-19T04:05:14Z",
+          "date_text": "26/06/19",
+          "is_immediate": true
+        }
+      ],
+      "asks": [],
+      "bids": [
+        {
+          "price": 156000,
+          "option": "290(UK 10)",
+          "quantity": 1
+        },
+        {
+          "price": 155000,
+          "option": "290(UK 10)",
+          "quantity": 1
+        },
+        {
+          "price": 134000,
+          "option": "290(UK 10)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 1,
+        "asks": 0,
+        "bids": 3
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 20,000원(-11.8%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "290(UK 10)",
+      "kream_options_available": [
+        "255(UK 6.5)",
+        "285(UK 9.5)",
+        "290(UK 10)",
+        "270(UK 8)",
+        "280(UK 9)",
+        "310(UK 12)",
+        "260(UK 7)",
+        "300(UK 11)",
+        "230(UK 4)",
+        "250(UK 6)",
+        "220(UK 3)",
+        "240(UK 5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "14345001",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 108.44,
+      "matched": true,
+      "product_id": 118744,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/118744",
+      "market": {
+        "last_sale_price": 178000,
+        "lowest_ask": 178000,
+        "highest_bid": 152000,
+        "change_text": "▼ 20,000원(-11.8%)"
+      },
+      "sales": [
+        {
+          "price": 178000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-18T16:22:02Z",
+          "date_text": "26/06/19",
+          "is_immediate": true
+        },
+        {
+          "price": 178000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-18T13:53:00Z",
+          "date_text": "26/06/18",
+          "is_immediate": true
+        },
+        {
+          "price": 176000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-18T04:02:12Z",
+          "date_text": "26/06/18",
+          "is_immediate": true
+        },
+        {
+          "price": 175000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-18T02:30:09Z",
+          "date_text": "26/06/18",
+          "is_immediate": true
+        },
+        {
+          "price": 178000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-17T06:04:28Z",
+          "date_text": "26/06/17",
+          "is_immediate": true
+        },
+        {
+          "price": 177000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-17T05:36:51Z",
+          "date_text": "26/06/17",
+          "is_immediate": true
+        },
+        {
+          "price": 177000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-16T10:30:37Z",
+          "date_text": "26/06/16",
+          "is_immediate": true
+        },
+        {
+          "price": 177000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-15T14:05:11Z",
+          "date_text": "26/06/15",
+          "is_immediate": true
+        },
+        {
+          "price": 172000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-14T23:37:18Z",
+          "date_text": "26/06/15",
+          "is_immediate": true
+        },
+        {
+          "price": 172000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-14T08:10:36Z",
+          "date_text": "26/06/14",
+          "is_immediate": true
+        },
+        {
+          "price": 173000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-13T03:50:19Z",
+          "date_text": "26/06/13",
+          "is_immediate": true
+        },
+        {
+          "price": 173000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-12T10:11:20Z",
+          "date_text": "26/06/12",
+          "is_immediate": true
+        },
+        {
+          "price": 173000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-12T09:42:27Z",
+          "date_text": "26/06/12",
+          "is_immediate": true
+        },
+        {
+          "price": 173000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-12T04:46:33Z",
+          "date_text": "26/06/12",
+          "is_immediate": true
+        },
+        {
+          "price": 177000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-11T09:13:46Z",
+          "date_text": "26/06/11",
+          "is_immediate": true
+        },
+        {
+          "price": 177000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-11T04:31:59Z",
+          "date_text": "26/06/11",
+          "is_immediate": true
+        },
+        {
+          "price": 177000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-10T08:59:39Z",
+          "date_text": "26/06/10",
+          "is_immediate": true
+        },
+        {
+          "price": 177000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-10T03:09:35Z",
+          "date_text": "26/06/10",
+          "is_immediate": true
+        }
+      ],
+      "asks": [
+        {
+          "price": 178000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 179000,
+          "option": "270(UK 8)",
+          "quantity": 4
+        },
+        {
+          "price": 180000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 187000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 189000,
+          "option": "270(UK 8)",
+          "quantity": 4
+        },
+        {
+          "price": 190000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 152000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 151000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 150000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 146000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 145000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 144000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 140000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 133000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 124000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 120000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 100000,
+          "option": "270(UK 8)",
+          "quantity": 3
+        },
+        {
+          "price": 50000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 18,
+        "asks": 6,
+        "bids": 12
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 20,000원(-11.8%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "270(UK 8)",
+      "kream_options_available": [
+        "255(UK 6.5)",
+        "285(UK 9.5)",
+        "290(UK 10)",
+        "270(UK 8)",
+        "280(UK 9)",
+        "310(UK 12)",
+        "260(UK 7)",
+        "300(UK 11)",
+        "230(UK 4)",
+        "250(UK 6)",
+        "220(UK 3)",
+        "240(UK 5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "13512006",
+      "option": "6½",
+      "stock": 2,
+      "eur_price": 114.75,
+      "matched": true,
+      "product_id": 118758,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/118758",
+      "market": {
+        "last_sale_price": 225000,
+        "lowest_ask": 193000,
+        "highest_bid": null,
+        "change_text": "▲ 102,000원(+89.5%)"
+      },
+      "sales": [
+        {
+          "price": 225000,
+          "option": "255(UK 6.5)",
+          "date_created": "2025-03-10T07:16:18Z",
+          "date_text": "25/03/10",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 193000,
+          "option": "255(UK 6.5)",
+          "quantity": 2
+        },
+        {
+          "price": 196000,
+          "option": "255(UK 6.5)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 102,000원(+89.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "255(UK 6.5)",
+      "kream_options_available": [
+        "255(UK 6.5)",
+        "220(UK 3)",
+        "230(UK 4)",
+        "240(UK 5)",
+        "250(UK 6)",
+        "260(UK 7)",
+        "270(UK 8)",
+        "280(UK 9)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "13512006",
+      "option": "6",
+      "stock": 3,
+      "eur_price": 114.75,
+      "matched": true,
+      "product_id": 118758,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/118758",
+      "market": {
+        "last_sale_price": 225000,
+        "lowest_ask": 193000,
+        "highest_bid": null,
+        "change_text": "▲ 102,000원(+89.5%)"
+      },
+      "sales": [
+        {
+          "price": 225000,
+          "option": "255(UK 6.5)",
+          "date_created": "2025-03-10T07:16:18Z",
+          "date_text": "25/03/10",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 193000,
+          "option": "255(UK 6.5)",
+          "quantity": 2
+        },
+        {
+          "price": 196000,
+          "option": "255(UK 6.5)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 102,000원(+89.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "255(UK 6.5)",
+      "kream_options_available": [
+        "255(UK 6.5)",
+        "220(UK 3)",
+        "230(UK 4)",
+        "240(UK 5)",
+        "250(UK 6)",
+        "260(UK 7)",
+        "270(UK 8)",
+        "280(UK 9)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "13512006",
+      "option": "5",
+      "stock": 2,
+      "eur_price": 114.75,
+      "matched": true,
+      "product_id": 118758,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/118758",
+      "market": {
+        "last_sale_price": 225000,
+        "lowest_ask": 193000,
+        "highest_bid": null,
+        "change_text": "▲ 102,000원(+89.5%)"
+      },
+      "sales": [
+        {
+          "price": 225000,
+          "option": "255(UK 6.5)",
+          "date_created": "2025-03-10T07:16:18Z",
+          "date_text": "25/03/10",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 193000,
+          "option": "255(UK 6.5)",
+          "quantity": 2
+        },
+        {
+          "price": 196000,
+          "option": "255(UK 6.5)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 102,000원(+89.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "255(UK 6.5)",
+      "kream_options_available": [
+        "255(UK 6.5)",
+        "220(UK 3)",
+        "230(UK 4)",
+        "240(UK 5)",
+        "250(UK 6)",
+        "260(UK 7)",
+        "270(UK 8)",
+        "280(UK 9)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "13512006",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 114.75,
+      "matched": true,
+      "product_id": 118758,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/118758",
+      "market": {
+        "last_sale_price": 196000,
+        "lowest_ask": 307000,
+        "highest_bid": null,
+        "change_text": "▲ 102,000원(+89.5%)"
+      },
+      "sales": [
+        {
+          "price": 196000,
+          "option": "260(UK 7)",
+          "date_created": "2026-05-11T07:32:14Z",
+          "date_text": "26/05/11",
+          "is_immediate": false
+        },
+        {
+          "price": 198000,
+          "option": "260(UK 7)",
+          "date_created": "2026-01-28T17:14:26Z",
+          "date_text": "26/01/29",
+          "is_immediate": false
+        },
+        {
+          "price": 216000,
+          "option": "260(UK 7)",
+          "date_created": "2025-12-15T10:12:12Z",
+          "date_text": "25/12/15",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 307000,
+          "option": "260(UK 7)",
+          "quantity": 2
+        },
+        {
+          "price": 310000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 3,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 102,000원(+89.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "260(UK 7)",
+      "kream_options_available": [
+        "255(UK 6.5)",
+        "220(UK 3)",
+        "230(UK 4)",
+        "240(UK 5)",
+        "250(UK 6)",
+        "260(UK 7)",
+        "270(UK 8)",
+        "280(UK 9)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "13512006",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 114.75,
+      "matched": true,
+      "product_id": 118758,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/118758",
+      "market": {
+        "last_sale_price": 114000,
+        "lowest_ask": 306000,
+        "highest_bid": null,
+        "change_text": "▲ 102,000원(+89.5%)"
+      },
+      "sales": [
+        {
+          "price": 114000,
+          "option": "220(UK 3)",
+          "date_created": "2026-05-16T13:05:15Z",
+          "date_text": "26/05/16",
+          "is_immediate": false
+        },
+        {
+          "price": 112000,
+          "option": "220(UK 3)",
+          "date_created": "2026-05-08T14:08:35Z",
+          "date_text": "26/05/08",
+          "is_immediate": false
+        },
+        {
+          "price": 130000,
+          "option": "220(UK 3)",
+          "date_created": "2026-02-23T14:54:25Z",
+          "date_text": "26/02/23",
+          "is_immediate": false
+        },
+        {
+          "price": 131000,
+          "option": "220(UK 3)",
+          "date_created": "2026-02-03T09:08:57Z",
+          "date_text": "26/02/03",
+          "is_immediate": false
+        },
+        {
+          "price": 129000,
+          "option": "220(UK 3)",
+          "date_created": "2025-10-27T10:12:04Z",
+          "date_text": "25/10/27",
+          "is_immediate": false
+        },
+        {
+          "price": 134000,
+          "option": "220(UK 3)",
+          "date_created": "2025-10-13T07:40:27Z",
+          "date_text": "25/10/13",
+          "is_immediate": false
+        },
+        {
+          "price": 148000,
+          "option": "220(UK 3)",
+          "date_created": "2025-09-25T12:40:57Z",
+          "date_text": "25/09/25",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 306000,
+          "option": "220(UK 3)",
+          "quantity": 1
+        },
+        {
+          "price": 307000,
+          "option": "220(UK 3)",
+          "quantity": 2
+        },
+        {
+          "price": 310000,
+          "option": "220(UK 3)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 7,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 102,000원(+89.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "220(UK 3)",
+      "kream_options_available": [
+        "255(UK 6.5)",
+        "220(UK 3)",
+        "230(UK 4)",
+        "240(UK 5)",
+        "250(UK 6)",
+        "260(UK 7)",
+        "270(UK 8)",
+        "280(UK 9)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "31737439",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 83.19,
+      "matched": true,
+      "product_id": 436327,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/436327",
+      "market": {
+        "last_sale_price": 181000,
+        "lowest_ask": 181000,
+        "highest_bid": 132000,
+        "change_text": "▼ 12,000원(-6.2%)"
+      },
+      "sales": [
+        {
+          "price": 181000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-19T15:25:48Z",
+          "date_text": "13시간 전",
+          "is_immediate": false
+        },
+        {
+          "price": 193000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-18T07:54:40Z",
+          "date_text": "26/06/18",
+          "is_immediate": true
+        },
+        {
+          "price": 192000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-11T01:35:53Z",
+          "date_text": "26/06/11",
+          "is_immediate": true
+        },
+        {
+          "price": 130000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-04T11:49:21Z",
+          "date_text": "26/06/04",
+          "is_immediate": false
+        },
+        {
+          "price": 187000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-03T17:53:28Z",
+          "date_text": "26/06/04",
+          "is_immediate": true
+        },
+        {
+          "price": 161000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-02T15:30:40Z",
+          "date_text": "26/06/03",
+          "is_immediate": false
+        },
+        {
+          "price": 175000,
+          "option": "260(UK 7)",
+          "date_created": "2026-05-28T11:35:49Z",
+          "date_text": "26/05/28",
+          "is_immediate": true
+        },
+        {
+          "price": 162000,
+          "option": "260(UK 7)",
+          "date_created": "2026-05-28T01:27:51Z",
+          "date_text": "26/05/28",
+          "is_immediate": false
+        },
+        {
+          "price": 167000,
+          "option": "260(UK 7)",
+          "date_created": "2026-05-17T14:34:13Z",
+          "date_text": "26/05/17",
+          "is_immediate": false
+        },
+        {
+          "price": 173000,
+          "option": "260(UK 7)",
+          "date_created": "2026-05-09T08:56:31Z",
+          "date_text": "26/05/09",
+          "is_immediate": false
+        },
+        {
+          "price": 146000,
+          "option": "260(UK 7)",
+          "date_created": "2026-05-06T10:04:50Z",
+          "date_text": "26/05/06",
+          "is_immediate": false
+        },
+        {
+          "price": 181000,
+          "option": "260(UK 7)",
+          "date_created": "2026-05-06T05:40:43Z",
+          "date_text": "26/05/06",
+          "is_immediate": true
+        },
+        {
+          "price": 144000,
+          "option": "260(UK 7)",
+          "date_created": "2026-05-01T08:39:56Z",
+          "date_text": "26/05/01",
+          "is_immediate": false
+        },
+        {
+          "price": 147000,
+          "option": "260(UK 7)",
+          "date_created": "2026-04-29T02:59:00Z",
+          "date_text": "26/04/29",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "260(UK 7)",
+          "date_created": "2026-04-23T02:24:28Z",
+          "date_text": "26/04/23",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 181000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 183000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 185000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 187000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 193000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 214000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 132000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 131000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 113000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 15,
+        "asks": 6,
+        "bids": 3
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 12,000원(-6.2%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "260(UK 7)",
+      "kream_options_available": [
+        "280(UK 9)",
+        "230(UK 4)",
+        "260(UK 7)",
+        "270(UK 8)",
+        "240(UK 5)",
+        "250(UK 6)",
+        "285(UK 9.5)",
+        "220(UK 3)",
+        "290(UK 10)",
+        "300(UK 11)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "31737439",
+      "option": "6",
+      "stock": 2,
+      "eur_price": 83.19,
+      "matched": true,
+      "product_id": 436327,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/436327",
+      "market": {
+        "last_sale_price": 181000,
+        "lowest_ask": 181000,
+        "highest_bid": 132000,
+        "change_text": "▼ 12,000원(-6.2%)"
+      },
+      "sales": [
+        {
+          "price": 181000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-19T15:25:48Z",
+          "date_text": "13시간 전",
+          "is_immediate": false
+        },
+        {
+          "price": 193000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-18T07:54:40Z",
+          "date_text": "26/06/18",
+          "is_immediate": true
+        },
+        {
+          "price": 192000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-11T01:35:53Z",
+          "date_text": "26/06/11",
+          "is_immediate": true
+        },
+        {
+          "price": 130000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-04T11:49:21Z",
+          "date_text": "26/06/04",
+          "is_immediate": false
+        },
+        {
+          "price": 187000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-03T17:53:28Z",
+          "date_text": "26/06/04",
+          "is_immediate": true
+        },
+        {
+          "price": 161000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-02T15:30:40Z",
+          "date_text": "26/06/03",
+          "is_immediate": false
+        },
+        {
+          "price": 175000,
+          "option": "260(UK 7)",
+          "date_created": "2026-05-28T11:35:49Z",
+          "date_text": "26/05/28",
+          "is_immediate": true
+        },
+        {
+          "price": 162000,
+          "option": "260(UK 7)",
+          "date_created": "2026-05-28T01:27:51Z",
+          "date_text": "26/05/28",
+          "is_immediate": false
+        },
+        {
+          "price": 167000,
+          "option": "260(UK 7)",
+          "date_created": "2026-05-17T14:34:13Z",
+          "date_text": "26/05/17",
+          "is_immediate": false
+        },
+        {
+          "price": 173000,
+          "option": "260(UK 7)",
+          "date_created": "2026-05-09T08:56:31Z",
+          "date_text": "26/05/09",
+          "is_immediate": false
+        },
+        {
+          "price": 146000,
+          "option": "260(UK 7)",
+          "date_created": "2026-05-06T10:04:50Z",
+          "date_text": "26/05/06",
+          "is_immediate": false
+        },
+        {
+          "price": 181000,
+          "option": "260(UK 7)",
+          "date_created": "2026-05-06T05:40:43Z",
+          "date_text": "26/05/06",
+          "is_immediate": true
+        },
+        {
+          "price": 144000,
+          "option": "260(UK 7)",
+          "date_created": "2026-05-01T08:39:56Z",
+          "date_text": "26/05/01",
+          "is_immediate": false
+        },
+        {
+          "price": 147000,
+          "option": "260(UK 7)",
+          "date_created": "2026-04-29T02:59:00Z",
+          "date_text": "26/04/29",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "260(UK 7)",
+          "date_created": "2026-04-23T02:24:28Z",
+          "date_text": "26/04/23",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 181000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 183000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 185000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 187000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 193000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 214000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 132000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 131000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 113000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 15,
+        "asks": 6,
+        "bids": 3
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 12,000원(-6.2%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "260(UK 7)",
+      "kream_options_available": [
+        "280(UK 9)",
+        "230(UK 4)",
+        "260(UK 7)",
+        "270(UK 8)",
+        "240(UK 5)",
+        "250(UK 6)",
+        "285(UK 9.5)",
+        "220(UK 3)",
+        "290(UK 10)",
+        "300(UK 11)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "31737439",
+      "option": "6½",
+      "stock": 2,
+      "eur_price": 83.19,
+      "matched": true,
+      "product_id": 436327,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/436327",
+      "market": {
+        "last_sale_price": 168000,
+        "lowest_ask": 181000,
+        "highest_bid": 151000,
+        "change_text": "▼ 12,000원(-6.2%)"
+      },
+      "sales": [
+        {
+          "price": 168000,
+          "option": "280(UK 9)",
+          "date_created": "2026-05-12T15:08:56Z",
+          "date_text": "26/05/13",
+          "is_immediate": false
+        },
+        {
+          "price": 213000,
+          "option": "280(UK 9)",
+          "date_created": "2026-05-12T03:51:23Z",
+          "date_text": "26/05/12",
+          "is_immediate": true
+        },
+        {
+          "price": 157000,
+          "option": "280(UK 9)",
+          "date_created": "2026-05-05T16:58:11Z",
+          "date_text": "26/05/06",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "280(UK 9)",
+          "date_created": "2026-04-25T22:32:57Z",
+          "date_text": "26/04/26",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 181000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        },
+        {
+          "price": 182000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        },
+        {
+          "price": 214000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 151000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        },
+        {
+          "price": 150000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 4,
+        "asks": 3,
+        "bids": 2
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 12,000원(-6.2%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "280(UK 9)",
+      "kream_options_available": [
+        "280(UK 9)",
+        "230(UK 4)",
+        "260(UK 7)",
+        "270(UK 8)",
+        "240(UK 5)",
+        "250(UK 6)",
+        "285(UK 9.5)",
+        "220(UK 3)",
+        "290(UK 10)",
+        "300(UK 11)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "31737439",
+      "option": "5",
+      "stock": 2,
+      "eur_price": 83.19,
+      "matched": true,
+      "product_id": 436327,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/436327",
+      "market": {
+        "last_sale_price": 219000,
+        "lowest_ask": 187000,
+        "highest_bid": 121000,
+        "change_text": "▼ 12,000원(-6.2%)"
+      },
+      "sales": [
+        {
+          "price": 219000,
+          "option": "240(UK 5)",
+          "date_created": "2026-06-08T05:42:33Z",
+          "date_text": "26/06/08",
+          "is_immediate": false
+        },
+        {
+          "price": 210000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-19T16:29:04Z",
+          "date_text": "26/05/20",
+          "is_immediate": false
+        },
+        {
+          "price": 219000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-09T11:03:26Z",
+          "date_text": "26/05/09",
+          "is_immediate": false
+        },
+        {
+          "price": 214000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-05T05:22:02Z",
+          "date_text": "26/05/05",
+          "is_immediate": false
+        },
+        {
+          "price": 155000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-01T03:08:07Z",
+          "date_text": "26/05/01",
+          "is_immediate": false
+        },
+        {
+          "price": 154000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-30T10:10:32Z",
+          "date_text": "26/04/30",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-26T01:40:37Z",
+          "date_text": "26/04/26",
+          "is_immediate": false
+        },
+        {
+          "price": 150000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-22T21:21:39Z",
+          "date_text": "26/04/23",
+          "is_immediate": false
+        },
+        {
+          "price": 149000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-22T16:09:08Z",
+          "date_text": "26/04/23",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 187000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 210000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 214000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 218000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 121000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 9,
+        "asks": 4,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 12,000원(-6.2%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "240(UK 5)",
+      "kream_options_available": [
+        "280(UK 9)",
+        "230(UK 4)",
+        "260(UK 7)",
+        "270(UK 8)",
+        "240(UK 5)",
+        "250(UK 6)",
+        "285(UK 9.5)",
+        "220(UK 3)",
+        "290(UK 10)",
+        "300(UK 11)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "31737439",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 83.19,
+      "matched": true,
+      "product_id": 436327,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/436327",
+      "market": {
+        "last_sale_price": 187000,
+        "lowest_ask": 186000,
+        "highest_bid": 150000,
+        "change_text": "▼ 12,000원(-6.2%)"
+      },
+      "sales": [
+        {
+          "price": 187000,
+          "option": "230(UK 4)",
+          "date_created": "2026-06-17T17:36:34Z",
+          "date_text": "26/06/18",
+          "is_immediate": false
+        },
+        {
+          "price": 192000,
+          "option": "230(UK 4)",
+          "date_created": "2026-05-26T16:01:21Z",
+          "date_text": "26/05/27",
+          "is_immediate": false
+        },
+        {
+          "price": 217000,
+          "option": "230(UK 4)",
+          "date_created": "2026-05-06T05:27:37Z",
+          "date_text": "26/05/06",
+          "is_immediate": true
+        },
+        {
+          "price": 206000,
+          "option": "230(UK 4)",
+          "date_created": "2026-04-28T14:46:50Z",
+          "date_text": "26/04/28",
+          "is_immediate": true
+        }
+      ],
+      "asks": [
+        {
+          "price": 186000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 187000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 195000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 214000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 150000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 4,
+        "asks": 4,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 12,000원(-6.2%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "230(UK 4)",
+      "kream_options_available": [
+        "280(UK 9)",
+        "230(UK 4)",
+        "260(UK 7)",
+        "270(UK 8)",
+        "240(UK 5)",
+        "250(UK 6)",
+        "285(UK 9.5)",
+        "220(UK 3)",
+        "290(UK 10)",
+        "300(UK 11)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "31737439",
+      "option": "4",
+      "stock": 2,
+      "eur_price": 83.19,
+      "matched": true,
+      "product_id": 436327,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/436327",
+      "market": {
+        "last_sale_price": 187000,
+        "lowest_ask": 186000,
+        "highest_bid": 150000,
+        "change_text": "▼ 12,000원(-6.2%)"
+      },
+      "sales": [
+        {
+          "price": 187000,
+          "option": "230(UK 4)",
+          "date_created": "2026-06-17T17:36:34Z",
+          "date_text": "26/06/18",
+          "is_immediate": false
+        },
+        {
+          "price": 192000,
+          "option": "230(UK 4)",
+          "date_created": "2026-05-26T16:01:21Z",
+          "date_text": "26/05/27",
+          "is_immediate": false
+        },
+        {
+          "price": 217000,
+          "option": "230(UK 4)",
+          "date_created": "2026-05-06T05:27:37Z",
+          "date_text": "26/05/06",
+          "is_immediate": true
+        },
+        {
+          "price": 206000,
+          "option": "230(UK 4)",
+          "date_created": "2026-04-28T14:46:50Z",
+          "date_text": "26/04/28",
+          "is_immediate": true
+        }
+      ],
+      "asks": [
+        {
+          "price": 186000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 187000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 195000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 214000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 150000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 4,
+        "asks": 4,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 12,000원(-6.2%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "230(UK 4)",
+      "kream_options_available": [
+        "280(UK 9)",
+        "230(UK 4)",
+        "260(UK 7)",
+        "270(UK 8)",
+        "240(UK 5)",
+        "250(UK 6)",
+        "285(UK 9.5)",
+        "220(UK 3)",
+        "290(UK 10)",
+        "300(UK 11)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "26378001",
+      "option": "5",
+      "stock": 2,
+      "eur_price": 137.13,
+      "matched": true,
+      "product_id": 118751,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/118751",
+      "market": {
+        "last_sale_price": 287000,
+        "lowest_ask": 242000,
+        "highest_bid": null,
+        "change_text": "▲ 97,000원(+40.1%)"
+      },
+      "sales": [
+        {
+          "price": 287000,
+          "option": "255(UK 6.5)",
+          "date_created": "2025-11-27T16:18:59Z",
+          "date_text": "25/11/28",
+          "is_immediate": false
+        },
+        {
+          "price": 268000,
+          "option": "255(UK 6.5)",
+          "date_created": "2025-10-12T17:55:09Z",
+          "date_text": "25/10/13",
+          "is_immediate": false
+        },
+        {
+          "price": 283000,
+          "option": "255(UK 6.5)",
+          "date_created": "2025-08-08T09:50:12Z",
+          "date_text": "25/08/08",
+          "is_immediate": false
+        },
+        {
+          "price": 281000,
+          "option": "255(UK 6.5)",
+          "date_created": "2024-10-25T06:01:32Z",
+          "date_text": "24/10/25",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 242000,
+          "option": "255(UK 6.5)",
+          "quantity": 2
+        },
+        {
+          "price": 264000,
+          "option": "255(UK 6.5)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 4,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 97,000원(+40.1%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "255(UK 6.5)",
+      "kream_options_available": [
+        "220(UK 3)",
+        "290(UK 10)",
+        "255(UK 6.5)",
+        "250(UK 6)",
+        "260(UK 7)",
+        "240(UK 5)",
+        "230(UK 4)",
+        "270(UK 8)",
+        "280(UK 9)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "26378001",
+      "option": "6",
+      "stock": 2,
+      "eur_price": 137.13,
+      "matched": true,
+      "product_id": 118751,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/118751",
+      "market": {
+        "last_sale_price": 287000,
+        "lowest_ask": 242000,
+        "highest_bid": null,
+        "change_text": "▲ 97,000원(+40.1%)"
+      },
+      "sales": [
+        {
+          "price": 287000,
+          "option": "255(UK 6.5)",
+          "date_created": "2025-11-27T16:18:59Z",
+          "date_text": "25/11/28",
+          "is_immediate": false
+        },
+        {
+          "price": 268000,
+          "option": "255(UK 6.5)",
+          "date_created": "2025-10-12T17:55:09Z",
+          "date_text": "25/10/13",
+          "is_immediate": false
+        },
+        {
+          "price": 283000,
+          "option": "255(UK 6.5)",
+          "date_created": "2025-08-08T09:50:12Z",
+          "date_text": "25/08/08",
+          "is_immediate": false
+        },
+        {
+          "price": 281000,
+          "option": "255(UK 6.5)",
+          "date_created": "2024-10-25T06:01:32Z",
+          "date_text": "24/10/25",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 242000,
+          "option": "255(UK 6.5)",
+          "quantity": 2
+        },
+        {
+          "price": 264000,
+          "option": "255(UK 6.5)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 4,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 97,000원(+40.1%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "255(UK 6.5)",
+      "kream_options_available": [
+        "220(UK 3)",
+        "290(UK 10)",
+        "255(UK 6.5)",
+        "250(UK 6)",
+        "260(UK 7)",
+        "240(UK 5)",
+        "230(UK 4)",
+        "270(UK 8)",
+        "280(UK 9)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "26378001",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 137.13,
+      "matched": true,
+      "product_id": 118751,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/118751",
+      "market": {
+        "last_sale_price": 294000,
+        "lowest_ask": 315000,
+        "highest_bid": 210000,
+        "change_text": "▲ 97,000원(+40.1%)"
+      },
+      "sales": [
+        {
+          "price": 294000,
+          "option": "220(UK 3)",
+          "date_created": "2025-10-02T12:07:55Z",
+          "date_text": "25/10/02",
+          "is_immediate": false
+        },
+        {
+          "price": 278000,
+          "option": "220(UK 3)",
+          "date_created": "2025-01-19T01:54:58Z",
+          "date_text": "25/01/19",
+          "is_immediate": false
+        },
+        {
+          "price": 230000,
+          "option": "220(UK 3)",
+          "date_created": "2024-12-22T02:00:41Z",
+          "date_text": "24/12/22",
+          "is_immediate": false
+        },
+        {
+          "price": 250000,
+          "option": "220(UK 3)",
+          "date_created": "2024-08-28T16:08:45Z",
+          "date_text": "24/08/29",
+          "is_immediate": true
+        },
+        {
+          "price": 217000,
+          "option": "220(UK 3)",
+          "date_created": "2024-08-23T02:05:14Z",
+          "date_text": "24/08/23",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 315000,
+          "option": "220(UK 3)",
+          "quantity": 1
+        },
+        {
+          "price": 339000,
+          "option": "220(UK 3)",
+          "quantity": 1
+        },
+        {
+          "price": 505000,
+          "option": "220(UK 3)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 210000,
+          "option": "220(UK 3)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 5,
+        "asks": 3,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 97,000원(+40.1%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "220(UK 3)",
+      "kream_options_available": [
+        "220(UK 3)",
+        "290(UK 10)",
+        "255(UK 6.5)",
+        "250(UK 6)",
+        "260(UK 7)",
+        "240(UK 5)",
+        "230(UK 4)",
+        "270(UK 8)",
+        "280(UK 9)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "11822002",
+      "option": "10",
+      "stock": 2,
+      "eur_price": 114.75,
+      "matched": true,
+      "product_id": 113015,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/113015",
+      "market": {
+        "last_sale_price": 283000,
+        "lowest_ask": 245000,
+        "highest_bid": 85000,
+        "change_text": "▼ 153,000원(-50.5%)"
+      },
+      "sales": [
+        {
+          "price": 283000,
+          "option": "290(UK 10)",
+          "date_created": "2025-10-28T11:51:05Z",
+          "date_text": "25/10/28",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 245000,
+          "option": "290(UK 10)",
+          "quantity": 1
+        },
+        {
+          "price": 246000,
+          "option": "290(UK 10)",
+          "quantity": 1
+        },
+        {
+          "price": 260000,
+          "option": "290(UK 10)",
+          "quantity": 1
+        },
+        {
+          "price": 308000,
+          "option": "290(UK 10)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 85000,
+          "option": "290(UK 10)",
+          "quantity": 1
+        },
+        {
+          "price": 54000,
+          "option": "290(UK 10)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 1,
+        "asks": 4,
+        "bids": 2
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 153,000원(-50.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "290(UK 10)",
+      "kream_options_available": [
+        "280(UK 9)",
+        "300(UK 11)",
+        "290(UK 10)",
+        "270(UK 8)",
+        "230(UK 4)",
+        "285(UK 9.5)",
+        "260(UK 7)",
+        "220(UK 3)",
+        "250(UK 6)",
+        "240(UK 5)",
+        "255(UK 6.5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "11822002",
+      "option": "9",
+      "stock": 2,
+      "eur_price": 114.75,
+      "matched": true,
+      "product_id": 113015,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/113015",
+      "market": {
+        "last_sale_price": 256000,
+        "lowest_ask": 257000,
+        "highest_bid": 170000,
+        "change_text": "▼ 153,000원(-50.5%)"
+      },
+      "sales": [
+        {
+          "price": 256000,
+          "option": "280(UK 9)",
+          "date_created": "2026-04-19T09:50:36Z",
+          "date_text": "26/04/19",
+          "is_immediate": false
+        },
+        {
+          "price": 237000,
+          "option": "280(UK 9)",
+          "date_created": "2025-12-18T09:17:25Z",
+          "date_text": "25/12/18",
+          "is_immediate": false
+        },
+        {
+          "price": 235000,
+          "option": "280(UK 9)",
+          "date_created": "2025-12-14T06:12:32Z",
+          "date_text": "25/12/14",
+          "is_immediate": false
+        },
+        {
+          "price": 234000,
+          "option": "280(UK 9)",
+          "date_created": "2025-12-01T09:48:16Z",
+          "date_text": "25/12/01",
+          "is_immediate": false
+        },
+        {
+          "price": 199000,
+          "option": "280(UK 9)",
+          "date_created": "2025-07-18T08:58:39Z",
+          "date_text": "25/07/18",
+          "is_immediate": false
+        },
+        {
+          "price": 170000,
+          "option": "280(UK 9)",
+          "date_created": "2025-03-13T00:51:00Z",
+          "date_text": "25/03/13",
+          "is_immediate": false
+        },
+        {
+          "price": 224000,
+          "option": "280(UK 9)",
+          "date_created": "2025-03-03T14:43:48Z",
+          "date_text": "25/03/03",
+          "is_immediate": false
+        },
+        {
+          "price": 220000,
+          "option": "280(UK 9)",
+          "date_created": "2025-02-23T10:55:00Z",
+          "date_text": "25/02/23",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 257000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        },
+        {
+          "price": 307000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        },
+        {
+          "price": 308000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 170000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 8,
+        "asks": 3,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 153,000원(-50.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "280(UK 9)",
+      "kream_options_available": [
+        "280(UK 9)",
+        "300(UK 11)",
+        "290(UK 10)",
+        "270(UK 8)",
+        "230(UK 4)",
+        "285(UK 9.5)",
+        "260(UK 7)",
+        "220(UK 3)",
+        "250(UK 6)",
+        "240(UK 5)",
+        "255(UK 6.5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "11822002",
+      "option": "9½",
+      "stock": 2,
+      "eur_price": 114.75,
+      "matched": true,
+      "product_id": 113015,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/113015",
+      "market": {
+        "last_sale_price": 256000,
+        "lowest_ask": 257000,
+        "highest_bid": 170000,
+        "change_text": "▼ 153,000원(-50.5%)"
+      },
+      "sales": [
+        {
+          "price": 256000,
+          "option": "280(UK 9)",
+          "date_created": "2026-04-19T09:50:36Z",
+          "date_text": "26/04/19",
+          "is_immediate": false
+        },
+        {
+          "price": 237000,
+          "option": "280(UK 9)",
+          "date_created": "2025-12-18T09:17:25Z",
+          "date_text": "25/12/18",
+          "is_immediate": false
+        },
+        {
+          "price": 235000,
+          "option": "280(UK 9)",
+          "date_created": "2025-12-14T06:12:32Z",
+          "date_text": "25/12/14",
+          "is_immediate": false
+        },
+        {
+          "price": 234000,
+          "option": "280(UK 9)",
+          "date_created": "2025-12-01T09:48:16Z",
+          "date_text": "25/12/01",
+          "is_immediate": false
+        },
+        {
+          "price": 199000,
+          "option": "280(UK 9)",
+          "date_created": "2025-07-18T08:58:39Z",
+          "date_text": "25/07/18",
+          "is_immediate": false
+        },
+        {
+          "price": 170000,
+          "option": "280(UK 9)",
+          "date_created": "2025-03-13T00:51:00Z",
+          "date_text": "25/03/13",
+          "is_immediate": false
+        },
+        {
+          "price": 224000,
+          "option": "280(UK 9)",
+          "date_created": "2025-03-03T14:43:48Z",
+          "date_text": "25/03/03",
+          "is_immediate": false
+        },
+        {
+          "price": 220000,
+          "option": "280(UK 9)",
+          "date_created": "2025-02-23T10:55:00Z",
+          "date_text": "25/02/23",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 257000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        },
+        {
+          "price": 307000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        },
+        {
+          "price": 308000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 170000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 8,
+        "asks": 3,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 153,000원(-50.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "280(UK 9)",
+      "kream_options_available": [
+        "280(UK 9)",
+        "300(UK 11)",
+        "290(UK 10)",
+        "270(UK 8)",
+        "230(UK 4)",
+        "285(UK 9.5)",
+        "260(UK 7)",
+        "220(UK 3)",
+        "250(UK 6)",
+        "240(UK 5)",
+        "255(UK 6.5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "11822002",
+      "option": "7",
+      "stock": 4,
+      "eur_price": 114.75,
+      "matched": true,
+      "product_id": 113015,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/113015",
+      "market": {
+        "last_sale_price": 303000,
+        "lowest_ask": 281000,
+        "highest_bid": 81000,
+        "change_text": "▼ 153,000원(-50.5%)"
+      },
+      "sales": [
+        {
+          "price": 303000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-03T06:36:06Z",
+          "date_text": "26/06/03",
+          "is_immediate": false
+        },
+        {
+          "price": 299000,
+          "option": "270(UK 8)",
+          "date_created": "2026-05-12T23:38:52Z",
+          "date_text": "26/05/13",
+          "is_immediate": false
+        },
+        {
+          "price": 256000,
+          "option": "270(UK 8)",
+          "date_created": "2026-05-04T04:09:50Z",
+          "date_text": "26/05/04",
+          "is_immediate": false
+        },
+        {
+          "price": 225000,
+          "option": "270(UK 8)",
+          "date_created": "2026-04-19T12:36:43Z",
+          "date_text": "26/04/19",
+          "is_immediate": false
+        },
+        {
+          "price": 256000,
+          "option": "270(UK 8)",
+          "date_created": "2026-04-02T06:26:15Z",
+          "date_text": "26/04/02",
+          "is_immediate": false
+        },
+        {
+          "price": 200000,
+          "option": "270(UK 8)",
+          "date_created": "2026-01-25T13:35:37Z",
+          "date_text": "26/01/25",
+          "is_immediate": false
+        },
+        {
+          "price": 241000,
+          "option": "270(UK 8)",
+          "date_created": "2025-11-19T13:52:22Z",
+          "date_text": "25/11/19",
+          "is_immediate": false
+        },
+        {
+          "price": 215000,
+          "option": "270(UK 8)",
+          "date_created": "2025-07-27T12:54:28Z",
+          "date_text": "25/07/27",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 281000,
+          "option": "270(UK 8)",
+          "quantity": 2
+        },
+        {
+          "price": 298000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 299000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 304000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 81000,
+          "option": "270(UK 8)",
+          "quantity": 2
+        }
+      ],
+      "totals": {
+        "sales": 8,
+        "asks": 4,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 153,000원(-50.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "270(UK 8)",
+      "kream_options_available": [
+        "280(UK 9)",
+        "300(UK 11)",
+        "290(UK 10)",
+        "270(UK 8)",
+        "230(UK 4)",
+        "285(UK 9.5)",
+        "260(UK 7)",
+        "220(UK 3)",
+        "250(UK 6)",
+        "240(UK 5)",
+        "255(UK 6.5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "11822002",
+      "option": "8",
+      "stock": 2,
+      "eur_price": 114.75,
+      "matched": true,
+      "product_id": 113015,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/113015",
+      "market": {
+        "last_sale_price": 256000,
+        "lowest_ask": 257000,
+        "highest_bid": 170000,
+        "change_text": "▼ 153,000원(-50.5%)"
+      },
+      "sales": [
+        {
+          "price": 256000,
+          "option": "280(UK 9)",
+          "date_created": "2026-04-19T09:50:36Z",
+          "date_text": "26/04/19",
+          "is_immediate": false
+        },
+        {
+          "price": 237000,
+          "option": "280(UK 9)",
+          "date_created": "2025-12-18T09:17:25Z",
+          "date_text": "25/12/18",
+          "is_immediate": false
+        },
+        {
+          "price": 235000,
+          "option": "280(UK 9)",
+          "date_created": "2025-12-14T06:12:32Z",
+          "date_text": "25/12/14",
+          "is_immediate": false
+        },
+        {
+          "price": 234000,
+          "option": "280(UK 9)",
+          "date_created": "2025-12-01T09:48:16Z",
+          "date_text": "25/12/01",
+          "is_immediate": false
+        },
+        {
+          "price": 199000,
+          "option": "280(UK 9)",
+          "date_created": "2025-07-18T08:58:39Z",
+          "date_text": "25/07/18",
+          "is_immediate": false
+        },
+        {
+          "price": 170000,
+          "option": "280(UK 9)",
+          "date_created": "2025-03-13T00:51:00Z",
+          "date_text": "25/03/13",
+          "is_immediate": false
+        },
+        {
+          "price": 224000,
+          "option": "280(UK 9)",
+          "date_created": "2025-03-03T14:43:48Z",
+          "date_text": "25/03/03",
+          "is_immediate": false
+        },
+        {
+          "price": 220000,
+          "option": "280(UK 9)",
+          "date_created": "2025-02-23T10:55:00Z",
+          "date_text": "25/02/23",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 257000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        },
+        {
+          "price": 307000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        },
+        {
+          "price": 308000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 170000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 8,
+        "asks": 3,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 153,000원(-50.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "280(UK 9)",
+      "kream_options_available": [
+        "280(UK 9)",
+        "300(UK 11)",
+        "290(UK 10)",
+        "270(UK 8)",
+        "230(UK 4)",
+        "285(UK 9.5)",
+        "260(UK 7)",
+        "220(UK 3)",
+        "250(UK 6)",
+        "240(UK 5)",
+        "255(UK 6.5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "11822002",
+      "option": "6½",
+      "stock": 2,
+      "eur_price": 114.75,
+      "matched": true,
+      "product_id": 113015,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/113015",
+      "market": {
+        "last_sale_price": 256000,
+        "lowest_ask": 257000,
+        "highest_bid": 170000,
+        "change_text": "▼ 153,000원(-50.5%)"
+      },
+      "sales": [
+        {
+          "price": 256000,
+          "option": "280(UK 9)",
+          "date_created": "2026-04-19T09:50:36Z",
+          "date_text": "26/04/19",
+          "is_immediate": false
+        },
+        {
+          "price": 237000,
+          "option": "280(UK 9)",
+          "date_created": "2025-12-18T09:17:25Z",
+          "date_text": "25/12/18",
+          "is_immediate": false
+        },
+        {
+          "price": 235000,
+          "option": "280(UK 9)",
+          "date_created": "2025-12-14T06:12:32Z",
+          "date_text": "25/12/14",
+          "is_immediate": false
+        },
+        {
+          "price": 234000,
+          "option": "280(UK 9)",
+          "date_created": "2025-12-01T09:48:16Z",
+          "date_text": "25/12/01",
+          "is_immediate": false
+        },
+        {
+          "price": 199000,
+          "option": "280(UK 9)",
+          "date_created": "2025-07-18T08:58:39Z",
+          "date_text": "25/07/18",
+          "is_immediate": false
+        },
+        {
+          "price": 170000,
+          "option": "280(UK 9)",
+          "date_created": "2025-03-13T00:51:00Z",
+          "date_text": "25/03/13",
+          "is_immediate": false
+        },
+        {
+          "price": 224000,
+          "option": "280(UK 9)",
+          "date_created": "2025-03-03T14:43:48Z",
+          "date_text": "25/03/03",
+          "is_immediate": false
+        },
+        {
+          "price": 220000,
+          "option": "280(UK 9)",
+          "date_created": "2025-02-23T10:55:00Z",
+          "date_text": "25/02/23",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 257000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        },
+        {
+          "price": 307000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        },
+        {
+          "price": 308000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 170000,
+          "option": "280(UK 9)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 8,
+        "asks": 3,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 153,000원(-50.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "280(UK 9)",
+      "kream_options_available": [
+        "280(UK 9)",
+        "300(UK 11)",
+        "290(UK 10)",
+        "270(UK 8)",
+        "230(UK 4)",
+        "285(UK 9.5)",
+        "260(UK 7)",
+        "220(UK 3)",
+        "250(UK 6)",
+        "240(UK 5)",
+        "255(UK 6.5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "11822002",
+      "option": "5",
+      "stock": 2,
+      "eur_price": 114.75,
+      "matched": true,
+      "product_id": 113015,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/113015",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 241000,
+        "highest_bid": null,
+        "change_text": "▼ 153,000원(-50.5%)"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 241000,
+          "option": "285(UK 9.5)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 153,000원(-50.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "285(UK 9.5)",
+      "kream_options_available": [
+        "280(UK 9)",
+        "300(UK 11)",
+        "290(UK 10)",
+        "270(UK 8)",
+        "230(UK 4)",
+        "285(UK 9.5)",
+        "260(UK 7)",
+        "220(UK 3)",
+        "250(UK 6)",
+        "240(UK 5)",
+        "255(UK 6.5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "11822002",
+      "option": "6",
+      "stock": 2,
+      "eur_price": 114.75,
+      "matched": true,
+      "product_id": 113015,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/113015",
+      "market": {
+        "last_sale_price": 278000,
+        "lowest_ask": 255000,
+        "highest_bid": null,
+        "change_text": "▼ 153,000원(-50.5%)"
+      },
+      "sales": [
+        {
+          "price": 278000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-01T08:54:49Z",
+          "date_text": "26/06/01",
+          "is_immediate": false
+        },
+        {
+          "price": 243000,
+          "option": "260(UK 7)",
+          "date_created": "2026-02-09T14:06:40Z",
+          "date_text": "26/02/09",
+          "is_immediate": true
+        },
+        {
+          "price": 239000,
+          "option": "260(UK 7)",
+          "date_created": "2026-01-19T12:16:42Z",
+          "date_text": "26/01/19",
+          "is_immediate": false
+        },
+        {
+          "price": 249000,
+          "option": "260(UK 7)",
+          "date_created": "2025-11-02T14:09:57Z",
+          "date_text": "25/11/02",
+          "is_immediate": true
+        },
+        {
+          "price": 180000,
+          "option": "260(UK 7)",
+          "date_created": "2025-04-29T03:44:44Z",
+          "date_text": "25/04/29",
+          "is_immediate": false
+        },
+        {
+          "price": 210000,
+          "option": "260(UK 7)",
+          "date_created": "2025-03-13T06:39:50Z",
+          "date_text": "25/03/13",
+          "is_immediate": false
+        },
+        {
+          "price": 239000,
+          "option": "260(UK 7)",
+          "date_created": "2025-03-05T08:27:32Z",
+          "date_text": "25/03/05",
+          "is_immediate": true
+        },
+        {
+          "price": 215000,
+          "option": "260(UK 7)",
+          "date_created": "2025-02-18T23:15:24Z",
+          "date_text": "25/02/19",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 255000,
+          "option": "260(UK 7)",
+          "quantity": 2
+        },
+        {
+          "price": 257000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 259000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 260000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 278000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 308000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 8,
+        "asks": 6,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 153,000원(-50.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "260(UK 7)",
+      "kream_options_available": [
+        "280(UK 9)",
+        "300(UK 11)",
+        "290(UK 10)",
+        "270(UK 8)",
+        "230(UK 4)",
+        "285(UK 9.5)",
+        "260(UK 7)",
+        "220(UK 3)",
+        "250(UK 6)",
+        "240(UK 5)",
+        "255(UK 6.5)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "22564001",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 137.13,
+      "matched": true,
+      "product_id": 235345,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/235345",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 361000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 361000,
+          "option": "250(UK 6)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "250(UK 6)",
+      "kream_options_available": [
+        "250(UK 6)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "22564001",
+      "option": "6½",
+      "stock": 2,
+      "eur_price": 137.13,
+      "matched": true,
+      "product_id": 235345,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/235345",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 361000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 361000,
+          "option": "250(UK 6)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "250(UK 6)",
+      "kream_options_available": [
+        "250(UK 6)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "22564001",
+      "option": "6",
+      "stock": 2,
+      "eur_price": 137.13,
+      "matched": true,
+      "product_id": 235345,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/235345",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 361000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 361000,
+          "option": "250(UK 6)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "250(UK 6)",
+      "kream_options_available": [
+        "250(UK 6)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "22564001",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 137.13,
+      "matched": true,
+      "product_id": 235345,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/235345",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 361000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 361000,
+          "option": "250(UK 6)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "250(UK 6)",
+      "kream_options_available": [
+        "250(UK 6)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "22564001",
+      "option": "5",
+      "stock": 2,
+      "eur_price": 137.13,
+      "matched": true,
+      "product_id": 235345,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/235345",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 361000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 361000,
+          "option": "250(UK 6)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "250(UK 6)",
+      "kream_options_available": [
+        "250(UK 6)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "22564001",
+      "option": "4",
+      "stock": 2,
+      "eur_price": 137.13,
+      "matched": true,
+      "product_id": 235345,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/235345",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 361000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 361000,
+          "option": "250(UK 6)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "250(UK 6)",
+      "kream_options_available": [
+        "250(UK 6)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "31657001",
+      "option": "5",
+      "stock": 2,
+      "eur_price": 83.19,
+      "matched": true,
+      "product_id": 436358,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/436358",
+      "market": {
+        "last_sale_price": 200000,
+        "lowest_ask": 187000,
+        "highest_bid": 141000,
+        "change_text": "▲ 10,000원(+5.3%)"
+      },
+      "sales": [
+        {
+          "price": 200000,
+          "option": "240(UK 5)",
+          "date_created": "2026-06-14T13:47:00Z",
+          "date_text": "26/06/14",
+          "is_immediate": false
+        },
+        {
+          "price": 190000,
+          "option": "240(UK 5)",
+          "date_created": "2026-06-09T05:33:19Z",
+          "date_text": "26/06/09",
+          "is_immediate": true
+        },
+        {
+          "price": 175000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-31T15:00:44Z",
+          "date_text": "26/06/01",
+          "is_immediate": false
+        },
+        {
+          "price": 170000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-06T03:23:02Z",
+          "date_text": "26/05/06",
+          "is_immediate": true
+        },
+        {
+          "price": 155000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-04T11:56:02Z",
+          "date_text": "26/05/04",
+          "is_immediate": false
+        },
+        {
+          "price": 154000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-04T00:31:47Z",
+          "date_text": "26/05/04",
+          "is_immediate": false
+        },
+        {
+          "price": 151000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-03T12:15:54Z",
+          "date_text": "26/05/03",
+          "is_immediate": false
+        },
+        {
+          "price": 169000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-02T10:59:27Z",
+          "date_text": "26/05/02",
+          "is_immediate": true
+        },
+        {
+          "price": 154000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-30T14:46:30Z",
+          "date_text": "26/04/30",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-20T11:53:48Z",
+          "date_text": "26/04/20",
+          "is_immediate": false
+        },
+        {
+          "price": 162000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-17T08:06:55Z",
+          "date_text": "26/04/17",
+          "is_immediate": false
+        },
+        {
+          "price": 161000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-17T03:13:11Z",
+          "date_text": "26/04/17",
+          "is_immediate": false
+        },
+        {
+          "price": 200000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-08T13:37:24Z",
+          "date_text": "26/04/08",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-04T17:31:59Z",
+          "date_text": "26/04/05",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-01T02:35:25Z",
+          "date_text": "26/04/01",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 187000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 210000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 212000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 141000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 140000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 131000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 115000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 15,
+        "asks": 3,
+        "bids": 4
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 10,000원(+5.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "240(UK 5)",
+      "kream_options_available": [
+        "240(UK 5)",
+        "270(UK 8)",
+        "260(UK 7)",
+        "280(UK 9)",
+        "255(UK 6.5)",
+        "290(UK 10)",
+        "250(UK 6)",
+        "230(UK 4)",
+        "300(UK 11)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "31657001",
+      "option": "6½",
+      "stock": 2,
+      "eur_price": 83.19,
+      "matched": true,
+      "product_id": 436358,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/436358",
+      "market": {
+        "last_sale_price": 200000,
+        "lowest_ask": 187000,
+        "highest_bid": 141000,
+        "change_text": "▲ 10,000원(+5.3%)"
+      },
+      "sales": [
+        {
+          "price": 200000,
+          "option": "240(UK 5)",
+          "date_created": "2026-06-14T13:47:00Z",
+          "date_text": "26/06/14",
+          "is_immediate": false
+        },
+        {
+          "price": 190000,
+          "option": "240(UK 5)",
+          "date_created": "2026-06-09T05:33:19Z",
+          "date_text": "26/06/09",
+          "is_immediate": true
+        },
+        {
+          "price": 175000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-31T15:00:44Z",
+          "date_text": "26/06/01",
+          "is_immediate": false
+        },
+        {
+          "price": 170000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-06T03:23:02Z",
+          "date_text": "26/05/06",
+          "is_immediate": true
+        },
+        {
+          "price": 155000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-04T11:56:02Z",
+          "date_text": "26/05/04",
+          "is_immediate": false
+        },
+        {
+          "price": 154000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-04T00:31:47Z",
+          "date_text": "26/05/04",
+          "is_immediate": false
+        },
+        {
+          "price": 151000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-03T12:15:54Z",
+          "date_text": "26/05/03",
+          "is_immediate": false
+        },
+        {
+          "price": 169000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-02T10:59:27Z",
+          "date_text": "26/05/02",
+          "is_immediate": true
+        },
+        {
+          "price": 154000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-30T14:46:30Z",
+          "date_text": "26/04/30",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-20T11:53:48Z",
+          "date_text": "26/04/20",
+          "is_immediate": false
+        },
+        {
+          "price": 162000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-17T08:06:55Z",
+          "date_text": "26/04/17",
+          "is_immediate": false
+        },
+        {
+          "price": 161000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-17T03:13:11Z",
+          "date_text": "26/04/17",
+          "is_immediate": false
+        },
+        {
+          "price": 200000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-08T13:37:24Z",
+          "date_text": "26/04/08",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-04T17:31:59Z",
+          "date_text": "26/04/05",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-01T02:35:25Z",
+          "date_text": "26/04/01",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 187000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 210000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 212000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 141000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 140000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 131000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 115000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 15,
+        "asks": 3,
+        "bids": 4
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 10,000원(+5.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "240(UK 5)",
+      "kream_options_available": [
+        "240(UK 5)",
+        "270(UK 8)",
+        "260(UK 7)",
+        "280(UK 9)",
+        "255(UK 6.5)",
+        "290(UK 10)",
+        "250(UK 6)",
+        "230(UK 4)",
+        "300(UK 11)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "31657001",
+      "option": "4",
+      "stock": 2,
+      "eur_price": 83.19,
+      "matched": true,
+      "product_id": 436358,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/436358",
+      "market": {
+        "last_sale_price": 200000,
+        "lowest_ask": 187000,
+        "highest_bid": 141000,
+        "change_text": "▲ 10,000원(+5.3%)"
+      },
+      "sales": [
+        {
+          "price": 200000,
+          "option": "240(UK 5)",
+          "date_created": "2026-06-14T13:47:00Z",
+          "date_text": "26/06/14",
+          "is_immediate": false
+        },
+        {
+          "price": 190000,
+          "option": "240(UK 5)",
+          "date_created": "2026-06-09T05:33:19Z",
+          "date_text": "26/06/09",
+          "is_immediate": true
+        },
+        {
+          "price": 175000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-31T15:00:44Z",
+          "date_text": "26/06/01",
+          "is_immediate": false
+        },
+        {
+          "price": 170000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-06T03:23:02Z",
+          "date_text": "26/05/06",
+          "is_immediate": true
+        },
+        {
+          "price": 155000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-04T11:56:02Z",
+          "date_text": "26/05/04",
+          "is_immediate": false
+        },
+        {
+          "price": 154000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-04T00:31:47Z",
+          "date_text": "26/05/04",
+          "is_immediate": false
+        },
+        {
+          "price": 151000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-03T12:15:54Z",
+          "date_text": "26/05/03",
+          "is_immediate": false
+        },
+        {
+          "price": 169000,
+          "option": "240(UK 5)",
+          "date_created": "2026-05-02T10:59:27Z",
+          "date_text": "26/05/02",
+          "is_immediate": true
+        },
+        {
+          "price": 154000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-30T14:46:30Z",
+          "date_text": "26/04/30",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-20T11:53:48Z",
+          "date_text": "26/04/20",
+          "is_immediate": false
+        },
+        {
+          "price": 162000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-17T08:06:55Z",
+          "date_text": "26/04/17",
+          "is_immediate": false
+        },
+        {
+          "price": 161000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-17T03:13:11Z",
+          "date_text": "26/04/17",
+          "is_immediate": false
+        },
+        {
+          "price": 200000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-08T13:37:24Z",
+          "date_text": "26/04/08",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-04T17:31:59Z",
+          "date_text": "26/04/05",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "240(UK 5)",
+          "date_created": "2026-04-01T02:35:25Z",
+          "date_text": "26/04/01",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 187000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 210000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 212000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 141000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 140000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 131000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        },
+        {
+          "price": 115000,
+          "option": "240(UK 5)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 15,
+        "asks": 3,
+        "bids": 4
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 10,000원(+5.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "240(UK 5)",
+      "kream_options_available": [
+        "240(UK 5)",
+        "270(UK 8)",
+        "260(UK 7)",
+        "280(UK 9)",
+        "255(UK 6.5)",
+        "290(UK 10)",
+        "250(UK 6)",
+        "230(UK 4)",
+        "300(UK 11)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "31657001",
+      "option": "6",
+      "stock": 2,
+      "eur_price": 83.19,
+      "matched": true,
+      "product_id": 436358,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/436358",
+      "market": {
+        "last_sale_price": 189000,
+        "lowest_ask": 187000,
+        "highest_bid": 121000,
+        "change_text": "▲ 10,000원(+5.3%)"
+      },
+      "sales": [
+        {
+          "price": 189000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-16T15:16:27Z",
+          "date_text": "26/06/17",
+          "is_immediate": false
+        },
+        {
+          "price": 189000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-12T15:28:39Z",
+          "date_text": "26/06/13",
+          "is_immediate": false
+        },
+        {
+          "price": 189000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-08T09:37:15Z",
+          "date_text": "26/06/08",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "260(UK 7)",
+          "date_created": "2026-06-08T02:17:53Z",
+          "date_text": "26/06/08",
+          "is_immediate": false
+        },
+        {
+          "price": 176000,
+          "option": "260(UK 7)",
+          "date_created": "2026-04-29T02:21:44Z",
+          "date_text": "26/04/29",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "260(UK 7)",
+          "date_created": "2026-04-21T15:42:45Z",
+          "date_text": "26/04/22",
+          "is_immediate": false
+        },
+        {
+          "price": 153000,
+          "option": "260(UK 7)",
+          "date_created": "2026-04-15T07:22:01Z",
+          "date_text": "26/04/15",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "260(UK 7)",
+          "date_created": "2026-04-08T06:45:23Z",
+          "date_text": "26/04/08",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 187000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 200000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 212000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 219000,
+          "option": "260(UK 7)",
+          "quantity": 3
+        }
+      ],
+      "bids": [
+        {
+          "price": 121000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 110000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        },
+        {
+          "price": 100000,
+          "option": "260(UK 7)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 8,
+        "asks": 4,
+        "bids": 3
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 10,000원(+5.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "260(UK 7)",
+      "kream_options_available": [
+        "240(UK 5)",
+        "270(UK 8)",
+        "260(UK 7)",
+        "280(UK 9)",
+        "255(UK 6.5)",
+        "290(UK 10)",
+        "250(UK 6)",
+        "230(UK 4)",
+        "300(UK 11)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "31657001",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 83.19,
+      "matched": true,
+      "product_id": 436358,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/436358",
+      "market": {
+        "last_sale_price": 219000,
+        "lowest_ask": 187000,
+        "highest_bid": 131000,
+        "change_text": "▲ 10,000원(+5.3%)"
+      },
+      "sales": [
+        {
+          "price": 219000,
+          "option": "270(UK 8)",
+          "date_created": "2026-06-11T11:17:56Z",
+          "date_text": "26/06/11",
+          "is_immediate": true
+        },
+        {
+          "price": 203000,
+          "option": "270(UK 8)",
+          "date_created": "2026-05-10T16:30:14Z",
+          "date_text": "26/05/11",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "270(UK 8)",
+          "date_created": "2026-04-25T02:25:05Z",
+          "date_text": "26/04/25",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "270(UK 8)",
+          "date_created": "2026-04-20T15:53:56Z",
+          "date_text": "26/04/21",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "270(UK 8)",
+          "date_created": "2026-04-08T13:55:01Z",
+          "date_text": "26/04/08",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "270(UK 8)",
+          "date_created": "2026-04-02T22:24:23Z",
+          "date_text": "26/04/03",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 187000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 189000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 200000,
+          "option": "270(UK 8)",
+          "quantity": 2
+        },
+        {
+          "price": 212000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        },
+        {
+          "price": 219000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 131000,
+          "option": "270(UK 8)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 6,
+        "asks": 5,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 10,000원(+5.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "270(UK 8)",
+      "kream_options_available": [
+        "240(UK 5)",
+        "270(UK 8)",
+        "260(UK 7)",
+        "280(UK 9)",
+        "255(UK 6.5)",
+        "290(UK 10)",
+        "250(UK 6)",
+        "230(UK 4)",
+        "300(UK 11)"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "31657001",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 83.19,
+      "matched": true,
+      "product_id": 436358,
+      "product_name_ko": "Dr. Martens",
+      "product_url": "https://kream.co.kr/products/436358",
+      "market": {
+        "last_sale_price": 200000,
+        "lowest_ask": 186000,
+        "highest_bid": null,
+        "change_text": "▲ 10,000원(+5.3%)"
+      },
+      "sales": [
+        {
+          "price": 200000,
+          "option": "230(UK 4)",
+          "date_created": "2026-06-11T04:34:54Z",
+          "date_text": "26/06/11",
+          "is_immediate": false
+        },
+        {
+          "price": 200000,
+          "option": "230(UK 4)",
+          "date_created": "2026-05-14T03:09:53Z",
+          "date_text": "26/05/14",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "230(UK 4)",
+          "date_created": "2026-05-02T04:17:10Z",
+          "date_text": "26/05/02",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "230(UK 4)",
+          "date_created": "2026-05-01T03:23:11Z",
+          "date_text": "26/05/01",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "230(UK 4)",
+          "date_created": "2026-04-25T22:38:03Z",
+          "date_text": "26/04/26",
+          "is_immediate": false
+        },
+        {
+          "price": 193000,
+          "option": "230(UK 4)",
+          "date_created": "2026-04-04T02:41:20Z",
+          "date_text": "26/04/04",
+          "is_immediate": false
+        },
+        {
+          "price": 157000,
+          "option": "230(UK 4)",
+          "date_created": "2026-03-25T16:00:00Z",
+          "date_text": "26/03/26",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 186000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 199000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 200000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 210000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        },
+        {
+          "price": 212000,
+          "option": "230(UK 4)",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 7,
+        "asks": 5,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 10,000원(+5.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "230(UK 4)",
+      "kream_options_available": [
+        "240(UK 5)",
+        "270(UK 8)",
+        "260(UK 7)",
+        "280(UK 9)",
+        "255(UK 6.5)",
+        "290(UK 10)",
+        "250(UK 6)",
+        "230(UK 4)",
+        "300(UK 11)"
+      ],
+      "option_mismatch": true
+    }
+  ]
+}
