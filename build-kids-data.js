@@ -20,6 +20,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { tenerestoreToKidsRecord } from './tenerestore-to-kidsapi.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -292,6 +293,42 @@ function normalizeDresscode(p) {
   const { retailPrice: _rpEur, pricesIncludeVat: _vat, price: _origPrice, ...rest } = p;
   return {
     source: 'dresscode',
+    ...rest,
+    price: priceKrw,
+    retailPrice: retailKrw,
+    currency: 'KRW',
+    sizes,
+  };
+}
+
+// ========================================================================
+// tenerestore 정규화
+//   입력: tenerestore-to-kidsapi.tenerestoreToKidsRecord() 가 만든 중간 형식
+//         (price/retailPrice 가 EUR, 사이즈별 price/retailPrice 도 EUR)
+//   가격정책: dresscode 와 동일(EUR × 1750 × 1.25 × 원산지 × tier + 신발 +30,000)
+//             — tene 의 brandDiscount 는 이미 price 에 적용되어 들어오므로 그대로 사용
+//   정가: retailPrice 가 VAT 포함 EUR 이므로 pricesIncludeVat=true 로 환산
+// ========================================================================
+function normalizeTenere(p) {
+  const priceKrw = calculateDresscodeKrwPrice(p.price, p);
+  let retailKrw = calculateDresscodeKrwRetailPrice(p.retailPrice, true); // VAT 포함
+  if (priceKrw > retailKrw && priceKrw > 0) {
+    retailKrw = roundTo100(priceKrw * 1.1);
+  }
+
+  const sizes = (p.sizes || []).map((s) => {
+    const { retailPrice: _r, price: _sp, currency: _c, ...rest } = s;
+    const sizePriceKrw = calculateDresscodeKrwPrice(s.price, p);
+    let sizeRetailKrw = calculateDresscodeKrwRetailPrice(s.retailPrice, true);
+    if (sizePriceKrw > sizeRetailKrw && sizePriceKrw > 0) {
+      sizeRetailKrw = roundTo100(sizePriceKrw * 1.1);
+    }
+    return { ...rest, price: sizePriceKrw, retailPrice: sizeRetailKrw, currency: 'KRW' };
+  });
+
+  const { price: _orig, retailPrice: _origRetail, currency: _origCcy, ...rest } = p;
+  return {
+    source: 'tenerestore',
     ...rest,
     price: priceKrw,
     retailPrice: retailKrw,
@@ -615,10 +652,22 @@ function main() {
   const b2b = loadB2bKids(b2bDir);
   console.log(`📂 b2bfashion 키즈: raw ${b2b.raw} → 고유(short_reference) ${b2b.products.length}개${b2b.date ? ` (${b2b.date})` : ''}`);
 
+  // ─── 2-c) tenerestore 키즈 로드 (단일 파일, fallback 자동) ─────────────
+  //   minCount=1500: 평상시 ~2000개. 1500 미만이면 크롤러 실패로 간주 → 전날(또는 그 이전) 정상 파일 사용.
+  const tn = loadLatest(syncDataDir, /^tenerestore_products_\d{4}-\d{2}-\d{2}\.json$/, 'products', 1500);
+  if (!tn.file) {
+    console.warn('⚠️  tenerestore_products_YYYY-MM-DD.json 없음 — tenere 소스 제외');
+  } else {
+    const tag = tn.fallback ? ' [📦 fallback]' : '';
+    console.log(`📂 tenerestore 소스: ${tn.file}${tag} (전체 ${tn.products.length}개)`);
+  }
+
   // ─── 3) 정규화 ─────────────────────────────────────────────────────────
   const processedDc = dcKids.map(normalizeDresscode);
   const processedB2bAll = b2b.products.map(normalizeB2b);
   const processedGfAll = gfKids.map(normalizeGrifo);
+  //   tene 는 tenerestoreToKidsRecord 로 중간 형식(EUR) 으로 변환 후 normalizeTenere 로 KRW 변환
+  const processedTnAll = (tn.products || []).map((p) => normalizeTenere(tenerestoreToKidsRecord(p)));
 
   // ─── 3-1) 중복 제거: Dresscode > b2bfashion > Grifo ──────────────────
   const normKey = (s) => String(s || '').trim().toUpperCase();
@@ -695,13 +744,102 @@ function main() {
     console.log(`   🔁 Dresscode/b2b 중복으로 Grifo 제외: ${dedupDropped.length}개`);
   }
 
-  const merged = [...processedDc, ...processedB2b, ...processedGf];
+  // (d) Dresscode + b2b + Grifo 와 겹치는 tenerestore 제외 (tene 가 최하위 우선순위)
+  //     → 기존 소스가 있으면 그대로 두고, tene 는 신규 항목만 보충.
+  const reservedKeysIncludingGf = new Set(reservedKeys);
+  processedGf.forEach((p) => {
+    if (p.sku) reservedKeysIncludingGf.add(normKey(p.sku));
+    if (p.spu) reservedKeysIncludingGf.add(normKey(p.spu));
+  });
+  const processedTn = [];
+  const tnDedupDropped = [];
+  processedTnAll.forEach((t) => {
+    const tSku = normKey(t.sku);
+    const tSpu = normKey(t.spu);
+    if ((tSku && reservedKeysIncludingGf.has(tSku)) || (tSpu && reservedKeysIncludingGf.has(tSpu))) {
+      tnDedupDropped.push({ sku: t.sku, brand: t.brand, name: t.name });
+      return;
+    }
+    processedTn.push(t);
+  });
+  if (tnDedupDropped.length > 0) {
+    console.log(`   🔁 Dresscode/b2b/Grifo 중복으로 tenerestore 제외: ${tnDedupDropped.length}개`);
+  }
 
-  // 통계
+  let merged = [...processedDc, ...processedB2b, ...processedGf, ...processedTn];
+
+  // ─── 3-2) 가격 검토 패스 (임계치 기반 자동 교체) ──────────────────────
+  // 우선순위로 채택된 항목보다 다른 소스가 PRICE_REPLACEMENT_THRESHOLD(20%) 이상 저렴하면 교체.
+  //   - 비교 기준: 정규화 후 price (KRW, 동일 정책으로 환산됨)
+  //   - 작은 변동(<20%)은 출처 일관성 유지를 위해 무시
+  //   - 교체된 SKU 는 priceReplacements 로 출력 + 콘솔 로그 (Slack 노출용)
+  const PRICE_REPLACEMENT_THRESHOLD = 0.20;
+  const candidatesByKey = new Map();
+  const addCandidate = (p) => {
+    if (!p || (!p.sku && !p.spu)) return;
+    if (!p.price || p.price <= 0) return;
+    [normKey(p.sku), normKey(p.spu)].filter(Boolean).forEach((k) => {
+      if (!candidatesByKey.has(k)) candidatesByKey.set(k, []);
+      candidatesByKey.get(k).push(p);
+    });
+  };
+  // dedup 전 모든 후보를 키 인덱스에 등록 (b2b 예외제외분도 후보로 포함)
+  processedDc.forEach(addCandidate);
+  processedB2bAll.forEach(addCandidate);
+  processedGfAll.forEach(addCandidate);
+  processedTnAll.forEach(addCandidate);
+
+  const priceReplacements = [];
+  merged = merged.map((chosen) => {
+    if (!chosen.price || chosen.price <= 0) return chosen;
+    const keys = [normKey(chosen.sku), normKey(chosen.spu)].filter(Boolean);
+    const seen = new Set();
+    const candidates = [];
+    for (const k of keys) {
+      for (const c of candidatesByKey.get(k) || []) {
+        if (!seen.has(c)) { seen.add(c); candidates.push(c); }
+      }
+    }
+    // 후보 중 가장 싼 것
+    let cheapest = chosen;
+    for (const c of candidates) {
+      if (c.price > 0 && c.price < cheapest.price) cheapest = c;
+    }
+    // 임계치 이상 저렴할 때만 교체
+    const savings = (chosen.price - cheapest.price) / chosen.price;
+    if (cheapest !== chosen && savings >= PRICE_REPLACEMENT_THRESHOLD) {
+      priceReplacements.push({
+        sku: chosen.sku,
+        brand: chosen.brand,
+        name: chosen.name,
+        from: { source: chosen.source, price: chosen.price },
+        to: { source: cheapest.source, price: cheapest.price },
+        savingsPercent: Math.round(savings * 100),
+        savingsKrw: chosen.price - cheapest.price,
+      });
+      return cheapest;
+    }
+    return chosen;
+  });
+
+  if (priceReplacements.length > 0) {
+    const totalSavings = priceReplacements.reduce((s, r) => s + r.savingsKrw, 0);
+    console.log(`   💱 가격 검토 패스: ${priceReplacements.length}개 SKU 가 ≥${PRICE_REPLACEMENT_THRESHOLD * 100}% 저렴한 소스로 교체됨 (총 절감 ₩${totalSavings.toLocaleString()})`);
+    priceReplacements.slice(0, 10).forEach((r) => {
+      console.log(`      • [${r.sku}] ${r.brand} / ${(r.name || '').slice(0, 40)} : ${r.from.source}(₩${r.from.price.toLocaleString()}) → ${r.to.source}(₩${r.to.price.toLocaleString()}) (-${r.savingsPercent}%)`);
+    });
+    if (priceReplacements.length > 10) console.log(`      ... 외 ${priceReplacements.length - 10}개`);
+  }
+
+  // 통계 (가격 검토 패스 후 최종 source 분포 재계산)
   const shoesCount = merged.filter((p) => (p.type || '').toLowerCase() === 'shoes').length;
+  const finalSourceCount = merged.reduce((acc, p) => {
+    acc[p.source] = (acc[p.source] || 0) + 1;
+    return acc;
+  }, {});
 
-  // dataDate: 세 소스 중 최신 날짜
-  const dataDate = [dc.date, gf.date, b2b.date].filter(Boolean).sort().reverse()[0];
+  // dataDate: 네 소스 중 최신 날짜
+  const dataDate = [dc.date, gf.date, b2b.date, tn.date].filter(Boolean).sort().reverse()[0];
 
   const output = {
     dataDate,
@@ -719,6 +857,22 @@ function main() {
         count: processedGf.length,
         dedupDroppedByDresscodeOrB2b: dedupDropped.length,
       },
+      tenerestore: {
+        dataDate: tn.date,
+        count: processedTn.length,
+        raw: processedTnAll.length,
+        dedupDroppedByOthers: tnDedupDropped.length,
+        fallback: tn.fallback || false,
+      },
+    },
+    // 가격 검토 패스 후 최종 source 분포 (가격 교체 반영)
+    finalSourceCount,
+    // 임계치(20%) 이상 저렴해서 다른 소스로 교체된 SKU 목록
+    priceReplacements: {
+      thresholdPercent: 20,
+      total: priceReplacements.length,
+      totalSavingsKrw: priceReplacements.reduce((s, r) => s + r.savingsKrw, 0),
+      items: priceReplacements,
     },
     updatedAt: new Date().toISOString(),
     priceInfo: {
@@ -742,6 +896,13 @@ function main() {
         markupPercent: `${Math.round((GRIFO_CONFIG.kidsMarkup - 1) * 100)}%`,
         nonSaleDiscount: GRIFO_CONFIG.nonSaleDiscount,
       },
+      tenerestore: {
+        exchangeRate: DRESSCODE_CONFIG.exchangeRate,
+        markupRate: DRESSCODE_CONFIG.markup,
+        markupPercent: `${Math.round((DRESSCODE_CONFIG.markup - 1) * 100)}%`,
+        retailVatRate: DRESSCODE_CONFIG.vatRate,
+        note: '브랜드별 할인율은 크롤링 단계에서 b2bPrice 에 이미 적용됨 (시트: TENERE_Kids_Brand_Conditions).',
+      },
       surcharges: { shoes: SHOE_SURCHARGE },
       note:
         '공통 순서: (1) krwRaw = 원가USD/EUR × 환율 → (2) krwRaw 금액으로 금액대요율(tier) 결정 → ' +
@@ -760,7 +921,10 @@ function main() {
   fs.writeFileSync(outputFile, JSON.stringify(output));
 
   console.log(`\n✅ 출력: ${outputFile}`);
-  console.log(`   총 ${merged.length}개 = Dresscode ${processedDc.length} + b2bfashion ${processedB2b.length} + Grifo ${processedGf.length}`);
+  console.log(`   총 ${merged.length}개 (가격 검토 후 분포): ${Object.entries(finalSourceCount).map(([k, v]) => `${k} ${v}`).join(' + ')}`);
+  if (priceReplacements.length > 0) {
+    console.log(`   💱 가격 교체 ${priceReplacements.length}건 / 총 절감 ₩${priceReplacements.reduce((s, r) => s + r.savingsKrw, 0).toLocaleString()}`);
+  }
   console.log(`   신발(type=Shoes): ${shoesCount}개`);
   console.log(`   💱 Dresscode ${DRESSCODE_CONFIG.exchangeRate}원/EUR × ${DRESSCODE_CONFIG.markup} | b2b ${B2B_CONFIG.exchangeRate}원/EUR × ${B2B_CONFIG.markup} | Grifo ${GRIFO_CONFIG.exchangeRate}원/USD × ${GRIFO_CONFIG.kidsMarkup}`);
 }
