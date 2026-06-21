@@ -114,6 +114,16 @@ function deriveSearchSku(brandNorm, ref) {
   return ref; // 다른 브랜드는 reference 그대로
 }
 
+// 브랜드별 카테고리(type) 제외 — KREAM 에 잘 안 잡히는 노이즈 카테고리 차단
+//   TOM FORD: 'Clothing' 제외 (의류는 KREAM Tom Ford 카탈로그에 거의 없음, 매칭률 5%)
+const BRAND_TYPE_EXCLUDE = {
+  'TOM FORD': new Set(['Clothing']),
+};
+function shouldSkipForType(brandNorm, productType) {
+  const ex = BRAND_TYPE_EXCLUDE[brandNorm];
+  return ex ? ex.has(productType) : false;
+}
+
 for (const spec of brandSpecs) {
   const [brandRaw, slugRaw] = spec.split(':');
   if (!brandRaw || !slugRaw) {
@@ -133,11 +143,14 @@ for (const spec of brandSpecs) {
   console.log(`\n🏷  ${brandRaw} → slug="${slug}"  (${limited.length}/${matches.length} 상품)`);
 
   const targets = [];
-  let skippedNoRef = 0, skippedNoSize = 0, skippedNoStock = 0;
+  let skippedNoRef = 0, skippedNoSize = 0, skippedNoStock = 0, skippedType = 0;
 
   for (const p of limited) {
     const ref = p.reference;
     if (!ref) { skippedNoRef++; continue; }
+
+    // 브랜드별 카테고리 필터 (예: TOM FORD 의류 제외 — KREAM 카탈로그 비매칭)
+    if (shouldSkipForType(brand, p.type)) { skippedType++; continue; }
 
     // KREAM 검색용 SKU (Stone Island 는 대시 형식, 나머지는 ref 그대로)
     const searchSku = deriveSearchSku(brand, ref);
@@ -183,7 +196,7 @@ for (const spec of brandSpecs) {
 
   console.log(`   ✅ ${outFile}`);
   console.log(`   타겟: ${targets.length}건 (고유 SKU ${uniqueSku}개)`);
-  console.log(`   스킵: 사이즈없음=${skippedNoSize} 재고0=${skippedNoStock} ref없음=${skippedNoRef}`);
+  console.log(`   스킵: 사이즈없음=${skippedNoSize} 재고0=${skippedNoStock} ref없음=${skippedNoRef} 카테고리제외=${skippedType}`);
 }
 
 console.log('\n다음 단계:');
