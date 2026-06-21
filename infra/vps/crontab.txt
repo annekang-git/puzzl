@@ -1,0 +1,52 @@
+# ============================================================
+# puzzl VPS crontab — Hetzner CPX21 (Asia/Seoul 타임존)
+#
+# 설치:
+#   crontab ~/puzzl/infra/vps/crontab.txt
+#   crontab -l   # 확인
+#
+# 주의:
+#   - 시스템 타임존이 Asia/Seoul 로 설정되어 있어야 함 (setup-root.sh 가 자동 설정)
+#   - HOME 변수는 cron 환경에서 자동으로 puzzl 유저의 홈으로 잡힘
+#   - Playwright 쓰는 cron 은 반드시 `xvfb-run -a` 로 가상 디스플레이 제공
+# ============================================================
+
+# 환경변수 (cron 의 기본 PATH 가 짧으니 보강)
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+SHELL=/bin/bash
+
+# ── 01:00 — 코드 자동 업데이트 (Mac mini 에서 push 한 최신 변경 반영) ──────
+0 1 * * * cd $HOME/puzzl && /usr/bin/git pull --ff-only >> $HOME/logs/git-pull-$(date +\%Y\%m\%d).log 2>&1
+
+# ── 02:30 — W/L 화이트리스트 자동 동기화 (Cafe24) ──────────────────────────
+30 2 * * * cd $HOME/puzzl && /usr/bin/node grifo-crawler/sync/refresh-cafe24-token.js >> $HOME/logs/whitelist-$(date +\%Y\%m\%d).log 2>&1 && /usr/bin/node grifo-crawler/sync/ensure-whitelist-uploaded.js >> $HOME/logs/whitelist-$(date +\%Y\%m\%d).log 2>&1 && /usr/bin/node grifo-crawler/sync/ensure-whitelist-sizes.js >> $HOME/logs/whitelist-$(date +\%Y\%m\%d).log 2>&1
+
+# ── 04:00 — KREAM 시세 갱신 ⭐ (Xvfb 필수 — KREAM headless 차단) ───────────
+0 4 * * * cd $HOME/puzzl/kream && /usr/bin/xvfb-run -a /usr/bin/node daily-kream-update.js >> $HOME/logs/kream-$(date +\%Y\%m\%d).log 2>&1
+
+# ── 04:30 — W/L 화이트리스트 → 스마트스토어 업로드 ────────────────────────
+30 4 * * * cd $HOME/puzzl/smartstore && /usr/bin/node ensure-whitelist-uploaded-smartstore.js >> $HOME/logs/whitelist-smartstore-$(date +\%Y\%m\%d).log 2>&1
+
+# ── 06:00 — 스마트스토어 정리 (Cafe24 에 없는 상품 삭제) ───────────────────
+0 6 * * * cd $HOME/puzzl/smartstore && /usr/bin/node cleanup-smartstore-vs-cafe24.js >> $HOME/logs/cleanup-smartstore-$(date +\%Y\%m\%d).log 2>&1
+
+# ── 07:03 — Google Sheets → CSV 동기화 ────────────────────────────────────
+3 7 * * * cd $HOME/puzzl/grifo-crawler/sync/sheet-sync && /usr/bin/node sheet-to-csv.js >> sync.log 2>&1
+
+# ── 07:13 — 키즈 데이터 동기화 ────────────────────────────────────────────
+13 7 * * * /bin/bash $HOME/puzzl/sync-kids-data.sh >> $HOME/logs/kids-sync-$(date +\%Y\%m\%d).log 2>&1
+
+# ── 3시간 마다 (07,10,13,...) — Dresscode 재고 확인 ───────────────────────
+7 */3 * * * cd $HOME/puzzl/grifo-crawler/sync/sheet-sync && /usr/bin/node check-dresscode-stock.js >> stock-check.log 2>&1
+
+# ── 18:00 — B2B Kids 크롤링 (Xvfb 필수 — Playwright) ──────────────────────
+0 18 * * * cd $HOME/puzzl/grifo-crawler && /usr/bin/xvfb-run -a /usr/bin/node crawler-b2bfashion-kids-4cats.js >> $HOME/logs/b2b-kids-$(date +\%Y\%m\%d).log 2>&1
+
+# ── 22:40 — 일일 전체 동기화 (Dresscode + Grifo Playwright, Xvfb 필수) ────
+40 22 * * * cd $HOME/puzzl/grifo-crawler/sync && /usr/bin/xvfb-run -a /usr/bin/node daily-full-sync.js >> $HOME/logs/daily-sync-$(date +\%Y\%m\%d).log 2>&1
+
+# ── 매주 일요일 03:00 — 오래된 로그 정리 (30일 이상) ─────────────────────────
+0 3 * * 0 find $HOME/logs -name "*.log" -mtime +30 -delete
+
+# ── 매주 일요일 03:10 — 오래된 sync-data 정리 (15일 이상) ────────────────────
+10 3 * * 0 find $HOME/puzzl/grifo-crawler/sync/sync-data -name "*.json" -mtime +15 -delete 2>/dev/null
