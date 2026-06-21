@@ -1,0 +1,2469 @@
+{
+  "fetched_at": "2026-06-21T05:00:31.004Z",
+  "input_file": "targets-giglio_saintlaurent.json",
+  "total_targets": 53,
+  "matched": 36,
+  "failed": 17,
+  "results": [
+    {
+      "sku": "745644Y9G121001",
+      "option": "50",
+      "stock": 1,
+      "eur_price": 816.39,
+      "matched": true,
+      "product_id": 830410,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/830410",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 3577000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 3577000,
+          "option": "48",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "48",
+      "kream_options_available": [
+        "48",
+        "52"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "564269Y1H489000",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 282.79,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"564269Y1H489000\" SPU=\"564269Y1H489000\"",
+      "candidates": [
+        {
+          "product_id": 91304,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 팔라듐\n\n22%\n\n426,000원\n\n관심 2,517\n\n · 리뷰 1\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n35%\n\n424,000원\n\n관심 2,071\n\n · 거래 207\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 120589,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 오피움 하트 참 브레이슬릿 에이지드 브라스 골드\n\n36%\n\n419,000원\n\n관심 6,130\n\n · 리뷰 4\n\n · 거래 784\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 157917,
+          "text": "Saint Laurent\n\n생로랑 오피움 참 브레이슬릿 메탈 앤 라인스톤 옥시다이즈드 실버\n\n42%\n\n379,000원\n\n관심 7,675\n\n · 리뷰 4\n\n · 거래 633\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 227602,
+          "text": "Valentino\n\n(W) 발렌티노 브이로고 시그니쳐 메탈 브레이슬릿 골드\n\n5%\n\n367,000원\n\n관심 4,478\n\n · 리뷰 5\n\n · 거래 697\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "740962Y7F931000",
+      "option": "38",
+      "stock": 1,
+      "eur_price": 1639.34,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"740962Y7F931000\" SPU=\"740962Y7F931000\"",
+      "candidates": [
+        {
+          "product_id": 72450,
+          "text": "Balenciaga\n\n(W) 발렌시아가 카골 샌들 블랙\n\n63%\n\n350,000원\n\n관심 224\n\n · 리뷰 1\n\n · 거래 7"
+        },
+        {
+          "product_id": 432976,
+          "text": "Balenciaga\n\n(W) 발렌시아가 트랙 슬라이드 샌들 블랙\n\n51%\n\n410,000원\n\n관심 29\n\n · 거래 1"
+        },
+        {
+          "product_id": 424914,
+          "text": "Balenciaga\n\n(W) 발렌시아가 카골 레더 플랫 샌들 블랙\n\n363,000원\n\n관심 35\n\n · 거래 2"
+        },
+        {
+          "product_id": 138773,
+          "text": "Balenciaga\n\n발렌시아가 르 카골 XS 숄더백 크로커다일 엠보스 블랙\n\n48%\n\n1,849,000원\n\n관심 798\n\n · 리뷰 8\n\n · 거래 25\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 75077,
+          "text": "Balenciaga\n\n(W) 발렌시아가 아레나 램스킨 카골 50mm 샌들 블랙\n\n40%\n\n655,000원\n\n관심 102\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "753164Y7F931000",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 1045.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"753164Y7F931000\" SPU=\"753164Y7F931000\"",
+      "candidates": [
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n35%\n\n424,000원\n\n관심 2,071\n\n · 거래 207\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 91304,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 팔라듐\n\n22%\n\n426,000원\n\n관심 2,517\n\n · 리뷰 1\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 58593,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 골드 모노그램 카산드라 샌들 블랙\n\n58%\n\n489,000원\n\n관심 193\n\n · 리뷰 5\n\n · 거래 9"
+        },
+        {
+          "product_id": 154099,
+          "text": "Saint Laurent\n\n(W) 생로랑 트리뷰트 뮬 스무스 레더 화이트\n\n65%\n\n400,000원\n\n관심 67\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 69128,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 골드 모노그램 카산드라 플랫 샌들 블랙\n\n61%\n\n449,000원\n\n관심 351\n\n · 리뷰 1\n\n · 거래 20"
+        }
+      ]
+    },
+    {
+      "sku": "460876YB2DQ9000",
+      "option": "M",
+      "stock": 5,
+      "eur_price": 172.13,
+      "matched": true,
+      "product_id": 275731,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/275731",
+      "market": {
+        "last_sale_price": 199000,
+        "lowest_ask": 227000,
+        "highest_bid": null,
+        "change_text": "▲ 2,000원(+0.8%)"
+      },
+      "sales": [
+        {
+          "price": 199000,
+          "option": "M",
+          "date_created": "2025-07-17T02:31:33Z",
+          "date_text": "25/07/17",
+          "is_immediate": false
+        },
+        {
+          "price": 110000,
+          "option": "M",
+          "date_created": "2025-06-25T09:56:25Z",
+          "date_text": "25/06/25",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 227000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 235000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 240000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 254000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 267000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 268000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 283000,
+          "option": "M",
+          "quantity": 2
+        },
+        {
+          "price": 284000,
+          "option": "M",
+          "quantity": 2
+        },
+        {
+          "price": 285000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 295000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 346000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 413000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 581000,
+          "option": "M",
+          "quantity": 4
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 2,
+        "asks": 13,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 2,000원(+0.8%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "M",
+      "kream_options_available": [
+        "S",
+        "M",
+        "L",
+        "XS"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "460876YB2DQ1000",
+      "option": "XS",
+      "stock": 1,
+      "eur_price": 172.13,
+      "matched": true,
+      "product_id": 75031,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/75031",
+      "market": {
+        "last_sale_price": 170000,
+        "lowest_ask": 220000,
+        "highest_bid": null,
+        "change_text": "▼ 19,000원(-7.9%)"
+      },
+      "sales": [
+        {
+          "price": 170000,
+          "option": "XS",
+          "date_created": "2024-10-03T09:31:05Z",
+          "date_text": "24/10/03",
+          "is_immediate": false
+        },
+        {
+          "price": 140000,
+          "option": "XS",
+          "date_created": "2024-08-07T13:11:01Z",
+          "date_text": "24/08/07",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 220000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 239000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 581000,
+          "option": "XS",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 2,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 19,000원(-7.9%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "XS",
+      "kream_options_available": [
+        "M",
+        "S",
+        "XS",
+        "L",
+        "XL"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "460876YB2DQ1000",
+      "option": "M",
+      "stock": 4,
+      "eur_price": 172.13,
+      "matched": true,
+      "product_id": 75031,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/75031",
+      "market": {
+        "last_sale_price": 220000,
+        "lowest_ask": 239000,
+        "highest_bid": null,
+        "change_text": "▼ 19,000원(-7.9%)"
+      },
+      "sales": [
+        {
+          "price": 220000,
+          "option": "M",
+          "date_created": "2026-06-07T06:24:58Z",
+          "date_text": "26/06/07",
+          "is_immediate": false
+        },
+        {
+          "price": 217000,
+          "option": "M",
+          "date_created": "2026-05-05T15:24:00Z",
+          "date_text": "26/05/06",
+          "is_immediate": false
+        },
+        {
+          "price": 198000,
+          "option": "M",
+          "date_created": "2025-03-28T07:47:26Z",
+          "date_text": "25/03/28",
+          "is_immediate": false
+        },
+        {
+          "price": 223000,
+          "option": "M",
+          "date_created": "2023-07-30T05:39:45Z",
+          "date_text": "23/07/30",
+          "is_immediate": false
+        },
+        {
+          "price": 180000,
+          "option": "M",
+          "date_created": "2023-05-05T04:07:07Z",
+          "date_text": "23/05/05",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 239000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 242000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 261000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 268000,
+          "option": "M",
+          "quantity": 2
+        },
+        {
+          "price": 299000,
+          "option": "M",
+          "quantity": 2
+        },
+        {
+          "price": 305000,
+          "option": "M",
+          "quantity": 2
+        },
+        {
+          "price": 309000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 326000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 413000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 581000,
+          "option": "M",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 5,
+        "asks": 10,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 19,000원(-7.9%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "M",
+      "kream_options_available": [
+        "M",
+        "S",
+        "XS",
+        "L",
+        "XL"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "777893AAC5T2281",
+      "option": "85",
+      "stock": 1,
+      "eur_price": 344.26,
+      "matched": true,
+      "product_id": 276753,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/276753",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "6093620U90N1000",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 193.44,
+      "matched": true,
+      "product_id": 66634,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/66634",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "779803Y99601033",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 259.02,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"779803Y99601033\" SPU=\"779803Y99601033\"",
+      "candidates": [
+        {
+          "product_id": 91304,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 팔라듐\n\n22%\n\n426,000원\n\n관심 2,517\n\n · 리뷰 1\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n35%\n\n424,000원\n\n관심 2,071\n\n · 거래 207\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 157917,
+          "text": "Saint Laurent\n\n생로랑 오피움 참 브레이슬릿 메탈 앤 라인스톤 옥시다이즈드 실버\n\n42%\n\n379,000원\n\n관심 7,675\n\n · 리뷰 4\n\n · 거래 633\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 276678,
+          "text": "Saint Laurent\n\n생로랑 생로랑 빈티지 브레이슬릿 레더 앤 메탈 블랙 옥시다이즈드 실버\n\n65%\n\n250,000원\n\n관심 55"
+        },
+        {
+          "product_id": 75031,
+          "text": "Saint Laurent\n\n(W) 생로랑 보이프렌드 핏 숏슬리브 티셔츠 블랙\n\n63%\n\n220,000원\n\n관심 173\n\n · 리뷰 2\n\n · 거래 17"
+        }
+      ]
+    },
+    {
+      "sku": "464572YB2DQ9000",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 172.13,
+      "matched": true,
+      "product_id": 135946,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/135946",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "610685AABEE9061",
+      "option": "39",
+      "stock": 1,
+      "eur_price": 309.83,
+      "matched": true,
+      "product_id": 127561,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/127561",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 650000,
+        "highest_bid": null,
+        "change_text": "▼ 36,000원(-5.2%)"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 650000,
+          "option": "EU 40",
+          "quantity": 1
+        },
+        {
+          "price": 651000,
+          "option": "EU 40",
+          "quantity": 4
+        },
+        {
+          "price": 659000,
+          "option": "EU 40",
+          "quantity": 1
+        },
+        {
+          "price": 785000,
+          "option": "EU 40",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 4,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 36,000원(-5.2%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 40",
+      "kream_options_available": [
+        "EU 40",
+        "EU 40.5",
+        "EU 41",
+        "EU 41.5",
+        "EU 42",
+        "EU 42.5",
+        "EU 43",
+        "EU 43.5",
+        "EU 44",
+        "EU 45"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "634440BRM0E1000",
+      "option": "85",
+      "stock": 3,
+      "eur_price": 311.47,
+      "matched": true,
+      "product_id": 67904,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/67904",
+      "market": {
+        "last_sale_price": 699000,
+        "lowest_ask": 612000,
+        "highest_bid": 501000,
+        "change_text": "▲ 46,000원(+9.1%)"
+      },
+      "sales": [
+        {
+          "price": 699000,
+          "option": "85",
+          "date_created": "2026-05-30T13:18:55Z",
+          "date_text": "26/05/30",
+          "is_immediate": false
+        },
+        {
+          "price": 693000,
+          "option": "85",
+          "date_created": "2026-05-06T04:43:15Z",
+          "date_text": "26/05/06",
+          "is_immediate": true
+        },
+        {
+          "price": 662000,
+          "option": "85",
+          "date_created": "2026-05-05T11:41:43Z",
+          "date_text": "26/05/05",
+          "is_immediate": false
+        },
+        {
+          "price": 679000,
+          "option": "85",
+          "date_created": "2026-04-07T12:37:14Z",
+          "date_text": "26/04/07",
+          "is_immediate": false
+        },
+        {
+          "price": 591000,
+          "option": "85",
+          "date_created": "2026-04-07T00:22:03Z",
+          "date_text": "26/04/07",
+          "is_immediate": false
+        },
+        {
+          "price": 590000,
+          "option": "85",
+          "date_created": "2026-04-06T09:09:12Z",
+          "date_text": "26/04/06",
+          "is_immediate": false
+        },
+        {
+          "price": 489000,
+          "option": "85",
+          "date_created": "2026-01-20T15:35:37Z",
+          "date_text": "26/01/21",
+          "is_immediate": false
+        },
+        {
+          "price": 522000,
+          "option": "85",
+          "date_created": "2026-01-03T17:53:36Z",
+          "date_text": "26/01/04",
+          "is_immediate": false
+        },
+        {
+          "price": 538000,
+          "option": "85",
+          "date_created": "2025-12-24T03:07:00Z",
+          "date_text": "25/12/24",
+          "is_immediate": true
+        },
+        {
+          "price": 520000,
+          "option": "85",
+          "date_created": "2025-11-27T08:06:09Z",
+          "date_text": "25/11/27",
+          "is_immediate": false
+        },
+        {
+          "price": 520000,
+          "option": "85",
+          "date_created": "2025-11-26T05:47:12Z",
+          "date_text": "25/11/26",
+          "is_immediate": false
+        },
+        {
+          "price": 549000,
+          "option": "85",
+          "date_created": "2025-11-22T10:35:06Z",
+          "date_text": "25/11/22",
+          "is_immediate": true
+        },
+        {
+          "price": 520000,
+          "option": "85",
+          "date_created": "2025-11-03T00:29:16Z",
+          "date_text": "25/11/03",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 612000,
+          "option": "85",
+          "quantity": 1
+        },
+        {
+          "price": 699000,
+          "option": "85",
+          "quantity": 1
+        },
+        {
+          "price": 791000,
+          "option": "85",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 501000,
+          "option": "85",
+          "quantity": 1
+        },
+        {
+          "price": 500000,
+          "option": "85",
+          "quantity": 1
+        },
+        {
+          "price": 365000,
+          "option": "85",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 13,
+        "asks": 3,
+        "bids": 3
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 46,000원(+9.1%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "85",
+      "kream_options_available": [
+        "75",
+        "80",
+        "85",
+        "90",
+        "95",
+        "100",
+        "105"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "779848Y99021000",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 296.11,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"779848Y99021000\" SPU=\"779848Y99021000\"",
+      "candidates": [
+        {
+          "product_id": 91304,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 팔라듐\n\n22%\n\n426,000원\n\n관심 2,517\n\n · 리뷰 1\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 157917,
+          "text": "Saint Laurent\n\n생로랑 오피움 참 브레이슬릿 메탈 앤 라인스톤 옥시다이즈드 실버\n\n42%\n\n379,000원\n\n관심 7,675\n\n · 리뷰 4\n\n · 거래 633\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 276678,
+          "text": "Saint Laurent\n\n생로랑 생로랑 빈티지 브레이슬릿 레더 앤 메탈 블랙 옥시다이즈드 실버\n\n65%\n\n250,000원\n\n관심 55"
+        },
+        {
+          "product_id": 75031,
+          "text": "Saint Laurent\n\n(W) 생로랑 보이프렌드 핏 숏슬리브 티셔츠 블랙\n\n63%\n\n220,000원\n\n관심 173\n\n · 리뷰 2\n\n · 거래 17"
+        },
+        {
+          "product_id": 58593,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 골드 모노그램 카산드라 샌들 블랙\n\n58%\n\n489,000원\n\n관심 193\n\n · 리뷰 5\n\n · 거래 9"
+        }
+      ]
+    },
+    {
+      "sku": "780255Y99561000",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 257.79,
+      "matched": true,
+      "product_id": 482354,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/482354",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "458573AAALP1000",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 413.11,
+      "matched": true,
+      "product_id": 110872,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/110872",
+      "market": {
+        "last_sale_price": 469000,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": "▼ 36,000원(-7.1%)"
+      },
+      "sales": [
+        {
+          "price": 469000,
+          "option": "EU 38W",
+          "date_created": "2025-04-07T03:45:35Z",
+          "date_text": "25/04/07",
+          "is_immediate": true
+        },
+        {
+          "price": 505000,
+          "option": "EU 38W",
+          "date_created": "2024-02-14T22:45:00Z",
+          "date_text": "24/02/15",
+          "is_immediate": false
+        }
+      ],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 2,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 36,000원(-7.1%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 38W",
+      "kream_options_available": [
+        "EU 38W",
+        "EU 37.5W",
+        "EU 36W",
+        "EU 36.5W",
+        "EU 37W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "6702780AAAA1000",
+      "option": "43",
+      "stock": 1,
+      "eur_price": 387.3,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"6702780AAAA1000\" SPU=\"6702780AAAA1000\"",
+      "candidates": [
+        {
+          "product_id": 437124,
+          "text": "Balenciaga\n\n발렌시아가 슬리퍼 블랙\n\n360,000원\n\n관심 8"
+        },
+        {
+          "product_id": 57659,
+          "text": "Balenciaga\n\n(W) 발렌시아가 풀 슬라이드 더블 블랙\n\n341,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 72450,
+          "text": "Balenciaga\n\n(W) 발렌시아가 카골 샌들 블랙\n\n63%\n\n350,000원\n\n관심 224\n\n · 리뷰 1\n\n · 거래 7"
+        },
+        {
+          "product_id": 66854,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스무스 카프스킨 라운드 플랫 샌들 화이트\n\n325,000원\n\n관심 46\n\n · 거래 2"
+        },
+        {
+          "product_id": 637009,
+          "text": "Saint Laurent\n\n(W) 생로랑 카산드라 스무스 레더 샌들 블랙\n\n67%\n\n484,000원\n\n관심 16"
+        }
+      ]
+    },
+    {
+      "sku": "767240 Y6H402278",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 1840.16,
+      "matched": true,
+      "product_id": 275554,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/275554",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "785103 3Y0391000",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 383.2,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"785103 3Y0391000\" SPU=\"785103 3Y0391000\"",
+      "candidates": [
+        {
+          "product_id": 75031,
+          "text": "Saint Laurent\n\n(W) 생로랑 보이프렌드 핏 숏슬리브 티셔츠 블랙\n\n63%\n\n220,000원\n\n관심 173\n\n · 리뷰 2\n\n · 거래 17"
+        },
+        {
+          "product_id": 370130,
+          "text": "Saint Laurent\n\n생로랑 칼립소 미니 백 램스킨 블랙\n\n42%\n\n970,000원\n\n관심 174\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 83084,
+          "text": "Saint Laurent\n\n생로랑 퀼티드 램스킨 퍼퍼 스몰 체인백 블랙\n\n22%\n\n3,284,000원\n\n관심 256\n\n · 거래 11"
+        },
+        {
+          "product_id": 713911,
+          "text": "Saint Laurent\n\n생로랑 카산드라 체인 크로스백 블랙\n\n1,419,000원\n\n관심 54\n\n · 거래 3"
+        },
+        {
+          "product_id": 370128,
+          "text": "Saint Laurent\n\n생로랑 칼립소 미니 백 그레인드 램스킨 블랙\n\n49%\n\n850,000원\n\n관심 91\n\n · 리뷰 1\n\n · 거래 3"
+        }
+      ]
+    },
+    {
+      "sku": "803422YCEP21243",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 1840.16,
+      "matched": true,
+      "product_id": 339009,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/339009",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "796875Y7E631000",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 487.7,
+      "matched": true,
+      "product_id": 338973,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/338973",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "803422YCEP21243",
+      "option": "38",
+      "stock": 1,
+      "eur_price": 1844.26,
+      "matched": true,
+      "product_id": 339009,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/339009",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "315487AAAOW1000",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 389.35,
+      "matched": true,
+      "product_id": 154007,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/154007",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "795350Y13KD4423",
+      "option": "26",
+      "stock": 1,
+      "eur_price": 348.36,
+      "matched": true,
+      "product_id": 339038,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/339038",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 611000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 611000,
+          "option": "26",
+          "quantity": 1
+        },
+        {
+          "price": 612000,
+          "option": "26",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "26",
+      "kream_options_available": [
+        "25",
+        "26",
+        "27",
+        "28",
+        "29"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "779707Y1I021000",
+      "option": "50",
+      "stock": 1,
+      "eur_price": 1188.53,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"779707Y1I021000\" SPU=\"779707Y1I021000\"",
+      "candidates": [
+        {
+          "product_id": 91304,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 팔라듐\n\n22%\n\n426,000원\n\n관심 2,517\n\n · 리뷰 1\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 317117,
+          "text": "Gucci\n\n(W) 구찌 참 트레이드마크 체인 브레이슬릿 925 스털링 실버\n\n33%\n\n400,000원\n\n관심 237\n\n · 거래 8"
+        },
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n35%\n\n424,000원\n\n관심 2,071\n\n · 거래 207\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 157917,
+          "text": "Saint Laurent\n\n생로랑 오피움 참 브레이슬릿 메탈 앤 라인스톤 옥시다이즈드 실버\n\n42%\n\n379,000원\n\n관심 7,675\n\n · 리뷰 4\n\n · 거래 633\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 129242,
+          "text": "Gucci\n\n구찌 트레이드마크 브레이슬릿 하트 펜던트 실버\n\n55%\n\n212,000원\n\n관심 2,687\n\n · 리뷰 25\n\n · 거래 158\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "798731YCOJ21000",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 1639.35,
+      "matched": true,
+      "product_id": 338990,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/338990",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "612616BRM0E1000",
+      "option": "95",
+      "stock": 1,
+      "eur_price": 275.2,
+      "matched": true,
+      "product_id": 97069,
+      "product_name_ko": null,
+      "product_url": "https://kream.co.kr/products/97069",
+      "market": {
+        "last_sale_price": 380000,
+        "lowest_ask": 413000,
+        "highest_bid": null,
+        "change_text": "▼ 210,000원(-35.6%)"
+      },
+      "sales": [
+        {
+          "price": 380000,
+          "option": "95",
+          "date_created": "2026-06-15T11:44:33Z",
+          "date_text": "26/06/15",
+          "is_immediate": false
+        },
+        {
+          "price": 380000,
+          "option": "95",
+          "date_created": "2026-06-11T14:40:05Z",
+          "date_text": "26/06/11",
+          "is_immediate": false
+        },
+        {
+          "price": 416000,
+          "option": "95",
+          "date_created": "2026-05-21T07:19:40Z",
+          "date_text": "26/05/21",
+          "is_immediate": false
+        },
+        {
+          "price": 384000,
+          "option": "95",
+          "date_created": "2026-04-15T04:01:05Z",
+          "date_text": "26/04/15",
+          "is_immediate": false
+        },
+        {
+          "price": 380000,
+          "option": "95",
+          "date_created": "2026-03-15T05:14:23Z",
+          "date_text": "26/03/15",
+          "is_immediate": false
+        },
+        {
+          "price": 376000,
+          "option": "95",
+          "date_created": "2026-02-09T02:22:09Z",
+          "date_text": "26/02/09",
+          "is_immediate": true
+        },
+        {
+          "price": 361000,
+          "option": "95",
+          "date_created": "2025-10-01T15:25:36Z",
+          "date_text": "25/10/02",
+          "is_immediate": true
+        },
+        {
+          "price": 387000,
+          "option": "95",
+          "date_created": "2025-06-15T13:55:29Z",
+          "date_text": "25/06/15",
+          "is_immediate": true
+        },
+        {
+          "price": 362000,
+          "option": "95",
+          "date_created": "2025-05-19T18:27:14Z",
+          "date_text": "25/05/20",
+          "is_immediate": false
+        },
+        {
+          "price": 400000,
+          "option": "95",
+          "date_created": "2024-08-13T02:03:29Z",
+          "date_text": "24/08/13",
+          "is_immediate": false
+        },
+        {
+          "price": 333000,
+          "option": "95",
+          "date_created": "2024-07-05T16:59:37Z",
+          "date_text": "24/07/06",
+          "is_immediate": false
+        },
+        {
+          "price": 411000,
+          "option": "95",
+          "date_created": "2024-05-08T06:15:33Z",
+          "date_text": "24/05/08",
+          "is_immediate": false
+        },
+        {
+          "price": 409000,
+          "option": "95",
+          "date_created": "2024-03-14T11:47:48Z",
+          "date_text": "24/03/14",
+          "is_immediate": false
+        },
+        {
+          "price": 343000,
+          "option": "95",
+          "date_created": "2024-02-16T04:35:29Z",
+          "date_text": "24/02/16",
+          "is_immediate": false
+        },
+        {
+          "price": 345000,
+          "option": "95",
+          "date_created": "2024-02-05T05:10:44Z",
+          "date_text": "24/02/05",
+          "is_immediate": false
+        },
+        {
+          "price": 150000,
+          "option": "95",
+          "date_created": "2023-07-14T06:25:06Z",
+          "date_text": "23/07/14",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 413000,
+          "option": "95",
+          "quantity": 1
+        },
+        {
+          "price": 414000,
+          "option": "95",
+          "quantity": 1
+        },
+        {
+          "price": 417000,
+          "option": "95",
+          "quantity": 2
+        },
+        {
+          "price": 462000,
+          "option": "95",
+          "quantity": 1
+        },
+        {
+          "price": 483000,
+          "option": "95",
+          "quantity": 1
+        },
+        {
+          "price": 490000,
+          "option": "95",
+          "quantity": 1
+        },
+        {
+          "price": 510000,
+          "option": "95",
+          "quantity": 1
+        },
+        {
+          "price": 552000,
+          "option": "95",
+          "quantity": 1
+        },
+        {
+          "price": 613000,
+          "option": "95",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 16,
+        "asks": 9,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 210,000원(-35.6%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "95",
+      "kream_options_available": [
+        "70",
+        "75",
+        "80",
+        "85",
+        "90",
+        "95",
+        "100",
+        "105"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "803723Y99561000",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 232.78,
+      "matched": true,
+      "product_id": 482401,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/482401",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "799171Y36SW9950",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 528.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"799171Y36SW9950\" SPU=\"799171Y36SW9950\"",
+      "candidates": [
+        {
+          "product_id": 91304,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 팔라듐\n\n22%\n\n426,000원\n\n관심 2,517\n\n · 리뷰 1\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 58593,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 골드 모노그램 카산드라 샌들 블랙\n\n58%\n\n489,000원\n\n관심 193\n\n · 리뷰 5\n\n · 거래 9"
+        },
+        {
+          "product_id": 75031,
+          "text": "Saint Laurent\n\n(W) 생로랑 보이프렌드 핏 숏슬리브 티셔츠 블랙\n\n63%\n\n220,000원\n\n관심 173\n\n · 리뷰 2\n\n · 거래 17"
+        },
+        {
+          "product_id": 317117,
+          "text": "Gucci\n\n(W) 구찌 참 트레이드마크 체인 브레이슬릿 925 스털링 실버\n\n33%\n\n400,000원\n\n관심 237\n\n · 거래 8"
+        },
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n35%\n\n424,000원\n\n관심 2,071\n\n · 거래 207\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "799171Y36SW9950",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 528.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"799171Y36SW9950\" SPU=\"799171Y36SW9950\"",
+      "candidates": [
+        {
+          "product_id": 91304,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 팔라듐\n\n22%\n\n426,000원\n\n관심 2,517\n\n · 리뷰 1\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 58593,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 골드 모노그램 카산드라 샌들 블랙\n\n58%\n\n489,000원\n\n관심 193\n\n · 리뷰 5\n\n · 거래 9"
+        },
+        {
+          "product_id": 75031,
+          "text": "Saint Laurent\n\n(W) 생로랑 보이프렌드 핏 숏슬리브 티셔츠 블랙\n\n63%\n\n220,000원\n\n관심 173\n\n · 리뷰 2\n\n · 거래 17"
+        },
+        {
+          "product_id": 317117,
+          "text": "Gucci\n\n(W) 구찌 참 트레이드마크 체인 브레이슬릿 925 스털링 실버\n\n33%\n\n400,000원\n\n관심 237\n\n · 거래 8"
+        },
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n35%\n\n424,000원\n\n관심 2,071\n\n · 거래 207\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "796556YALL22353",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 532.78,
+      "matched": true,
+      "product_id": 700394,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/700394",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "789862 Y1A621000",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 1799.18,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"789862 Y1A621000\" SPU=\"789862 Y1A621000\"",
+      "candidates": [
+        {
+          "product_id": 317117,
+          "text": "Gucci\n\n(W) 구찌 참 트레이드마크 체인 브레이슬릿 925 스털링 실버\n\n33%\n\n400,000원\n\n관심 237\n\n · 거래 8"
+        },
+        {
+          "product_id": 91304,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 팔라듐\n\n22%\n\n426,000원\n\n관심 2,517\n\n · 리뷰 1\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n35%\n\n424,000원\n\n관심 2,071\n\n · 거래 207\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 157917,
+          "text": "Saint Laurent\n\n생로랑 오피움 참 브레이슬릿 메탈 앤 라인스톤 옥시다이즈드 실버\n\n42%\n\n379,000원\n\n관심 7,675\n\n · 리뷰 4\n\n · 거래 633\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 441033,
+          "text": "Gucci\n\n구찌 GG 마몽 체인 브레이슬릿 925 스털링 실버\n\n22%\n\n456,000원\n\n관심 126\n\n · 리뷰 1\n\n · 거래 7"
+        }
+      ]
+    },
+    {
+      "sku": "789862 Y1A621000",
+      "option": "38",
+      "stock": 1,
+      "eur_price": 1799.18,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"789862 Y1A621000\" SPU=\"789862 Y1A621000\"",
+      "candidates": [
+        {
+          "product_id": 317117,
+          "text": "Gucci\n\n(W) 구찌 참 트레이드마크 체인 브레이슬릿 925 스털링 실버\n\n33%\n\n400,000원\n\n관심 237\n\n · 거래 8"
+        },
+        {
+          "product_id": 91304,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 팔라듐\n\n22%\n\n426,000원\n\n관심 2,517\n\n · 리뷰 1\n\n · 거래 137\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n35%\n\n424,000원\n\n관심 2,071\n\n · 거래 207\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 157917,
+          "text": "Saint Laurent\n\n생로랑 오피움 참 브레이슬릿 메탈 앤 라인스톤 옥시다이즈드 실버\n\n42%\n\n379,000원\n\n관심 7,675\n\n · 리뷰 4\n\n · 거래 633\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 441033,
+          "text": "Gucci\n\n구찌 GG 마몽 체인 브레이슬릿 925 스털링 실버\n\n22%\n\n456,000원\n\n관심 126\n\n · 리뷰 1\n\n · 거래 7"
+        }
+      ]
+    },
+    {
+      "sku": "789945 Y7I224280",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 487.7,
+      "matched": true,
+      "product_id": 689725,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/689725",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "790074 Y227W9000",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 405.74,
+      "matched": true,
+      "product_id": 275739,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/275739",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "809696AAB321000",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 2065.57,
+      "matched": true,
+      "product_id": 395786,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/395786",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "414404BOW011000",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 295.08,
+      "matched": true,
+      "product_id": 63736,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/63736",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "554465DTI0W1000",
+      "option": "70",
+      "stock": 1,
+      "eur_price": 291.39,
+      "matched": true,
+      "product_id": 91307,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/91307",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 598000,
+        "highest_bid": null,
+        "change_text": "▼ 64,000원(-11.8%)"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 598000,
+          "option": "70",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 64,000원(-11.8%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "70",
+      "kream_options_available": [
+        "70",
+        "75",
+        "80",
+        "85",
+        "90"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "557831GIVLE1000",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 487.7,
+      "matched": true,
+      "product_id": 157450,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/157450",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "509415FAAVR1070",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1079.92,
+      "matched": true,
+      "product_id": 518855,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/518855",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "379039CWU011000",
+      "option": "U",
+      "stock": 34,
+      "eur_price": 442.62,
+      "matched": true,
+      "product_id": 50564,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/50564",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "8210032R20E1000",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1045.08,
+      "matched": true,
+      "product_id": 408496,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/408496",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "457755B8I009935",
+      "option": "41",
+      "stock": 2,
+      "eur_price": 467.21,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"457755B8I009935\" SPU=\"457755B8I009935\"",
+      "candidates": [
+        {
+          "product_id": 61808,
+          "text": "Gucci\n\n구찌 인터로킹 G 펜던트 네클리스 실버\n\n32%\n\n339,000원\n\n관심 1.8만\n\n · 리뷰 385\n\n · 거래 9,406\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 59336,
+          "text": "Gucci\n\n구찌 GG 마몽 레더 카드 케이스 블랙\n\n23%\n\n321,000원\n\n관심 2,056\n\n · 리뷰 62\n\n · 거래 558\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 43871,
+          "text": "Gucci\n\n구찌 GG 마몽 카드 케이스 블랙\n\n26%\n\n370,000원\n\n관심 1.1만\n\n · 리뷰 251\n\n · 거래 2,858\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 43872,
+          "text": "Gucci\n\n구찌 GG 마몽 레더 카드 케이스 블랙\n\n32%\n\n439,000원\n\n관심 379\n\n · 리뷰 12\n\n · 거래 64\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 57632,
+          "text": "Gucci\n\n구찌 GG 마몽 마틀라세 카드 케이스 지갑 블랙\n\n26%\n\n560,000원\n\n관심 2,826\n\n · 리뷰 66\n\n · 거래 494\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "6032231JZ301000",
+      "option": "45",
+      "stock": 1,
+      "eur_price": 295.08,
+      "matched": true,
+      "product_id": 71619,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/71619",
+      "market": {
+        "last_sale_price": 300000,
+        "lowest_ask": 939000,
+        "highest_bid": null,
+        "change_text": "▼ 249,000원(-45.4%)"
+      },
+      "sales": [
+        {
+          "price": 300000,
+          "option": "EU 41",
+          "date_created": "2025-09-18T14:21:21Z",
+          "date_text": "25/09/18",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 939000,
+          "option": "EU 41",
+          "quantity": 1
+        },
+        {
+          "price": 1000000,
+          "option": "EU 41",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 249,000원(-45.4%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 41",
+      "kream_options_available": [
+        "EU 41",
+        "EU 40",
+        "EU 40.5",
+        "EU 41.5",
+        "EU 42",
+        "EU 43",
+        "EU 42.5"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "752721YBMV29774",
+      "option": "S",
+      "stock": 4,
+      "eur_price": 344.26,
+      "matched": true,
+      "product_id": 275730,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/275730",
+      "market": {
+        "last_sale_price": 419000,
+        "lowest_ask": null,
+        "highest_bid": 350000,
+        "change_text": "▼ 50,000원(-12.5%)"
+      },
+      "sales": [
+        {
+          "price": 419000,
+          "option": "S",
+          "date_created": "2025-07-09T09:12:53Z",
+          "date_text": "25/07/09",
+          "is_immediate": false
+        },
+        {
+          "price": 419000,
+          "option": "S",
+          "date_created": "2025-07-04T12:42:19Z",
+          "date_text": "25/07/04",
+          "is_immediate": false
+        },
+        {
+          "price": 410000,
+          "option": "S",
+          "date_created": "2025-06-24T07:39:58Z",
+          "date_text": "25/06/24",
+          "is_immediate": false
+        },
+        {
+          "price": 358000,
+          "option": "S",
+          "date_created": "2025-01-10T07:40:44Z",
+          "date_text": "25/01/10",
+          "is_immediate": false
+        },
+        {
+          "price": 355000,
+          "option": "S",
+          "date_created": "2024-07-04T04:27:39Z",
+          "date_text": "24/07/04",
+          "is_immediate": false
+        },
+        {
+          "price": 357000,
+          "option": "S",
+          "date_created": "2024-06-11T02:46:25Z",
+          "date_text": "24/06/11",
+          "is_immediate": false
+        },
+        {
+          "price": 361000,
+          "option": "S",
+          "date_created": "2024-05-31T15:19:15Z",
+          "date_text": "24/06/01",
+          "is_immediate": false
+        },
+        {
+          "price": 384000,
+          "option": "S",
+          "date_created": "2024-05-12T13:36:45Z",
+          "date_text": "24/05/12",
+          "is_immediate": false
+        }
+      ],
+      "asks": [],
+      "bids": [
+        {
+          "price": 350000,
+          "option": "S",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 8,
+        "asks": 0,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 50,000원(-12.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "S",
+      "kream_options_available": [
+        "XS",
+        "S",
+        "L",
+        "M"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "60760302G0W1000",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 174.18,
+      "matched": true,
+      "product_id": 44677,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/44677",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "375946H3Z0W1000",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 160.24,
+      "matched": true,
+      "product_id": 206398,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/206398",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "375946DZE0E1000",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 174.18,
+      "matched": true,
+      "product_id": 69764,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/69764",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "8136871TV006117",
+      "option": "39",
+      "stock": 1,
+      "eur_price": 454.92,
+      "matched": true,
+      "product_id": 542084,
+      "product_name_ko": "Saint Laurent",
+      "product_url": "https://kream.co.kr/products/542084",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "807142 Y23HA4020",
+      "option": "30",
+      "stock": 1,
+      "eur_price": 323.77,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"807142 Y23HA4020\" SPU=\"807142 Y23HA4020\"",
+      "candidates": [
+        {
+          "product_id": 37307,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 텍스쳐드 마틀라세 레더 카산드라 마틀라세 카드 케이스 블랙\n\n30%\n\n370,000원\n\n관심 1.3만\n\n · 리뷰 318\n\n · 거래 4,012\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 44677,
+          "text": "Saint Laurent\n\n생로랑 타이니 모노그램 샤이니 레더 카드 케이스 블랙\n\n34%\n\n308,000원\n\n관심 3,343\n\n · 리뷰 64\n\n · 거래 736\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 48488,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 실버 모노그램 카드 월렛 블랙\n\n315,000원\n\n관심 975\n\n · 리뷰 10\n\n · 거래 108\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 50858,
+          "text": "Saint Laurent\n\n생로랑 매트 레더 타이니 실버 모노그램 카드 케이스 블랙\n\n22%\n\n365,000원\n\n관심 7,508\n\n · 리뷰 111\n\n · 거래 1,399\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 37306,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 텍스쳐드 마틀라세 레더 카산드라 마틀라세 카드 케이스 블랙\n\n399,000원\n\n관심 2.2만\n\n · 리뷰 652\n\n · 거래 9,114\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "811119 Y75YK2520",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 405.74,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"811119 Y75YK2520\" SPU=\"811119 Y75YK2520\"",
+      "candidates": [
+        {
+          "product_id": 59336,
+          "text": "Gucci\n\n구찌 GG 마몽 레더 카드 케이스 블랙\n\n23%\n\n321,000원\n\n관심 2,056\n\n · 리뷰 62\n\n · 거래 558\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 131268,
+          "text": "Burberry\n\n버버리 퀼티드 레더 롤라 카드 케이스 블랙 팔라듐\n\n37%\n\n258,000원\n\n관심 2,057\n\n · 리뷰 31\n\n · 거래 280\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 44677,
+          "text": "Saint Laurent\n\n생로랑 타이니 모노그램 샤이니 레더 카드 케이스 블랙\n\n34%\n\n308,000원\n\n관심 3,343\n\n · 리뷰 64\n\n · 거래 736\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 165907,
+          "text": "Burberry\n\n버버리 체크 앤 레더 머니 클립 카드 케이스 다크 버치 브라운\n\n42%\n\n246,000원\n\n관심 88\n\n · 리뷰 6\n\n · 거래 12"
+        },
+        {
+          "product_id": 97336,
+          "text": "Burberry\n\n버버리 퀼티드 레더 롤라 카드 케이스 블랙 라이트 골드\n\n27%\n\n320,000원\n\n관심 5,129\n\n · 리뷰 72\n\n · 거래 871"
+        }
+      ]
+    },
+    {
+      "sku": "810622Y99561000",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 254.51,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"810622Y99561000\" SPU=\"810622Y99561000\"",
+      "candidates": [
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n35%\n\n424,000원\n\n관심 2,071\n\n · 거래 207\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 36960,
+          "text": "Saint Laurent\n\n생로랑 모노그램 레더 카드 케이스 블랙\n\n34%\n\n323,000원\n\n관심 9,957\n\n · 리뷰 138\n\n · 거래 2,238\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 370130,
+          "text": "Saint Laurent\n\n생로랑 칼립소 미니 백 램스킨 블랙\n\n42%\n\n970,000원\n\n관심 174\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 48488,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 실버 모노그램 카드 월렛 블랙\n\n315,000원\n\n관심 975\n\n · 리뷰 10\n\n · 거래 108\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 370128,
+          "text": "Saint Laurent\n\n생로랑 칼립소 미니 백 그레인드 램스킨 블랙\n\n49%\n\n850,000원\n\n관심 91\n\n · 리뷰 1\n\n · 거래 3"
+        }
+      ]
+    },
+    {
+      "sku": "807142 Y07YB1428",
+      "option": "30",
+      "stock": 1,
+      "eur_price": 323.77,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"807142 Y07YB1428\" SPU=\"807142 Y07YB1428\"",
+      "candidates": [
+        {
+          "product_id": 131268,
+          "text": "Burberry\n\n버버리 퀼티드 레더 롤라 카드 케이스 블랙 팔라듐\n\n37%\n\n258,000원\n\n관심 2,057\n\n · 리뷰 31\n\n · 거래 280\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 48488,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 실버 모노그램 카드 월렛 블랙\n\n315,000원\n\n관심 975\n\n · 리뷰 10\n\n · 거래 108\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 97336,
+          "text": "Burberry\n\n버버리 퀼티드 레더 롤라 카드 케이스 블랙 라이트 골드\n\n27%\n\n320,000원\n\n관심 5,129\n\n · 리뷰 72\n\n · 거래 871"
+        },
+        {
+          "product_id": 180732,
+          "text": "Burberry\n\n버버리 퀼티드 레더 롤라 카드 케이스 블랙 블랙\n\n38%\n\n251,000원\n\n관심 507\n\n · 리뷰 2\n\n · 거래 22\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 44677,
+          "text": "Saint Laurent\n\n생로랑 타이니 모노그램 샤이니 레더 카드 케이스 블랙\n\n34%\n\n308,000원\n\n관심 3,343\n\n · 리뷰 64\n\n · 거래 736\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    }
+  ]
+}
