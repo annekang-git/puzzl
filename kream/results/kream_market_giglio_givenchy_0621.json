@@ -1,0 +1,1847 @@
+{
+  "fetched_at": "2026-06-21T10:16:33.759Z",
+  "input_file": "targets-giglio_givenchy.json",
+  "total_targets": 60,
+  "matched": 7,
+  "failed": 53,
+  "results": [
+    {
+      "sku": "H3066609B",
+      "option": "31",
+      "stock": 1,
+      "eur_price": 22.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3066609B\" SPU=\"H3066609B\"",
+      "candidates": [
+        {
+          "product_id": 84276,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - D\n\n49%\n\n693,000원\n\n관심 1"
+        },
+        {
+          "product_id": 53964,
+          "text": "Tod's\n\n(W) 토즈 케이트 메탈 로고 레더 로퍼 블랙\n\n43%\n\n600,000원\n\n관심 512\n\n · 리뷰 13\n\n · 거래 87"
+        },
+        {
+          "product_id": 87595,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - EEE\n\n50%\n\n678,000원\n\n관심 72\n\n · 거래 21"
+        },
+        {
+          "product_id": 82196,
+          "text": "Ferragamo\n\n페라가모 간치니 오너먼트 모카신 블랙 - EEE\n\n42%\n\n570,000원\n\n관심 18\n\n · 리뷰 1\n\n · 거래 10"
+        },
+        {
+          "product_id": 440513,
+          "text": "Ferragamo\n\n페라가모 모카신 블랙 - EEE\n\n391,000원\n\n관심 2"
+        }
+      ]
+    },
+    {
+      "sku": "H3066809B",
+      "option": "54",
+      "stock": 3,
+      "eur_price": 79.92,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3066809B\" SPU=\"H3066809B\"",
+      "candidates": [
+        {
+          "product_id": 206828,
+          "text": "Ferragamo\n\n페라가모 간치니 오너먼트 모카신 블랙- EEE\n\n59%\n\n507,000원\n\n관심 6\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 84276,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - D\n\n49%\n\n693,000원\n\n관심 1"
+        },
+        {
+          "product_id": 87595,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - EEE\n\n50%\n\n678,000원\n\n관심 72\n\n · 거래 21"
+        },
+        {
+          "product_id": 53964,
+          "text": "Tod's\n\n(W) 토즈 케이트 메탈 로고 레더 로퍼 블랙\n\n43%\n\n600,000원\n\n관심 512\n\n · 리뷰 13\n\n · 거래 87"
+        },
+        {
+          "product_id": 521555,
+          "text": "Ferragamo\n\n페라가모 간치니 오너먼트 모카신 블랙 - EEE\n\n42%\n\n746,000원\n\n관심 10\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "H3066809B",
+      "option": "56",
+      "stock": 1,
+      "eur_price": 79.92,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3066809B\" SPU=\"H3066809B\"",
+      "candidates": [
+        {
+          "product_id": 206828,
+          "text": "Ferragamo\n\n페라가모 간치니 오너먼트 모카신 블랙- EEE\n\n59%\n\n507,000원\n\n관심 6\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 84276,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - D\n\n49%\n\n693,000원\n\n관심 1"
+        },
+        {
+          "product_id": 87595,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - EEE\n\n50%\n\n678,000원\n\n관심 72\n\n · 거래 21"
+        },
+        {
+          "product_id": 53964,
+          "text": "Tod's\n\n(W) 토즈 케이트 메탈 로고 레더 로퍼 블랙\n\n43%\n\n600,000원\n\n관심 512\n\n · 리뷰 13\n\n · 거래 87"
+        },
+        {
+          "product_id": 521555,
+          "text": "Ferragamo\n\n페라가모 간치니 오너먼트 모카신 블랙 - EEE\n\n42%\n\n746,000원\n\n관심 10\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "H3066410P",
+      "option": "9M",
+      "stock": 1,
+      "eur_price": 47.13,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3066410P\" SPU=\"H3066410P\"",
+      "candidates": [
+        {
+          "product_id": 206828,
+          "text": "Ferragamo\n\n페라가모 간치니 오너먼트 모카신 블랙- EEE\n\n59%\n\n507,000원\n\n관심 6\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 84276,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - D\n\n49%\n\n693,000원\n\n관심 1"
+        },
+        {
+          "product_id": 53992,
+          "text": "Hermes\n\n에르메스 파리 로퍼 고트스킨 & 팔라듐 하드웨어 누아\n\n1,450,000원\n\n관심 91\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 53964,
+          "text": "Tod's\n\n(W) 토즈 케이트 메탈 로고 레더 로퍼 블랙\n\n43%\n\n600,000원\n\n관심 512\n\n · 리뷰 13\n\n · 거래 87"
+        },
+        {
+          "product_id": 87595,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - EEE\n\n50%\n\n678,000원\n\n관심 72\n\n · 거래 21"
+        }
+      ]
+    },
+    {
+      "sku": "H3066410P",
+      "option": "6M",
+      "stock": 2,
+      "eur_price": 47.13,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3066410P\" SPU=\"H3066410P\"",
+      "candidates": [
+        {
+          "product_id": 206828,
+          "text": "Ferragamo\n\n페라가모 간치니 오너먼트 모카신 블랙- EEE\n\n59%\n\n507,000원\n\n관심 6\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 84276,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - D\n\n49%\n\n693,000원\n\n관심 1"
+        },
+        {
+          "product_id": 53992,
+          "text": "Hermes\n\n에르메스 파리 로퍼 고트스킨 & 팔라듐 하드웨어 누아\n\n1,450,000원\n\n관심 91\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 53964,
+          "text": "Tod's\n\n(W) 토즈 케이트 메탈 로고 레더 로퍼 블랙\n\n43%\n\n600,000원\n\n관심 512\n\n · 리뷰 13\n\n · 거래 87"
+        },
+        {
+          "product_id": 87595,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - EEE\n\n50%\n\n678,000원\n\n관심 72\n\n · 거래 21"
+        }
+      ]
+    },
+    {
+      "sku": "H30664488",
+      "option": "6M",
+      "stock": 1,
+      "eur_price": 47.13,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H30664488\" SPU=\"H30664488\"",
+      "candidates": [
+        {
+          "product_id": 84276,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - D\n\n49%\n\n693,000원\n\n관심 1"
+        },
+        {
+          "product_id": 53992,
+          "text": "Hermes\n\n에르메스 파리 로퍼 고트스킨 & 팔라듐 하드웨어 누아\n\n1,450,000원\n\n관심 91\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 53964,
+          "text": "Tod's\n\n(W) 토즈 케이트 메탈 로고 레더 로퍼 블랙\n\n43%\n\n600,000원\n\n관심 512\n\n · 리뷰 13\n\n · 거래 87"
+        },
+        {
+          "product_id": 82196,
+          "text": "Ferragamo\n\n페라가모 간치니 오너먼트 모카신 블랙 - EEE\n\n42%\n\n570,000원\n\n관심 18\n\n · 리뷰 1\n\n · 거래 10"
+        },
+        {
+          "product_id": 87595,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - EEE\n\n50%\n\n678,000원\n\n관심 72\n\n · 거래 21"
+        }
+      ]
+    },
+    {
+      "sku": "H30664488",
+      "option": "9M",
+      "stock": 2,
+      "eur_price": 47.13,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H30664488\" SPU=\"H30664488\"",
+      "candidates": [
+        {
+          "product_id": 84276,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - D\n\n49%\n\n693,000원\n\n관심 1"
+        },
+        {
+          "product_id": 53992,
+          "text": "Hermes\n\n에르메스 파리 로퍼 고트스킨 & 팔라듐 하드웨어 누아\n\n1,450,000원\n\n관심 91\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 53964,
+          "text": "Tod's\n\n(W) 토즈 케이트 메탈 로고 레더 로퍼 블랙\n\n43%\n\n600,000원\n\n관심 512\n\n · 리뷰 13\n\n · 거래 87"
+        },
+        {
+          "product_id": 82196,
+          "text": "Ferragamo\n\n페라가모 간치니 오너먼트 모카신 블랙 - EEE\n\n42%\n\n570,000원\n\n관심 18\n\n · 리뷰 1\n\n · 거래 10"
+        },
+        {
+          "product_id": 87595,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - EEE\n\n50%\n\n678,000원\n\n관심 72\n\n · 거래 21"
+        }
+      ]
+    },
+    {
+      "sku": "H3066410P",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 53.28,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3066410P\" SPU=\"H3066410P\"",
+      "candidates": [
+        {
+          "product_id": 206828,
+          "text": "Ferragamo\n\n페라가모 간치니 오너먼트 모카신 블랙- EEE\n\n59%\n\n507,000원\n\n관심 6\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 84276,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - D\n\n49%\n\n693,000원\n\n관심 1"
+        },
+        {
+          "product_id": 53992,
+          "text": "Hermes\n\n에르메스 파리 로퍼 고트스킨 & 팔라듐 하드웨어 누아\n\n1,450,000원\n\n관심 91\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 53964,
+          "text": "Tod's\n\n(W) 토즈 케이트 메탈 로고 레더 로퍼 블랙\n\n43%\n\n600,000원\n\n관심 512\n\n · 리뷰 13\n\n · 거래 87"
+        },
+        {
+          "product_id": 87595,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - EEE\n\n50%\n\n678,000원\n\n관심 72\n\n · 거래 21"
+        }
+      ]
+    },
+    {
+      "sku": "H3069510P",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 75.82,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3069510P\" SPU=\"H3069510P\"",
+      "candidates": [
+        {
+          "product_id": 53992,
+          "text": "Hermes\n\n에르메스 파리 로퍼 고트스킨 & 팔라듐 하드웨어 누아\n\n1,450,000원\n\n관심 91\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 206828,
+          "text": "Ferragamo\n\n페라가모 간치니 오너먼트 모카신 블랙- EEE\n\n59%\n\n507,000원\n\n관심 6\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 53964,
+          "text": "Tod's\n\n(W) 토즈 케이트 메탈 로고 레더 로퍼 블랙\n\n43%\n\n600,000원\n\n관심 512\n\n · 리뷰 13\n\n · 거래 87"
+        },
+        {
+          "product_id": 84276,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - D\n\n49%\n\n693,000원\n\n관심 1"
+        },
+        {
+          "product_id": 521555,
+          "text": "Ferragamo\n\n페라가모 간치니 오너먼트 모카신 블랙 - EEE\n\n42%\n\n746,000원\n\n관심 10\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "H3071409B",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 100.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3071409B\" SPU=\"H3071409B\"",
+      "candidates": [
+        {
+          "product_id": 57555,
+          "text": "Hermes\n\n(W) 에르메스 미니 팝아슈 펜던트 로즈 골드 & 마롱 글라세\n\n835,000원\n\n관심 1.1만\n\n · 리뷰 46\n\n · 거래 4,150\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 119120,
+          "text": "Hermes\n\n(W) 에르메스 스몰 파랑돌 펜던트 로즈 골드\n\n36%\n\n2,200,000원\n\n관심 3,454\n\n · 리뷰 13\n\n · 거래 910\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 81332,
+          "text": "Hermes\n\n(W) 에르메스 샹달 펜던트 스털링 실버\n\n914,000원\n\n관심 7,369\n\n · 리뷰 26\n\n · 거래 1,069\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 144370,
+          "text": "Hermes\n\n에르메스 필루 글러브 클립 메탈 팔라디\n\n580,000원\n\n관심 255\n\n · 리뷰 1\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 56337,
+          "text": "Hermes\n\n(W) 에르메스 미니 팝아슈 펜던트 팔라듐 하드웨어 & 누아\n\n827,000원\n\n관심 6,893\n\n · 리뷰 29\n\n · 거래 1,388\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H3071409B",
+      "option": "12",
+      "stock": 1,
+      "eur_price": 100.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3071409B\" SPU=\"H3071409B\"",
+      "candidates": [
+        {
+          "product_id": 57555,
+          "text": "Hermes\n\n(W) 에르메스 미니 팝아슈 펜던트 로즈 골드 & 마롱 글라세\n\n835,000원\n\n관심 1.1만\n\n · 리뷰 46\n\n · 거래 4,150\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 119120,
+          "text": "Hermes\n\n(W) 에르메스 스몰 파랑돌 펜던트 로즈 골드\n\n36%\n\n2,200,000원\n\n관심 3,454\n\n · 리뷰 13\n\n · 거래 910\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 81332,
+          "text": "Hermes\n\n(W) 에르메스 샹달 펜던트 스털링 실버\n\n914,000원\n\n관심 7,369\n\n · 리뷰 26\n\n · 거래 1,069\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 144370,
+          "text": "Hermes\n\n에르메스 필루 글러브 클립 메탈 팔라디\n\n580,000원\n\n관심 255\n\n · 리뷰 1\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 56337,
+          "text": "Hermes\n\n(W) 에르메스 미니 팝아슈 펜던트 팔라듐 하드웨어 & 누아\n\n827,000원\n\n관심 6,893\n\n · 리뷰 29\n\n · 거래 1,388\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H3077709B",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 79.92,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3077709B\" SPU=\"H3077709B\"",
+      "candidates": [
+        {
+          "product_id": 53992,
+          "text": "Hermes\n\n에르메스 파리 로퍼 고트스킨 & 팔라듐 하드웨어 누아\n\n1,450,000원\n\n관심 91\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 206828,
+          "text": "Ferragamo\n\n페라가모 간치니 오너먼트 모카신 블랙- EEE\n\n59%\n\n507,000원\n\n관심 6\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 53964,
+          "text": "Tod's\n\n(W) 토즈 케이트 메탈 로고 레더 로퍼 블랙\n\n43%\n\n600,000원\n\n관심 512\n\n · 리뷰 13\n\n · 거래 87"
+        },
+        {
+          "product_id": 84276,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - D\n\n49%\n\n693,000원\n\n관심 1"
+        },
+        {
+          "product_id": 521555,
+          "text": "Ferragamo\n\n페라가모 간치니 오너먼트 모카신 블랙 - EEE\n\n42%\n\n746,000원\n\n관심 10\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "H3077709B",
+      "option": "10",
+      "stock": 1,
+      "eur_price": 79.92,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3077709B\" SPU=\"H3077709B\"",
+      "candidates": [
+        {
+          "product_id": 53992,
+          "text": "Hermes\n\n에르메스 파리 로퍼 고트스킨 & 팔라듐 하드웨어 누아\n\n1,450,000원\n\n관심 91\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 206828,
+          "text": "Ferragamo\n\n페라가모 간치니 오너먼트 모카신 블랙- EEE\n\n59%\n\n507,000원\n\n관심 6\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 53964,
+          "text": "Tod's\n\n(W) 토즈 케이트 메탈 로고 레더 로퍼 블랙\n\n43%\n\n600,000원\n\n관심 512\n\n · 리뷰 13\n\n · 거래 87"
+        },
+        {
+          "product_id": 84276,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - D\n\n49%\n\n693,000원\n\n관심 1"
+        },
+        {
+          "product_id": 521555,
+          "text": "Ferragamo\n\n페라가모 간치니 오너먼트 모카신 블랙 - EEE\n\n42%\n\n746,000원\n\n관심 10\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "H3070909B",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 71.72,
+      "matched": true,
+      "product_id": 720663,
+      "product_name_ko": "Givenchy",
+      "product_url": "https://kream.co.kr/products/720663",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "H3065544Z",
+      "option": "9M",
+      "stock": 1,
+      "eur_price": 67.63,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3065544Z\" SPU=\"H3065544Z\"",
+      "candidates": [
+        {
+          "product_id": 212484,
+          "text": "Hermes\n\n에르메스 바운싱 스니커즈 메쉬 스웨이드 고트스킨 & 블랑\n\n1,350,000원\n\n관심 485\n\n · 리뷰 14\n\n · 거래 170"
+        },
+        {
+          "product_id": 53992,
+          "text": "Hermes\n\n에르메스 파리 로퍼 고트스킨 & 팔라듐 하드웨어 누아\n\n1,450,000원\n\n관심 91\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 89958,
+          "text": "Hermes\n\n에르메스 바운싱 스니커즈 메쉬 스웨이드 고트스킨 & 누아 블랑\n\n2,500,000원\n\n관심 1,334\n\n · 리뷰 34\n\n · 거래 967\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 868998,
+          "text": "Hermes Vintage\n\n에르메스 H212266Z 스니커즈 레더 베이지\n\n31%\n\n624,000원\n\n무료배송"
+        },
+        {
+          "product_id": 508972,
+          "text": "Hermes\n\n에르메스 바운싱 스니커즈 고트스킨 스웨이드 고트스킨 & 누아\n\n1,590,000원\n\n관심 7"
+        }
+      ]
+    },
+    {
+      "sku": "H3065544Z",
+      "option": "18M",
+      "stock": 1,
+      "eur_price": 67.63,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3065544Z\" SPU=\"H3065544Z\"",
+      "candidates": [
+        {
+          "product_id": 212484,
+          "text": "Hermes\n\n에르메스 바운싱 스니커즈 메쉬 스웨이드 고트스킨 & 블랑\n\n1,350,000원\n\n관심 485\n\n · 리뷰 14\n\n · 거래 170"
+        },
+        {
+          "product_id": 53992,
+          "text": "Hermes\n\n에르메스 파리 로퍼 고트스킨 & 팔라듐 하드웨어 누아\n\n1,450,000원\n\n관심 91\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 89958,
+          "text": "Hermes\n\n에르메스 바운싱 스니커즈 메쉬 스웨이드 고트스킨 & 누아 블랑\n\n2,500,000원\n\n관심 1,334\n\n · 리뷰 34\n\n · 거래 967\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 868998,
+          "text": "Hermes Vintage\n\n에르메스 H212266Z 스니커즈 레더 베이지\n\n31%\n\n624,000원\n\n무료배송"
+        },
+        {
+          "product_id": 508972,
+          "text": "Hermes\n\n에르메스 바운싱 스니커즈 고트스킨 스웨이드 고트스킨 & 누아\n\n1,590,000원\n\n관심 7"
+        }
+      ]
+    },
+    {
+      "sku": "H3077509B",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 88.11,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3077509B\" SPU=\"H3077509B\"",
+      "candidates": [
+        {
+          "product_id": 53992,
+          "text": "Hermes\n\n에르메스 파리 로퍼 고트스킨 & 팔라듐 하드웨어 누아\n\n1,450,000원\n\n관심 91\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 755197,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 멀티꼴로르 블랑\n\n6%\n\n1,656,000원\n\n관심 2"
+        },
+        {
+          "product_id": 60869,
+          "text": "Hermes\n\n(W) 에르메스 바운싱 스니커즈 스포츠 스웨이드 고트스킨 & 블랑 누아\n\n1,450,000원\n\n관심 3,517\n\n · 리뷰 68\n\n · 거래 1,800\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        },
+        {
+          "product_id": 617049,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 블랑\n\n1,655,000원\n\n관심 19\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "H3069909B",
+      "option": "8",
+      "stock": 2,
+      "eur_price": 114.75,
+      "matched": true,
+      "product_id": 720513,
+      "product_name_ko": "Givenchy",
+      "product_url": "https://kream.co.kr/products/720513",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 332000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 332000,
+          "option": "12+",
+          "quantity": 1
+        },
+        {
+          "price": 333000,
+          "option": "12+",
+          "quantity": 1
+        },
+        {
+          "price": 335000,
+          "option": "12+",
+          "quantity": 5
+        },
+        {
+          "price": 360000,
+          "option": "12+",
+          "quantity": 7
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 4,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "12+",
+      "kream_options_available": [
+        "12+",
+        "12A"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "H3069909B",
+      "option": "6",
+      "stock": 2,
+      "eur_price": 114.75,
+      "matched": true,
+      "product_id": 720513,
+      "product_name_ko": "Givenchy",
+      "product_url": "https://kream.co.kr/products/720513",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 332000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 332000,
+          "option": "12+",
+          "quantity": 1
+        },
+        {
+          "price": 333000,
+          "option": "12+",
+          "quantity": 1
+        },
+        {
+          "price": 335000,
+          "option": "12+",
+          "quantity": 5
+        },
+        {
+          "price": 360000,
+          "option": "12+",
+          "quantity": 7
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 4,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "12+",
+      "kream_options_available": [
+        "12+",
+        "12A"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "H3076310P",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 106.56,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3076310P\" SPU=\"H3076310P\"",
+      "candidates": [
+        {
+          "product_id": 153644,
+          "text": "Hermes\n\n에르메스 그레고아르 로퍼 카프스킨 & 브러쉬드 블랙 PVD 하드웨어 누아\n\n2,000,000원\n\n관심 18\n\n · 거래 3"
+        },
+        {
+          "product_id": 428693,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 베쥬 랑\n\n2,300,000원\n\n관심 39\n\n · 리뷰 4\n\n · 거래 18"
+        },
+        {
+          "product_id": 84276,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - D\n\n49%\n\n693,000원\n\n관심 1"
+        },
+        {
+          "product_id": 317034,
+          "text": "Hamilton\n\n해밀턴 아메리칸 클래식 인트라-마틱 오토 크로노 40mm 스테인리스 스틸 화이트\n\n14%\n\n2,799,000원\n\n관심 46"
+        },
+        {
+          "product_id": 246597,
+          "text": "Hamilton\n\n해밀턴 재즈마스터 오픈 하트 오토 42mm 스테인리스 스틸 카프 레더 실버\n\n20%\n\n1,299,000원\n\n관심 36\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "H3076310P",
+      "option": "10",
+      "stock": 1,
+      "eur_price": 106.56,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3076310P\" SPU=\"H3076310P\"",
+      "candidates": [
+        {
+          "product_id": 153644,
+          "text": "Hermes\n\n에르메스 그레고아르 로퍼 카프스킨 & 브러쉬드 블랙 PVD 하드웨어 누아\n\n2,000,000원\n\n관심 18\n\n · 거래 3"
+        },
+        {
+          "product_id": 428693,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 베쥬 랑\n\n2,300,000원\n\n관심 39\n\n · 리뷰 4\n\n · 거래 18"
+        },
+        {
+          "product_id": 84276,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - D\n\n49%\n\n693,000원\n\n관심 1"
+        },
+        {
+          "product_id": 317034,
+          "text": "Hamilton\n\n해밀턴 아메리칸 클래식 인트라-마틱 오토 크로노 40mm 스테인리스 스틸 화이트\n\n14%\n\n2,799,000원\n\n관심 46"
+        },
+        {
+          "product_id": 246597,
+          "text": "Hamilton\n\n해밀턴 재즈마스터 오픈 하트 오토 42mm 스테인리스 스틸 카프 레더 실버\n\n20%\n\n1,299,000원\n\n관심 36\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "H3076310P",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 106.56,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3076310P\" SPU=\"H3076310P\"",
+      "candidates": [
+        {
+          "product_id": 153644,
+          "text": "Hermes\n\n에르메스 그레고아르 로퍼 카프스킨 & 브러쉬드 블랙 PVD 하드웨어 누아\n\n2,000,000원\n\n관심 18\n\n · 거래 3"
+        },
+        {
+          "product_id": 428693,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 베쥬 랑\n\n2,300,000원\n\n관심 39\n\n · 리뷰 4\n\n · 거래 18"
+        },
+        {
+          "product_id": 84276,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - D\n\n49%\n\n693,000원\n\n관심 1"
+        },
+        {
+          "product_id": 317034,
+          "text": "Hamilton\n\n해밀턴 아메리칸 클래식 인트라-마틱 오토 크로노 40mm 스테인리스 스틸 화이트\n\n14%\n\n2,799,000원\n\n관심 46"
+        },
+        {
+          "product_id": 246597,
+          "text": "Hamilton\n\n해밀턴 재즈마스터 오픈 하트 오토 42mm 스테인리스 스틸 카프 레더 실버\n\n20%\n\n1,299,000원\n\n관심 36\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "H3076310P",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 106.56,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3076310P\" SPU=\"H3076310P\"",
+      "candidates": [
+        {
+          "product_id": 153644,
+          "text": "Hermes\n\n에르메스 그레고아르 로퍼 카프스킨 & 브러쉬드 블랙 PVD 하드웨어 누아\n\n2,000,000원\n\n관심 18\n\n · 거래 3"
+        },
+        {
+          "product_id": 428693,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 베쥬 랑\n\n2,300,000원\n\n관심 39\n\n · 리뷰 4\n\n · 거래 18"
+        },
+        {
+          "product_id": 84276,
+          "text": "Ferragamo\n\n페라가모 모카신 리버시블 간치니 오너먼트 블랙 - D\n\n49%\n\n693,000원\n\n관심 1"
+        },
+        {
+          "product_id": 317034,
+          "text": "Hamilton\n\n해밀턴 아메리칸 클래식 인트라-마틱 오토 크로노 40mm 스테인리스 스틸 화이트\n\n14%\n\n2,799,000원\n\n관심 46"
+        },
+        {
+          "product_id": 246597,
+          "text": "Hamilton\n\n해밀턴 재즈마스터 오픈 하트 오토 42mm 스테인리스 스틸 카프 레더 실버\n\n20%\n\n1,299,000원\n\n관심 36\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "H3073809B",
+      "option": "6",
+      "stock": 2,
+      "eur_price": 79.92,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3073809B\" SPU=\"H3073809B\"",
+      "candidates": [
+        {
+          "product_id": 755197,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 멀티꼴로르 블랑\n\n6%\n\n1,656,000원\n\n관심 2"
+        },
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        },
+        {
+          "product_id": 435151,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 블루 뜌르깽\n\n2,200,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 10"
+        },
+        {
+          "product_id": 713379,
+          "text": "Hermes\n\n에르메스 바운싱 스니커즈 테크니컬 메쉬 스포츠 고트스킨 & 블랑\n\n1,750,000원\n\n관심 36\n\n · 리뷰 5\n\n · 거래 14\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H3093209B",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 186.27,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093209B\" SPU=\"H3093209B\"",
+      "candidates": [
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 73716,
+          "text": "Hermes\n\n에르메스 H 벨트 버클 & 리버시블 레더 스트랩 32mm & 그리 모옌 하드웨어 누아 골드\n\n1,145,000원\n\n관심 411\n\n · 리뷰 9\n\n · 거래 163\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 144370,
+          "text": "Hermes\n\n에르메스 필루 글러브 클립 메탈 팔라디\n\n580,000원\n\n관심 255\n\n · 리뷰 1\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        },
+        {
+          "product_id": 70276,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 그리 블랑\n\n38%\n\n1,050,000원\n\n관심 56\n\n · 리뷰 2\n\n · 거래 21"
+        }
+      ]
+    },
+    {
+      "sku": "H3090209B",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 206.97,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3090209B\" SPU=\"H3090209B\"",
+      "candidates": [
+        {
+          "product_id": 755197,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 멀티꼴로르 블랑\n\n6%\n\n1,656,000원\n\n관심 2"
+        },
+        {
+          "product_id": 144370,
+          "text": "Hermes\n\n에르메스 필루 글러브 클립 메탈 팔라디\n\n580,000원\n\n관심 255\n\n · 리뷰 1\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        },
+        {
+          "product_id": 713394,
+          "text": "Hermes\n\n에르메스 슈발 드 하트 반다나 숄 140 블랑 누아\n\n30%\n\n1,580,000원\n\n관심 234\n\n · 거래 73\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 435151,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 블루 뜌르깽\n\n2,200,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 10"
+        }
+      ]
+    },
+    {
+      "sku": "H3093209B",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 186.27,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093209B\" SPU=\"H3093209B\"",
+      "candidates": [
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 73716,
+          "text": "Hermes\n\n에르메스 H 벨트 버클 & 리버시블 레더 스트랩 32mm & 그리 모옌 하드웨어 누아 골드\n\n1,145,000원\n\n관심 411\n\n · 리뷰 9\n\n · 거래 163\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 144370,
+          "text": "Hermes\n\n에르메스 필루 글러브 클립 메탈 팔라디\n\n580,000원\n\n관심 255\n\n · 리뷰 1\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        },
+        {
+          "product_id": 70276,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 그리 블랑\n\n38%\n\n1,050,000원\n\n관심 56\n\n · 리뷰 2\n\n · 거래 21"
+        }
+      ]
+    },
+    {
+      "sku": "H3093209B",
+      "option": "10",
+      "stock": 1,
+      "eur_price": 186.27,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093209B\" SPU=\"H3093209B\"",
+      "candidates": [
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 73716,
+          "text": "Hermes\n\n에르메스 H 벨트 버클 & 리버시블 레더 스트랩 32mm & 그리 모옌 하드웨어 누아 골드\n\n1,145,000원\n\n관심 411\n\n · 리뷰 9\n\n · 거래 163\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 144370,
+          "text": "Hermes\n\n에르메스 필루 글러브 클립 메탈 팔라디\n\n580,000원\n\n관심 255\n\n · 리뷰 1\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        },
+        {
+          "product_id": 70276,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 그리 블랑\n\n38%\n\n1,050,000원\n\n관심 56\n\n · 리뷰 2\n\n · 거래 21"
+        }
+      ]
+    },
+    {
+      "sku": "H3093209B",
+      "option": "12",
+      "stock": 1,
+      "eur_price": 186.27,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093209B\" SPU=\"H3093209B\"",
+      "candidates": [
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 73716,
+          "text": "Hermes\n\n에르메스 H 벨트 버클 & 리버시블 레더 스트랩 32mm & 그리 모옌 하드웨어 누아 골드\n\n1,145,000원\n\n관심 411\n\n · 리뷰 9\n\n · 거래 163\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 144370,
+          "text": "Hermes\n\n에르메스 필루 글러브 클립 메탈 팔라디\n\n580,000원\n\n관심 255\n\n · 리뷰 1\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        },
+        {
+          "product_id": 70276,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 그리 블랑\n\n38%\n\n1,050,000원\n\n관심 56\n\n · 리뷰 2\n\n · 거래 21"
+        }
+      ]
+    },
+    {
+      "sku": "H3093209B",
+      "option": "12+",
+      "stock": 1,
+      "eur_price": 213.93,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093209B\" SPU=\"H3093209B\"",
+      "candidates": [
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 73716,
+          "text": "Hermes\n\n에르메스 H 벨트 버클 & 리버시블 레더 스트랩 32mm & 그리 모옌 하드웨어 누아 골드\n\n1,145,000원\n\n관심 411\n\n · 리뷰 9\n\n · 거래 163\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 144370,
+          "text": "Hermes\n\n에르메스 필루 글러브 클립 메탈 팔라디\n\n580,000원\n\n관심 255\n\n · 리뷰 1\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        },
+        {
+          "product_id": 70276,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 그리 블랑\n\n38%\n\n1,050,000원\n\n관심 56\n\n · 리뷰 2\n\n · 거래 21"
+        }
+      ]
+    },
+    {
+      "sku": "H3091310P",
+      "option": "34",
+      "stock": 2,
+      "eur_price": 142.01,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3091310P\" SPU=\"H3091310P\"",
+      "candidates": [
+        {
+          "product_id": 144370,
+          "text": "Hermes\n\n에르메스 필루 글러브 클립 메탈 팔라디\n\n580,000원\n\n관심 255\n\n · 리뷰 1\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 119120,
+          "text": "Hermes\n\n(W) 에르메스 스몰 파랑돌 펜던트 로즈 골드\n\n36%\n\n2,200,000원\n\n관심 3,454\n\n · 리뷰 13\n\n · 거래 910\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 56339,
+          "text": "Hermes\n\n(W) 에르메스 미니 팝아슈 펜던트 팔라듐 하드웨어 & 블랑\n\n849,000원\n\n관심 1.4만\n\n · 리뷰 33\n\n · 거래 3,235\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 81332,
+          "text": "Hermes\n\n(W) 에르메스 샹달 펜던트 스털링 실버\n\n914,000원\n\n관심 7,369\n\n · 리뷰 26\n\n · 거래 1,069\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 339767,
+          "text": "Hermes\n\n에르메스 라지 샹달 브레이슬릿 스털링 실버\n\n2,980,000원\n\n관심 308\n\n · 리뷰 11\n\n · 거래 25\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H3091309B",
+      "option": "34",
+      "stock": 1,
+      "eur_price": 126.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3091309B\" SPU=\"H3091309B\"",
+      "candidates": [
+        {
+          "product_id": 144370,
+          "text": "Hermes\n\n에르메스 필루 글러브 클립 메탈 팔라디\n\n580,000원\n\n관심 255\n\n · 리뷰 1\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 748492,
+          "text": "Hermes\n\n에르메스 샹달 엔체이니 링 더블 로우 스털링 실버\n\n1,350,000원\n\n관심 67\n\n · 거래 1"
+        },
+        {
+          "product_id": 433253,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 누아\n\n2,000,000원\n\n관심 8"
+        },
+        {
+          "product_id": 339767,
+          "text": "Hermes\n\n에르메스 라지 샹달 브레이슬릿 스털링 실버\n\n2,980,000원\n\n관심 308\n\n · 리뷰 11\n\n · 거래 25\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 71852,
+          "text": "Hermes\n\n에르메스 미디움 샹달 브레이슬릿 스털링 실버\n\n2,300,000원\n\n관심 1,088\n\n · 리뷰 7\n\n · 거래 52\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H3091309B",
+      "option": "33",
+      "stock": 1,
+      "eur_price": 126.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3091309B\" SPU=\"H3091309B\"",
+      "candidates": [
+        {
+          "product_id": 144370,
+          "text": "Hermes\n\n에르메스 필루 글러브 클립 메탈 팔라디\n\n580,000원\n\n관심 255\n\n · 리뷰 1\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 748492,
+          "text": "Hermes\n\n에르메스 샹달 엔체이니 링 더블 로우 스털링 실버\n\n1,350,000원\n\n관심 67\n\n · 거래 1"
+        },
+        {
+          "product_id": 433253,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 누아\n\n2,000,000원\n\n관심 8"
+        },
+        {
+          "product_id": 339767,
+          "text": "Hermes\n\n에르메스 라지 샹달 브레이슬릿 스털링 실버\n\n2,980,000원\n\n관심 308\n\n · 리뷰 11\n\n · 거래 25\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 71852,
+          "text": "Hermes\n\n에르메스 미디움 샹달 브레이슬릿 스털링 실버\n\n2,300,000원\n\n관심 1,088\n\n · 리뷰 7\n\n · 거래 52\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H3091309B",
+      "option": "35",
+      "stock": 2,
+      "eur_price": 126.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3091309B\" SPU=\"H3091309B\"",
+      "candidates": [
+        {
+          "product_id": 144370,
+          "text": "Hermes\n\n에르메스 필루 글러브 클립 메탈 팔라디\n\n580,000원\n\n관심 255\n\n · 리뷰 1\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 748492,
+          "text": "Hermes\n\n에르메스 샹달 엔체이니 링 더블 로우 스털링 실버\n\n1,350,000원\n\n관심 67\n\n · 거래 1"
+        },
+        {
+          "product_id": 433253,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 누아\n\n2,000,000원\n\n관심 8"
+        },
+        {
+          "product_id": 339767,
+          "text": "Hermes\n\n에르메스 라지 샹달 브레이슬릿 스털링 실버\n\n2,980,000원\n\n관심 308\n\n · 리뷰 11\n\n · 거래 25\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 71852,
+          "text": "Hermes\n\n에르메스 미디움 샹달 브레이슬릿 스털링 실버\n\n2,300,000원\n\n관심 1,088\n\n · 리뷰 7\n\n · 거래 52\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H30937672",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 68.24,
+      "matched": true,
+      "product_id": 616945,
+      "product_name_ko": "Givenchy",
+      "product_url": "https://kream.co.kr/products/616945",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "H3093709B",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 68.24,
+      "matched": true,
+      "product_id": 616950,
+      "product_name_ko": "Givenchy",
+      "product_url": "https://kream.co.kr/products/616950",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "__all",
+      "kream_options_available": [
+        "10A",
+        "12A",
+        "14A"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "H3091309B",
+      "option": "38",
+      "stock": 4,
+      "eur_price": 126.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3091309B\" SPU=\"H3091309B\"",
+      "candidates": [
+        {
+          "product_id": 144370,
+          "text": "Hermes\n\n에르메스 필루 글러브 클립 메탈 팔라디\n\n580,000원\n\n관심 255\n\n · 리뷰 1\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 748492,
+          "text": "Hermes\n\n에르메스 샹달 엔체이니 링 더블 로우 스털링 실버\n\n1,350,000원\n\n관심 67\n\n · 거래 1"
+        },
+        {
+          "product_id": 433253,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 누아\n\n2,000,000원\n\n관심 8"
+        },
+        {
+          "product_id": 339767,
+          "text": "Hermes\n\n에르메스 라지 샹달 브레이슬릿 스털링 실버\n\n2,980,000원\n\n관심 308\n\n · 리뷰 11\n\n · 거래 25\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 71852,
+          "text": "Hermes\n\n에르메스 미디움 샹달 브레이슬릿 스털링 실버\n\n2,300,000원\n\n관심 1,088\n\n · 리뷰 7\n\n · 거래 52\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H3093109B",
+      "option": "6",
+      "stock": 2,
+      "eur_price": 241.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093109B\" SPU=\"H3093109B\"",
+      "candidates": [
+        {
+          "product_id": 748492,
+          "text": "Hermes\n\n에르메스 샹달 엔체이니 링 더블 로우 스털링 실버\n\n1,350,000원\n\n관심 67\n\n · 거래 1"
+        },
+        {
+          "product_id": 81332,
+          "text": "Hermes\n\n(W) 에르메스 샹달 펜던트 스털링 실버\n\n914,000원\n\n관심 7,369\n\n · 리뷰 26\n\n · 거래 1,069\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 119120,
+          "text": "Hermes\n\n(W) 에르메스 스몰 파랑돌 펜던트 로즈 골드\n\n36%\n\n2,200,000원\n\n관심 3,454\n\n · 리뷰 13\n\n · 거래 910\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 50037,
+          "text": "Hermes\n\n에르메스 가든 파티 30 백 네곤다 & 팔라듐 하드웨어 누아\n\n8,100,000원\n\n관심 2,050\n\n · 리뷰 31\n\n · 거래 234"
+        },
+        {
+          "product_id": 339767,
+          "text": "Hermes\n\n에르메스 라지 샹달 브레이슬릿 스털링 실버\n\n2,980,000원\n\n관심 308\n\n · 리뷰 11\n\n · 거래 25\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H3093109B",
+      "option": "12+",
+      "stock": 2,
+      "eur_price": 276.64,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093109B\" SPU=\"H3093109B\"",
+      "candidates": [
+        {
+          "product_id": 748492,
+          "text": "Hermes\n\n에르메스 샹달 엔체이니 링 더블 로우 스털링 실버\n\n1,350,000원\n\n관심 67\n\n · 거래 1"
+        },
+        {
+          "product_id": 81332,
+          "text": "Hermes\n\n(W) 에르메스 샹달 펜던트 스털링 실버\n\n914,000원\n\n관심 7,369\n\n · 리뷰 26\n\n · 거래 1,069\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 119120,
+          "text": "Hermes\n\n(W) 에르메스 스몰 파랑돌 펜던트 로즈 골드\n\n36%\n\n2,200,000원\n\n관심 3,454\n\n · 리뷰 13\n\n · 거래 910\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 50037,
+          "text": "Hermes\n\n에르메스 가든 파티 30 백 네곤다 & 팔라듐 하드웨어 누아\n\n8,100,000원\n\n관심 2,050\n\n · 리뷰 31\n\n · 거래 234"
+        },
+        {
+          "product_id": 339767,
+          "text": "Hermes\n\n에르메스 라지 샹달 브레이슬릿 스털링 실버\n\n2,980,000원\n\n관심 308\n\n · 리뷰 11\n\n · 거래 25\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H30931672",
+      "option": "8",
+      "stock": 2,
+      "eur_price": 241.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H30931672\" SPU=\"H30931672\"",
+      "candidates": [
+        {
+          "product_id": 755197,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 멀티꼴로르 블랑\n\n6%\n\n1,656,000원\n\n관심 2"
+        },
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        },
+        {
+          "product_id": 435151,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 블루 뜌르깽\n\n2,200,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 10"
+        },
+        {
+          "product_id": 235194,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 그리 떵뻬렁스\n\n6%\n\n1,450,000원\n\n관심 43\n\n · 리뷰 4\n\n · 거래 12\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H30931672",
+      "option": "12",
+      "stock": 3,
+      "eur_price": 241.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H30931672\" SPU=\"H30931672\"",
+      "candidates": [
+        {
+          "product_id": 755197,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 멀티꼴로르 블랑\n\n6%\n\n1,656,000원\n\n관심 2"
+        },
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        },
+        {
+          "product_id": 435151,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 블루 뜌르깽\n\n2,200,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 10"
+        },
+        {
+          "product_id": 235194,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 그리 떵뻬렁스\n\n6%\n\n1,450,000원\n\n관심 43\n\n · 리뷰 4\n\n · 거래 12\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H30931672",
+      "option": "10",
+      "stock": 2,
+      "eur_price": 241.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H30931672\" SPU=\"H30931672\"",
+      "candidates": [
+        {
+          "product_id": 755197,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 멀티꼴로르 블랑\n\n6%\n\n1,656,000원\n\n관심 2"
+        },
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        },
+        {
+          "product_id": 435151,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 블루 뜌르깽\n\n2,200,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 10"
+        },
+        {
+          "product_id": 235194,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 그리 떵뻬렁스\n\n6%\n\n1,450,000원\n\n관심 43\n\n · 리뷰 4\n\n · 거래 12\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H3092209B",
+      "option": "12+",
+      "stock": 1,
+      "eur_price": 86.68,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3092209B\" SPU=\"H3092209B\"",
+      "candidates": [
+        {
+          "product_id": 60991,
+          "text": "Hermes\n\n(W) 에르메스 스몰 샹달 엔체이니 링 스털링 실버\n\n15%\n\n839,000원\n\n관심 2.1만\n\n · 리뷰 241\n\n · 거래 4,612\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 144370,
+          "text": "Hermes\n\n에르메스 필루 글러브 클립 메탈 팔라디\n\n580,000원\n\n관심 255\n\n · 리뷰 1\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 748492,
+          "text": "Hermes\n\n에르메스 샹달 엔체이니 링 더블 로우 스털링 실버\n\n1,350,000원\n\n관심 67\n\n · 거래 1"
+        },
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        }
+      ]
+    },
+    {
+      "sku": "H30931672",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 241.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H30931672\" SPU=\"H30931672\"",
+      "candidates": [
+        {
+          "product_id": 755197,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 멀티꼴로르 블랑\n\n6%\n\n1,656,000원\n\n관심 2"
+        },
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        },
+        {
+          "product_id": 435151,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 블루 뜌르깽\n\n2,200,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 10"
+        },
+        {
+          "product_id": 235194,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 그리 떵뻬렁스\n\n6%\n\n1,450,000원\n\n관심 43\n\n · 리뷰 4\n\n · 거래 12\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H3093109B",
+      "option": "12",
+      "stock": 5,
+      "eur_price": 241.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093109B\" SPU=\"H3093109B\"",
+      "candidates": [
+        {
+          "product_id": 748492,
+          "text": "Hermes\n\n에르메스 샹달 엔체이니 링 더블 로우 스털링 실버\n\n1,350,000원\n\n관심 67\n\n · 거래 1"
+        },
+        {
+          "product_id": 81332,
+          "text": "Hermes\n\n(W) 에르메스 샹달 펜던트 스털링 실버\n\n914,000원\n\n관심 7,369\n\n · 리뷰 26\n\n · 거래 1,069\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 119120,
+          "text": "Hermes\n\n(W) 에르메스 스몰 파랑돌 펜던트 로즈 골드\n\n36%\n\n2,200,000원\n\n관심 3,454\n\n · 리뷰 13\n\n · 거래 910\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 50037,
+          "text": "Hermes\n\n에르메스 가든 파티 30 백 네곤다 & 팔라듐 하드웨어 누아\n\n8,100,000원\n\n관심 2,050\n\n · 리뷰 31\n\n · 거래 234"
+        },
+        {
+          "product_id": 339767,
+          "text": "Hermes\n\n에르메스 라지 샹달 브레이슬릿 스털링 실버\n\n2,980,000원\n\n관심 308\n\n · 리뷰 11\n\n · 거래 25\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H3093109B",
+      "option": "10",
+      "stock": 3,
+      "eur_price": 241.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093109B\" SPU=\"H3093109B\"",
+      "candidates": [
+        {
+          "product_id": 748492,
+          "text": "Hermes\n\n에르메스 샹달 엔체이니 링 더블 로우 스털링 실버\n\n1,350,000원\n\n관심 67\n\n · 거래 1"
+        },
+        {
+          "product_id": 81332,
+          "text": "Hermes\n\n(W) 에르메스 샹달 펜던트 스털링 실버\n\n914,000원\n\n관심 7,369\n\n · 리뷰 26\n\n · 거래 1,069\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 119120,
+          "text": "Hermes\n\n(W) 에르메스 스몰 파랑돌 펜던트 로즈 골드\n\n36%\n\n2,200,000원\n\n관심 3,454\n\n · 리뷰 13\n\n · 거래 910\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 50037,
+          "text": "Hermes\n\n에르메스 가든 파티 30 백 네곤다 & 팔라듐 하드웨어 누아\n\n8,100,000원\n\n관심 2,050\n\n · 리뷰 31\n\n · 거래 234"
+        },
+        {
+          "product_id": 339767,
+          "text": "Hermes\n\n에르메스 라지 샹달 브레이슬릿 스털링 실버\n\n2,980,000원\n\n관심 308\n\n · 리뷰 11\n\n · 거래 25\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H30931672",
+      "option": "12+",
+      "stock": 3,
+      "eur_price": 276.64,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H30931672\" SPU=\"H30931672\"",
+      "candidates": [
+        {
+          "product_id": 755197,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 멀티꼴로르 블랑\n\n6%\n\n1,656,000원\n\n관심 2"
+        },
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        },
+        {
+          "product_id": 435151,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 블루 뜌르깽\n\n2,200,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 10"
+        },
+        {
+          "product_id": 235194,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 그리 떵뻬렁스\n\n6%\n\n1,450,000원\n\n관심 43\n\n · 리뷰 4\n\n · 거래 12\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H3093146N",
+      "option": "10",
+      "stock": 1,
+      "eur_price": 241.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093146N\" SPU=\"H3093146N\"",
+      "candidates": [
+        {
+          "product_id": 755197,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 멀티꼴로르 블랑\n\n6%\n\n1,656,000원\n\n관심 2"
+        },
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 53992,
+          "text": "Hermes\n\n에르메스 파리 로퍼 고트스킨 & 팔라듐 하드웨어 누아\n\n1,450,000원\n\n관심 91\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 435151,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 블루 뜌르깽\n\n2,200,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 10"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        }
+      ]
+    },
+    {
+      "sku": "H3093146N",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 241.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093146N\" SPU=\"H3093146N\"",
+      "candidates": [
+        {
+          "product_id": 755197,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 멀티꼴로르 블랑\n\n6%\n\n1,656,000원\n\n관심 2"
+        },
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 53992,
+          "text": "Hermes\n\n에르메스 파리 로퍼 고트스킨 & 팔라듐 하드웨어 누아\n\n1,450,000원\n\n관심 91\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 435151,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 블루 뜌르깽\n\n2,200,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 10"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        }
+      ]
+    },
+    {
+      "sku": "H3093146N",
+      "option": "12",
+      "stock": 1,
+      "eur_price": 241.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093146N\" SPU=\"H3093146N\"",
+      "candidates": [
+        {
+          "product_id": 755197,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 멀티꼴로르 블랑\n\n6%\n\n1,656,000원\n\n관심 2"
+        },
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 53992,
+          "text": "Hermes\n\n에르메스 파리 로퍼 고트스킨 & 팔라듐 하드웨어 누아\n\n1,450,000원\n\n관심 91\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 435151,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 블루 뜌르깽\n\n2,200,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 10"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        }
+      ]
+    },
+    {
+      "sku": "H3104209B",
+      "option": "33",
+      "stock": 1,
+      "eur_price": 105.12,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3104209B\" SPU=\"H3104209B\"",
+      "candidates": [
+        {
+          "product_id": 119120,
+          "text": "Hermes\n\n(W) 에르메스 스몰 파랑돌 펜던트 로즈 골드\n\n36%\n\n2,200,000원\n\n관심 3,454\n\n · 리뷰 13\n\n · 거래 910\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 748492,
+          "text": "Hermes\n\n에르메스 샹달 엔체이니 링 더블 로우 스털링 실버\n\n1,350,000원\n\n관심 67\n\n · 거래 1"
+        },
+        {
+          "product_id": 81332,
+          "text": "Hermes\n\n(W) 에르메스 샹달 펜던트 스털링 실버\n\n914,000원\n\n관심 7,369\n\n · 리뷰 26\n\n · 거래 1,069\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 713394,
+          "text": "Hermes\n\n에르메스 슈발 드 하트 반다나 숄 140 블랑 누아\n\n30%\n\n1,580,000원\n\n관심 234\n\n · 거래 73\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 57555,
+          "text": "Hermes\n\n(W) 에르메스 미니 팝아슈 펜던트 로즈 골드 & 마롱 글라세\n\n835,000원\n\n관심 1.1만\n\n · 리뷰 46\n\n · 거래 4,150\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H3104209B",
+      "option": "37",
+      "stock": 1,
+      "eur_price": 119.88,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3104209B\" SPU=\"H3104209B\"",
+      "candidates": [
+        {
+          "product_id": 119120,
+          "text": "Hermes\n\n(W) 에르메스 스몰 파랑돌 펜던트 로즈 골드\n\n36%\n\n2,200,000원\n\n관심 3,454\n\n · 리뷰 13\n\n · 거래 910\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 748492,
+          "text": "Hermes\n\n에르메스 샹달 엔체이니 링 더블 로우 스털링 실버\n\n1,350,000원\n\n관심 67\n\n · 거래 1"
+        },
+        {
+          "product_id": 81332,
+          "text": "Hermes\n\n(W) 에르메스 샹달 펜던트 스털링 실버\n\n914,000원\n\n관심 7,369\n\n · 리뷰 26\n\n · 거래 1,069\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 713394,
+          "text": "Hermes\n\n에르메스 슈발 드 하트 반다나 숄 140 블랑 누아\n\n30%\n\n1,580,000원\n\n관심 234\n\n · 거래 73\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 57555,
+          "text": "Hermes\n\n(W) 에르메스 미니 팝아슈 펜던트 로즈 골드 & 마롱 글라세\n\n835,000원\n\n관심 1.1만\n\n · 리뷰 46\n\n · 거래 4,150\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H3093146N",
+      "option": "12+",
+      "stock": 1,
+      "eur_price": 276.64,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093146N\" SPU=\"H3093146N\"",
+      "candidates": [
+        {
+          "product_id": 755197,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 멀티꼴로르 블랑\n\n6%\n\n1,656,000원\n\n관심 2"
+        },
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 53992,
+          "text": "Hermes\n\n에르메스 파리 로퍼 고트스킨 & 팔라듐 하드웨어 누아\n\n1,450,000원\n\n관심 91\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 435151,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 블루 뜌르깽\n\n2,200,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 10"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        }
+      ]
+    },
+    {
+      "sku": "H3104209B",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 119.88,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3104209B\" SPU=\"H3104209B\"",
+      "candidates": [
+        {
+          "product_id": 119120,
+          "text": "Hermes\n\n(W) 에르메스 스몰 파랑돌 펜던트 로즈 골드\n\n36%\n\n2,200,000원\n\n관심 3,454\n\n · 리뷰 13\n\n · 거래 910\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 748492,
+          "text": "Hermes\n\n에르메스 샹달 엔체이니 링 더블 로우 스털링 실버\n\n1,350,000원\n\n관심 67\n\n · 거래 1"
+        },
+        {
+          "product_id": 81332,
+          "text": "Hermes\n\n(W) 에르메스 샹달 펜던트 스털링 실버\n\n914,000원\n\n관심 7,369\n\n · 리뷰 26\n\n · 거래 1,069\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 713394,
+          "text": "Hermes\n\n에르메스 슈발 드 하트 반다나 숄 140 블랑 누아\n\n30%\n\n1,580,000원\n\n관심 234\n\n · 거래 73\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 57555,
+          "text": "Hermes\n\n(W) 에르메스 미니 팝아슈 펜던트 로즈 골드 & 마롱 글라세\n\n835,000원\n\n관심 1.1만\n\n · 리뷰 46\n\n · 거래 4,150\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "H3093146N",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 241.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093146N\" SPU=\"H3093146N\"",
+      "candidates": [
+        {
+          "product_id": 755197,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 멀티꼴로르 블랑\n\n6%\n\n1,656,000원\n\n관심 2"
+        },
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 53992,
+          "text": "Hermes\n\n에르메스 파리 로퍼 고트스킨 & 팔라듐 하드웨어 누아\n\n1,450,000원\n\n관심 91\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 435151,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 멀티꼴로르 블루 뜌르깽\n\n2,200,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 10"
+        },
+        {
+          "product_id": 249458,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 스웨이드 고트스킨 & 블랑 누아\n\n2,400,000원\n\n관심 206\n\n · 리뷰 7\n\n · 거래 58"
+        }
+      ]
+    },
+    {
+      "sku": "H3093909B",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 94.06,
+      "matched": true,
+      "product_id": 616947,
+      "product_name_ko": "Givenchy",
+      "product_url": "https://kream.co.kr/products/616947",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "H3093909B",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 94.06,
+      "matched": true,
+      "product_id": 616947,
+      "product_name_ko": "Givenchy",
+      "product_url": "https://kream.co.kr/products/616947",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "H3093946N",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 94.06,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093946N\" SPU=\"H3093946N\"",
+      "candidates": [
+        {
+          "product_id": 755197,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 멀티꼴로르 블랑\n\n6%\n\n1,656,000원\n\n관심 2"
+        },
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 70276,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 그리 블랑\n\n38%\n\n1,050,000원\n\n관심 56\n\n · 리뷰 2\n\n · 거래 21"
+        },
+        {
+          "product_id": 153644,
+          "text": "Hermes\n\n에르메스 그레고아르 로퍼 카프스킨 & 브러쉬드 블랙 PVD 하드웨어 누아\n\n2,000,000원\n\n관심 18\n\n · 거래 3"
+        },
+        {
+          "product_id": 145504,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 카프스킨 & 블랑\n\n1,930,000원\n\n관심 86\n\n · 리뷰 2\n\n · 거래 26"
+        }
+      ]
+    },
+    {
+      "sku": "H3093946N",
+      "option": "12",
+      "stock": 1,
+      "eur_price": 94.06,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093946N\" SPU=\"H3093946N\"",
+      "candidates": [
+        {
+          "product_id": 755197,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 멀티꼴로르 블랑\n\n6%\n\n1,656,000원\n\n관심 2"
+        },
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 70276,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 그리 블랑\n\n38%\n\n1,050,000원\n\n관심 56\n\n · 리뷰 2\n\n · 거래 21"
+        },
+        {
+          "product_id": 153644,
+          "text": "Hermes\n\n에르메스 그레고아르 로퍼 카프스킨 & 브러쉬드 블랙 PVD 하드웨어 누아\n\n2,000,000원\n\n관심 18\n\n · 거래 3"
+        },
+        {
+          "product_id": 145504,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 카프스킨 & 블랑\n\n1,930,000원\n\n관심 86\n\n · 리뷰 2\n\n · 거래 26"
+        }
+      ]
+    },
+    {
+      "sku": "H3093946N",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 94.06,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"H3093946N\" SPU=\"H3093946N\"",
+      "candidates": [
+        {
+          "product_id": 755197,
+          "text": "Hermes\n\n에르메스 트레일 스니커즈 카프스킨 & 멀티꼴로르 블랑\n\n6%\n\n1,656,000원\n\n관심 2"
+        },
+        {
+          "product_id": 93391,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 누아 블랑\n\n2,000,000원\n\n관심 69\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 70276,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 & 그리 블랑\n\n38%\n\n1,050,000원\n\n관심 56\n\n · 리뷰 2\n\n · 거래 21"
+        },
+        {
+          "product_id": 153644,
+          "text": "Hermes\n\n에르메스 그레고아르 로퍼 카프스킨 & 브러쉬드 블랙 PVD 하드웨어 누아\n\n2,000,000원\n\n관심 18\n\n · 거래 3"
+        },
+        {
+          "product_id": 145504,
+          "text": "Hermes\n\n에르메스 디파트 스니커즈 니트 카프스킨 & 블랑\n\n1,930,000원\n\n관심 86\n\n · 리뷰 2\n\n · 거래 26"
+        }
+      ]
+    }
+  ]
+}
