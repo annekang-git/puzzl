@@ -37,23 +37,7 @@ const BRANDS = [
   { dresscode: 'THE ROW',           slug: 'therow', source: 'dresscode' },
   { dresscode: 'KITON',             slug: 'kiton', source: 'dresscode' },
   { dresscode: 'VIVIENNE WESTWOOD', slug: 'viviennewestwood', source: 'dresscode' },
-  // ── giglio (fast-shipping CSV 기반) — 가장 마지막에 배치 ──
-  { slug: 'giglio_saintlaurent',    source: 'giglio' },
-  { slug: 'giglio_bottegaveneta',   source: 'giglio' },
-  { slug: 'giglio_msgm',            source: 'giglio' },
-  { slug: 'giglio_maxmara',         source: 'giglio' },
-  { slug: 'giglio_drmartens',       source: 'giglio' },
-  { slug: 'giglio_balmain',         source: 'giglio' },
-  { slug: 'giglio_longchamp',       source: 'giglio' },
-  { slug: 'giglio_diesel',          source: 'giglio' },
-  { slug: 'giglio_tods',            source: 'giglio' },
-  { slug: 'giglio_givenchy',        source: 'giglio' },
-  { slug: 'giglio_burberry',        source: 'giglio' },
-  { slug: 'giglio_fendi',           source: 'giglio' },
-  { slug: 'giglio_moncler',         source: 'giglio' },
-  { slug: 'giglio_rogervivier',     source: 'giglio' },
-  { slug: 'giglio_onrunning',       source: 'giglio' },
-  { slug: 'giglio_celine',          source: 'giglio' },
+  // ── giglio 는 1회성 — 매일 크롤링 대상 아님. 수동 fetch 시 targets-giglio_*.json 사용 ──
 ];
 const KEEP_DAYS = 3; // 브랜드당 최근 N개 결과만 유지 (cleanup-old-results.js 와 일치)
 
