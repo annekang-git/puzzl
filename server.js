@@ -222,6 +222,15 @@ function getPublicBaseUrl(req) {
 
 // 상품 응답에서 photos 배열을 프록시 URL로 교체 (+ 내부 전용 필드 제거)
 // + 주문 차감량(deltasBySkuSize) 반영: sizes[].stock = max(0, stock + delta)
+// genre(영문) → 한글 매핑 (API 응답 시점에 변환).
+//   데이터 파일은 영문 유지 — 내부 처리(검색/dedup/디버깅)는 영문이 안정적.
+//   매핑 안 되는 값은 원본 그대로 통과 (안전한 default).
+const GENRE_KOR_MAP = {
+  'Baby boy': '남성',
+  'Baby girl': '여성',
+  'Unisex baby': '공용',
+};
+
 function sanitizeForApi(product, baseUrl, deltasBySkuSize) {
   const skuEncoded = encodeURIComponent(product.sku);
   const photoCount = (product.photos || []).length;
@@ -229,7 +238,7 @@ function sanitizeForApi(product, baseUrl, deltasBySkuSize) {
     `${baseUrl}/api/puzzl/kids/image/${skuEncoded}/${idx}`
   );
   // source, _internal 등 내부 필드는 응답에서 제외
-  const { source: _source, sizes: rawSizes, ...publicFields } = product;
+  const { source: _source, sizes: rawSizes, genre: rawGenre, ...publicFields } = product;
 
   const sizes = (rawSizes || []).map((s) => {
     const key = `${product.sku}|${s.size}`;
@@ -239,7 +248,10 @@ function sanitizeForApi(product, baseUrl, deltasBySkuSize) {
     return { ...s, stock: effective };
   });
 
-  return { ...publicFields, sizes, photos: proxied };
+  // genre(성별/대상): 영문 → 한글 (남성/여성/공용). 매핑 없으면 원본 통과.
+  const genre = GENRE_KOR_MAP[rawGenre] || rawGenre;
+
+  return { ...publicFields, genre, sizes, photos: proxied };
 }
 
 // 키즈 상품 이미지 프록시 핸들러 (공통)

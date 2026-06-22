@@ -655,6 +655,13 @@ function main() {
   // ─── 2-c) tenerestore 키즈 로드 (단일 파일, fallback 자동) ─────────────
   //   minCount=1500: 평상시 ~2000개. 1500 미만이면 크롤러 실패로 간주 → 전날(또는 그 이전) 정상 파일 사용.
   const tn = loadLatest(syncDataDir, /^tenerestore_products_\d{4}-\d{2}-\d{2}\.json$/, 'products', 1500);
+  // 추가 fallback 신호: 채택된 파일 날짜가 오늘(KST) 이 아니면 stale 로 간주 → fallback=true 로 표시.
+  //   loadLatest 의 기존 fallback 은 "minCount 미달 때문에 더 옛 날짜로 폴백" 만 잡지만,
+  //   "오늘 파일이 아예 생성되지 않은 경우(크롤링 실패)" 도 동일하게 fallback 으로 노출해야 운영 가시성 확보.
+  if (tn.file && tn.date) {
+    const todayKst = new Date(Date.now() + 9 * 3600 * 1000).toISOString().split('T')[0];
+    if (tn.date !== todayKst) tn.fallback = true;
+  }
   if (!tn.file) {
     console.warn('⚠️  tenerestore_products_YYYY-MM-DD.json 없음 — tenere 소스 제외');
   } else {
@@ -667,7 +674,13 @@ function main() {
   const processedB2bAll = b2b.products.map(normalizeB2b);
   const processedGfAll = gfKids.map(normalizeGrifo);
   //   tene 는 tenerestoreToKidsRecord 로 중간 형식(EUR) 으로 변환 후 normalizeTenere 로 KRW 변환
-  const processedTnAll = (tn.products || []).map((p) => normalizeTenere(tenerestoreToKidsRecord(p)));
+  //   tenerestoreToKidsRecord 가 null 반환(이미지 없음 등)한 항목은 통합 제외
+  const tnIntermediate = (tn.products || []).map(tenerestoreToKidsRecord).filter(Boolean);
+  const tnExcludedByConverter = (tn.products || []).length - tnIntermediate.length;
+  if (tnExcludedByConverter > 0) {
+    console.log(`   🖼️  tenerestore 제외(이미지 없음 등): ${tnExcludedByConverter}개`);
+  }
+  const processedTnAll = tnIntermediate.map(normalizeTenere);
 
   // ─── 3-1) 중복 제거: Dresscode > b2bfashion > Grifo ──────────────────
   const normKey = (s) => String(s || '').trim().toUpperCase();
@@ -790,8 +803,13 @@ function main() {
   processedTnAll.forEach(addCandidate);
 
   const priceReplacements = [];
-  merged = merged.map((chosen) => {
-    if (!chosen.price || chosen.price <= 0) return chosen;
+  // merged 의 현재 sku 셋 (자기-중복 회피용)
+  const mergedSkuSet = new Set();
+  merged.forEach((p) => { if (p.sku) mergedSkuSet.add(normKey(p.sku)); });
+  const toRemove = new Set();
+
+  merged.forEach((chosen, idx) => {
+    if (!chosen.price || chosen.price <= 0) return;
     const keys = [normKey(chosen.sku), normKey(chosen.spu)].filter(Boolean);
     const seen = new Set();
     const candidates = [];
@@ -805,22 +823,43 @@ function main() {
     for (const c of candidates) {
       if (c.price > 0 && c.price < cheapest.price) cheapest = c;
     }
-    // 임계치 이상 저렴할 때만 교체
     const savings = (chosen.price - cheapest.price) / chosen.price;
-    if (cheapest !== chosen && savings >= PRICE_REPLACEMENT_THRESHOLD) {
+    if (cheapest === chosen || savings < PRICE_REPLACEMENT_THRESHOLD) return;
+
+    const cheapestKey = normKey(cheapest.sku);
+    // 이미 merged 다른 자리에 cheapest 가 있으면 → 비싼 chosen 을 제거 (중복 회피)
+    if (cheapestKey && mergedSkuSet.has(cheapestKey) && normKey(chosen.sku) !== cheapestKey) {
+      toRemove.add(idx);
       priceReplacements.push({
         sku: chosen.sku,
         brand: chosen.brand,
         name: chosen.name,
         from: { source: chosen.source, price: chosen.price },
-        to: { source: cheapest.source, price: cheapest.price },
+        to: { source: cheapest.source, price: cheapest.price, sku: cheapest.sku },
         savingsPercent: Math.round(savings * 100),
         savingsKrw: chosen.price - cheapest.price,
+        action: 'removed_duplicate',  // 더 싼 동일 spu 가 이미 merged 에 있어 비싼 쪽 제거
       });
-      return cheapest;
+      mergedSkuSet.delete(normKey(chosen.sku));
+      return;
     }
-    return chosen;
+    // 정상 교체
+    merged[idx] = cheapest;
+    if (chosen.sku) mergedSkuSet.delete(normKey(chosen.sku));
+    if (cheapestKey) mergedSkuSet.add(cheapestKey);
+    priceReplacements.push({
+      sku: chosen.sku,
+      brand: chosen.brand,
+      name: chosen.name,
+      from: { source: chosen.source, price: chosen.price },
+      to: { source: cheapest.source, price: cheapest.price },
+      savingsPercent: Math.round(savings * 100),
+      savingsKrw: chosen.price - cheapest.price,
+      action: 'replaced',
+    });
   });
+
+  if (toRemove.size > 0) merged = merged.filter((_, i) => !toRemove.has(i));
 
   if (priceReplacements.length > 0) {
     const totalSavings = priceReplacements.reduce((s, r) => s + r.savingsKrw, 0);
