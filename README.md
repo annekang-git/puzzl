@@ -2,106 +2,109 @@
 
 ## 설정 정보
 
-| 항목 | 값 |
-|------|-----|
-| Mall ID | `revintique` |
-| Client ID | `iwbFTe0UPideWxknm6FsrB` |
-| Client Secret | `qw1JPh0gB5Knn8ESDGkr5B` |
-| Redirect URI | `https://unfathomable-distractedly-lilliana.ngrok-free.dev/oauth/cafe24/callback` |
-| Scope | `mall.read_product,mall.write_product` |
+자격증명은 코드/문서에 절대 하드코딩하지 않습니다. **환경변수로 주입**:
+
+| 환경변수 | 설명 | 예시 |
+|---|---|---|
+| `CAFE24_MALL_ID` | Mall ID | (Cafe24 콘솔에서 확인) |
+| `CAFE24_CLIENT_ID` | App Client ID | (앱 발급 시 받음) |
+| `CAFE24_CLIENT_SECRET` | App Client Secret | (앱 발급 시 받음 — 노출 절대 금지) |
+| `CAFE24_REDIRECT_URI` | OAuth callback URI | `https://puzzl.kr/api/cafe24/oauth/callback` |
+| Scope | (코드에 고정) | `mall.read_product,mall.write_product,mall.read_collection,mall.write_collection` |
+
+### 로컬 개발 (.env)
+
+```env
+CAFE24_MALL_ID=...
+CAFE24_CLIENT_ID=...
+CAFE24_CLIENT_SECRET=...
+CAFE24_REDIRECT_URI=https://localhost:3001/oauth/cafe24/callback
+```
+
+### Render 배포
+
+Render dashboard → Environment Variables 탭에 위 키 4개 등록.
 
 ---
 
-## 방법 1: Postman Collection 사용
+## OAuth 인증 흐름
 
-1. `Cafe24_OAuth_Collection.postman_collection.json` 파일을 Postman에서 Import
-2. **1. Authorization URL** 요청의 URL을 복사해서 브라우저에서 열기
-3. 로그인 후 권한 승인
-4. 리다이렉트된 URL에서 `code` 파라미터 복사
-5. Collection Variables에서 `authorization_code` 값 설정
-6. **2. Get Access Token** 요청 실행
-7. 토큰이 자동으로 변수에 저장됨
-8. **4. Get Products Count** 등 API 테스트
+### 1. Authorization URL 접속
+
+브라우저에서 아래 형식 URL 접속:
+```
+https://{MALL_ID}.cafe24api.com/api/v2/oauth/authorize
+  ?response_type=code
+  &client_id={CLIENT_ID}
+  &state=anneTest01
+  &redirect_uri={REDIRECT_URI}
+  &scope=mall.read_product,mall.write_product
+```
+
+### 2. Access Token 발급
+
+```bash
+BASIC_AUTH=$(echo -n "${CAFE24_CLIENT_ID}:${CAFE24_CLIENT_SECRET}" | base64)
+
+curl -X POST \
+  "https://${CAFE24_MALL_ID}.cafe24api.com/api/v2/oauth/token" \
+  -H "Authorization: Basic ${BASIC_AUTH}" \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -d "grant_type=authorization_code&code={받은_CODE}&redirect_uri=${CAFE24_REDIRECT_URI}"
+```
+
+### 3. 상품 개수 조회 (예시)
+
+```bash
+curl -X GET \
+  "https://${CAFE24_MALL_ID}.cafe24api.com/api/v2/admin/products/count" \
+  -H "Authorization: Bearer ${ACCESS_TOKEN}" \
+  -H 'Content-Type: application/json' \
+  -H 'X-Cafe24-Api-Version: 2026-03-01'
+```
+
+### 4. 토큰 갱신 (Access Token 만료 시)
+
+```bash
+curl -X POST \
+  "https://${CAFE24_MALL_ID}.cafe24api.com/api/v2/oauth/token" \
+  -H "Authorization: Basic ${BASIC_AUTH}" \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -d "grant_type=refresh_token&refresh_token=${REFRESH_TOKEN}"
+```
 
 ---
 
-## 방법 2: Node.js 서버 사용
-
-### 설치 및 실행
+## Node.js 서버로 실행
 
 ```bash
 cd cafe24-oauth
 npm install
+# .env 에 CAFE24_* 환경변수 채운 뒤
 npm start
+# http://localhost:3001 접속 → "OAuth 인증 시작" 클릭
 ```
 
-### 사용법
-
-1. 브라우저에서 `http://localhost:3000` 접속
-2. "OAuth 인증 시작" 클릭
-3. Cafe24 로그인 및 권한 승인
-4. 토큰이 자동으로 `tokens.json`에 저장됨
-5. API 테스트 링크 클릭
-
----
-
-## 방법 3: curl 수동 실행
-
-### Step 1: Authorization Code 받기
-
-브라우저에서 아래 URL 접속:
-
-```
-https://revintique.cafe24api.com/api/v2/oauth/authorize?response_type=code&client_id=iwbFTe0UPideWxknm6FsrB&state=anneTest01&redirect_uri=https://unfathomable-distractedly-lilliana.ngrok-free.dev/oauth/cafe24/callback&scope=mall.read_product,mall.write_product
-```
-
-### Step 2: Access Token 발급
-
-```bash
-curl -X POST \
-  'https://revintique.cafe24api.com/api/v2/oauth/token' \
-  -H 'Authorization: Basic aXdiRlRlMFVQaWRlV3hrbm02RnNyQjpxdzFKUGgwZ0I1S25uOEVTREdrcjVC' \
-  -H 'Content-Type: application/x-www-form-urlencoded' \
-  -d 'grant_type=authorization_code&code={받은_CODE}&redirect_uri=https://unfathomable-distractedly-lilliana.ngrok-free.dev/oauth/cafe24/callback'
-```
-
-### Step 3: 상품 개수 조회
-
-```bash
-curl -X GET \
-  'https://revintique.cafe24api.com/api/v2/admin/products/count' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'Content-Type: application/json' \
-  -H 'X-Cafe24-Api-Version: 2025-12-01'
-```
-
-### Step 4: 토큰 갱신 (만료 시)
-
-```bash
-curl -X POST \
-  'https://revintique.cafe24api.com/api/v2/oauth/token' \
-  -H 'Authorization: Basic aXdiRlRlMFVQaWRlV3hrbm02RnNyQjpxdzFKUGgwZ0I1S25uOEVTREdrcjVC' \
-  -H 'Content-Type: application/x-www-form-urlencoded' \
-  -d 'grant_type=refresh_token&refresh_token={REFRESH_TOKEN}'
-```
+토큰은 자동으로 `tokens.json` 에 저장됨 (gitignored).
 
 ---
 
 ## 토큰 정보
 
 | 필드 | 설명 |
-|------|------|
+|---|---|
 | `access_token` | API 호출에 사용 (2시간 유효) |
 | `refresh_token` | 토큰 갱신에 사용 (2주 유효) |
 | `expires_at` | Access Token 만료 시간 |
 | `refresh_token_expires_at` | Refresh Token 만료 시간 |
 
+자동 갱신 cron: `grifo-crawler/sync/refresh-cafe24-token.js` (매일 02:30 KST).
+
 ---
 
-## Base64 인코딩 참고
+## ⚠️ 보안 주의
 
-`client_id:client_secret` → Base64:
-```
-iwbFTe0UPideWxknm6FsrB:qw1JPh0gB5Knn8ESDGkr5B
-→ aXdiRlRlMFVQaWRlV3hrbm02RnNyQjpxdzFKUGgwZ0I1S25uOEVTREdrcjVC
-```
+- ❌ `client_secret`, `tokens.json`, 비밀번호를 **코드/README/commit 에 절대 포함 금지**
+- ✅ 모든 비밀값은 `.env` 또는 클라우드 환경변수
+- ✅ `.gitignore` 가 자동으로 `.env`, `tokens.json`, 토큰류 차단
+- ✅ Public repo 이므로 더욱 주의 (`gitleaks` pre-commit hook 권장)

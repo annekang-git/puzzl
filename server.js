@@ -15,15 +15,23 @@ app.set('trust proxy', true);
 app.use(express.json({ limit: '1mb' }));
 
 // ============ 설정 ============
+// Cafe24 자격증명은 환경변수로 주입 — Render dashboard 또는 .env 에서 설정
+//   CAFE24_MALL_ID, CAFE24_CLIENT_ID, CAFE24_CLIENT_SECRET, CAFE24_REDIRECT_URI
+// 절대 코드에 하드코딩하지 말 것 (public repo 노출 사고 재발 방지)
 const CONFIG = {
-  mall_id: 'revintique',
-  client_id: 'C6tfSZmTX6ZP9LlZOdjn7D',
-  client_secret: 'ZFqUoN0ODFXoSh2Q7MTcBA',
-  redirect_uri: 'https://puzzl.kr/api/cafe24/oauth/callback',
+  mall_id:       process.env.CAFE24_MALL_ID       || 'revintique',
+  client_id:     process.env.CAFE24_CLIENT_ID,
+  client_secret: process.env.CAFE24_CLIENT_SECRET,
+  redirect_uri:  process.env.CAFE24_REDIRECT_URI  || 'https://puzzl.kr/api/cafe24/oauth/callback',
   state: 'anneTest01',
   scope: 'mall.read_product,mall.write_product,mall.read_collection,mall.write_collection',
   api_version: '2026-03-01'
 };
+if (!CONFIG.client_id || !CONFIG.client_secret) {
+  console.error('❌ CAFE24_CLIENT_ID / CAFE24_CLIENT_SECRET 환경변수가 필요합니다.');
+  console.error('   Render dashboard 또는 로컬 .env 에 추가 후 재시작하세요.');
+  process.exit(1);
+}
 
 // Base64 인코딩
 const basicAuth = Buffer.from(`${CONFIG.client_id}:${CONFIG.client_secret}`).toString('base64');

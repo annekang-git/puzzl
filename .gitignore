@@ -49,3 +49,17 @@ kream/kream_selling_bids_*.json
 # KREAM — 즉석 조회용 임시 입력은 커밋하지 않음
 kream/targets-adhoc.json
 kream/input-kream-codes.tsv
+
+# 보안 — backup 파일 (과거에 자격증명 노출 사고 발생)
+*.backup
+*.bak
+*.old
+
+# 보안 — 토큰/자격증명 추가 패턴
+tokens.json
+tokens_*.json
+credentials.json
+credentials_*.json
+*.pem
+*.key
+*_secret*.json

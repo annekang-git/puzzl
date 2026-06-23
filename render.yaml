@@ -8,8 +8,18 @@ services:
     buildCommand: npm install
     startCommand: node server.js
     envVars:
+      # 값들은 Render Dashboard 의 Environment 탭에서 직접 설정 (sync:false → 자동 동기화 X)
+      # 절대 여기 코드에 평문으로 적지 말 것 (public repo)
+      - key: CAFE24_MALL_ID
+        sync: false
+      - key: CAFE24_CLIENT_ID
+        sync: false
+      - key: CAFE24_CLIENT_SECRET
+        sync: false
+      - key: CAFE24_REDIRECT_URI
+        sync: false
       - key: DRESSCODE_API_KEY
-        value: puzzl-kids-2026
+        sync: false
       - key: NODE_VERSION
         value: 20
     healthCheckPath: /
