@@ -1,0 +1,1379 @@
+{
+  "fetched_at": "2026-06-23T03:37:44.766Z",
+  "input_file": "targets-therow.json",
+  "total_targets": 46,
+  "matched": 13,
+  "failed": 33,
+  "results": [
+    {
+      "sku": "120K291WHT",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 186.89,
+      "matched": true,
+      "product_id": 626577,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/626577",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 806000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 806000,
+          "option": "S",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "S",
+      "kream_options_available": [
+        "S"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "120K291WHT",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 186.89,
+      "matched": true,
+      "product_id": 626577,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/626577",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 806000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 806000,
+          "option": "S",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "S",
+      "kream_options_available": [
+        "S"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "1340K628BLK",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1340K628BLK\" SPU=\"1340K628BLK\"",
+      "candidates": [
+        {
+          "product_id": 67904,
+          "text": "Saint Laurent\n\n생로랑 레더 실버 모노그램 벨트 블랙\n\n38%\n\n492,000원\n\n관심 1,433\n\n · 리뷰 30\n\n · 거래 408\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 9"
+        },
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,869\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 97069,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 카산드라 씬 벨트 블랙\n\n42%\n\n384,000원\n\n관심 489\n\n · 리뷰 3\n\n · 거래 52\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 67903,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 벨트 블랙\n\n30%\n\n559,000원\n\n관심 2,464\n\n · 리뷰 50\n\n · 거래 1,004\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "1340K628BLK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1340K628BLK\" SPU=\"1340K628BLK\"",
+      "candidates": [
+        {
+          "product_id": 67904,
+          "text": "Saint Laurent\n\n생로랑 레더 실버 모노그램 벨트 블랙\n\n38%\n\n492,000원\n\n관심 1,433\n\n · 리뷰 30\n\n · 거래 408\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 9"
+        },
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,869\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 97069,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 카산드라 씬 벨트 블랙\n\n42%\n\n384,000원\n\n관심 489\n\n · 리뷰 3\n\n · 거래 52\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 67903,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 벨트 블랙\n\n30%\n\n559,000원\n\n관심 2,464\n\n · 리뷰 50\n\n · 거래 1,004\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "1378W5046MDI",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 526.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1378W5046MDI\" SPU=\"1378W5046MDI\"",
+      "candidates": [
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 70978,
+          "text": "Saint Laurent\n\n생로랑 크로커다일 엠보스드 레더 카산드라 이스트/웨스트 지갑 블랙\n\n5%\n\n664,000원\n\n관심 352\n\n · 리뷰 3\n\n · 거래 35"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 518830,
+          "text": "Saint Laurent\n\n생로랑 로고 레더 벨트 블랙\n\n410,000원\n\n관심 19\n\n · 거래 1"
+        },
+        {
+          "product_id": 87764,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 태블릿 홀더 블랙\n\n874,000원\n\n관심 211\n\n · 리뷰 5\n\n · 거래 20"
+        }
+      ]
+    },
+    {
+      "sku": "1340K628GYM",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1340K628GYM\" SPU=\"1340K628GYM\"",
+      "candidates": [
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 67904,
+          "text": "Saint Laurent\n\n생로랑 레더 실버 모노그램 벨트 블랙\n\n38%\n\n492,000원\n\n관심 1,433\n\n · 리뷰 30\n\n · 거래 408\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 77442,
+          "text": "Celine\n\n셀린느 카프스킨 세인투론 스트랩 웨스턴 25mm 벨트 블랙\n\n9%\n\n700,000원\n\n관심 45\n\n · 거래 3"
+        },
+        {
+          "product_id": 67903,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 벨트 블랙\n\n30%\n\n559,000원\n\n관심 2,464\n\n · 리뷰 50\n\n · 거래 1,004\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 518830,
+          "text": "Saint Laurent\n\n생로랑 로고 레더 벨트 블랙\n\n410,000원\n\n관심 19\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "1454W5073WBR",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 614.75,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1454W5073WBR\" SPU=\"1454W5073WBR\"",
+      "candidates": [
+        {
+          "product_id": 408490,
+          "text": "Saint Laurent\n\n생로랑 볼테르 패스포트 케이스 박스 생로랑 DK 토피\n\n55%\n\n340,000원\n\n관심 13\n\n · 거래 4"
+        },
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 482380,
+          "text": "Saint Laurent\n\n생로랑 클래식 SL 28 메탈 선글라스 매트 블랙\n\n18%\n\n620,000원\n\n관심 1"
+        },
+        {
+          "product_id": 769338,
+          "text": "Saint Laurent\n\n생로랑 카산드라 비쥬 파우치 램스킨 블랙\n\n11%\n\n1,493,000원\n\n관심 2"
+        },
+        {
+          "product_id": 769239,
+          "text": "Saint Laurent\n\n생로랑 Y 바시티 캡 개버딘 블랙 아이보리\n\n38%\n\n465,000원\n\n관심 8\n\n · 거래 3"
+        }
+      ]
+    },
+    {
+      "sku": "1401K767WHT",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 295.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1401K767WHT\" SPU=\"1401K767WHT\"",
+      "candidates": [
+        {
+          "product_id": 408490,
+          "text": "Saint Laurent\n\n생로랑 볼테르 패스포트 케이스 박스 생로랑 DK 토피\n\n55%\n\n340,000원\n\n관심 13\n\n · 거래 4"
+        },
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 109461,
+          "text": "Saint Laurent\n\n생로랑 퀼티드 램스킨 가비 플랩 카드 케이스 블랙\n\n620,000원\n\n관심 110\n\n · 거래 3"
+        },
+        {
+          "product_id": 401187,
+          "text": "Saint Laurent\n\n생로랑 로고 카드 케이스 블랙\n\n357,000원\n\n관심 14\n\n · 거래 1"
+        },
+        {
+          "product_id": 307485,
+          "text": "Saint Laurent\n\n생로랑 르 모노그램 카드 홀더 엠보스 스무스 레더 블랙\n\n348,000원\n\n관심 54\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "1401K767WHT",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 295.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1401K767WHT\" SPU=\"1401K767WHT\"",
+      "candidates": [
+        {
+          "product_id": 408490,
+          "text": "Saint Laurent\n\n생로랑 볼테르 패스포트 케이스 박스 생로랑 DK 토피\n\n55%\n\n340,000원\n\n관심 13\n\n · 거래 4"
+        },
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 109461,
+          "text": "Saint Laurent\n\n생로랑 퀼티드 램스킨 가비 플랩 카드 케이스 블랙\n\n620,000원\n\n관심 110\n\n · 거래 3"
+        },
+        {
+          "product_id": 401187,
+          "text": "Saint Laurent\n\n생로랑 로고 카드 케이스 블랙\n\n357,000원\n\n관심 14\n\n · 거래 1"
+        },
+        {
+          "product_id": 307485,
+          "text": "Saint Laurent\n\n생로랑 르 모노그램 카드 홀더 엠보스 스무스 레더 블랙\n\n348,000원\n\n관심 54\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "F2076SL3BLACK",
+      "option": "44",
+      "stock": 2,
+      "eur_price": 780.32,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"F2076SL3BLACK\" SPU=\"F2076SL3BLACK\"",
+      "candidates": [
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 67903,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 벨트 블랙\n\n30%\n\n559,000원\n\n관심 2,464\n\n · 리뷰 50\n\n · 거래 1,004\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 9"
+        },
+        {
+          "product_id": 62972,
+          "text": "Saint Laurent\n\n생로랑 모노그램 키링 스무스 레더 블랙\n\n24%\n\n273,000원\n\n관심 704\n\n · 리뷰 1\n\n · 거래 142\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 408490,
+          "text": "Saint Laurent\n\n생로랑 볼테르 패스포트 케이스 박스 생로랑 DK 토피\n\n55%\n\n340,000원\n\n관심 13\n\n · 거래 4"
+        }
+      ]
+    },
+    {
+      "sku": "1241Y120FOG",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 704.26,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1241Y120FOG\" SPU=\"1241Y120FOG\"",
+      "candidates": [
+        {
+          "product_id": 70978,
+          "text": "Saint Laurent\n\n생로랑 크로커다일 엠보스드 레더 카산드라 이스트/웨스트 지갑 블랙\n\n5%\n\n664,000원\n\n관심 352\n\n · 리뷰 3\n\n · 거래 35"
+        },
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 74243,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 믹스 마틀라세 스몰 엔벨로프 지갑 블랙\n\n16%\n\n510,000원\n\n관심 112\n\n · 거래 7\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 572177,
+          "text": "Saint Laurent\n\n생로랑 카산드라 프라그먼트 플랩 카드 케이스 램스킨 내츄럴 탄\n\n34%\n\n534,000원\n\n관심 5"
+        },
+        {
+          "product_id": 109461,
+          "text": "Saint Laurent\n\n생로랑 퀼티드 램스킨 가비 플랩 카드 케이스 블랙\n\n620,000원\n\n관심 110\n\n · 거래 3"
+        }
+      ]
+    },
+    {
+      "sku": "1401K767BLK",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 295.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1401K767BLK\" SPU=\"1401K767BLK\"",
+      "candidates": [
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 50858,
+          "text": "Saint Laurent\n\n생로랑 매트 레더 타이니 실버 모노그램 카드 케이스 블랙\n\n25%\n\n350,000원\n\n관심 7,504\n\n · 리뷰 111\n\n · 거래 1,401\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 307485,
+          "text": "Saint Laurent\n\n생로랑 르 모노그램 카드 홀더 엠보스 스무스 레더 블랙\n\n348,000원\n\n관심 54\n\n · 거래 2"
+        },
+        {
+          "product_id": 793252,
+          "text": "Saint Laurent\n\n생로랑 타이니 카산드라 카드 케이스 그레인드 레더 블랙\n\n648,000원\n\n관심 4"
+        }
+      ]
+    },
+    {
+      "sku": "1024Y960FBK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 916.72,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1024Y960FBK\" SPU=\"1024Y960FBK\"",
+      "candidates": [
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 74243,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 믹스 마틀라세 스몰 엔벨로프 지갑 블랙\n\n16%\n\n510,000원\n\n관심 112\n\n · 거래 7\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 109461,
+          "text": "Saint Laurent\n\n생로랑 퀼티드 램스킨 가비 플랩 카드 케이스 블랙\n\n620,000원\n\n관심 110\n\n · 거래 3"
+        },
+        {
+          "product_id": 62257,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 골드 모노그램 프라그먼트 지퍼 카드 케이스 블랙\n\n17%\n\n488,000원\n\n관심 1,077\n\n · 리뷰 21\n\n · 거래 211\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 212973,
+          "text": "Saint Laurent\n\n생로랑 파리 크레딧 카드 월렛 코티드 바크 레더 블랙\n\n16%\n\n411,000원\n\n관심 52\n\n · 거래 3"
+        }
+      ]
+    },
+    {
+      "sku": "6525W3654BLK",
+      "option": "25",
+      "stock": 1,
+      "eur_price": 595.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 275214,
+          "text": "Saint Laurent\n\n생로랑 타이니 카산드라 카드 케이스 그레인 레더 블랙\n\n31%\n\n338,000원\n\n관심 274\n\n · 리뷰 1\n\n · 거래 29"
+        },
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 74243,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 믹스 마틀라세 스몰 엔벨로프 지갑 블랙\n\n16%\n\n510,000원\n\n관심 112\n\n · 거래 7\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 73597,
+          "text": "Saint Laurent\n\n생로랑 매트 레더 타이니 카산드라 여권 케이스 블랙\n\n26%\n\n486,000원\n\n관심 219\n\n · 리뷰 4\n\n · 거래 21\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 68960,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 파리 크레딧 카드 지갑 블랙\n\n319,000원\n\n관심 872\n\n · 리뷰 15\n\n · 거래 145"
+        }
+      ]
+    },
+    {
+      "sku": "6525W3654BLK",
+      "option": "26",
+      "stock": 2,
+      "eur_price": 595.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 275214,
+          "text": "Saint Laurent\n\n생로랑 타이니 카산드라 카드 케이스 그레인 레더 블랙\n\n31%\n\n338,000원\n\n관심 274\n\n · 리뷰 1\n\n · 거래 29"
+        },
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 74243,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 믹스 마틀라세 스몰 엔벨로프 지갑 블랙\n\n16%\n\n510,000원\n\n관심 112\n\n · 거래 7\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 73597,
+          "text": "Saint Laurent\n\n생로랑 매트 레더 타이니 카산드라 여권 케이스 블랙\n\n26%\n\n486,000원\n\n관심 219\n\n · 리뷰 4\n\n · 거래 21\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 68960,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 파리 크레딧 카드 지갑 블랙\n\n319,000원\n\n관심 872\n\n · 리뷰 15\n\n · 거래 145"
+        }
+      ]
+    },
+    {
+      "sku": "6525W3654BLK",
+      "option": "27",
+      "stock": 1,
+      "eur_price": 595.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 275214,
+          "text": "Saint Laurent\n\n생로랑 타이니 카산드라 카드 케이스 그레인 레더 블랙\n\n31%\n\n338,000원\n\n관심 274\n\n · 리뷰 1\n\n · 거래 29"
+        },
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 74243,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 믹스 마틀라세 스몰 엔벨로프 지갑 블랙\n\n16%\n\n510,000원\n\n관심 112\n\n · 거래 7\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 73597,
+          "text": "Saint Laurent\n\n생로랑 매트 레더 타이니 카산드라 여권 케이스 블랙\n\n26%\n\n486,000원\n\n관심 219\n\n · 리뷰 4\n\n · 거래 21\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 68960,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 파리 크레딧 카드 지갑 블랙\n\n319,000원\n\n관심 872\n\n · 리뷰 15\n\n · 거래 145"
+        }
+      ]
+    },
+    {
+      "sku": "6525W3654BLK",
+      "option": "29",
+      "stock": 1,
+      "eur_price": 595.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 275214,
+          "text": "Saint Laurent\n\n생로랑 타이니 카산드라 카드 케이스 그레인 레더 블랙\n\n31%\n\n338,000원\n\n관심 274\n\n · 리뷰 1\n\n · 거래 29"
+        },
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 74243,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 믹스 마틀라세 스몰 엔벨로프 지갑 블랙\n\n16%\n\n510,000원\n\n관심 112\n\n · 거래 7\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 73597,
+          "text": "Saint Laurent\n\n생로랑 매트 레더 타이니 카산드라 여권 케이스 블랙\n\n26%\n\n486,000원\n\n관심 219\n\n · 리뷰 4\n\n · 거래 21\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 68960,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 파리 크레딧 카드 지갑 블랙\n\n319,000원\n\n관심 872\n\n · 리뷰 15\n\n · 거래 145"
+        }
+      ]
+    },
+    {
+      "sku": "1261Y876CHO",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 829.51,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1261Y876CHO\" SPU=\"1261Y876CHO\"",
+      "candidates": [
+        {
+          "product_id": 124386,
+          "text": "Rolex\n\n롤렉스 코스모그래프 데이토나 40mm 126500LN 화이트 오이스터\n\n65,000,000원\n\n관심 550\n\n · 리뷰 13\n\n · 거래 31"
+        },
+        {
+          "product_id": 185909,
+          "text": "Rolex\n\n롤렉스 데이트저스트 36mm 126231 초콜릿 쥬빌리\n\n28,900,000원\n\n관심 259\n\n · 리뷰 4\n\n · 거래 3"
+        },
+        {
+          "product_id": 246961,
+          "text": "Rolex\n\n롤렉스 코스모그래프 데이토나 40mm 126500LN 블랙 오이스터\n\n51,900,000원\n\n관심 267\n\n · 리뷰 9\n\n · 거래 8"
+        },
+        {
+          "product_id": 196507,
+          "text": "Rolex\n\n롤렉스 코스모그래프 데이토나 40mm 126503 브라이트 블랙 골든 다이아 셋팅 오이스터\n\n49,500,000원\n\n관심 155\n\n · 리뷰 5\n\n · 거래 4"
+        },
+        {
+          "product_id": 48435,
+          "text": "Rolex\n\n롤렉스 데이트저스트 41mm 126331 초콜릿 다이아 셋팅 쥬빌리\n\n32,900,000원\n\n관심 962\n\n · 리뷰 28\n\n · 거래 30"
+        }
+      ]
+    },
+    {
+      "sku": "1461W4503BLK",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1461W4503BLK\" SPU=\"1461W4503BLK\"",
+      "candidates": [
+        {
+          "product_id": 266622,
+          "text": "Dr. Martens\n\n닥터마틴 1461 WS 블랙 스무스\n\n15%\n\n178,000원\n\n관심 7,227\n\n · 리뷰 493\n\n · 거래 2,240\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 118746,
+          "text": "Dr. Martens\n\n닥터마틴 1461 벡스 블랙\n\n24%\n\n173,000원\n\n관심 7,531\n\n · 리뷰 485\n\n · 거래 2,189\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 373257,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 8065 스무스 레더 메리 제인 블랙\n\n169,000원\n\n관심 2,402\n\n · 리뷰 54\n\n · 거래 282\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 313144,
+          "text": "Dr. Martens\n\n닥터마틴 1461 모노 스무스 블랙\n\n10%\n\n206,100원\n\n관심 1,398\n\n · 리뷰 69\n\n적립\n\n무료배송"
+        },
+        {
+          "product_id": 770345,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 메리 제인 WDS 벡스 블랙\n\n33%\n\n173,000원\n\n관심 288\n\n · 거래 6"
+        }
+      ]
+    },
+    {
+      "sku": "1461W4503BLK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1461W4503BLK\" SPU=\"1461W4503BLK\"",
+      "candidates": [
+        {
+          "product_id": 266622,
+          "text": "Dr. Martens\n\n닥터마틴 1461 WS 블랙 스무스\n\n15%\n\n178,000원\n\n관심 7,227\n\n · 리뷰 493\n\n · 거래 2,240\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 118746,
+          "text": "Dr. Martens\n\n닥터마틴 1461 벡스 블랙\n\n24%\n\n173,000원\n\n관심 7,531\n\n · 리뷰 485\n\n · 거래 2,189\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 373257,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 8065 스무스 레더 메리 제인 블랙\n\n169,000원\n\n관심 2,402\n\n · 리뷰 54\n\n · 거래 282\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 313144,
+          "text": "Dr. Martens\n\n닥터마틴 1461 모노 스무스 블랙\n\n10%\n\n206,100원\n\n관심 1,398\n\n · 리뷰 69\n\n적립\n\n무료배송"
+        },
+        {
+          "product_id": 770345,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 메리 제인 WDS 벡스 블랙\n\n33%\n\n173,000원\n\n관심 288\n\n · 거래 6"
+        }
+      ]
+    },
+    {
+      "sku": "1461W4503BLK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1461W4503BLK\" SPU=\"1461W4503BLK\"",
+      "candidates": [
+        {
+          "product_id": 266622,
+          "text": "Dr. Martens\n\n닥터마틴 1461 WS 블랙 스무스\n\n15%\n\n178,000원\n\n관심 7,227\n\n · 리뷰 493\n\n · 거래 2,240\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 118746,
+          "text": "Dr. Martens\n\n닥터마틴 1461 벡스 블랙\n\n24%\n\n173,000원\n\n관심 7,531\n\n · 리뷰 485\n\n · 거래 2,189\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 373257,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 8065 스무스 레더 메리 제인 블랙\n\n169,000원\n\n관심 2,402\n\n · 리뷰 54\n\n · 거래 282\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 313144,
+          "text": "Dr. Martens\n\n닥터마틴 1461 모노 스무스 블랙\n\n10%\n\n206,100원\n\n관심 1,398\n\n · 리뷰 69\n\n적립\n\n무료배송"
+        },
+        {
+          "product_id": 770345,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 메리 제인 WDS 벡스 블랙\n\n33%\n\n173,000원\n\n관심 288\n\n · 거래 6"
+        }
+      ]
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "42",
+      "stock": 2,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "43",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "44",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "45",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "W1273L129DAT",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1849.18,
+      "matched": true,
+      "product_id": 521041,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/521041",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "1210W3856OWH",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 743.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1210W3856OWH\" SPU=\"1210W3856OWH\"",
+      "candidates": [
+        {
+          "product_id": 342487,
+          "text": "The Row\n\n더 로우 소피아 10 레더 숄더백 블랙\n\n7,078,000원\n\n관심 20"
+        },
+        {
+          "product_id": 195915,
+          "text": "The Row\n\n더 로우 미디움 N/S 레더 숄더백 블랙\n\n11%\n\n3,720,000원\n\n관심 20"
+        },
+        {
+          "product_id": 844836,
+          "text": "The Row\n\n더 로우 N/S 파크 나파 크로스바디백  블랙\n\n1,825,000원\n\n관심 2"
+        },
+        {
+          "product_id": 713729,
+          "text": "The Row\n\n더 로우 스몰 이지 백 레더 퀴르\n\n4,872,000원\n\n관심 3"
+        },
+        {
+          "product_id": 841262,
+          "text": "The Row\n\n더 로우 라운드 컴팩트 클러치 백 블랙\n\n900,000원\n\n관심 1"
+        }
+      ]
+    },
+    {
+      "sku": "1210W3856OWH",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 743.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1210W3856OWH\" SPU=\"1210W3856OWH\"",
+      "candidates": [
+        {
+          "product_id": 342487,
+          "text": "The Row\n\n더 로우 소피아 10 레더 숄더백 블랙\n\n7,078,000원\n\n관심 20"
+        },
+        {
+          "product_id": 195915,
+          "text": "The Row\n\n더 로우 미디움 N/S 레더 숄더백 블랙\n\n11%\n\n3,720,000원\n\n관심 20"
+        },
+        {
+          "product_id": 844836,
+          "text": "The Row\n\n더 로우 N/S 파크 나파 크로스바디백  블랙\n\n1,825,000원\n\n관심 2"
+        },
+        {
+          "product_id": 713729,
+          "text": "The Row\n\n더 로우 스몰 이지 백 레더 퀴르\n\n4,872,000원\n\n관심 3"
+        },
+        {
+          "product_id": 841262,
+          "text": "The Row\n\n더 로우 라운드 컴팩트 클러치 백 블랙\n\n900,000원\n\n관심 1"
+        }
+      ]
+    },
+    {
+      "sku": "1175W4252OTT",
+      "option": "40 FR",
+      "stock": 1,
+      "eur_price": 2848.53,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1175W4252OTT\" SPU=\"1175W4252OTT\"",
+      "candidates": [
+        {
+          "product_id": 84285,
+          "text": "UGG\n\n(W) 어그 클래식 미니 2 부츠 체스트넛\n\n34%\n\n169,000원\n\n관심 3.1만\n\n · 리뷰 1,616\n\n · 거래 6.4만"
+        },
+        {
+          "product_id": 589356,
+          "text": "UGG\n\n(W) 어그 타스만 2 체스트넛\n\n42%\n\n109,000원\n\n관심 4,408\n\n · 리뷰 1,095\n\n · 거래 7,617\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 84284,
+          "text": "UGG\n\n(W) 어그 클래식 울트라 미니 부츠 체스트넛\n\n49%\n\n110,000원\n\n관심 2만\n\n · 리뷰 862\n\n · 거래 3만\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 84603,
+          "text": "UGG\n\n(W) 어그 클래식 울트라 미니 부츠 블랙\n\n37%\n\n134,000원\n\n관심 6,578\n\n · 리뷰 300\n\n · 거래 3,713"
+        },
+        {
+          "product_id": 177390,
+          "text": "UGG\n\n어그 클래식 슬립온 체스트넛\n\n52%\n\n123,000원\n\n관심 3,045\n\n · 리뷰 460\n\n · 거래 4,574\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "10865W4369BLK",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 742.62,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"10865W4369BLK\" SPU=\"10865W4369BLK\"",
+      "candidates": [
+        {
+          "product_id": 86029,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 2.0 트레이너 샤이니 블랙\n\n66%\n\n440,000원\n\n관심 708\n\n · 리뷰 67\n\n · 거래 261\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 408490,
+          "text": "Saint Laurent\n\n생로랑 볼테르 패스포트 케이스 박스 생로랑 DK 토피\n\n55%\n\n340,000원\n\n관심 13\n\n · 거래 4"
+        },
+        {
+          "product_id": 73597,
+          "text": "Saint Laurent\n\n생로랑 매트 레더 타이니 카산드라 여권 케이스 블랙\n\n26%\n\n486,000원\n\n관심 219\n\n · 리뷰 4\n\n · 거래 21\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 179917,
+          "text": "Saint Laurent\n\n생로랑 모노그램 캔버스 앤 스무스 레더 르 모노그램 크로스바디백 체스트넛\n\n11%\n\n1,335,000원\n\n관심 587\n\n · 리뷰 20\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710CHK",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710CHK\" SPU=\"1437Y710CHK\"",
+      "candidates": [
+        {
+          "product_id": 91304,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 팔라듐\n\n28%\n\n396,000원\n\n관심 2,540\n\n · 리뷰 1\n\n · 거래 138\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 157917,
+          "text": "Saint Laurent\n\n생로랑 오피움 참 브레이슬릿 메탈 앤 라인스톤 옥시다이즈드 실버\n\n42%\n\n375,000원\n\n관심 7,692\n\n · 리뷰 4\n\n · 거래 634\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 120589,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 오피움 하트 참 브레이슬릿 에이지드 브라스 골드\n\n36%\n\n419,000원\n\n관심 6,173\n\n · 리뷰 4\n\n · 거래 787\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n36%\n\n419,000원\n\n관심 2,081\n\n · 거래 208\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710CHK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710CHK\" SPU=\"1437Y710CHK\"",
+      "candidates": [
+        {
+          "product_id": 91304,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 팔라듐\n\n28%\n\n396,000원\n\n관심 2,540\n\n · 리뷰 1\n\n · 거래 138\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 157917,
+          "text": "Saint Laurent\n\n생로랑 오피움 참 브레이슬릿 메탈 앤 라인스톤 옥시다이즈드 실버\n\n42%\n\n375,000원\n\n관심 7,692\n\n · 리뷰 4\n\n · 거래 634\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 120589,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 오피움 하트 참 브레이슬릿 에이지드 브라스 골드\n\n36%\n\n419,000원\n\n관심 6,173\n\n · 리뷰 4\n\n · 거래 787\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n36%\n\n419,000원\n\n관심 2,081\n\n · 거래 208\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710CHK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710CHK\" SPU=\"1437Y710CHK\"",
+      "candidates": [
+        {
+          "product_id": 91304,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 팔라듐\n\n28%\n\n396,000원\n\n관심 2,540\n\n · 리뷰 1\n\n · 거래 138\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 157917,
+          "text": "Saint Laurent\n\n생로랑 오피움 참 브레이슬릿 메탈 앤 라인스톤 옥시다이즈드 실버\n\n42%\n\n375,000원\n\n관심 7,692\n\n · 리뷰 4\n\n · 거래 634\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 120589,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 오피움 하트 참 브레이슬릿 에이지드 브라스 골드\n\n36%\n\n419,000원\n\n관심 6,173\n\n · 리뷰 4\n\n · 거래 787\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n36%\n\n419,000원\n\n관심 2,081\n\n · 거래 208\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "F2109L302LQB",
+      "option": "44",
+      "stock": 2,
+      "eur_price": 711.47,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"F2109L302LQB\" SPU=\"F2109L302LQB\"",
+      "candidates": [
+        {
+          "product_id": 70978,
+          "text": "Saint Laurent\n\n생로랑 크로커다일 엠보스드 레더 카산드라 이스트/웨스트 지갑 블랙\n\n5%\n\n664,000원\n\n관심 352\n\n · 리뷰 3\n\n · 거래 35"
+        },
+        {
+          "product_id": 709550,
+          "text": "Saint Laurent\n\n생로랑 르 37 서플 그레인드 레더 블랙\n\n4,516,000원\n\n관심 1"
+        },
+        {
+          "product_id": 74243,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 믹스 마틀라세 스몰 엔벨로프 지갑 블랙\n\n16%\n\n510,000원\n\n관심 112\n\n · 거래 7\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 138127,
+          "text": "Saint Laurent\n\n생로랑 크로커다일 엠보스드 샤이니 레더 카산드라 카드 케이스 블랙\n\n29%\n\n376,000원\n\n관심 59\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 254998,
+          "text": "Saint Laurent\n\n생로랑 퀼티드 레더 루 미니백 블랙 골드\n\n1,809,000원\n\n관심 58\n\n · 리뷰 1\n\n · 거래 4"
+        }
+      ]
+    },
+    {
+      "sku": "1261Y876BLK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 904.92,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1261Y876BLK\" SPU=\"1261Y876BLK\"",
+      "candidates": [
+        {
+          "product_id": 74243,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 믹스 마틀라세 스몰 엔벨로프 지갑 블랙\n\n16%\n\n510,000원\n\n관심 112\n\n · 거래 7\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 87764,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 태블릿 홀더 블랙\n\n874,000원\n\n관심 211\n\n · 리뷰 5\n\n · 거래 20"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 9"
+        },
+        {
+          "product_id": 58115,
+          "text": "Saint Laurent\n\n생로랑 마틀라세 레더 골드 모노그램 도큐먼트 홀더 블랙\n\n41%\n\n750,000원\n\n관심 470\n\n · 리뷰 11\n\n · 거래 82\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 769338,
+          "text": "Saint Laurent\n\n생로랑 카산드라 비쥬 파우치 램스킨 블랙\n\n11%\n\n1,493,000원\n\n관심 2"
+        }
+      ]
+    },
+    {
+      "sku": "1261Y876BLK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 904.92,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1261Y876BLK\" SPU=\"1261Y876BLK\"",
+      "candidates": [
+        {
+          "product_id": 74243,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 믹스 마틀라세 스몰 엔벨로프 지갑 블랙\n\n16%\n\n510,000원\n\n관심 112\n\n · 거래 7\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 87764,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 태블릿 홀더 블랙\n\n874,000원\n\n관심 211\n\n · 리뷰 5\n\n · 거래 20"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 9"
+        },
+        {
+          "product_id": 58115,
+          "text": "Saint Laurent\n\n생로랑 마틀라세 레더 골드 모노그램 도큐먼트 홀더 블랙\n\n41%\n\n750,000원\n\n관심 470\n\n · 리뷰 11\n\n · 거래 82\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 769338,
+          "text": "Saint Laurent\n\n생로랑 카산드라 비쥬 파우치 램스킨 블랙\n\n11%\n\n1,493,000원\n\n관심 2"
+        }
+      ]
+    },
+    {
+      "sku": "697W4450LBB",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 635.66,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"697W4450LBB\" SPU=\"697W4450LBB\"",
+      "candidates": [
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 74243,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 믹스 마틀라세 스몰 엔벨로프 지갑 블랙\n\n16%\n\n510,000원\n\n관심 112\n\n · 거래 7\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 275214,
+          "text": "Saint Laurent\n\n생로랑 타이니 카산드라 카드 케이스 그레인 레더 블랙\n\n31%\n\n338,000원\n\n관심 274\n\n · 리뷰 1\n\n · 거래 29"
+        },
+        {
+          "product_id": 73597,
+          "text": "Saint Laurent\n\n생로랑 매트 레더 타이니 카산드라 여권 케이스 블랙\n\n26%\n\n486,000원\n\n관심 219\n\n · 리뷰 4\n\n · 거래 21\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 408490,
+          "text": "Saint Laurent\n\n생로랑 볼테르 패스포트 케이스 박스 생로랑 DK 토피\n\n55%\n\n340,000원\n\n관심 13\n\n · 거래 4"
+        }
+      ]
+    },
+    {
+      "sku": "697W4450LBB",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 635.66,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"697W4450LBB\" SPU=\"697W4450LBB\"",
+      "candidates": [
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 74243,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 믹스 마틀라세 스몰 엔벨로프 지갑 블랙\n\n16%\n\n510,000원\n\n관심 112\n\n · 거래 7\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 275214,
+          "text": "Saint Laurent\n\n생로랑 타이니 카산드라 카드 케이스 그레인 레더 블랙\n\n31%\n\n338,000원\n\n관심 274\n\n · 리뷰 1\n\n · 거래 29"
+        },
+        {
+          "product_id": 73597,
+          "text": "Saint Laurent\n\n생로랑 매트 레더 타이니 카산드라 여권 케이스 블랙\n\n26%\n\n486,000원\n\n관심 219\n\n · 리뷰 4\n\n · 거래 21\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 408490,
+          "text": "Saint Laurent\n\n생로랑 볼테르 패스포트 케이스 박스 생로랑 DK 토피\n\n55%\n\n340,000원\n\n관심 13\n\n · 거래 4"
+        }
+      ]
+    },
+    {
+      "sku": "1351W4424BLK",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 506.56,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1351W4424BLK\" SPU=\"1351W4424BLK\"",
+      "candidates": [
+        {
+          "product_id": 134272,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 르 로퍼 페니 슬리퍼 블랙\n\n33%\n\n850,000원\n\n관심 182\n\n · 리뷰 16\n\n · 거래 8"
+        },
+        {
+          "product_id": 61375,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 타이니 카산드라 이스트/웨스트 지갑 블랙\n\n31%\n\n519,000원\n\n관심 1,520\n\n · 리뷰 32\n\n · 거래 278\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 793219,
+          "text": "Saint Laurent\n\n생로랑 타이니 카산드라 크레딧 카드 케이스 샤이니 레더 블랙\n\n549,000원\n\n관심 3"
+        },
+        {
+          "product_id": 793252,
+          "text": "Saint Laurent\n\n생로랑 타이니 카산드라 카드 케이스 그레인드 레더 블랙\n\n648,000원\n\n관심 4"
+        },
+        {
+          "product_id": 769338,
+          "text": "Saint Laurent\n\n생로랑 카산드라 비쥬 파우치 램스킨 블랙\n\n11%\n\n1,493,000원\n\n관심 2"
+        }
+      ]
+    },
+    {
+      "sku": "11216W4466DRN",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 2257.38,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11216W4466DRN\" SPU=\"11216W4466DRN\"",
+      "candidates": [
+        {
+          "product_id": 85785,
+          "text": "UGG\n\n(W) 어그 클래식 클리어 미니 부츠 내츄럴 블랙\n\n36%\n\n155,000원\n\n관심 8,707\n\n · 리뷰 554\n\n · 거래 1.2만"
+        },
+        {
+          "product_id": 84295,
+          "text": "UGG\n\n(W) 어그 스커페트 2 슬리퍼 체스트넛\n\n26%\n\n106,000원\n\n관심 3,402\n\n · 리뷰 110\n\n · 거래 2,104"
+        },
+        {
+          "product_id": 574098,
+          "text": "UGG\n\n(W) 어그 엘리아 슬립온 체스트넛\n\n36%\n\n121,000원\n\n관심 87\n\n · 리뷰 3\n\n · 거래 23"
+        },
+        {
+          "product_id": 745768,
+          "text": "Celine\n\n(W) 셀린느 레인 부츠 내츄럴 러버 블랙\n\n19%\n\n1,083,000원\n\n관심 25\n\n · 거래 2"
+        },
+        {
+          "product_id": 603246,
+          "text": "UGG\n\n(W) 어그 클래식 마이크로 블랙\n\n41%\n\n179,000원\n\n관심 41\n\n · 리뷰 4\n\n · 거래 21\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "F2170L805BLK",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 906.56,
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2170L805BLK",
+      "option": "42",
+      "stock": 1,
+      "eur_price": 906.56,
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2170L805BLK",
+      "option": "42.5",
+      "stock": 1,
+      "eur_price": 906.56,
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2170L805BLK",
+      "option": "43",
+      "stock": 2,
+      "eur_price": 906.56,
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    }
+  ]
+}
