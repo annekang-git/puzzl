@@ -1,0 +1,4588 @@
+{
+  "fetched_at": "2026-06-25T03:52:11.454Z",
+  "input_file": "targets-kiton.json",
+  "total_targets": 141,
+  "matched": 4,
+  "failed": 137,
+  "results": [
+    {
+      "sku": "D56108K0920C0145",
+      "option": "40 IT",
+      "stock": 1,
+      "eur_price": 346.11,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D56108K0920C0145\" SPU=\"D56108K0920C0145\"",
+      "candidates": [
+        {
+          "product_id": 572210,
+          "text": "Saint Laurent\n\n(W) 생로랑 SL 557 쉐이드 선글라스 다크 하바나 그레이\n\n35%\n\n434,000원\n\n관심 25"
+        },
+        {
+          "product_id": 482358,
+          "text": "Saint Laurent\n\n생로랑 SL 634 노바 선글라스 블랙\n\n47%\n\n319,000원\n\n관심 39\n\n · 거래 3"
+        },
+        {
+          "product_id": 482397,
+          "text": "Saint Laurent\n\n생로랑 SL 572 선글라스 블랙 크리스탈\n\n25%\n\n520,000원\n\n관심 5\n\n · 거래 1"
+        },
+        {
+          "product_id": 572209,
+          "text": "Saint Laurent\n\n(W) 생로랑 SL M152 선글라스 블랙\n\n31%\n\n464,000원\n\n관심 88\n\n · 거래 3"
+        },
+        {
+          "product_id": 128065,
+          "text": "Celine\n\n(W) 셀린느 아세테이트 트리옹프 07 선글라스 블랙\n\n398,000원\n\n관심 25\n\n · 리뷰 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN0080987001",
+      "option": "10",
+      "stock": 3,
+      "eur_price": 297.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN0080987001\" SPU=\"USSFITSN0080987001\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 325506,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 신 니트 러너 베이지\n\n998,000원\n\n관심 108\n\n · 리뷰 9\n\n · 거래 88\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN0080987001",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 297.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN0080987001\" SPU=\"USSFITSN0080987001\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 325506,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 신 니트 러너 베이지\n\n998,000원\n\n관심 108\n\n · 리뷰 9\n\n · 거래 88\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN0080987001",
+      "option": "8",
+      "stock": 2,
+      "eur_price": 297.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN0080987001\" SPU=\"USSFITSN0080987001\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 325506,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 신 니트 러너 베이지\n\n998,000원\n\n관심 108\n\n · 리뷰 9\n\n · 거래 88\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "DPARF040100ZU",
+      "option": "U",
+      "stock": 6,
+      "eur_price": 95.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DPARF040100ZU\" SPU=\"DPARF040100ZU\"",
+      "candidates": [
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n54%\n\n343,000원\n\n관심 601\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 833858,
+          "text": "Kiton\n\n키톤 로우탑 스니커즈 화이트\n\n445,000원"
+        },
+        {
+          "product_id": 569944,
+          "text": "Givenchy\n\n지방시 엘라스틱 밴드 어반 스트리트 레더 스니커즈 화이트 블랙\n\n24%\n\n724,000원\n\n관심 4\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 28206,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 화이트 블랙\n\n34%\n\n528,000원\n\n관심 573\n\n · 리뷰 4\n\n · 거래 137"
+        },
+        {
+          "product_id": 572210,
+          "text": "Saint Laurent\n\n(W) 생로랑 SL 557 쉐이드 선글라스 다크 하바나 그레이\n\n35%\n\n434,000원\n\n관심 25"
+        }
+      ]
+    },
+    {
+      "sku": "DPARF040200ZU",
+      "option": "U",
+      "stock": 6,
+      "eur_price": 95.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DPARF040200ZU\" SPU=\"DPARF040200ZU\"",
+      "candidates": [
+        {
+          "product_id": 71617,
+          "text": "Saint Laurent\n\n생로랑 캔버스 레더 코트 클래식 SL/06 자수 스니커즈 크림\n\n37%\n\n613,000원\n\n관심 276\n\n · 리뷰 4\n\n · 거래 73"
+        },
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n54%\n\n343,000원\n\n관심 601\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 55\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 62126,
+          "text": "Saint Laurent\n\n(W) 생로랑 레더 앤디 스니커즈 옵틱 화이트\n\n45%\n\n458,000원\n\n관심 96\n\n · 리뷰 2\n\n · 거래 15"
+        },
+        {
+          "product_id": 128326,
+          "text": "Saint Laurent\n\n생로랑 캔버스 스무스 레더 말리부 스니커즈 블랙\n\n46%\n\n550,000원\n\n관심 151\n\n · 리뷰 8\n\n · 거래 41"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491200",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491200\" SPU=\"UMCBUBAK06R491200\"",
+      "candidates": [
+        {
+          "product_id": 345792,
+          "text": "Zara\n\n(W) 자라 슬링백 슈즈 블랙\n\n220,000원\n\n관심 18\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 82170,
+          "text": "Saint Laurent\n\n(W) 생로랑 아나이스 레더 슬링백 플랫 블랙\n\n1,295,000원\n\n관심 406\n\n · 거래 18"
+        },
+        {
+          "product_id": 697299,
+          "text": "Lemaire\n\n르메르 플랫 파이프드 슬리퍼 블랙 다크 초콜릿\n\n42%\n\n625,000원\n\n관심 102\n\n · 리뷰 2\n\n · 거래 7"
+        },
+        {
+          "product_id": 409744,
+          "text": "Prada\n\n(W) 프라다 나파 레더 발레리나 블랙\n\n24%\n\n1,085,000원\n\n관심 87\n\n · 리뷰 3\n\n · 거래 12"
+        },
+        {
+          "product_id": 572210,
+          "text": "Saint Laurent\n\n(W) 생로랑 SL 557 쉐이드 선글라스 다크 하바나 그레이\n\n35%\n\n434,000원\n\n관심 25"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491200",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491200\" SPU=\"UMCBUBAK06R491200\"",
+      "candidates": [
+        {
+          "product_id": 345792,
+          "text": "Zara\n\n(W) 자라 슬링백 슈즈 블랙\n\n220,000원\n\n관심 18\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 82170,
+          "text": "Saint Laurent\n\n(W) 생로랑 아나이스 레더 슬링백 플랫 블랙\n\n1,295,000원\n\n관심 406\n\n · 거래 18"
+        },
+        {
+          "product_id": 697299,
+          "text": "Lemaire\n\n르메르 플랫 파이프드 슬리퍼 블랙 다크 초콜릿\n\n42%\n\n625,000원\n\n관심 102\n\n · 리뷰 2\n\n · 거래 7"
+        },
+        {
+          "product_id": 409744,
+          "text": "Prada\n\n(W) 프라다 나파 레더 발레리나 블랙\n\n24%\n\n1,085,000원\n\n관심 87\n\n · 리뷰 3\n\n · 거래 12"
+        },
+        {
+          "product_id": 572210,
+          "text": "Saint Laurent\n\n(W) 생로랑 SL 557 쉐이드 선글라스 다크 하바나 그레이\n\n35%\n\n434,000원\n\n관심 25"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491200",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491200\" SPU=\"UMCBUBAK06R491200\"",
+      "candidates": [
+        {
+          "product_id": 345792,
+          "text": "Zara\n\n(W) 자라 슬링백 슈즈 블랙\n\n220,000원\n\n관심 18\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 82170,
+          "text": "Saint Laurent\n\n(W) 생로랑 아나이스 레더 슬링백 플랫 블랙\n\n1,295,000원\n\n관심 406\n\n · 거래 18"
+        },
+        {
+          "product_id": 697299,
+          "text": "Lemaire\n\n르메르 플랫 파이프드 슬리퍼 블랙 다크 초콜릿\n\n42%\n\n625,000원\n\n관심 102\n\n · 리뷰 2\n\n · 거래 7"
+        },
+        {
+          "product_id": 409744,
+          "text": "Prada\n\n(W) 프라다 나파 레더 발레리나 블랙\n\n24%\n\n1,085,000원\n\n관심 87\n\n · 리뷰 3\n\n · 거래 12"
+        },
+        {
+          "product_id": 572210,
+          "text": "Saint Laurent\n\n(W) 생로랑 SL 557 쉐이드 선글라스 다크 하바나 그레이\n\n35%\n\n434,000원\n\n관심 25"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491200",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491200\" SPU=\"UMCBUBAK06R491200\"",
+      "candidates": [
+        {
+          "product_id": 345792,
+          "text": "Zara\n\n(W) 자라 슬링백 슈즈 블랙\n\n220,000원\n\n관심 18\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 82170,
+          "text": "Saint Laurent\n\n(W) 생로랑 아나이스 레더 슬링백 플랫 블랙\n\n1,295,000원\n\n관심 406\n\n · 거래 18"
+        },
+        {
+          "product_id": 697299,
+          "text": "Lemaire\n\n르메르 플랫 파이프드 슬리퍼 블랙 다크 초콜릿\n\n42%\n\n625,000원\n\n관심 102\n\n · 리뷰 2\n\n · 거래 7"
+        },
+        {
+          "product_id": 409744,
+          "text": "Prada\n\n(W) 프라다 나파 레더 발레리나 블랙\n\n24%\n\n1,085,000원\n\n관심 87\n\n · 리뷰 3\n\n · 거래 12"
+        },
+        {
+          "product_id": 572210,
+          "text": "Saint Laurent\n\n(W) 생로랑 SL 557 쉐이드 선글라스 다크 하바나 그레이\n\n35%\n\n434,000원\n\n관심 25"
+        }
+      ]
+    },
+    {
+      "sku": "D57513K0977A3200Q",
+      "option": "46 IT",
+      "stock": 1,
+      "eur_price": 1534.43,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D57513K0977A3200Q\" SPU=\"D57513K0977A3200Q\"",
+      "candidates": [
+        {
+          "product_id": 275214,
+          "text": "Saint Laurent\n\n생로랑 타이니 카산드라 카드 케이스 그레인 레더 블랙\n\n31%\n\n334,000원\n\n관심 275\n\n · 리뷰 1\n\n · 거래 29"
+        },
+        {
+          "product_id": 332290,
+          "text": "Versace\n\n베르사체 메두사 비기 카드 홀더 블랙 골드\n\n241,000원\n\n관심 721\n\n · 리뷰 23\n\n · 거래 96\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 537754,
+          "text": "Gucci\n\n구찌 임프린트 카드 케이스 블랙\n\n24%\n\n347,000원\n\n관심 110\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 471184,
+          "text": "Gucci\n\n구찌 GG 마몽 바이컬러 GG 카드 케이스 베이지 에보니\n\n19%\n\n321,000원\n\n관심 285\n\n · 리뷰 8\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 145124,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 하네스 카드 홀더 블랙\n\n53%\n\n204,000원\n\n관심 458\n\n · 리뷰 4\n\n · 거래 38"
+        }
+      ]
+    },
+    {
+      "sku": "D49438K0873G07003",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 355.94,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D49438K0873G07003\" SPU=\"D49438K0873G07003\"",
+      "candidates": [
+        {
+          "product_id": 191232,
+          "text": "Gucci\n\n구찌 인터로킹 G 라이톤 스니커즈 블랙 레더\n\n42%\n\n800,000원\n\n관심 41\n\n · 리뷰 4\n\n · 거래 17"
+        },
+        {
+          "product_id": 275214,
+          "text": "Saint Laurent\n\n생로랑 타이니 카산드라 카드 케이스 그레인 레더 블랙\n\n31%\n\n334,000원\n\n관심 275\n\n · 리뷰 1\n\n · 거래 29"
+        },
+        {
+          "product_id": 66634,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 프라그망 지퍼 카드 케이스 블랙\n\n40%\n\n293,000원\n\n관심 258\n\n · 리뷰 1\n\n · 거래 22"
+        },
+        {
+          "product_id": 212973,
+          "text": "Saint Laurent\n\n생로랑 파리 크레딧 카드 월렛 코티드 바크 레더 블랙\n\n16%\n\n411,000원\n\n관심 53\n\n · 거래 3"
+        },
+        {
+          "product_id": 56535,
+          "text": "Saint Laurent\n\n생로랑 이스트/웨스트 레더 모노그램 반지갑 블랙\n\n33%\n\n420,000원\n\n관심 645\n\n · 리뷰 11\n\n · 거래 94\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "D49438K0873G07003",
+      "option": "46 IT",
+      "stock": 1,
+      "eur_price": 355.94,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D49438K0873G07003\" SPU=\"D49438K0873G07003\"",
+      "candidates": [
+        {
+          "product_id": 191232,
+          "text": "Gucci\n\n구찌 인터로킹 G 라이톤 스니커즈 블랙 레더\n\n42%\n\n800,000원\n\n관심 41\n\n · 리뷰 4\n\n · 거래 17"
+        },
+        {
+          "product_id": 275214,
+          "text": "Saint Laurent\n\n생로랑 타이니 카산드라 카드 케이스 그레인 레더 블랙\n\n31%\n\n334,000원\n\n관심 275\n\n · 리뷰 1\n\n · 거래 29"
+        },
+        {
+          "product_id": 66634,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 프라그망 지퍼 카드 케이스 블랙\n\n40%\n\n293,000원\n\n관심 258\n\n · 리뷰 1\n\n · 거래 22"
+        },
+        {
+          "product_id": 212973,
+          "text": "Saint Laurent\n\n생로랑 파리 크레딧 카드 월렛 코티드 바크 레더 블랙\n\n16%\n\n411,000원\n\n관심 53\n\n · 거래 3"
+        },
+        {
+          "product_id": 56535,
+          "text": "Saint Laurent\n\n생로랑 이스트/웨스트 레더 모노그램 반지갑 블랙\n\n33%\n\n420,000원\n\n관심 645\n\n · 리뷰 11\n\n · 거래 94\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "D50105H0966703000",
+      "option": "38 IT",
+      "stock": 1,
+      "eur_price": 219.46,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D50105H0966703000\" SPU=\"D50105H0966703000\"",
+      "candidates": [
+        {
+          "product_id": 275214,
+          "text": "Saint Laurent\n\n생로랑 타이니 카산드라 카드 케이스 그레인 레더 블랙\n\n31%\n\n334,000원\n\n관심 275\n\n · 리뷰 1\n\n · 거래 29"
+        },
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,871\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 71617,
+          "text": "Saint Laurent\n\n생로랑 캔버스 레더 코트 클래식 SL/06 자수 스니커즈 크림\n\n37%\n\n613,000원\n\n관심 276\n\n · 리뷰 4\n\n · 거래 73"
+        },
+        {
+          "product_id": 67904,
+          "text": "Saint Laurent\n\n생로랑 레더 실버 모노그램 벨트 블랙\n\n38%\n\n492,000원\n\n관심 1,438\n\n · 리뷰 30\n\n · 거래 408\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 87415,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 파리 카드 케이스 블랙\n\n440,000원\n\n관심 121\n\n · 리뷰 1\n\n · 거래 14"
+        }
+      ]
+    },
+    {
+      "sku": "D50105H0966703000",
+      "option": "40 IT",
+      "stock": 1,
+      "eur_price": 219.46,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D50105H0966703000\" SPU=\"D50105H0966703000\"",
+      "candidates": [
+        {
+          "product_id": 275214,
+          "text": "Saint Laurent\n\n생로랑 타이니 카산드라 카드 케이스 그레인 레더 블랙\n\n31%\n\n334,000원\n\n관심 275\n\n · 리뷰 1\n\n · 거래 29"
+        },
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,871\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 71617,
+          "text": "Saint Laurent\n\n생로랑 캔버스 레더 코트 클래식 SL/06 자수 스니커즈 크림\n\n37%\n\n613,000원\n\n관심 276\n\n · 리뷰 4\n\n · 거래 73"
+        },
+        {
+          "product_id": 67904,
+          "text": "Saint Laurent\n\n생로랑 레더 실버 모노그램 벨트 블랙\n\n38%\n\n492,000원\n\n관심 1,438\n\n · 리뷰 30\n\n · 거래 408\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 87415,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 파리 카드 케이스 블랙\n\n440,000원\n\n관심 121\n\n · 리뷰 1\n\n · 거래 14"
+        }
+      ]
+    },
+    {
+      "sku": "D50105H0966703000",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 219.46,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D50105H0966703000\" SPU=\"D50105H0966703000\"",
+      "candidates": [
+        {
+          "product_id": 275214,
+          "text": "Saint Laurent\n\n생로랑 타이니 카산드라 카드 케이스 그레인 레더 블랙\n\n31%\n\n334,000원\n\n관심 275\n\n · 리뷰 1\n\n · 거래 29"
+        },
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,871\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 71617,
+          "text": "Saint Laurent\n\n생로랑 캔버스 레더 코트 클래식 SL/06 자수 스니커즈 크림\n\n37%\n\n613,000원\n\n관심 276\n\n · 리뷰 4\n\n · 거래 73"
+        },
+        {
+          "product_id": 67904,
+          "text": "Saint Laurent\n\n생로랑 레더 실버 모노그램 벨트 블랙\n\n38%\n\n492,000원\n\n관심 1,438\n\n · 리뷰 30\n\n · 거래 408\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 87415,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 파리 카드 케이스 블랙\n\n440,000원\n\n관심 121\n\n · 리뷰 1\n\n · 거래 14"
+        }
+      ]
+    },
+    {
+      "sku": "D50105H0966703000",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 219.46,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D50105H0966703000\" SPU=\"D50105H0966703000\"",
+      "candidates": [
+        {
+          "product_id": 275214,
+          "text": "Saint Laurent\n\n생로랑 타이니 카산드라 카드 케이스 그레인 레더 블랙\n\n31%\n\n334,000원\n\n관심 275\n\n · 리뷰 1\n\n · 거래 29"
+        },
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,871\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 71617,
+          "text": "Saint Laurent\n\n생로랑 캔버스 레더 코트 클래식 SL/06 자수 스니커즈 크림\n\n37%\n\n613,000원\n\n관심 276\n\n · 리뷰 4\n\n · 거래 73"
+        },
+        {
+          "product_id": 67904,
+          "text": "Saint Laurent\n\n생로랑 레더 실버 모노그램 벨트 블랙\n\n38%\n\n492,000원\n\n관심 1,438\n\n · 리뷰 30\n\n · 거래 408\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 87415,
+          "text": "Saint Laurent\n\n생로랑 샤이니 레더 파리 카드 케이스 블랙\n\n440,000원\n\n관심 121\n\n · 리뷰 1\n\n · 거래 14"
+        }
+      ]
+    },
+    {
+      "sku": "D55770K0868G03001",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 232.38,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D55770K0868G03001\" SPU=\"D55770K0868G03001\"",
+      "candidates": [
+        {
+          "product_id": 840485,
+          "text": "Versace\n\n베르사체 진 꾸뛰르 샌들 블랙 골드\n\n141,000원\n\n관심 1"
+        },
+        {
+          "product_id": 807382,
+          "text": "Versace\n\n베르사체 프린티드 코튼 저지 슬림 티셔츠 블랙\n\n38%\n\n319,000원\n\n관심 2"
+        },
+        {
+          "product_id": 300829,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 트레드 슬릭 레이스 업 블랙 화이트\n\n42%\n\n655,000원\n\n관심 14\n\n · 리뷰 3\n\n · 거래 9"
+        },
+        {
+          "product_id": 319783,
+          "text": "Versace\n\n베르사체 메두사 티셔츠 블랙\n\n69%\n\n190,000원\n\n관심 44\n\n · 거래 2"
+        },
+        {
+          "product_id": 161858,
+          "text": "Versace\n\n베르사체 엠벨리쉬 메두사 로고 티셔츠 블랙\n\n68%\n\n328,000원\n\n관심 30\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "D55770K0868G03001",
+      "option": "46 IT",
+      "stock": 1,
+      "eur_price": 232.38,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D55770K0868G03001\" SPU=\"D55770K0868G03001\"",
+      "candidates": [
+        {
+          "product_id": 840485,
+          "text": "Versace\n\n베르사체 진 꾸뛰르 샌들 블랙 골드\n\n141,000원\n\n관심 1"
+        },
+        {
+          "product_id": 807382,
+          "text": "Versace\n\n베르사체 프린티드 코튼 저지 슬림 티셔츠 블랙\n\n38%\n\n319,000원\n\n관심 2"
+        },
+        {
+          "product_id": 300829,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 트레드 슬릭 레이스 업 블랙 화이트\n\n42%\n\n655,000원\n\n관심 14\n\n · 리뷰 3\n\n · 거래 9"
+        },
+        {
+          "product_id": 319783,
+          "text": "Versace\n\n베르사체 메두사 티셔츠 블랙\n\n69%\n\n190,000원\n\n관심 44\n\n · 거래 2"
+        },
+        {
+          "product_id": 161858,
+          "text": "Versace\n\n베르사체 엠벨리쉬 메두사 로고 티셔츠 블랙\n\n68%\n\n328,000원\n\n관심 30\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "D55770K0868G03001",
+      "option": "48 IT",
+      "stock": 1,
+      "eur_price": 232.38,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D55770K0868G03001\" SPU=\"D55770K0868G03001\"",
+      "candidates": [
+        {
+          "product_id": 840485,
+          "text": "Versace\n\n베르사체 진 꾸뛰르 샌들 블랙 골드\n\n141,000원\n\n관심 1"
+        },
+        {
+          "product_id": 807382,
+          "text": "Versace\n\n베르사체 프린티드 코튼 저지 슬림 티셔츠 블랙\n\n38%\n\n319,000원\n\n관심 2"
+        },
+        {
+          "product_id": 300829,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 트레드 슬릭 레이스 업 블랙 화이트\n\n42%\n\n655,000원\n\n관심 14\n\n · 리뷰 3\n\n · 거래 9"
+        },
+        {
+          "product_id": 319783,
+          "text": "Versace\n\n베르사체 메두사 티셔츠 블랙\n\n69%\n\n190,000원\n\n관심 44\n\n · 거래 2"
+        },
+        {
+          "product_id": 161858,
+          "text": "Versace\n\n베르사체 엠벨리쉬 메두사 로고 티셔츠 블랙\n\n68%\n\n328,000원\n\n관심 30\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN0080903",
+      "option": "6",
+      "stock": 3,
+      "eur_price": 312.29,
+      "matched": true,
+      "product_id": 156576,
+      "product_name_ko": "Kiton",
+      "product_url": "https://kream.co.kr/products/156576",
+      "market": {
+        "last_sale_price": 750000,
+        "lowest_ask": null,
+        "highest_bid": 583000,
+        "change_text": "▼ 71,000원(-12.1%)"
+      },
+      "sales": [
+        {
+          "price": 750000,
+          "option": "EU 43.5(UK 9.5)",
+          "date_created": "2026-05-21T11:37:15Z",
+          "date_text": "26/05/21",
+          "is_immediate": true
+        }
+      ],
+      "asks": [],
+      "bids": [
+        {
+          "price": 583000,
+          "option": "EU 43.5(UK 9.5)",
+          "quantity": 1
+        },
+        {
+          "price": 580000,
+          "option": "EU 43.5(UK 9.5)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 1,
+        "asks": 0,
+        "bids": 2
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 71,000원(-12.1%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 43.5(UK 9.5)",
+      "kream_options_available": [
+        "EU 43.5(UK 9.5)",
+        "EU 42.5",
+        "EU 40.5",
+        "EU 44",
+        "EU 43",
+        "EU 42",
+        "EU 40",
+        "EU 41.5",
+        "EU 41",
+        "EU 39"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "D5770500120001",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 302.09,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D5770500120001\" SPU=\"D5770500120001\"",
+      "candidates": [
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 55\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 700559,
+          "text": "Saint Laurent\n\n생로랑 카산드라 스트랜드 레더 브레이슬릿 블랙\n\n43%\n\n297,000원\n\n관심 16\n\n · 거래 1"
+        },
+        {
+          "product_id": 345792,
+          "text": "Zara\n\n(W) 자라 슬링백 슈즈 블랙\n\n220,000원\n\n관심 18\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 61359,
+          "text": "Saint Laurent\n\n생로랑 레더 오피움 브레이슬릿 실버 블랙\n\n574,000원\n\n관심 717\n\n · 리뷰 1\n\n · 거래 58"
+        },
+        {
+          "product_id": 860175,
+          "text": "Saint Laurent\n\n(W) 생로랑 바빌론 브레테유 슬링백 펌프스 스무스 레더 블랙\n\n25%\n\n1,432,000원\n\n관심 21"
+        }
+      ]
+    },
+    {
+      "sku": "UMK0864K327001",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 419.67,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMK0864K327001\" SPU=\"UMK0864K327001\"",
+      "candidates": [
+        {
+          "product_id": 700559,
+          "text": "Saint Laurent\n\n생로랑 카산드라 스트랜드 레더 브레이슬릿 블랙\n\n43%\n\n297,000원\n\n관심 16\n\n · 거래 1"
+        },
+        {
+          "product_id": 61359,
+          "text": "Saint Laurent\n\n생로랑 레더 오피움 브레이슬릿 실버 블랙\n\n574,000원\n\n관심 717\n\n · 리뷰 1\n\n · 거래 58"
+        },
+        {
+          "product_id": 47228,
+          "text": "Prada\n\n(W) 프라다 리나일론 곱창 헤어밴드 블랙\n\n19%\n\n410,000원\n\n관심 2,068\n\n · 리뷰 19\n\n · 거래 381\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 401307,
+          "text": "Saint Laurent\n\n생로랑 오피움 더블 랩 브레이슬릿 블랙\n\n400,000원\n\n관심 3"
+        },
+        {
+          "product_id": 572210,
+          "text": "Saint Laurent\n\n(W) 생로랑 SL 557 쉐이드 선글라스 다크 하바나 그레이\n\n35%\n\n434,000원\n\n관심 25"
+        }
+      ]
+    },
+    {
+      "sku": "UMK0864K327001",
+      "option": "XXXL",
+      "stock": 1,
+      "eur_price": 419.67,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMK0864K327001\" SPU=\"UMK0864K327001\"",
+      "candidates": [
+        {
+          "product_id": 700559,
+          "text": "Saint Laurent\n\n생로랑 카산드라 스트랜드 레더 브레이슬릿 블랙\n\n43%\n\n297,000원\n\n관심 16\n\n · 거래 1"
+        },
+        {
+          "product_id": 61359,
+          "text": "Saint Laurent\n\n생로랑 레더 오피움 브레이슬릿 실버 블랙\n\n574,000원\n\n관심 717\n\n · 리뷰 1\n\n · 거래 58"
+        },
+        {
+          "product_id": 47228,
+          "text": "Prada\n\n(W) 프라다 리나일론 곱창 헤어밴드 블랙\n\n19%\n\n410,000원\n\n관심 2,068\n\n · 리뷰 19\n\n · 거래 381\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 401307,
+          "text": "Saint Laurent\n\n생로랑 오피움 더블 랩 브레이슬릿 블랙\n\n400,000원\n\n관심 3"
+        },
+        {
+          "product_id": 572210,
+          "text": "Saint Laurent\n\n(W) 생로랑 SL 557 쉐이드 선글라스 다크 하바나 그레이\n\n35%\n\n434,000원\n\n관심 25"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020H7",
+      "option": "10",
+      "stock": 2,
+      "eur_price": 297.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020H7\" SPU=\"USSFITSN00809020H7\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        }
+      ]
+    },
+    {
+      "sku": "UPARF01050BHU",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 95.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UPARF01050BHU\" SPU=\"UPARF01050BHU\"",
+      "candidates": [
+        {
+          "product_id": 61359,
+          "text": "Saint Laurent\n\n생로랑 레더 오피움 브레이슬릿 실버 블랙\n\n574,000원\n\n관심 717\n\n · 리뷰 1\n\n · 거래 58"
+        },
+        {
+          "product_id": 401307,
+          "text": "Saint Laurent\n\n생로랑 오피움 더블 랩 브레이슬릿 블랙\n\n400,000원\n\n관심 3"
+        },
+        {
+          "product_id": 276678,
+          "text": "Saint Laurent\n\n생로랑 생로랑 빈티지 브레이슬릿 레더 앤 메탈 블랙 옥시다이즈드 실버\n\n65%\n\n250,000원\n\n관심 56"
+        },
+        {
+          "product_id": 697299,
+          "text": "Lemaire\n\n르메르 플랫 파이프드 슬리퍼 블랙 다크 초콜릿\n\n42%\n\n625,000원\n\n관심 102\n\n · 리뷰 2\n\n · 거래 7"
+        },
+        {
+          "product_id": 482397,
+          "text": "Saint Laurent\n\n생로랑 SL 572 선글라스 블랙 크리스탈\n\n25%\n\n520,000원\n\n관심 5\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "D60514K0987G03001",
+      "option": "40 IT",
+      "stock": 1,
+      "eur_price": 1372.13,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D60514K0987G03001\" SPU=\"D60514K0987G03001\"",
+      "candidates": [
+        {
+          "product_id": 266595,
+          "text": "Ferragamo\n\n페라가모 브레이디드 레더 브레이슬릿 블랙\n\n255,000원\n\n관심 85\n\n · 거래 3"
+        },
+        {
+          "product_id": 67728,
+          "text": "Gucci\n\n구찌 웹 레더 통 샌들 블랙\n\n38%\n\n350,000원\n\n관심 29\n\n · 리뷰 5\n\n · 거래 20"
+        },
+        {
+          "product_id": 72592,
+          "text": "Ferragamo\n\n페라가모 리버시블 어드저스터블 간치니 벨트 블랙 다크 브라운\n\n45%\n\n408,000원\n\n관심 165\n\n · 리뷰 2\n\n · 거래 104"
+        },
+        {
+          "product_id": 941271,
+          "text": "Ferragamo\n\n페라가모 바이컬러 간치니 브레이슬릿 실버 블랙 레더\n\n50%\n\n280,000원\n\n관심 7"
+        },
+        {
+          "product_id": 344709,
+          "text": "Gucci\n\n구찌 구찌 로고 여권 케이스 블랙\n\n33%\n\n415,000원\n\n관심 4"
+        }
+      ]
+    },
+    {
+      "sku": "D60514K0987G03001",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 1372.13,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D60514K0987G03001\" SPU=\"D60514K0987G03001\"",
+      "candidates": [
+        {
+          "product_id": 266595,
+          "text": "Ferragamo\n\n페라가모 브레이디드 레더 브레이슬릿 블랙\n\n255,000원\n\n관심 85\n\n · 거래 3"
+        },
+        {
+          "product_id": 67728,
+          "text": "Gucci\n\n구찌 웹 레더 통 샌들 블랙\n\n38%\n\n350,000원\n\n관심 29\n\n · 리뷰 5\n\n · 거래 20"
+        },
+        {
+          "product_id": 72592,
+          "text": "Ferragamo\n\n페라가모 리버시블 어드저스터블 간치니 벨트 블랙 다크 브라운\n\n45%\n\n408,000원\n\n관심 165\n\n · 리뷰 2\n\n · 거래 104"
+        },
+        {
+          "product_id": 941271,
+          "text": "Ferragamo\n\n페라가모 바이컬러 간치니 브레이슬릿 실버 블랙 레더\n\n50%\n\n280,000원\n\n관심 7"
+        },
+        {
+          "product_id": 344709,
+          "text": "Gucci\n\n구찌 구찌 로고 여권 케이스 블랙\n\n33%\n\n415,000원\n\n관심 4"
+        }
+      ]
+    },
+    {
+      "sku": "D60514K0987G03001",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 1372.13,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D60514K0987G03001\" SPU=\"D60514K0987G03001\"",
+      "candidates": [
+        {
+          "product_id": 266595,
+          "text": "Ferragamo\n\n페라가모 브레이디드 레더 브레이슬릿 블랙\n\n255,000원\n\n관심 85\n\n · 거래 3"
+        },
+        {
+          "product_id": 67728,
+          "text": "Gucci\n\n구찌 웹 레더 통 샌들 블랙\n\n38%\n\n350,000원\n\n관심 29\n\n · 리뷰 5\n\n · 거래 20"
+        },
+        {
+          "product_id": 72592,
+          "text": "Ferragamo\n\n페라가모 리버시블 어드저스터블 간치니 벨트 블랙 다크 브라운\n\n45%\n\n408,000원\n\n관심 165\n\n · 리뷰 2\n\n · 거래 104"
+        },
+        {
+          "product_id": 941271,
+          "text": "Ferragamo\n\n페라가모 바이컬러 간치니 브레이슬릿 실버 블랙 레더\n\n50%\n\n280,000원\n\n관심 7"
+        },
+        {
+          "product_id": 344709,
+          "text": "Gucci\n\n구찌 구찌 로고 여권 케이스 블랙\n\n33%\n\n415,000원\n\n관심 4"
+        }
+      ]
+    },
+    {
+      "sku": "UMCPOSK06R4911024",
+      "option": "XL",
+      "stock": 3,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCPOSK06R4911024\" SPU=\"UMCPOSK06R4911024\"",
+      "candidates": [
+        {
+          "product_id": 291180,
+          "text": "Givenchy\n\n지방시 GIV 러너 스니커즈 블랙 그레이\n\n500,000원\n\n관심 11"
+        },
+        {
+          "product_id": 569944,
+          "text": "Givenchy\n\n지방시 엘라스틱 밴드 어반 스트리트 레더 스니커즈 화이트 블랙\n\n24%\n\n724,000원\n\n관심 4\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        },
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 125722,
+          "text": "Gucci\n\n구찌 스페셜 핏 스퀘어 프레임 선글라스 블랙 아세테이트\n\n736,000원\n\n관심 11\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "UMCPOSK06R4911024",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCPOSK06R4911024\" SPU=\"UMCPOSK06R4911024\"",
+      "candidates": [
+        {
+          "product_id": 291180,
+          "text": "Givenchy\n\n지방시 GIV 러너 스니커즈 블랙 그레이\n\n500,000원\n\n관심 11"
+        },
+        {
+          "product_id": 569944,
+          "text": "Givenchy\n\n지방시 엘라스틱 밴드 어반 스트리트 레더 스니커즈 화이트 블랙\n\n24%\n\n724,000원\n\n관심 4\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        },
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 125722,
+          "text": "Gucci\n\n구찌 스페셜 핏 스퀘어 프레임 선글라스 블랙 아세테이트\n\n736,000원\n\n관심 11\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "UMCPOSK06R4911024",
+      "option": "XXXL",
+      "stock": 2,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCPOSK06R4911024\" SPU=\"UMCPOSK06R4911024\"",
+      "candidates": [
+        {
+          "product_id": 291180,
+          "text": "Givenchy\n\n지방시 GIV 러너 스니커즈 블랙 그레이\n\n500,000원\n\n관심 11"
+        },
+        {
+          "product_id": 569944,
+          "text": "Givenchy\n\n지방시 엘라스틱 밴드 어반 스트리트 레더 스니커즈 화이트 블랙\n\n24%\n\n724,000원\n\n관심 4\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        },
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 125722,
+          "text": "Gucci\n\n구찌 스페셜 핏 스퀘어 프레임 선글라스 블랙 아세테이트\n\n736,000원\n\n관심 11\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020HE",
+      "option": "10",
+      "stock": 2,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020HE\" SPU=\"USSFITSN00809020HE\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 833858,
+          "text": "Kiton\n\n키톤 로우탑 스니커즈 화이트\n\n445,000원"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020HE",
+      "option": "11",
+      "stock": 4,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020HE\" SPU=\"USSFITSN00809020HE\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 833858,
+          "text": "Kiton\n\n키톤 로우탑 스니커즈 화이트\n\n445,000원"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020HE",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020HE\" SPU=\"USSFITSN00809020HE\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 833858,
+          "text": "Kiton\n\n키톤 로우탑 스니커즈 화이트\n\n445,000원"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020HE",
+      "option": "13",
+      "stock": 1,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020HE\" SPU=\"USSFITSN00809020HE\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 833858,
+          "text": "Kiton\n\n키톤 로우탑 스니커즈 화이트\n\n445,000원"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020HE",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020HE\" SPU=\"USSFITSN00809020HE\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 833858,
+          "text": "Kiton\n\n키톤 로우탑 스니커즈 화이트\n\n445,000원"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020HE",
+      "option": "8",
+      "stock": 3,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020HE\" SPU=\"USSFITSN00809020HE\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 833858,
+          "text": "Kiton\n\n키톤 로우탑 스니커즈 화이트\n\n445,000원"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020HE",
+      "option": "9",
+      "stock": 2,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020HE\" SPU=\"USSFITSN00809020HE\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 833858,
+          "text": "Kiton\n\n키톤 로우탑 스니커즈 화이트\n\n445,000원"
+        }
+      ]
+    },
+    {
+      "sku": "UA85TK0198I01001",
+      "option": "48 IT",
+      "stock": 1,
+      "eur_price": 3452.46,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UA85TK0198I01001\" SPU=\"UA85TK0198I01001\"",
+      "candidates": [
+        {
+          "product_id": 675831,
+          "text": "Givenchy\n\n지방시 어반 스트리트 로우 화이트 네이비\n\n33%\n\n600,000원\n\n관심 3\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 291180,
+          "text": "Givenchy\n\n지방시 GIV 러너 스니커즈 블랙 그레이\n\n500,000원\n\n관심 11"
+        },
+        {
+          "product_id": 569944,
+          "text": "Givenchy\n\n지방시 엘라스틱 밴드 어반 스트리트 레더 스니커즈 화이트 블랙\n\n24%\n\n724,000원\n\n관심 4\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        },
+        {
+          "product_id": 239736,
+          "text": "Givenchy\n\n(W) 지방시 태그 이펙트 4G 프린트 레더 시티 스포츠 스니커즈 화이트 블랙\n\n58%\n\n426,000원\n\n관심 23\n\n · 리뷰 2\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "UA85TK0198I01001",
+      "option": "50 IT",
+      "stock": 1,
+      "eur_price": 3452.46,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UA85TK0198I01001\" SPU=\"UA85TK0198I01001\"",
+      "candidates": [
+        {
+          "product_id": 675831,
+          "text": "Givenchy\n\n지방시 어반 스트리트 로우 화이트 네이비\n\n33%\n\n600,000원\n\n관심 3\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 291180,
+          "text": "Givenchy\n\n지방시 GIV 러너 스니커즈 블랙 그레이\n\n500,000원\n\n관심 11"
+        },
+        {
+          "product_id": 569944,
+          "text": "Givenchy\n\n지방시 엘라스틱 밴드 어반 스트리트 레더 스니커즈 화이트 블랙\n\n24%\n\n724,000원\n\n관심 4\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        },
+        {
+          "product_id": 239736,
+          "text": "Givenchy\n\n(W) 지방시 태그 이펙트 4G 프린트 레더 시티 스포츠 스니커즈 화이트 블랙\n\n58%\n\n426,000원\n\n관심 23\n\n · 리뷰 2\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "UA85TK0198I01001",
+      "option": "52 IT",
+      "stock": 1,
+      "eur_price": 3452.46,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UA85TK0198I01001\" SPU=\"UA85TK0198I01001\"",
+      "candidates": [
+        {
+          "product_id": 675831,
+          "text": "Givenchy\n\n지방시 어반 스트리트 로우 화이트 네이비\n\n33%\n\n600,000원\n\n관심 3\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 291180,
+          "text": "Givenchy\n\n지방시 GIV 러너 스니커즈 블랙 그레이\n\n500,000원\n\n관심 11"
+        },
+        {
+          "product_id": 569944,
+          "text": "Givenchy\n\n지방시 엘라스틱 밴드 어반 스트리트 레더 스니커즈 화이트 블랙\n\n24%\n\n724,000원\n\n관심 4\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        },
+        {
+          "product_id": 239736,
+          "text": "Givenchy\n\n(W) 지방시 태그 이펙트 4G 프린트 레더 시티 스포츠 스니커즈 화이트 블랙\n\n58%\n\n426,000원\n\n관심 23\n\n · 리뷰 2\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "UA85TK0198I01001",
+      "option": "54 IT",
+      "stock": 1,
+      "eur_price": 3452.46,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UA85TK0198I01001\" SPU=\"UA85TK0198I01001\"",
+      "candidates": [
+        {
+          "product_id": 675831,
+          "text": "Givenchy\n\n지방시 어반 스트리트 로우 화이트 네이비\n\n33%\n\n600,000원\n\n관심 3\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 291180,
+          "text": "Givenchy\n\n지방시 GIV 러너 스니커즈 블랙 그레이\n\n500,000원\n\n관심 11"
+        },
+        {
+          "product_id": 569944,
+          "text": "Givenchy\n\n지방시 엘라스틱 밴드 어반 스트리트 레더 스니커즈 화이트 블랙\n\n24%\n\n724,000원\n\n관심 4\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        },
+        {
+          "product_id": 239736,
+          "text": "Givenchy\n\n(W) 지방시 태그 이펙트 4G 프린트 레더 시티 스포츠 스니커즈 화이트 블랙\n\n58%\n\n426,000원\n\n관심 23\n\n · 리뷰 2\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "UMK0864K5008",
+      "option": "XXXL",
+      "stock": 1,
+      "eur_price": 419.67,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMK0864K5008\" SPU=\"UMK0864K5008\"",
+      "candidates": [
+        {
+          "product_id": 328503,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 플렉션 스니커즈 블랙\n\n52%\n\n499,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 239736,
+          "text": "Givenchy\n\n(W) 지방시 태그 이펙트 4G 프린트 레더 시티 스포츠 스니커즈 화이트 블랙\n\n58%\n\n426,000원\n\n관심 23\n\n · 리뷰 2\n\n · 거래 1"
+        },
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 706529,
+          "text": "Alexander McQueen\n\n(W) 알렉산더 맥퀸 트레드 슬릭 레이스업 블랙 화이트\n\n37%\n\n572,000원\n\n관심 12"
+        },
+        {
+          "product_id": 103014,
+          "text": "Givenchy\n\n지방시 TK-MX 메쉬 러너 스니커즈 블랙\n\n58%\n\n539,000원\n\n관심 3,342\n\n · 리뷰 135\n\n · 거래 569"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN0080901",
+      "option": "12",
+      "stock": 1,
+      "eur_price": 312.29,
+      "matched": true,
+      "product_id": 110861,
+      "product_name_ko": "Kiton",
+      "product_url": "https://kream.co.kr/products/110861",
+      "market": {
+        "last_sale_price": 614000,
+        "lowest_ask": 679000,
+        "highest_bid": 485000,
+        "change_text": "▲ 250,000원(+41.7%)"
+      },
+      "sales": [
+        {
+          "price": 614000,
+          "option": "EU 43",
+          "date_created": "2026-05-07T19:22:18Z",
+          "date_text": "26/05/08",
+          "is_immediate": false
+        },
+        {
+          "price": 645000,
+          "option": "EU 43",
+          "date_created": "2026-03-27T01:30:16Z",
+          "date_text": "26/03/27",
+          "is_immediate": false
+        },
+        {
+          "price": 785000,
+          "option": "EU 43",
+          "date_created": "2025-11-09T16:12:26Z",
+          "date_text": "25/11/10",
+          "is_immediate": false
+        },
+        {
+          "price": 645000,
+          "option": "EU 43",
+          "date_created": "2025-10-28T14:19:05Z",
+          "date_text": "25/10/28",
+          "is_immediate": false
+        },
+        {
+          "price": 685000,
+          "option": "EU 43",
+          "date_created": "2025-04-19T07:09:23Z",
+          "date_text": "25/04/19",
+          "is_immediate": false
+        },
+        {
+          "price": 489000,
+          "option": "EU 43",
+          "date_created": "2024-09-10T09:09:34Z",
+          "date_text": "24/09/10",
+          "is_immediate": false
+        },
+        {
+          "price": 450000,
+          "option": "EU 43",
+          "date_created": "2024-08-17T06:40:45Z",
+          "date_text": "24/08/17",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 679000,
+          "option": "EU 43",
+          "quantity": 1
+        },
+        {
+          "price": 700000,
+          "option": "EU 43",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 485000,
+          "option": "EU 43",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 7,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 250,000원(+41.7%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 43",
+      "kream_options_available": [
+        "EU 43",
+        "EU 41",
+        "EU 41.5",
+        "EU 40",
+        "EU 40.5",
+        "EU 42",
+        "EU 42.5",
+        "EU 39.5",
+        "EU 39"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "USSFITSN0080901",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 312.29,
+      "matched": true,
+      "product_id": 110861,
+      "product_name_ko": "Kiton",
+      "product_url": "https://kream.co.kr/products/110861",
+      "market": {
+        "last_sale_price": 614000,
+        "lowest_ask": 679000,
+        "highest_bid": 485000,
+        "change_text": "▲ 250,000원(+41.7%)"
+      },
+      "sales": [
+        {
+          "price": 614000,
+          "option": "EU 43",
+          "date_created": "2026-05-07T19:22:18Z",
+          "date_text": "26/05/08",
+          "is_immediate": false
+        },
+        {
+          "price": 645000,
+          "option": "EU 43",
+          "date_created": "2026-03-27T01:30:16Z",
+          "date_text": "26/03/27",
+          "is_immediate": false
+        },
+        {
+          "price": 785000,
+          "option": "EU 43",
+          "date_created": "2025-11-09T16:12:26Z",
+          "date_text": "25/11/10",
+          "is_immediate": false
+        },
+        {
+          "price": 645000,
+          "option": "EU 43",
+          "date_created": "2025-10-28T14:19:05Z",
+          "date_text": "25/10/28",
+          "is_immediate": false
+        },
+        {
+          "price": 685000,
+          "option": "EU 43",
+          "date_created": "2025-04-19T07:09:23Z",
+          "date_text": "25/04/19",
+          "is_immediate": false
+        },
+        {
+          "price": 489000,
+          "option": "EU 43",
+          "date_created": "2024-09-10T09:09:34Z",
+          "date_text": "24/09/10",
+          "is_immediate": false
+        },
+        {
+          "price": 450000,
+          "option": "EU 43",
+          "date_created": "2024-08-17T06:40:45Z",
+          "date_text": "24/08/17",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 679000,
+          "option": "EU 43",
+          "quantity": 1
+        },
+        {
+          "price": 700000,
+          "option": "EU 43",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 485000,
+          "option": "EU 43",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 7,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 250,000원(+41.7%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 43",
+      "kream_options_available": [
+        "EU 43",
+        "EU 41",
+        "EU 41.5",
+        "EU 40",
+        "EU 40.5",
+        "EU 42",
+        "EU 42.5",
+        "EU 39.5",
+        "EU 39"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "USSFITSN0080901",
+      "option": "7",
+      "stock": 1,
+      "eur_price": 312.29,
+      "matched": true,
+      "product_id": 110861,
+      "product_name_ko": "Kiton",
+      "product_url": "https://kream.co.kr/products/110861",
+      "market": {
+        "last_sale_price": 614000,
+        "lowest_ask": 679000,
+        "highest_bid": 485000,
+        "change_text": "▲ 250,000원(+41.7%)"
+      },
+      "sales": [
+        {
+          "price": 614000,
+          "option": "EU 43",
+          "date_created": "2026-05-07T19:22:18Z",
+          "date_text": "26/05/08",
+          "is_immediate": false
+        },
+        {
+          "price": 645000,
+          "option": "EU 43",
+          "date_created": "2026-03-27T01:30:16Z",
+          "date_text": "26/03/27",
+          "is_immediate": false
+        },
+        {
+          "price": 785000,
+          "option": "EU 43",
+          "date_created": "2025-11-09T16:12:26Z",
+          "date_text": "25/11/10",
+          "is_immediate": false
+        },
+        {
+          "price": 645000,
+          "option": "EU 43",
+          "date_created": "2025-10-28T14:19:05Z",
+          "date_text": "25/10/28",
+          "is_immediate": false
+        },
+        {
+          "price": 685000,
+          "option": "EU 43",
+          "date_created": "2025-04-19T07:09:23Z",
+          "date_text": "25/04/19",
+          "is_immediate": false
+        },
+        {
+          "price": 489000,
+          "option": "EU 43",
+          "date_created": "2024-09-10T09:09:34Z",
+          "date_text": "24/09/10",
+          "is_immediate": false
+        },
+        {
+          "price": 450000,
+          "option": "EU 43",
+          "date_created": "2024-08-17T06:40:45Z",
+          "date_text": "24/08/17",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 679000,
+          "option": "EU 43",
+          "quantity": 1
+        },
+        {
+          "price": 700000,
+          "option": "EU 43",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 485000,
+          "option": "EU 43",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 7,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 250,000원(+41.7%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 43",
+      "kream_options_available": [
+        "EU 43",
+        "EU 41",
+        "EU 41.5",
+        "EU 40",
+        "EU 40.5",
+        "EU 42",
+        "EU 42.5",
+        "EU 39.5",
+        "EU 39"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "UPARF010408HU",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 95.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UPARF010408HU\" SPU=\"UPARF010408HU\"",
+      "candidates": [
+        {
+          "product_id": 328503,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 플렉션 스니커즈 블랙\n\n52%\n\n499,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 61359,
+          "text": "Saint Laurent\n\n생로랑 레더 오피움 브레이슬릿 실버 블랙\n\n574,000원\n\n관심 717\n\n · 리뷰 1\n\n · 거래 58"
+        },
+        {
+          "product_id": 276678,
+          "text": "Saint Laurent\n\n생로랑 생로랑 빈티지 브레이슬릿 레더 앤 메탈 블랙 옥시다이즈드 실버\n\n65%\n\n250,000원\n\n관심 56"
+        },
+        {
+          "product_id": 326420,
+          "text": "Givenchy\n\n지방시 아키타 오버사이즈 코튼 티셔츠 블랙\n\n413,000원\n\n관심 14\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 30017,
+          "text": "Alexander McQueen\n\n(W) 알렉산더 맥퀸 오버사이즈드 스니커즈 블랙\n\n25%\n\n537,000원\n\n관심 19\n\n · 리뷰 1\n\n · 거래 9"
+        }
+      ]
+    },
+    {
+      "sku": "UPARF01010AXU",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 95.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UPARF01010AXU\" SPU=\"UPARF01010AXU\"",
+      "candidates": [
+        {
+          "product_id": 328503,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 플렉션 스니커즈 블랙\n\n52%\n\n499,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 61359,
+          "text": "Saint Laurent\n\n생로랑 레더 오피움 브레이슬릿 실버 블랙\n\n574,000원\n\n관심 717\n\n · 리뷰 1\n\n · 거래 58"
+        },
+        {
+          "product_id": 706529,
+          "text": "Alexander McQueen\n\n(W) 알렉산더 맥퀸 트레드 슬릭 레이스업 블랙 화이트\n\n37%\n\n572,000원\n\n관심 12"
+        },
+        {
+          "product_id": 266595,
+          "text": "Ferragamo\n\n페라가모 브레이디드 레더 브레이슬릿 블랙\n\n255,000원\n\n관심 85\n\n · 거래 3"
+        },
+        {
+          "product_id": 30017,
+          "text": "Alexander McQueen\n\n(W) 알렉산더 맥퀸 오버사이즈드 스니커즈 블랙\n\n25%\n\n537,000원\n\n관심 19\n\n · 리뷰 1\n\n · 거래 9"
+        }
+      ]
+    },
+    {
+      "sku": "D61215H0969003001",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 372.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D61215H0969003001\" SPU=\"D61215H0969003001\"",
+      "candidates": [
+        {
+          "product_id": 250071,
+          "text": "Givenchy\n\n지방시 러버 웰컴 슬라이드 플랫 샌들 블랙\n\n24%\n\n339,000원\n\n관심 40\n\n · 리뷰 6\n\n · 거래 24\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 719907,
+          "text": "Burberry\n\n버버리 로고 스트랩 레더 샌들 블랙\n\n66%\n\n320,000원\n\n관심 2"
+        },
+        {
+          "product_id": 266595,
+          "text": "Ferragamo\n\n페라가모 브레이디드 레더 브레이슬릿 블랙\n\n255,000원\n\n관심 85\n\n · 거래 3"
+        },
+        {
+          "product_id": 118649,
+          "text": "Givenchy\n\n지방시 러버 올 오버 프린트 플랫 샌들 블랙\n\n210,000원\n\n관심 8\n\n · 거래 1"
+        },
+        {
+          "product_id": 700559,
+          "text": "Saint Laurent\n\n생로랑 카산드라 스트랜드 레더 브레이슬릿 블랙\n\n43%\n\n297,000원\n\n관심 16\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090309K",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090309K\" SPU=\"USSFITSN008090309K\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090309K",
+      "option": "13",
+      "stock": 1,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090309K\" SPU=\"USSFITSN008090309K\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090308H",
+      "option": "43.5",
+      "stock": 3,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090308H\" SPU=\"USSFITSN008090308H\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090308H",
+      "option": "44",
+      "stock": 5,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090308H\" SPU=\"USSFITSN008090308H\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090308H",
+      "option": "45",
+      "stock": 3,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090308H\" SPU=\"USSFITSN008090308H\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090308H",
+      "option": "46",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090308H\" SPU=\"USSFITSN008090308H\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        }
+      ]
+    },
+    {
+      "sku": "USSA397N0138207002",
+      "option": "41",
+      "stock": 2,
+      "eur_price": 383.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA397N0138207002\" SPU=\"USSA397N0138207002\"",
+      "candidates": [
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        },
+        {
+          "product_id": 852864,
+          "text": "Givenchy\n\n지방시 스탬프 프린트 코튼 티셔츠 블랙\n\n51%\n\n470,000원\n\n관심 6\n\n · 거래 1"
+        },
+        {
+          "product_id": 338325,
+          "text": "Givenchy\n\n지방시 집 나일론 백팩 블랙\n\n66%\n\n649,000원\n\n관심 90\n\n · 리뷰 1\n\n · 거래 5"
+        },
+        {
+          "product_id": 411034,
+          "text": "Versace\n\n베르사체 시그니처 로고 테리 후드 배스로브 블랙\n\n360,000원\n\n관심 18"
+        }
+      ]
+    },
+    {
+      "sku": "USSA397N0138207002",
+      "option": "42",
+      "stock": 1,
+      "eur_price": 383.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA397N0138207002\" SPU=\"USSA397N0138207002\"",
+      "candidates": [
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        },
+        {
+          "product_id": 852864,
+          "text": "Givenchy\n\n지방시 스탬프 프린트 코튼 티셔츠 블랙\n\n51%\n\n470,000원\n\n관심 6\n\n · 거래 1"
+        },
+        {
+          "product_id": 338325,
+          "text": "Givenchy\n\n지방시 집 나일론 백팩 블랙\n\n66%\n\n649,000원\n\n관심 90\n\n · 리뷰 1\n\n · 거래 5"
+        },
+        {
+          "product_id": 411034,
+          "text": "Versace\n\n베르사체 시그니처 로고 테리 후드 배스로브 블랙\n\n360,000원\n\n관심 18"
+        }
+      ]
+    },
+    {
+      "sku": "USSA397N0138207002",
+      "option": "43",
+      "stock": 2,
+      "eur_price": 383.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA397N0138207002\" SPU=\"USSA397N0138207002\"",
+      "candidates": [
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        },
+        {
+          "product_id": 852864,
+          "text": "Givenchy\n\n지방시 스탬프 프린트 코튼 티셔츠 블랙\n\n51%\n\n470,000원\n\n관심 6\n\n · 거래 1"
+        },
+        {
+          "product_id": 338325,
+          "text": "Givenchy\n\n지방시 집 나일론 백팩 블랙\n\n66%\n\n649,000원\n\n관심 90\n\n · 리뷰 1\n\n · 거래 5"
+        },
+        {
+          "product_id": 411034,
+          "text": "Versace\n\n베르사체 시그니처 로고 테리 후드 배스로브 블랙\n\n360,000원\n\n관심 18"
+        }
+      ]
+    },
+    {
+      "sku": "USSA397N0138207002",
+      "option": "44",
+      "stock": 3,
+      "eur_price": 383.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA397N0138207002\" SPU=\"USSA397N0138207002\"",
+      "candidates": [
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        },
+        {
+          "product_id": 852864,
+          "text": "Givenchy\n\n지방시 스탬프 프린트 코튼 티셔츠 블랙\n\n51%\n\n470,000원\n\n관심 6\n\n · 거래 1"
+        },
+        {
+          "product_id": 338325,
+          "text": "Givenchy\n\n지방시 집 나일론 백팩 블랙\n\n66%\n\n649,000원\n\n관심 90\n\n · 리뷰 1\n\n · 거래 5"
+        },
+        {
+          "product_id": 411034,
+          "text": "Versace\n\n베르사체 시그니처 로고 테리 후드 배스로브 블랙\n\n360,000원\n\n관심 18"
+        }
+      ]
+    },
+    {
+      "sku": "USSA397N0138207002",
+      "option": "45",
+      "stock": 1,
+      "eur_price": 383.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA397N0138207002\" SPU=\"USSA397N0138207002\"",
+      "candidates": [
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        },
+        {
+          "product_id": 852864,
+          "text": "Givenchy\n\n지방시 스탬프 프린트 코튼 티셔츠 블랙\n\n51%\n\n470,000원\n\n관심 6\n\n · 거래 1"
+        },
+        {
+          "product_id": 338325,
+          "text": "Givenchy\n\n지방시 집 나일론 백팩 블랙\n\n66%\n\n649,000원\n\n관심 90\n\n · 리뷰 1\n\n · 거래 5"
+        },
+        {
+          "product_id": 411034,
+          "text": "Versace\n\n베르사체 시그니처 로고 테리 후드 배스로브 블랙\n\n360,000원\n\n관심 18"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491100",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491100\" SPU=\"UMCBUBAK06R491100\"",
+      "candidates": [
+        {
+          "product_id": 118649,
+          "text": "Givenchy\n\n지방시 러버 올 오버 프린트 플랫 샌들 블랙\n\n210,000원\n\n관심 8\n\n · 거래 1"
+        },
+        {
+          "product_id": 328503,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 플렉션 스니커즈 블랙\n\n52%\n\n499,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 239736,
+          "text": "Givenchy\n\n(W) 지방시 태그 이펙트 4G 프린트 레더 시티 스포츠 스니커즈 화이트 블랙\n\n58%\n\n426,000원\n\n관심 23\n\n · 리뷰 2\n\n · 거래 1"
+        },
+        {
+          "product_id": 326420,
+          "text": "Givenchy\n\n지방시 아키타 오버사이즈 코튼 티셔츠 블랙\n\n413,000원\n\n관심 14\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491100",
+      "option": "M",
+      "stock": 3,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491100\" SPU=\"UMCBUBAK06R491100\"",
+      "candidates": [
+        {
+          "product_id": 118649,
+          "text": "Givenchy\n\n지방시 러버 올 오버 프린트 플랫 샌들 블랙\n\n210,000원\n\n관심 8\n\n · 거래 1"
+        },
+        {
+          "product_id": 328503,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 플렉션 스니커즈 블랙\n\n52%\n\n499,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 239736,
+          "text": "Givenchy\n\n(W) 지방시 태그 이펙트 4G 프린트 레더 시티 스포츠 스니커즈 화이트 블랙\n\n58%\n\n426,000원\n\n관심 23\n\n · 리뷰 2\n\n · 거래 1"
+        },
+        {
+          "product_id": 326420,
+          "text": "Givenchy\n\n지방시 아키타 오버사이즈 코튼 티셔츠 블랙\n\n413,000원\n\n관심 14\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491100",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491100\" SPU=\"UMCBUBAK06R491100\"",
+      "candidates": [
+        {
+          "product_id": 118649,
+          "text": "Givenchy\n\n지방시 러버 올 오버 프린트 플랫 샌들 블랙\n\n210,000원\n\n관심 8\n\n · 거래 1"
+        },
+        {
+          "product_id": 328503,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 플렉션 스니커즈 블랙\n\n52%\n\n499,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 239736,
+          "text": "Givenchy\n\n(W) 지방시 태그 이펙트 4G 프린트 레더 시티 스포츠 스니커즈 화이트 블랙\n\n58%\n\n426,000원\n\n관심 23\n\n · 리뷰 2\n\n · 거래 1"
+        },
+        {
+          "product_id": 326420,
+          "text": "Givenchy\n\n지방시 아키타 오버사이즈 코튼 티셔츠 블랙\n\n413,000원\n\n관심 14\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        }
+      ]
+    },
+    {
+      "sku": "D48122K0873G07004",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 427.87,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D48122K0873G07004\" SPU=\"D48122K0873G07004\"",
+      "candidates": [
+        {
+          "product_id": 328503,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 플렉션 스니커즈 블랙\n\n52%\n\n499,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 250071,
+          "text": "Givenchy\n\n지방시 러버 웰컴 슬라이드 플랫 샌들 블랙\n\n24%\n\n339,000원\n\n관심 40\n\n · 리뷰 6\n\n · 거래 24\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 534084,
+          "text": "Versace\n\n(W) 베르사체 아웃라인 바로코 다이나믹 스니커즈 화이트\n\n49%\n\n219,000원\n\n관심 5\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 72194,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 오버사이즈드 트리플 스트랩 스니커즈 화이트 블랙\n\n45%\n\n495,000원\n\n관심 159\n\n · 리뷰 3\n\n · 거래 57"
+        },
+        {
+          "product_id": 840425,
+          "text": "Versace\n\n(W) 베르사체 진 꾸뛰르 메이사 스니커즈 화이트 골드\n\n226,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "D48122K0873G07004",
+      "option": "46 IT",
+      "stock": 1,
+      "eur_price": 427.87,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D48122K0873G07004\" SPU=\"D48122K0873G07004\"",
+      "candidates": [
+        {
+          "product_id": 328503,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 플렉션 스니커즈 블랙\n\n52%\n\n499,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 250071,
+          "text": "Givenchy\n\n지방시 러버 웰컴 슬라이드 플랫 샌들 블랙\n\n24%\n\n339,000원\n\n관심 40\n\n · 리뷰 6\n\n · 거래 24\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 534084,
+          "text": "Versace\n\n(W) 베르사체 아웃라인 바로코 다이나믹 스니커즈 화이트\n\n49%\n\n219,000원\n\n관심 5\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 72194,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 오버사이즈드 트리플 스트랩 스니커즈 화이트 블랙\n\n45%\n\n495,000원\n\n관심 159\n\n · 리뷰 3\n\n · 거래 57"
+        },
+        {
+          "product_id": 840425,
+          "text": "Versace\n\n(W) 베르사체 진 꾸뛰르 메이사 스니커즈 화이트 골드\n\n226,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "D48122K0873G07004",
+      "option": "48 IT",
+      "stock": 1,
+      "eur_price": 427.87,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D48122K0873G07004\" SPU=\"D48122K0873G07004\"",
+      "candidates": [
+        {
+          "product_id": 328503,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 플렉션 스니커즈 블랙\n\n52%\n\n499,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 250071,
+          "text": "Givenchy\n\n지방시 러버 웰컴 슬라이드 플랫 샌들 블랙\n\n24%\n\n339,000원\n\n관심 40\n\n · 리뷰 6\n\n · 거래 24\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 534084,
+          "text": "Versace\n\n(W) 베르사체 아웃라인 바로코 다이나믹 스니커즈 화이트\n\n49%\n\n219,000원\n\n관심 5\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 72194,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 오버사이즈드 트리플 스트랩 스니커즈 화이트 블랙\n\n45%\n\n495,000원\n\n관심 159\n\n · 리뷰 3\n\n · 거래 57"
+        },
+        {
+          "product_id": 840425,
+          "text": "Versace\n\n(W) 베르사체 진 꾸뛰르 메이사 스니커즈 화이트 골드\n\n226,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805Z",
+      "option": "10",
+      "stock": 5,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805Z\" SPU=\"USSFITSN008090805Z\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805Z",
+      "option": "11",
+      "stock": 4,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805Z\" SPU=\"USSFITSN008090805Z\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805Z",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805Z\" SPU=\"USSFITSN008090805Z\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805Z",
+      "option": "7",
+      "stock": 3,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805Z\" SPU=\"USSFITSN008090805Z\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805Z",
+      "option": "8",
+      "stock": 4,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805Z\" SPU=\"USSFITSN008090805Z\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805Z",
+      "option": "9",
+      "stock": 5,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805Z\" SPU=\"USSFITSN008090805Z\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012171800V",
+      "option": "10",
+      "stock": 4,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012171800V\" SPU=\"USSA031N012171800V\"",
+      "candidates": [
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 852864,
+          "text": "Givenchy\n\n지방시 스탬프 프린트 코튼 티셔츠 블랙\n\n51%\n\n470,000원\n\n관심 6\n\n · 거래 1"
+        },
+        {
+          "product_id": 63828,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 센터 백 스트라이프 후드 집업 네이비\n\n42%\n\n830,000원\n\n관심 1,770\n\n · 리뷰 100\n\n · 거래 481\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 102566,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 암밴드 후디 네이비\n\n47%\n\n1,398,000원\n\n관심 1,900\n\n · 리뷰 24\n\n · 거래 269"
+        },
+        {
+          "product_id": 37603,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 네이비\n\n37%\n\n750,000원\n\n관심 3,597\n\n · 리뷰 121\n\n · 거래 801\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012171800V",
+      "option": "11",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012171800V\" SPU=\"USSA031N012171800V\"",
+      "candidates": [
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 852864,
+          "text": "Givenchy\n\n지방시 스탬프 프린트 코튼 티셔츠 블랙\n\n51%\n\n470,000원\n\n관심 6\n\n · 거래 1"
+        },
+        {
+          "product_id": 63828,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 센터 백 스트라이프 후드 집업 네이비\n\n42%\n\n830,000원\n\n관심 1,770\n\n · 리뷰 100\n\n · 거래 481\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 102566,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 암밴드 후디 네이비\n\n47%\n\n1,398,000원\n\n관심 1,900\n\n · 리뷰 24\n\n · 거래 269"
+        },
+        {
+          "product_id": 37603,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 네이비\n\n37%\n\n750,000원\n\n관심 3,597\n\n · 리뷰 121\n\n · 거래 801\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012171800V",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012171800V\" SPU=\"USSA031N012171800V\"",
+      "candidates": [
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 852864,
+          "text": "Givenchy\n\n지방시 스탬프 프린트 코튼 티셔츠 블랙\n\n51%\n\n470,000원\n\n관심 6\n\n · 거래 1"
+        },
+        {
+          "product_id": 63828,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 센터 백 스트라이프 후드 집업 네이비\n\n42%\n\n830,000원\n\n관심 1,770\n\n · 리뷰 100\n\n · 거래 481\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 102566,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 암밴드 후디 네이비\n\n47%\n\n1,398,000원\n\n관심 1,900\n\n · 리뷰 24\n\n · 거래 269"
+        },
+        {
+          "product_id": 37603,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 네이비\n\n37%\n\n750,000원\n\n관심 3,597\n\n · 리뷰 121\n\n · 거래 801\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012171800V",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012171800V\" SPU=\"USSA031N012171800V\"",
+      "candidates": [
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 852864,
+          "text": "Givenchy\n\n지방시 스탬프 프린트 코튼 티셔츠 블랙\n\n51%\n\n470,000원\n\n관심 6\n\n · 거래 1"
+        },
+        {
+          "product_id": 63828,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 센터 백 스트라이프 후드 집업 네이비\n\n42%\n\n830,000원\n\n관심 1,770\n\n · 리뷰 100\n\n · 거래 481\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 102566,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 암밴드 후디 네이비\n\n47%\n\n1,398,000원\n\n관심 1,900\n\n · 리뷰 24\n\n · 거래 269"
+        },
+        {
+          "product_id": 37603,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 네이비\n\n37%\n\n750,000원\n\n관심 3,597\n\n · 리뷰 121\n\n · 거래 801\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012171800V",
+      "option": "8",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012171800V\" SPU=\"USSA031N012171800V\"",
+      "candidates": [
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 852864,
+          "text": "Givenchy\n\n지방시 스탬프 프린트 코튼 티셔츠 블랙\n\n51%\n\n470,000원\n\n관심 6\n\n · 거래 1"
+        },
+        {
+          "product_id": 63828,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 센터 백 스트라이프 후드 집업 네이비\n\n42%\n\n830,000원\n\n관심 1,770\n\n · 리뷰 100\n\n · 거래 481\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 102566,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 암밴드 후디 네이비\n\n47%\n\n1,398,000원\n\n관심 1,900\n\n · 리뷰 24\n\n · 거래 269"
+        },
+        {
+          "product_id": 37603,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 네이비\n\n37%\n\n750,000원\n\n관심 3,597\n\n · 리뷰 121\n\n · 거래 801\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012171800V",
+      "option": "9",
+      "stock": 3,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012171800V\" SPU=\"USSA031N012171800V\"",
+      "candidates": [
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 852864,
+          "text": "Givenchy\n\n지방시 스탬프 프린트 코튼 티셔츠 블랙\n\n51%\n\n470,000원\n\n관심 6\n\n · 거래 1"
+        },
+        {
+          "product_id": 63828,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 센터 백 스트라이프 후드 집업 네이비\n\n42%\n\n830,000원\n\n관심 1,770\n\n · 리뷰 100\n\n · 거래 481\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 102566,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 암밴드 후디 네이비\n\n47%\n\n1,398,000원\n\n관심 1,900\n\n · 리뷰 24\n\n · 거래 269"
+        },
+        {
+          "product_id": 37603,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 네이비\n\n37%\n\n750,000원\n\n관심 3,597\n\n · 리뷰 121\n\n · 거래 801\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "UW2305V0820H01003",
+      "option": "50 IT",
+      "stock": 2,
+      "eur_price": 1086.89,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UW2305V0820H01003\" SPU=\"UW2305V0820H01003\"",
+      "candidates": [
+        {
+          "product_id": 64243,
+          "text": "Thom Browne\n\n톰브라운 몰드 러버 스트라이프 플립 플랍 화이트\n\n34%\n\n280,000원\n\n관심 103\n\n · 리뷰 1\n\n · 거래 16"
+        },
+        {
+          "product_id": 64232,
+          "text": "Thom Browne\n\n(W) 톰브라운 몰드 러버 스트라이프 플립 플랍 블랙\n\n44%\n\n237,000원\n\n관심 68\n\n · 거래 9"
+        },
+        {
+          "product_id": 140152,
+          "text": "Tory Burch\n\n(W) 토리버치 클래식 플립 플랍 퍼펙트 블랙\n\n217,000원\n\n관심 32\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 62112,
+          "text": "Valentino\n\n(W) 발렌티노 락스터드 플랫 러버 샌들 블랙\n\n34%\n\n359,000원\n\n관심 453\n\n · 리뷰 8\n\n · 거래 88\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 252505,
+          "text": "Tory Burch\n\n토리버치 키라 플립 플랍 아이보리\n\n139,000원\n\n관심 34\n\n · 리뷰 2\n\n · 거래 11"
+        }
+      ]
+    },
+    {
+      "sku": "UW2305V0820H01003",
+      "option": "54 IT",
+      "stock": 2,
+      "eur_price": 1086.89,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UW2305V0820H01003\" SPU=\"UW2305V0820H01003\"",
+      "candidates": [
+        {
+          "product_id": 64243,
+          "text": "Thom Browne\n\n톰브라운 몰드 러버 스트라이프 플립 플랍 화이트\n\n34%\n\n280,000원\n\n관심 103\n\n · 리뷰 1\n\n · 거래 16"
+        },
+        {
+          "product_id": 64232,
+          "text": "Thom Browne\n\n(W) 톰브라운 몰드 러버 스트라이프 플립 플랍 블랙\n\n44%\n\n237,000원\n\n관심 68\n\n · 거래 9"
+        },
+        {
+          "product_id": 140152,
+          "text": "Tory Burch\n\n(W) 토리버치 클래식 플립 플랍 퍼펙트 블랙\n\n217,000원\n\n관심 32\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 62112,
+          "text": "Valentino\n\n(W) 발렌티노 락스터드 플랫 러버 샌들 블랙\n\n34%\n\n359,000원\n\n관심 453\n\n · 리뷰 8\n\n · 거래 88\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 252505,
+          "text": "Tory Burch\n\n토리버치 키라 플립 플랍 아이보리\n\n139,000원\n\n관심 34\n\n · 리뷰 2\n\n · 거래 11"
+        }
+      ]
+    },
+    {
+      "sku": "UW2305V0820H01003",
+      "option": "56 IT",
+      "stock": 1,
+      "eur_price": 1086.89,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UW2305V0820H01003\" SPU=\"UW2305V0820H01003\"",
+      "candidates": [
+        {
+          "product_id": 64243,
+          "text": "Thom Browne\n\n톰브라운 몰드 러버 스트라이프 플립 플랍 화이트\n\n34%\n\n280,000원\n\n관심 103\n\n · 리뷰 1\n\n · 거래 16"
+        },
+        {
+          "product_id": 64232,
+          "text": "Thom Browne\n\n(W) 톰브라운 몰드 러버 스트라이프 플립 플랍 블랙\n\n44%\n\n237,000원\n\n관심 68\n\n · 거래 9"
+        },
+        {
+          "product_id": 140152,
+          "text": "Tory Burch\n\n(W) 토리버치 클래식 플립 플랍 퍼펙트 블랙\n\n217,000원\n\n관심 32\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 62112,
+          "text": "Valentino\n\n(W) 발렌티노 락스터드 플랫 러버 샌들 블랙\n\n34%\n\n359,000원\n\n관심 453\n\n · 리뷰 8\n\n · 거래 88\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 252505,
+          "text": "Tory Burch\n\n토리버치 키라 플립 플랍 아이보리\n\n139,000원\n\n관심 34\n\n · 리뷰 2\n\n · 거래 11"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008093408V",
+      "option": "42",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008093408V\" SPU=\"USSFITSN008093408V\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008093408V",
+      "option": "43",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008093408V\" SPU=\"USSFITSN008093408V\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008093408V",
+      "option": "43.5",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008093408V\" SPU=\"USSFITSN008093408V\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008093408V",
+      "option": "45",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008093408V\" SPU=\"USSFITSN008093408V\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "UPARF010307XU",
+      "option": "U",
+      "stock": 6,
+      "eur_price": 95.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UPARF010307XU\" SPU=\"UPARF010307XU\"",
+      "candidates": [
+        {
+          "product_id": 118649,
+          "text": "Givenchy\n\n지방시 러버 올 오버 프린트 플랫 샌들 블랙\n\n210,000원\n\n관심 8\n\n · 거래 1"
+        },
+        {
+          "product_id": 451570,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 캡 토 더비 블랙\n\n53%\n\n690,000원"
+        },
+        {
+          "product_id": 569944,
+          "text": "Givenchy\n\n지방시 엘라스틱 밴드 어반 스트리트 레더 스니커즈 화이트 블랙\n\n24%\n\n724,000원\n\n관심 4\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 549604,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 데크 스케이트 플림솔 스니커즈 블랙 화이트\n\n407,000원\n\n관심 3"
+        },
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491300",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491300\" SPU=\"UMCBUBAK06R491300\"",
+      "candidates": [
+        {
+          "product_id": 118649,
+          "text": "Givenchy\n\n지방시 러버 올 오버 프린트 플랫 샌들 블랙\n\n210,000원\n\n관심 8\n\n · 거래 1"
+        },
+        {
+          "product_id": 250071,
+          "text": "Givenchy\n\n지방시 러버 웰컴 슬라이드 플랫 샌들 블랙\n\n24%\n\n339,000원\n\n관심 40\n\n · 리뷰 6\n\n · 거래 24\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 328503,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 플렉션 스니커즈 블랙\n\n52%\n\n499,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491300",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491300\" SPU=\"UMCBUBAK06R491300\"",
+      "candidates": [
+        {
+          "product_id": 118649,
+          "text": "Givenchy\n\n지방시 러버 올 오버 프린트 플랫 샌들 블랙\n\n210,000원\n\n관심 8\n\n · 거래 1"
+        },
+        {
+          "product_id": 250071,
+          "text": "Givenchy\n\n지방시 러버 웰컴 슬라이드 플랫 샌들 블랙\n\n24%\n\n339,000원\n\n관심 40\n\n · 리뷰 6\n\n · 거래 24\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 328503,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 플렉션 스니커즈 블랙\n\n52%\n\n499,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491300",
+      "option": "XL",
+      "stock": 3,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491300\" SPU=\"UMCBUBAK06R491300\"",
+      "candidates": [
+        {
+          "product_id": 118649,
+          "text": "Givenchy\n\n지방시 러버 올 오버 프린트 플랫 샌들 블랙\n\n210,000원\n\n관심 8\n\n · 거래 1"
+        },
+        {
+          "product_id": 250071,
+          "text": "Givenchy\n\n지방시 러버 웰컴 슬라이드 플랫 샌들 블랙\n\n24%\n\n339,000원\n\n관심 40\n\n · 리뷰 6\n\n · 거래 24\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 328503,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 플렉션 스니커즈 블랙\n\n52%\n\n499,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 103872,
+          "text": "Givenchy\n\n지방시 시티 코트 스니커즈 화이트 블랙\n\n624,000원\n\n관심 272\n\n · 리뷰 8\n\n · 거래 55"
+        }
+      ]
+    },
+    {
+      "sku": "UMJ002602000",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 1138.52,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMJ002602000\" SPU=\"UMJ002602000\"",
+      "candidates": [
+        {
+          "product_id": 328503,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 플렉션 스니커즈 블랙\n\n52%\n\n499,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 706529,
+          "text": "Alexander McQueen\n\n(W) 알렉산더 맥퀸 트레드 슬릭 레이스업 블랙 화이트\n\n37%\n\n572,000원\n\n관심 12"
+        },
+        {
+          "product_id": 549551,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 트레드 슬릭 스니커즈 블랙 화이트\n\n551,000원\n\n관심 9\n\n · 거래 1"
+        },
+        {
+          "product_id": 291180,
+          "text": "Givenchy\n\n지방시 GIV 러너 스니커즈 블랙 그레이\n\n500,000원\n\n관심 11"
+        }
+      ]
+    },
+    {
+      "sku": "UMJ002602000",
+      "option": "XXXL",
+      "stock": 1,
+      "eur_price": 1138.52,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMJ002602000\" SPU=\"UMJ002602000\"",
+      "candidates": [
+        {
+          "product_id": 328503,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 플렉션 스니커즈 블랙\n\n52%\n\n499,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 706529,
+          "text": "Alexander McQueen\n\n(W) 알렉산더 맥퀸 트레드 슬릭 레이스업 블랙 화이트\n\n37%\n\n572,000원\n\n관심 12"
+        },
+        {
+          "product_id": 549551,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 트레드 슬릭 스니커즈 블랙 화이트\n\n551,000원\n\n관심 9\n\n · 거래 1"
+        },
+        {
+          "product_id": 291180,
+          "text": "Givenchy\n\n지방시 GIV 러너 스니커즈 블랙 그레이\n\n500,000원\n\n관심 11"
+        }
+      ]
+    },
+    {
+      "sku": "D57616K0920C0145",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 752.46,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D57616K0920C0145\" SPU=\"D57616K0920C0145\"",
+      "candidates": [
+        {
+          "product_id": 72194,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 오버사이즈드 트리플 스트랩 스니커즈 화이트 블랙\n\n45%\n\n495,000원\n\n관심 159\n\n · 리뷰 3\n\n · 거래 57"
+        },
+        {
+          "product_id": 328503,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 플렉션 스니커즈 블랙\n\n52%\n\n499,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 549551,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 트레드 슬릭 스니커즈 블랙 화이트\n\n551,000원\n\n관심 9\n\n · 거래 1"
+        },
+        {
+          "product_id": 706529,
+          "text": "Alexander McQueen\n\n(W) 알렉산더 맥퀸 트레드 슬릭 레이스업 블랙 화이트\n\n37%\n\n572,000원\n\n관심 12"
+        },
+        {
+          "product_id": 75034,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 코트 트레이너 화이트 블랙\n\n16%\n\n599,000원\n\n관심 388\n\n · 리뷰 12\n\n · 거래 193"
+        }
+      ]
+    },
+    {
+      "sku": "UMK0458V110A001",
+      "option": "XXXL",
+      "stock": 3,
+      "eur_price": 658,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMK0458V110A001\" SPU=\"UMK0458V110A001\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 229176,
+          "text": "Thom Browne\n\n톰브라운 울 플란넬 클리어 솔 테크 러너 미디움 그레이\n\n46%\n\n625,000원\n\n관심 32\n\n · 거래 12"
+        },
+        {
+          "product_id": 328503,
+          "text": "Alexander McQueen\n\n알렉산더 맥퀸 플렉션 스니커즈 블랙\n\n52%\n\n499,000원\n\n관심 23\n\n · 거래 1"
+        },
+        {
+          "product_id": 451570,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 캡 토 더비 블랙\n\n53%\n\n690,000원"
+        },
+        {
+          "product_id": 317703,
+          "text": "Thom Browne\n\n톰브라운 에코 나일론 얼럼나이 트레이너 시즈널 멀티컬러\n\n55%\n\n680,000원\n\n관심 144\n\n · 리뷰 6\n\n · 거래 38\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805O",
+      "option": "41",
+      "stock": 3,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805O\" SPU=\"USSFITSN008090805O\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805O",
+      "option": "42",
+      "stock": 3,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805O\" SPU=\"USSFITSN008090805O\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805O",
+      "option": "42.5",
+      "stock": 3,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805O\" SPU=\"USSFITSN008090805O\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805O",
+      "option": "43",
+      "stock": 4,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805O\" SPU=\"USSFITSN008090805O\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805O",
+      "option": "43.5",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805O\" SPU=\"USSFITSN008090805O\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805O",
+      "option": "44",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805O\" SPU=\"USSFITSN008090805O\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805O",
+      "option": "45",
+      "stock": 3,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805O\" SPU=\"USSFITSN008090805O\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805O",
+      "option": "46",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805O\" SPU=\"USSFITSN008090805O\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSA421N0141305002",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA421N0141305002\" SPU=\"USSA421N0141305002\"",
+      "candidates": [
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 71627,
+          "text": "Thom Browne\n\n톰브라운 파인 키드 스웨이드 테크 러너 네이비\n\n32%\n\n774,000원\n\n관심 203\n\n · 리뷰 8\n\n · 거래 61"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "USSA421N0141305002",
+      "option": "41",
+      "stock": 2,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA421N0141305002\" SPU=\"USSA421N0141305002\"",
+      "candidates": [
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 71627,
+          "text": "Thom Browne\n\n톰브라운 파인 키드 스웨이드 테크 러너 네이비\n\n32%\n\n774,000원\n\n관심 203\n\n · 리뷰 8\n\n · 거래 61"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "USSA421N0141305002",
+      "option": "42",
+      "stock": 3,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA421N0141305002\" SPU=\"USSA421N0141305002\"",
+      "candidates": [
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 71627,
+          "text": "Thom Browne\n\n톰브라운 파인 키드 스웨이드 테크 러너 네이비\n\n32%\n\n774,000원\n\n관심 203\n\n · 리뷰 8\n\n · 거래 61"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "USSA421N0141305002",
+      "option": "43",
+      "stock": 3,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA421N0141305002\" SPU=\"USSA421N0141305002\"",
+      "candidates": [
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 71627,
+          "text": "Thom Browne\n\n톰브라운 파인 키드 스웨이드 테크 러너 네이비\n\n32%\n\n774,000원\n\n관심 203\n\n · 리뷰 8\n\n · 거래 61"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "USSA421N0141305002",
+      "option": "44",
+      "stock": 2,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA421N0141305002\" SPU=\"USSA421N0141305002\"",
+      "candidates": [
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 71627,
+          "text": "Thom Browne\n\n톰브라운 파인 키드 스웨이드 테크 러너 네이비\n\n32%\n\n774,000원\n\n관심 203\n\n · 리뷰 8\n\n · 거래 61"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "USSA421N0141305002",
+      "option": "45",
+      "stock": 2,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA421N0141305002\" SPU=\"USSA421N0141305002\"",
+      "candidates": [
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 71627,
+          "text": "Thom Browne\n\n톰브라운 파인 키드 스웨이드 테크 러너 네이비\n\n32%\n\n774,000원\n\n관심 203\n\n · 리뷰 8\n\n · 거래 61"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 152483,
+          "text": "Givenchy\n\n지방시 코튼 아키타입 슬림핏 티셔츠 블랙\n\n46%\n\n371,000원\n\n관심 78\n\n · 리뷰 2\n\n · 거래 14"
+        },
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010CI",
+      "option": "43",
+      "stock": 1,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010CI\" SPU=\"USSFITSN00809010CI\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010CI",
+      "option": "43.5",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010CI\" SPU=\"USSFITSN00809010CI\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010CI",
+      "option": "45",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010CI\" SPU=\"USSFITSN00809010CI\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 124\n\n · 리뷰 2\n\n · 거래 109"
+        }
+      ]
+    },
+    {
+      "sku": "UPARF010208CU",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 95.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UPARF010208CU\" SPU=\"UPARF010208CU\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 291180,
+          "text": "Givenchy\n\n지방시 GIV 러너 스니커즈 블랙 그레이\n\n500,000원\n\n관심 11"
+        },
+        {
+          "product_id": 451570,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 캡 토 더비 블랙\n\n53%\n\n690,000원"
+        },
+        {
+          "product_id": 430040,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 솔 롱윙 브로그 다크 그레이\n\n640,000원\n\n관심 1"
+        },
+        {
+          "product_id": 229176,
+          "text": "Thom Browne\n\n톰브라운 울 플란넬 클리어 솔 테크 러너 미디움 그레이\n\n46%\n\n625,000원\n\n관심 32\n\n · 거래 12"
+        }
+      ]
+    },
+    {
+      "sku": "UMJ002605000",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 1138.52,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMJ002605000\" SPU=\"UMJ002605000\"",
+      "candidates": [
+        {
+          "product_id": 452411,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 롱윙 브로그 네이비\n\n49%\n\n585,000원\n\n관심 3"
+        },
+        {
+          "product_id": 681194,
+          "text": "Thom Browne\n\n톰브라운 오버사이즈 롱슬리브 저지 티셔츠 네이비\n\n56%\n\n419,000원\n\n관심 8\n\n · 거래 1"
+        },
+        {
+          "product_id": 69833,
+          "text": "Thom Browne\n\n톰브라운 슈퍼 120수 울 트윌 싱글 브레스티드 클래식 자켓 네이비\n\n41%\n\n1,866,000원\n\n관심 147\n\n · 리뷰 8\n\n · 거래 18"
+        },
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        },
+        {
+          "product_id": 73028,
+          "text": "Thom Browne\n\n톰브라운 솔리드 스윔 테크 사선 후드 아노락 네이비\n\n47%\n\n1,497,000원\n\n관심 25"
+        }
+      ]
+    },
+    {
+      "sku": "UMJ002605000",
+      "option": "XXXL",
+      "stock": 2,
+      "eur_price": 1138.52,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMJ002605000\" SPU=\"UMJ002605000\"",
+      "candidates": [
+        {
+          "product_id": 452411,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 롱윙 브로그 네이비\n\n49%\n\n585,000원\n\n관심 3"
+        },
+        {
+          "product_id": 681194,
+          "text": "Thom Browne\n\n톰브라운 오버사이즈 롱슬리브 저지 티셔츠 네이비\n\n56%\n\n419,000원\n\n관심 8\n\n · 거래 1"
+        },
+        {
+          "product_id": 69833,
+          "text": "Thom Browne\n\n톰브라운 슈퍼 120수 울 트윌 싱글 브레스티드 클래식 자켓 네이비\n\n41%\n\n1,866,000원\n\n관심 147\n\n · 리뷰 8\n\n · 거래 18"
+        },
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        },
+        {
+          "product_id": 73028,
+          "text": "Thom Browne\n\n톰브라운 솔리드 스윔 테크 사선 후드 아노락 네이비\n\n47%\n\n1,497,000원\n\n관심 25"
+        }
+      ]
+    },
+    {
+      "sku": "D61425H0969003002",
+      "option": "40 IT",
+      "stock": 1,
+      "eur_price": 411.27,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D61425H0969003002\" SPU=\"D61425H0969003002\"",
+      "candidates": [
+        {
+          "product_id": 118649,
+          "text": "Givenchy\n\n지방시 러버 올 오버 프린트 플랫 샌들 블랙\n\n210,000원\n\n관심 8\n\n · 거래 1"
+        },
+        {
+          "product_id": 250071,
+          "text": "Givenchy\n\n지방시 러버 웰컴 슬라이드 플랫 샌들 블랙\n\n24%\n\n339,000원\n\n관심 40\n\n · 리뷰 6\n\n · 거래 24\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 451570,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 캡 토 더비 블랙\n\n53%\n\n690,000원"
+        },
+        {
+          "product_id": 291180,
+          "text": "Givenchy\n\n지방시 GIV 러너 스니커즈 블랙 그레이\n\n500,000원\n\n관심 11"
+        },
+        {
+          "product_id": 27829,
+          "text": "Balenciaga\n\n발렌시아가 파이신 슬라이드 샌들 블랙 화이트\n\n9%\n\n395,000원\n\n관심 52\n\n · 리뷰 5\n\n · 거래 13"
+        }
+      ]
+    },
+    {
+      "sku": "D61425H0969003002",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 411.27,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D61425H0969003002\" SPU=\"D61425H0969003002\"",
+      "candidates": [
+        {
+          "product_id": 118649,
+          "text": "Givenchy\n\n지방시 러버 올 오버 프린트 플랫 샌들 블랙\n\n210,000원\n\n관심 8\n\n · 거래 1"
+        },
+        {
+          "product_id": 250071,
+          "text": "Givenchy\n\n지방시 러버 웰컴 슬라이드 플랫 샌들 블랙\n\n24%\n\n339,000원\n\n관심 40\n\n · 리뷰 6\n\n · 거래 24\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 451570,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 캡 토 더비 블랙\n\n53%\n\n690,000원"
+        },
+        {
+          "product_id": 291180,
+          "text": "Givenchy\n\n지방시 GIV 러너 스니커즈 블랙 그레이\n\n500,000원\n\n관심 11"
+        },
+        {
+          "product_id": 27829,
+          "text": "Balenciaga\n\n발렌시아가 파이신 슬라이드 샌들 블랙 화이트\n\n9%\n\n395,000원\n\n관심 52\n\n · 리뷰 5\n\n · 거래 13"
+        }
+      ]
+    },
+    {
+      "sku": "D61425H0969003002",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 411.27,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D61425H0969003002\" SPU=\"D61425H0969003002\"",
+      "candidates": [
+        {
+          "product_id": 118649,
+          "text": "Givenchy\n\n지방시 러버 올 오버 프린트 플랫 샌들 블랙\n\n210,000원\n\n관심 8\n\n · 거래 1"
+        },
+        {
+          "product_id": 250071,
+          "text": "Givenchy\n\n지방시 러버 웰컴 슬라이드 플랫 샌들 블랙\n\n24%\n\n339,000원\n\n관심 40\n\n · 리뷰 6\n\n · 거래 24\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 451570,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 캡 토 더비 블랙\n\n53%\n\n690,000원"
+        },
+        {
+          "product_id": 291180,
+          "text": "Givenchy\n\n지방시 GIV 러너 스니커즈 블랙 그레이\n\n500,000원\n\n관심 11"
+        },
+        {
+          "product_id": 27829,
+          "text": "Balenciaga\n\n발렌시아가 파이신 슬라이드 샌들 블랙 화이트\n\n9%\n\n395,000원\n\n관심 52\n\n · 리뷰 5\n\n · 거래 13"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172700K",
+      "option": "10",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172700K\" SPU=\"USSA031N012172700K\"",
+      "candidates": [
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 141866,
+          "text": "Thom Browne\n\n톰브라운 라이트웨이트 앵커 루프백 사선 후드 집업 네이비\n\n49%\n\n970,000원\n\n관심 53\n\n · 리뷰 2\n\n · 거래 4"
+        },
+        {
+          "product_id": 63833,
+          "text": "Thom Browne\n\n톰브라운 마이크로 체크 자카드 사선 후드 집업 네이비\n\n46%\n\n999,000원\n\n관심 65\n\n · 거래 6"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172700K",
+      "option": "11",
+      "stock": 1,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172700K\" SPU=\"USSA031N012172700K\"",
+      "candidates": [
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 141866,
+          "text": "Thom Browne\n\n톰브라운 라이트웨이트 앵커 루프백 사선 후드 집업 네이비\n\n49%\n\n970,000원\n\n관심 53\n\n · 리뷰 2\n\n · 거래 4"
+        },
+        {
+          "product_id": 63833,
+          "text": "Thom Browne\n\n톰브라운 마이크로 체크 자카드 사선 후드 집업 네이비\n\n46%\n\n999,000원\n\n관심 65\n\n · 거래 6"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172700K",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172700K\" SPU=\"USSA031N012172700K\"",
+      "candidates": [
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 141866,
+          "text": "Thom Browne\n\n톰브라운 라이트웨이트 앵커 루프백 사선 후드 집업 네이비\n\n49%\n\n970,000원\n\n관심 53\n\n · 리뷰 2\n\n · 거래 4"
+        },
+        {
+          "product_id": 63833,
+          "text": "Thom Browne\n\n톰브라운 마이크로 체크 자카드 사선 후드 집업 네이비\n\n46%\n\n999,000원\n\n관심 65\n\n · 거래 6"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172700K",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172700K\" SPU=\"USSA031N012172700K\"",
+      "candidates": [
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 141866,
+          "text": "Thom Browne\n\n톰브라운 라이트웨이트 앵커 루프백 사선 후드 집업 네이비\n\n49%\n\n970,000원\n\n관심 53\n\n · 리뷰 2\n\n · 거래 4"
+        },
+        {
+          "product_id": 63833,
+          "text": "Thom Browne\n\n톰브라운 마이크로 체크 자카드 사선 후드 집업 네이비\n\n46%\n\n999,000원\n\n관심 65\n\n · 거래 6"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172700K",
+      "option": "9",
+      "stock": 1,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172700K\" SPU=\"USSA031N012172700K\"",
+      "candidates": [
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 141866,
+          "text": "Thom Browne\n\n톰브라운 라이트웨이트 앵커 루프백 사선 후드 집업 네이비\n\n49%\n\n970,000원\n\n관심 53\n\n · 리뷰 2\n\n · 거래 4"
+        },
+        {
+          "product_id": 63833,
+          "text": "Thom Browne\n\n톰브라운 마이크로 체크 자카드 사선 후드 집업 네이비\n\n46%\n\n999,000원\n\n관심 65\n\n · 거래 6"
+        }
+      ]
+    },
+    {
+      "sku": "UBA0057N012700100I",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 427.87,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UBA0057N012700100I\" SPU=\"UBA0057N012700100I\"",
+      "candidates": [
+        {
+          "product_id": 338325,
+          "text": "Givenchy\n\n지방시 집 나일론 백팩 블랙\n\n66%\n\n649,000원\n\n관심 90\n\n · 리뷰 1\n\n · 거래 5"
+        },
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 437423,
+          "text": "Moncler\n\n(키즈) 몽클레르 후드 플리스 트레이닝 세트 블랙 - 24FW\n\n470,000원\n\n관심 4"
+        },
+        {
+          "product_id": 63833,
+          "text": "Thom Browne\n\n톰브라운 마이크로 체크 자카드 사선 후드 집업 네이비\n\n46%\n\n999,000원\n\n관심 65\n\n · 거래 6"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020FM",
+      "option": "45",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020FM\" SPU=\"USSFITSN00809020FM\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 431167,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 신 니트 러너 그레이 그린\n\n751,000원\n\n관심 5\n\n · 리뷰 2\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020FM",
+      "option": "46",
+      "stock": 1,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020FM\" SPU=\"USSFITSN00809020FM\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 359134,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n27%\n\n695,000원\n\n관심 24\n\n · 거래 12"
+        },
+        {
+          "product_id": 431167,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 신 니트 러너 그레이 그린\n\n751,000원\n\n관심 5\n\n · 리뷰 2\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITBN008090300X",
+      "option": "41.5",
+      "stock": 3,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITBN008090300X\" SPU=\"USSFITBN008090300X\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 431167,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 신 니트 러너 그레이 그린\n\n751,000원\n\n관심 5\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 585366,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 히트 본디드 디테일 테크노 코튼 니트 러너 라이트 그레이\n\n999,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 343321,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 니트 세미 폴리쉬드 카프스킨 러너 블루\n\n39%\n\n926,000원\n\n관심 58\n\n · 리뷰 1\n\n · 거래 47"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITBN008090300X",
+      "option": "42.5",
+      "stock": 1,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITBN008090300X\" SPU=\"USSFITBN008090300X\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 431167,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 신 니트 러너 그레이 그린\n\n751,000원\n\n관심 5\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 585366,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 히트 본디드 디테일 테크노 코튼 니트 러너 라이트 그레이\n\n999,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 343321,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 니트 세미 폴리쉬드 카프스킨 러너 블루\n\n39%\n\n926,000원\n\n관심 58\n\n · 리뷰 1\n\n · 거래 47"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITBN008090300X",
+      "option": "43.5",
+      "stock": 1,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITBN008090300X\" SPU=\"USSFITBN008090300X\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 431167,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 신 니트 러너 그레이 그린\n\n751,000원\n\n관심 5\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 585366,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 히트 본디드 디테일 테크노 코튼 니트 러너 라이트 그레이\n\n999,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 343321,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 니트 세미 폴리쉬드 카프스킨 러너 블루\n\n39%\n\n926,000원\n\n관심 58\n\n · 리뷰 1\n\n · 거래 47"
+        }
+      ]
+    },
+    {
+      "sku": "UMCPOSK06R491202T",
+      "option": "XXXL",
+      "stock": 1,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCPOSK06R491202T\" SPU=\"UMCPOSK06R491202T\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 291180,
+          "text": "Givenchy\n\n지방시 GIV 러너 스니커즈 블랙 그레이\n\n500,000원\n\n관심 11"
+        },
+        {
+          "product_id": 118649,
+          "text": "Givenchy\n\n지방시 러버 올 오버 프린트 플랫 샌들 블랙\n\n210,000원\n\n관심 8\n\n · 거래 1"
+        },
+        {
+          "product_id": 451570,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 캡 토 더비 블랙\n\n53%\n\n690,000원"
+        },
+        {
+          "product_id": 569944,
+          "text": "Givenchy\n\n지방시 엘라스틱 밴드 어반 스트리트 레더 스니커즈 화이트 블랙\n\n24%\n\n724,000원\n\n관심 4\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010DI",
+      "option": "10",
+      "stock": 6,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010DI\" SPU=\"USSFITSN00809010DI\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 431167,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 신 니트 러너 그레이 그린\n\n751,000원\n\n관심 5\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 585366,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 히트 본디드 디테일 테크노 코튼 니트 러너 라이트 그레이\n\n999,000원\n\n관심 3\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010DI",
+      "option": "11",
+      "stock": 3,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010DI\" SPU=\"USSFITSN00809010DI\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 431167,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 신 니트 러너 그레이 그린\n\n751,000원\n\n관심 5\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 585366,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 히트 본디드 디테일 테크노 코튼 니트 러너 라이트 그레이\n\n999,000원\n\n관심 3\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010DI",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010DI\" SPU=\"USSFITSN00809010DI\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 431167,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 신 니트 러너 그레이 그린\n\n751,000원\n\n관심 5\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 585366,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 히트 본디드 디테일 테크노 코튼 니트 러너 라이트 그레이\n\n999,000원\n\n관심 3\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010DI",
+      "option": "13",
+      "stock": 1,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010DI\" SPU=\"USSFITSN00809010DI\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 431167,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 신 니트 러너 그레이 그린\n\n751,000원\n\n관심 5\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 585366,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 히트 본디드 디테일 테크노 코튼 니트 러너 라이트 그레이\n\n999,000원\n\n관심 3\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010DI",
+      "option": "8",
+      "stock": 5,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010DI\" SPU=\"USSFITSN00809010DI\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 431167,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 신 니트 러너 그레이 그린\n\n751,000원\n\n관심 5\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 585366,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 히트 본디드 디테일 테크노 코튼 니트 러너 라이트 그레이\n\n999,000원\n\n관심 3\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010DI",
+      "option": "9",
+      "stock": 5,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010DI\" SPU=\"USSFITSN00809010DI\"",
+      "candidates": [
+        {
+          "product_id": 496610,
+          "text": "Thom Browne\n\n톰브라운 나일론 테크 러너 스니커즈 라이트 그레이\n\n550,000원\n\n관심 13"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n43%\n\n515,000원\n\n관심 272\n\n · 리뷰 28\n\n · 거래 325\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 431167,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 코튼 신 니트 러너 그레이 그린\n\n751,000원\n\n관심 5\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 110860,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 그레이\n\n47%\n\n630,000원\n\n관심 10\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 585366,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 히트 본디드 디테일 테크노 코튼 니트 러너 라이트 그레이\n\n999,000원\n\n관심 3\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172400P",
+      "option": "10",
+      "stock": 4,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172400P\" SPU=\"USSA031N012172400P\"",
+      "candidates": [
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        },
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 59016,
+          "text": "Thom Browne\n\n톰브라운 클래식 루프백 센터 백 RWB 스트라이프 후드 풀오버 라이트 그레이\n\n40%\n\n727,000원\n\n관심 194\n\n · 리뷰 6\n\n · 거래 42"
+        },
+        {
+          "product_id": 59015,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 라이트 그레이\n\n35%\n\n780,000원\n\n관심 2,166\n\n · 리뷰 79\n\n · 거래 459\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172400P",
+      "option": "11",
+      "stock": 3,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172400P\" SPU=\"USSA031N012172400P\"",
+      "candidates": [
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        },
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 59016,
+          "text": "Thom Browne\n\n톰브라운 클래식 루프백 센터 백 RWB 스트라이프 후드 풀오버 라이트 그레이\n\n40%\n\n727,000원\n\n관심 194\n\n · 리뷰 6\n\n · 거래 42"
+        },
+        {
+          "product_id": 59015,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 라이트 그레이\n\n35%\n\n780,000원\n\n관심 2,166\n\n · 리뷰 79\n\n · 거래 459\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172400P",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172400P\" SPU=\"USSA031N012172400P\"",
+      "candidates": [
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        },
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 59016,
+          "text": "Thom Browne\n\n톰브라운 클래식 루프백 센터 백 RWB 스트라이프 후드 풀오버 라이트 그레이\n\n40%\n\n727,000원\n\n관심 194\n\n · 리뷰 6\n\n · 거래 42"
+        },
+        {
+          "product_id": 59015,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 라이트 그레이\n\n35%\n\n780,000원\n\n관심 2,166\n\n · 리뷰 79\n\n · 거래 459\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172400P",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172400P\" SPU=\"USSA031N012172400P\"",
+      "candidates": [
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        },
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 59016,
+          "text": "Thom Browne\n\n톰브라운 클래식 루프백 센터 백 RWB 스트라이프 후드 풀오버 라이트 그레이\n\n40%\n\n727,000원\n\n관심 194\n\n · 리뷰 6\n\n · 거래 42"
+        },
+        {
+          "product_id": 59015,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 라이트 그레이\n\n35%\n\n780,000원\n\n관심 2,166\n\n · 리뷰 79\n\n · 거래 459\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172400P",
+      "option": "8",
+      "stock": 3,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172400P\" SPU=\"USSA031N012172400P\"",
+      "candidates": [
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        },
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 59016,
+          "text": "Thom Browne\n\n톰브라운 클래식 루프백 센터 백 RWB 스트라이프 후드 풀오버 라이트 그레이\n\n40%\n\n727,000원\n\n관심 194\n\n · 리뷰 6\n\n · 거래 42"
+        },
+        {
+          "product_id": 59015,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 라이트 그레이\n\n35%\n\n780,000원\n\n관심 2,166\n\n · 리뷰 79\n\n · 거래 459\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172400P",
+      "option": "9",
+      "stock": 3,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172400P\" SPU=\"USSA031N012172400P\"",
+      "candidates": [
+        {
+          "product_id": 52182,
+          "text": "Thom Browne\n\n톰브라운 멀티 지퍼 포켓 히든 후드 오버사이즈 집업 자켓 네이비\n\n689,000원\n\n관심 35\n\n · 거래 1"
+        },
+        {
+          "product_id": 64749,
+          "text": "Thom Browne\n\n톰브라운 루프백 저지 니트 센터백 스트라이프 풀오버 후드 네이비\n\n50%\n\n707,000원\n\n관심 175\n\n · 리뷰 10\n\n · 거래 41"
+        },
+        {
+          "product_id": 123769,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 브로더리 앙글레즈 릴렉스드 후드 네이비\n\n64%\n\n705,000원\n\n관심 246\n\n · 리뷰 12\n\n · 거래 54"
+        },
+        {
+          "product_id": 59016,
+          "text": "Thom Browne\n\n톰브라운 클래식 루프백 센터 백 RWB 스트라이프 후드 풀오버 라이트 그레이\n\n40%\n\n727,000원\n\n관심 194\n\n · 리뷰 6\n\n · 거래 42"
+        },
+        {
+          "product_id": 59015,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 라이트 그레이\n\n35%\n\n780,000원\n\n관심 2,166\n\n · 리뷰 79\n\n · 거래 459\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    }
+  ]
+}
