@@ -1,0 +1,4264 @@
+{
+  "fetched_at": "2026-06-27T03:48:09.353Z",
+  "input_file": "targets-kiton.json",
+  "total_targets": 130,
+  "matched": 4,
+  "failed": 126,
+  "results": [
+    {
+      "sku": "D56108K0920C0145",
+      "option": "40 IT",
+      "stock": 1,
+      "eur_price": 346.11,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D56108K0920C0145\" SPU=\"D56108K0920C0145\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 828\n\n · 리뷰 12\n\n · 거래 46"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 350652,
+          "text": "Celine\n\n(W) 셀린느 말라케 트리옹프 로퍼 폴리쉬드 불스킨 블랙\n\n33%\n\n999,000원\n\n관심 72\n\n · 거래 4\n\n빠른배송\n\n6/29(월) 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN0080987001",
+      "option": "10",
+      "stock": 3,
+      "eur_price": 297.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN0080987001\" SPU=\"USSFITSN0080987001\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 90881,
+          "text": "Tod's\n\n토즈 레더 로퍼 블랙\n\n25%\n\n596,000원\n\n관심 364\n\n · 리뷰 12\n\n · 거래 44"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN0080987001",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 297.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN0080987001\" SPU=\"USSFITSN0080987001\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 90881,
+          "text": "Tod's\n\n토즈 레더 로퍼 블랙\n\n25%\n\n596,000원\n\n관심 364\n\n · 리뷰 12\n\n · 거래 44"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN0080987001",
+      "option": "8",
+      "stock": 2,
+      "eur_price": 297.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN0080987001\" SPU=\"USSFITSN0080987001\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 90881,
+          "text": "Tod's\n\n토즈 레더 로퍼 블랙\n\n25%\n\n596,000원\n\n관심 364\n\n · 리뷰 12\n\n · 거래 44"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491200",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491200\" SPU=\"UMCBUBAK06R491200\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 56084,
+          "text": "Miu Miu\n\n(W) 미우 미우 가죽 페니 로퍼 블랙\n\n31%\n\n1,185,000원\n\n관심 3,246\n\n · 리뷰 58\n\n · 거래 444\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 399325,
+          "text": "Miu Miu\n\n(W) 미우 미우 나파 레더 로퍼 블랙\n\n26%\n\n1,165,000원\n\n관심 228\n\n · 리뷰 3\n\n · 거래 16"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491200",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491200\" SPU=\"UMCBUBAK06R491200\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 56084,
+          "text": "Miu Miu\n\n(W) 미우 미우 가죽 페니 로퍼 블랙\n\n31%\n\n1,185,000원\n\n관심 3,246\n\n · 리뷰 58\n\n · 거래 444\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 399325,
+          "text": "Miu Miu\n\n(W) 미우 미우 나파 레더 로퍼 블랙\n\n26%\n\n1,165,000원\n\n관심 228\n\n · 리뷰 3\n\n · 거래 16"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491200",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491200\" SPU=\"UMCBUBAK06R491200\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 56084,
+          "text": "Miu Miu\n\n(W) 미우 미우 가죽 페니 로퍼 블랙\n\n31%\n\n1,185,000원\n\n관심 3,246\n\n · 리뷰 58\n\n · 거래 444\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 399325,
+          "text": "Miu Miu\n\n(W) 미우 미우 나파 레더 로퍼 블랙\n\n26%\n\n1,165,000원\n\n관심 228\n\n · 리뷰 3\n\n · 거래 16"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491200",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491200\" SPU=\"UMCBUBAK06R491200\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 56084,
+          "text": "Miu Miu\n\n(W) 미우 미우 가죽 페니 로퍼 블랙\n\n31%\n\n1,185,000원\n\n관심 3,246\n\n · 리뷰 58\n\n · 거래 444\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 399325,
+          "text": "Miu Miu\n\n(W) 미우 미우 나파 레더 로퍼 블랙\n\n26%\n\n1,165,000원\n\n관심 228\n\n · 리뷰 3\n\n · 거래 16"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        }
+      ]
+    },
+    {
+      "sku": "D57513K0977A3200Q",
+      "option": "46 IT",
+      "stock": 1,
+      "eur_price": 1363.94,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D57513K0977A3200Q\" SPU=\"D57513K0977A3200Q\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 828\n\n · 리뷰 12\n\n · 거래 46"
+        },
+        {
+          "product_id": 53987,
+          "text": "Gucci\n\n구찌 조던 레더 로퍼 블랙\n\n49%\n\n749,000원\n\n관심 492\n\n · 리뷰 15\n\n · 거래 59"
+        },
+        {
+          "product_id": 54866,
+          "text": "Gucci\n\n구찌 1953 홀스빗 레더 로퍼 블랙\n\n30%\n\n900,000원\n\n관심 344\n\n · 리뷰 17\n\n · 거래 25"
+        }
+      ]
+    },
+    {
+      "sku": "D49438K0873G07003",
+      "option": "46 IT",
+      "stock": 1,
+      "eur_price": 316.39,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D49438K0873G07003\" SPU=\"D49438K0873G07003\"",
+      "candidates": [
+        {
+          "product_id": 54866,
+          "text": "Gucci\n\n구찌 1953 홀스빗 레더 로퍼 블랙\n\n30%\n\n900,000원\n\n관심 344\n\n · 리뷰 17\n\n · 거래 25"
+        },
+        {
+          "product_id": 53987,
+          "text": "Gucci\n\n구찌 조던 레더 로퍼 블랙\n\n49%\n\n749,000원\n\n관심 492\n\n · 리뷰 15\n\n · 거래 59"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 134272,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 르 로퍼 페니 슬리퍼 블랙\n\n33%\n\n850,000원\n\n관심 181\n\n · 리뷰 16\n\n · 거래 8"
+        },
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "D50105H0966703000",
+      "option": "38 IT",
+      "stock": 1,
+      "eur_price": 195.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D50105H0966703000\" SPU=\"D50105H0966703000\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 134272,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 르 로퍼 페니 슬리퍼 블랙\n\n33%\n\n850,000원\n\n관심 181\n\n · 리뷰 16\n\n · 거래 8"
+        },
+        {
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 828\n\n · 리뷰 12\n\n · 거래 46"
+        },
+        {
+          "product_id": 53987,
+          "text": "Gucci\n\n구찌 조던 레더 로퍼 블랙\n\n49%\n\n749,000원\n\n관심 492\n\n · 리뷰 15\n\n · 거래 59"
+        }
+      ]
+    },
+    {
+      "sku": "D50105H0966703000",
+      "option": "40 IT",
+      "stock": 1,
+      "eur_price": 195.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D50105H0966703000\" SPU=\"D50105H0966703000\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 134272,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 르 로퍼 페니 슬리퍼 블랙\n\n33%\n\n850,000원\n\n관심 181\n\n · 리뷰 16\n\n · 거래 8"
+        },
+        {
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 828\n\n · 리뷰 12\n\n · 거래 46"
+        },
+        {
+          "product_id": 53987,
+          "text": "Gucci\n\n구찌 조던 레더 로퍼 블랙\n\n49%\n\n749,000원\n\n관심 492\n\n · 리뷰 15\n\n · 거래 59"
+        }
+      ]
+    },
+    {
+      "sku": "D50105H0966703000",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 195.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D50105H0966703000\" SPU=\"D50105H0966703000\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 134272,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 르 로퍼 페니 슬리퍼 블랙\n\n33%\n\n850,000원\n\n관심 181\n\n · 리뷰 16\n\n · 거래 8"
+        },
+        {
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 828\n\n · 리뷰 12\n\n · 거래 46"
+        },
+        {
+          "product_id": 53987,
+          "text": "Gucci\n\n구찌 조던 레더 로퍼 블랙\n\n49%\n\n749,000원\n\n관심 492\n\n · 리뷰 15\n\n · 거래 59"
+        }
+      ]
+    },
+    {
+      "sku": "D50105H0966703000",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 195.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D50105H0966703000\" SPU=\"D50105H0966703000\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 134272,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 르 로퍼 페니 슬리퍼 블랙\n\n33%\n\n850,000원\n\n관심 181\n\n · 리뷰 16\n\n · 거래 8"
+        },
+        {
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 828\n\n · 리뷰 12\n\n · 거래 46"
+        },
+        {
+          "product_id": 53987,
+          "text": "Gucci\n\n구찌 조던 레더 로퍼 블랙\n\n49%\n\n749,000원\n\n관심 492\n\n · 리뷰 15\n\n · 거래 59"
+        }
+      ]
+    },
+    {
+      "sku": "D55770K0868G03001",
+      "option": "46 IT",
+      "stock": 1,
+      "eur_price": 206.56,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D55770K0868G03001\" SPU=\"D55770K0868G03001\"",
+      "candidates": [
+        {
+          "product_id": 122044,
+          "text": "Saint Laurent\n\n(W) 생로랑 레더 앤 메탈 더블 랩 브레이슬릿 블랙\n\n28%\n\n330,000원\n\n관심 141\n\n · 거래 10"
+        },
+        {
+          "product_id": 568764,
+          "text": "Versace\n\n베르사체 메두사 '95 레더 브레이슬릿 블랙 골드\n\n42%\n\n194,000원\n\n관심 244\n\n · 리뷰 1\n\n · 거래 27\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 266595,
+          "text": "Ferragamo\n\n페라가모 브레이디드 레더 브레이슬릿 블랙\n\n255,000원\n\n관심 85\n\n · 거래 3"
+        },
+        {
+          "product_id": 163432,
+          "text": "Versace\n\n베르사체 메두사 브레이디드 레더 브레이슬릿 블랙\n\n39%\n\n254,000원\n\n관심 3,884\n\n · 리뷰 16\n\n · 거래 645\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 53987,
+          "text": "Gucci\n\n구찌 조던 레더 로퍼 블랙\n\n49%\n\n749,000원\n\n관심 492\n\n · 리뷰 15\n\n · 거래 59"
+        }
+      ]
+    },
+    {
+      "sku": "D55770K0868G03001",
+      "option": "48 IT",
+      "stock": 1,
+      "eur_price": 206.56,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D55770K0868G03001\" SPU=\"D55770K0868G03001\"",
+      "candidates": [
+        {
+          "product_id": 122044,
+          "text": "Saint Laurent\n\n(W) 생로랑 레더 앤 메탈 더블 랩 브레이슬릿 블랙\n\n28%\n\n330,000원\n\n관심 141\n\n · 거래 10"
+        },
+        {
+          "product_id": 568764,
+          "text": "Versace\n\n베르사체 메두사 '95 레더 브레이슬릿 블랙 골드\n\n42%\n\n194,000원\n\n관심 244\n\n · 리뷰 1\n\n · 거래 27\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 266595,
+          "text": "Ferragamo\n\n페라가모 브레이디드 레더 브레이슬릿 블랙\n\n255,000원\n\n관심 85\n\n · 거래 3"
+        },
+        {
+          "product_id": 163432,
+          "text": "Versace\n\n베르사체 메두사 브레이디드 레더 브레이슬릿 블랙\n\n39%\n\n254,000원\n\n관심 3,884\n\n · 리뷰 16\n\n · 거래 645\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 53987,
+          "text": "Gucci\n\n구찌 조던 레더 로퍼 블랙\n\n49%\n\n749,000원\n\n관심 492\n\n · 리뷰 15\n\n · 거래 59"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN0080903",
+      "option": "6",
+      "stock": 3,
+      "eur_price": 312.29,
+      "matched": true,
+      "product_id": 156576,
+      "product_name_ko": "Kiton",
+      "product_url": "https://kream.co.kr/products/156576",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": 583000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [
+        {
+          "price": 583000,
+          "option": "EU 43.5(UK 9.5)",
+          "quantity": 1
+        },
+        {
+          "price": 580000,
+          "option": "EU 43.5(UK 9.5)",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 2
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 43.5(UK 9.5)",
+      "kream_options_available": [
+        "EU 43.5(UK 9.5)",
+        "EU 42.5",
+        "EU 42",
+        "EU 40.5",
+        "EU 44",
+        "EU 43",
+        "EU 39",
+        "EU 40",
+        "EU 41.5",
+        "EU 41"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "D5770500120001",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 302.09,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D5770500120001\" SPU=\"D5770500120001\"",
+      "candidates": [
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 82170,
+          "text": "Saint Laurent\n\n(W) 생로랑 아나이스 레더 슬링백 플랫 블랙\n\n1,295,000원\n\n관심 406\n\n · 거래 18"
+        },
+        {
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 828\n\n · 리뷰 12\n\n · 거래 46"
+        },
+        {
+          "product_id": 134272,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 르 로퍼 페니 슬리퍼 블랙\n\n33%\n\n850,000원\n\n관심 181\n\n · 리뷰 16\n\n · 거래 8"
+        },
+        {
+          "product_id": 53987,
+          "text": "Gucci\n\n구찌 조던 레더 로퍼 블랙\n\n49%\n\n749,000원\n\n관심 492\n\n · 리뷰 15\n\n · 거래 59"
+        }
+      ]
+    },
+    {
+      "sku": "UMK0864K327001",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 419.67,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMK0864K327001\" SPU=\"UMK0864K327001\"",
+      "candidates": [
+        {
+          "product_id": 82170,
+          "text": "Saint Laurent\n\n(W) 생로랑 아나이스 레더 슬링백 플랫 블랙\n\n1,295,000원\n\n관심 406\n\n · 거래 18"
+        },
+        {
+          "product_id": 895409,
+          "text": "Ferragamo Vintage\n\n페라가모 블랙 PVC 바라 보우 젤리 여성 플랫슈즈 5\n\n172,500원\n\n관심 7\n\n무료배송"
+        },
+        {
+          "product_id": 409744,
+          "text": "Prada\n\n(W) 프라다 나파 레더 발레리나 블랙\n\n24%\n\n1,085,000원\n\n관심 88\n\n · 리뷰 3\n\n · 거래 12"
+        },
+        {
+          "product_id": 910760,
+          "text": "Miu Miu Vintage\n\n미우미우 5F653D 메리제인 페이던트 발레리나 여성 플랫슈즈aa63498\n\n265,000원\n\n관심 16\n\n무료배송"
+        },
+        {
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 828\n\n · 리뷰 12\n\n · 거래 46"
+        }
+      ]
+    },
+    {
+      "sku": "UMK0864K327001",
+      "option": "XXXL",
+      "stock": 1,
+      "eur_price": 419.67,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMK0864K327001\" SPU=\"UMK0864K327001\"",
+      "candidates": [
+        {
+          "product_id": 82170,
+          "text": "Saint Laurent\n\n(W) 생로랑 아나이스 레더 슬링백 플랫 블랙\n\n1,295,000원\n\n관심 406\n\n · 거래 18"
+        },
+        {
+          "product_id": 895409,
+          "text": "Ferragamo Vintage\n\n페라가모 블랙 PVC 바라 보우 젤리 여성 플랫슈즈 5\n\n172,500원\n\n관심 7\n\n무료배송"
+        },
+        {
+          "product_id": 409744,
+          "text": "Prada\n\n(W) 프라다 나파 레더 발레리나 블랙\n\n24%\n\n1,085,000원\n\n관심 88\n\n · 리뷰 3\n\n · 거래 12"
+        },
+        {
+          "product_id": 910760,
+          "text": "Miu Miu Vintage\n\n미우미우 5F653D 메리제인 페이던트 발레리나 여성 플랫슈즈aa63498\n\n265,000원\n\n관심 16\n\n무료배송"
+        },
+        {
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 828\n\n · 리뷰 12\n\n · 거래 46"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020H7",
+      "option": "10",
+      "stock": 2,
+      "eur_price": 297.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020H7\" SPU=\"USSFITSN00809020H7\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 505448,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 브라운\n\n530,000원\n\n관심 8\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "D60514K0987G03001",
+      "option": "40 IT",
+      "stock": 1,
+      "eur_price": 1219.67,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D60514K0987G03001\" SPU=\"D60514K0987G03001\"",
+      "candidates": [
+        {
+          "product_id": 53987,
+          "text": "Gucci\n\n구찌 조던 레더 로퍼 블랙\n\n49%\n\n749,000원\n\n관심 492\n\n · 리뷰 15\n\n · 거래 59"
+        },
+        {
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 828\n\n · 리뷰 12\n\n · 거래 46"
+        },
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 66398,
+          "text": "Gucci\n\n구찌 홀스빗 레더 로퍼 블랙\n\n48%\n\n600,000원\n\n관심 80\n\n · 리뷰 1\n\n · 거래 12"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        }
+      ]
+    },
+    {
+      "sku": "D60514K0987G03001",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 1219.67,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D60514K0987G03001\" SPU=\"D60514K0987G03001\"",
+      "candidates": [
+        {
+          "product_id": 53987,
+          "text": "Gucci\n\n구찌 조던 레더 로퍼 블랙\n\n49%\n\n749,000원\n\n관심 492\n\n · 리뷰 15\n\n · 거래 59"
+        },
+        {
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 828\n\n · 리뷰 12\n\n · 거래 46"
+        },
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 66398,
+          "text": "Gucci\n\n구찌 홀스빗 레더 로퍼 블랙\n\n48%\n\n600,000원\n\n관심 80\n\n · 리뷰 1\n\n · 거래 12"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        }
+      ]
+    },
+    {
+      "sku": "D60514K0987G03001",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 1219.67,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D60514K0987G03001\" SPU=\"D60514K0987G03001\"",
+      "candidates": [
+        {
+          "product_id": 53987,
+          "text": "Gucci\n\n구찌 조던 레더 로퍼 블랙\n\n49%\n\n749,000원\n\n관심 492\n\n · 리뷰 15\n\n · 거래 59"
+        },
+        {
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 828\n\n · 리뷰 12\n\n · 거래 46"
+        },
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 66398,
+          "text": "Gucci\n\n구찌 홀스빗 레더 로퍼 블랙\n\n48%\n\n600,000원\n\n관심 80\n\n · 리뷰 1\n\n · 거래 12"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        }
+      ]
+    },
+    {
+      "sku": "UMCPOSK06R4911024",
+      "option": "XL",
+      "stock": 3,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCPOSK06R4911024\" SPU=\"UMCPOSK06R4911024\"",
+      "candidates": [
+        {
+          "product_id": 265170,
+          "text": "Celine\n\n(W) 셀린느 아세테이트 트리옹프 XL 01 선글라스 블랙\n\n46%\n\n425,000원\n\n관심 2,121\n\n · 리뷰 27\n\n · 거래 296\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 135056,
+          "text": "Prada\n\n프라다 심볼 선글라스 슬레이트 그레이 렌즈 얼터너티브 핏\n\n35%\n\n398,000원\n\n관심 7,394\n\n · 리뷰 70\n\n · 거래 1,304\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 116224,
+          "text": "Celine\n\n(W) 셀린느 아세테이트 모노크롬 03 선글라스 블랙\n\n47%\n\n309,000원\n\n관심 3,023\n\n · 리뷰 10\n\n · 거래 440\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 125725,
+          "text": "Miu Miu\n\n(W) 미우 미우 글림스 선글라스 슬레이트 그레이 렌즈 블랙 아세테이트\n\n46%\n\n358,000원\n\n관심 2,908\n\n · 리뷰 23\n\n · 거래 485\n\n빠른배송\n\n6/29(월) 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "UMCPOSK06R4911024",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCPOSK06R4911024\" SPU=\"UMCPOSK06R4911024\"",
+      "candidates": [
+        {
+          "product_id": 265170,
+          "text": "Celine\n\n(W) 셀린느 아세테이트 트리옹프 XL 01 선글라스 블랙\n\n46%\n\n425,000원\n\n관심 2,121\n\n · 리뷰 27\n\n · 거래 296\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 135056,
+          "text": "Prada\n\n프라다 심볼 선글라스 슬레이트 그레이 렌즈 얼터너티브 핏\n\n35%\n\n398,000원\n\n관심 7,394\n\n · 리뷰 70\n\n · 거래 1,304\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 116224,
+          "text": "Celine\n\n(W) 셀린느 아세테이트 모노크롬 03 선글라스 블랙\n\n47%\n\n309,000원\n\n관심 3,023\n\n · 리뷰 10\n\n · 거래 440\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 125725,
+          "text": "Miu Miu\n\n(W) 미우 미우 글림스 선글라스 슬레이트 그레이 렌즈 블랙 아세테이트\n\n46%\n\n358,000원\n\n관심 2,908\n\n · 리뷰 23\n\n · 거래 485\n\n빠른배송\n\n6/29(월) 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "UMCPOSK06R4911024",
+      "option": "XXXL",
+      "stock": 2,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCPOSK06R4911024\" SPU=\"UMCPOSK06R4911024\"",
+      "candidates": [
+        {
+          "product_id": 265170,
+          "text": "Celine\n\n(W) 셀린느 아세테이트 트리옹프 XL 01 선글라스 블랙\n\n46%\n\n425,000원\n\n관심 2,121\n\n · 리뷰 27\n\n · 거래 296\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 135056,
+          "text": "Prada\n\n프라다 심볼 선글라스 슬레이트 그레이 렌즈 얼터너티브 핏\n\n35%\n\n398,000원\n\n관심 7,394\n\n · 리뷰 70\n\n · 거래 1,304\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 116224,
+          "text": "Celine\n\n(W) 셀린느 아세테이트 모노크롬 03 선글라스 블랙\n\n47%\n\n309,000원\n\n관심 3,023\n\n · 리뷰 10\n\n · 거래 440\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 125725,
+          "text": "Miu Miu\n\n(W) 미우 미우 글림스 선글라스 슬레이트 그레이 렌즈 블랙 아세테이트\n\n46%\n\n358,000원\n\n관심 2,908\n\n · 리뷰 23\n\n · 거래 485\n\n빠른배송\n\n6/29(월) 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020HE",
+      "option": "10",
+      "stock": 2,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020HE\" SPU=\"USSFITSN00809020HE\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020HE",
+      "option": "11",
+      "stock": 4,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020HE\" SPU=\"USSFITSN00809020HE\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020HE",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020HE\" SPU=\"USSFITSN00809020HE\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020HE",
+      "option": "13",
+      "stock": 1,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020HE\" SPU=\"USSFITSN00809020HE\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020HE",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020HE\" SPU=\"USSFITSN00809020HE\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020HE",
+      "option": "8",
+      "stock": 3,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020HE\" SPU=\"USSFITSN00809020HE\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020HE",
+      "option": "9",
+      "stock": 2,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020HE\" SPU=\"USSFITSN00809020HE\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "UA85TK0198I01001",
+      "option": "48 IT",
+      "stock": 1,
+      "eur_price": 3452.46,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UA85TK0198I01001\" SPU=\"UA85TK0198I01001\"",
+      "candidates": [
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        },
+        {
+          "product_id": 460787,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n66%\n\n550,000원\n\n관심 3"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        }
+      ]
+    },
+    {
+      "sku": "UA85TK0198I01001",
+      "option": "50 IT",
+      "stock": 1,
+      "eur_price": 3452.46,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UA85TK0198I01001\" SPU=\"UA85TK0198I01001\"",
+      "candidates": [
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        },
+        {
+          "product_id": 460787,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n66%\n\n550,000원\n\n관심 3"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        }
+      ]
+    },
+    {
+      "sku": "UA85TK0198I01001",
+      "option": "52 IT",
+      "stock": 1,
+      "eur_price": 3452.46,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UA85TK0198I01001\" SPU=\"UA85TK0198I01001\"",
+      "candidates": [
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        },
+        {
+          "product_id": 460787,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n66%\n\n550,000원\n\n관심 3"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        }
+      ]
+    },
+    {
+      "sku": "UA85TK0198I01001",
+      "option": "54 IT",
+      "stock": 1,
+      "eur_price": 3452.46,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UA85TK0198I01001\" SPU=\"UA85TK0198I01001\"",
+      "candidates": [
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        },
+        {
+          "product_id": 460787,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n66%\n\n550,000원\n\n관심 3"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        }
+      ]
+    },
+    {
+      "sku": "UMK0864K5008",
+      "option": "XXXL",
+      "stock": 1,
+      "eur_price": 419.67,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMK0864K5008\" SPU=\"UMK0864K5008\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN0080901",
+      "option": "12",
+      "stock": 1,
+      "eur_price": 312.29,
+      "matched": true,
+      "product_id": 110861,
+      "product_name_ko": "Kiton",
+      "product_url": "https://kream.co.kr/products/110861",
+      "market": {
+        "last_sale_price": 614000,
+        "lowest_ask": 679000,
+        "highest_bid": 485000,
+        "change_text": "▼ 161,000원(-18.9%)"
+      },
+      "sales": [
+        {
+          "price": 614000,
+          "option": "EU 43",
+          "date_created": "2026-05-07T19:22:18Z",
+          "date_text": "26/05/08",
+          "is_immediate": false
+        },
+        {
+          "price": 645000,
+          "option": "EU 43",
+          "date_created": "2026-03-27T01:30:16Z",
+          "date_text": "26/03/27",
+          "is_immediate": false
+        },
+        {
+          "price": 785000,
+          "option": "EU 43",
+          "date_created": "2025-11-09T16:12:26Z",
+          "date_text": "25/11/10",
+          "is_immediate": false
+        },
+        {
+          "price": 645000,
+          "option": "EU 43",
+          "date_created": "2025-10-28T14:19:05Z",
+          "date_text": "25/10/28",
+          "is_immediate": false
+        },
+        {
+          "price": 685000,
+          "option": "EU 43",
+          "date_created": "2025-04-19T07:09:23Z",
+          "date_text": "25/04/19",
+          "is_immediate": false
+        },
+        {
+          "price": 489000,
+          "option": "EU 43",
+          "date_created": "2024-09-10T09:09:34Z",
+          "date_text": "24/09/10",
+          "is_immediate": false
+        },
+        {
+          "price": 450000,
+          "option": "EU 43",
+          "date_created": "2024-08-17T06:40:45Z",
+          "date_text": "24/08/17",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 679000,
+          "option": "EU 43",
+          "quantity": 1
+        },
+        {
+          "price": 700000,
+          "option": "EU 43",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 485000,
+          "option": "EU 43",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 7,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 161,000원(-18.9%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 43",
+      "kream_options_available": [
+        "EU 43",
+        "EU 41",
+        "EU 41.5",
+        "EU 40",
+        "EU 40.5",
+        "EU 42",
+        "EU 42.5",
+        "EU 39.5",
+        "EU 39"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "USSFITSN0080901",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 312.29,
+      "matched": true,
+      "product_id": 110861,
+      "product_name_ko": "Kiton",
+      "product_url": "https://kream.co.kr/products/110861",
+      "market": {
+        "last_sale_price": 614000,
+        "lowest_ask": 679000,
+        "highest_bid": 485000,
+        "change_text": "▼ 161,000원(-18.9%)"
+      },
+      "sales": [
+        {
+          "price": 614000,
+          "option": "EU 43",
+          "date_created": "2026-05-07T19:22:18Z",
+          "date_text": "26/05/08",
+          "is_immediate": false
+        },
+        {
+          "price": 645000,
+          "option": "EU 43",
+          "date_created": "2026-03-27T01:30:16Z",
+          "date_text": "26/03/27",
+          "is_immediate": false
+        },
+        {
+          "price": 785000,
+          "option": "EU 43",
+          "date_created": "2025-11-09T16:12:26Z",
+          "date_text": "25/11/10",
+          "is_immediate": false
+        },
+        {
+          "price": 645000,
+          "option": "EU 43",
+          "date_created": "2025-10-28T14:19:05Z",
+          "date_text": "25/10/28",
+          "is_immediate": false
+        },
+        {
+          "price": 685000,
+          "option": "EU 43",
+          "date_created": "2025-04-19T07:09:23Z",
+          "date_text": "25/04/19",
+          "is_immediate": false
+        },
+        {
+          "price": 489000,
+          "option": "EU 43",
+          "date_created": "2024-09-10T09:09:34Z",
+          "date_text": "24/09/10",
+          "is_immediate": false
+        },
+        {
+          "price": 450000,
+          "option": "EU 43",
+          "date_created": "2024-08-17T06:40:45Z",
+          "date_text": "24/08/17",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 679000,
+          "option": "EU 43",
+          "quantity": 1
+        },
+        {
+          "price": 700000,
+          "option": "EU 43",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 485000,
+          "option": "EU 43",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 7,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 161,000원(-18.9%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 43",
+      "kream_options_available": [
+        "EU 43",
+        "EU 41",
+        "EU 41.5",
+        "EU 40",
+        "EU 40.5",
+        "EU 42",
+        "EU 42.5",
+        "EU 39.5",
+        "EU 39"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "USSFITSN0080901",
+      "option": "7",
+      "stock": 1,
+      "eur_price": 312.29,
+      "matched": true,
+      "product_id": 110861,
+      "product_name_ko": "Kiton",
+      "product_url": "https://kream.co.kr/products/110861",
+      "market": {
+        "last_sale_price": 614000,
+        "lowest_ask": 679000,
+        "highest_bid": 485000,
+        "change_text": "▼ 161,000원(-18.9%)"
+      },
+      "sales": [
+        {
+          "price": 614000,
+          "option": "EU 43",
+          "date_created": "2026-05-07T19:22:18Z",
+          "date_text": "26/05/08",
+          "is_immediate": false
+        },
+        {
+          "price": 645000,
+          "option": "EU 43",
+          "date_created": "2026-03-27T01:30:16Z",
+          "date_text": "26/03/27",
+          "is_immediate": false
+        },
+        {
+          "price": 785000,
+          "option": "EU 43",
+          "date_created": "2025-11-09T16:12:26Z",
+          "date_text": "25/11/10",
+          "is_immediate": false
+        },
+        {
+          "price": 645000,
+          "option": "EU 43",
+          "date_created": "2025-10-28T14:19:05Z",
+          "date_text": "25/10/28",
+          "is_immediate": false
+        },
+        {
+          "price": 685000,
+          "option": "EU 43",
+          "date_created": "2025-04-19T07:09:23Z",
+          "date_text": "25/04/19",
+          "is_immediate": false
+        },
+        {
+          "price": 489000,
+          "option": "EU 43",
+          "date_created": "2024-09-10T09:09:34Z",
+          "date_text": "24/09/10",
+          "is_immediate": false
+        },
+        {
+          "price": 450000,
+          "option": "EU 43",
+          "date_created": "2024-08-17T06:40:45Z",
+          "date_text": "24/08/17",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 679000,
+          "option": "EU 43",
+          "quantity": 1
+        },
+        {
+          "price": 700000,
+          "option": "EU 43",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 485000,
+          "option": "EU 43",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 7,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 161,000원(-18.9%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 43",
+      "kream_options_available": [
+        "EU 43",
+        "EU 41",
+        "EU 41.5",
+        "EU 40",
+        "EU 40.5",
+        "EU 42",
+        "EU 42.5",
+        "EU 39.5",
+        "EU 39"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "D61215H0969003001",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 331.15,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D61215H0969003001\" SPU=\"D61215H0969003001\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 64244,
+          "text": "Thom Browne\n\n톰브라운 비텔로 카프 레더 플렉서블 레더 솔 소프트 페니 로퍼 블랙\n\n62%\n\n500,000원\n\n관심 389\n\n · 리뷰 4\n\n · 거래 46\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 53987,
+          "text": "Gucci\n\n구찌 조던 레더 로퍼 블랙\n\n49%\n\n749,000원\n\n관심 492\n\n · 리뷰 15\n\n · 거래 59"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090309K",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090309K\" SPU=\"USSFITSN008090309K\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090309K",
+      "option": "13",
+      "stock": 1,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090309K\" SPU=\"USSFITSN008090309K\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090308H",
+      "option": "43.5",
+      "stock": 3,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090308H\" SPU=\"USSFITSN008090308H\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090308H",
+      "option": "44",
+      "stock": 5,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090308H\" SPU=\"USSFITSN008090308H\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090308H",
+      "option": "45",
+      "stock": 3,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090308H\" SPU=\"USSFITSN008090308H\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090308H",
+      "option": "46",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090308H\" SPU=\"USSFITSN008090308H\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSA397N0138207002",
+      "option": "41",
+      "stock": 2,
+      "eur_price": 383.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA397N0138207002\" SPU=\"USSA397N0138207002\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 549259,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 쉐브론 이펙트 스웨이드 로퍼 토프 스모크\n\n864,000원\n\n관심 8\n\n · 거래 2"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        },
+        {
+          "product_id": 812769,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 히트 본디드 디테일 테크노 코튼 니트 러너 베이지\n\n1,050,000원\n\n관심 20\n\n · 거래 13"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        }
+      ]
+    },
+    {
+      "sku": "USSA397N0138207002",
+      "option": "42",
+      "stock": 1,
+      "eur_price": 383.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA397N0138207002\" SPU=\"USSA397N0138207002\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 549259,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 쉐브론 이펙트 스웨이드 로퍼 토프 스모크\n\n864,000원\n\n관심 8\n\n · 거래 2"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        },
+        {
+          "product_id": 812769,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 히트 본디드 디테일 테크노 코튼 니트 러너 베이지\n\n1,050,000원\n\n관심 20\n\n · 거래 13"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        }
+      ]
+    },
+    {
+      "sku": "USSA397N0138207002",
+      "option": "43",
+      "stock": 2,
+      "eur_price": 383.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA397N0138207002\" SPU=\"USSA397N0138207002\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 549259,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 쉐브론 이펙트 스웨이드 로퍼 토프 스모크\n\n864,000원\n\n관심 8\n\n · 거래 2"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        },
+        {
+          "product_id": 812769,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 히트 본디드 디테일 테크노 코튼 니트 러너 베이지\n\n1,050,000원\n\n관심 20\n\n · 거래 13"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        }
+      ]
+    },
+    {
+      "sku": "USSA397N0138207002",
+      "option": "44",
+      "stock": 3,
+      "eur_price": 383.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA397N0138207002\" SPU=\"USSA397N0138207002\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 549259,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 쉐브론 이펙트 스웨이드 로퍼 토프 스모크\n\n864,000원\n\n관심 8\n\n · 거래 2"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        },
+        {
+          "product_id": 812769,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 히트 본디드 디테일 테크노 코튼 니트 러너 베이지\n\n1,050,000원\n\n관심 20\n\n · 거래 13"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        }
+      ]
+    },
+    {
+      "sku": "USSA397N0138207002",
+      "option": "45",
+      "stock": 1,
+      "eur_price": 383.6,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA397N0138207002\" SPU=\"USSA397N0138207002\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 549259,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 쉐브론 이펙트 스웨이드 로퍼 토프 스모크\n\n864,000원\n\n관심 8\n\n · 거래 2"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        },
+        {
+          "product_id": 812769,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 히트 본디드 디테일 테크노 코튼 니트 러너 베이지\n\n1,050,000원\n\n관심 20\n\n · 거래 13"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491100",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491100\" SPU=\"UMCBUBAK06R491100\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491100",
+      "option": "M",
+      "stock": 3,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491100\" SPU=\"UMCBUBAK06R491100\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491100",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491100\" SPU=\"UMCBUBAK06R491100\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        }
+      ]
+    },
+    {
+      "sku": "D48122K0873G07004",
+      "option": "46 IT",
+      "stock": 1,
+      "eur_price": 380.33,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D48122K0873G07004\" SPU=\"D48122K0873G07004\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 828\n\n · 리뷰 12\n\n · 거래 46"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 399325,
+          "text": "Miu Miu\n\n(W) 미우 미우 나파 레더 로퍼 블랙\n\n26%\n\n1,165,000원\n\n관심 228\n\n · 리뷰 3\n\n · 거래 16"
+        }
+      ]
+    },
+    {
+      "sku": "D48122K0873G07004",
+      "option": "48 IT",
+      "stock": 1,
+      "eur_price": 380.33,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D48122K0873G07004\" SPU=\"D48122K0873G07004\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 828\n\n · 리뷰 12\n\n · 거래 46"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 399325,
+          "text": "Miu Miu\n\n(W) 미우 미우 나파 레더 로퍼 블랙\n\n26%\n\n1,165,000원\n\n관심 228\n\n · 리뷰 3\n\n · 거래 16"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805Z",
+      "option": "10",
+      "stock": 5,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805Z\" SPU=\"USSFITSN008090805Z\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805Z",
+      "option": "11",
+      "stock": 4,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805Z\" SPU=\"USSFITSN008090805Z\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805Z",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805Z\" SPU=\"USSFITSN008090805Z\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805Z",
+      "option": "7",
+      "stock": 3,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805Z\" SPU=\"USSFITSN008090805Z\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805Z",
+      "option": "8",
+      "stock": 4,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805Z\" SPU=\"USSFITSN008090805Z\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805Z",
+      "option": "9",
+      "stock": 5,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805Z\" SPU=\"USSFITSN008090805Z\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012171800V",
+      "option": "10",
+      "stock": 4,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012171800V\" SPU=\"USSA031N012171800V\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012171800V",
+      "option": "11",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012171800V\" SPU=\"USSA031N012171800V\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012171800V",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012171800V\" SPU=\"USSA031N012171800V\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012171800V",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012171800V\" SPU=\"USSA031N012171800V\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012171800V",
+      "option": "8",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012171800V\" SPU=\"USSA031N012171800V\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012171800V",
+      "option": "9",
+      "stock": 3,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012171800V\" SPU=\"USSA031N012171800V\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        }
+      ]
+    },
+    {
+      "sku": "UW2305V0820H01003",
+      "option": "50 IT",
+      "stock": 2,
+      "eur_price": 1086.89,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UW2305V0820H01003\" SPU=\"UW2305V0820H01003\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 519981,
+          "text": "Prada\n\n프라다 셔플 프린지 몽크 스트랩 슈즈 다크 브라운\n\n1,999,000원\n\n관심 46"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        }
+      ]
+    },
+    {
+      "sku": "UW2305V0820H01003",
+      "option": "54 IT",
+      "stock": 2,
+      "eur_price": 1086.89,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UW2305V0820H01003\" SPU=\"UW2305V0820H01003\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 519981,
+          "text": "Prada\n\n프라다 셔플 프린지 몽크 스트랩 슈즈 다크 브라운\n\n1,999,000원\n\n관심 46"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        }
+      ]
+    },
+    {
+      "sku": "UW2305V0820H01003",
+      "option": "56 IT",
+      "stock": 1,
+      "eur_price": 1086.89,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UW2305V0820H01003\" SPU=\"UW2305V0820H01003\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 519981,
+          "text": "Prada\n\n프라다 셔플 프린지 몽크 스트랩 슈즈 다크 브라운\n\n1,999,000원\n\n관심 46"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008093408V",
+      "option": "42",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008093408V\" SPU=\"USSFITSN008093408V\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008093408V",
+      "option": "43",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008093408V\" SPU=\"USSFITSN008093408V\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008093408V",
+      "option": "43.5",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008093408V\" SPU=\"USSFITSN008093408V\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008093408V",
+      "option": "45",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008093408V\" SPU=\"USSFITSN008093408V\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491300",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491300\" SPU=\"UMCBUBAK06R491300\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 64244,
+          "text": "Thom Browne\n\n톰브라운 비텔로 카프 레더 플렉서블 레더 솔 소프트 페니 로퍼 블랙\n\n62%\n\n500,000원\n\n관심 389\n\n · 리뷰 4\n\n · 거래 46\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 460787,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n66%\n\n550,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491300",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491300\" SPU=\"UMCBUBAK06R491300\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 64244,
+          "text": "Thom Browne\n\n톰브라운 비텔로 카프 레더 플렉서블 레더 솔 소프트 페니 로퍼 블랙\n\n62%\n\n500,000원\n\n관심 389\n\n · 리뷰 4\n\n · 거래 46\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 460787,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n66%\n\n550,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "UMCBUBAK06R491300",
+      "option": "XL",
+      "stock": 3,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCBUBAK06R491300\" SPU=\"UMCBUBAK06R491300\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 64244,
+          "text": "Thom Browne\n\n톰브라운 비텔로 카프 레더 플렉서블 레더 솔 소프트 페니 로퍼 블랙\n\n62%\n\n500,000원\n\n관심 389\n\n · 리뷰 4\n\n · 거래 46\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 460787,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n66%\n\n550,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "UMJ002602000",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 1138.52,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMJ002602000\" SPU=\"UMJ002602000\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        },
+        {
+          "product_id": 519981,
+          "text": "Prada\n\n프라다 셔플 프린지 몽크 스트랩 슈즈 다크 브라운\n\n1,999,000원\n\n관심 46"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        }
+      ]
+    },
+    {
+      "sku": "UMJ002602000",
+      "option": "XXXL",
+      "stock": 1,
+      "eur_price": 1138.52,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMJ002602000\" SPU=\"UMJ002602000\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        },
+        {
+          "product_id": 519981,
+          "text": "Prada\n\n프라다 셔플 프린지 몽크 스트랩 슈즈 다크 브라운\n\n1,999,000원\n\n관심 46"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 857702,
+          "text": "Prada\n\n프라다 셔플 앤틱 레더 레이스드 슈즈 다크 브라운\n\n2,610,000원\n\n관심 17"
+        }
+      ]
+    },
+    {
+      "sku": "D57616K0920C0145",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 752.46,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D57616K0920C0145\" SPU=\"D57616K0920C0145\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 828\n\n · 리뷰 12\n\n · 거래 46"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n28%\n\n840,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 399325,
+          "text": "Miu Miu\n\n(W) 미우 미우 나파 레더 로퍼 블랙\n\n26%\n\n1,165,000원\n\n관심 228\n\n · 리뷰 3\n\n · 거래 16"
+        },
+        {
+          "product_id": 53987,
+          "text": "Gucci\n\n구찌 조던 레더 로퍼 블랙\n\n49%\n\n749,000원\n\n관심 492\n\n · 리뷰 15\n\n · 거래 59"
+        }
+      ]
+    },
+    {
+      "sku": "UMK0458V110A001",
+      "option": "XXXL",
+      "stock": 3,
+      "eur_price": 658,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMK0458V110A001\" SPU=\"UMK0458V110A001\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        },
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 399325,
+          "text": "Miu Miu\n\n(W) 미우 미우 나파 레더 로퍼 블랙\n\n26%\n\n1,165,000원\n\n관심 228\n\n · 리뷰 3\n\n · 거래 16"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805O",
+      "option": "41",
+      "stock": 3,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805O\" SPU=\"USSFITSN008090805O\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805O",
+      "option": "42",
+      "stock": 3,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805O\" SPU=\"USSFITSN008090805O\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805O",
+      "option": "42.5",
+      "stock": 3,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805O\" SPU=\"USSFITSN008090805O\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805O",
+      "option": "43",
+      "stock": 4,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805O\" SPU=\"USSFITSN008090805O\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805O",
+      "option": "43.5",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805O\" SPU=\"USSFITSN008090805O\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805O",
+      "option": "44",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805O\" SPU=\"USSFITSN008090805O\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805O",
+      "option": "45",
+      "stock": 3,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805O\" SPU=\"USSFITSN008090805O\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN008090805O",
+      "option": "46",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN008090805O\" SPU=\"USSFITSN008090805O\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSA421N0141305002",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA421N0141305002\" SPU=\"USSA421N0141305002\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 676660,
+          "text": "Prada\n\n프라다 레더 로퍼 블랙\n\n30%\n\n1,271,000원\n\n관심 15"
+        },
+        {
+          "product_id": 632328,
+          "text": "Prada\n\n(W) 프라다 로퍼 블랙\n\n1,135,000원\n\n관심 6"
+        }
+      ]
+    },
+    {
+      "sku": "USSA421N0141305002",
+      "option": "41",
+      "stock": 2,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA421N0141305002\" SPU=\"USSA421N0141305002\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 676660,
+          "text": "Prada\n\n프라다 레더 로퍼 블랙\n\n30%\n\n1,271,000원\n\n관심 15"
+        },
+        {
+          "product_id": 632328,
+          "text": "Prada\n\n(W) 프라다 로퍼 블랙\n\n1,135,000원\n\n관심 6"
+        }
+      ]
+    },
+    {
+      "sku": "USSA421N0141305002",
+      "option": "42",
+      "stock": 3,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA421N0141305002\" SPU=\"USSA421N0141305002\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 676660,
+          "text": "Prada\n\n프라다 레더 로퍼 블랙\n\n30%\n\n1,271,000원\n\n관심 15"
+        },
+        {
+          "product_id": 632328,
+          "text": "Prada\n\n(W) 프라다 로퍼 블랙\n\n1,135,000원\n\n관심 6"
+        }
+      ]
+    },
+    {
+      "sku": "USSA421N0141305002",
+      "option": "43",
+      "stock": 3,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA421N0141305002\" SPU=\"USSA421N0141305002\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 676660,
+          "text": "Prada\n\n프라다 레더 로퍼 블랙\n\n30%\n\n1,271,000원\n\n관심 15"
+        },
+        {
+          "product_id": 632328,
+          "text": "Prada\n\n(W) 프라다 로퍼 블랙\n\n1,135,000원\n\n관심 6"
+        }
+      ]
+    },
+    {
+      "sku": "USSA421N0141305002",
+      "option": "44",
+      "stock": 2,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA421N0141305002\" SPU=\"USSA421N0141305002\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 676660,
+          "text": "Prada\n\n프라다 레더 로퍼 블랙\n\n30%\n\n1,271,000원\n\n관심 15"
+        },
+        {
+          "product_id": 632328,
+          "text": "Prada\n\n(W) 프라다 로퍼 블랙\n\n1,135,000원\n\n관심 6"
+        }
+      ]
+    },
+    {
+      "sku": "USSA421N0141305002",
+      "option": "45",
+      "stock": 2,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA421N0141305002\" SPU=\"USSA421N0141305002\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 676660,
+          "text": "Prada\n\n프라다 레더 로퍼 블랙\n\n30%\n\n1,271,000원\n\n관심 15"
+        },
+        {
+          "product_id": 632328,
+          "text": "Prada\n\n(W) 프라다 로퍼 블랙\n\n1,135,000원\n\n관심 6"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010CI",
+      "option": "43",
+      "stock": 1,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010CI\" SPU=\"USSFITSN00809010CI\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010CI",
+      "option": "43.5",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010CI\" SPU=\"USSFITSN00809010CI\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010CI",
+      "option": "45",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010CI\" SPU=\"USSFITSN00809010CI\"",
+      "candidates": [
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "UMJ002605000",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 1138.52,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMJ002605000\" SPU=\"UMJ002605000\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        },
+        {
+          "product_id": 519977,
+          "text": "Prada\n\n프라다 컬랩스 레더 스니커즈 블랙\n\n19%\n\n1,177,000원\n\n관심 387\n\n · 리뷰 5\n\n · 거래 18\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 519981,
+          "text": "Prada\n\n프라다 셔플 프린지 몽크 스트랩 슈즈 다크 브라운\n\n1,999,000원\n\n관심 46"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        }
+      ]
+    },
+    {
+      "sku": "UMJ002605000",
+      "option": "XXXL",
+      "stock": 2,
+      "eur_price": 1138.52,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMJ002605000\" SPU=\"UMJ002605000\"",
+      "candidates": [
+        {
+          "product_id": 585145,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n919,000원\n\n관심 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        },
+        {
+          "product_id": 519977,
+          "text": "Prada\n\n프라다 컬랩스 레더 스니커즈 블랙\n\n19%\n\n1,177,000원\n\n관심 387\n\n · 리뷰 5\n\n · 거래 18\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 519981,
+          "text": "Prada\n\n프라다 셔플 프린지 몽크 스트랩 슈즈 다크 브라운\n\n1,999,000원\n\n관심 46"
+        },
+        {
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n37%\n\n1,039,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 5"
+        }
+      ]
+    },
+    {
+      "sku": "D61425H0969003002",
+      "option": "40 IT",
+      "stock": 1,
+      "eur_price": 365.57,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D61425H0969003002\" SPU=\"D61425H0969003002\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        },
+        {
+          "product_id": 68639,
+          "text": "Prada\n\n(W) 프라다 초콜릿 브러쉬드 레더 로퍼 블랙\n\n24%\n\n1,244,000원\n\n관심 2,463\n\n · 리뷰 78\n\n · 거래 127\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 153619,
+          "text": "Givenchy\n\n(W) 지방시 레더 지방시 스트랩 시티 스포츠 스니커즈 화이트 블랙\n\n67%\n\n330,000원\n\n관심 104\n\n · 리뷰 5\n\n · 거래 10"
+        },
+        {
+          "product_id": 53950,
+          "text": "Prada\n\n프라다 모놀리스 브러쉬드 레더 로퍼 블랙\n\n17%\n\n1,420,000원\n\n관심 2,067\n\n · 리뷰 106\n\n · 거래 202\n\n빠른배송\n\n6/29(월) 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "D61425H0969003002",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 365.57,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D61425H0969003002\" SPU=\"D61425H0969003002\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        },
+        {
+          "product_id": 68639,
+          "text": "Prada\n\n(W) 프라다 초콜릿 브러쉬드 레더 로퍼 블랙\n\n24%\n\n1,244,000원\n\n관심 2,463\n\n · 리뷰 78\n\n · 거래 127\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 153619,
+          "text": "Givenchy\n\n(W) 지방시 레더 지방시 스트랩 시티 스포츠 스니커즈 화이트 블랙\n\n67%\n\n330,000원\n\n관심 104\n\n · 리뷰 5\n\n · 거래 10"
+        },
+        {
+          "product_id": 53950,
+          "text": "Prada\n\n프라다 모놀리스 브러쉬드 레더 로퍼 블랙\n\n17%\n\n1,420,000원\n\n관심 2,067\n\n · 리뷰 106\n\n · 거래 202\n\n빠른배송\n\n6/29(월) 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "D61425H0969003002",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 365.57,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"D61425H0969003002\" SPU=\"D61425H0969003002\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        },
+        {
+          "product_id": 68639,
+          "text": "Prada\n\n(W) 프라다 초콜릿 브러쉬드 레더 로퍼 블랙\n\n24%\n\n1,244,000원\n\n관심 2,463\n\n · 리뷰 78\n\n · 거래 127\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 153619,
+          "text": "Givenchy\n\n(W) 지방시 레더 지방시 스트랩 시티 스포츠 스니커즈 화이트 블랙\n\n67%\n\n330,000원\n\n관심 104\n\n · 리뷰 5\n\n · 거래 10"
+        },
+        {
+          "product_id": 53950,
+          "text": "Prada\n\n프라다 모놀리스 브러쉬드 레더 로퍼 블랙\n\n17%\n\n1,420,000원\n\n관심 2,067\n\n · 리뷰 106\n\n · 거래 202\n\n빠른배송\n\n6/29(월) 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172700K",
+      "option": "10",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172700K\" SPU=\"USSA031N012172700K\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172700K",
+      "option": "11",
+      "stock": 1,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172700K\" SPU=\"USSA031N012172700K\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172700K",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172700K\" SPU=\"USSA031N012172700K\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172700K",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172700K\" SPU=\"USSA031N012172700K\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172700K",
+      "option": "9",
+      "stock": 1,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172700K\" SPU=\"USSA031N012172700K\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 445888,
+          "text": "Prada\n\n프라다 나플락 로퍼 블랙\n\n61%\n\n600,000원\n\n관심 18"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        },
+        {
+          "product_id": 300267,
+          "text": "Prada\n\n프라다 브러쉬드 레더 로퍼 블랙\n\n47%\n\n840,000원\n\n관심 167\n\n · 리뷰 6\n\n · 거래 15"
+        }
+      ]
+    },
+    {
+      "sku": "UBA0057N012700100I",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 427.87,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UBA0057N012700100I\" SPU=\"UBA0057N012700100I\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        },
+        {
+          "product_id": 85571,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트\n\n33%\n\n1,054,000원\n\n관심 356\n\n · 리뷰 1\n\n · 거래 19"
+        },
+        {
+          "product_id": 90419,
+          "text": "Prada\n\n프라다 리나일론 레더 토트백 블랙\n\n19%\n\n2,350,000원\n\n관심 2,209\n\n · 리뷰 4\n\n · 거래 40"
+        },
+        {
+          "product_id": 284835,
+          "text": "Prada\n\n(W) 프라다 다운타운 나파 레더 스니커즈 블랙\n\n34%\n\n1,103,000원\n\n관심 12\n\n · 리뷰 1\n\n · 거래 3"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020FM",
+      "option": "45",
+      "stock": 2,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020FM\" SPU=\"USSFITSN00809020FM\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809020FM",
+      "option": "46",
+      "stock": 1,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809020FM\" SPU=\"USSFITSN00809020FM\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITBN008090300X",
+      "option": "41.5",
+      "stock": 3,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITBN008090300X\" SPU=\"USSFITBN008090300X\"",
+      "candidates": [
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITBN008090300X",
+      "option": "42.5",
+      "stock": 1,
+      "eur_price": 312.29,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITBN008090300X\" SPU=\"USSFITBN008090300X\"",
+      "candidates": [
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 914421,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트 그린\n\n1,000,000원\n\n관심 3"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        }
+      ]
+    },
+    {
+      "sku": "UMCPOSK06R491202T",
+      "option": "XXXL",
+      "stock": 1,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"UMCPOSK06R491202T\" SPU=\"UMCPOSK06R491202T\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        },
+        {
+          "product_id": 153619,
+          "text": "Givenchy\n\n(W) 지방시 레더 지방시 스트랩 시티 스포츠 스니커즈 화이트 블랙\n\n67%\n\n330,000원\n\n관심 104\n\n · 리뷰 5\n\n · 거래 10"
+        },
+        {
+          "product_id": 947469,
+          "text": "Prada Vintage\n\n프라다 1E260M 개버딘 리나일론 스니커즈\n\n472,500원\n\n관심 4\n\n무료배송"
+        },
+        {
+          "product_id": 68250,
+          "text": "Prada\n\n(W) 프라다 다운타운 퍼포레이티드 레더 스니커즈 화이트 블랙\n\n37%\n\n825,000원\n\n관심 690\n\n · 리뷰 1\n\n · 거래 60\n\n빠른배송\n\n6/29(월) 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010DI",
+      "option": "10",
+      "stock": 6,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010DI\" SPU=\"USSFITSN00809010DI\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010DI",
+      "option": "11",
+      "stock": 3,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010DI\" SPU=\"USSFITSN00809010DI\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010DI",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010DI\" SPU=\"USSFITSN00809010DI\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010DI",
+      "option": "13",
+      "stock": 1,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010DI\" SPU=\"USSFITSN00809010DI\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010DI",
+      "option": "8",
+      "stock": 5,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010DI\" SPU=\"USSFITSN00809010DI\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        }
+      ]
+    },
+    {
+      "sku": "USSFITSN00809010DI",
+      "option": "9",
+      "stock": 5,
+      "eur_price": 378.69,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSFITSN00809010DI\" SPU=\"USSFITSN00809010DI\"",
+      "candidates": [
+        {
+          "product_id": 110861,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 화이트\n\n43%\n\n679,000원\n\n관심 126\n\n · 리뷰 2\n\n · 거래 110"
+        },
+        {
+          "product_id": 156576,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블랙\n\n40%\n\n539,000원\n\n관심 275\n\n · 리뷰 30\n\n · 거래 328\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 110859,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 블루\n\n47%\n\n630,000원\n\n관심 72\n\n · 리뷰 5\n\n · 거래 54"
+        },
+        {
+          "product_id": 112161,
+          "text": "Kiton\n\n키톤 니트 핏 러닝 슈즈 내추럴\n\n49%\n\n600,000원\n\n관심 51\n\n · 리뷰 6\n\n · 거래 32"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172400P",
+      "option": "10",
+      "stock": 4,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172400P\" SPU=\"USSA031N012172400P\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        },
+        {
+          "product_id": 68250,
+          "text": "Prada\n\n(W) 프라다 다운타운 퍼포레이티드 레더 스니커즈 화이트 블랙\n\n37%\n\n825,000원\n\n관심 690\n\n · 리뷰 1\n\n · 거래 60\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 947469,
+          "text": "Prada Vintage\n\n프라다 1E260M 개버딘 리나일론 스니커즈\n\n472,500원\n\n관심 4\n\n무료배송"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172400P",
+      "option": "11",
+      "stock": 3,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172400P\" SPU=\"USSA031N012172400P\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        },
+        {
+          "product_id": 68250,
+          "text": "Prada\n\n(W) 프라다 다운타운 퍼포레이티드 레더 스니커즈 화이트 블랙\n\n37%\n\n825,000원\n\n관심 690\n\n · 리뷰 1\n\n · 거래 60\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 947469,
+          "text": "Prada Vintage\n\n프라다 1E260M 개버딘 리나일론 스니커즈\n\n472,500원\n\n관심 4\n\n무료배송"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172400P",
+      "option": "12",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172400P\" SPU=\"USSA031N012172400P\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        },
+        {
+          "product_id": 68250,
+          "text": "Prada\n\n(W) 프라다 다운타운 퍼포레이티드 레더 스니커즈 화이트 블랙\n\n37%\n\n825,000원\n\n관심 690\n\n · 리뷰 1\n\n · 거래 60\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 947469,
+          "text": "Prada Vintage\n\n프라다 1E260M 개버딘 리나일론 스니커즈\n\n472,500원\n\n관심 4\n\n무료배송"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172400P",
+      "option": "7",
+      "stock": 2,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172400P\" SPU=\"USSA031N012172400P\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        },
+        {
+          "product_id": 68250,
+          "text": "Prada\n\n(W) 프라다 다운타운 퍼포레이티드 레더 스니커즈 화이트 블랙\n\n37%\n\n825,000원\n\n관심 690\n\n · 리뷰 1\n\n · 거래 60\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 947469,
+          "text": "Prada Vintage\n\n프라다 1E260M 개버딘 리나일론 스니커즈\n\n472,500원\n\n관심 4\n\n무료배송"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172400P",
+      "option": "8",
+      "stock": 3,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172400P\" SPU=\"USSA031N012172400P\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        },
+        {
+          "product_id": 68250,
+          "text": "Prada\n\n(W) 프라다 다운타운 퍼포레이티드 레더 스니커즈 화이트 블랙\n\n37%\n\n825,000원\n\n관심 690\n\n · 리뷰 1\n\n · 거래 60\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 947469,
+          "text": "Prada Vintage\n\n프라다 1E260M 개버딘 리나일론 스니커즈\n\n472,500원\n\n관심 4\n\n무료배송"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        }
+      ]
+    },
+    {
+      "sku": "USSA031N012172400P",
+      "option": "9",
+      "stock": 3,
+      "eur_price": 570.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"USSA031N012172400P\" SPU=\"USSA031N012172400P\"",
+      "candidates": [
+        {
+          "product_id": 178138,
+          "text": "Prada\n\n(W) 프라다 다운타운 레더 스니커즈 화이트 블랙\n\n790,000원\n\n관심 94\n\n · 거래 10"
+        },
+        {
+          "product_id": 78063,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 블랙\n\n24%\n\n1,197,000원\n\n관심 987\n\n · 리뷰 34\n\n · 거래 141"
+        },
+        {
+          "product_id": 68250,
+          "text": "Prada\n\n(W) 프라다 다운타운 퍼포레이티드 레더 스니커즈 화이트 블랙\n\n37%\n\n825,000원\n\n관심 690\n\n · 리뷰 1\n\n · 거래 60\n\n빠른배송\n\n6/29(월) 도착 예정"
+        },
+        {
+          "product_id": 947469,
+          "text": "Prada Vintage\n\n프라다 1E260M 개버딘 리나일론 스니커즈\n\n472,500원\n\n관심 4\n\n무료배송"
+        },
+        {
+          "product_id": 33615,
+          "text": "Prada\n\n프라다 아메리카 컵 스니커즈 블랙\n\n990,000원\n\n관심 951\n\n · 리뷰 23\n\n · 거래 38"
+        }
+      ]
+    }
+  ]
+}
