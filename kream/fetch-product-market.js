@@ -243,8 +243,19 @@ async function verifyCandidate(page, productId, needles) {
       const needleNorm = normalizeCode(n);
       if (needleNorm && bodyNorm.includes(needleNorm)) {
         const title = await page.evaluate(() => {
-          const el = document.querySelector('h1, [class*="product-title-ko"], [class*="title"]');
-          return el ? el.innerText.trim().slice(0, 100) : '';
+          // 우선순위 1: document.title (KREAM 페이지 title — 보통 정확한 상품명 포함, 가장 안정적)
+          //   예: "비비안 웨스트우드 Vivienne Westwood OOO 셔츠 - KREAM"
+          const docTitle = (document.title || '').replace(/\s*[-|]\s*KREAM\s*$/i, '').trim();
+          if (docTitle && docTitle.length > 5) return docTitle;
+          // 우선순위 2: 명시적 product-title 클래스
+          const sel = ['[class*="product-title-ko"]', '[class*="title-ko"]', '[class*="product-name"]', 'h1'];
+          for (const s of sel) {
+            const el = document.querySelector(s);
+            if (el && el.innerText.trim().length > 5) return el.innerText.trim().slice(0, 200);
+          }
+          // fallback
+          const el = document.querySelector('[class*="title"]');
+          return el ? el.innerText.trim().slice(0, 200) : '';
         });
         return { ok: true, product_name_ko: title, matched_needle: n };
       }
