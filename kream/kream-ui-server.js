@@ -60,6 +60,47 @@ app.get('/api/data', (req, res) => {
   }
 });
 
+// 🍯 꿀단지: 모든 브랜드 최신 파일에서 즉시매도(highest_bid) 마진 > 0% 인 상품만 추출
+app.get('/api/honey-data', (req, res) => {
+  if (!fs.existsSync(RESULTS_DIR)) return res.json({ brands: [], results: [] });
+
+  const BRAND_RE = /^kream_market_([a-z0-9_]+)_(\d{4})\.json$/;
+  const files = fs.readdirSync(RESULTS_DIR)
+    .filter((f) => BRAND_RE.test(f))
+    .map((f) => {
+      const m = f.match(BRAND_RE);
+      const stat = fs.statSync(path.join(RESULTS_DIR, f));
+      return { f, slug: m[1], date: m[2], mtime: stat.mtimeMs };
+    });
+
+  // 브랜드별 최신 (mtime 최대) 파일 1개만
+  const latestPerBrand = {};
+  for (const item of files) {
+    if (!latestPerBrand[item.slug] || latestPerBrand[item.slug].mtime < item.mtime) {
+      latestPerBrand[item.slug] = item;
+    }
+  }
+
+  const allResults = [];
+  const brandsList = [];
+  for (const slug of Object.keys(latestPerBrand).sort()) {
+    const info = latestPerBrand[slug];
+    brandsList.push({ slug, file: info.f, date: info.date });
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(RESULTS_DIR, info.f), 'utf-8'));
+      for (const r of (data.results || [])) {
+        // 매칭 + EUR 가격 + 즉시매도 bid 존재 (양수 마진은 frontend 에서 EUR rate/fee 적용해서 계산)
+        if (!r.matched || r.eur_price == null) continue;
+        const bid = r.market?.highest_bid;
+        if (bid == null || bid <= 0) continue;
+        allResults.push({ ...r, brand_slug: slug, _file: info.f });
+      }
+    } catch (_) {}
+  }
+
+  res.json({ fetched_at: new Date().toISOString(), brands: brandsList, total_with_bid: allResults.length, results: allResults });
+});
+
 // 메인 UI
 app.get('/', (req, res) => {
   res.set('Content-Type', 'text/html; charset=utf-8');
@@ -126,6 +167,17 @@ const HTML = `<!DOCTYPE html>
 
   .empty { padding: 60px; text-align: center; color: #888; }
   .file-info { color: #ddd; font-size: 11px; }
+
+  /* 탭 */
+  .tabs { display: flex; gap: 4px; background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 4px; margin-bottom: 16px; }
+  .tab { flex: 0 0 auto; padding: 10px 20px; border: none; background: transparent; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 600; color: #666; transition: all 0.15s; }
+  .tab:hover { background: #f4f4f4; color: #222; }
+  .tab.active { background: #ef6253; color: white; }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* 꿀단지 — 브랜드 컬럼 강조 */
+  td.brand { font-size: 11px; font-weight: 700; color: #ef6253; text-transform: uppercase; white-space: nowrap; }
 </style>
 </head>
 <body>
@@ -138,6 +190,12 @@ const HTML = `<!DOCTYPE html>
 </header>
 
 <main>
+  <div class="tabs">
+    <button class="tab active" data-tab="normal" onclick="switchTab('normal')">📊 브랜드별</button>
+    <button class="tab"        data-tab="honey"  onclick="switchTab('honey')">🍯 꿀단지</button>
+  </div>
+
+  <div id="tab-normal" class="tab-content active">
   <div class="controls">
     <div class="control-group">
       <label>결과 파일</label>
@@ -158,7 +216,6 @@ const HTML = `<!DOCTYPE html>
     <div class="control-group">
       <label>마진 기준</label>
       <select id="margin-basis" onchange="render()">
-        <option value="honey">🍯 꿀단지 (Honey Pot)</option>
         <option value="bid">즉시 매도 (highest_bid)</option>
         <option value="ask">최저호가 매칭 (lowest_ask - 100)</option>
         <option value="sale">최근 체결가 (last_sale)</option>
@@ -183,6 +240,40 @@ const HTML = `<!DOCTYPE html>
   <div id="table-container">
     <div class="empty">데이터 로딩중...</div>
   </div>
+  </div><!-- /tab-normal -->
+
+  <div id="tab-honey" class="tab-content">
+    <div class="controls">
+      <div class="control-group">
+        <label>EUR → KRW 환율</label>
+        <input id="honey-eur-rate" type="number" value="1740" step="10" onchange="renderHoney()">
+      </div>
+      <div class="control-group">
+        <label>KREAM 수수료 (%)</label>
+        <input id="honey-fee-pct" type="number" value="0" step="0.5" onchange="renderHoney()">
+      </div>
+      <div class="control-group">
+        <label>최소 마진율 (%)</label>
+        <input id="honey-min-margin" type="number" value="0" step="1" placeholder="0" onchange="renderHoney()">
+      </div>
+      <div class="control-group">
+        <label>브랜드 필터</label>
+        <select id="honey-brand-filter" onchange="renderHoney()">
+          <option value="">전체 브랜드</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label>SKU 검색</label>
+        <input id="honey-sku-filter" type="text" placeholder="필터..." oninput="renderHoney()">
+      </div>
+      <div class="stat">전체 입찰존재: <strong id="honey-total">0</strong></div>
+      <div class="stat">표시(흑자): <strong id="honey-shown">0</strong></div>
+    </div>
+
+    <div id="honey-table-container">
+      <div class="empty">꿀단지 로딩중...</div>
+    </div>
+  </div><!-- /tab-honey -->
 </main>
 
 <script>
@@ -223,12 +314,6 @@ function computeMargin(row, eurRate, feePct, basis) {
     sellPrice = row.market?.highest_bid; basisLabel = '즉시매도';
   } else if (basis === 'ask') {
     sellPrice = row.market?.lowest_ask != null ? row.market.lowest_ask - 100 : null; basisLabel = '최저호가';
-  } else if (basis === 'honey') {
-    // 🍯 꿀단지: 마진 계산은 최저호가 - 100 우선, 없으면 체결가, 없으면 입찰가
-    // (실제 판매 가능성에 가까운 기준)
-    if (row.market?.lowest_ask != null) { sellPrice = row.market.lowest_ask - 100; basisLabel = '최저호가'; }
-    else if (row.market?.last_sale_price != null) { sellPrice = row.market.last_sale_price; basisLabel = '최근체결'; }
-    else { sellPrice = row.market?.highest_bid; basisLabel = '입찰'; }
   } else {
     sellPrice = row.market?.last_sale_price; basisLabel = '최근체결';
   }
@@ -305,54 +390,8 @@ function render() {
     rows = rows.filter((r) => r._margin && typeof r._margin.pct === 'number' && r._margin.pct >= min);
   }
 
-  // 정렬 — basis 가 'honey' 이고 SORT_KEY 가 'margin' 이면 특수 multi-tier 정렬
-  // (헤더 클릭으로 다른 컬럼 정렬할 땐 일반 정렬 적용)
-  if (basis === 'honey' && SORT_KEY === 'margin') {
-    // Tier 부여:
-    //   1 = 양수 마진 (초록)
-    //   2 = 판매호가 없고 구매입찰만 있는 것 (마진 부호 무관)
-    //   3 = 음수 마진인데 구매입찰은 있는 것
-    //   4 = 입찰도 호가도 없거나, 마진 계산 불가
-    rows.forEach((r) => {
-      const m = r._margin;
-      const hasBid = r.market?.highest_bid != null && r.market.highest_bid > 0;
-      const hasAsk = r.market?.lowest_ask != null && r.market.lowest_ask > 0;
-      const pct = (m && typeof m.pct === 'number') ? m.pct : null;
-      const cost = m?.cost ?? null;
-      const bidGap = (hasBid && cost != null) ? Math.abs(cost - r.market.highest_bid) : Infinity;
-      // 즉시매도(highest_bid) 기준 마진 % — tier 1 정렬에 사용
-      const bidPct = (hasBid && cost != null && cost > 0)
-        ? ((r.market.highest_bid * (1 - feePct / 100)) - cost) / cost * 100
-        : null;
-
-      let tier;
-      if (pct != null && pct >= 0)              tier = 1;
-      else if (!hasAsk && hasBid)               tier = 2;
-      else if (pct != null && pct < 0 && hasBid) tier = 3;
-      else                                       tier = 4;
-      r._honeyTier = tier;
-      r._honeyBidGap = bidGap;
-      r._honeyPct = pct;
-      r._honeyBidPct = bidPct;
-    });
-    rows.sort((a, b) => {
-      // 1. tier 작은 게 먼저
-      if (a._honeyTier !== b._honeyTier) return a._honeyTier - b._honeyTier;
-      // 2. tier 1: 입찰(bid) 있는 것 먼저 — bid 마진 큰 순.
-      //    입찰 없는 것 뒤로 — honey 마진 큰 순 (호가 기반 양수).
-      if (a._honeyTier === 1) {
-        const aHasBid = a._honeyBidPct != null;
-        const bHasBid = b._honeyBidPct != null;
-        if (aHasBid !== bHasBid) return aHasBid ? -1 : 1;  // bid 있는 게 위
-        if (aHasBid) return b._honeyBidPct - a._honeyBidPct;  // bid % 큰 순
-        return (b._honeyPct ?? -Infinity) - (a._honeyPct ?? -Infinity);
-      }
-      // 3. tier 2, 3: |원가 - 입찰가| 작은 순 (오름차순)
-      if (a._honeyTier === 2 || a._honeyTier === 3) return a._honeyBidGap - b._honeyBidGap;
-      // 4. tier 4: 마진 큰 순 (있으면)
-      return (b._honeyPct ?? -Infinity) - (a._honeyPct ?? -Infinity);
-    });
-  } else {
+  // 정렬 — 일반 컬럼 기준
+  {
     rows.sort((a, b) => {
       const get = (r) => {
         switch (SORT_KEY) {
@@ -490,6 +529,137 @@ function renderDetail(r) {
 function escapeHtml(s) {
   if (s == null) return '';
   return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+// ─────────────────────────────────────────────
+// 🍯 꿀단지 탭 — 모든 브랜드 즉시매도 흑자 통합
+// ─────────────────────────────────────────────
+let HONEY = null;
+let HONEY_SORT_KEY = 'bidPct';
+let HONEY_SORT_DESC = true;
+
+async function switchTab(name) {
+  document.querySelectorAll('.tab').forEach((b) => b.classList.toggle('active', b.dataset.tab === name));
+  document.querySelectorAll('.tab-content').forEach((c) => c.classList.toggle('active', c.id === 'tab-' + name));
+  if (name === 'honey' && !HONEY) await loadHoneyData();
+}
+
+async function loadHoneyData() {
+  document.getElementById('honey-table-container').innerHTML = '<div class="empty">꿀단지 데이터 수집중...</div>';
+  const r = await fetch('/api/honey-data');
+  if (!r.ok) {
+    document.getElementById('honey-table-container').innerHTML = '<div class="empty">에러: ' + r.status + '</div>';
+    return;
+  }
+  HONEY = await r.json();
+  // 브랜드 필터 옵션 채우기
+  const sel = document.getElementById('honey-brand-filter');
+  sel.innerHTML = '<option value="">전체 브랜드 (' + (HONEY.brands?.length || 0) + ')</option>';
+  for (const b of (HONEY.brands || [])) {
+    const o = document.createElement('option');
+    o.value = b.slug;
+    o.textContent = b.slug + '  (' + b.date + ')';
+    sel.appendChild(o);
+  }
+  renderHoney();
+}
+
+function sortHoney(key) {
+  if (HONEY_SORT_KEY === key) HONEY_SORT_DESC = !HONEY_SORT_DESC;
+  else { HONEY_SORT_KEY = key; HONEY_SORT_DESC = true; }
+  renderHoney();
+}
+
+function renderHoney() {
+  if (!HONEY) return;
+  const eurRate = Number(document.getElementById('honey-eur-rate').value) || 0;
+  const feePct = Number(document.getElementById('honey-fee-pct').value) || 0;
+  const minMargin = Number(document.getElementById('honey-min-margin').value);
+  const brandFilter = document.getElementById('honey-brand-filter').value;
+  const skuFilter = document.getElementById('honey-sku-filter').value.toUpperCase().trim();
+
+  // 각 row 의 즉시매도 마진 계산
+  let rows = (HONEY.results || []).map((r) => {
+    const cost = (r.eur_price || 0) * eurRate;
+    const bid = r.market?.highest_bid;
+    const net = bid * (1 - feePct / 100);
+    const bidPct = (cost > 0) ? (net - cost) / cost * 100 : null;
+    const profit = (cost > 0) ? Math.round(net - cost) : null;
+    return { ...r, _cost: cost, _bidPct: bidPct, _profit: profit };
+  });
+  // 흑자만 (즉시매도 마진 >= minMargin)
+  rows = rows.filter((r) => r._bidPct != null && r._bidPct >= minMargin);
+  if (brandFilter) rows = rows.filter((r) => r.brand_slug === brandFilter);
+  if (skuFilter)   rows = rows.filter((r) => (r.sku || '').toUpperCase().includes(skuFilter) || (r.b2b_sku || '').toUpperCase().includes(skuFilter));
+
+  // 정렬
+  rows.sort((a, b) => {
+    const get = (r) => {
+      switch (HONEY_SORT_KEY) {
+        case 'brand':   return r.brand_slug || '';
+        case 'sku':     return r.sku || '';
+        case 'option':  return r.option || '';
+        case 'stock':   return r.stock ?? -1;
+        case 'eur':     return r.eur_price ?? -1;
+        case 'cost':    return r._cost ?? -1;
+        case 'bid':     return r.market?.highest_bid ?? -1;
+        case 'bidPct':  return r._bidPct ?? -Infinity;
+        case 'profit':  return r._profit ?? -Infinity;
+        default: return 0;
+      }
+    };
+    const av = get(a), bv = get(b);
+    if (typeof av === 'number') return HONEY_SORT_DESC ? bv - av : av - bv;
+    return HONEY_SORT_DESC ? String(bv).localeCompare(String(av)) : String(av).localeCompare(String(bv));
+  });
+
+  document.getElementById('honey-total').textContent = (HONEY.results || []).length;
+  document.getElementById('honey-shown').textContent = rows.length;
+
+  // 테이블
+  const ths = (key, label) => {
+    const cls = key === HONEY_SORT_KEY ? 'sorted ' + (HONEY_SORT_DESC ? '' : 'asc') : '';
+    return '<th class="' + cls + '" onclick="sortHoney(\\'' + key + '\\')">' + label + '</th>';
+  };
+
+  let html = '<table><thead><tr>';
+  html += ths('brand', '브랜드');
+  html += ths('sku', 'SKU');
+  html += ths('option', '옵션');
+  html += ths('stock', '재고');
+  html += '<th>상품명</th>';
+  html += ths('eur', 'EUR');
+  html += ths('cost', '원가(₩)');
+  html += ths('bid', '즉시매도(₩)');
+  html += ths('profit', '순익(₩)');
+  html += ths('bidPct', '즉시매도 마진%');
+  html += '<th>상세</th>';
+  html += '</tr></thead><tbody>';
+
+  if (rows.length === 0) {
+    html += '<tr><td colspan="11" class="empty">표시할 행이 없습니다 (흑자 즉시매도 없음)</td></tr>';
+  } else {
+    for (const r of rows) {
+      const stockCell = r.stock != null
+        ? '<span style="' + (r.stock <= 1 ? 'color:#cc3344;font-weight:600;' : '') + '">' + r.stock + '</span>'
+        : '-';
+      html += '<tr>';
+      html += '<td class="brand">' + escapeHtml(r.brand_slug) + '</td>';
+      html += '<td class="sku" title="B2B: ' + escapeHtml(r.b2b_sku || '-') + '">' + escapeHtml(r.sku) + '</td>';
+      html += '<td>' + escapeHtml(r.option || '-') + '</td>';
+      html += '<td class="num">' + stockCell + '</td>';
+      html += '<td class="name"><a href="' + (r.product_url || '#') + '" target="_blank">' + escapeHtml(r.product_name_ko || ('pid=' + r.product_id)) + '</a></td>';
+      html += '<td class="num">' + (r.eur_price != null ? fmt(r.eur_price) + '€' : '-') + '</td>';
+      html += '<td class="num">' + fmt(Math.round(r._cost)) + '</td>';
+      html += '<td class="num">' + fmt(r.market.highest_bid) + '</td>';
+      html += '<td class="num">' + fmt(r._profit) + '</td>';
+      html += '<td class="num"><span class="margin positive">' + fmtPct(r._bidPct) + '</span></td>';
+      html += '<td><details><summary>📊</summary>' + renderDetail(r) + '</details></td>';
+      html += '</tr>';
+    }
+  }
+  html += '</tbody></table>';
+  document.getElementById('honey-table-container').innerHTML = html;
 }
 
 (async () => {
