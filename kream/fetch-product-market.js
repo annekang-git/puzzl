@@ -569,6 +569,22 @@ async function fetchMarketData(page, productId, option) {
 // KREAM_CHUNK_SIZE 환경변수로 조정 가능 (기본 50). 0 이면 chunk 비활성 (단일 컨텍스트).
 const CHUNK_SIZE = Number(process.env.KREAM_CHUNK_SIZE ?? 50);
 
+// 한국 residential 프록시 설정 (선택) — 해외 클라우드 IP 가 KREAM 에 차단된 경우 사용.
+// .env 또는 환경변수로 주입:
+//   KREAM_PROXY_SERVER=http://proxy.webshare.io:80
+//   KREAM_PROXY_USER=username-country-kr
+//   KREAM_PROXY_PASS=password
+// 설정 안 되어 있으면 프록시 없이 직접 접속 (Mac mini, 한국 IP 환경).
+function getProxyConfig() {
+  const server = process.env.KREAM_PROXY_SERVER;
+  if (!server) return null;
+  return {
+    server,
+    ...(process.env.KREAM_PROXY_USER ? { username: process.env.KREAM_PROXY_USER } : {}),
+    ...(process.env.KREAM_PROXY_PASS ? { password: process.env.KREAM_PROXY_PASS } : {}),
+  };
+}
+
 // 브라우저 컨텍스트 열기 — chunk 마다 호출
 async function openContext(isHeadless) {
   // 다른 호스트 (Mac → Linux 이전 등) 에서 복사된 SingletonLock/Cookie/Socket 잔재 제거.
@@ -577,11 +593,14 @@ async function openContext(isHeadless) {
     const p = path.join(BROWSER_DATA_DIR, name);
     try { if (fs.existsSync(p) || fs.lstatSync(p)) fs.unlinkSync(p); } catch (_) {}
   }
+  const proxy = getProxyConfig();
+  if (proxy) console.log(`🌐 프록시 사용: ${proxy.server}`);
   const ctx = await chromium.launchPersistentContext(BROWSER_DATA_DIR, {
     headless: isHeadless,
     ...(isHeadless ? {} : { channel: 'chrome' }),
     viewport: { width: 1440, height: 900 },
     args: ['--disable-blink-features=AutomationControlled', '--disable-popup-blocking'],
+    ...(proxy ? { proxy } : {}),
   });
   const page = ctx.pages()[0] || (await ctx.newPage());
   await page.addInitScript(() => Object.defineProperty(navigator, 'webdriver', { get: () => undefined }));
