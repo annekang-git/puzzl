@@ -39,7 +39,7 @@ const BRANDS = [
   { dresscode: 'VIVIENNE WESTWOOD', slug: 'viviennewestwood', source: 'dresscode' },
   // ── giglio 는 1회성 — 매일 크롤링 대상 아님. 수동 fetch 시 targets-giglio_*.json 사용 ──
 ];
-const KEEP_DAYS = 3; // 브랜드당 최근 N개 결과만 유지 (cleanup-old-results.js 와 일치)
+const KEEP_DAYS = 2; // 브랜드당 최근 N개 결과만 유지 (cleanup-old-results.js 와 일치)
 
 // ── .env 로드 ─────────────────────────────────────
 const envFile = path.join(__dirname, '.env');

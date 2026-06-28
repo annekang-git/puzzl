@@ -21,7 +21,7 @@ const RESULTS_DIR = path.join(__dirname, 'results');
 
 // CLI 옵션
 const args = process.argv.slice(2);
-const KEEP = Number((args.find((a) => a.startsWith('--keep=')) || '--keep=3').split('=')[1]);
+const KEEP = Number((args.find((a) => a.startsWith('--keep=')) || '--keep=2').split('=')[1]);
 const DRY_RUN = args.includes('--dry-run');
 
 if (!fs.existsSync(RESULTS_DIR)) {
