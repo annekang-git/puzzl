@@ -578,14 +578,15 @@ function renderHoney() {
   const brandFilter = document.getElementById('honey-brand-filter').value;
   const skuFilter = document.getElementById('honey-sku-filter').value.toUpperCase().trim();
 
-  // 각 row 의 즉시매도 마진 계산
+  // 각 row 의 즉시매도 마진 계산 + 옵션 매칭 보정
   let rows = (HONEY.results || []).map((r) => {
     const cost = (r.eur_price || 0) * eurRate;
     const bid = r.market?.highest_bid;
     const net = bid * (1 - feePct / 100);
     const bidPct = (cost > 0) ? (net - cost) / cost * 100 : null;
     const profit = (cost > 0) ? Math.round(net - cost) : null;
-    return { ...r, _cost: cost, _bidPct: bidPct, _profit: profit };
+    const optOk = isOptionEffectivelyMatched(r);
+    return { ...r, _cost: cost, _bidPct: bidPct, _profit: profit, _optOk: optOk };
   });
   // 흑자만 (즉시매도 마진 >= minMargin)
   rows = rows.filter((r) => r._bidPct != null && r._bidPct >= minMargin);
@@ -602,6 +603,8 @@ function renderHoney() {
         case 'stock':   return r.stock ?? -1;
         case 'eur':     return r.eur_price ?? -1;
         case 'cost':    return r._cost ?? -1;
+        case 'last':    return r.market?.last_sale_price ?? -1;
+        case 'ask':     return r.market?.lowest_ask ?? -1;
         case 'bid':     return r.market?.highest_bid ?? -1;
         case 'bidPct':  return r._bidPct ?? -Infinity;
         case 'profit':  return r._profit ?? -Infinity;
@@ -630,28 +633,39 @@ function renderHoney() {
   html += '<th>상품명</th>';
   html += ths('eur', 'EUR');
   html += ths('cost', '원가(₩)');
-  html += ths('bid', '즉시매도(₩)');
+  html += ths('last', '최근체결');
+  html += ths('ask', '최저호가');
+  html += ths('bid', '최고입찰');
   html += ths('profit', '순익(₩)');
-  html += ths('bidPct', '즉시매도 마진%');
+  html += ths('bidPct', '마진%');
   html += '<th>상세</th>';
   html += '</tr></thead><tbody>';
 
   if (rows.length === 0) {
-    html += '<tr><td colspan="11" class="empty">표시할 행이 없습니다 (흑자 즉시매도 없음)</td></tr>';
+    html += '<tr><td colspan="13" class="empty">표시할 행이 없습니다 (흑자 즉시매도 없음)</td></tr>';
   } else {
     for (const r of rows) {
       const stockCell = r.stock != null
         ? '<span style="' + (r.stock <= 1 ? 'color:#cc3344;font-weight:600;' : '') + '">' + r.stock + '</span>'
         : '-';
+      // 옵션 미스매치 표시 (브랜드별 탭 과 동일 패턴)
+      let optionCell = escapeHtml(r.option || '-');
+      if (r.option_mismatch && r._optOk) {
+        optionCell += ' <span style="color:#888;font-size:11px;">→' + escapeHtml(r.kream_option) + '</span>';
+      } else if (r.option_mismatch && !r._optOk) {
+        optionCell += ' <span class="badge warn" title="요청 옵션이 KREAM에 없음. 대체: ' + escapeHtml(r.kream_option || '-') + '">옵션≠</span>';
+      }
       html += '<tr>';
       html += '<td class="brand">' + escapeHtml(r.brand_slug) + '</td>';
       html += '<td class="sku" title="B2B: ' + escapeHtml(r.b2b_sku || '-') + '">' + escapeHtml(r.sku) + '</td>';
-      html += '<td>' + escapeHtml(r.option || '-') + '</td>';
+      html += '<td>' + optionCell + '</td>';
       html += '<td class="num">' + stockCell + '</td>';
       html += '<td class="name"><a href="' + (r.product_url || '#') + '" target="_blank">' + escapeHtml(r.product_name_ko || ('pid=' + r.product_id)) + '</a></td>';
       html += '<td class="num">' + (r.eur_price != null ? fmt(r.eur_price) + '€' : '-') + '</td>';
       html += '<td class="num">' + fmt(Math.round(r._cost)) + '</td>';
-      html += '<td class="num">' + fmt(r.market.highest_bid) + '</td>';
+      html += '<td class="num">' + fmt(r.market?.last_sale_price) + '</td>';
+      html += '<td class="num">' + fmt(r.market?.lowest_ask) + '</td>';
+      html += '<td class="num">' + fmt(r.market?.highest_bid) + '</td>';
       html += '<td class="num">' + fmt(r._profit) + '</td>';
       html += '<td class="num"><span class="margin positive">' + fmtPct(r._bidPct) + '</span></td>';
       html += '<td><details><summary>📊</summary>' + renderDetail(r) + '</details></td>';
