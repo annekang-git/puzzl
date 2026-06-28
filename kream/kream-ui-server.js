@@ -147,6 +147,8 @@ const HTML = `<!DOCTYPE html>
   tbody tr:hover { background: #fafafa; }
   td.num { text-align: right; font-variant-numeric: tabular-nums; }
   td.sku { font-family: 'SF Mono', Monaco, monospace; font-size: 12px; color: #555; }
+  td.sku a { color: #555; text-decoration: none; border-bottom: 1px dotted #aaa; }
+  td.sku a:hover { color: #ef6253; border-bottom-color: #ef6253; }
   td.name { max-width: 280px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   td a { color: #ef6253; text-decoration: none; }
   td a:hover { text-decoration: underline; }
@@ -449,7 +451,7 @@ function render() {
     for (const r of rows) {
       if (!r.matched) {
         html += '<tr>';
-        html += '<td class="sku">' + escapeHtml(r.sku) + '</td>';
+        html += '<td class="sku">' + b2bLink(r) + '</td>';
         html += '<td>' + escapeHtml(r.option || '-') + '</td>';
         html += '<td class="num">' + (r.stock != null ? r.stock : '-') + '</td>';
         html += '<td colspan="8"><span class="badge error">매칭 실패</span> ' + escapeHtml(r.error || '') + '</td>';
@@ -487,7 +489,7 @@ function render() {
         ? '<span style="' + (r.stock <= 1 ? 'color:#cc3344;font-weight:600;' : '') + '">' + r.stock + '</span>'
         : '-';
       html += '<tr>';
-      html += '<td class="sku" title="B2B: ' + escapeHtml(r.b2b_sku || '-') + '">' + escapeHtml(r.sku) + '</td>';
+      html += '<td class="sku">' + b2bLink(r) + '</td>';
       html += '<td>' + optionCell + '</td>';
       html += '<td class="num">' + stockCell + '</td>';
       html += '<td class="name"><a href="' + (r.product_url || '#') + '" target="_blank">' + escapeHtml(r.product_name_ko || r.name || ('pid=' + r.product_id)) + '</a></td>';
@@ -529,6 +531,15 @@ function renderDetail(r) {
 function escapeHtml(s) {
   if (s == null) return '';
   return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+// SKU 클릭 시 b2bfashion 검색 페이지로 이동.
+// 검색어는 원본 reference (b2b_sku) 우선, 없으면 sku.
+function b2bLink(row) {
+  const q = row.b2b_sku || row.sku || '';
+  const url = 'https://b2bfashion.online/search?controller=search&orderby=position&orderway=desc&s=' + encodeURIComponent(q) + '&submit_search=';
+  const title = 'B2B: ' + (row.b2b_sku || '-') + '  (click → b2bfashion 검색)';
+  return '<a href="' + url + '" target="_blank" rel="noopener" title="' + escapeHtml(title) + '">' + escapeHtml(row.sku || '') + '</a>';
 }
 
 // ─────────────────────────────────────────────
@@ -657,7 +668,7 @@ function renderHoney() {
       }
       html += '<tr>';
       html += '<td class="brand">' + escapeHtml(r.brand_slug) + '</td>';
-      html += '<td class="sku" title="B2B: ' + escapeHtml(r.b2b_sku || '-') + '">' + escapeHtml(r.sku) + '</td>';
+      html += '<td class="sku">' + b2bLink(r) + '</td>';
       html += '<td>' + optionCell + '</td>';
       html += '<td class="num">' + stockCell + '</td>';
       html += '<td class="name"><a href="' + (r.product_url || '#') + '" target="_blank">' + escapeHtml(r.product_name_ko || ('pid=' + r.product_id)) + '</a></td>';
