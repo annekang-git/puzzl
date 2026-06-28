@@ -571,8 +571,12 @@ const CHUNK_SIZE = Number(process.env.KREAM_CHUNK_SIZE ?? 50);
 
 // 브라우저 컨텍스트 열기 — chunk 마다 호출
 async function openContext(isHeadless) {
-  const lock = path.join(BROWSER_DATA_DIR, 'SingletonLock');
-  if (fs.existsSync(lock)) fs.unlinkSync(lock);
+  // 다른 호스트 (Mac → Linux 이전 등) 에서 복사된 SingletonLock/Cookie/Socket 잔재 제거.
+  // Chrome 이 옛 PID/호스트 보고 "다른 컴퓨터에서 사용 중" 으로 잘못 인식해 launch 실패하는 사고 방지.
+  for (const name of ['SingletonLock', 'SingletonCookie', 'SingletonSocket']) {
+    const p = path.join(BROWSER_DATA_DIR, name);
+    try { if (fs.existsSync(p) || fs.lstatSync(p)) fs.unlinkSync(p); } catch (_) {}
+  }
   const ctx = await chromium.launchPersistentContext(BROWSER_DATA_DIR, {
     headless: isHeadless,
     ...(isHeadless ? {} : { channel: 'chrome' }),
