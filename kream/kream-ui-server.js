@@ -69,14 +69,14 @@ app.get('/api/honey-data', (req, res) => {
     .filter((f) => BRAND_RE.test(f))
     .map((f) => {
       const m = f.match(BRAND_RE);
-      const stat = fs.statSync(path.join(RESULTS_DIR, f));
-      return { f, slug: m[1], date: m[2], mtime: stat.mtimeMs };
+      return { f, slug: m[1], date: m[2] };
     });
 
-  // 브랜드별 최신 (mtime 최대) 파일 1개만
+  // 브랜드별 최신 (파일명의 MMDD 가 큰 것) 파일 1개만 선택
+  // git pull 후 mtime 이 모두 동일해질 수 있어 mtime 대신 파일명 날짜로 비교.
   const latestPerBrand = {};
   for (const item of files) {
-    if (!latestPerBrand[item.slug] || latestPerBrand[item.slug].mtime < item.mtime) {
+    if (!latestPerBrand[item.slug] || latestPerBrand[item.slug].date < item.date) {
       latestPerBrand[item.slug] = item;
     }
   }
