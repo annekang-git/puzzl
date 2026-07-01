@@ -1,0 +1,1559 @@
+{
+  "fetched_at": "2026-07-01T10:59:50.415Z",
+  "input_file": "targets-therow.json",
+  "total_targets": 49,
+  "matched": 14,
+  "failed": 35,
+  "results": [
+    {
+      "sku": "6525SW1493WHT",
+      "option": "24",
+      "stock": 1,
+      "eur_price": 573.77,
+      "matched": true,
+      "product_id": 631341,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/631341",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "120K291WHT",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 186.89,
+      "matched": true,
+      "product_id": 626577,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/626577",
+      "market": {
+        "last_sale_price": 806000,
+        "lowest_ask": 806000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 806000,
+          "option": "S",
+          "date_created": "2026-06-24T16:39:40Z",
+          "date_text": "26/06/25",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 806000,
+          "option": "S",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "S",
+      "kream_options_available": [
+        "S"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "120K291WHT",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 186.89,
+      "matched": true,
+      "product_id": 626577,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/626577",
+      "market": {
+        "last_sale_price": 806000,
+        "lowest_ask": 806000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 806000,
+          "option": "S",
+          "date_created": "2026-06-24T16:39:40Z",
+          "date_text": "26/06/25",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 806000,
+          "option": "S",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "S",
+      "kream_options_available": [
+        "S"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "1340K628BLK",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1340K628BLK\" SPU=\"1340K628BLK\"",
+      "candidates": [
+        {
+          "product_id": 429728,
+          "text": "Diesel\n\n디젤 L-카버 엠보스드 로고 바이커 자켓 블랙\n\n799,000원\n\n관심 57\n\n · 거래 1"
+        },
+        {
+          "product_id": 605067,
+          "text": "Dior\n\n디올 꾸뛰르 후드 자켓 블랙\n\n3,499,000원\n\n관심 7"
+        },
+        {
+          "product_id": 797215,
+          "text": "Diesel\n\n디젤 목 넥 메탈릭 오발 D 스웨트셔츠 블랙\n\n43%\n\n210,000원\n\n관심 85\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 855329,
+          "text": "Diesel\n\n디젤 레귤러 숏 데님 쇼츠 블랙\n\n42%\n\n157,000원\n\n관심 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 503148,
+          "text": "Diesel\n\n디젤 S-락-D 파이핑 집업 스웨트셔츠 블랙\n\n50%\n\n210,000원\n\n관심 27\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "1340K628BLK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1340K628BLK\" SPU=\"1340K628BLK\"",
+      "candidates": [
+        {
+          "product_id": 429728,
+          "text": "Diesel\n\n디젤 L-카버 엠보스드 로고 바이커 자켓 블랙\n\n799,000원\n\n관심 57\n\n · 거래 1"
+        },
+        {
+          "product_id": 605067,
+          "text": "Dior\n\n디올 꾸뛰르 후드 자켓 블랙\n\n3,499,000원\n\n관심 7"
+        },
+        {
+          "product_id": 797215,
+          "text": "Diesel\n\n디젤 목 넥 메탈릭 오발 D 스웨트셔츠 블랙\n\n43%\n\n210,000원\n\n관심 85\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 855329,
+          "text": "Diesel\n\n디젤 레귤러 숏 데님 쇼츠 블랙\n\n42%\n\n157,000원\n\n관심 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 503148,
+          "text": "Diesel\n\n디젤 S-락-D 파이핑 집업 스웨트셔츠 블랙\n\n50%\n\n210,000원\n\n관심 27\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "1378W5046MDI",
+      "option": "32",
+      "stock": 1,
+      "eur_price": 526.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1378W5046MDI\" SPU=\"1378W5046MDI\"",
+      "candidates": [
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 125909,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 스무스 레더 화이트 블랙\n\n424,000원\n\n관심 151\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 71617,
+          "text": "Saint Laurent\n\n생로랑 캔버스 레더 코트 클래식 SL/06 자수 스니커즈 크림\n\n38%\n\n613,000원\n\n관심 275\n\n · 리뷰 4\n\n · 거래 73"
+        },
+        {
+          "product_id": 62126,
+          "text": "Saint Laurent\n\n(W) 생로랑 레더 앤디 스니커즈 옵틱 화이트\n\n45%\n\n458,000원\n\n관심 96\n\n · 리뷰 2\n\n · 거래 15"
+        },
+        {
+          "product_id": 128327,
+          "text": "Saint Laurent\n\n생로랑 캔버스 스무스 레더 말리부 스니커즈 옵틱 화이트\n\n41%\n\n599,000원\n\n관심 510\n\n · 리뷰 12\n\n · 거래 103"
+        }
+      ]
+    },
+    {
+      "sku": "1340K628GYM",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1340K628GYM\" SPU=\"1340K628GYM\"",
+      "candidates": [
+        {
+          "product_id": 757970,
+          "text": "Diesel\n\n디젤 J-하이브스-워드 자켓 블랙\n\n49%\n\n285,000원\n\n관심 17\n\n · 거래 1"
+        },
+        {
+          "product_id": 429728,
+          "text": "Diesel\n\n디젤 L-카버 엠보스드 로고 바이커 자켓 블랙\n\n799,000원\n\n관심 57\n\n · 거래 1"
+        },
+        {
+          "product_id": 797215,
+          "text": "Diesel\n\n디젤 목 넥 메탈릭 오발 D 스웨트셔츠 블랙\n\n43%\n\n210,000원\n\n관심 85\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 388361,
+          "text": "Balenciaga\n\n발렌시아가 x 언더아머 리버시블 트랙수트 자켓 블랙\n\n64%\n\n1,289,000원\n\n관심 10\n\n · 거래 1"
+        },
+        {
+          "product_id": 111921,
+          "text": "Diesel\n\n디젤 S-라록 슬리브 밴드 트랙 자켓 블랙\n\n210,000원\n\n관심 340\n\n · 리뷰 3\n\n · 거래 23"
+        }
+      ]
+    },
+    {
+      "sku": "1330W2861BQE",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 951.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1330W2861BQE\" SPU=\"1330W2861BQE\"",
+      "candidates": [
+        {
+          "product_id": 700279,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 바이커 자켓 블랙\n\n1,998,000원\n\n관심 9"
+        },
+        {
+          "product_id": 672163,
+          "text": "Diesel\n\n디젤 S-바티-뉴 집업 스웨트셔츠 그레이\n\n344,000원\n\n관심 30\n\n · 거래 1"
+        },
+        {
+          "product_id": 48187,
+          "text": "Maison Margiela\n\n메종 마르지엘라 업사이드 다운 자수 로고 후드 블랙 화이트\n\n648,000원\n\n관심 393\n\n · 리뷰 9\n\n · 거래 35"
+        },
+        {
+          "product_id": 642130,
+          "text": "Balenciaga\n\n발렌시아가 오버사이즈 집업 후드 그레이\n\n33%\n\n2,120,000원\n\n관심 14"
+        },
+        {
+          "product_id": 870676,
+          "text": "Maison Margiela Vintage\n\n메종 마르지엘라 16fw 남성 스티치 워싱 블루종 봄버 자켓\n\n1,544,400원\n\n관심 5\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "1454W5073WBR",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 614.75,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1454W5073WBR\" SPU=\"1454W5073WBR\"",
+      "candidates": [
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 125909,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 스무스 레더 화이트 블랙\n\n424,000원\n\n관심 151\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 71617,
+          "text": "Saint Laurent\n\n생로랑 캔버스 레더 코트 클래식 SL/06 자수 스니커즈 크림\n\n38%\n\n613,000원\n\n관심 275\n\n · 리뷰 4\n\n · 거래 73"
+        },
+        {
+          "product_id": 28206,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 화이트 블랙\n\n35%\n\n520,000원\n\n관심 572\n\n · 리뷰 4\n\n · 거래 137"
+        },
+        {
+          "product_id": 127561,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 코트 클래식 SL/06 스니커즈 옵틱 화이트\n\n34%\n\n784,000원\n\n관심 195\n\n · 리뷰 5\n\n · 거래 35"
+        }
+      ]
+    },
+    {
+      "sku": "1401K767WHT",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 295.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1401K767WHT\" SPU=\"1401K767WHT\"",
+      "candidates": [
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 637009,
+          "text": "Saint Laurent\n\n(W) 생로랑 카산드라 스무스 레더 샌들 블랙\n\n67%\n\n484,000원\n\n관심 20\n\n · 거래 1"
+        },
+        {
+          "product_id": 71617,
+          "text": "Saint Laurent\n\n생로랑 캔버스 레더 코트 클래식 SL/06 자수 스니커즈 크림\n\n38%\n\n613,000원\n\n관심 275\n\n · 리뷰 4\n\n · 거래 73"
+        },
+        {
+          "product_id": 125909,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 스무스 레더 화이트 블랙\n\n424,000원\n\n관심 151\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 28206,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 화이트 블랙\n\n35%\n\n520,000원\n\n관심 572\n\n · 리뷰 4\n\n · 거래 137"
+        }
+      ]
+    },
+    {
+      "sku": "F2076SL3BLACK",
+      "option": "44",
+      "stock": 2,
+      "eur_price": 780.32,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"F2076SL3BLACK\" SPU=\"F2076SL3BLACK\"",
+      "candidates": [
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 125909,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 스무스 레더 화이트 블랙\n\n424,000원\n\n관심 151\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 71617,
+          "text": "Saint Laurent\n\n생로랑 캔버스 레더 코트 클래식 SL/06 자수 스니커즈 크림\n\n38%\n\n613,000원\n\n관심 275\n\n · 리뷰 4\n\n · 거래 73"
+        },
+        {
+          "product_id": 28206,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 화이트 블랙\n\n35%\n\n520,000원\n\n관심 572\n\n · 리뷰 4\n\n · 거래 137"
+        },
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        }
+      ]
+    },
+    {
+      "sku": "1241Y120FOG",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 704.26,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1241Y120FOG\" SPU=\"1241Y120FOG\"",
+      "candidates": [
+        {
+          "product_id": 125909,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 스무스 레더 화이트 블랙\n\n424,000원\n\n관심 151\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 28206,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 화이트 블랙\n\n35%\n\n520,000원\n\n관심 572\n\n · 리뷰 4\n\n · 거래 137"
+        },
+        {
+          "product_id": 71617,
+          "text": "Saint Laurent\n\n생로랑 캔버스 레더 코트 클래식 SL/06 자수 스니커즈 크림\n\n38%\n\n613,000원\n\n관심 275\n\n · 리뷰 4\n\n · 거래 73"
+        },
+        {
+          "product_id": 78358,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫 뮬 앰버\n\n56%\n\n507,000원\n\n관심 176\n\n · 리뷰 2\n\n · 거래 17"
+        }
+      ]
+    },
+    {
+      "sku": "1401K767BLK",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 295.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1401K767BLK\" SPU=\"1401K767BLK\"",
+      "candidates": [
+        {
+          "product_id": 125909,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 스무스 레더 화이트 블랙\n\n424,000원\n\n관심 151\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 71617,
+          "text": "Saint Laurent\n\n생로랑 캔버스 레더 코트 클래식 SL/06 자수 스니커즈 크림\n\n38%\n\n613,000원\n\n관심 275\n\n · 리뷰 4\n\n · 거래 73"
+        },
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 28206,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 화이트 블랙\n\n35%\n\n520,000원\n\n관심 572\n\n · 리뷰 4\n\n · 거래 137"
+        },
+        {
+          "product_id": 79049,
+          "text": "Saint Laurent\n\n(W) 생로랑 울 테디 자켓 블랙\n\n71%\n\n1,070,000원\n\n관심 394\n\n · 리뷰 13\n\n · 거래 28"
+        }
+      ]
+    },
+    {
+      "sku": "1024Y960FBK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 916.72,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1024Y960FBK\" SPU=\"1024Y960FBK\"",
+      "candidates": [
+        {
+          "product_id": 125909,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 스무스 레더 화이트 블랙\n\n424,000원\n\n관심 151\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 78358,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫 뮬 앰버\n\n56%\n\n507,000원\n\n관심 176\n\n · 리뷰 2\n\n · 거래 17"
+        },
+        {
+          "product_id": 637009,
+          "text": "Saint Laurent\n\n(W) 생로랑 카산드라 스무스 레더 샌들 블랙\n\n67%\n\n484,000원\n\n관심 20\n\n · 거래 1"
+        },
+        {
+          "product_id": 154099,
+          "text": "Saint Laurent\n\n(W) 생로랑 트리뷰트 뮬 스무스 레더 화이트\n\n65%\n\n400,000원\n\n관심 80\n\n · 리뷰 1\n\n · 거래 4"
+        }
+      ]
+    },
+    {
+      "sku": "6525W3654BLK",
+      "option": "25",
+      "stock": 1,
+      "eur_price": 595.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 78358,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫 뮬 앰버\n\n56%\n\n507,000원\n\n관심 176\n\n · 리뷰 2\n\n · 거래 17"
+        },
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 71617,
+          "text": "Saint Laurent\n\n생로랑 캔버스 레더 코트 클래식 SL/06 자수 스니커즈 크림\n\n38%\n\n613,000원\n\n관심 275\n\n · 리뷰 4\n\n · 거래 73"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 18\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 835328,
+          "text": "Saint Laurent Vintage\n\n생로랑 199598 블랙 레더 트리뷰트 플랫폼 스트랩 여성 샌들 35\n\n316,300원\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "6525W3654BLK",
+      "option": "26",
+      "stock": 1,
+      "eur_price": 595.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 78358,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫 뮬 앰버\n\n56%\n\n507,000원\n\n관심 176\n\n · 리뷰 2\n\n · 거래 17"
+        },
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 71617,
+          "text": "Saint Laurent\n\n생로랑 캔버스 레더 코트 클래식 SL/06 자수 스니커즈 크림\n\n38%\n\n613,000원\n\n관심 275\n\n · 리뷰 4\n\n · 거래 73"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 18\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 835328,
+          "text": "Saint Laurent Vintage\n\n생로랑 199598 블랙 레더 트리뷰트 플랫폼 스트랩 여성 샌들 35\n\n316,300원\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "6525W3654BLK",
+      "option": "27",
+      "stock": 1,
+      "eur_price": 595.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 78358,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫 뮬 앰버\n\n56%\n\n507,000원\n\n관심 176\n\n · 리뷰 2\n\n · 거래 17"
+        },
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 71617,
+          "text": "Saint Laurent\n\n생로랑 캔버스 레더 코트 클래식 SL/06 자수 스니커즈 크림\n\n38%\n\n613,000원\n\n관심 275\n\n · 리뷰 4\n\n · 거래 73"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 18\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 835328,
+          "text": "Saint Laurent Vintage\n\n생로랑 199598 블랙 레더 트리뷰트 플랫폼 스트랩 여성 샌들 35\n\n316,300원\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "6525W3654BLK",
+      "option": "29",
+      "stock": 1,
+      "eur_price": 595.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 78358,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫 뮬 앰버\n\n56%\n\n507,000원\n\n관심 176\n\n · 리뷰 2\n\n · 거래 17"
+        },
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 71617,
+          "text": "Saint Laurent\n\n생로랑 캔버스 레더 코트 클래식 SL/06 자수 스니커즈 크림\n\n38%\n\n613,000원\n\n관심 275\n\n · 리뷰 4\n\n · 거래 73"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 18\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 835328,
+          "text": "Saint Laurent Vintage\n\n생로랑 199598 블랙 레더 트리뷰트 플랫폼 스트랩 여성 샌들 35\n\n316,300원\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "1261Y876CHO",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 829.51,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1261Y876CHO\" SPU=\"1261Y876CHO\"",
+      "candidates": [
+        {
+          "product_id": 719884,
+          "text": "Diesel\n\n(W) 디젤 Dz5613 투핸드 19mm 레더 화이트\n\n41%\n\n230,000원\n\n관심 59"
+        },
+        {
+          "product_id": 853653,
+          "text": "Loewe\n\n로에베 아나그램 데님 오버셔츠 블랙\n\n1,272,000원\n\n관심 1"
+        },
+        {
+          "product_id": 719878,
+          "text": "Diesel\n\n(W) 디젤 Dz5612 투핸드 19mm 레더 블랙\n\n41%\n\n229,000원\n\n관심 153\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 269856,
+          "text": "Loewe\n\n로에베 퍼퍼 아나그램 플레인 카드 홀더 인 샤이니 나파 카프스킨 블랙\n\n43%\n\n355,000원\n\n관심 140\n\n · 리뷰 2\n\n · 거래 6"
+        },
+        {
+          "product_id": 244871,
+          "text": "Diesel\n\n디젤 DZ4344 메가 치프 쿼츠 아날로그 51mm 골드 레더 블랙\n\n30%\n\n319,000원\n\n관심 21\n\n · 리뷰 2\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "1461W4503BLK",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1461W4503BLK\" SPU=\"1461W4503BLK\"",
+      "candidates": [
+        {
+          "product_id": 313144,
+          "text": "Dr. Martens\n\n닥터마틴 1461 모노 스무스 블랙\n\n10%\n\n206,100원\n\n관심 1,411\n\n · 리뷰 69\n\n적립\n\n무료배송"
+        },
+        {
+          "product_id": 266622,
+          "text": "Dr. Martens\n\n닥터마틴 1461 WS 블랙 스무스\n\n19%\n\n170,000원\n\n관심 7,241\n\n · 리뷰 497\n\n · 거래 2,263\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 118749,
+          "text": "Dr. Martens\n\n닥터마틴 1461 쿼드 블랙\n\n26%\n\n185,000원\n\n관심 1.5만\n\n · 리뷰 612\n\n · 거래 3,126\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 812586,
+          "text": "Dr. Martens\n\n닥터마틴 1461 펠릭스 비건 블랙\n\n159,000원\n\n관심 2\n\n · 거래 1"
+        },
+        {
+          "product_id": 248118,
+          "text": "Dr. Martens\n\n닥터마틴 1461 플레인 웰트 스무스 블랙\n\n49%\n\n150,000원\n\n관심 178\n\n · 리뷰 5\n\n · 거래 8"
+        }
+      ]
+    },
+    {
+      "sku": "1461W4503BLK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1461W4503BLK\" SPU=\"1461W4503BLK\"",
+      "candidates": [
+        {
+          "product_id": 313144,
+          "text": "Dr. Martens\n\n닥터마틴 1461 모노 스무스 블랙\n\n10%\n\n206,100원\n\n관심 1,411\n\n · 리뷰 69\n\n적립\n\n무료배송"
+        },
+        {
+          "product_id": 266622,
+          "text": "Dr. Martens\n\n닥터마틴 1461 WS 블랙 스무스\n\n19%\n\n170,000원\n\n관심 7,241\n\n · 리뷰 497\n\n · 거래 2,263\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 118749,
+          "text": "Dr. Martens\n\n닥터마틴 1461 쿼드 블랙\n\n26%\n\n185,000원\n\n관심 1.5만\n\n · 리뷰 612\n\n · 거래 3,126\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 812586,
+          "text": "Dr. Martens\n\n닥터마틴 1461 펠릭스 비건 블랙\n\n159,000원\n\n관심 2\n\n · 거래 1"
+        },
+        {
+          "product_id": 248118,
+          "text": "Dr. Martens\n\n닥터마틴 1461 플레인 웰트 스무스 블랙\n\n49%\n\n150,000원\n\n관심 178\n\n · 리뷰 5\n\n · 거래 8"
+        }
+      ]
+    },
+    {
+      "sku": "1461W4503BLK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1461W4503BLK\" SPU=\"1461W4503BLK\"",
+      "candidates": [
+        {
+          "product_id": 313144,
+          "text": "Dr. Martens\n\n닥터마틴 1461 모노 스무스 블랙\n\n10%\n\n206,100원\n\n관심 1,411\n\n · 리뷰 69\n\n적립\n\n무료배송"
+        },
+        {
+          "product_id": 266622,
+          "text": "Dr. Martens\n\n닥터마틴 1461 WS 블랙 스무스\n\n19%\n\n170,000원\n\n관심 7,241\n\n · 리뷰 497\n\n · 거래 2,263\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 118749,
+          "text": "Dr. Martens\n\n닥터마틴 1461 쿼드 블랙\n\n26%\n\n185,000원\n\n관심 1.5만\n\n · 리뷰 612\n\n · 거래 3,126\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 812586,
+          "text": "Dr. Martens\n\n닥터마틴 1461 펠릭스 비건 블랙\n\n159,000원\n\n관심 2\n\n · 거래 1"
+        },
+        {
+          "product_id": 248118,
+          "text": "Dr. Martens\n\n닥터마틴 1461 플레인 웰트 스무스 블랙\n\n49%\n\n150,000원\n\n관심 178\n\n · 리뷰 5\n\n · 거래 8"
+        }
+      ]
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "42",
+      "stock": 2,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "43",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "44",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "45",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "W1273L129DAT",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1849.18,
+      "matched": true,
+      "product_id": 521041,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/521041",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "1210W3856OWH",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 743.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1210W3856OWH\" SPU=\"1210W3856OWH\"",
+      "candidates": [
+        {
+          "product_id": 72356,
+          "text": "Chloe\n\n(W) 끌로에 로렌 스니커즈 마일드 베이지\n\n46%\n\n459,000원\n\n관심 803\n\n · 리뷰 5\n\n · 거래 134"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 18\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 56970,
+          "text": "Celine\n\n(W) 셀린느 캔버스 & 카프스킨 제인 로우 레이스업 스니커즈 옵틱 화이트\n\n809,000원\n\n관심 1,137\n\n · 리뷰 2\n\n · 거래 19"
+        },
+        {
+          "product_id": 69268,
+          "text": "Saint Laurent\n\n(W) 생로랑 캔버스 자수 에스파드리유 내츄럴 베이지\n\n22%\n\n561,000원\n\n관심 15\n\n · 거래 2"
+        },
+        {
+          "product_id": 852051,
+          "text": "Celine\n\n(W) 셀린느 더 플랫 스니커즈 그로그랭 벨벳 스웨이드 카프스킨 램스킨 블랙 화이트\n\n1,140,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "1210W3856OWH",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 743.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1210W3856OWH\" SPU=\"1210W3856OWH\"",
+      "candidates": [
+        {
+          "product_id": 72356,
+          "text": "Chloe\n\n(W) 끌로에 로렌 스니커즈 마일드 베이지\n\n46%\n\n459,000원\n\n관심 803\n\n · 리뷰 5\n\n · 거래 134"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 18\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 56970,
+          "text": "Celine\n\n(W) 셀린느 캔버스 & 카프스킨 제인 로우 레이스업 스니커즈 옵틱 화이트\n\n809,000원\n\n관심 1,137\n\n · 리뷰 2\n\n · 거래 19"
+        },
+        {
+          "product_id": 69268,
+          "text": "Saint Laurent\n\n(W) 생로랑 캔버스 자수 에스파드리유 내츄럴 베이지\n\n22%\n\n561,000원\n\n관심 15\n\n · 거래 2"
+        },
+        {
+          "product_id": 852051,
+          "text": "Celine\n\n(W) 셀린느 더 플랫 스니커즈 그로그랭 벨벳 스웨이드 카프스킨 램스킨 블랙 화이트\n\n1,140,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "1175W4252OTT",
+      "option": "40 FR",
+      "stock": 1,
+      "eur_price": 2848.53,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1175W4252OTT\" SPU=\"1175W4252OTT\"",
+      "candidates": [
+        {
+          "product_id": 745782,
+          "text": "Celine\n\n(W) 셀린느 마리나 뮬 카프스킨 탄\n\n13%\n\n859,000원\n\n관심 61\n\n · 리뷰 1\n\n · 거래 15"
+        },
+        {
+          "product_id": 745754,
+          "text": "Celine\n\n(W) 셀린느 블록 스니커즈 백 트리옹프 앤 웨지 아웃솔 카프스킨 밀크 블랙\n\n12%\n\n1,266,000원\n\n관심 4"
+        },
+        {
+          "product_id": 482085,
+          "text": "Celine\n\n(W) 셀린느 림피아 뮬 라피아 블랙 내츄럴\n\n30%\n\n942,000원\n\n관심 89\n\n · 거래 2"
+        },
+        {
+          "product_id": 56970,
+          "text": "Celine\n\n(W) 셀린느 캔버스 & 카프스킨 제인 로우 레이스업 스니커즈 옵틱 화이트\n\n809,000원\n\n관심 1,137\n\n · 리뷰 2\n\n · 거래 19"
+        },
+        {
+          "product_id": 49490,
+          "text": "Celine\n\n셀린느 트리옹프 캔버스 & 카프스킨 틴 트리옹프 백 탄\n\n34%\n\n3,150,000원\n\n관심 1,356\n\n · 리뷰 19\n\n · 거래 84\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "7370W4327BLK",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 747.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"7370W4327BLK\" SPU=\"7370W4327BLK\"",
+      "candidates": [
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 125909,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 스무스 레더 화이트 블랙\n\n424,000원\n\n관심 151\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 424914,
+          "text": "Balenciaga\n\n(W) 발렌시아가 카골 레더 플랫 샌들 블랙\n\n607,000원\n\n관심 37\n\n · 거래 2"
+        },
+        {
+          "product_id": 66855,
+          "text": "Balenciaga\n\n(W) 발렌시아가 풀 슬라이드 블랙 화이트\n\n290,000원\n\n관심 37\n\n · 거래 9\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 884219,
+          "text": "Balenciaga Vintage\n\n발렌시아가 567156 블랙 니트 올 오버 프린트 스피드러너 레이스업 남성 스니커즈\n\n332,100원\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "10865W4369BLK",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 742.62,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"10865W4369BLK\" SPU=\"10865W4369BLK\"",
+      "candidates": [
+        {
+          "product_id": 424914,
+          "text": "Balenciaga\n\n(W) 발렌시아가 카골 레더 플랫 샌들 블랙\n\n607,000원\n\n관심 37\n\n · 거래 2"
+        },
+        {
+          "product_id": 56422,
+          "text": "Balenciaga\n\n(W) 발렌시아가 트랙 샌들 화이트\n\n53%\n\n430,000원\n\n관심 70\n\n · 리뷰 3\n\n · 거래 13"
+        },
+        {
+          "product_id": 138962,
+          "text": "Balenciaga\n\n(W) 발렌시아가 투어리스트 샌들 화이트\n\n66%\n\n360,000원\n\n관심 1"
+        },
+        {
+          "product_id": 138877,
+          "text": "Balenciaga\n\n(W) 발렌시아가 파리 뮬 화이트\n\n40%\n\n482,000원\n\n관심 30\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 138570,
+          "text": "Balenciaga\n\n(W) 발렌시아가 풀 슬라이드 샌들 블랙 화이트\n\n37%\n\n329,000원\n\n관심 30\n\n · 리뷰 4\n\n · 거래 7"
+        }
+      ]
+    },
+    {
+      "sku": "10865W4369BLK",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 742.62,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"10865W4369BLK\" SPU=\"10865W4369BLK\"",
+      "candidates": [
+        {
+          "product_id": 424914,
+          "text": "Balenciaga\n\n(W) 발렌시아가 카골 레더 플랫 샌들 블랙\n\n607,000원\n\n관심 37\n\n · 거래 2"
+        },
+        {
+          "product_id": 56422,
+          "text": "Balenciaga\n\n(W) 발렌시아가 트랙 샌들 화이트\n\n53%\n\n430,000원\n\n관심 70\n\n · 리뷰 3\n\n · 거래 13"
+        },
+        {
+          "product_id": 138962,
+          "text": "Balenciaga\n\n(W) 발렌시아가 투어리스트 샌들 화이트\n\n66%\n\n360,000원\n\n관심 1"
+        },
+        {
+          "product_id": 138877,
+          "text": "Balenciaga\n\n(W) 발렌시아가 파리 뮬 화이트\n\n40%\n\n482,000원\n\n관심 30\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 138570,
+          "text": "Balenciaga\n\n(W) 발렌시아가 풀 슬라이드 샌들 블랙 화이트\n\n37%\n\n329,000원\n\n관심 30\n\n · 리뷰 4\n\n · 거래 7"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710CHK",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710CHK\" SPU=\"1437Y710CHK\"",
+      "candidates": [
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 125909,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 스무스 레더 화이트 블랙\n\n424,000원\n\n관심 151\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 28206,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 화이트 블랙\n\n35%\n\n520,000원\n\n관심 572\n\n · 리뷰 4\n\n · 거래 137"
+        },
+        {
+          "product_id": 154099,
+          "text": "Saint Laurent\n\n(W) 생로랑 트리뷰트 뮬 스무스 레더 화이트\n\n65%\n\n400,000원\n\n관심 80\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 69128,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 골드 모노그램 카산드라 플랫 샌들 블랙\n\n61%\n\n450,000원\n\n관심 354\n\n · 리뷰 1\n\n · 거래 22"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710CHK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710CHK\" SPU=\"1437Y710CHK\"",
+      "candidates": [
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 125909,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 스무스 레더 화이트 블랙\n\n424,000원\n\n관심 151\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 28206,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 화이트 블랙\n\n35%\n\n520,000원\n\n관심 572\n\n · 리뷰 4\n\n · 거래 137"
+        },
+        {
+          "product_id": 154099,
+          "text": "Saint Laurent\n\n(W) 생로랑 트리뷰트 뮬 스무스 레더 화이트\n\n65%\n\n400,000원\n\n관심 80\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 69128,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 골드 모노그램 카산드라 플랫 샌들 블랙\n\n61%\n\n450,000원\n\n관심 354\n\n · 리뷰 1\n\n · 거래 22"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710CHK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710CHK\" SPU=\"1437Y710CHK\"",
+      "candidates": [
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 125909,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 스무스 레더 화이트 블랙\n\n424,000원\n\n관심 151\n\n · 리뷰 2\n\n · 거래 24"
+        },
+        {
+          "product_id": 28206,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 화이트 블랙\n\n35%\n\n520,000원\n\n관심 572\n\n · 리뷰 4\n\n · 거래 137"
+        },
+        {
+          "product_id": 154099,
+          "text": "Saint Laurent\n\n(W) 생로랑 트리뷰트 뮬 스무스 레더 화이트\n\n65%\n\n400,000원\n\n관심 80\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 69128,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 골드 모노그램 카산드라 플랫 샌들 블랙\n\n61%\n\n450,000원\n\n관심 354\n\n · 리뷰 1\n\n · 거래 22"
+        }
+      ]
+    },
+    {
+      "sku": "F2109L302LQB",
+      "option": "44",
+      "stock": 2,
+      "eur_price": 711.47,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"F2109L302LQB\" SPU=\"F2109L302LQB\"",
+      "candidates": [
+        {
+          "product_id": 99739,
+          "text": "The Row\n\n(W) 더 로우 긴자 샌달 레더 블랙\n\n30%\n\n955,000원\n\n관심 85\n\n · 리뷰 1\n\n · 거래 6"
+        },
+        {
+          "product_id": 765108,
+          "text": "The Row\n\n(W) 더 로우 페넬로페 앵클 스트랩 힐 레더 블랙\n\n35%\n\n1,280,000원\n\n관심 6\n\n · 거래 1"
+        },
+        {
+          "product_id": 911825,
+          "text": "The Row\n\n(W) 더 로우 비치 플립 플랍 블랙\n\n9%\n\n1,240,000원"
+        },
+        {
+          "product_id": 277739,
+          "text": "The Row\n\n(W) 더 로우 삭 나일론 슈즈 블랙\n\n40%\n\n640,000원\n\n관심 18\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 403926,
+          "text": "The Row\n\n더 로우 미디움 N/S 파크 레더 토트백 아이보리\n\n3,253,000원\n\n관심 137\n\n · 리뷰 2\n\n · 거래 17\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "1261Y876BLK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 904.92,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1261Y876BLK\" SPU=\"1261Y876BLK\"",
+      "candidates": [
+        {
+          "product_id": 565997,
+          "text": "Rolex Vintage\n\n롤렉스 116233 데이저스트 36MM 콤비 10P\n\n18,900,000원\n\n관심 38\n\n무료배송"
+        },
+        {
+          "product_id": 577368,
+          "text": "Dolce & Gabbana\n\n돌체 앤 가바나 믹스 소재 DG 쿠션 스니커즈 멀티컬러 화이트\n\n37%\n\n433,000원\n\n관심 20\n\n · 거래 2"
+        },
+        {
+          "product_id": 577364,
+          "text": "Dolce & Gabbana\n\n돌체 앤 가바나 믹스 소재 DG 쿠션 스니커즈 블랙\n\n836,000원"
+        },
+        {
+          "product_id": 59372,
+          "text": "Rolex\n\n롤렉스 데이트저스트 36mm 126233 샴페인 쥬빌리\n\n49,900,000원\n\n관심 925\n\n · 리뷰 25\n\n · 거래 34"
+        },
+        {
+          "product_id": 65155,
+          "text": "Rolex\n\n롤렉스 데이트저스트 36mm 126233 브라이트 블랙 다이아 셋팅 쥬빌리\n\n28,900,000원\n\n관심 1,122\n\n · 리뷰 10\n\n · 거래 29"
+        }
+      ]
+    },
+    {
+      "sku": "1261Y876BLK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 904.92,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1261Y876BLK\" SPU=\"1261Y876BLK\"",
+      "candidates": [
+        {
+          "product_id": 565997,
+          "text": "Rolex Vintage\n\n롤렉스 116233 데이저스트 36MM 콤비 10P\n\n18,900,000원\n\n관심 38\n\n무료배송"
+        },
+        {
+          "product_id": 577368,
+          "text": "Dolce & Gabbana\n\n돌체 앤 가바나 믹스 소재 DG 쿠션 스니커즈 멀티컬러 화이트\n\n37%\n\n433,000원\n\n관심 20\n\n · 거래 2"
+        },
+        {
+          "product_id": 577364,
+          "text": "Dolce & Gabbana\n\n돌체 앤 가바나 믹스 소재 DG 쿠션 스니커즈 블랙\n\n836,000원"
+        },
+        {
+          "product_id": 59372,
+          "text": "Rolex\n\n롤렉스 데이트저스트 36mm 126233 샴페인 쥬빌리\n\n49,900,000원\n\n관심 925\n\n · 리뷰 25\n\n · 거래 34"
+        },
+        {
+          "product_id": 65155,
+          "text": "Rolex\n\n롤렉스 데이트저스트 36mm 126233 브라이트 블랙 다이아 셋팅 쥬빌리\n\n28,900,000원\n\n관심 1,122\n\n · 리뷰 10\n\n · 거래 29"
+        }
+      ]
+    },
+    {
+      "sku": "697W4450LBB",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 635.66,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"697W4450LBB\" SPU=\"697W4450LBB\"",
+      "candidates": [
+        {
+          "product_id": 424914,
+          "text": "Balenciaga\n\n(W) 발렌시아가 카골 레더 플랫 샌들 블랙\n\n607,000원\n\n관심 37\n\n · 거래 2"
+        },
+        {
+          "product_id": 277739,
+          "text": "The Row\n\n(W) 더 로우 삭 나일론 슈즈 블랙\n\n40%\n\n640,000원\n\n관심 18\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 40674,
+          "text": "Balenciaga\n\n(W) 발렌시아가 타이렉스 스니커즈 화이트\n\n500,000원\n\n관심 371\n\n · 리뷰 2\n\n · 거래 46\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 145959,
+          "text": "Balenciaga\n\n발렌시아가 투어리스트 샌들 블랙\n\n65%\n\n370,000원\n\n관심 24\n\n · 리뷰 3\n\n · 거래 15\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 45716,
+          "text": "Balenciaga\n\n발렌시아가 타이렉스 스니커즈 실버\n\n650,000원\n\n관심 2,179\n\n · 리뷰 84\n\n · 거래 250\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "697W4450LBB",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 635.66,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"697W4450LBB\" SPU=\"697W4450LBB\"",
+      "candidates": [
+        {
+          "product_id": 424914,
+          "text": "Balenciaga\n\n(W) 발렌시아가 카골 레더 플랫 샌들 블랙\n\n607,000원\n\n관심 37\n\n · 거래 2"
+        },
+        {
+          "product_id": 277739,
+          "text": "The Row\n\n(W) 더 로우 삭 나일론 슈즈 블랙\n\n40%\n\n640,000원\n\n관심 18\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 40674,
+          "text": "Balenciaga\n\n(W) 발렌시아가 타이렉스 스니커즈 화이트\n\n500,000원\n\n관심 371\n\n · 리뷰 2\n\n · 거래 46\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 145959,
+          "text": "Balenciaga\n\n발렌시아가 투어리스트 샌들 블랙\n\n65%\n\n370,000원\n\n관심 24\n\n · 리뷰 3\n\n · 거래 15\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 45716,
+          "text": "Balenciaga\n\n발렌시아가 타이렉스 스니커즈 실버\n\n650,000원\n\n관심 2,179\n\n · 리뷰 84\n\n · 거래 250\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "11216W4466DRN",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 2257.38,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11216W4466DRN\" SPU=\"11216W4466DRN\"",
+      "candidates": [
+        {
+          "product_id": 745754,
+          "text": "Celine\n\n(W) 셀린느 블록 스니커즈 백 트리옹프 앤 웨지 아웃솔 카프스킨 밀크 블랙\n\n12%\n\n1,266,000원\n\n관심 4"
+        },
+        {
+          "product_id": 745742,
+          "text": "Celine\n\n(W) 셀린느 블록 웨지 스니커즈 트리옹프 패치 카프스킨 앤 스웨이드 카프스킨 옵틱 화이트 그레이\n\n2,175,000원\n\n관심 14"
+        },
+        {
+          "product_id": 745745,
+          "text": "Celine\n\n(W) 셀린느 블록 웨지 스니커즈 트리옹프 패치 카프스킨 앤 스웨이드 카프스킨 옵틱 화이트 베이지\n\n2,174,000원\n\n관심 9"
+        },
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 69268,
+          "text": "Saint Laurent\n\n(W) 생로랑 캔버스 자수 에스파드리유 내츄럴 베이지\n\n22%\n\n561,000원\n\n관심 15\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "11216W4466DRN",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 2257.38,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11216W4466DRN\" SPU=\"11216W4466DRN\"",
+      "candidates": [
+        {
+          "product_id": 745754,
+          "text": "Celine\n\n(W) 셀린느 블록 스니커즈 백 트리옹프 앤 웨지 아웃솔 카프스킨 밀크 블랙\n\n12%\n\n1,266,000원\n\n관심 4"
+        },
+        {
+          "product_id": 745742,
+          "text": "Celine\n\n(W) 셀린느 블록 웨지 스니커즈 트리옹프 패치 카프스킨 앤 스웨이드 카프스킨 옵틱 화이트 그레이\n\n2,175,000원\n\n관심 14"
+        },
+        {
+          "product_id": 745745,
+          "text": "Celine\n\n(W) 셀린느 블록 웨지 스니커즈 트리옹프 패치 카프스킨 앤 스웨이드 카프스킨 옵틱 화이트 베이지\n\n2,174,000원\n\n관심 9"
+        },
+        {
+          "product_id": 44776,
+          "text": "Saint Laurent\n\n(W) 생로랑 코트 클래식 SL/06 스니커즈 크림\n\n56%\n\n329,000원\n\n관심 602\n\n · 리뷰 21\n\n · 거래 114"
+        },
+        {
+          "product_id": 69268,
+          "text": "Saint Laurent\n\n(W) 생로랑 캔버스 자수 에스파드리유 내츄럴 베이지\n\n22%\n\n561,000원\n\n관심 15\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "F2170L805BLK",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 906.56,
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2170L805BLK",
+      "option": "42",
+      "stock": 1,
+      "eur_price": 906.56,
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2170L805BLK",
+      "option": "42.5",
+      "stock": 1,
+      "eur_price": 906.56,
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2170L805BLK",
+      "option": "43",
+      "stock": 2,
+      "eur_price": 906.56,
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    }
+  ]
+}
