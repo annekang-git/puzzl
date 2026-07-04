@@ -156,8 +156,14 @@ try {
   run('node', ['build-targets-by-brand.js', ...specs]);
 
   // giglio CSV 피드 브랜드 targets 재빌드 (atny + fast-shipping 스트리밍 파싱)
+  // 피드 다운로드 (~130MB) 는 VPS 에서만: .env 에 GIGLIO_FEED_BUILD=1 인 호스트만 재빌드.
+  // 그 외 호스트는 기존 targets-*.json 으로 fetch 만 진행.
+  const feedBuildEnabled = process.env.GIGLIO_FEED_BUILD === '1';
   const feedBrands = BRANDS.filter((b) => b.source === 'giglio-feed');
-  if (feedBrands.length > 0) {
+  if (feedBrands.length > 0 && !feedBuildEnabled) {
+    console.log('ℹ️  GIGLIO_FEED_BUILD≠1 — 피드 다운로드 생략, 기존 targets 사용');
+  }
+  if (feedBrands.length > 0 && feedBuildEnabled) {
     const feedSpecs = feedBrands.map((b) => `${b.dresscode}:${b.slug}`);
     try {
       run('node', ['build-targets-giglio-feeds.js', ...feedSpecs]);
