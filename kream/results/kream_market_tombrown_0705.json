@@ -1,0 +1,1065 @@
+{
+  "fetched_at": "2026-07-04T20:14:32.849Z",
+  "input_file": "targets-tombrown.json",
+  "total_targets": 132,
+  "matched": 0,
+  "failed": 132,
+  "results": [
+    {
+      "sku": "FFD104B07524001",
+      "option": "39.5",
+      "stock": 1,
+      "eur_price": 326.43,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL010E03113100",
+      "option": "2",
+      "stock": 2,
+      "eur_price": 245.9,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL010E03113100",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 245.9,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL010E03113100",
+      "option": "4",
+      "stock": 2,
+      "eur_price": 245.9,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJS010A01454100",
+      "option": "4",
+      "stock": 3,
+      "eur_price": 168.04,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJS010A01454100",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 168.04,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MAC019LL0044415",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 377.05,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJT022H00535068",
+      "option": "2",
+      "stock": 4,
+      "eur_price": 381.15,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKQ016AY2001415",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 331.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKQ016AY2001415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 331.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKQ016AY2001415",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 331.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKC160A00014415",
+      "option": "3",
+      "stock": 3,
+      "eur_price": 659.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJT545AJ0233415",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 676.23,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "UAW085A00198250",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 118.04,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA581AY3014100",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 424.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJP244EJ0251415",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 284.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJP244EJ0251415",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 284.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJP244EJ0251415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 284.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJP244EJ0251415",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 284.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "UAW090A00198001",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 157.78,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL150EF0313100",
+      "option": "1",
+      "stock": 4,
+      "eur_price": 233.6,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL150EF0313100",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 233.6,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL150EF0313100",
+      "option": "3",
+      "stock": 3,
+      "eur_price": 233.6,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL150EF0313100",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 233.6,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJQ008H00535068",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 336.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJQ008H00535068",
+      "option": "5",
+      "stock": 2,
+      "eur_price": 336.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL010EF0313480",
+      "option": "1",
+      "stock": 2,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL010EF0313480",
+      "option": "2",
+      "stock": 3,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL010EF0313480",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL010EF0313480",
+      "option": "4",
+      "stock": 3,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL010EF0313480",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJP193AJ0129100",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 317.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA002AY1014058",
+      "option": "2",
+      "stock": 3,
+      "eur_price": 430.33,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA544AY3006055",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 512.7,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MTU335WF0576415",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 282.78,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MTU335WF0576415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 282.78,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJT554AJ0248415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 395.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJT554AJ0248415",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 395.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FAS020B01690450",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 62.7,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKC641AY3016035",
+      "option": "1",
+      "stock": 1,
+      "eur_price": 527.46,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKC641AY3016035",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 527.46,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKC641AY3016035",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 527.46,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL430OF1098996",
+      "option": "1",
+      "stock": 1,
+      "eur_price": 390.98,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL430OF1098996",
+      "option": "2",
+      "stock": 2,
+      "eur_price": 390.98,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL430OF1098996",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 390.98,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MTU349CF1095415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 409.84,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJR094A006455415",
+      "option": "0",
+      "stock": 1,
+      "eur_price": 609.84,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJR094A006455415",
+      "option": "1",
+      "stock": 1,
+      "eur_price": 609.84,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FKK132BY1037100",
+      "option": "40 IT",
+      "stock": 2,
+      "eur_price": 265.58,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FBR062BF1002980",
+      "option": "38 IT",
+      "stock": 1,
+      "eur_price": 1536.88,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FBR062BF1002980",
+      "option": "40 IT",
+      "stock": 1,
+      "eur_price": 1536.88,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJS245A07323100",
+      "option": "4",
+      "stock": 3,
+      "eur_price": 221.31,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKC635AY3065415",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 579.92,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKC635AY3065415",
+      "option": "3",
+      "stock": 3,
+      "eur_price": 579.92,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKC635AY3065415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 579.92,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKC635AY3065415",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 579.92,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKC635AY3065260",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 521.93,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKC635AY3065260",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 521.93,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL010EF0313100",
+      "option": "1",
+      "stock": 3,
+      "eur_price": 229.51,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL010EF0313100",
+      "option": "2",
+      "stock": 3,
+      "eur_price": 229.51,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL010EF0313100",
+      "option": "3",
+      "stock": 4,
+      "eur_price": 229.51,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL010EF0313100",
+      "option": "4",
+      "stock": 3,
+      "eur_price": 229.51,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL010EF0313100",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 229.51,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA002AY1014038",
+      "option": "2",
+      "stock": 3,
+      "eur_price": 422.13,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJC001A00626035",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 889.34,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJC001A00626035",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 889.34,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FFD143A00216001",
+      "option": "37",
+      "stock": 2,
+      "eur_price": 295.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FFD143A00216001",
+      "option": "38",
+      "stock": 1,
+      "eur_price": 295.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL420AF0325035",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 285.24,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "UAG259A00198250",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 501.64,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FGCA40UF1063260",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 490.57,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MTU328UF0175415",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 280.33,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MTC159A00626415",
+      "option": "1",
+      "stock": 1,
+      "eur_price": 312.7,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKL007BY1051001",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 350.82,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA580AY3065415",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 459.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA580AY3065415",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 459.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA580AY3065415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 459.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FLR005OF1004100",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 261.89,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FLR005OF1004100",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 261.89,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJO030A06146415",
+      "option": "1",
+      "stock": 1,
+      "eur_price": 918.04,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJO030A06146415",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 918.04,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA002AY1014415",
+      "option": "1",
+      "stock": 1,
+      "eur_price": 422.13,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA002AY1014415",
+      "option": "2",
+      "stock": 5,
+      "eur_price": 422.13,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA002AY1014415",
+      "option": "3",
+      "stock": 7,
+      "eur_price": 422.13,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA002AY1014415",
+      "option": "4",
+      "stock": 5,
+      "eur_price": 422.13,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA002AY1014415",
+      "option": "5",
+      "stock": 2,
+      "eur_price": 422.13,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJO165OF0496055",
+      "option": "1",
+      "stock": 1,
+      "eur_price": 756.15,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJO165OF0496055",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 756.15,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA580AY3065260",
+      "option": "3",
+      "stock": 3,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA580AY3065260",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA580AY3065260",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJQ222A03037415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 298.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKC581AY3043415",
+      "option": "4",
+      "stock": 2,
+      "eur_price": 528.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJP234AJ0248415",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 313.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJP234AJ0248415",
+      "option": "4",
+      "stock": 3,
+      "eur_price": 313.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJP234AJ0248415",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 313.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJT554AJ0248050",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 395.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL437OF1158960",
+      "option": "2",
+      "stock": 2,
+      "eur_price": 261.89,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MWL437OF1158960",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 261.89,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJO165OF0496415",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 756.15,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJO165OF0496415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 756.15,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MFE007B05584100",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 274.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MFE007B05584100",
+      "option": "8.5",
+      "stock": 1,
+      "eur_price": 274.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJP209AJ0199100",
+      "option": "1",
+      "stock": 1,
+      "eur_price": 319.67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJP209AJ0199100",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 319.67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJP209AJ0199100",
+      "option": "4",
+      "stock": 2,
+      "eur_price": 319.67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MOU629A06111250",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 710.66,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FLL171A03113100",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 319.67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKC612AY2001055",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 1006.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKC612AY2001055",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 1006.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKC612AY2001055",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 1006.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJT569AJ0242415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 700.82,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA581AY3014415",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 424.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA581AY3014415",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 424.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MJU586OF0672960",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 1755.74,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MTU345SF1101415",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 265.57,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FGCA42A06455415",
+      "option": "38 IT",
+      "stock": 1,
+      "eur_price": 490.57,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FGCA42A06455415",
+      "option": "40 IT",
+      "stock": 1,
+      "eur_price": 490.57,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FGCA42A06455415",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 490.57,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FKV231AY3014472",
+      "option": "40 IT",
+      "stock": 1,
+      "eur_price": 357.79,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FGC402V00626035",
+      "option": "36 IT",
+      "stock": 1,
+      "eur_price": 463.12,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FGC402V00626035",
+      "option": "38 IT",
+      "stock": 4,
+      "eur_price": 463.12,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FGC402V00626035",
+      "option": "40 IT",
+      "stock": 3,
+      "eur_price": 463.12,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FGC402V00626035",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 463.12,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FGC402V00626035",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 463.12,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MTT030A06146415",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 463.12,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MTT030A06146415",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 463.12,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MTT030A06146415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 463.12,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKC002AY1014415",
+      "option": "4",
+      "stock": 3,
+      "eur_price": 580.33,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "FGC402V06146035",
+      "option": "38 IT",
+      "stock": 1,
+      "eur_price": 532.78,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA326AY3001055",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 555.74,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "MKA326AY3001055",
+      "option": "4",
+      "stock": 3,
+      "eur_price": 555.74,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    }
+  ]
+}
