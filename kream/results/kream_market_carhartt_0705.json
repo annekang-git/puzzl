@@ -1,0 +1,5553 @@
+{
+  "fetched_at": "2026-07-04T19:49:43.531Z",
+  "input_file": "targets-carhartt.json",
+  "total_targets": 693,
+  "matched": 0,
+  "failed": 693,
+  "results": [
+    {
+      "sku": "I02827989XX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02827989XX",
+      "option": "M",
+      "stock": 3,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02827989XX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02827989XX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02827989XX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03311200E02",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 110.66,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03311200E02",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 110.66,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03311200E02",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 110.66,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03311200E02",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 110.66,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0304680160",
+      "option": "30",
+      "stock": 1,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0304680160",
+      "option": "31",
+      "stock": 2,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0304680160",
+      "option": "32",
+      "stock": 3,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0304680160",
+      "option": "33",
+      "stock": 2,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03397534HXX",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 20.08,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0335780502",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0335780502",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0335780502",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0335780502",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03366400FXX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03366400FXX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03366400FXX",
+      "option": "XL",
+      "stock": 4,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03366400FXX",
+      "option": "XXL",
+      "stock": 2,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03520802XX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 29.3,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0351861XF5F",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 68.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03555807E5F",
+      "option": "34",
+      "stock": 2,
+      "eur_price": 68.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03527736CXX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 68.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0342378906",
+      "option": "29",
+      "stock": 1,
+      "eur_price": 44.63,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0342378906",
+      "option": "30",
+      "stock": 1,
+      "eur_price": 44.63,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03564489XX",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03564489XX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03564489XX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03264339YXX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 32.38,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03264339YXX",
+      "option": "XS",
+      "stock": 1,
+      "eur_price": 32.38,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0356358901",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 67.17,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0356358901",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 67.17,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0356358901",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 67.17,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03564005AXX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 61.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03564005AXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 61.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353293CKXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 128.73,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353293CKXX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 128.73,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0322978Y02",
+      "option": "31",
+      "stock": 1,
+      "eur_price": 44.67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0358473DDXX",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 12.29,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03579800EXX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 134.84,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03579800EXX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 134.84,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03601689XX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 27.05,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03673489XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 24.1,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03673402XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 24.1,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036065J060",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036065J060",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036065J060",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036065J060",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0366548906",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 31.56,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0336643LPXX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 46.72,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0336643LPXX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 46.72,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0336643LPXX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 46.72,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03623789XX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 22.13,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03623789XX",
+      "option": "XL",
+      "stock": 5,
+      "eur_price": 22.13,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03623789XX",
+      "option": "XXL",
+      "stock": 2,
+      "eur_price": 22.13,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0304343IGXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 17.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0304343IGXX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 17.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03046889WJ",
+      "option": "29",
+      "stock": 1,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03046889WJ",
+      "option": "32",
+      "stock": 1,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03046889WJ",
+      "option": "33",
+      "stock": 1,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03046889WJ",
+      "option": "34",
+      "stock": 1,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03046889WJ",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0348190ME4O",
+      "option": "XL",
+      "stock": 3,
+      "eur_price": 119.92,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0338303IOGD",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0338303IOGD",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0348138906",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 53.6,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0348138906",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 53.6,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0299572LRGD",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0299572LRGD",
+      "option": "M",
+      "stock": 4,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0299572LRGD",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0299572LRGD",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0361923JYXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0361923JYXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03046901WU",
+      "option": "31",
+      "stock": 1,
+      "eur_price": 56.8,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0345703N7XX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 31.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03335201EJ",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 122.95,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03335201EJ",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 122.95,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03335201EJ",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 122.95,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03335201EJ",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 122.95,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03335201EJ",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 122.95,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0363128Y02",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0363128Y02",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0363128Y02",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0363128Y02",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368728902",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368728902",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368728902",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368728902",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03689889GD",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 49.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03689889GD",
+      "option": "M",
+      "stock": 3,
+      "eur_price": 49.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03689889GD",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 49.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368983IWGD",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 49.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368983IWGD",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 49.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368983IWGD",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 49.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368983IWGD",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 49.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368893RFXX",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 27.67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368893RFXX",
+      "option": "M",
+      "stock": 3,
+      "eur_price": 27.67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368893RFXX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 27.67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368893RFXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 27.67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368633RFGD",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 36.88,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03686389GD",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 36.88,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03686389GD",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 36.88,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03686389GD",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 36.88,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03043402XX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 20.08,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0329350GLXX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 102.7,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0329350GLXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 102.7,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0346462WBXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 20.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03464400AXX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 20.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0345112P6GD",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 49.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03556007E60",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 61.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03556007E60",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 61.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03506232RXX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 29.3,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03506232RXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 29.3,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0299562ZYXX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 22.38,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0299562ZYXX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 22.38,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0299562ZYXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 22.38,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0299562ZYXX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 22.38,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03520889XX",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 26.64,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03520889XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 26.64,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03520889XX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 26.64,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03520889XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 26.64,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0356882LP4O",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 36.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034798894O",
+      "option": "31",
+      "stock": 1,
+      "eur_price": 67.17,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0356528902",
+      "option": "29",
+      "stock": 1,
+      "eur_price": 40.12,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0326430M4XX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 35.61,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0326430M4XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 35.61,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0326430M4XX",
+      "option": "XS",
+      "stock": 1,
+      "eur_price": 35.61,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034225014Q",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 85.45,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034225014Q",
+      "option": "XS",
+      "stock": 1,
+      "eur_price": 85.45,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03583789XX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 53.65,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03583789XX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 53.65,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353102LPXX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 65.16,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353102LPXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 65.16,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353102LPXX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 65.16,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03536633HXX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03536633HXX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03536633HXX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03531089XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 97.75,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I031575E5XX",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 48.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0350623H4XX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 31.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0350623H4XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 31.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03366400JXX",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 46.72,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03366400JXX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 46.72,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03366400JXX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 46.72,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03594305XX",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 21.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347973IS4O",
+      "option": "30",
+      "stock": 1,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347973IS4O",
+      "option": "32",
+      "stock": 2,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347973IS4O",
+      "option": "33",
+      "stock": 2,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347973IS4O",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0330513IBGD",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 22.13,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0354373IWGD",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0354373IWGD",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0354373IWGD",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0361863KZXX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 24.1,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0361863KZXX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 24.1,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03673000BXX",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0352803TW17",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 153.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0352803TW17",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 153.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0352803TW17",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 153.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0352803TW17",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 153.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0352803TW17",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 153.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0363128902",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0363128902",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0363128902",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0363128902",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368073TRXX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368073TRXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0282793RIXX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0282793RIXX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0282793RIXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0282793RIXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0282793RIXX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03691589XX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03691589XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03691589XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0371828906",
+      "option": "U",
+      "stock": 8,
+      "eur_price": 33.81,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03043702XX",
+      "option": "XL",
+      "stock": 3,
+      "eur_price": 23.98,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03043702XX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 23.98,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I027942HZ02",
+      "option": "33",
+      "stock": 1,
+      "eur_price": 40.98,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347982OT4O",
+      "option": "32",
+      "stock": 2,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347982OT4O",
+      "option": "33",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034491482XX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 32.78,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034491482XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 32.78,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347982M24O",
+      "option": "30",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347982M24O",
+      "option": "31",
+      "stock": 2,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347982M24O",
+      "option": "32",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347982M24O",
+      "option": "33",
+      "stock": 3,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347982M24O",
+      "option": "34",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347982M24O",
+      "option": "36",
+      "stock": 2,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03465289XX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 18.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03465289XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 18.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03465289XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 18.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03465289XX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 18.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I031575HZXX",
+      "option": "U",
+      "stock": 14,
+      "eur_price": 60.86,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035177391XX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 79.75,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035177391XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 79.75,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035177391XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 79.75,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03079931LXX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 45.32,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03079931LXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 45.32,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0351970AUXX",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 18.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0351970AUXX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 18.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0351970AUXX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 18.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0351402ZU5F",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 24.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0351402ZU5F",
+      "option": "M",
+      "stock": 4,
+      "eur_price": 24.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0351402ZU5F",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 24.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0351402ZU5F",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 24.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0338238902",
+      "option": "XS",
+      "stock": 2,
+      "eur_price": 51.81,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347981C4O",
+      "option": "29",
+      "stock": 1,
+      "eur_price": 61.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347981C4O",
+      "option": "30",
+      "stock": 1,
+      "eur_price": 61.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347981C4O",
+      "option": "31",
+      "stock": 2,
+      "eur_price": 61.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347981C4O",
+      "option": "32",
+      "stock": 1,
+      "eur_price": 61.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347981C4O",
+      "option": "34",
+      "stock": 2,
+      "eur_price": 61.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035644G1XX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035644G1XX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035644G1XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035644G1XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0338902I30H",
+      "option": "XS",
+      "stock": 1,
+      "eur_price": 89.71,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03531235TXX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03531235TXX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03531235TXX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03531235TXX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0152610DI01",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 77.46,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0358323HZXX",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 14.34,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035881014L",
+      "option": "26",
+      "stock": 1,
+      "eur_price": 53.6,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034224014Q",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 51.81,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034224014Q",
+      "option": "XS",
+      "stock": 3,
+      "eur_price": 51.81,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0358371NGXX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0358371NGXX",
+      "option": "M",
+      "stock": 3,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0358371NGXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0358371NGXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035386K02XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035386K02XX",
+      "option": "S",
+      "stock": 3,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035386K02XX",
+      "option": "XS",
+      "stock": 3,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035602H806",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035602H806",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03537033EXX",
+      "option": "XS",
+      "stock": 1,
+      "eur_price": 134.84,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035879014L",
+      "option": "30",
+      "stock": 1,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035879014L",
+      "option": "31",
+      "stock": 2,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035879014L",
+      "option": "32",
+      "stock": 1,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035879014L",
+      "option": "33",
+      "stock": 1,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035879014L",
+      "option": "34",
+      "stock": 2,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0359543I2XX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 48.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03605389B7",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 68.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03605389B7",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 68.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03605389B7",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 68.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03633489B7",
+      "option": "M-L",
+      "stock": 1,
+      "eur_price": 29.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0350623RJXX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 31.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03146811XX",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 51.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03623702XX",
+      "option": "L",
+      "stock": 4,
+      "eur_price": 22.13,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03623702XX",
+      "option": "XL",
+      "stock": 4,
+      "eur_price": 22.13,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0348133IR06",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 53.6,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0348133IR06",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 53.6,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0299573HXGD",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0299573HXGD",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0299573HXGD",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0299573HXGD",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0299493HXGD",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 28.11,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03641189XX",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 28.11,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0362163IAXX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 31.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0362163IAXX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 31.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0362163IAXX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 31.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0362163IAXX",
+      "option": "XXL",
+      "stock": 2,
+      "eur_price": 31.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0365932XNUR",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 107.71,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03719308XX",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 33.81,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03702001EJ",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03702001EJ",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03702001EJ",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03702001EJ",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0270143RHXX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0270143RHXX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0270143RHXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368623RFGD",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 46.11,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368623RFGD",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 46.11,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368623RFGD",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 46.11,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368623RFGD",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 46.11,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368543SGXX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 30.74,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368543SGXX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 30.74,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I028279482XX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I028279482XX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I028279482XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I028279482XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I028279482XX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 61.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0314978902",
+      "option": "29",
+      "stock": 1,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0314978902",
+      "option": "30",
+      "stock": 1,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0314978902",
+      "option": "31",
+      "stock": 1,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0314978902",
+      "option": "32",
+      "stock": 1,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0314978902",
+      "option": "33",
+      "stock": 1,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0314978902",
+      "option": "34",
+      "stock": 1,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0314978902",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0304690160",
+      "option": "29",
+      "stock": 1,
+      "eur_price": 55.33,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0304690160",
+      "option": "30",
+      "stock": 2,
+      "eur_price": 55.33,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0304690160",
+      "option": "31",
+      "stock": 2,
+      "eur_price": 55.33,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0304690160",
+      "option": "33",
+      "stock": 1,
+      "eur_price": 55.33,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03043789XX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 23.98,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03043789XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 23.98,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03043789XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 23.98,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03043789XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 23.98,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03043789XX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 23.98,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0326440M4XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 52.25,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0326440M4XX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 52.25,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0326440M4XX",
+      "option": "XS",
+      "stock": 4,
+      "eur_price": 52.25,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347972OT4O",
+      "option": "30",
+      "stock": 1,
+      "eur_price": 53.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0321281WZXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 25.82,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03467089XX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 18.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03467089XX",
+      "option": "S",
+      "stock": 3,
+      "eur_price": 18.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03506230YXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 29.3,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0282792ZYXX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 56.8,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0282792ZYXX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 56.8,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0282792ZYXX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 56.8,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03527736BXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 68.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035688894O",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 36.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0327098906",
+      "option": "25",
+      "stock": 1,
+      "eur_price": 44.63,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0326420M4XX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0326420M4XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0356228901",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 114.34,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0356228901",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 114.34,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0356228901",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 114.34,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0356228901",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 114.34,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03383089GD",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 79.3,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03561707E06",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 110.24,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353881CXX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 65.16,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353881CXX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 65.16,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353881CXX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 65.16,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353881CXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 65.16,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03535189XX",
+      "option": "U",
+      "stock": 8,
+      "eur_price": 66.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353153CIXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 114.43,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353153CIXX",
+      "option": "XS",
+      "stock": 2,
+      "eur_price": 114.43,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03541738XXX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 102.05,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03541738XXX",
+      "option": "XS",
+      "stock": 2,
+      "eur_price": 102.05,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0360551M5XX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0360551M5XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0360551M5XX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0360551M5XX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03764608XX",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 14.75,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036654D606",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 31.56,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03694400SXX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 122.46,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03694400SXX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 122.46,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03694400SXX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 122.46,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0330513IOGD",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 22.13,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0330513IOGD",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 22.13,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0330513IOGD",
+      "option": "XS",
+      "stock": 1,
+      "eur_price": 22.13,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I033749895F",
+      "option": "33",
+      "stock": 1,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03654401ZO",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03654401ZO",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03654401ZO",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03654401ZO",
+      "option": "XS",
+      "stock": 1,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03306489GD",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0330642LRGD",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 73.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0330642LRGD",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 73.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0330642LRGD",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 73.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0363508906",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 78.2,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0363508906",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 78.2,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0363508906",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 78.2,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0361923PKXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0361923PKXX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03479807E4O",
+      "option": "32",
+      "stock": 2,
+      "eur_price": 73.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03479807E4O",
+      "option": "33",
+      "stock": 2,
+      "eur_price": 73.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03479807E4O",
+      "option": "34",
+      "stock": 1,
+      "eur_price": 73.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034842894O",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 112.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034842894O",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 112.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034842894O",
+      "option": "XS",
+      "stock": 2,
+      "eur_price": 112.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0364113IRXX",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 28.11,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03626089XX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 27.05,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03626089XX",
+      "option": "XL",
+      "stock": 3,
+      "eur_price": 27.05,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03719451XX",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03473301EJ",
+      "option": "29",
+      "stock": 1,
+      "eur_price": 86.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03473301EJ",
+      "option": "32",
+      "stock": 1,
+      "eur_price": 86.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03473301EJ",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 86.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03702801EJ",
+      "option": "29",
+      "stock": 1,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03702801EJ",
+      "option": "30",
+      "stock": 2,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03702801EJ",
+      "option": "31",
+      "stock": 1,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03702801EJ",
+      "option": "32",
+      "stock": 1,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03702801EJ",
+      "option": "33",
+      "stock": 1,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03691347EJ",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 98.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03691347EJ",
+      "option": "M",
+      "stock": 3,
+      "eur_price": 98.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03691347EJ",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 98.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03691347EJ",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 98.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02827905XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 56.8,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02827905XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 56.8,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02639100RXX",
+      "option": "L",
+      "stock": 6,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02639100RXX",
+      "option": "M",
+      "stock": 5,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02639100RXX",
+      "option": "S",
+      "stock": 3,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02639100RXX",
+      "option": "XL",
+      "stock": 3,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02639100RXX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03146889XX",
+      "option": "U",
+      "stock": 6,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02701489XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 54.51,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0319200202",
+      "option": "24",
+      "stock": 1,
+      "eur_price": 36.88,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03506200FXX",
+      "option": "L",
+      "stock": 5,
+      "eur_price": 39.96,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03506200FXX",
+      "option": "M",
+      "stock": 3,
+      "eur_price": 39.96,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03506200FXX",
+      "option": "S",
+      "stock": 4,
+      "eur_price": 39.96,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03506200FXX",
+      "option": "XL",
+      "stock": 4,
+      "eur_price": 39.96,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0279428902",
+      "option": "32",
+      "stock": 1,
+      "eur_price": 56.8,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0279428902",
+      "option": "33",
+      "stock": 1,
+      "eur_price": 56.8,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0279428902",
+      "option": "34",
+      "stock": 1,
+      "eur_price": 56.8,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0279428902",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 56.8,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02920801WI",
+      "option": "34",
+      "stock": 1,
+      "eur_price": 67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0349128902",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 28.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0335830502",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 74.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0335830502",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 74.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03046801SN",
+      "option": "30",
+      "stock": 1,
+      "eur_price": 79.75,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03046801SN",
+      "option": "34",
+      "stock": 1,
+      "eur_price": 79.75,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03555907E5F",
+      "option": "29",
+      "stock": 1,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03555907E5F",
+      "option": "30",
+      "stock": 2,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03555907E5F",
+      "option": "31",
+      "stock": 1,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03555907E5F",
+      "option": "32",
+      "stock": 1,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03555907E5F",
+      "option": "33",
+      "stock": 1,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03555907E5F",
+      "option": "34",
+      "stock": 2,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03515331WXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 44.63,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0356763D306",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 106.15,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0356763D306",
+      "option": "XS",
+      "stock": 1,
+      "eur_price": 106.15,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0358372ZXXX",
+      "option": "M",
+      "stock": 3,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03530589XX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 77.46,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353982LPXX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353760D2XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02882733HXX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 61.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02882733HXX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 61.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02882733HXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 61.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02882733HXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 61.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035625482XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035625482XX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02952333HGD",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 71.68,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03631189B7",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 68.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03631189B7",
+      "option": "XS",
+      "stock": 1,
+      "eur_price": 68.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03605500DXX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03605500DXX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03605500DXX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03605500DXX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02302901WJ",
+      "option": "29",
+      "stock": 1,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02302901WJ",
+      "option": "30",
+      "stock": 1,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02302901WJ",
+      "option": "31",
+      "stock": 1,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02302901WJ",
+      "option": "32",
+      "stock": 1,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02302901WJ",
+      "option": "34",
+      "stock": 1,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02302901WJ",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0301302LRGD",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 38.85,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03013089GD",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 38.85,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0363620D2XX",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 48.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0345703NPXX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 31.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0345703NPXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 31.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03621602XX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 31.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03621602XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 31.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03621602XX",
+      "option": "XXL",
+      "stock": 2,
+      "eur_price": 31.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0371610112",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 48.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0371610112",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 48.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03688589XX",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368993RFEJ",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 79.92,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368993RFEJ",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 79.92,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368993RFEJ",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 79.92,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368993RFEJ",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 79.92,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03703101EJ",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03703101EJ",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03703101EJ",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03703101EJ",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368893RCXX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 27.67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368893RCXX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 27.67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368893RCXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 27.67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368893RCXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 27.67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368933IWGD",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368933IWGD",
+      "option": "M",
+      "stock": 3,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368933IWGD",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368631CGD",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 36.88,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03688289XX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 30.74,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03688289XX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 30.74,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03688289XX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 30.74,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03688289XX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 30.74,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02639100FXX",
+      "option": "L",
+      "stock": 5,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02639100FXX",
+      "option": "M",
+      "stock": 3,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02639100FXX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02639100FXX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I028827G1XX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I028827G1XX",
+      "option": "M",
+      "stock": 3,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I028827G1XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I028827G1XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03422501UR",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03422501UR",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03422501UR",
+      "option": "XS",
+      "stock": 2,
+      "eur_price": 63.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0350622SAXX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 31.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347938906",
+      "option": "32",
+      "stock": 1,
+      "eur_price": 49.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03465202XX",
+      "option": "L",
+      "stock": 5,
+      "eur_price": 18.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03465202XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 18.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03465202XX",
+      "option": "XL",
+      "stock": 4,
+      "eur_price": 18.44,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0330272SNXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 36.88,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0330512LPGD",
+      "option": "XS",
+      "stock": 1,
+      "eur_price": 25.82,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0348362LP06",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 40.98,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03397534IXX",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 22.09,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03526989XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03520402XX",
+      "option": "M",
+      "stock": 4,
+      "eur_price": 20.08,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03520402XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 20.08,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0351861YI5F",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 68.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0351861YI5F",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 68.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0337712I30H",
+      "option": "25",
+      "stock": 1,
+      "eur_price": 51.81,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03531235RXX",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03531235RXX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03531235RXX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03531235RXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03531235RXX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03584649XX",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035305H8XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 77.46,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03532535XXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 56.96,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0295232LPGD",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 65.16,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0295232LPGD",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 65.16,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0363122FS02",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0363122FS02",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0360533GBB7",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 68.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0360533GBB7",
+      "option": "M",
+      "stock": 3,
+      "eur_price": 68.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0360533GBB7",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 68.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03595789B7",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 33.94,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03606433G60",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 29.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03606433G60",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 29.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0304343IAXX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 17.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0304343IAXX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 17.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0304343IAXX",
+      "option": "XL",
+      "stock": 4,
+      "eur_price": 17.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0304343IAXX",
+      "option": "XXL",
+      "stock": 2,
+      "eur_price": 17.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347983IS4O",
+      "option": "30",
+      "stock": 2,
+      "eur_price": 73.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347983IS4O",
+      "option": "31",
+      "stock": 1,
+      "eur_price": 73.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347983IS4O",
+      "option": "32",
+      "stock": 1,
+      "eur_price": 73.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347983IS4O",
+      "option": "33",
+      "stock": 2,
+      "eur_price": 73.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347983IS4O",
+      "option": "34",
+      "stock": 2,
+      "eur_price": 73.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0339753QVXX",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 27.05,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0369261K6XX",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 64.55,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03686700E17",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 153.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03686700E17",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 153.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03686700E17",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 153.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03686700E17",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 153.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03686700E17",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 153.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368043TUGD",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368043TUGD",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368043TUGD",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368043TUGD",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368043TUGD",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368553SHGD",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 43.04,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368553SHGD",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 43.04,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368553SHGD",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 43.04,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0350623S4XX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 39.96,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0350623S4XX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 39.96,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0350623S4XX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 39.96,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0350623S4XX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 39.96,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0350623S4XX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 39.96,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03686289GD",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 46.11,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03686289GD",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 46.11,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03686289GD",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 46.11,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03686289GD",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 46.11,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03686289GD",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 46.11,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03691389EJ",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 98.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03691389EJ",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 98.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03691389EJ",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 98.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368671FJ17",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 153.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368671FJ17",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 153.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368671FJ17",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 153.69,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368583RHXX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368583RHXX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368583RHXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368583RHXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02701405XX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 54.51,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02701405XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 54.51,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0347972OR4O",
+      "option": "34",
+      "stock": 1,
+      "eur_price": 53.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I031468HZXX",
+      "option": "U",
+      "stock": 24,
+      "eur_price": 54.71,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I027014482XX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I027014482XX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I027014482XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I027014482XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0335782ZVGD",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0335782ZVGD",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0282791YIXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 56.8,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0282791YIXX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 56.8,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I028279UVXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 56.8,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0351401XF5F",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 24.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0351401XF5F",
+      "option": "XL",
+      "stock": 3,
+      "eur_price": 24.18,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03521131YXX",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 91.23,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034798474O",
+      "option": "30",
+      "stock": 1,
+      "eur_price": 61.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034798474O",
+      "option": "31",
+      "stock": 1,
+      "eur_price": 61.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034798474O",
+      "option": "34",
+      "stock": 2,
+      "eur_price": 61.06,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353943D9XX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 56.96,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353943D9XX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 56.96,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353943B0XX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 62.66,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353943B0XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 62.66,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0327090135",
+      "option": "27",
+      "stock": 1,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02953789GD",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 60.86,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02953789GD",
+      "option": "XS",
+      "stock": 1,
+      "eur_price": 60.86,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03201449XX",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 29.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035492G1XX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 20.08,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035492G1XX",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 20.08,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035492G1XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 20.08,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02952233HGD",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 55.83,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02952289GD",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 85.45,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02952289GD",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 85.45,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353992LPXX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353042LPGD",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 36.48,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0295222LPGD",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 62.66,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0295222LPGD",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 62.66,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02952233IGD",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 62.66,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03536689XX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03536689XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03536689XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03627689B7",
+      "option": "30",
+      "stock": 1,
+      "eur_price": 68.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03627689B7",
+      "option": "32",
+      "stock": 1,
+      "eur_price": 68.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03627689B7",
+      "option": "33",
+      "stock": 1,
+      "eur_price": 68.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03627689B7",
+      "option": "34",
+      "stock": 1,
+      "eur_price": 68.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036064J060",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 29.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035879014Q",
+      "option": "33",
+      "stock": 1,
+      "eur_price": 58.16,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035879014Q",
+      "option": "34",
+      "stock": 1,
+      "eur_price": 58.16,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03160289XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 73.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0348203IT4O",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 122.46,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0348203IT4O",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 122.46,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0348203IT4O",
+      "option": "XL",
+      "stock": 3,
+      "eur_price": 122.46,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0348203IT4O",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 122.46,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034820HZ4O",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 142.87,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034820HZ4O",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 142.87,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034820HZ4O",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 142.87,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I034760HZXX",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 68.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03688511XX",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03703201EJ",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 58.4,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0367288906",
+      "option": "29",
+      "stock": 1,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0367288906",
+      "option": "30",
+      "stock": 2,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0367288906",
+      "option": "31",
+      "stock": 2,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0367288906",
+      "option": "32",
+      "stock": 2,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0367288906",
+      "option": "33",
+      "stock": 2,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0367288906",
+      "option": "34",
+      "stock": 2,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0367288906",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 67.62,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368991CEJ",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 79.92,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368991CEJ",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 79.92,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368991CEJ",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 79.92,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0368991CEJ",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 79.92,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03431807E4O",
+      "option": "33",
+      "stock": 1,
+      "eur_price": 57.38,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0350622Q8XX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 31.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0350622Q8XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 31.97,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0358203FUGD",
+      "option": "32",
+      "stock": 1,
+      "eur_price": 62.54,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0358203FUGD",
+      "option": "33",
+      "stock": 1,
+      "eur_price": 62.54,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0358203FUGD",
+      "option": "34",
+      "stock": 1,
+      "eur_price": 62.54,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I035817895F",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 125.66,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0351862ZU5F",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 68.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0351862ZU5F",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 68.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0351862ZU5F",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 68.28,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03561089XX",
+      "option": "L",
+      "stock": 4,
+      "eur_price": 56.96,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03561089XX",
+      "option": "M",
+      "stock": 3,
+      "eur_price": 56.96,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03561089XX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 56.96,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0353882LPXX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 97.75,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03537632YXX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 73.36,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03545702XX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 20.08,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03562589XX",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03562589XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03562589XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03562589XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 48.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0356973BNXX",
+      "option": "XS",
+      "stock": 1,
+      "eur_price": 69.26,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03601602XX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 27.05,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03601602XX",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 27.05,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03601602XX",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 27.05,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03601602XX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 27.05,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0359573GBB7",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 33.94,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0359573GBB7",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 33.94,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0359573GBB7",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 33.94,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0359573GBB7",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 33.94,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03614589XX",
+      "option": "U",
+      "stock": 6,
+      "eur_price": 74.02,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036487J0GD",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 53.6,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036487J0GD",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 53.6,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036487J0GD",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 53.6,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036487J0GD",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 53.6,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0330643HXGD",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0330643HXGD",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0330643HXGD",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 85.49,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02995789GD",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02995789GD",
+      "option": "M",
+      "stock": 3,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02995789GD",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02995789GD",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 58.52,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0365103OK06",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 43.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0363063L9XX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 38.85,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0363063L9XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 38.85,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036919010L",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036919010L",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036919010L",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036919010L",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03689102XX",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 27.67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03689102XX",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 27.67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03689102XX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 27.67,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0299563RIXX",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0299563RIXX",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I0299563RIXX",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03689389GD",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03689389GD",
+      "option": "M",
+      "stock": 3,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03689389GD",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03689389GD",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 73.77,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036804K02GD",
+      "option": "L",
+      "stock": 3,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036804K02GD",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036804K02GD",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036804K02GD",
+      "option": "XL",
+      "stock": 2,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I036804K02GD",
+      "option": "XXL",
+      "stock": 1,
+      "eur_price": 92.21,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I03157589XX",
+      "option": "U",
+      "stock": 8,
+      "eur_price": 60.86,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02995602XX",
+      "option": "M",
+      "stock": 6,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02995602XX",
+      "option": "XXL",
+      "stock": 2,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02995689XX",
+      "option": "M",
+      "stock": 11,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    },
+    {
+      "sku": "I02995689XX",
+      "option": "S",
+      "stock": 1,
+      "eur_price": 24.59,
+      "matched": false,
+      "error": "chunk crash: browserType.launchPersistentContext: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Applicati"
+    }
+  ]
+}
