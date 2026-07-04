@@ -317,16 +317,18 @@ async function resolveSkuToProductId(page, target) {
 // ──────────────────────────────────────────────────
 // product_id + option → market data
 // ──────────────────────────────────────────────────
-// 새 KREAM API (2026~): 옵션 segment 없는 단일 endpoint 가 모든 사이즈 응답을 한꺼번에 반환.
-//   /api/p/products/{id}/sales?cursor=...
-//   /api/p/products/{id}/asks
-//   /api/p/products/{id}/bids
-//   /api/p/products/{id}/chart
-// 각 응답의 items[].option 필드에서 사이즈를 group 하여 captured[option] = {sales,asks,bids,chart}.
+// KREAM API 경로 (2026-07 기준): 옵션 segment 가 URL 에 다시 들어감.
+//   /api/p/products/{id}/{option_key}/sales?cursor=...
+//   /api/p/products/{id}/{option_key}/asks
+//   /api/p/products/{id}/{option_key}/bids
+//   /api/p/products/{id}/{option_key}/chart
+// (과거 한때 옵션 없는 flat endpoint 였으나 다시 옵션 segment 부활함 — 둘 다 지원)
+// items[].option 필드가 있을 수도 없을 수도 있으므로 URL segment 우선 사용.
 // "거래 내역 더보기" 버튼 클릭이 트리거 — 누르지 않으면 API 호출이 일어나지 않음.
 async function fetchAllOptionsForProduct(page, productId) {
   const captured = {}; // captured[opt] = { sales:[...], asks:[...], bids:[...], chart:{...} }
-  const apiRegex = new RegExp(`/api/p/products/${productId}/(sales|asks|bids|chart)(?:\\?|$)`);
+  // {id}/{option?}/{type} — option segment 는 optional 로 매칭
+  const apiRegex = new RegExp(`/api/p/products/${productId}/(?:([^/?]+)/)?(sales|asks|bids|chart)(?:\\?|$)`);
 
   function ensureOpt(o) {
     if (!captured[o]) captured[o] = { sales: [], asks: [], bids: [], chart: null };
@@ -336,19 +338,23 @@ async function fetchAllOptionsForProduct(page, productId) {
   const handler = async (resp) => {
     const m = resp.url().match(apiRegex);
     if (!m) return;
-    const type = m[1];
+    const urlOpt = m[1] ? decodeURIComponent(m[1]).trim() : null;
+    const type = m[2];
     let body;
     try { body = await resp.json(); } catch (_) { return; }
 
     if (type === 'chart') {
-      // chart 는 전체 상품 차원 (옵션별 분리 없음). '__all' 키로 저장.
-      ensureOpt('__all').chart = body;
+      // chart 는 옵션별로 오지만 전체 상품 대표값도 같이 쓸 수 있게 '__all' 로도 저장
+      const key = urlOpt || '__all';
+      ensureOpt(key).chart = body;
+      if (!captured['__all']) ensureOpt('__all').chart = body;
       return;
     }
-    // sales/asks/bids — items[].option 으로 group
+    // sales/asks/bids
     const items = Array.isArray(body.items) ? body.items : [];
     for (const it of items) {
-      const opt = String(it.option ?? it.product_option?.key ?? '__all').trim();
+      // URL segment 우선, 없으면 item 필드 fallback
+      const opt = urlOpt || String(it.option ?? it.product_option?.key ?? '__all').trim();
       ensureOpt(opt)[type].push(it);
     }
   };
@@ -359,18 +365,33 @@ async function fetchAllOptionsForProduct(page, productId) {
     await page.goto(`${KREAM_URL}/products/${productId}`, { waitUntil: 'domcontentloaded', timeout: 20000 }).catch(() => {});
     await delay(2500);
 
-    // 거래 내역 더보기 클릭 — 이게 API 호출 트리거
-    const moreBtn = page.locator('button:has-text("거래 내역 더보기"):visible').first();
-    if ((await moreBtn.count()) > 0) {
-      try {
-        await moreBtn.scrollIntoViewIfNeeded({ timeout: 3000 });
-        await moreBtn.click({ timeout: 5000, force: true });
-        await delay(4000); // API 응답 받을 시간
-      } catch (e) {
-        console.log(`     ⚠️  모달 클릭 실패: ${e.message.slice(0, 60)}`);
+    // 거래 내역 더보기 클릭 — 이게 API 호출 트리거.
+    // KREAM 은 PC/Mobile 두 개의 버튼을 duplicate 로 렌더링하고 CSS 로 하나만 visible 로 만드는데,
+    // domcontentloaded 직후엔 layout 이 아직 안 잡혀 visible 판단이 실패함. waitForSelector 로 명시적 대기.
+    let clicked = false;
+    try {
+      // 하단 섹션이 lazy render 되는 경우가 있어 스크롤로 강제 mount
+      await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight)).catch(() => {});
+      await delay(800);
+
+      // visible 인 "거래 내역 더보기" 버튼이 나올 때까지 최대 8초 대기
+      await page.waitForSelector('button:has-text("거래 내역 더보기"):visible', { timeout: 8000 });
+      const moreBtn = page.locator('button:has-text("거래 내역 더보기"):visible').first();
+      await moreBtn.scrollIntoViewIfNeeded({ timeout: 3000 });
+      await moreBtn.click({ timeout: 5000, force: true });
+      await delay(4000); // API 응답 받을 시간
+      clicked = true;
+    } catch (e) {
+      // fallback — 그래도 visible 인 게 안 잡히면 hidden 상관 없이 아무 매칭 버튼이라도 시도
+      const anyBtn = page.locator('button:has-text("거래 내역 더보기")').first();
+      if ((await anyBtn.count()) > 0) {
+        try {
+          await anyBtn.click({ timeout: 5000, force: true });
+          await delay(4000);
+          clicked = true;
+        } catch (_) {}
       }
-    } else {
-      console.log(`     ℹ️  "거래 내역 더보기" 버튼 없음 (pid=${productId})`);
+      if (!clicked) console.log(`     ℹ️  "거래 내역 더보기" 버튼 없음/클릭 실패 (pid=${productId})`);
     }
   } finally {
     page.off('response', handler);
