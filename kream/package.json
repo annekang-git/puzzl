@@ -10,6 +10,7 @@
     "fetch": "node fetch-product-market.js"
   },
   "dependencies": {
+    "csv-parse": "^7.0.1",
     "express": "^5.2.1"
   },
   "devDependencies": {

@@ -37,7 +37,13 @@ const BRANDS = [
   { dresscode: 'THE ROW',           slug: 'therow', source: 'dresscode' },
   { dresscode: 'KITON',             slug: 'kiton', source: 'dresscode' },
   { dresscode: 'VIVIENNE WESTWOOD', slug: 'viviennewestwood', source: 'dresscode' },
-  // ── giglio 는 1회성 — 매일 크롤링 대상 아님. 수동 fetch 시 targets-giglio_*.json 사용 ──
+  { dresscode: 'FENDI',             slug: 'fendi', source: 'dresscode' },
+  { dresscode: 'Y-3',               slug: 'y3', source: 'dresscode' },
+  { dresscode: 'MAISON MARGIELA',      slug: 'margiela', source: 'dresscode' },
+  { dresscode: 'MM6 MAISON MARGIELA',  slug: 'mm6', source: 'dresscode' },
+  // ── giglio CSV 피드 (atny + fast-shipping) — build-targets-giglio-feeds.js 로 매일 재빌드 ──
+  { dresscode: 'BOTTEGA VENETA', slug: 'bottega', source: 'giglio-feed' },
+  { dresscode: 'MIU MIU',        slug: 'miumiu', source: 'giglio-feed' },
 ];
 const KEEP_DAYS = 2; // 브랜드당 최근 N개 결과만 유지 (cleanup-old-results.js 와 일치)
 
@@ -145,9 +151,21 @@ try {
   // ── 1) targets 재빌드 ──
   // dresscode 브랜드만 매일 재빌드. giglio 는 사전 빌드된 정적 targets 사용.
   console.log(`\n${'='.repeat(60)}\n📅 KREAM 일일 갱신  ${new Date().toISOString()}  tag=${DATE_TAG}\n${'='.repeat(60)}`);
-  const dsBrands = BRANDS.filter((b) => b.source !== 'giglio');
+  const dsBrands = BRANDS.filter((b) => b.source === 'dresscode');
   const specs = dsBrands.map((b) => `${b.dresscode}:${b.slug}`);
   run('node', ['build-targets-by-brand.js', ...specs]);
+
+  // giglio CSV 피드 브랜드 targets 재빌드 (atny + fast-shipping 스트리밍 파싱)
+  const feedBrands = BRANDS.filter((b) => b.source === 'giglio-feed');
+  if (feedBrands.length > 0) {
+    const feedSpecs = feedBrands.map((b) => `${b.dresscode}:${b.slug}`);
+    try {
+      run('node', ['build-targets-giglio-feeds.js', ...feedSpecs]);
+    } catch (e) {
+      // 피드 다운로드 실패 시 어제 targets 파일로 fetch 는 그대로 진행
+      console.error(`⚠️  giglio 피드 재빌드 실패 (기존 targets 로 진행): ${e.message.slice(0, 120)}`);
+    }
+  }
 
 // ── 2) 브랜드별 fetch ────────────────────────────
 for (const b of BRANDS) {
