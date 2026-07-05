@@ -41,9 +41,7 @@ const BRANDS = [
   { dresscode: 'Y-3',               slug: 'y3', source: 'dresscode' },
   { dresscode: 'MAISON MARGIELA',      slug: 'margiela', source: 'dresscode' },
   { dresscode: 'MM6 MAISON MARGIELA',  slug: 'mm6', source: 'dresscode' },
-  // ── giglio CSV 피드 (atny + fast-shipping) — build-targets-giglio-feeds.js 로 매일 재빌드 ──
-  { dresscode: 'BOTTEGA VENETA', slug: 'giglio_bottega', source: 'giglio-feed' },
-  { dresscode: 'MIU MIU',        slug: 'giglio_miumiu', source: 'giglio-feed' },
+  // ── giglio 피드 브랜드 (보테가, 미우미우) 는 daily-giglio-update.js 로 분리 (VPS 11:00 전용) ──
 ];
 const KEEP_DAYS = 2; // 브랜드당 최근 N개 결과만 유지 (cleanup-old-results.js 와 일치)
 
