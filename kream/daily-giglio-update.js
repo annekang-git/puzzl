@@ -92,7 +92,15 @@ async function sendSlack(text) {
   }
 }
 
+// 경과 시간 포맷 (ms → "1시간 23분 45초")
+function fmtElapsed(ms) {
+  const s = Math.round(ms / 1000);
+  const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), sec = s % 60;
+  return h > 0 ? `${h}시간 ${m}분 ${sec}초` : m > 0 ? `${m}분 ${sec}초` : `${sec}초`;
+}
+
 // ── main ─────────────────────────────────────────
+const T0 = Date.now();
 const summary = [];
 let fatal = null;
 
@@ -110,6 +118,7 @@ try {
   // 2) 브랜드별 fetch
   for (const b of BRANDS) {
     console.log(`\n\n${'─'.repeat(60)}\n🏷  ${b.brand} → ${b.slug}\n${'─'.repeat(60)}`);
+    const tBrand = Date.now();
     try {
       run('node', ['fetch-product-market.js', `targets-${b.slug}.json`]);
 
@@ -125,11 +134,13 @@ try {
       fs.renameSync(path.join(RESULTS_DIR, created[0].f), path.join(RESULTS_DIR, dst));
       console.log(`✅ ${created[0].f} → ${dst}`);
 
+      const elapsed = fmtElapsed(Date.now() - tBrand);
+      console.log(`⏱  ${b.slug} 소요: ${elapsed}`);
       try {
         const data = JSON.parse(fs.readFileSync(path.join(RESULTS_DIR, dst), 'utf-8'));
-        summary.push({ brand: b.slug, ok: true, matched: data.matched, total: data.total_targets });
+        summary.push({ brand: b.slug, ok: true, matched: data.matched, total: data.total_targets, elapsed });
       } catch (_) {
-        summary.push({ brand: b.slug, ok: true });
+        summary.push({ brand: b.slug, ok: true, elapsed });
       }
 
       try {
@@ -152,16 +163,20 @@ try {
 }
 
 // 4) Slack
+const totalElapsed = fmtElapsed(Date.now() - T0);
 const lines = [`*🧺 giglio KREAM 갱신* — \`${DATE_TAG}\``, ''];
 for (const s of summary) {
+  const timeNote = s.elapsed ? `  ⏱ ${s.elapsed}` : '';
   if (s.ok && s.total != null) {
     const pct = (s.matched / s.total * 100).toFixed(1);
-    lines.push(`✅ *${s.brand}*: ${s.matched}/${s.total} 매칭 (${pct}%)`);
-  } else if (s.ok) lines.push(`✅ *${s.brand}*: 완료`);
+    lines.push(`✅ *${s.brand}*: ${s.matched}/${s.total} 매칭 (${pct}%)${timeNote}`);
+  } else if (s.ok) lines.push(`✅ *${s.brand}*: 완료${timeNote}`);
   else lines.push(`❌ *${s.brand}*: ${s.reason}`);
 }
+lines.push('', `⏱ *총 소요 시간: ${totalElapsed}*`);
 if (fatal) lines.push('', `⚠️ 치명적 에러: ${fatal}`);
 await sendSlack(lines.join('\n'));
 
-console.log(`\n${fatal ? '❌' : '✅'} 완료 ${new Date().toISOString()}`);
+console.log(`\n⏱  총 소요 시간: ${totalElapsed}`);
+console.log(`${fatal ? '❌' : '✅'} 완료 ${new Date().toISOString()}`);
 process.exit(fatal ? 1 : 0);
