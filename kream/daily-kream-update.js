@@ -101,6 +101,18 @@ function runQuiet(cmd, args, opts = {}) {
   return { ok: r.status === 0, stdout: r.stdout || '', stderr: r.stderr || '' };
 }
 
+// push 전 pull --rebase — 다른 머신 (Mac↔VPS) 이 먼저 push 했을 때 non-fast-forward 거부 방지.
+// --autostash: 실행 중 생긴 unstaged 변경 (targets 파일 drift) 이 있어도 rebase 가능.
+// -X ours: 같은 파일 충돌 시 내 커밋 (rebase 중 재적용되는 쪽 = 이 머신의 새 결과) 유지.
+function safePush() {
+  try {
+    run('git', ['pull', '--rebase', '--autostash', '-X', 'ours'], { cwd: REPO_ROOT });
+  } catch (e) {
+    console.error(`⚠️  pull --rebase 실패 (push 는 시도): ${e.message.slice(0, 100)}`);
+  }
+  run('git', ['push'], { cwd: REPO_ROOT });
+}
+
 // ── Slack 알림 ────────────────────────────────────
 const SLACK_WEBHOOK = process.env.SLACK_WEBHOOK_URL;
 async function sendSlack(text) {
@@ -206,7 +218,7 @@ for (const b of BRANDS) {
     try {
       run('git', ['add', `kream/results/${dst}`], { cwd: REPO_ROOT });
       run('git', ['commit', '-m', `chore(kream): ${b.slug} ${DATE_TAG}`], { cwd: REPO_ROOT });
-      run('git', ['push'], { cwd: REPO_ROOT });
+      safePush();
       console.log(`📤 ${dst} push 완료`);
     } catch (e) {
       // push 실패해도 다음 브랜드로 계속 — 마지막 정리 push 가 누적분 함께 처리
@@ -241,7 +253,7 @@ for (const s of summary) {
     console.log(status.stdout);
     run('git', ['add', 'kream/results/'], { cwd: REPO_ROOT });
     run('git', ['commit', '-m', `chore(kream): daily update ${DATE_TAG}`], { cwd: REPO_ROOT });
-    run('git', ['push'], { cwd: REPO_ROOT });
+    safePush();
     pushStatus = true;
   }
 } catch (e) {

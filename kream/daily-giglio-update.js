@@ -69,7 +69,7 @@ function commitAndPush(files, message) {
   run('git', ['add', ...files], { cwd: REPO_ROOT });
   run('git', ['commit', '-m', message], { cwd: REPO_ROOT });
   try {
-    run('git', ['pull', '--rebase', '-X', 'ours'], { cwd: REPO_ROOT });
+    run('git', ['pull', '--rebase', '--autostash', '-X', 'ours'], { cwd: REPO_ROOT });
   } catch (e) {
     console.error(`⚠️  pull --rebase 실패 (push 시도는 계속): ${e.message.slice(0, 100)}`);
   }
