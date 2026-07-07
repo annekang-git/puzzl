@@ -19,7 +19,9 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const SYNC_DATA = '/Users/anne/CascadeProjects/windsurf-project-2/cafe24-oauth/grifo-crawler/sync/sync-data';
+// dresscode 캐시 위치 — 레포 상대경로 (Mac/VPS 공용). DRESSCODE_SYNC_DATA env 로 override 가능.
+const SYNC_DATA = process.env.DRESSCODE_SYNC_DATA
+  || path.resolve(__dirname, '..', 'grifo-crawler', 'sync', 'sync-data');
 
 // CLI 파싱
 const args = process.argv.slice(2);
@@ -104,6 +106,15 @@ function formatSalomonSku(ref) {
   return n.length >= 9 ? n.slice(0, 9) : n;
 }
 
+// Y-3 변환 — reference 뒤쪽의 영문 색상명 제거 (KREAM 은 모델 코드만으로 검색됨)
+// 예: JW7351BLACK → JW7351, KI7091WHITE → KI7091, JM7854CWHITE → JM7854C
+const Y3_COLOR_RE = /(WHITE|BLACK|RED|BLUE|GREEN|GREY|GRAY|BROWN|BEIGE|NAVY|PINK|YELLOW|PURPLE|ORANGE|CREAM|IVORY|MULTICOLOR|MULTI|GOLD|SILVER|TAN|KHAKI|OLIVE|MAROON|TEAL|CORAL|MINT|MUSTARD|RUST|WINE|CHARCOAL|SAND|BONE|ECRU|NUDE|MAGENTA|CYAN|LIME|AQUA|FUCHSIA|BURGUNDY|TAUPE|CHOCOLATE)+$/i;
+function formatY3Sku(ref) {
+  if (!ref) return ref;
+  const n = String(ref).trim().toUpperCase();
+  return n.replace(Y3_COLOR_RE, '') || n;
+}
+
 // 브랜드별 KREAM 검색 키 추출 — Stone Island 는 대시 형식, PRADA 는 중간 4자리 제거,
 // TOM FORD 는 의미없는 suffix 제거, SALOMON 는 앞 9자리만
 function deriveSearchSku(brandNorm, ref) {
@@ -111,6 +122,7 @@ function deriveSearchSku(brandNorm, ref) {
   if (brandNorm === 'PRADA') return formatPradaSku(ref);
   if (brandNorm === 'TOM FORD') return formatTomFordSku(ref);
   if (brandNorm === 'SALOMON') return formatSalomonSku(ref);
+  if (brandNorm === 'Y-3') return formatY3Sku(ref);
   return ref; // 다른 브랜드는 reference 그대로
 }
 

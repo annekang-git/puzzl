@@ -161,9 +161,33 @@ try {
   // ── 1) targets 재빌드 ──
   // dresscode 브랜드만 매일 재빌드. giglio 는 사전 빌드된 정적 targets 사용.
   console.log(`\n${'='.repeat(60)}\n📅 KREAM 일일 갱신  ${new Date().toISOString()}  tag=${DATE_TAG}\n${'='.repeat(60)}`);
+  // dresscode 캐시는 Mac 에만 있음 (grifo-crawler/sync 는 git 미포함).
+  // 캐시 없는 호스트 (VPS) 는 재빌드 실패해도 git 의 targets-*.json (Mac 이 push) 으로 fetch 진행.
   const dsBrands = BRANDS.filter((b) => b.source === 'dresscode');
   const specs = dsBrands.map((b) => `${b.dresscode}:${b.slug}`);
-  run('node', ['build-targets-by-brand.js', ...specs]);
+  let targetsRebuilt = false;
+  try {
+    run('node', ['build-targets-by-brand.js', ...specs]);
+    targetsRebuilt = true;
+  } catch (e) {
+    console.error(`⚠️  targets 재빌드 실패 (기존 targets-*.json 으로 진행): ${e.message.slice(0, 120)}`);
+  }
+
+  // 재빌드 성공한 호스트 (Mac) 는 targets 를 커밋 — 다른 호스트가 최신 targets 로 fetch 가능하게
+  if (targetsRebuilt) {
+    try {
+      const tgFiles = dsBrands.map((b) => `kream/targets-${b.slug}.json`);
+      run('git', ['add', ...tgFiles], { cwd: REPO_ROOT });
+      const st = runQuiet('git', ['status', '--porcelain', '--', ...tgFiles], { cwd: REPO_ROOT });
+      if (st.stdout.trim()) {
+        run('git', ['commit', '-m', `chore(kream): targets 갱신 ${DATE_TAG}`], { cwd: REPO_ROOT });
+        safePush();
+        console.log('📤 targets push 완료');
+      }
+    } catch (e) {
+      console.error(`⚠️  targets commit/push 실패 (fetch 는 계속): ${e.message.slice(0, 100)}`);
+    }
+  }
 
   // giglio CSV 피드 브랜드 targets 재빌드 (atny + fast-shipping 스트리밍 파싱)
   // 피드 다운로드 (~130MB) 는 VPS 에서만: .env 에 GIGLIO_FEED_BUILD=1 인 호스트만 재빌드.

@@ -50,7 +50,7 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Orb and Stars Classic' T-shirt",
     "option": "XS",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 81.96,
     "eur_retail": 163.93
   },
@@ -61,7 +61,7 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Bea' cardigan",
     "option": "M",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 135.24,
     "eur_retail": 270.49
   },
@@ -137,8 +137,8 @@
     "b2b_sku": "7501004KWW018XO215",
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Plimsoll' sneakers",
-    "option": "37",
-    "stock": 2,
+    "option": "36",
+    "stock": 1,
     "eur_price": 116.8,
     "eur_retail": 233.61
   },
@@ -148,8 +148,8 @@
     "b2b_sku": "7501004KWW018XO215",
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Plimsoll' sneakers",
-    "option": "38",
-    "stock": 1,
+    "option": "37",
+    "stock": 2,
     "eur_price": 116.8,
     "eur_retail": 233.61
   },
@@ -215,7 +215,7 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Ella' cardigan",
     "option": "S",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 202.87,
     "eur_retail": 405.74
   },
@@ -226,20 +226,9 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Ella' cardigan",
     "option": "XS",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 202.87,
     "eur_retail": 405.74
-  },
-  {
-    "sku": "75020063WW018XO215",
-    "spu": "75020063WW018XO215",
-    "b2b_sku": "75020063WW018XO215",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'Plimsoll' sneakers",
-    "option": "39",
-    "stock": 1,
-    "eur_price": 110.66,
-    "eur_retail": 221.31
   },
   {
     "sku": "75020063WW015BN402",
@@ -270,7 +259,7 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Plimsoll' sneakers",
     "option": "38",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 102.46,
     "eur_retail": 204.92
   },
@@ -314,20 +303,20 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Vivienne' clutch",
     "option": "U",
-    "stock": 3,
+    "stock": 1,
     "eur_price": 172.13,
     "eur_retail": 286.89
   },
   {
-    "sku": "19030016W01DAO201",
-    "spu": "19030016W01DAO201",
-    "b2b_sku": "19030016W01DAO201",
+    "sku": "19010017W01DAO201",
+    "spu": "19010017W01DAO201",
+    "b2b_sku": "19010017W01DAO201",
     "brand": "VIVIENNE WESTWOOD",
-    "name": "'Sailor' skirt",
-    "option": "29",
+    "name": "'Worth More' blazer",
+    "option": "46 IT",
     "stock": 1,
-    "eur_price": 161.88,
-    "eur_retail": 323.77
+    "eur_price": 366.8,
+    "eur_retail": 733.61
   },
   {
     "sku": "3G010017J001MA401",
@@ -336,17 +325,6 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Orb Peru' T-shirt",
     "option": "M",
-    "stock": 1,
-    "eur_price": 69.67,
-    "eur_retail": 139.34
-  },
-  {
-    "sku": "3G010017J001MA401",
-    "spu": "3G010017J001MA401",
-    "b2b_sku": "3G010017J001MA401",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'Orb Peru' T-shirt",
-    "option": "S",
     "stock": 1,
     "eur_price": 69.67,
     "eur_retail": 139.34
@@ -385,28 +363,6 @@
     "eur_retail": 389.34
   },
   {
-    "sku": "4D01000JUL00BKD402",
-    "spu": "4D01000JUL00BKD402",
-    "b2b_sku": "4D01000JUL00BKD402",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'Troy' shopping bag",
-    "option": "U",
-    "stock": 1,
-    "eur_price": 349.18,
-    "eur_retail": 581.97
-  },
-  {
-    "sku": "49030001WW01F4A408",
-    "spu": "49030001WW01F4A408",
-    "b2b_sku": "49030001WW01F4A408",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'Brooke' clutch",
-    "option": "U",
-    "stock": 1,
-    "eur_price": 265.57,
-    "eur_retail": 442.62
-  },
-  {
     "sku": "1803002UY003FC404",
     "spu": "1803002UY003FC404",
     "b2b_sku": "1803002UY003FC404",
@@ -435,20 +391,9 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Bea Cropped' cardigan",
     "option": "S",
-    "stock": 2,
+    "stock": 3,
     "eur_price": 135.24,
     "eur_retail": 270.49
-  },
-  {
-    "sku": "1501000CW01ETO201",
-    "spu": "1501000CW01ETO201",
-    "b2b_sku": "1501000CW01ETO201",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'Drunken' shirt",
-    "option": "40 IT",
-    "stock": 1,
-    "eur_price": 180.33,
-    "eur_retail": 360.66
   },
   {
     "sku": "1501000CW01ETO201",
@@ -468,42 +413,9 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'90's' top",
     "option": "M",
-    "stock": 3,
+    "stock": 2,
     "eur_price": 77.87,
     "eur_retail": 155.74
-  },
-  {
-    "sku": "3G01003ZJ009CA401",
-    "spu": "3G01003ZJ009CA401",
-    "b2b_sku": "3G01003ZJ009CA401",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'90's' top",
-    "option": "S",
-    "stock": 1,
-    "eur_price": 77.87,
-    "eur_retail": 155.74
-  },
-  {
-    "sku": "3G01003ZJ009CA401",
-    "spu": "3G01003ZJ009CA401",
-    "b2b_sku": "3G01003ZJ009CA401",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'90's' top",
-    "option": "XS",
-    "stock": 1,
-    "eur_price": 77.87,
-    "eur_retail": 155.74
-  },
-  {
-    "sku": "630203FS02P019P019",
-    "spu": "630203FS02P019P019",
-    "b2b_sku": "630203FS02P019P019",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'Man Satyr' necklace",
-    "option": "U",
-    "stock": 1,
-    "eur_price": 117.62,
-    "eur_retail": 168.03
   },
   {
     "sku": "4703000MWS000DN403",
@@ -556,20 +468,9 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'90's' top",
     "option": "XS",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 77.87,
     "eur_retail": 155.74
-  },
-  {
-    "sku": "5901000DWS000DN403",
-    "spu": "5901000DWS000DN403",
-    "b2b_sku": "5901000DWS000DN403",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "Beauty 'Orb Bas Relief'",
-    "option": "U",
-    "stock": 5,
-    "eur_price": 122.95,
-    "eur_retail": 204.92
   },
   {
     "sku": "1501005PW00RUA102",
@@ -578,31 +479,9 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Twisted Bagatelle' shirt",
     "option": "40 IT",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 256.76,
     "eur_retail": 733.61
-  },
-  {
-    "sku": "1803002QY001VN401",
-    "spu": "1803002QY001VN401",
-    "b2b_sku": "1803002QY001VN401",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'Bea' top",
-    "option": "M",
-    "stock": 1,
-    "eur_price": 148.77,
-    "eur_retail": 270.49
-  },
-  {
-    "sku": "1G010017J001MA401",
-    "spu": "1G010017J001MA401",
-    "b2b_sku": "1G010017J001MA401",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'Football' T-shirt",
-    "option": "M",
-    "stock": 1,
-    "eur_price": 81.96,
-    "eur_retail": 163.93
   },
   {
     "sku": "49030001WW01F4N401",
@@ -625,28 +504,6 @@
     "stock": 7,
     "eur_price": 189.34,
     "eur_retail": 315.57
-  },
-  {
-    "sku": "1803007EY001AN402",
-    "spu": "1803007EY001AN402",
-    "b2b_sku": "1803007EY001AN402",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'Pamela' sweater",
-    "option": "M",
-    "stock": 1,
-    "eur_price": 174.18,
-    "eur_retail": 348.36
-  },
-  {
-    "sku": "1803007EY001AN402",
-    "spu": "1803007EY001AN402",
-    "b2b_sku": "1803007EY001AN402",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'Pamela' sweater",
-    "option": "S",
-    "stock": 1,
-    "eur_price": 174.18,
-    "eur_retail": 348.36
   },
   {
     "sku": "81020023W01C6O102",
@@ -676,17 +533,6 @@
     "b2b_sku": "1803002QY001AN402",
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Bea' top",
-    "option": "L",
-    "stock": 1,
-    "eur_price": 162.29,
-    "eur_retail": 295.08
-  },
-  {
-    "sku": "1803002QY001AN402",
-    "spu": "1803002QY001AN402",
-    "b2b_sku": "1803002QY001AN402",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'Bea' top",
     "option": "XS",
     "stock": 2,
     "eur_price": 162.29,
@@ -699,17 +545,6 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Ember' joggers",
     "option": "M",
-    "stock": 1,
-    "eur_price": 122.95,
-    "eur_retail": 307.38
-  },
-  {
-    "sku": "3J010016J00A4F407",
-    "spu": "3J010016J00A4F407",
-    "b2b_sku": "3J010016J00A4F407",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'Ember' joggers",
-    "option": "S",
     "stock": 1,
     "eur_price": 122.95,
     "eur_retail": 307.38
@@ -776,7 +611,7 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Eli' cardigan",
     "option": "XS",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 188.52,
     "eur_retail": 377.05
   },
@@ -809,7 +644,7 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Ella' top",
     "option": "S",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 170.08,
     "eur_retail": 340.16
   },
@@ -823,17 +658,6 @@
     "stock": 2,
     "eur_price": 170.08,
     "eur_retail": 340.16
-  },
-  {
-    "sku": "4A020006UW01GUM202",
-    "spu": "4A020006UW01GUM202",
-    "b2b_sku": "4A020006UW01GUM202",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'George Rucksack M' backpack",
-    "option": "U",
-    "stock": 1,
-    "eur_price": 250.82,
-    "eur_retail": 418.03
   },
   {
     "sku": "1803002UY001AN402",
@@ -858,17 +682,6 @@
     "eur_retail": 323.77
   },
   {
-    "sku": "1803002UY001AN402",
-    "spu": "1803002UY001AN402",
-    "b2b_sku": "1803002UY001AN402",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "Cardigan 'Bea'",
-    "option": "XS",
-    "stock": 1,
-    "eur_price": 178.07,
-    "eur_retail": 323.77
-  },
-  {
     "sku": "4B010007WL001NN402",
     "spu": "4B010007WL001NN402",
     "b2b_sku": "4B010007WL001NN402",
@@ -886,7 +699,7 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Hazel' small shoulder bag",
     "option": "U",
-    "stock": 4,
+    "stock": 2,
     "eur_price": 189.34,
     "eur_retail": 315.57
   },
@@ -1039,7 +852,7 @@
     "b2b_sku": "7501004KWW015BN402",
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Plimsoll' sneakers",
-    "option": "40",
+    "option": "39",
     "stock": 1,
     "eur_price": 110.66,
     "eur_retail": 221.31
@@ -1073,7 +886,7 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'W Violin' shirt",
     "option": "40 IT",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 157.17,
     "eur_retail": 241.8
   },
@@ -1107,7 +920,7 @@
     "name": "'Bea' cardigan",
     "option": "M",
     "stock": 3,
-    "eur_price": 178.07,
+    "eur_price": 161.88,
     "eur_retail": 323.77
   },
   {
@@ -1118,7 +931,7 @@
     "name": "'Bea' cardigan",
     "option": "S",
     "stock": 3,
-    "eur_price": 178.07,
+    "eur_price": 161.88,
     "eur_retail": 323.77
   },
   {
@@ -1129,7 +942,7 @@
     "name": "'Bea' cardigan",
     "option": "XS",
     "stock": 2,
-    "eur_price": 178.07,
+    "eur_price": 161.88,
     "eur_retail": 323.77
   },
   {
@@ -1182,6 +995,17 @@
     "b2b_sku": "110103A4W01C6O102",
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Marta' dress",
+    "option": "38 IT",
+    "stock": 1,
+    "eur_price": 479.51,
+    "eur_retail": 959.02
+  },
+  {
+    "sku": "110103A4W01C6O102",
+    "spu": "110103A4W01C6O102",
+    "b2b_sku": "110103A4W01C6O102",
+    "brand": "VIVIENNE WESTWOOD",
+    "name": "'Marta' dress",
     "option": "40 IT",
     "stock": 1,
     "eur_price": 479.51,
@@ -1205,7 +1029,7 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Bea Cropped' cardigan",
     "option": "M",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 148.77,
     "eur_retail": 270.49
   },
@@ -1271,7 +1095,7 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Bea' top",
     "option": "XS",
-    "stock": 4,
+    "stock": 3,
     "eur_price": 120.9,
     "eur_retail": 241.8
   },
@@ -1282,53 +1106,20 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Orb and Stars Classic' T-shirt",
     "option": "M",
-    "stock": 5,
-    "eur_price": 81.96,
-    "eur_retail": 163.93
-  },
-  {
-    "sku": "3G010056J00B9A401",
-    "spu": "3G010056J00B9A401",
-    "b2b_sku": "3G010056J00B9A401",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'Orb and Stars Classic' T-shirt",
-    "option": "S",
-    "stock": 4,
-    "eur_price": 81.96,
-    "eur_retail": 163.93
-  },
-  {
-    "sku": "3G010056J00B9A401",
-    "spu": "3G010056J00B9A401",
-    "b2b_sku": "3G010056J00B9A401",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'Orb and Stars Classic' T-shirt",
-    "option": "XS",
     "stock": 3,
     "eur_price": 81.96,
     "eur_retail": 163.93
   },
   {
-    "sku": "1803002UY003FK404",
-    "spu": "1803002UY003FK404",
-    "b2b_sku": "1803002UY003FK404",
+    "sku": "3G010056J00B9A401",
+    "spu": "3G010056J00B9A401",
+    "b2b_sku": "3G010056J00B9A401",
     "brand": "VIVIENNE WESTWOOD",
-    "name": "'Bea Cropped' cardigan",
-    "option": "M",
-    "stock": 2,
-    "eur_price": 135.24,
-    "eur_retail": 270.49
-  },
-  {
-    "sku": "1504000AJ00BLN401",
-    "spu": "1504000AJ00BLN401",
-    "b2b_sku": "1504000AJ00BLN401",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'Hebo' top",
+    "name": "'Orb and Stars Classic' T-shirt",
     "option": "S",
-    "stock": 1,
-    "eur_price": 90.57,
-    "eur_retail": 139.34
+    "stock": 2,
+    "eur_price": 81.96,
+    "eur_retail": 163.93
   },
   {
     "sku": "1504000AJ00BLN401",
