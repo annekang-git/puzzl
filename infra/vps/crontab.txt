@@ -16,7 +16,8 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 SHELL=/bin/bash
 
 # ── 01:00 — 코드 자동 업데이트 (Mac mini 에서 push 한 최신 변경 반영) ──────
-0 1 * * * cd $HOME/puzzl && /usr/bin/git pull --ff-only >> $HOME/logs/git-pull-$(date +\%Y\%m\%d).log 2>&1
+#    --rebase --autostash: 크롤러가 만든 targets 파일 drift 가 있어도 pull 성공
+0 1 * * * cd $HOME/puzzl && /usr/bin/git pull --rebase --autostash >> $HOME/logs/git-pull-$(date +\%Y\%m\%d).log 2>&1
 
 # ── 02:30 — W/L 화이트리스트 자동 동기화 (Cafe24) ──────────────────────────
 30 2 * * * cd $HOME/puzzl && /usr/bin/node grifo-crawler/sync/refresh-cafe24-token.js >> $HOME/logs/whitelist-$(date +\%Y\%m\%d).log 2>&1 && /usr/bin/node grifo-crawler/sync/ensure-whitelist-uploaded.js >> $HOME/logs/whitelist-$(date +\%Y\%m\%d).log 2>&1 && /usr/bin/node grifo-crawler/sync/ensure-whitelist-sizes.js >> $HOME/logs/whitelist-$(date +\%Y\%m\%d).log 2>&1
