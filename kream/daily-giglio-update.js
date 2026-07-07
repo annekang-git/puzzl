@@ -157,8 +157,24 @@ try {
     }
   }
 
-  // 3) cleanup
+  // 3) cleanup — 로컬 삭제 후 그 삭제를 git 에도 커밋해야 원격/대시보드에서 사라짐
   run('node', ['cleanup-old-results.js', `--keep=${KEEP_DAYS}`]);
+  try {
+    run('git', ['add', '-A', 'kream/results/'], { cwd: REPO_ROOT });
+    const st = spawnSync(resolveCmd('git'), ['status', '--porcelain', 'kream/results/'], { encoding: 'utf-8', cwd: REPO_ROOT });
+    if ((st.stdout || '').trim()) {
+      run('git', ['commit', '-m', `chore(kream): giglio cleanup ${DATE_TAG}`], { cwd: REPO_ROOT });
+      try {
+        run('git', ['pull', '--rebase', '--autostash', '-X', 'ours'], { cwd: REPO_ROOT });
+      } catch (_) {}
+      run('git', ['push'], { cwd: REPO_ROOT });
+      console.log('📤 cleanup 삭제분 push 완료');
+    } else {
+      console.log('   cleanup 변경 없음 — commit 생략');
+    }
+  } catch (e) {
+    console.error(`⚠️  cleanup commit/push 실패: ${e.message.slice(0, 120)}`);
+  }
 } catch (e) {
   fatal = e.message.slice(0, 200);
   console.error(`\n❌ 치명적 에러: ${e.message}`);
