@@ -24,8 +24,9 @@ SHELL=/bin/bash
 # ── 04:00 — KREAM 시세 갱신 ⭐ (Xvfb 필수 — KREAM headless 차단) ───────────
 0 4 * * * cd $HOME/puzzl/kream && /usr/bin/xvfb-run -a /usr/bin/node daily-kream-update.js >> $HOME/logs/kream-$(date +\%Y\%m\%d).log 2>&1
 
-# ── 11:00 — giglio 피드 KREAM 갱신 (보테가/미우미우, VPS 전용 — Mac 은 안 돌림) ──
-0 11 * * * cd $HOME/puzzl/kream && /usr/bin/xvfb-run -a /usr/bin/node daily-giglio-update.js >> $HOME/logs/kream-giglio-$(date +\%Y\%m\%d).log 2>&1
+# ── 01:00 — giglio 피드 KREAM 갱신 (보테가/미우미우, VPS 전용 — Mac 은 안 돌림) ──
+#    04:00 dresscode run 과 겹쳐도 안전: giglio 는 전용 프로파일 (.browser-data-giglio) 사용
+0 1 * * * cd $HOME/puzzl/kream && /usr/bin/xvfb-run -a /usr/bin/node daily-giglio-update.js >> $HOME/logs/kream-giglio-$(date +\%Y\%m\%d).log 2>&1
 
 # ── 04:30 — W/L 화이트리스트 → 스마트스토어 업로드 ────────────────────────
 30 4 * * * cd $HOME/puzzl/smartstore && /usr/bin/node ensure-whitelist-uploaded-smartstore.js >> $HOME/logs/whitelist-smartstore-$(date +\%Y\%m\%d).log 2>&1

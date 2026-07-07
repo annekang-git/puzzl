@@ -34,7 +34,11 @@ if (!KREAM_EMAIL || !KREAM_PASSWORD) {
   console.error('   예: KREAM_EMAIL=you@example.com KREAM_PASSWORD=... node fetch-product-market.js targets.json');
   process.exit(1);
 }
-const BROWSER_DATA_DIR = path.join(__dirname, '.browser-data');
+// KREAM_BROWSER_DATA 로 프로파일 분리 가능 — 같은 머신에서 두 fetch 동시 실행 시 충돌 방지
+// (예: 01:00 giglio run 과 04:00 dresscode run 겹칠 때)
+const BROWSER_DATA_DIR = process.env.KREAM_BROWSER_DATA
+  ? path.resolve(__dirname, process.env.KREAM_BROWSER_DATA)
+  : path.join(__dirname, '.browser-data');
 const RESULTS_DIR = path.join(__dirname, 'results');
 if (!fs.existsSync(RESULTS_DIR)) fs.mkdirSync(RESULTS_DIR, { recursive: true });
 

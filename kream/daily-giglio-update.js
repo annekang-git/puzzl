@@ -38,6 +38,8 @@ if (fs.existsSync(envFile)) {
 }
 
 if (!('KREAM_HEADLESS' in process.env)) process.env.KREAM_HEADLESS = '0';
+// giglio 전용 브라우저 프로파일 — 04:00 dresscode run 과 겹쳐도 Chrome 충돌 없음
+if (!process.env.KREAM_BROWSER_DATA) process.env.KREAM_BROWSER_DATA = '.browser-data-giglio';
 if (!process.env.KREAM_EMAIL || !process.env.KREAM_PASSWORD) {
   console.error('❌ KREAM_EMAIL / KREAM_PASSWORD 환경변수 없음 (.env 파일 확인)');
   process.exit(1);
