@@ -1,0 +1,4760 @@
+{
+  "fetched_at": "2026-07-07T18:10:56.427Z",
+  "input_file": "targets-giglio_miumiu.json",
+  "total_targets": 64,
+  "matched": 31,
+  "failed": 33,
+  "results": [
+    {
+      "sku": "5NE8412IFOF0NTG",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 959.01,
+      "matched": true,
+      "product_id": 704456,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/704456",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 1943000,
+        "highest_bid": 500000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 1943000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1944000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3360000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3483000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 500000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 4,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1172CSSF0393",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1778.69,
+      "matched": true,
+      "product_id": 478539,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/478539",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 3863000,
+        "highest_bid": 2000000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 3863000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4233000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 2000000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1172CSSF0003",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2286.89,
+      "matched": true,
+      "product_id": 634053,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/634053",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 3570000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 3570000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3572000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3969000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4291000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4477000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 5,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB179AF81F0401",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1813.52,
+      "matched": true,
+      "product_id": 670436,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/670436",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "5BZ045VOOM2CRWF0002",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1401.64,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BZ045VOOM2CRWF0002\" SPU=\"5BZ045VOOM2CRW ~ F0002\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 704456,
+          "text": "Miu Miu\n\n미우 미우 레더 파우치 커피 브라운 그린\n\n15%\n\n1,943,000원\n\n관심 86"
+        },
+        {
+          "product_id": 315253,
+          "text": "Miu Miu\n\n미우 미우 레더 보 백 블랙\n\n24%\n\n3,649,000원\n\n관심 1,591\n\n · 리뷰 23\n\n · 거래 42\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BZ045VOOM2CRWF0011",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1168.03,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BZ045VOOM2CRWF0011\" SPU=\"5BZ045VOOM2CRW ~ F0011\"",
+      "candidates": [
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 315253,
+          "text": "Miu Miu\n\n미우 미우 레더 보 백 블랙\n\n24%\n\n3,649,000원\n\n관심 1,591\n\n · 리뷰 23\n\n · 거래 42\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        }
+      ]
+    },
+    {
+      "sku": "5BC1822CSSF0316",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1672.13,
+      "matched": true,
+      "product_id": 504823,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/504823",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 3828000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 3828000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BC1822CSSF0393",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1475.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BC1822CSSF0393\" SPU=\"5BC1822CSS ~ F0393\"",
+      "candidates": [
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 315253,
+          "text": "Miu Miu\n\n미우 미우 레더 보 백 블랙\n\n24%\n\n3,649,000원\n\n관심 1,591\n\n · 리뷰 23\n\n · 거래 42\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        }
+      ]
+    },
+    {
+      "sku": "5ND022AFPPF0002",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 860.66,
+      "matched": true,
+      "product_id": 600735,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/600735",
+      "market": {
+        "last_sale_price": 1370000,
+        "lowest_ask": 1702000,
+        "highest_bid": 1200000,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 1370000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-01T14:02:12Z",
+          "date_text": "26/07/01",
+          "is_immediate": true
+        },
+        {
+          "price": 1370000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-29T05:39:12Z",
+          "date_text": "26/05/29",
+          "is_immediate": false
+        },
+        {
+          "price": 1320000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-22T23:54:08Z",
+          "date_text": "26/05/23",
+          "is_immediate": true
+        },
+        {
+          "price": 1500000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-30T20:26:59Z",
+          "date_text": "26/03/31",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 1702000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 1789000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 1820000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1899000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2057000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2078000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2110000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2230000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2350000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 1200000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 4,
+        "asks": 9,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1822IEOF0002",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1536.89,
+      "matched": true,
+      "product_id": 585918,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/585918",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 3400000,
+        "highest_bid": 1500000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 3400000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3462000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 3500000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4100000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4153000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4369000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 1500000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 6,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BP100AN88F0236",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 1075.82,
+      "matched": true,
+      "product_id": 967539,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/967539",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "5BB123AN88F098L",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1706.97,
+      "matched": true,
+      "product_id": 818186,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/818186",
+      "market": {
+        "last_sale_price": 3634000,
+        "lowest_ask": 3634000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 3634000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-04T06:35:56Z",
+          "date_text": "26/07/04",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 3634000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3635000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 3636000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3753000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 4,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BE101VOOO2BBLF0316",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1811.48,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BE101VOOO2BBLF0316\" SPU=\"5BE101VOOO2BBL ~ F0316\"",
+      "candidates": [
+        {
+          "product_id": 748270,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 핸드백 파우더 핑크\n\n23%\n\n1,880,000원\n\n관심 5"
+        },
+        {
+          "product_id": 315253,
+          "text": "Miu Miu\n\n미우 미우 레더 보 백 블랙\n\n24%\n\n3,649,000원\n\n관심 1,591\n\n · 리뷰 23\n\n · 거래 42\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 395342,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 미니 핸드백 꼬냑\n\n32%\n\n1,850,000원\n\n관심 72\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 921327,
+          "text": "Miu Miu\n\n미우 미우 레더 핸드백 블랙\n\n5%\n\n2,747,000원\n\n관심 2"
+        }
+      ]
+    },
+    {
+      "sku": "5BC205VPOO2CSSF0324",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 1549.18,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BC205VPOO2CSSF0324\" SPU=\"5BC205VPOO2CSS ~ F0324\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 315253,
+          "text": "Miu Miu\n\n미우 미우 레더 보 백 블랙\n\n24%\n\n3,649,000원\n\n관심 1,591\n\n · 리뷰 23\n\n · 거래 42\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BC205VPOO2CSSF0003",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1881.15,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BC205VPOO2CSSF0003\" SPU=\"5BC205VPOO2CSS ~ F0003\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BC195VOOO2IFLF0ZKS",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1586.07,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BC195VOOO2IFLF0ZKS\" SPU=\"5BC195VOOO2IFL ~ F0ZKS\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 315253,
+          "text": "Miu Miu\n\n미우 미우 레더 보 백 블랙\n\n24%\n\n3,649,000원\n\n관심 1,591\n\n · 리뷰 23\n\n · 거래 42\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BG335VPOO2CSSF0003",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1950.82,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BG335VPOO2CSSF0003\" SPU=\"5BG335VPOO2CSS ~ F0003\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 315253,
+          "text": "Miu Miu\n\n미우 미우 레더 보 백 블랙\n\n24%\n\n3,649,000원\n\n관심 1,591\n\n · 리뷰 23\n\n · 거래 42\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BB192VOOO2CRWF0002",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1358.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB192VOOO2CRWF0002\" SPU=\"5BB192VOOO2CRW ~ F0002\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 607595,
+          "text": "Miu Miu\n\n미우 미우 레더 파우치 블랙\n\n26%\n\n1,682,000원\n\n관심 734\n\n · 리뷰 3\n\n · 거래 22\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BB192VOOO2CRWF0046",
+      "option": "U",
+      "stock": 7,
+      "eur_price": 1358.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB192VOOO2CRWF0046\" SPU=\"5BB192VOOO2CRW ~ F0046\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BB193VOOO2CRWF0002",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1776.64,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB193VOOO2CRWF0002\" SPU=\"5BB193VOOO2CRW ~ F0002\"",
+      "candidates": [
+        {
+          "product_id": 516882,
+          "text": "Miu Miu\n\n미우 미우 나파 레더 파우치 브라운\n\n1,700,000원\n\n관심 960\n\n · 리뷰 2\n\n · 거래 8"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 607595,
+          "text": "Miu Miu\n\n미우 미우 레더 파우치 블랙\n\n26%\n\n1,682,000원\n\n관심 734\n\n · 리뷰 3\n\n · 거래 22\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BB193VOOO2CRWF0NBL",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 1776.64,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB193VOOO2CRWF0NBL\" SPU=\"5BB193VOOO2CRW ~ F0NBL\"",
+      "candidates": [
+        {
+          "product_id": 516882,
+          "text": "Miu Miu\n\n미우 미우 나파 레더 파우치 브라운\n\n1,700,000원\n\n관심 960\n\n · 리뷰 2\n\n · 거래 8"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 607595,
+          "text": "Miu Miu\n\n미우 미우 레더 파우치 블랙\n\n26%\n\n1,682,000원\n\n관심 734\n\n · 리뷰 3\n\n · 거래 22\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BB193VOOO2CRWF0046",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 1776.64,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB193VOOO2CRWF0046\" SPU=\"5BB193VOOO2CRW ~ F0046\"",
+      "candidates": [
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 607595,
+          "text": "Miu Miu\n\n미우 미우 레더 파우치 블랙\n\n26%\n\n1,682,000원\n\n관심 734\n\n · 리뷰 3\n\n · 거래 22\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BG335VPOO2G7QF0002",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1985.66,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BG335VPOO2G7QF0002\" SPU=\"5BG335VPOO2G7Q ~ F0002\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 315253,
+          "text": "Miu Miu\n\n미우 미우 레더 보 백 블랙\n\n24%\n\n3,649,000원\n\n관심 1,591\n\n · 리뷰 23\n\n · 거래 42\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BG2312CRWF0NBL",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1184.42,
+      "matched": true,
+      "product_id": 395370,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/395370",
+      "market": {
+        "last_sale_price": 2682000,
+        "lowest_ask": 3013000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 2682000,
+          "option": "ONE SIZE",
+          "date_created": "2025-09-02T15:32:24Z",
+          "date_text": "25/09/03",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 3013000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "764,500원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BG2312CRWF0046",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 1184.42,
+      "matched": true,
+      "product_id": 287213,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/287213",
+      "market": {
+        "last_sale_price": 2000000,
+        "lowest_ask": 2450000,
+        "highest_bid": 1700000,
+        "change_text": "▲ 1,000원(+0.1%)"
+      },
+      "sales": [
+        {
+          "price": 2000000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-29T06:45:24Z",
+          "date_text": "26/06/29",
+          "is_immediate": false
+        },
+        {
+          "price": 1999000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-22T11:33:06Z",
+          "date_text": "26/06/22",
+          "is_immediate": false
+        },
+        {
+          "price": 2314000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-23T08:33:41Z",
+          "date_text": "26/02/23",
+          "is_immediate": false
+        },
+        {
+          "price": 2313000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-23T06:13:58Z",
+          "date_text": "26/02/23",
+          "is_immediate": false
+        },
+        {
+          "price": 2245000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-26T05:58:11Z",
+          "date_text": "26/01/26",
+          "is_immediate": false
+        },
+        {
+          "price": 2423000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-15T04:56:01Z",
+          "date_text": "25/10/15",
+          "is_immediate": false
+        },
+        {
+          "price": 2220000,
+          "option": "ONE SIZE",
+          "date_created": "2025-07-02T06:33:04Z",
+          "date_text": "25/07/02",
+          "is_immediate": false
+        },
+        {
+          "price": 2189000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-16T15:32:35Z",
+          "date_text": "25/06/17",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 2450000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3013000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [
+        {
+          "price": 1700000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 8,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 1,000원(+0.1%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BG2312CRWF0002",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1184.42,
+      "matched": true,
+      "product_id": 300583,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/300583",
+      "market": {
+        "last_sale_price": 2150000,
+        "lowest_ask": 2140000,
+        "highest_bid": 1866000,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 2150000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-23T01:35:26Z",
+          "date_text": "26/06/23",
+          "is_immediate": false
+        },
+        {
+          "price": 2150000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-21T03:26:53Z",
+          "date_text": "26/06/21",
+          "is_immediate": false
+        },
+        {
+          "price": 2469000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-18T10:41:40Z",
+          "date_text": "26/06/18",
+          "is_immediate": true
+        },
+        {
+          "price": 2170000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-16T04:14:12Z",
+          "date_text": "26/06/16",
+          "is_immediate": false
+        },
+        {
+          "price": 2170000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-09T13:12:32Z",
+          "date_text": "26/06/09",
+          "is_immediate": false
+        },
+        {
+          "price": 2200000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-10T04:32:46Z",
+          "date_text": "26/05/10",
+          "is_immediate": false
+        },
+        {
+          "price": 2300000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-22T06:48:34Z",
+          "date_text": "26/04/22",
+          "is_immediate": true
+        },
+        {
+          "price": 2209000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-19T17:06:19Z",
+          "date_text": "26/03/20",
+          "is_immediate": false
+        },
+        {
+          "price": 2200000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-04T19:56:18Z",
+          "date_text": "26/02/05",
+          "is_immediate": false
+        },
+        {
+          "price": 2278000,
+          "option": "ONE SIZE",
+          "date_created": "2025-12-28T10:04:57Z",
+          "date_text": "25/12/28",
+          "is_immediate": false
+        },
+        {
+          "price": 2300000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-06T16:34:34Z",
+          "date_text": "25/10/07",
+          "is_immediate": false
+        },
+        {
+          "price": 1700000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-08T02:01:55Z",
+          "date_text": "25/08/08",
+          "is_immediate": false
+        },
+        {
+          "price": 1799000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-26T10:59:26Z",
+          "date_text": "25/06/26",
+          "is_immediate": false
+        },
+        {
+          "price": 2249000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-09T15:26:24Z",
+          "date_text": "25/06/10",
+          "is_immediate": false
+        },
+        {
+          "price": 2249000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-06T07:47:09Z",
+          "date_text": "25/06/06",
+          "is_immediate": false
+        },
+        {
+          "price": 2550000,
+          "option": "ONE SIZE",
+          "date_created": "2025-02-13T13:25:47Z",
+          "date_text": "25/02/13",
+          "is_immediate": false
+        },
+        {
+          "price": 2300000,
+          "option": "ONE SIZE",
+          "date_created": "2024-12-06T02:02:27Z",
+          "date_text": "24/12/06",
+          "is_immediate": false
+        },
+        {
+          "price": 1991000,
+          "option": "ONE SIZE",
+          "date_created": "2024-08-28T14:06:37Z",
+          "date_text": "24/08/28",
+          "is_immediate": false
+        },
+        {
+          "price": 2590000,
+          "option": "ONE SIZE",
+          "date_created": "2024-07-09T13:11:05Z",
+          "date_text": "24/07/09",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 2140000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2270000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2287000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2406000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2505000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2506000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2507000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2703000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2759000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3013000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3346000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 1866000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1865000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1550000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 19,
+        "asks": 11,
+        "bids": 3
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BC125AN88F0011",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1602.46,
+      "matched": true,
+      "product_id": 452694,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/452694",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 4377000,
+        "highest_bid": 1300000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 4377000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 1300000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BC125AN88F0458",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1602.46,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BC125AN88F0458\" SPU=\"5BC125AN88 ~ F0458\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 315253,
+          "text": "Miu Miu\n\n미우 미우 레더 보 백 블랙\n\n24%\n\n3,649,000원\n\n관심 1,591\n\n · 리뷰 23\n\n · 거래 42\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 74825,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 나파 레더 스몰 호보백 블랙\n\n13%\n\n2,865,000원\n\n관심 7,802\n\n · 리뷰 63\n\n · 거래 478\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BC125AN88F098L",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1602.46,
+      "matched": true,
+      "product_id": 432343,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/432343",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 3624000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 3624000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4377000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BC125AN88F0002",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 1602.46,
+      "matched": true,
+      "product_id": 74825,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/74825",
+      "market": {
+        "last_sale_price": 2865000,
+        "lowest_ask": 2865000,
+        "highest_bid": 2609000,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 2865000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-25T01:54:37Z",
+          "date_text": "26/06/25",
+          "is_immediate": false
+        },
+        {
+          "price": 2865000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-24T03:51:50Z",
+          "date_text": "26/06/24",
+          "is_immediate": false
+        },
+        {
+          "price": 2860000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-20T04:50:00Z",
+          "date_text": "26/06/20",
+          "is_immediate": false
+        },
+        {
+          "price": 3150000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-20T03:14:13Z",
+          "date_text": "26/06/20",
+          "is_immediate": true
+        },
+        {
+          "price": 2980000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-13T05:01:33Z",
+          "date_text": "26/06/13",
+          "is_immediate": true
+        },
+        {
+          "price": 2800000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-09T03:29:57Z",
+          "date_text": "26/06/09",
+          "is_immediate": false
+        },
+        {
+          "price": 2945000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-08T23:15:00Z",
+          "date_text": "26/06/09",
+          "is_immediate": true
+        },
+        {
+          "price": 2765000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-07T15:29:15Z",
+          "date_text": "26/06/08",
+          "is_immediate": true
+        },
+        {
+          "price": 2765000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-07T05:14:07Z",
+          "date_text": "26/06/07",
+          "is_immediate": true
+        },
+        {
+          "price": 2763000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-30T15:58:42Z",
+          "date_text": "26/05/31",
+          "is_immediate": true
+        },
+        {
+          "price": 2700000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-26T03:44:50Z",
+          "date_text": "26/05/26",
+          "is_immediate": true
+        },
+        {
+          "price": 2599000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-21T11:08:31Z",
+          "date_text": "26/05/21",
+          "is_immediate": true
+        },
+        {
+          "price": 2786000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-19T15:35:20Z",
+          "date_text": "26/05/20",
+          "is_immediate": true
+        },
+        {
+          "price": 2804000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-12T15:15:28Z",
+          "date_text": "26/05/13",
+          "is_immediate": false
+        },
+        {
+          "price": 2770000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-03T05:15:52Z",
+          "date_text": "26/05/03",
+          "is_immediate": true
+        },
+        {
+          "price": 2453000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-28T10:24:57Z",
+          "date_text": "26/04/28",
+          "is_immediate": false
+        },
+        {
+          "price": 2769000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-27T13:24:55Z",
+          "date_text": "26/04/27",
+          "is_immediate": true
+        },
+        {
+          "price": 2700000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-22T06:30:33Z",
+          "date_text": "26/04/22",
+          "is_immediate": true
+        },
+        {
+          "price": 2694000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-17T11:51:35Z",
+          "date_text": "26/04/17",
+          "is_immediate": false
+        },
+        {
+          "price": 2800000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-16T02:52:06Z",
+          "date_text": "26/04/16",
+          "is_immediate": true
+        },
+        {
+          "price": 2700000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-12T09:21:54Z",
+          "date_text": "26/04/12",
+          "is_immediate": true
+        },
+        {
+          "price": 2780000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-31T09:55:12Z",
+          "date_text": "26/03/31",
+          "is_immediate": false
+        },
+        {
+          "price": 2700000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-27T06:43:40Z",
+          "date_text": "26/03/27",
+          "is_immediate": true
+        },
+        {
+          "price": 2650000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-25T03:38:32Z",
+          "date_text": "26/03/25",
+          "is_immediate": false
+        },
+        {
+          "price": 2700000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-20T10:25:00Z",
+          "date_text": "26/03/20",
+          "is_immediate": true
+        },
+        {
+          "price": 2701000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-16T04:02:07Z",
+          "date_text": "26/03/16",
+          "is_immediate": true
+        },
+        {
+          "price": 2779000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-13T13:45:41Z",
+          "date_text": "26/03/13",
+          "is_immediate": true
+        },
+        {
+          "price": 2749000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-12T17:08:22Z",
+          "date_text": "26/03/13",
+          "is_immediate": true
+        },
+        {
+          "price": 2649000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-11T01:28:49Z",
+          "date_text": "26/03/11",
+          "is_immediate": true
+        },
+        {
+          "price": 2676000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-08T16:12:14Z",
+          "date_text": "26/03/09",
+          "is_immediate": true
+        },
+        {
+          "price": 2743000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-27T07:59:16Z",
+          "date_text": "26/02/27",
+          "is_immediate": false
+        },
+        {
+          "price": 2630000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-20T16:11:07Z",
+          "date_text": "26/02/21",
+          "is_immediate": true
+        },
+        {
+          "price": 2599000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-20T12:25:26Z",
+          "date_text": "26/02/20",
+          "is_immediate": false
+        },
+        {
+          "price": 2598000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-19T11:19:39Z",
+          "date_text": "26/02/19",
+          "is_immediate": false
+        },
+        {
+          "price": 2638000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-19T04:41:49Z",
+          "date_text": "26/02/19",
+          "is_immediate": true
+        },
+        {
+          "price": 2637000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-18T06:08:20Z",
+          "date_text": "26/02/18",
+          "is_immediate": true
+        },
+        {
+          "price": 2599000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-11T05:56:55Z",
+          "date_text": "26/02/11",
+          "is_immediate": true
+        },
+        {
+          "price": 2671000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-09T13:11:21Z",
+          "date_text": "26/02/09",
+          "is_immediate": true
+        },
+        {
+          "price": 2697000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-04T09:14:58Z",
+          "date_text": "26/02/04",
+          "is_immediate": true
+        },
+        {
+          "price": 2590000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-01T11:11:23Z",
+          "date_text": "26/02/01",
+          "is_immediate": false
+        },
+        {
+          "price": 2744000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-26T01:05:54Z",
+          "date_text": "26/01/26",
+          "is_immediate": false
+        },
+        {
+          "price": 2433000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-20T03:59:58Z",
+          "date_text": "26/01/20",
+          "is_immediate": false
+        },
+        {
+          "price": 2800000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-14T14:08:56Z",
+          "date_text": "26/01/14",
+          "is_immediate": true
+        },
+        {
+          "price": 2598000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-13T03:19:49Z",
+          "date_text": "26/01/13",
+          "is_immediate": false
+        },
+        {
+          "price": 2850000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-05T18:28:02Z",
+          "date_text": "26/01/06",
+          "is_immediate": true
+        },
+        {
+          "price": 2407000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-05T14:34:30Z",
+          "date_text": "26/01/05",
+          "is_immediate": false
+        },
+        {
+          "price": 2849000,
+          "option": "ONE SIZE",
+          "date_created": "2025-12-28T13:27:31Z",
+          "date_text": "25/12/28",
+          "is_immediate": true
+        },
+        {
+          "price": 2300000,
+          "option": "ONE SIZE",
+          "date_created": "2025-12-27T06:20:45Z",
+          "date_text": "25/12/27",
+          "is_immediate": false
+        },
+        {
+          "price": 2790000,
+          "option": "ONE SIZE",
+          "date_created": "2025-12-24T04:53:19Z",
+          "date_text": "25/12/24",
+          "is_immediate": false
+        },
+        {
+          "price": 2687000,
+          "option": "ONE SIZE",
+          "date_created": "2025-12-22T05:14:56Z",
+          "date_text": "25/12/22",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 2865000,
+          "option": "ONE SIZE",
+          "quantity": 6
+        },
+        {
+          "price": 2880000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2994000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3090000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3097000,
+          "option": "ONE SIZE",
+          "quantity": 5
+        },
+        {
+          "price": 3099000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3119000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3599000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3664000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4377000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [
+        {
+          "price": 2609000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2608000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2607000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2601000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2572000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2474000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2469000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2300000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1800000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 50,
+        "asks": 10,
+        "bids": 9
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BA2812CRWF0046",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 975.41,
+      "matched": true,
+      "product_id": 395342,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/395342",
+      "market": {
+        "last_sale_price": 1990000,
+        "lowest_ask": 1850000,
+        "highest_bid": 290000,
+        "change_text": "▲ 100,000원(+5.3%)"
+      },
+      "sales": [
+        {
+          "price": 1990000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-19T04:33:07Z",
+          "date_text": "25/10/19",
+          "is_immediate": false
+        },
+        {
+          "price": 1890000,
+          "option": "ONE SIZE",
+          "date_created": "2025-09-17T00:35:51Z",
+          "date_text": "25/09/17",
+          "is_immediate": true
+        },
+        {
+          "price": 1845000,
+          "option": "ONE SIZE",
+          "date_created": "2025-07-18T05:59:31Z",
+          "date_text": "25/07/18",
+          "is_immediate": true
+        },
+        {
+          "price": 1814000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-19T07:16:07Z",
+          "date_text": "25/04/19",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 1850000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1860000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1989000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 2100000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2134000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2176000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 2217000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2460000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [
+        {
+          "price": 290000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 4,
+        "asks": 8,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 100,000원(+5.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BA2812CRWF0NBL",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 975.41,
+      "matched": true,
+      "product_id": 395341,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/395341",
+      "market": {
+        "last_sale_price": 2050000,
+        "lowest_ask": 2460000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 2050000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-26T00:22:35Z",
+          "date_text": "25/10/26",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 2460000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "691,900원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1172CRWF0NBL",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2055.33,
+      "matched": true,
+      "product_id": 395378,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/395378",
+      "market": {
+        "last_sale_price": 3680000,
+        "lowest_ask": 5732000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 3680000,
+          "option": "ONE SIZE",
+          "date_created": "2025-11-21T06:06:05Z",
+          "date_text": "25/11/21",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 5732000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 5733000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "2,217,400원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1172CRWF0002",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2055.33,
+      "matched": true,
+      "product_id": 315253,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/315253",
+      "market": {
+        "last_sale_price": 4099000,
+        "lowest_ask": 3649000,
+        "highest_bid": 3410000,
+        "change_text": "▲ 209,000원(+5.4%)"
+      },
+      "sales": [
+        {
+          "price": 4099000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-27T11:29:59Z",
+          "date_text": "26/06/27",
+          "is_immediate": true
+        },
+        {
+          "price": 3890000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-13T12:41:40Z",
+          "date_text": "26/05/13",
+          "is_immediate": false
+        },
+        {
+          "price": 4190000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-24T01:59:48Z",
+          "date_text": "26/04/24",
+          "is_immediate": true
+        },
+        {
+          "price": 3949000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-08T02:45:42Z",
+          "date_text": "26/04/08",
+          "is_immediate": false
+        },
+        {
+          "price": 3900000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-27T01:43:11Z",
+          "date_text": "26/02/27",
+          "is_immediate": true
+        },
+        {
+          "price": 3630000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-11T00:48:53Z",
+          "date_text": "26/02/11",
+          "is_immediate": true
+        },
+        {
+          "price": 3629000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-10T11:15:37Z",
+          "date_text": "26/02/10",
+          "is_immediate": true
+        },
+        {
+          "price": 3799000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-21T08:33:29Z",
+          "date_text": "26/01/21",
+          "is_immediate": false
+        },
+        {
+          "price": 3699000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-13T00:27:00Z",
+          "date_text": "26/01/13",
+          "is_immediate": false
+        },
+        {
+          "price": 3400000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-12T10:40:59Z",
+          "date_text": "26/01/12",
+          "is_immediate": true
+        },
+        {
+          "price": 3467000,
+          "option": "ONE SIZE",
+          "date_created": "2025-12-20T10:10:21Z",
+          "date_text": "25/12/20",
+          "is_immediate": false
+        },
+        {
+          "price": 3670000,
+          "option": "ONE SIZE",
+          "date_created": "2025-12-15T04:50:04Z",
+          "date_text": "25/12/15",
+          "is_immediate": false
+        },
+        {
+          "price": 3690000,
+          "option": "ONE SIZE",
+          "date_created": "2025-11-27T06:27:15Z",
+          "date_text": "25/11/27",
+          "is_immediate": false
+        },
+        {
+          "price": 3748000,
+          "option": "ONE SIZE",
+          "date_created": "2025-11-26T03:16:07Z",
+          "date_text": "25/11/26",
+          "is_immediate": true
+        },
+        {
+          "price": 3694000,
+          "option": "ONE SIZE",
+          "date_created": "2025-11-13T13:18:50Z",
+          "date_text": "25/11/13",
+          "is_immediate": true
+        },
+        {
+          "price": 3694000,
+          "option": "ONE SIZE",
+          "date_created": "2025-11-02T08:03:53Z",
+          "date_text": "25/11/02",
+          "is_immediate": true
+        },
+        {
+          "price": 3702000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-25T05:42:33Z",
+          "date_text": "25/10/25",
+          "is_immediate": true
+        },
+        {
+          "price": 3719000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-21T11:34:10Z",
+          "date_text": "25/10/21",
+          "is_immediate": true
+        },
+        {
+          "price": 3669000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-16T06:06:43Z",
+          "date_text": "25/10/16",
+          "is_immediate": true
+        },
+        {
+          "price": 3699000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-12T06:03:17Z",
+          "date_text": "25/10/12",
+          "is_immediate": true
+        },
+        {
+          "price": 3750000,
+          "option": "ONE SIZE",
+          "date_created": "2025-09-18T08:21:24Z",
+          "date_text": "25/09/18",
+          "is_immediate": false
+        },
+        {
+          "price": 3713000,
+          "option": "ONE SIZE",
+          "date_created": "2025-09-17T04:13:12Z",
+          "date_text": "25/09/17",
+          "is_immediate": false
+        },
+        {
+          "price": 3749000,
+          "option": "ONE SIZE",
+          "date_created": "2025-09-16T09:44:08Z",
+          "date_text": "25/09/16",
+          "is_immediate": false
+        },
+        {
+          "price": 3603000,
+          "option": "ONE SIZE",
+          "date_created": "2025-09-06T07:42:39Z",
+          "date_text": "25/09/06",
+          "is_immediate": false
+        },
+        {
+          "price": 3675000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-11T15:33:51Z",
+          "date_text": "25/08/12",
+          "is_immediate": false
+        },
+        {
+          "price": 3650000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-11T03:22:49Z",
+          "date_text": "25/08/11",
+          "is_immediate": false
+        },
+        {
+          "price": 3450000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-08T20:53:22Z",
+          "date_text": "25/08/09",
+          "is_immediate": false
+        },
+        {
+          "price": 4199000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-08T06:47:08Z",
+          "date_text": "25/08/08",
+          "is_immediate": true
+        },
+        {
+          "price": 3650000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-04T16:20:28Z",
+          "date_text": "25/08/05",
+          "is_immediate": false
+        },
+        {
+          "price": 3650000,
+          "option": "ONE SIZE",
+          "date_created": "2025-07-23T14:50:11Z",
+          "date_text": "25/07/23",
+          "is_immediate": true
+        },
+        {
+          "price": 3890000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-30T08:21:05Z",
+          "date_text": "25/06/30",
+          "is_immediate": true
+        },
+        {
+          "price": 3450000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-26T03:53:10Z",
+          "date_text": "25/06/26",
+          "is_immediate": false
+        },
+        {
+          "price": 3680000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-23T11:41:41Z",
+          "date_text": "25/06/23",
+          "is_immediate": false
+        },
+        {
+          "price": 3974000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-29T09:06:28Z",
+          "date_text": "25/04/29",
+          "is_immediate": false
+        },
+        {
+          "price": 3800000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-26T02:38:59Z",
+          "date_text": "25/03/26",
+          "is_immediate": false
+        },
+        {
+          "price": 4090000,
+          "option": "ONE SIZE",
+          "date_created": "2025-02-24T02:28:03Z",
+          "date_text": "25/02/24",
+          "is_immediate": false
+        },
+        {
+          "price": 4080000,
+          "option": "ONE SIZE",
+          "date_created": "2025-02-22T06:06:05Z",
+          "date_text": "25/02/22",
+          "is_immediate": true
+        },
+        {
+          "price": 4300000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-30T16:00:07Z",
+          "date_text": "24/12/01",
+          "is_immediate": false
+        },
+        {
+          "price": 4400000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-22T01:41:22Z",
+          "date_text": "24/11/22",
+          "is_immediate": false
+        },
+        {
+          "price": 4302000,
+          "option": "ONE SIZE",
+          "date_created": "2024-10-02T12:29:53Z",
+          "date_text": "24/10/02",
+          "is_immediate": false
+        },
+        {
+          "price": 3658000,
+          "option": "ONE SIZE",
+          "date_created": "2024-09-03T13:09:02Z",
+          "date_text": "24/09/03",
+          "is_immediate": false
+        },
+        {
+          "price": 3680000,
+          "option": "ONE SIZE",
+          "date_created": "2024-08-11T14:54:09Z",
+          "date_text": "24/08/11",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 3649000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3650000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 3679000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4030000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4040000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 4120000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4134000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4179000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4222000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4230000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4266000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 4288000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4417000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4548000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 5733000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 3410000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3401000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 42,
+        "asks": 15,
+        "bids": 2
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 209,000원(+5.4%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1172CRWF0046",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2055.33,
+      "matched": true,
+      "product_id": 288072,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/288072",
+      "market": {
+        "last_sale_price": 4300000,
+        "lowest_ask": 4019000,
+        "highest_bid": 3483000,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 4300000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-13T01:11:58Z",
+          "date_text": "26/06/13",
+          "is_immediate": true
+        },
+        {
+          "price": 4300000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-13T01:11:27Z",
+          "date_text": "26/06/13",
+          "is_immediate": true
+        },
+        {
+          "price": 4020000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-14T11:33:01Z",
+          "date_text": "26/03/14",
+          "is_immediate": false
+        },
+        {
+          "price": 3920000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-05T13:02:28Z",
+          "date_text": "26/03/05",
+          "is_immediate": false
+        },
+        {
+          "price": 3880000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-05T04:02:07Z",
+          "date_text": "26/02/05",
+          "is_immediate": false
+        },
+        {
+          "price": 3756000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-17T12:36:17Z",
+          "date_text": "26/01/17",
+          "is_immediate": true
+        },
+        {
+          "price": 3740000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-13T08:38:21Z",
+          "date_text": "26/01/13",
+          "is_immediate": false
+        },
+        {
+          "price": 3718000,
+          "option": "ONE SIZE",
+          "date_created": "2025-12-23T04:11:47Z",
+          "date_text": "25/12/23",
+          "is_immediate": true
+        },
+        {
+          "price": 3462000,
+          "option": "ONE SIZE",
+          "date_created": "2025-11-03T05:56:32Z",
+          "date_text": "25/11/03",
+          "is_immediate": false
+        },
+        {
+          "price": 3500000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-22T02:42:20Z",
+          "date_text": "25/10/22",
+          "is_immediate": false
+        },
+        {
+          "price": 3615000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-08T17:23:16Z",
+          "date_text": "25/10/09",
+          "is_immediate": true
+        },
+        {
+          "price": 3799000,
+          "option": "ONE SIZE",
+          "date_created": "2025-09-17T11:03:44Z",
+          "date_text": "25/09/17",
+          "is_immediate": false
+        },
+        {
+          "price": 3750000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-18T02:50:55Z",
+          "date_text": "25/08/18",
+          "is_immediate": false
+        },
+        {
+          "price": 3862000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-13T02:10:21Z",
+          "date_text": "25/08/13",
+          "is_immediate": true
+        },
+        {
+          "price": 3705000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-17T17:07:57Z",
+          "date_text": "25/06/18",
+          "is_immediate": false
+        },
+        {
+          "price": 3705000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-05T09:23:21Z",
+          "date_text": "25/06/05",
+          "is_immediate": false
+        },
+        {
+          "price": 4100000,
+          "option": "ONE SIZE",
+          "date_created": "2025-05-27T01:11:28Z",
+          "date_text": "25/05/27",
+          "is_immediate": false
+        },
+        {
+          "price": 3799000,
+          "option": "ONE SIZE",
+          "date_created": "2025-05-19T05:29:29Z",
+          "date_text": "25/05/19",
+          "is_immediate": false
+        },
+        {
+          "price": 3701000,
+          "option": "ONE SIZE",
+          "date_created": "2025-05-08T03:25:14Z",
+          "date_text": "25/05/08",
+          "is_immediate": false
+        },
+        {
+          "price": 3977000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-28T23:03:53Z",
+          "date_text": "25/04/29",
+          "is_immediate": false
+        },
+        {
+          "price": 3970000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-26T15:47:58Z",
+          "date_text": "25/04/27",
+          "is_immediate": false
+        },
+        {
+          "price": 4600000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-04T14:36:42Z",
+          "date_text": "25/04/04",
+          "is_immediate": true
+        },
+        {
+          "price": 4289000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-15T01:07:00Z",
+          "date_text": "25/03/15",
+          "is_immediate": false
+        },
+        {
+          "price": 3600000,
+          "option": "ONE SIZE",
+          "date_created": "2025-02-17T03:06:20Z",
+          "date_text": "25/02/17",
+          "is_immediate": false
+        },
+        {
+          "price": 3880000,
+          "option": "ONE SIZE",
+          "date_created": "2025-02-02T08:51:44Z",
+          "date_text": "25/02/02",
+          "is_immediate": false
+        },
+        {
+          "price": 3889000,
+          "option": "ONE SIZE",
+          "date_created": "2025-01-13T12:20:34Z",
+          "date_text": "25/01/13",
+          "is_immediate": false
+        },
+        {
+          "price": 3939000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-19T02:20:48Z",
+          "date_text": "24/11/19",
+          "is_immediate": false
+        },
+        {
+          "price": 3900000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-17T10:27:51Z",
+          "date_text": "24/11/17",
+          "is_immediate": false
+        },
+        {
+          "price": 3850000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-15T11:14:28Z",
+          "date_text": "24/11/15",
+          "is_immediate": false
+        },
+        {
+          "price": 3968000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-08T04:57:23Z",
+          "date_text": "24/11/08",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 4019000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4200000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 4250000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4321000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4361000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 4425000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 5733000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 3483000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2710000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 420000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 30,
+        "asks": 7,
+        "bids": 3
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BZ0422IBQF0DAB",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1358.61,
+      "matched": true,
+      "product_id": 748297,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/748297",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 2932000,
+        "highest_bid": 1490000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 2932000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3366000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3409000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3518000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3584000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 1490000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 5,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1922CRWF0NBL",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 1358.61,
+      "matched": true,
+      "product_id": 921309,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/921309",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 3180000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 3180000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3366000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3409000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1922CRWF0036",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1358.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB1922CRWF0036\" SPU=\"5BB1922CRW ~ F0036\"",
+      "candidates": [
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        }
+      ]
+    },
+    {
+      "sku": "5BZ0422IBQF0RS5",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1358.61,
+      "matched": true,
+      "product_id": 829075,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/829075",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 2869000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 2869000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2870000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 3014000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3034000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3040000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3409000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 6,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1922CRWF0002",
+      "option": "U",
+      "stock": 7,
+      "eur_price": 1358.61,
+      "matched": true,
+      "product_id": 801973,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/801973",
+      "market": {
+        "last_sale_price": 2756000,
+        "lowest_ask": 3120000,
+        "highest_bid": 412000,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 2756000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-30T00:54:58Z",
+          "date_text": "26/04/30",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 3120000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3158000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3409000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        }
+      ],
+      "bids": [
+        {
+          "price": 412000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 1,
+        "asks": 3,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1962IERF0046",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2299.18,
+      "matched": true,
+      "product_id": 854896,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/854896",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 6244000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 6244000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BG231ACP8F0244",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1045.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BG231ACP8F0244\" SPU=\"5BG231ACP8 ~ F0244\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BG231ACP8F0324",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1045.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BG231ACP8F0324\" SPU=\"5BG231ACP8 ~ F0324\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BB142AN88F0V98",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1776.64,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB142AN88F0V98\" SPU=\"5BB142AN88 ~ F0V98\"",
+      "candidates": [
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 74825,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 나파 레더 스몰 호보백 블랙\n\n13%\n\n2,865,000원\n\n관심 7,802\n\n · 리뷰 63\n\n · 거래 478\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BB142AN88F0002",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1776.64,
+      "matched": true,
+      "product_id": 179859,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/179859",
+      "market": {
+        "last_sale_price": 3510000,
+        "lowest_ask": 3450000,
+        "highest_bid": 2901000,
+        "change_text": "▲ 1,000원(+0.0%)"
+      },
+      "sales": [
+        {
+          "price": 3510000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-28T14:28:51Z",
+          "date_text": "26/06/28",
+          "is_immediate": true
+        },
+        {
+          "price": 3509000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-14T14:02:32Z",
+          "date_text": "26/06/14",
+          "is_immediate": true
+        },
+        {
+          "price": 3479000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-08T17:05:41Z",
+          "date_text": "26/06/09",
+          "is_immediate": true
+        },
+        {
+          "price": 3260000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-11T03:25:14Z",
+          "date_text": "26/05/11",
+          "is_immediate": false
+        },
+        {
+          "price": 3650000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-03T04:58:05Z",
+          "date_text": "26/05/03",
+          "is_immediate": true
+        },
+        {
+          "price": 3850000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-11T12:38:59Z",
+          "date_text": "26/03/11",
+          "is_immediate": true
+        },
+        {
+          "price": 3489000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-10T00:39:32Z",
+          "date_text": "26/03/10",
+          "is_immediate": false
+        },
+        {
+          "price": 3169000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-26T02:35:06Z",
+          "date_text": "26/02/26",
+          "is_immediate": false
+        },
+        {
+          "price": 3540000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-29T10:25:47Z",
+          "date_text": "26/01/29",
+          "is_immediate": true
+        },
+        {
+          "price": 3470000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-08T10:06:27Z",
+          "date_text": "26/01/08",
+          "is_immediate": false
+        },
+        {
+          "price": 3179000,
+          "option": "ONE SIZE",
+          "date_created": "2025-12-04T04:49:58Z",
+          "date_text": "25/12/04",
+          "is_immediate": false
+        },
+        {
+          "price": 2897000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-26T14:41:54Z",
+          "date_text": "25/10/26",
+          "is_immediate": false
+        },
+        {
+          "price": 2897000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-08T08:32:12Z",
+          "date_text": "25/10/08",
+          "is_immediate": false
+        },
+        {
+          "price": 2909000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-28T13:23:09Z",
+          "date_text": "25/08/28",
+          "is_immediate": false
+        },
+        {
+          "price": 2987000,
+          "option": "ONE SIZE",
+          "date_created": "2025-07-27T15:50:23Z",
+          "date_text": "25/07/28",
+          "is_immediate": true
+        },
+        {
+          "price": 2950000,
+          "option": "ONE SIZE",
+          "date_created": "2025-07-18T06:27:43Z",
+          "date_text": "25/07/18",
+          "is_immediate": true
+        },
+        {
+          "price": 3095000,
+          "option": "ONE SIZE",
+          "date_created": "2025-07-13T18:11:37Z",
+          "date_text": "25/07/14",
+          "is_immediate": true
+        },
+        {
+          "price": 2999000,
+          "option": "ONE SIZE",
+          "date_created": "2025-05-01T06:04:32Z",
+          "date_text": "25/05/01",
+          "is_immediate": true
+        },
+        {
+          "price": 2856000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-27T09:41:15Z",
+          "date_text": "25/04/27",
+          "is_immediate": false
+        },
+        {
+          "price": 2910000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-08T23:49:17Z",
+          "date_text": "25/04/09",
+          "is_immediate": true
+        },
+        {
+          "price": 2550000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-30T15:59:41Z",
+          "date_text": "25/03/31",
+          "is_immediate": false
+        },
+        {
+          "price": 2760000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-25T08:32:35Z",
+          "date_text": "25/03/25",
+          "is_immediate": true
+        },
+        {
+          "price": 285000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-24T21:41:53Z",
+          "date_text": "25/03/25",
+          "is_immediate": true
+        },
+        {
+          "price": 2750000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-10T11:06:02Z",
+          "date_text": "25/03/10",
+          "is_immediate": false
+        },
+        {
+          "price": 2501000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-03T18:33:22Z",
+          "date_text": "25/03/04",
+          "is_immediate": false
+        },
+        {
+          "price": 2500000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-03T18:32:36Z",
+          "date_text": "25/03/04",
+          "is_immediate": false
+        },
+        {
+          "price": 2910000,
+          "option": "ONE SIZE",
+          "date_created": "2025-01-28T00:41:14Z",
+          "date_text": "25/01/28",
+          "is_immediate": true
+        },
+        {
+          "price": 2869000,
+          "option": "ONE SIZE",
+          "date_created": "2025-01-01T10:58:58Z",
+          "date_text": "25/01/01",
+          "is_immediate": false
+        },
+        {
+          "price": 2550000,
+          "option": "ONE SIZE",
+          "date_created": "2024-12-31T20:00:57Z",
+          "date_text": "25/01/01",
+          "is_immediate": true
+        },
+        {
+          "price": 2640000,
+          "option": "ONE SIZE",
+          "date_created": "2024-12-24T13:09:42Z",
+          "date_text": "24/12/24",
+          "is_immediate": true
+        },
+        {
+          "price": 2570000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-27T06:12:29Z",
+          "date_text": "24/11/27",
+          "is_immediate": false
+        },
+        {
+          "price": 2533000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-19T11:03:41Z",
+          "date_text": "24/11/19",
+          "is_immediate": false
+        },
+        {
+          "price": 2547000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-10T13:33:51Z",
+          "date_text": "24/11/10",
+          "is_immediate": false
+        },
+        {
+          "price": 2553000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-07T07:04:32Z",
+          "date_text": "24/11/07",
+          "is_immediate": false
+        },
+        {
+          "price": 2504000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-03T00:32:03Z",
+          "date_text": "24/11/03",
+          "is_immediate": false
+        },
+        {
+          "price": 2622000,
+          "option": "ONE SIZE",
+          "date_created": "2024-10-31T12:35:55Z",
+          "date_text": "24/10/31",
+          "is_immediate": false
+        },
+        {
+          "price": 2570000,
+          "option": "ONE SIZE",
+          "date_created": "2024-10-05T15:25:11Z",
+          "date_text": "24/10/06",
+          "is_immediate": false
+        },
+        {
+          "price": 2550000,
+          "option": "ONE SIZE",
+          "date_created": "2024-09-28T14:13:13Z",
+          "date_text": "24/09/28",
+          "is_immediate": false
+        },
+        {
+          "price": 2390000,
+          "option": "ONE SIZE",
+          "date_created": "2024-09-19T07:25:24Z",
+          "date_text": "24/09/19",
+          "is_immediate": false
+        },
+        {
+          "price": 2800000,
+          "option": "ONE SIZE",
+          "date_created": "2024-08-04T11:42:46Z",
+          "date_text": "24/08/04",
+          "is_immediate": false
+        },
+        {
+          "price": 2200000,
+          "option": "ONE SIZE",
+          "date_created": "2024-07-02T05:37:49Z",
+          "date_text": "24/07/02",
+          "is_immediate": true
+        },
+        {
+          "price": 2400000,
+          "option": "ONE SIZE",
+          "date_created": "2024-07-01T01:55:12Z",
+          "date_text": "24/07/01",
+          "is_immediate": false
+        },
+        {
+          "price": 2390000,
+          "option": "ONE SIZE",
+          "date_created": "2024-05-25T05:44:51Z",
+          "date_text": "24/05/25",
+          "is_immediate": false
+        },
+        {
+          "price": 2490000,
+          "option": "ONE SIZE",
+          "date_created": "2024-05-19T11:10:58Z",
+          "date_text": "24/05/19",
+          "is_immediate": false
+        },
+        {
+          "price": 2420000,
+          "option": "ONE SIZE",
+          "date_created": "2024-04-14T07:26:31Z",
+          "date_text": "24/04/14",
+          "is_immediate": true
+        },
+        {
+          "price": 2514000,
+          "option": "ONE SIZE",
+          "date_created": "2024-04-02T06:58:28Z",
+          "date_text": "24/04/02",
+          "is_immediate": false
+        },
+        {
+          "price": 2520000,
+          "option": "ONE SIZE",
+          "date_created": "2024-03-25T13:48:54Z",
+          "date_text": "24/03/25",
+          "is_immediate": false
+        },
+        {
+          "price": 2520000,
+          "option": "ONE SIZE",
+          "date_created": "2024-03-15T06:23:19Z",
+          "date_text": "24/03/15",
+          "is_immediate": false
+        },
+        {
+          "price": 2570000,
+          "option": "ONE SIZE",
+          "date_created": "2024-02-16T05:30:04Z",
+          "date_text": "24/02/16",
+          "is_immediate": false
+        },
+        {
+          "price": 2280000,
+          "option": "ONE SIZE",
+          "date_created": "2023-11-20T05:11:52Z",
+          "date_text": "23/11/20",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 3450000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3599000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3600000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3658000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 3677000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3699000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4307000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4819000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4862000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [
+        {
+          "price": 2901000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2900000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 50,
+        "asks": 9,
+        "bids": 2
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 1,000원(+0.0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB142AN88F098L",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1776.64,
+      "matched": true,
+      "product_id": 504813,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/504813",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 3421000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 3421000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3791000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 3830000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4781000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 4862000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 5,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB142AN88F0458",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1776.64,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB142AN88F0458\" SPU=\"5BB142AN88 ~ F0458\"",
+      "candidates": [
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 74825,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 나파 레더 스몰 호보백 블랙\n\n13%\n\n2,865,000원\n\n관심 7,802\n\n · 리뷰 63\n\n · 거래 478\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BA281VOWR2IGMF0002",
+      "option": "U",
+      "stock": 7,
+      "eur_price": 2557.38,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BA281VOWR2IGMF0002\" SPU=\"5BA281VOWR2IGM ~ F0002\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 315253,
+          "text": "Miu Miu\n\n미우 미우 레더 보 백 블랙\n\n24%\n\n3,649,000원\n\n관심 1,591\n\n · 리뷰 23\n\n · 거래 42\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BA295VOL42IF9F0201",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2098.36,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BA295VOL42IF9F0201\" SPU=\"5BA295VOL42IF9 ~ F0201\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 315253,
+          "text": "Miu Miu\n\n미우 미우 레더 보 백 블랙\n\n24%\n\n3,649,000원\n\n관심 1,591\n\n · 리뷰 23\n\n · 거래 42\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BB173VOWO2IFMF0316",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2229.51,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB173VOWO2IFMF0316\" SPU=\"5BB173VOWO2IFM ~ F0316\"",
+      "candidates": [
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 74825,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 나파 레더 스몰 호보백 블랙\n\n13%\n\n2,865,000원\n\n관심 7,802\n\n · 리뷰 63\n\n · 거래 478\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BB117VMON2CSSF0393",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 2032.79,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB117VMON2CSSF0393\" SPU=\"5BB117VMON2CSS ~ F0393\"",
+      "candidates": [
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 607595,
+          "text": "Miu Miu\n\n미우 미우 레더 파우치 블랙\n\n26%\n\n1,682,000원\n\n관심 735\n\n · 리뷰 3\n\n · 거래 22\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BP078VWON2IGMF0002",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 2295.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BP078VWON2IGMF0002\" SPU=\"5BP078VWON2IGM ~ F0002\"",
+      "candidates": [
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 607595,
+          "text": "Miu Miu\n\n미우 미우 레더 파우치 블랙\n\n26%\n\n1,682,000원\n\n관심 735\n\n · 리뷰 3\n\n · 거래 22\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BC1952IFLF0ZKS",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1377.05,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BC1952IFLF0ZKS\" SPU=\"5BC1952IFL ~ F0ZKS\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 74825,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 나파 레더 스몰 호보백 블랙\n\n13%\n\n2,865,000원\n\n관심 7,802\n\n · 리뷰 63\n\n · 거래 478\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 516882,
+          "text": "Miu Miu\n\n미우 미우 나파 레더 파우치 브라운\n\n1,700,000원\n\n관심 960\n\n · 리뷰 2\n\n · 거래 8"
+        }
+      ]
+    },
+    {
+      "sku": "5BC196VILO2I0GF0ZIZ",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 922.13,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BC196VILO2I0GF0ZIZ\" SPU=\"5BC196VILO2I0G ~ F0ZIZ\"",
+      "candidates": [
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 607595,
+          "text": "Miu Miu\n\n미우 미우 레더 파우치 블랙\n\n26%\n\n1,682,000원\n\n관심 735\n\n · 리뷰 3\n\n · 거래 22\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 92662,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 나파 가죽 호보 미니백 블랙\n\n8%\n\n2,368,000원\n\n관심 5,264\n\n · 리뷰 13\n\n · 거래 137"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BE107VILO2I0GF0ZIZ",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1254.1,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BE107VILO2I0GF0ZIZ\" SPU=\"5BE107VILO2I0G ~ F0ZIZ\"",
+      "candidates": [
+        {
+          "product_id": 516882,
+          "text": "Miu Miu\n\n미우 미우 나파 레더 파우치 브라운\n\n1,700,000원\n\n관심 960\n\n · 리뷰 2\n\n · 거래 8"
+        },
+        {
+          "product_id": 425930,
+          "text": "Miu Miu\n\n미우 미우 레더 보 스몰 백 블랙\n\n16%\n\n3,947,000원\n\n관심 200\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 470869,
+          "text": "Miu Miu\n\n미우 미우 나파 레더 미니백 오크\n\n2,446,000원\n\n관심 156\n\n · 리뷰 2\n\n · 거래 9"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 921327,
+          "text": "Miu Miu\n\n미우 미우 레더 핸드백 블랙\n\n5%\n\n2,747,000원\n\n관심 2"
+        }
+      ]
+    },
+    {
+      "sku": "5BP078VOL42IF9F0201",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1901.64,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BP078VOL42IF9F0201\" SPU=\"5BP078VOL42IF9 ~ F0201\"",
+      "candidates": [
+        {
+          "product_id": 516882,
+          "text": "Miu Miu\n\n미우 미우 나파 레더 파우치 브라운\n\n1,700,000원\n\n관심 960\n\n · 리뷰 2\n\n · 거래 8"
+        },
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BZ0432IBQF0RS5",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1184.42,
+      "matched": true,
+      "product_id": 829078,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/829078",
+      "market": {
+        "last_sale_price": 2460000,
+        "lowest_ask": 2460000,
+        "highest_bid": 20000,
+        "change_text": "▲ 1,000원(+0.0%)"
+      },
+      "sales": [
+        {
+          "price": 2460000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-29T10:27:49Z",
+          "date_text": "26/06/29",
+          "is_immediate": false
+        },
+        {
+          "price": 2459000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-28T00:19:24Z",
+          "date_text": "26/06/28",
+          "is_immediate": false
+        },
+        {
+          "price": 2584000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-08T07:47:29Z",
+          "date_text": "26/06/08",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 2460000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2579000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2683000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2841000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 20000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 3,
+        "asks": 4,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 1,000원(+0.0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB191AN88F0002",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1776.64,
+      "matched": true,
+      "product_id": 966227,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/966227",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 3997000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 3997000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3998000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4862000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BC125VOOYAB7OF0029",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1540.98,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BC125VOOYAB7OF0029\" SPU=\"5BC125VOOYAB7O ~ F0029\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 74825,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 나파 레더 스몰 호보백 블랙\n\n13%\n\n2,865,000원\n\n관심 7,802\n\n · 리뷰 63\n\n · 거래 478\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BA333VOOO2A44F0002",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 1741.8,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BA333VOOO2A44F0002\" SPU=\"5BA333VOOO2A44 ~ F0002\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 315253,
+          "text": "Miu Miu\n\n미우 미우 레더 보 백 블랙\n\n24%\n\n3,649,000원\n\n관심 1,591\n\n · 리뷰 23\n\n · 거래 42\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BC183VOOHAB7OF0393",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1967.21,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BC183VOOHAB7OF0393\" SPU=\"5BC183VOOHAB7O ~ F0393\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 74825,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 나파 레더 스몰 호보백 블랙\n\n13%\n\n2,865,000원\n\n관심 7,802\n\n · 리뷰 63\n\n · 거래 478\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 418116,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니 백 꼬냑\n\n16%\n\n3,000,000원\n\n관심 3,167\n\n · 리뷰 7\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BA284VOON2CRWF0002",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1254.1,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BA284VOON2CRWF0002\" SPU=\"5BA284VOON2CRW ~ F0002\"",
+      "candidates": [
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n16%\n\n3,135,000원\n\n관심 3,067\n\n · 리뷰 23\n\n · 거래 117\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 395334,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 미니백 블랙\n\n22%\n\n2,796,000원\n\n관심 2,587\n\n · 리뷰 8\n\n · 거래 43"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n27%\n\n3,389,000원\n\n관심 2,423\n\n · 리뷰 39\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n19%\n\n3,450,000원\n\n관심 1,705\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 315253,
+          "text": "Miu Miu\n\n미우 미우 레더 보 백 블랙\n\n24%\n\n3,649,000원\n\n관심 1,591\n\n · 리뷰 23\n\n · 거래 42\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BB1992BBLF0002",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2020.49,
+      "matched": true,
+      "product_id": 854893,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/854893",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 4671000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 4671000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 5551000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5NE8532IA7F0Q1K",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 620.08,
+      "matched": true,
+      "product_id": 751008,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/751008",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 2290000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 2290000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    }
+  ]
+}
