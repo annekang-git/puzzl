@@ -328,7 +328,10 @@ function computeMargin(row, eurRate, feePct, basis) {
     return { _no: 'noBasisPrice', basisLabel, available };
   }
   const netSell = sellPrice * (1 - feePct / 100);
-  return { cost, sellPrice, netSell, profit: netSell - cost, pct: (netSell - cost) / cost * 100 };
+  // 수수료제외 순익 = (판매금 - 매입액) - 5000원(배송비) - 판매금×5.7%(KREAM 수수료)
+  const netProfit = (sellPrice - cost) - 5000 - sellPrice * 0.057;
+  const netPct = netProfit / cost * 100;
+  return { cost, sellPrice, netSell, profit: netSell - cost, pct: (netSell - cost) / cost * 100, netProfit, netPct };
 }
 
 async function loadFiles() {
@@ -407,6 +410,8 @@ function render() {
           case 'bid': return r.market?.highest_bid ?? -1;
           case 'margin': return r._margin?.pct ?? -Infinity;
           case 'profit': return r._margin?.profit ?? -Infinity;
+          case 'netprofit': return r._margin?.netProfit ?? -Infinity;
+          case 'netpct': return r._margin?.netPct ?? -Infinity;
           default: return 0;
         }
       };
@@ -437,11 +442,13 @@ function render() {
   html += ths('bid', '최고입찰');
   html += ths('profit', '순익(₩)');
   html += ths('margin', '마진%');
+  html += ths('netprofit', '수수료제외 순익');
+  html += ths('netpct', '순 마진%');
   html += '<th>상세</th>';
   html += '</tr></thead><tbody>';
 
   if (rows.length === 0) {
-    html += '<tr><td colspan="12" class="empty">표시할 행이 없습니다</td></tr>';
+    html += '<tr><td colspan="14" class="empty">표시할 행이 없습니다</td></tr>';
   } else {
     const REASON_LABEL = {
       noEur: '<span class="badge warn">EUR가격없음</span>',
@@ -454,7 +461,7 @@ function render() {
         html += '<td class="sku">' + b2bLink(r) + '</td>';
         html += '<td>' + escapeHtml(r.option || '-') + '</td>';
         html += '<td class="num">' + (r.stock != null ? r.stock : '-') + '</td>';
-        html += '<td colspan="8"><span class="badge error">매칭 실패</span> ' + escapeHtml(r.error || '') + '</td>';
+        html += '<td colspan="10"><span class="badge error">매칭 실패</span> ' + escapeHtml(r.error || '') + '</td>';
         html += '<td>-</td>';
         html += '</tr>';
         continue;
@@ -500,6 +507,14 @@ function render() {
       html += '<td class="num">' + fmt(r.market?.highest_bid) + '</td>';
       html += '<td class="num">' + (hasMargin ? fmt(Math.round(m.profit)) : '-') + '</td>';
       html += '<td class="num">' + marginCell + '</td>';
+      // 수수료제외 순익 = (판매금-매입액) - 5000 - 판매금×5.7%
+      if (hasMargin) {
+        const npCls = m.netProfit >= 0 ? 'positive' : 'negative';
+        html += '<td class="num">' + fmt(Math.round(m.netProfit)) + '</td>';
+        html += '<td class="num"><span class="margin ' + npCls + '">' + fmtPct(m.netPct) + '</span></td>';
+      } else {
+        html += '<td class="num">-</td><td class="num">-</td>';
+      }
       html += '<td><details><summary>📊</summary>' + renderDetail(r) + '</details></td>';
       html += '</tr>';
     }
@@ -596,8 +611,11 @@ function renderHoney() {
     const net = bid * (1 - feePct / 100);
     const bidPct = (cost > 0) ? (net - cost) / cost * 100 : null;
     const profit = (cost > 0) ? Math.round(net - cost) : null;
+    // 수수료제외 순익 = (판매금-매입액) - 5000 - 판매금×5.7%
+    const netProfit = (cost > 0 && bid != null) ? Math.round((bid - cost) - 5000 - bid * 0.057) : null;
+    const netPct = (netProfit != null) ? netProfit / cost * 100 : null;
     const optOk = isOptionEffectivelyMatched(r);
-    return { ...r, _cost: cost, _bidPct: bidPct, _profit: profit, _optOk: optOk };
+    return { ...r, _cost: cost, _bidPct: bidPct, _profit: profit, _netProfit: netProfit, _netPct: netPct, _optOk: optOk };
   });
   // 흑자만 (즉시매도 마진 >= minMargin)
   rows = rows.filter((r) => r._bidPct != null && r._bidPct >= minMargin);
@@ -619,6 +637,8 @@ function renderHoney() {
         case 'bid':     return r.market?.highest_bid ?? -1;
         case 'bidPct':  return r._bidPct ?? -Infinity;
         case 'profit':  return r._profit ?? -Infinity;
+        case 'netprofit': return r._netProfit ?? -Infinity;
+        case 'netpct':    return r._netPct ?? -Infinity;
         default: return 0;
       }
     };
@@ -649,11 +669,13 @@ function renderHoney() {
   html += ths('bid', '최고입찰');
   html += ths('profit', '순익(₩)');
   html += ths('bidPct', '마진%');
+  html += ths('netprofit', '수수료제외 순익');
+  html += ths('netpct', '순 마진%');
   html += '<th>상세</th>';
   html += '</tr></thead><tbody>';
 
   if (rows.length === 0) {
-    html += '<tr><td colspan="13" class="empty">표시할 행이 없습니다 (흑자 즉시매도 없음)</td></tr>';
+    html += '<tr><td colspan="15" class="empty">표시할 행이 없습니다 (흑자 즉시매도 없음)</td></tr>';
   } else {
     for (const r of rows) {
       const stockCell = r.stock != null
@@ -679,6 +701,13 @@ function renderHoney() {
       html += '<td class="num">' + fmt(r.market?.highest_bid) + '</td>';
       html += '<td class="num">' + fmt(r._profit) + '</td>';
       html += '<td class="num"><span class="margin positive">' + fmtPct(r._bidPct) + '</span></td>';
+      if (r._netProfit != null) {
+        const npCls = r._netProfit >= 0 ? 'positive' : 'negative';
+        html += '<td class="num">' + fmt(r._netProfit) + '</td>';
+        html += '<td class="num"><span class="margin ' + npCls + '">' + fmtPct(r._netPct) + '</span></td>';
+      } else {
+        html += '<td class="num">-</td><td class="num">-</td>';
+      }
       html += '<td><details><summary>📊</summary>' + renderDetail(r) + '</details></td>';
       html += '</tr>';
     }
