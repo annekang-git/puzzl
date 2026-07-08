@@ -25,7 +25,8 @@ const BRANDS = [
   { brand: 'BOTTEGA VENETA', slug: 'giglio_bottega' },
   { brand: 'MIU MIU',        slug: 'giglio_miumiu' },
   { brand: 'C.P. COMPANY',   slug: 'giglio_cpcompany' },
-  { brand: 'OFF-WHITE',      slug: 'giglio_offwhite' },
+  // OFF-WHITE: 소요 시간 문제로 보류 (2026-07-08) — 재개 시 주석 해제
+  // { brand: 'OFF-WHITE',      slug: 'giglio_offwhite' },
 ];
 const KEEP_DAYS = 2;
 
