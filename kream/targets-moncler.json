@@ -105,7 +105,7 @@
     "brand": "MONCLER",
     "name": "'Vermeille' down jacket",
     "option": "5",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 692.62,
     "eur_retail": 1065.57
   },
@@ -622,17 +622,6 @@
     "brand": "MONCLER",
     "name": "Logo patch polo shirt",
     "option": "L",
-    "stock": 5,
-    "eur_price": 178.28,
-    "eur_retail": 237.7
-  },
-  {
-    "sku": "L20918A000118455677X",
-    "spu": "L20918A000118455677X",
-    "b2b_sku": "L20918A000118455677X",
-    "brand": "MONCLER",
-    "name": "Logo patch polo shirt",
-    "option": "M",
     "stock": 2,
     "eur_price": 178.28,
     "eur_retail": 237.7
@@ -643,7 +632,7 @@
     "b2b_sku": "L20918A000118455677X",
     "brand": "MONCLER",
     "name": "Logo patch polo shirt",
-    "option": "XL",
+    "option": "M",
     "stock": 1,
     "eur_price": 178.28,
     "eur_retail": 237.7
@@ -699,7 +688,7 @@
     "brand": "MONCLER",
     "name": "'Origan' down jacket",
     "option": "0",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 634.43,
     "eur_retail": 1057.38
   },
@@ -856,17 +845,6 @@
     "stock": 2,
     "eur_price": 112.71,
     "eur_retail": 204.92
-  },
-  {
-    "sku": "L10911A00143597YX778",
-    "spu": "L10911A00143597YX778",
-    "b2b_sku": "L10911A00143597YX778",
-    "brand": "MONCLER",
-    "name": "'Restigo' vest",
-    "option": "2",
-    "stock": 1,
-    "eur_price": 408.2,
-    "eur_retail": 680.33
   },
   {
     "sku": "L10911A00143597YX778",
@@ -1061,8 +1039,30 @@
     "b2b_sku": "L20931A00092597YG21N",
     "brand": "MONCLER",
     "name": "'Igelhood' down jacket",
+    "option": "1",
+    "stock": 2,
+    "eur_price": 768.44,
+    "eur_retail": 1024.59
+  },
+  {
+    "sku": "L20931A00092597YG21N",
+    "spu": "L20931A00092597YG21N",
+    "b2b_sku": "L20931A00092597YG21N",
+    "brand": "MONCLER",
+    "name": "'Igelhood' down jacket",
+    "option": "2",
+    "stock": 2,
+    "eur_price": 768.44,
+    "eur_retail": 1024.59
+  },
+  {
+    "sku": "L20931A00092597YG21N",
+    "spu": "L20931A00092597YG21N",
+    "b2b_sku": "L20931A00092597YG21N",
+    "brand": "MONCLER",
+    "name": "'Igelhood' down jacket",
     "option": "3",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 768.44,
     "eur_retail": 1024.59
   },
@@ -2558,7 +2558,18 @@
     "brand": "MONCLER",
     "name": "Logo patch swim shorts",
     "option": "M",
-    "stock": 3,
+    "stock": 4,
+    "eur_price": 178.28,
+    "eur_retail": 237.7
+  },
+  {
+    "sku": "L20912C0000453326743",
+    "spu": "L20912C0000453326743",
+    "b2b_sku": "L20912C0000453326743",
+    "brand": "MONCLER",
+    "name": "Logo patch swim shorts",
+    "option": "S",
+    "stock": 1,
     "eur_price": 178.28,
     "eur_retail": 237.7
   },
@@ -2880,5 +2891,38 @@
     "stock": 1,
     "eur_price": 393.44,
     "eur_retail": 524.59
+  },
+  {
+    "sku": "L20939F00001M118020I",
+    "spu": "L20939F00001M118020I",
+    "b2b_sku": "L20939F00001M118020I",
+    "brand": "MONCLER",
+    "name": "Textured wool turtleneck sweater",
+    "option": "M",
+    "stock": 1,
+    "eur_price": 424.18,
+    "eur_retail": 565.57
+  },
+  {
+    "sku": "L20939F00001M118020I",
+    "spu": "L20939F00001M118020I",
+    "b2b_sku": "L20939F00001M118020I",
+    "brand": "MONCLER",
+    "name": "Textured wool turtleneck sweater",
+    "option": "S",
+    "stock": 1,
+    "eur_price": 424.18,
+    "eur_retail": 565.57
+  },
+  {
+    "sku": "L20939F00001M118020I",
+    "spu": "L20939F00001M118020I",
+    "b2b_sku": "L20939F00001M118020I",
+    "brand": "MONCLER",
+    "name": "Textured wool turtleneck sweater",
+    "option": "XS",
+    "stock": 1,
+    "eur_price": 424.18,
+    "eur_retail": 565.57
   }
 ]
