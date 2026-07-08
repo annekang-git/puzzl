@@ -24,6 +24,8 @@ const RESULTS_DIR = path.join(__dirname, 'results');
 const BRANDS = [
   { brand: 'BOTTEGA VENETA', slug: 'giglio_bottega' },
   { brand: 'MIU MIU',        slug: 'giglio_miumiu' },
+  { brand: 'C.P. COMPANY',   slug: 'giglio_cpcompany' },
+  { brand: 'OFF-WHITE',      slug: 'giglio_offwhite' },
 ];
 const KEEP_DAYS = 2;
 
