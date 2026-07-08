@@ -219,7 +219,7 @@ const HTML = `<!DOCTYPE html>
       <label>마진 기준</label>
       <select id="margin-basis" onchange="render()">
         <option value="bid">즉시 매도 (highest_bid)</option>
-        <option value="ask">최저호가 매칭 (lowest_ask - 100)</option>
+        <option value="ask">판매입찰 매칭 (lowest_ask - 100)</option>
         <option value="sale">최근 체결가 (last_sale)</option>
       </select>
     </div>
@@ -315,7 +315,7 @@ function computeMargin(row, eurRate, feePct, basis) {
   if (basis === 'bid') {
     sellPrice = row.market?.highest_bid; basisLabel = '즉시매도';
   } else if (basis === 'ask') {
-    sellPrice = row.market?.lowest_ask != null ? row.market.lowest_ask - 100 : null; basisLabel = '최저호가';
+    sellPrice = row.market?.lowest_ask != null ? row.market.lowest_ask - 100 : null; basisLabel = '판매입찰';
   } else {
     sellPrice = row.market?.last_sale_price; basisLabel = '최근체결';
   }
@@ -438,8 +438,8 @@ function render() {
   html += ths('eur', 'EUR');
   html += ths('cost', '원가(₩)');
   html += ths('last', '최근체결');
-  html += ths('ask', '최저호가');
-  html += ths('bid', '최고입찰');
+  html += ths('ask', '판매입찰');
+  html += ths('bid', '구매입찰');
   html += ths('profit', '순익(₩)');
   html += ths('margin', '마진%');
   html += ths('netprofit', '수수료제외 순익');
@@ -665,8 +665,8 @@ function renderHoney() {
   html += ths('eur', 'EUR');
   html += ths('cost', '원가(₩)');
   html += ths('last', '최근체결');
-  html += ths('ask', '최저호가');
-  html += ths('bid', '최고입찰');
+  html += ths('ask', '판매입찰');
+  html += ths('bid', '구매입찰');
   html += ths('profit', '순익(₩)');
   html += ths('bidPct', '마진%');
   html += ths('netprofit', '수수료제외 순익');
