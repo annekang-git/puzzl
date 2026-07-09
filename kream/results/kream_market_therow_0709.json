@@ -1,0 +1,1710 @@
+{
+  "fetched_at": "2026-07-09T04:12:07.253Z",
+  "input_file": "targets-therow.json",
+  "total_targets": 55,
+  "matched": 13,
+  "failed": 42,
+  "results": [
+    {
+      "sku": "120K291WHT",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 186.89,
+      "matched": true,
+      "product_id": 626577,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/626577",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 789000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 789000,
+          "option": "L",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "L",
+      "kream_options_available": [
+        "L",
+        "M",
+        "S"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "1340K628BLK",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1340K628BLK\" SPU=\"1340K628BLK\"",
+      "candidates": [
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 308837,
+          "text": "Saint Laurent\n\n생로랑 모노그램 지퍼 트라이폴드 월렛 블랙\n\n589,000원\n\n관심 42\n\n · 리뷰 4\n\n · 거래 6\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 137310,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 이스트/웨스트 모노그램 반지갑 블랙\n\n554,000원\n\n관심 82\n\n · 리뷰 1\n\n · 거래 10"
+        },
+        {
+          "product_id": 67904,
+          "text": "Saint Laurent\n\n생로랑 레더 실버 모노그램 벨트 블랙\n\n37%\n\n506,000원\n\n관심 1,445\n\n · 리뷰 30\n\n · 거래 411\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 62258,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 카산드라 마틀라세 라지 플랩 지갑 블랙\n\n12%\n\n1,027,000원\n\n관심 406\n\n · 리뷰 10\n\n · 거래 77"
+        }
+      ]
+    },
+    {
+      "sku": "1340K628BLK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1340K628BLK\" SPU=\"1340K628BLK\"",
+      "candidates": [
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 308837,
+          "text": "Saint Laurent\n\n생로랑 모노그램 지퍼 트라이폴드 월렛 블랙\n\n589,000원\n\n관심 42\n\n · 리뷰 4\n\n · 거래 6\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 137310,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 이스트/웨스트 모노그램 반지갑 블랙\n\n554,000원\n\n관심 82\n\n · 리뷰 1\n\n · 거래 10"
+        },
+        {
+          "product_id": 67904,
+          "text": "Saint Laurent\n\n생로랑 레더 실버 모노그램 벨트 블랙\n\n37%\n\n506,000원\n\n관심 1,445\n\n · 리뷰 30\n\n · 거래 411\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 62258,
+          "text": "Saint Laurent\n\n생로랑 그랑 드 뿌드르 엠보스드 레더 카산드라 마틀라세 라지 플랩 지갑 블랙\n\n12%\n\n1,027,000원\n\n관심 406\n\n · 리뷰 10\n\n · 거래 77"
+        }
+      ]
+    },
+    {
+      "sku": "1378W5046MDI",
+      "option": "32",
+      "stock": 1,
+      "eur_price": 526.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1378W5046MDI\" SPU=\"1378W5046MDI\"",
+      "candidates": [
+        {
+          "product_id": 884219,
+          "text": "Balenciaga Vintage\n\n발렌시아가 567156 블랙 니트 올 오버 프린트 스피드러너 레이스업 남성 스니커즈\n\n332,100원\n\n무료배송"
+        },
+        {
+          "product_id": 829498,
+          "text": "Balenciaga Vintage\n\n발렌시아가 645056 블랙 네온 그린 스피드러너 삭스 남성 스니커즈aa61159\n\n368,000원\n\n관심 3\n\n무료배송"
+        },
+        {
+          "product_id": 388391,
+          "text": "Balenciaga\n\n발렌시아가 x 언더아머 3XL 니트 스니커즈 블랙 화이트\n\n17%\n\n1,300,000원\n\n관심 12"
+        },
+        {
+          "product_id": 53972,
+          "text": "Balenciaga\n\n발렌시아가 로고 캡토 더비 슈즈 화이트 블랙\n\n823,000원\n\n관심 42\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 283105,
+          "text": "Bottega Veneta\n\n보테가베네타 타이 레이스업 슈즈 블랙\n\n900,000원\n\n관심 17\n\n · 리뷰 2\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "1340K628GYM",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1340K628GYM\" SPU=\"1340K628GYM\"",
+      "candidates": [
+        {
+          "product_id": 884219,
+          "text": "Balenciaga Vintage\n\n발렌시아가 567156 블랙 니트 올 오버 프린트 스피드러너 레이스업 남성 스니커즈\n\n332,100원\n\n무료배송"
+        },
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 388393,
+          "text": "Balenciaga\n\n발렌시아가 x 언더아머 3XL 니트 스니커즈 화이트 블랙\n\n30%\n\n1,100,000원\n\n관심 16"
+        },
+        {
+          "product_id": 388360,
+          "text": "Balenciaga\n\n발렌시아가 x 언더아머 모크넥 티셔츠 블랙\n\n70%\n\n300,000원\n\n관심 14\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 388391,
+          "text": "Balenciaga\n\n발렌시아가 x 언더아머 3XL 니트 스니커즈 블랙 화이트\n\n17%\n\n1,300,000원\n\n관심 12"
+        }
+      ]
+    },
+    {
+      "sku": "1330W2861BQE",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 951.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1330W2861BQE\" SPU=\"1330W2861BQE\"",
+      "candidates": [
+        {
+          "product_id": 884219,
+          "text": "Balenciaga Vintage\n\n발렌시아가 567156 블랙 니트 올 오버 프린트 스피드러너 레이스업 남성 스니커즈\n\n332,100원\n\n무료배송"
+        },
+        {
+          "product_id": 34403,
+          "text": "Balenciaga\n\n발렌시아가 스피드 트레이너 올 오버 로고 프린트 블랙 2018\n\n25%\n\n899,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 1"
+        },
+        {
+          "product_id": 279453,
+          "text": "Balenciaga\n\n발렌시아가 스피드 트레이너 그래피티 솔 블랙 블루\n\n49%\n\n689,000원\n\n관심 26\n\n · 거래 3"
+        },
+        {
+          "product_id": 388393,
+          "text": "Balenciaga\n\n발렌시아가 x 언더아머 3XL 니트 스니커즈 화이트 블랙\n\n30%\n\n1,100,000원\n\n관심 16"
+        },
+        {
+          "product_id": 25163,
+          "text": "Balenciaga\n\n발렌시아가 스피트 트레이너 블랙 레드 2020\n\n919,000원\n\n관심 49\n\n · 리뷰 29\n\n · 거래 13"
+        }
+      ]
+    },
+    {
+      "sku": "1454W5073WBR",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 614.75,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1454W5073WBR\" SPU=\"1454W5073WBR\"",
+      "candidates": [
+        {
+          "product_id": 34403,
+          "text": "Balenciaga\n\n발렌시아가 스피드 트레이너 올 오버 로고 프린트 블랙 2018\n\n25%\n\n899,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 1"
+        },
+        {
+          "product_id": 388393,
+          "text": "Balenciaga\n\n발렌시아가 x 언더아머 3XL 니트 스니커즈 화이트 블랙\n\n30%\n\n1,100,000원\n\n관심 16"
+        },
+        {
+          "product_id": 884219,
+          "text": "Balenciaga Vintage\n\n발렌시아가 567156 블랙 니트 올 오버 프린트 스피드러너 레이스업 남성 스니커즈\n\n332,100원\n\n무료배송"
+        },
+        {
+          "product_id": 592549,
+          "text": "Balenciaga\n\n발렌시아가 아나토믹 러너 스니커즈 화이트\n\n22%\n\n1,262,000원\n\n관심 19\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 92869,
+          "text": "Balenciaga\n\n발렌시아가 HD 레이스업 스니커즈 누드\n\n43%\n\n540,000원\n\n관심 214\n\n · 리뷰 19\n\n · 거래 46"
+        }
+      ]
+    },
+    {
+      "sku": "F2076SL3BLACK",
+      "option": "44",
+      "stock": 2,
+      "eur_price": 780.32,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"F2076SL3BLACK\" SPU=\"F2076SL3BLACK\"",
+      "candidates": [
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 34403,
+          "text": "Balenciaga\n\n발렌시아가 스피드 트레이너 올 오버 로고 프린트 블랙 2018\n\n25%\n\n899,000원\n\n관심 10\n\n · 리뷰 3\n\n · 거래 1"
+        },
+        {
+          "product_id": 884219,
+          "text": "Balenciaga Vintage\n\n발렌시아가 567156 블랙 니트 올 오버 프린트 스피드러너 레이스업 남성 스니커즈\n\n332,100원\n\n무료배송"
+        },
+        {
+          "product_id": 279453,
+          "text": "Balenciaga\n\n발렌시아가 스피드 트레이너 그래피티 솔 블랙 블루\n\n49%\n\n689,000원\n\n관심 26\n\n · 거래 3"
+        },
+        {
+          "product_id": 127370,
+          "text": "Balenciaga\n\n발렌시아가 BB 아이콘 더비 슈즈 블랙\n\n575,000원\n\n관심 240\n\n · 리뷰 9\n\n · 거래 37"
+        }
+      ]
+    },
+    {
+      "sku": "1241Y120FOG",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 704.26,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1241Y120FOG\" SPU=\"1241Y120FOG\"",
+      "candidates": [
+        {
+          "product_id": 836895,
+          "text": "Celine\n\n셀린느 덱 로퍼 서플 카프스킨 블랙\n\n15%\n\n1,435,000원\n\n관심 2"
+        },
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 350652,
+          "text": "Celine\n\n(W) 셀린느 말라케 트리옹프 로퍼 폴리쉬드 불스킨 블랙\n\n33%\n\n999,000원\n\n관심 72\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 718793,
+          "text": "Celine\n\n셀린느 레이서 로우 레이스업 스니커즈 트리옹프 나일론 스웨이드 카프스킨 블랙 화이트\n\n24%\n\n950,000원\n\n관심 283\n\n · 리뷰 9\n\n · 거래 48\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 55915,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 불 트리옹프 체인 마가렛 로퍼 블랙\n\n35%\n\n1,100,000원\n\n관심 186\n\n · 리뷰 7\n\n · 거래 15"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710BLK",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710BLK\" SPU=\"1437Y710BLK\"",
+      "candidates": [
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 421778,
+          "text": "Saint Laurent\n\n생로랑 니키 사첼 레더 블랙\n\n17%\n\n2,675,000원\n\n관심 55\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 128327,
+          "text": "Saint Laurent\n\n생로랑 캔버스 스무스 레더 말리부 스니커즈 옵틱 화이트\n\n41%\n\n599,000원\n\n관심 512\n\n · 리뷰 12\n\n · 거래 103"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        },
+        {
+          "product_id": 816816,
+          "text": "Saint Laurent\n\n생로랑 매트 레더 서플 르 로퍼 블랙\n\n13%\n\n1,499,000원\n\n관심 41\n\n · 리뷰 1\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710BLK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710BLK\" SPU=\"1437Y710BLK\"",
+      "candidates": [
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 421778,
+          "text": "Saint Laurent\n\n생로랑 니키 사첼 레더 블랙\n\n17%\n\n2,675,000원\n\n관심 55\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 128327,
+          "text": "Saint Laurent\n\n생로랑 캔버스 스무스 레더 말리부 스니커즈 옵틱 화이트\n\n41%\n\n599,000원\n\n관심 512\n\n · 리뷰 12\n\n · 거래 103"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        },
+        {
+          "product_id": 816816,
+          "text": "Saint Laurent\n\n생로랑 매트 레더 서플 르 로퍼 블랙\n\n13%\n\n1,499,000원\n\n관심 41\n\n · 리뷰 1\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710BLK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710BLK\" SPU=\"1437Y710BLK\"",
+      "candidates": [
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 421778,
+          "text": "Saint Laurent\n\n생로랑 니키 사첼 레더 블랙\n\n17%\n\n2,675,000원\n\n관심 55\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 128327,
+          "text": "Saint Laurent\n\n생로랑 캔버스 스무스 레더 말리부 스니커즈 옵틱 화이트\n\n41%\n\n599,000원\n\n관심 512\n\n · 리뷰 12\n\n · 거래 103"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        },
+        {
+          "product_id": 816816,
+          "text": "Saint Laurent\n\n생로랑 매트 레더 서플 르 로퍼 블랙\n\n13%\n\n1,499,000원\n\n관심 41\n\n · 리뷰 1\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "11128W4570LTB",
+      "option": "0",
+      "stock": 1,
+      "eur_price": 688.52,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11128W4570LTB\" SPU=\"11128W4570LTB\"",
+      "candidates": [
+        {
+          "product_id": 884219,
+          "text": "Balenciaga Vintage\n\n발렌시아가 567156 블랙 니트 올 오버 프린트 스피드러너 레이스업 남성 스니커즈\n\n332,100원\n\n무료배송"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        },
+        {
+          "product_id": 48564,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 트레이너 모노컬러 블랙\n\n630,000원\n\n관심 20\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 257706,
+          "text": "Balenciaga\n\n(W) 발렌시아가 트리플 S 몰드 스니커즈 블랙\n\n44%\n\n700,000원\n\n관심 2"
+        },
+        {
+          "product_id": 706932,
+          "text": "Louis Vuitton Vintage\n\n루이비통 1ACFFZ 브라운 레더 드라이버 모카신 남성 로퍼 구두aa56676\n\n818,000원\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "11128W4570LTB",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 688.52,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11128W4570LTB\" SPU=\"11128W4570LTB\"",
+      "candidates": [
+        {
+          "product_id": 884219,
+          "text": "Balenciaga Vintage\n\n발렌시아가 567156 블랙 니트 올 오버 프린트 스피드러너 레이스업 남성 스니커즈\n\n332,100원\n\n무료배송"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        },
+        {
+          "product_id": 48564,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 트레이너 모노컬러 블랙\n\n630,000원\n\n관심 20\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 257706,
+          "text": "Balenciaga\n\n(W) 발렌시아가 트리플 S 몰드 스니커즈 블랙\n\n44%\n\n700,000원\n\n관심 2"
+        },
+        {
+          "product_id": 706932,
+          "text": "Louis Vuitton Vintage\n\n루이비통 1ACFFZ 브라운 레더 드라이버 모카신 남성 로퍼 구두aa56676\n\n818,000원\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "11128W4570LTB",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 688.52,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11128W4570LTB\" SPU=\"11128W4570LTB\"",
+      "candidates": [
+        {
+          "product_id": 884219,
+          "text": "Balenciaga Vintage\n\n발렌시아가 567156 블랙 니트 올 오버 프린트 스피드러너 레이스업 남성 스니커즈\n\n332,100원\n\n무료배송"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        },
+        {
+          "product_id": 48564,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 트레이너 모노컬러 블랙\n\n630,000원\n\n관심 20\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 257706,
+          "text": "Balenciaga\n\n(W) 발렌시아가 트리플 S 몰드 스니커즈 블랙\n\n44%\n\n700,000원\n\n관심 2"
+        },
+        {
+          "product_id": 706932,
+          "text": "Louis Vuitton Vintage\n\n루이비통 1ACFFZ 브라운 레더 드라이버 모카신 남성 로퍼 구두aa56676\n\n818,000원\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "11128W4570LTB",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 688.52,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11128W4570LTB\" SPU=\"11128W4570LTB\"",
+      "candidates": [
+        {
+          "product_id": 884219,
+          "text": "Balenciaga Vintage\n\n발렌시아가 567156 블랙 니트 올 오버 프린트 스피드러너 레이스업 남성 스니커즈\n\n332,100원\n\n무료배송"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        },
+        {
+          "product_id": 48564,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 트레이너 모노컬러 블랙\n\n630,000원\n\n관심 20\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 257706,
+          "text": "Balenciaga\n\n(W) 발렌시아가 트리플 S 몰드 스니커즈 블랙\n\n44%\n\n700,000원\n\n관심 2"
+        },
+        {
+          "product_id": 706932,
+          "text": "Louis Vuitton Vintage\n\n루이비통 1ACFFZ 브라운 레더 드라이버 모카신 남성 로퍼 구두aa56676\n\n818,000원\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "11007W4496SBU",
+      "option": "2",
+      "stock": 2,
+      "eur_price": 2100,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11007W4496SBU\" SPU=\"11007W4496SBU\"",
+      "candidates": [
+        {
+          "product_id": 344272,
+          "text": "Valentino\n\n발렌티노 엔벨로프 브이로고 레더 숄더백 블랙\n\n2,787,000원\n\n관심 14"
+        },
+        {
+          "product_id": 339357,
+          "text": "Balenciaga\n\n발렌시아가 허머 더비 블랙\n\n42%\n\n850,000원\n\n관심 9\n\n · 리뷰 5\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 203518,
+          "text": "Saint Laurent\n\n생로랑 리브 고쉬 슬링 백 에코닐 블랙\n\n34%\n\n1,505,000원\n\n관심 22"
+        },
+        {
+          "product_id": 835779,
+          "text": "Balenciaga Vintage\n\n발렌시아가 580641 블랙 카프스킨 샤프 스몰 금장 체인 사첼 숄더백\n\n802,700원\n\n관심 3\n\n무료배송"
+        },
+        {
+          "product_id": 834244,
+          "text": "Prada Vintage\n\n프라다 1BC066 브라운 그레이스 럭스 라이트 카프스킨 컨셉트 라지 호보 2WAY\n\n856,800원\n\n관심 2\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "11007W4496SBU",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 2100,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11007W4496SBU\" SPU=\"11007W4496SBU\"",
+      "candidates": [
+        {
+          "product_id": 344272,
+          "text": "Valentino\n\n발렌티노 엔벨로프 브이로고 레더 숄더백 블랙\n\n2,787,000원\n\n관심 14"
+        },
+        {
+          "product_id": 339357,
+          "text": "Balenciaga\n\n발렌시아가 허머 더비 블랙\n\n42%\n\n850,000원\n\n관심 9\n\n · 리뷰 5\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 203518,
+          "text": "Saint Laurent\n\n생로랑 리브 고쉬 슬링 백 에코닐 블랙\n\n34%\n\n1,505,000원\n\n관심 22"
+        },
+        {
+          "product_id": 835779,
+          "text": "Balenciaga Vintage\n\n발렌시아가 580641 블랙 카프스킨 샤프 스몰 금장 체인 사첼 숄더백\n\n802,700원\n\n관심 3\n\n무료배송"
+        },
+        {
+          "product_id": 834244,
+          "text": "Prada Vintage\n\n프라다 1BC066 브라운 그레이스 럭스 라이트 카프스킨 컨셉트 라지 호보 2WAY\n\n856,800원\n\n관심 2\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "1024Y960FBK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 916.72,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1024Y960FBK\" SPU=\"1024Y960FBK\"",
+      "candidates": [
+        {
+          "product_id": 451383,
+          "text": "Thom Browne\n\n톰브라운 클래식 카프 코만도 솔 에이프런 스티치 더비 브라운\n\n9%\n\n1,682,000원"
+        },
+        {
+          "product_id": 442458,
+          "text": "Balenciaga\n\n발렌시아가 BB 로고 틴 레더 브레이슬릿 블랙\n\n341,000원\n\n관심 12"
+        },
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 677805,
+          "text": "Dior\n\n디올 익스플로러 III 더비 슈 스무스 카프스킨 디올 오블리크 자카드 블랙 베이지 블랙\n\n10%\n\n1,690,000원\n\n관심 8"
+        },
+        {
+          "product_id": 715418,
+          "text": "Thom Browne\n\n톰브라운 디스트레스드 카프 하이킹 레더 솔 보트 슈 블랙\n\n3,262,000원\n\n관심 1"
+        }
+      ]
+    },
+    {
+      "sku": "6525W3654BLK",
+      "option": "25",
+      "stock": 1,
+      "eur_price": 595.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 619393,
+          "text": "Bottega Veneta\n\n보테가 베네타 레이스 업 부츠 블랙\n\n61%\n\n689,000원\n\n관심 20"
+        },
+        {
+          "product_id": 451383,
+          "text": "Thom Browne\n\n톰브라운 클래식 카프 코만도 솔 에이프런 스티치 더비 브라운\n\n9%\n\n1,682,000원"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        },
+        {
+          "product_id": 283105,
+          "text": "Bottega Veneta\n\n보테가베네타 타이 레이스업 슈즈 블랙\n\n900,000원\n\n관심 17\n\n · 리뷰 2\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "6525W3654BLK",
+      "option": "27",
+      "stock": 1,
+      "eur_price": 595.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 619393,
+          "text": "Bottega Veneta\n\n보테가 베네타 레이스 업 부츠 블랙\n\n61%\n\n689,000원\n\n관심 20"
+        },
+        {
+          "product_id": 451383,
+          "text": "Thom Browne\n\n톰브라운 클래식 카프 코만도 솔 에이프런 스티치 더비 브라운\n\n9%\n\n1,682,000원"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        },
+        {
+          "product_id": 283105,
+          "text": "Bottega Veneta\n\n보테가베네타 타이 레이스업 슈즈 블랙\n\n900,000원\n\n관심 17\n\n · 리뷰 2\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "6525W3654BLK",
+      "option": "29",
+      "stock": 1,
+      "eur_price": 595.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 619393,
+          "text": "Bottega Veneta\n\n보테가 베네타 레이스 업 부츠 블랙\n\n61%\n\n689,000원\n\n관심 20"
+        },
+        {
+          "product_id": 451383,
+          "text": "Thom Browne\n\n톰브라운 클래식 카프 코만도 솔 에이프런 스티치 더비 브라운\n\n9%\n\n1,682,000원"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        },
+        {
+          "product_id": 283105,
+          "text": "Bottega Veneta\n\n보테가베네타 타이 레이스업 슈즈 블랙\n\n900,000원\n\n관심 17\n\n · 리뷰 2\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "1261Y876CHO",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 829.51,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1261Y876CHO\" SPU=\"1261Y876CHO\"",
+      "candidates": [
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 586857,
+          "text": "Loewe\n\n로에베 소프트 카프스킨 캄포 보트 슈즈 다크 카라멜 블랙\n\n62%\n\n669,000원\n\n관심 4"
+        },
+        {
+          "product_id": 162195,
+          "text": "Prada\n\n프라다 브러쉬드 레더 첼시 부츠 블랙\n\n50%\n\n940,000원\n\n관심 14"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        },
+        {
+          "product_id": 64249,
+          "text": "Saint Laurent\n\n생로랑 스웨이드 와이어트 30 조드퍼 부츠 토바코\n\n899,000원\n\n관심 37\n\n · 리뷰 1"
+        }
+      ]
+    },
+    {
+      "sku": "1461W4503BLK",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1461W4503BLK\" SPU=\"1461W4503BLK\"",
+      "candidates": [
+        {
+          "product_id": 313144,
+          "text": "Dr. Martens\n\n닥터마틴 1461 모노 스무스 블랙\n\n10%\n\n206,100원\n\n관심 1,423\n\n · 리뷰 69\n\n적립\n\n무료배송"
+        },
+        {
+          "product_id": 321121,
+          "text": "Dr. Martens\n\n닥터마틴 1461 9 인치 네일 레더 옥스퍼드 슈즈 블랙\n\n340,000원\n\n관심 21\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        },
+        {
+          "product_id": 419234,
+          "text": "Dr. Martens\n\n닥터마틴 1461 벡스 모노 블랙\n\n6%\n\n214,000원\n\n관심 355\n\n · 리뷰 15\n\n · 거래 39"
+        },
+        {
+          "product_id": 629162,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 1461 스무스 블랙\n\n206,000원\n\n관심 19\n\n · 리뷰 1\n\n · 거래 3"
+        }
+      ]
+    },
+    {
+      "sku": "1461W4503BLK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1461W4503BLK\" SPU=\"1461W4503BLK\"",
+      "candidates": [
+        {
+          "product_id": 313144,
+          "text": "Dr. Martens\n\n닥터마틴 1461 모노 스무스 블랙\n\n10%\n\n206,100원\n\n관심 1,423\n\n · 리뷰 69\n\n적립\n\n무료배송"
+        },
+        {
+          "product_id": 321121,
+          "text": "Dr. Martens\n\n닥터마틴 1461 9 인치 네일 레더 옥스퍼드 슈즈 블랙\n\n340,000원\n\n관심 21\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        },
+        {
+          "product_id": 419234,
+          "text": "Dr. Martens\n\n닥터마틴 1461 벡스 모노 블랙\n\n6%\n\n214,000원\n\n관심 355\n\n · 리뷰 15\n\n · 거래 39"
+        },
+        {
+          "product_id": 629162,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 1461 스무스 블랙\n\n206,000원\n\n관심 19\n\n · 리뷰 1\n\n · 거래 3"
+        }
+      ]
+    },
+    {
+      "sku": "1461W4503BLK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1461W4503BLK\" SPU=\"1461W4503BLK\"",
+      "candidates": [
+        {
+          "product_id": 313144,
+          "text": "Dr. Martens\n\n닥터마틴 1461 모노 스무스 블랙\n\n10%\n\n206,100원\n\n관심 1,423\n\n · 리뷰 69\n\n적립\n\n무료배송"
+        },
+        {
+          "product_id": 321121,
+          "text": "Dr. Martens\n\n닥터마틴 1461 9 인치 네일 레더 옥스퍼드 슈즈 블랙\n\n340,000원\n\n관심 21\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        },
+        {
+          "product_id": 419234,
+          "text": "Dr. Martens\n\n닥터마틴 1461 벡스 모노 블랙\n\n6%\n\n214,000원\n\n관심 355\n\n · 리뷰 15\n\n · 거래 39"
+        },
+        {
+          "product_id": 629162,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 1461 스무스 블랙\n\n206,000원\n\n관심 19\n\n · 리뷰 1\n\n · 거래 3"
+        }
+      ]
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 1780000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 1780000,
+          "option": "42",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "42",
+      "kream_options_available": [
+        "42"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 1780000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 1780000,
+          "option": "42",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "42",
+      "kream_options_available": [
+        "42"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "42",
+      "stock": 2,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 1780000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 1780000,
+          "option": "42",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "42",
+      "kream_options_available": [
+        "42"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "43",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 1780000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 1780000,
+          "option": "42",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "42",
+      "kream_options_available": [
+        "42"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "44",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 1780000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 1780000,
+          "option": "42",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "42",
+      "kream_options_available": [
+        "42"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "45",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 1780000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 1780000,
+          "option": "42",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "42",
+      "kream_options_available": [
+        "42"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "W1273L129DAT",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1849.18,
+      "matched": true,
+      "product_id": 521041,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/521041",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 4699000,
+        "highest_bid": 2000000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 4699000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4700000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 2000000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "1210W3856OWH",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 743.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1210W3856OWH\" SPU=\"1210W3856OWH\"",
+      "candidates": [
+        {
+          "product_id": 316719,
+          "text": "Balenciaga\n\n발렌시아가 르 카골 체인 크로커다일 엠보스 미니백 브라이트 그린\n\n37%\n\n1,528,000원\n\n관심 6\n\n · 리뷰 2"
+        },
+        {
+          "product_id": 673090,
+          "text": "Bottega Veneta Vintage\n\n보테가 베네타 680217 네온레드 카세트 미니 버킷 숄더백 겸 크로스백 aa53244\n\n743,000원\n\n관심 7\n\n무료배송"
+        },
+        {
+          "product_id": 56495,
+          "text": "Chanel\n\n샤넬 코스메틱 케이스 램스킨 & 골드 메탈 핑크\n\n5,500,000원\n\n관심 81"
+        },
+        {
+          "product_id": 484107,
+          "text": "COS\n\n코스 퀼티드 마이크로백 라이트 핑크 V2\n\n110,000원\n\n관심 162\n\n · 리뷰 11\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 150470,
+          "text": "COS\n\n(W) 코스 콘트라스트 패널 미니 드레스 블랙\n\n26%\n\n150,000원\n\n관심 188\n\n · 리뷰 6\n\n · 거래 50"
+        }
+      ]
+    },
+    {
+      "sku": "1210W3856OWH",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 743.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1210W3856OWH\" SPU=\"1210W3856OWH\"",
+      "candidates": [
+        {
+          "product_id": 316719,
+          "text": "Balenciaga\n\n발렌시아가 르 카골 체인 크로커다일 엠보스 미니백 브라이트 그린\n\n37%\n\n1,528,000원\n\n관심 6\n\n · 리뷰 2"
+        },
+        {
+          "product_id": 673090,
+          "text": "Bottega Veneta Vintage\n\n보테가 베네타 680217 네온레드 카세트 미니 버킷 숄더백 겸 크로스백 aa53244\n\n743,000원\n\n관심 7\n\n무료배송"
+        },
+        {
+          "product_id": 56495,
+          "text": "Chanel\n\n샤넬 코스메틱 케이스 램스킨 & 골드 메탈 핑크\n\n5,500,000원\n\n관심 81"
+        },
+        {
+          "product_id": 484107,
+          "text": "COS\n\n코스 퀼티드 마이크로백 라이트 핑크 V2\n\n110,000원\n\n관심 162\n\n · 리뷰 11\n\n · 거래 54\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 150470,
+          "text": "COS\n\n(W) 코스 콘트라스트 패널 미니 드레스 블랙\n\n26%\n\n150,000원\n\n관심 188\n\n · 리뷰 6\n\n · 거래 50"
+        }
+      ]
+    },
+    {
+      "sku": "1175W4252OTT",
+      "option": "40 FR",
+      "stock": 1,
+      "eur_price": 2848.53,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1175W4252OTT\" SPU=\"1175W4252OTT\"",
+      "candidates": [
+        {
+          "product_id": 53972,
+          "text": "Balenciaga\n\n발렌시아가 로고 캡토 더비 슈즈 화이트 블랙\n\n823,000원\n\n관심 42\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 386794,
+          "text": "UGG\n\n(W) 어그 클래식 울트라 미니 뉴 하이츠 부츠 블랙\n\n12%\n\n225,000원\n\n관심 229\n\n · 리뷰 9\n\n · 거래 33"
+        },
+        {
+          "product_id": 283105,
+          "text": "Bottega Veneta\n\n보테가베네타 타이 레이스업 슈즈 블랙\n\n900,000원\n\n관심 17\n\n · 리뷰 2\n\n · 거래 1"
+        },
+        {
+          "product_id": 382493,
+          "text": "UGG\n\n(W) 어그 미니 플랫폼 부츠 블랙\n\n53%\n\n120,000원\n\n관심 260\n\n · 리뷰 12\n\n · 거래 71"
+        },
+        {
+          "product_id": 367831,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 수잔 미니 호보백 블랙\n\n1,300,000원\n\n관심 3"
+        }
+      ]
+    },
+    {
+      "sku": "7370W4327BLK",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 747.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"7370W4327BLK\" SPU=\"7370W4327BLK\"",
+      "candidates": [
+        {
+          "product_id": 339357,
+          "text": "Balenciaga\n\n발렌시아가 허머 더비 블랙\n\n42%\n\n850,000원\n\n관심 9\n\n · 리뷰 5\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 85465,
+          "text": "Balenciaga\n\n발렌시아가 스트라이크 20mm 레이스업 부츠 블랙\n\n1,690,000원\n\n관심 86\n\n · 리뷰 25\n\n · 거래 4"
+        },
+        {
+          "product_id": 157305,
+          "text": "Balenciaga\n\n발렌시아가 시티 로퍼 블랙\n\n500,000원\n\n관심 42"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        },
+        {
+          "product_id": 537833,
+          "text": "Balenciaga\n\n(W) 발렌시아가 베놈 부츠 블랙\n\n27%\n\n1,968,000원\n\n관심 44\n\n · 리뷰 13\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "10865W4369BLK",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 742.62,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"10865W4369BLK\" SPU=\"10865W4369BLK\"",
+      "candidates": [
+        {
+          "product_id": 85465,
+          "text": "Balenciaga\n\n발렌시아가 스트라이크 20mm 레이스업 부츠 블랙\n\n1,690,000원\n\n관심 86\n\n · 리뷰 25\n\n · 거래 4"
+        },
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 339357,
+          "text": "Balenciaga\n\n발렌시아가 허머 더비 블랙\n\n42%\n\n850,000원\n\n관심 9\n\n · 리뷰 5\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 71628,
+          "text": "Thom Browne\n\n(W) 톰브라운 페블 그레인 레더 라이트웨이트 러버 솔 롱윙 브로그 로퍼 블랙\n\n44%\n\n700,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        }
+      ]
+    },
+    {
+      "sku": "10865W4369BLK",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 742.62,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"10865W4369BLK\" SPU=\"10865W4369BLK\"",
+      "candidates": [
+        {
+          "product_id": 85465,
+          "text": "Balenciaga\n\n발렌시아가 스트라이크 20mm 레이스업 부츠 블랙\n\n1,690,000원\n\n관심 86\n\n · 리뷰 25\n\n · 거래 4"
+        },
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 339357,
+          "text": "Balenciaga\n\n발렌시아가 허머 더비 블랙\n\n42%\n\n850,000원\n\n관심 9\n\n · 리뷰 5\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 71628,
+          "text": "Thom Browne\n\n(W) 톰브라운 페블 그레인 레더 라이트웨이트 러버 솔 롱윙 브로그 로퍼 블랙\n\n44%\n\n700,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710CHK",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710CHK\" SPU=\"1437Y710CHK\"",
+      "candidates": [
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 71613,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 르 로퍼 모노그램 페니 슬리퍼 펄\n\n47%\n\n630,000원\n\n관심 31\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 55907,
+          "text": "Louis Vuitton\n\n(W) 루이비통 보부르 플랫폼 더비 모노그램 데님 블랙\n\n30%\n\n1,090,000원\n\n관심 27\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 816754,
+          "text": "Louis Vuitton Vintage\n\n루이비통 1A9Z6L 블랙 레더 에스테이트 은장로고 남성 로퍼 구두aa61527\n\n818,000원\n\n관심 1\n\n무료배송"
+        },
+        {
+          "product_id": 71628,
+          "text": "Thom Browne\n\n(W) 톰브라운 페블 그레인 레더 라이트웨이트 러버 솔 롱윙 브로그 로퍼 블랙\n\n44%\n\n700,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710CHK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710CHK\" SPU=\"1437Y710CHK\"",
+      "candidates": [
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 71613,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 르 로퍼 모노그램 페니 슬리퍼 펄\n\n47%\n\n630,000원\n\n관심 31\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 55907,
+          "text": "Louis Vuitton\n\n(W) 루이비통 보부르 플랫폼 더비 모노그램 데님 블랙\n\n30%\n\n1,090,000원\n\n관심 27\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 816754,
+          "text": "Louis Vuitton Vintage\n\n루이비통 1A9Z6L 블랙 레더 에스테이트 은장로고 남성 로퍼 구두aa61527\n\n818,000원\n\n관심 1\n\n무료배송"
+        },
+        {
+          "product_id": 71628,
+          "text": "Thom Browne\n\n(W) 톰브라운 페블 그레인 레더 라이트웨이트 러버 솔 롱윙 브로그 로퍼 블랙\n\n44%\n\n700,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710CHK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710CHK\" SPU=\"1437Y710CHK\"",
+      "candidates": [
+        {
+          "product_id": 97326,
+          "text": "Saint Laurent\n\n생로랑 레더 앤디 스니커즈 블랙\n\n39%\n\n638,000원\n\n관심 54\n\n · 리뷰 3\n\n · 거래 14"
+        },
+        {
+          "product_id": 71613,
+          "text": "Saint Laurent\n\n생로랑 스무스 레더 르 로퍼 모노그램 페니 슬리퍼 펄\n\n47%\n\n630,000원\n\n관심 31\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 55907,
+          "text": "Louis Vuitton\n\n(W) 루이비통 보부르 플랫폼 더비 모노그램 데님 블랙\n\n30%\n\n1,090,000원\n\n관심 27\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 816754,
+          "text": "Louis Vuitton Vintage\n\n루이비통 1A9Z6L 블랙 레더 에스테이트 은장로고 남성 로퍼 구두aa61527\n\n818,000원\n\n관심 1\n\n무료배송"
+        },
+        {
+          "product_id": 71628,
+          "text": "Thom Browne\n\n(W) 톰브라운 페블 그레인 레더 라이트웨이트 러버 솔 롱윙 브로그 로퍼 블랙\n\n44%\n\n700,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "W2154W27TE",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 1777.05,
+      "matched": true,
+      "product_id": 949331,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/949331",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2109L302LQB",
+      "option": "44",
+      "stock": 2,
+      "eur_price": 711.47,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"F2109L302LQB\" SPU=\"F2109L302LQB\"",
+      "candidates": [
+        {
+          "product_id": 59012,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 레더 솔 롱윙 브로그 블랙\n\n48%\n\n800,000원\n\n관심 174\n\n · 리뷰 11\n\n · 거래 35"
+        },
+        {
+          "product_id": 71628,
+          "text": "Thom Browne\n\n(W) 톰브라운 페블 그레인 레더 라이트웨이트 러버 솔 롱윙 브로그 로퍼 블랙\n\n44%\n\n700,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 836895,
+          "text": "Celine\n\n셀린느 덱 로퍼 서플 카프스킨 블랙\n\n15%\n\n1,435,000원\n\n관심 2"
+        },
+        {
+          "product_id": 53972,
+          "text": "Balenciaga\n\n발렌시아가 로고 캡토 더비 슈즈 화이트 블랙\n\n823,000원\n\n관심 42\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 451570,
+          "text": "Thom Browne\n\n톰브라운 페블 그레인 레더 캡 토 더비 블랙\n\n53%\n\n690,000원"
+        }
+      ]
+    },
+    {
+      "sku": "1261Y876BLK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 904.92,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1261Y876BLK\" SPU=\"1261Y876BLK\"",
+      "candidates": [
+        {
+          "product_id": 586857,
+          "text": "Loewe\n\n로에베 소프트 카프스킨 캄포 보트 슈즈 다크 카라멜 블랙\n\n62%\n\n669,000원\n\n관심 4"
+        },
+        {
+          "product_id": 339357,
+          "text": "Balenciaga\n\n발렌시아가 허머 더비 블랙\n\n42%\n\n850,000원\n\n관심 9\n\n · 리뷰 5\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 627625,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 메이볼 하이 레더 첼시 부츠 블랙\n\n34%\n\n190,000원\n\n관심 11"
+        },
+        {
+          "product_id": 707972,
+          "text": "Louis Vuitton Vintage\n\n루이비통 블랙 모노그램 스터드 남성 더비슈즈 구두aa56981\n\n681,000원\n\n관심 5\n\n무료배송"
+        },
+        {
+          "product_id": 670102,
+          "text": "Balenciaga Vintage\n\n발렌시아가 블랙 레더 버클 앵클부츠 41 사이즈\n\n1,150,000원\n\n관심 14\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "1261Y876BLK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 904.92,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1261Y876BLK\" SPU=\"1261Y876BLK\"",
+      "candidates": [
+        {
+          "product_id": 586857,
+          "text": "Loewe\n\n로에베 소프트 카프스킨 캄포 보트 슈즈 다크 카라멜 블랙\n\n62%\n\n669,000원\n\n관심 4"
+        },
+        {
+          "product_id": 339357,
+          "text": "Balenciaga\n\n발렌시아가 허머 더비 블랙\n\n42%\n\n850,000원\n\n관심 9\n\n · 리뷰 5\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 627625,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 메이볼 하이 레더 첼시 부츠 블랙\n\n34%\n\n190,000원\n\n관심 11"
+        },
+        {
+          "product_id": 707972,
+          "text": "Louis Vuitton Vintage\n\n루이비통 블랙 모노그램 스터드 남성 더비슈즈 구두aa56981\n\n681,000원\n\n관심 5\n\n무료배송"
+        },
+        {
+          "product_id": 670102,
+          "text": "Balenciaga Vintage\n\n발렌시아가 블랙 레더 버클 앵클부츠 41 사이즈\n\n1,150,000원\n\n관심 14\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "697W4450LBB",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 635.66,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"697W4450LBB\" SPU=\"697W4450LBB\"",
+      "candidates": [
+        {
+          "product_id": 92888,
+          "text": "Balenciaga\n\n발렌시아가 XL 아미 부츠 풀 에바 블랙\n\n819,000원\n\n관심 906\n\n · 리뷰 216\n\n · 거래 109"
+        },
+        {
+          "product_id": 339357,
+          "text": "Balenciaga\n\n발렌시아가 허머 더비 블랙\n\n42%\n\n850,000원\n\n관심 9\n\n · 리뷰 5\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 199930,
+          "text": "Bottega Veneta\n\n보테가 베네타 타이어 앵클 첼시 부츠 블랙 베이퍼\n\n57%\n\n730,000원\n\n관심 29\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 157305,
+          "text": "Balenciaga\n\n발렌시아가 시티 로퍼 블랙\n\n500,000원\n\n관심 42"
+        },
+        {
+          "product_id": 619393,
+          "text": "Bottega Veneta\n\n보테가 베네타 레이스 업 부츠 블랙\n\n61%\n\n689,000원\n\n관심 20"
+        }
+      ]
+    },
+    {
+      "sku": "697W4450LBB",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 635.66,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"697W4450LBB\" SPU=\"697W4450LBB\"",
+      "candidates": [
+        {
+          "product_id": 92888,
+          "text": "Balenciaga\n\n발렌시아가 XL 아미 부츠 풀 에바 블랙\n\n819,000원\n\n관심 906\n\n · 리뷰 216\n\n · 거래 109"
+        },
+        {
+          "product_id": 339357,
+          "text": "Balenciaga\n\n발렌시아가 허머 더비 블랙\n\n42%\n\n850,000원\n\n관심 9\n\n · 리뷰 5\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 199930,
+          "text": "Bottega Veneta\n\n보테가 베네타 타이어 앵클 첼시 부츠 블랙 베이퍼\n\n57%\n\n730,000원\n\n관심 29\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 157305,
+          "text": "Balenciaga\n\n발렌시아가 시티 로퍼 블랙\n\n500,000원\n\n관심 42"
+        },
+        {
+          "product_id": 619393,
+          "text": "Bottega Veneta\n\n보테가 베네타 레이스 업 부츠 블랙\n\n61%\n\n689,000원\n\n관심 20"
+        }
+      ]
+    },
+    {
+      "sku": "11216W4466DRN",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 2257.38,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11216W4466DRN\" SPU=\"11216W4466DRN\"",
+      "candidates": [
+        {
+          "product_id": 386794,
+          "text": "UGG\n\n(W) 어그 클래식 울트라 미니 뉴 하이츠 부츠 블랙\n\n12%\n\n225,000원\n\n관심 229\n\n · 리뷰 9\n\n · 거래 33"
+        },
+        {
+          "product_id": 603246,
+          "text": "UGG\n\n(W) 어그 클래식 마이크로 블랙\n\n40%\n\n179,000원\n\n관심 41\n\n · 리뷰 4\n\n · 거래 21\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 382493,
+          "text": "UGG\n\n(W) 어그 미니 플랫폼 부츠 블랙\n\n53%\n\n120,000원\n\n관심 260\n\n · 리뷰 12\n\n · 거래 71"
+        },
+        {
+          "product_id": 350142,
+          "text": "UGG\n\n(W) 어그 클래식 울트라 미니 뉴 하이츠 부츠 체스트넛\n\n104,000원\n\n관심 474\n\n · 리뷰 28\n\n · 거래 145"
+        },
+        {
+          "product_id": 637055,
+          "text": "UGG\n\n어그 클래식 울트라 미니 웨더 하이브리드 체스트넛 화이트캡\n\n27%\n\n220,000원\n\n관심 168\n\n · 리뷰 25\n\n · 거래 85"
+        }
+      ]
+    },
+    {
+      "sku": "11216W4466DRN",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 2257.38,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11216W4466DRN\" SPU=\"11216W4466DRN\"",
+      "candidates": [
+        {
+          "product_id": 386794,
+          "text": "UGG\n\n(W) 어그 클래식 울트라 미니 뉴 하이츠 부츠 블랙\n\n12%\n\n225,000원\n\n관심 229\n\n · 리뷰 9\n\n · 거래 33"
+        },
+        {
+          "product_id": 603246,
+          "text": "UGG\n\n(W) 어그 클래식 마이크로 블랙\n\n40%\n\n179,000원\n\n관심 41\n\n · 리뷰 4\n\n · 거래 21\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 382493,
+          "text": "UGG\n\n(W) 어그 미니 플랫폼 부츠 블랙\n\n53%\n\n120,000원\n\n관심 260\n\n · 리뷰 12\n\n · 거래 71"
+        },
+        {
+          "product_id": 350142,
+          "text": "UGG\n\n(W) 어그 클래식 울트라 미니 뉴 하이츠 부츠 체스트넛\n\n104,000원\n\n관심 474\n\n · 리뷰 28\n\n · 거래 145"
+        },
+        {
+          "product_id": 637055,
+          "text": "UGG\n\n어그 클래식 울트라 미니 웨더 하이브리드 체스트넛 화이트캡\n\n27%\n\n220,000원\n\n관심 168\n\n · 리뷰 25\n\n · 거래 85"
+        }
+      ]
+    },
+    {
+      "sku": "F2170L805BLK",
+      "option": "42",
+      "stock": 1,
+      "eur_price": 906.56,
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2170L805BLK",
+      "option": "42.5",
+      "stock": 1,
+      "eur_price": 906.56,
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2170L805BLK",
+      "option": "43",
+      "stock": 2,
+      "eur_price": 906.56,
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "11035W5027WHT",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 796.72,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11035W5027WHT\" SPU=\"11035W5027WHT\"",
+      "candidates": [
+        {
+          "product_id": 528682,
+          "text": "Montbell\n\n(W) 몽벨 템페스트 자켓 네이비\n\n29%\n\n409,000원\n\n관심 7"
+        },
+        {
+          "product_id": 528676,
+          "text": "Montbell\n\n몽벨 템페스트 자켓 블루\n\n29%\n\n419,000원\n\n관심 1"
+        },
+        {
+          "product_id": 636012,
+          "text": "Montbell\n\n몽벨 템페스트 자켓 블루\n\n397,000원\n\n관심 4"
+        },
+        {
+          "product_id": 817511,
+          "text": "Montbell\n\n몽벨 윈드 블라스트 브이넥 자켓 블랙\n\n90,000원\n\n관심 3"
+        },
+        {
+          "product_id": 777034,
+          "text": "Montbell\n\n(W) 몽벨 필드 레인 자켓 블루\n\n373,000원"
+        }
+      ]
+    },
+    {
+      "sku": "W2173W27TE",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 1068.86,
+      "matched": true,
+      "product_id": 949329,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/949329",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    }
+  ]
+}
