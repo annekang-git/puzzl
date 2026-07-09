@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-09T20:52:35.401Z",
+  "fetched_at": "2026-07-09T22:22:45.512Z",
   "input_file": "targets-tombrown.json",
   "total_targets": 143,
   "matched": 107,
@@ -1124,188 +1124,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/209396",
       "market": {
-        "last_sale_price": 426000,
-        "lowest_ask": 698000,
-        "highest_bid": 170000,
-        "change_text": "▲ 14,000원(+3.4%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 426000,
-          "option": "ONE SIZE",
-          "date_created": "2026-03-20T15:32:16Z",
-          "date_text": "26/03/21",
-          "is_immediate": true
-        },
-        {
-          "price": 412000,
-          "option": "ONE SIZE",
-          "date_created": "2026-01-08T09:00:03Z",
-          "date_text": "26/01/08",
-          "is_immediate": true
-        },
-        {
-          "price": 385000,
-          "option": "ONE SIZE",
-          "date_created": "2025-12-31T00:29:10Z",
-          "date_text": "25/12/31",
-          "is_immediate": true
-        },
-        {
-          "price": 378000,
-          "option": "ONE SIZE",
-          "date_created": "2025-12-11T06:10:17Z",
-          "date_text": "25/12/11",
-          "is_immediate": true
-        },
-        {
-          "price": 369000,
-          "option": "ONE SIZE",
-          "date_created": "2025-12-02T07:38:22Z",
-          "date_text": "25/12/02",
-          "is_immediate": true
-        },
-        {
-          "price": 398000,
-          "option": "ONE SIZE",
-          "date_created": "2025-09-28T13:01:30Z",
-          "date_text": "25/09/28",
-          "is_immediate": true
-        },
-        {
-          "price": 397000,
-          "option": "ONE SIZE",
-          "date_created": "2025-08-27T12:27:43Z",
-          "date_text": "25/08/27",
-          "is_immediate": true
-        },
-        {
-          "price": 389000,
-          "option": "ONE SIZE",
-          "date_created": "2025-07-13T04:25:48Z",
-          "date_text": "25/07/13",
-          "is_immediate": true
-        },
-        {
-          "price": 367000,
-          "option": "ONE SIZE",
-          "date_created": "2025-06-19T11:12:45Z",
-          "date_text": "25/06/19",
-          "is_immediate": true
-        },
-        {
-          "price": 395000,
-          "option": "ONE SIZE",
-          "date_created": "2025-06-09T15:55:56Z",
-          "date_text": "25/06/10",
-          "is_immediate": false
-        },
-        {
-          "price": 414000,
-          "option": "ONE SIZE",
-          "date_created": "2025-03-19T23:35:12Z",
-          "date_text": "25/03/20",
-          "is_immediate": true
-        },
-        {
-          "price": 359000,
-          "option": "ONE SIZE",
-          "date_created": "2024-07-15T10:45:45Z",
-          "date_text": "24/07/15",
-          "is_immediate": false
-        },
-        {
-          "price": 355000,
-          "option": "ONE SIZE",
-          "date_created": "2024-07-12T14:35:15Z",
-          "date_text": "24/07/12",
-          "is_immediate": true
-        },
-        {
-          "price": 344000,
-          "option": "ONE SIZE",
-          "date_created": "2024-07-05T03:26:28Z",
-          "date_text": "24/07/05",
-          "is_immediate": true
-        },
-        {
-          "price": 369000,
-          "option": "ONE SIZE",
-          "date_created": "2024-06-26T17:24:02Z",
-          "date_text": "24/06/27",
-          "is_immediate": false
-        },
-        {
-          "price": 360000,
-          "option": "ONE SIZE",
-          "date_created": "2024-06-09T03:23:20Z",
-          "date_text": "24/06/09",
-          "is_immediate": false
-        },
-        {
-          "price": 369000,
-          "option": "ONE SIZE",
-          "date_created": "2024-05-14T14:06:59Z",
-          "date_text": "24/05/14",
-          "is_immediate": false
-        },
-        {
-          "price": 347000,
-          "option": "ONE SIZE",
-          "date_created": "2024-04-24T14:59:07Z",
-          "date_text": "24/04/24",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 698000,
-          "option": "ONE SIZE",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 170000,
-          "option": "ONE SIZE",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 18,
-        "asks": 1,
-        "bids": 1
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▲ 14,000원(+3.4%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#F15746",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "ONE SIZE",
-      "kream_options_available": [
-        "ONE SIZE"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MJT022H00535068",
@@ -1317,170 +1152,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/59015",
       "market": {
-        "last_sale_price": 830000,
-        "lowest_ask": 809000,
-        "highest_bid": 706000,
-        "change_text": "▼ 68,000원(-8.0%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 830000,
-          "option": "2",
-          "date_created": "2026-06-28T11:37:22Z",
-          "date_text": "26/06/28",
-          "is_immediate": true
-        },
-        {
-          "price": 700000,
-          "option": "2",
-          "date_created": "2026-05-29T08:04:35Z",
-          "date_text": "26/05/29",
-          "is_immediate": false
-        },
-        {
-          "price": 799000,
-          "option": "2",
-          "date_created": "2026-05-05T03:28:59Z",
-          "date_text": "26/05/05",
-          "is_immediate": true
-        },
-        {
-          "price": 798000,
-          "option": "2",
-          "date_created": "2026-02-21T04:43:51Z",
-          "date_text": "26/02/21",
-          "is_immediate": false
-        },
-        {
-          "price": 849000,
-          "option": "2",
-          "date_created": "2026-02-05T15:17:28Z",
-          "date_text": "26/02/06",
-          "is_immediate": true
-        }
-      ],
-      "asks": [
-        {
-          "price": 809000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 810000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 820000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 830000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 859000,
-          "option": "2",
-          "quantity": 5
-        },
-        {
-          "price": 1020000,
-          "option": "2",
-          "quantity": 2
-        },
-        {
-          "price": 1057000,
-          "option": "2",
-          "quantity": 2
-        },
-        {
-          "price": 1081000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 1160000,
-          "option": "2",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 706000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 705000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 616000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 319000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 300000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 176000,
-          "option": "2",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 5,
-        "asks": 9,
-        "bids": 6
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 68,000원(-8.0%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "2",
-      "kream_options_available": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "00"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MKQ016AY2001415",
@@ -1580,19 +1268,19 @@
         },
         {
           "product_id": 58373,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 스트라이프 그로그랭 암밴드 클래식 셔츠 화이트\n\n58%\n\n300,000원\n\n관심 1,416\n\n · 리뷰 56\n\n · 거래 341\n\n빠른배송\n\n내일 도착 예정"
+          "text": "Thom Browne\n\n톰브라운 옥스포드 스트라이프 그로그랭 암밴드 클래식 셔츠 화이트\n\n58%\n\n300,000원\n\n관심 1,418\n\n · 리뷰 56\n\n · 거래 341\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 59013,
+          "text": "Thom Browne\n\n톰브라운 솔리드 포플린 그로그랭 암밴드 클래식 롱슬리브 포인트 칼라 버튼 다운 셔츠 화이트\n\n36%\n\n499,000원\n\n관심 461\n\n · 리뷰 18\n\n · 거래 138\n\n빠른배송\n\n내일 도착 예정"
         },
         {
           "product_id": 140794,
           "text": "Thom Browne\n\n톰브라운 깅엄 옥스포드 암밴드 클래식 셔츠 미디움 그레이\n\n64%\n\n328,000원\n\n관심 24\n\n · 리뷰 3\n\n · 거래 12"
         },
         {
-          "product_id": 37599,
-          "text": "Thom Browne\n\n톰브라운 그로그랭 플래킷 솔리드 포플린 셔츠 화이트\n\n443,000원\n\n관심 265\n\n · 리뷰 9\n\n · 거래 63"
-        },
-        {
-          "product_id": 813236,
-          "text": "Thom Browne\n\n톰브라운 클래식 옥스포드 버튼 다운 셔츠 라이트 블루\n\n260,000원\n\n관심 16\n\n · 리뷰 3\n\n · 거래 8"
+          "product_id": 220972,
+          "text": "Thom Browne\n\n(W) 톰브라운 버튼 다운 코튼 옥스포드 셔츠 화이트\n\n374,000원\n\n관심 154\n\n · 리뷰 5\n\n · 거래 29\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -1606,224 +1294,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/455017",
       "market": {
-        "last_sale_price": 1074000,
-        "lowest_ask": 1074000,
-        "highest_bid": 301000,
-        "change_text": "▼ 94,000원(-8.8%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 1074000,
-          "option": "3",
-          "date_created": "2026-07-02T13:56:15Z",
-          "date_text": "26/07/02",
-          "is_immediate": false
-        },
-        {
-          "price": 980000,
-          "option": "3",
-          "date_created": "2026-06-03T14:29:35Z",
-          "date_text": "26/06/03",
-          "is_immediate": false
-        },
-        {
-          "price": 1044000,
-          "option": "3",
-          "date_created": "2026-04-25T11:13:13Z",
-          "date_text": "26/04/25",
-          "is_immediate": false
-        },
-        {
-          "price": 1010000,
-          "option": "3",
-          "date_created": "2026-04-21T11:05:54Z",
-          "date_text": "26/04/21",
-          "is_immediate": false
-        },
-        {
-          "price": 1140000,
-          "option": "3",
-          "date_created": "2026-04-06T02:33:13Z",
-          "date_text": "26/04/06",
-          "is_immediate": true
-        },
-        {
-          "price": 1000000,
-          "option": "3",
-          "date_created": "2026-04-01T05:44:49Z",
-          "date_text": "26/04/01",
-          "is_immediate": false
-        },
-        {
-          "price": 1049000,
-          "option": "3",
-          "date_created": "2026-03-15T13:33:08Z",
-          "date_text": "26/03/15",
-          "is_immediate": false
-        },
-        {
-          "price": 1050000,
-          "option": "3",
-          "date_created": "2026-03-04T04:59:24Z",
-          "date_text": "26/03/04",
-          "is_immediate": true
-        },
-        {
-          "price": 1019000,
-          "option": "3",
-          "date_created": "2026-02-14T03:18:56Z",
-          "date_text": "26/02/14",
-          "is_immediate": false
-        },
-        {
-          "price": 1099000,
-          "option": "3",
-          "date_created": "2025-10-15T06:51:17Z",
-          "date_text": "25/10/15",
-          "is_immediate": false
-        },
-        {
-          "price": 1090000,
-          "option": "3",
-          "date_created": "2025-10-11T14:13:32Z",
-          "date_text": "25/10/11",
-          "is_immediate": false
-        },
-        {
-          "price": 1280000,
-          "option": "3",
-          "date_created": "2025-04-06T08:14:58Z",
-          "date_text": "25/04/06",
-          "is_immediate": false
-        },
-        {
-          "price": 1300000,
-          "option": "3",
-          "date_created": "2025-03-23T07:04:30Z",
-          "date_text": "25/03/23",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 1074000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 1099000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 1100000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 1236000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 1303000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 1312000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 1320000,
-          "option": "3",
-          "quantity": 2
-        },
-        {
-          "price": 1324000,
-          "option": "3",
-          "quantity": 20
-        },
-        {
-          "price": 1366000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 1375000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 1394000,
-          "option": "3",
-          "quantity": 2
-        },
-        {
-          "price": 1395000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 1483000,
-          "option": "3",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 301000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 300000,
-          "option": "3",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 13,
-        "asks": 13,
-        "bids": 2
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 94,000원(-8.8%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "3",
-      "kream_options_available": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "00"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MJT545AJ0233415",
@@ -1836,30 +1323,21 @@
       "product_url": "https://kream.co.kr/products/672363",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 1548000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 1548000,
-          "option": "1",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 1,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "1",
-      "kream_options_available": [
-        "1",
-        "2"
-      ],
+      "kream_option": null,
+      "kream_options_available": [],
       "option_mismatch": true
     },
     {
@@ -1871,24 +1349,24 @@
       "error": "No KREAM match for SKU=\"UAW085A00198250\" SPU=\"UAW085A00198250\"",
       "candidates": [
         {
+          "product_id": 48686,
+          "text": "Thom Browne\n\n톰브라운 서스테이너블 파인 메리노 울 사선 클래식 가디건 네이비\n\n680,000원\n\n관심 3,419\n\n · 리뷰 173\n\n · 거래 1,283\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
           "product_id": 66540,
           "text": "Thom Browne\n\n톰브라운 더블집 레글런 자켓 네이비\n\n33%\n\n1,990,000원\n\n관심 22\n\n · 거래 1"
         },
         {
-          "product_id": 93129,
-          "text": "Thom Browne\n\n톰브라운 매트 나일론 사선 스트라이프 다운필 퀼티드 후드 자켓 블랙\n\n1,584,000원\n\n관심 264\n\n · 리뷰 2\n\n · 거래 17"
+          "product_id": 90868,
+          "text": "Thom Browne\n\n톰브라운 코튼 언컨스트럭티드 싱글 브레스티드 사선 클래식 자켓 네이비\n\n41%\n\n1,266,000원\n\n관심 430\n\n · 리뷰 8\n\n · 거래 30\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 672363,
-          "text": "Thom Browne\n\n톰브라운 루프백 오버사이즈 RWB 스트라이프 자켓 네이비\n\n44%\n\n1,548,000원\n\n관심 22"
+          "product_id": 37603,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 후드 집업 네이비\n\n31%\n\n818,000원\n\n관심 3,658\n\n · 리뷰 122\n\n · 거래 811\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 54265,
-          "text": "Thom Browne\n\n톰브라운 밀라노 스티치 사선 크루넥 풀오버 니트 미디움 그레이\n\n45%\n\n804,000원\n\n관심 2,400\n\n · 리뷰 122\n\n · 거래 895\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
-          "product_id": 64748,
-          "text": "Thom Browne\n\n톰브라운 매트 나일론 사선 다운 베스트 네이비\n\n53%\n\n1,289,000원\n\n관심 185\n\n · 리뷰 9\n\n · 거래 50"
+          "product_id": 63828,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 센터 백 스트라이프 후드 집업 네이비\n\n41%\n\n850,000원\n\n관심 1,782\n\n · 리뷰 101\n\n · 거래 485\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -1950,39 +1428,22 @@
       "product_url": "https://kream.co.kr/products/815674",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 741000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 741000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 742000,
-          "option": "2",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 2,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "2",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MJP244EJ0251415",
@@ -1995,44 +1456,22 @@
       "product_url": "https://kream.co.kr/products/815674",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 741000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 741000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 742000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 1123000,
-          "option": "3",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 3,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "3",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MJP244EJ0251415",
@@ -2045,44 +1484,22 @@
       "product_url": "https://kream.co.kr/products/815674",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 741000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 741000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 742000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 1123000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 3,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "4",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MJP244EJ0251415",
@@ -2095,44 +1512,22 @@
       "product_url": "https://kream.co.kr/products/815674",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 741000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 741000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 742000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 1790000,
-          "option": "5",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 3,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "5",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "UAW090A00198001",
@@ -2855,156 +2250,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/63498",
       "market": {
-        "last_sale_price": 644000,
-        "lowest_ask": 569000,
-        "highest_bid": 400000,
-        "change_text": "▲ 363,000원(+82.3%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 644000,
-          "option": "4",
-          "date_created": "2026-03-30T19:35:41Z",
-          "date_text": "26/03/31",
-          "is_immediate": false
-        },
-        {
-          "price": 660000,
-          "option": "4",
-          "date_created": "2026-01-23T07:14:24Z",
-          "date_text": "26/01/23",
-          "is_immediate": true
-        },
-        {
-          "price": 549000,
-          "option": "4",
-          "date_created": "2025-11-27T08:36:19Z",
-          "date_text": "25/11/27",
-          "is_immediate": false
-        },
-        {
-          "price": 590000,
-          "option": "4",
-          "date_created": "2025-09-29T10:59:37Z",
-          "date_text": "25/09/29",
-          "is_immediate": true
-        },
-        {
-          "price": 548000,
-          "option": "4",
-          "date_created": "2025-08-12T09:41:55Z",
-          "date_text": "25/08/12",
-          "is_immediate": true
-        },
-        {
-          "price": 580000,
-          "option": "4",
-          "date_created": "2025-06-30T00:56:32Z",
-          "date_text": "25/06/30",
-          "is_immediate": false
-        },
-        {
-          "price": 629000,
-          "option": "4",
-          "date_created": "2025-03-25T03:36:18Z",
-          "date_text": "25/03/25",
-          "is_immediate": true
-        }
-      ],
-      "asks": [
-        {
-          "price": 569000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 570000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 580000,
-          "option": "4",
-          "quantity": 2
-        },
-        {
-          "price": 582000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 673000,
-          "option": "4",
-          "quantity": 3
-        },
-        {
-          "price": 748000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 798000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 799000,
-          "option": "4",
-          "quantity": 4
-        },
-        {
-          "price": 836000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 400000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 7,
-        "asks": 9,
-        "bids": 1
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▲ 363,000원(+82.3%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#F15746",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "4",
-      "kream_options_available": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MJQ008H00535068",
@@ -3017,90 +2279,22 @@
       "product_url": "https://kream.co.kr/products/63498",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 649000,
-        "highest_bid": 210000,
-        "change_text": "▲ 363,000원(+82.3%)"
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 649000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 650000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 658000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 659000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 799000,
-          "option": "5",
-          "quantity": 2
-        },
-        {
-          "price": 836000,
-          "option": "5",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 210000,
-          "option": "5",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
+      "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 6,
-        "bids": 1
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▲ 363,000원(+82.3%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#F15746",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "5",
-      "kream_options_available": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MWL010EF0313480",
@@ -3112,97 +2306,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/225857",
       "market": {
-        "last_sale_price": 450000,
-        "lowest_ask": 460000,
+        "last_sale_price": null,
+        "lowest_ask": null,
         "highest_bid": null,
-        "change_text": "▼ 40,000원(-9.1%)"
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 450000,
-          "option": "1",
-          "date_created": "2025-12-12T05:46:11Z",
-          "date_text": "25/12/12",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 460000,
-          "option": "1",
-          "quantity": 1
-        },
-        {
-          "price": 477000,
-          "option": "1",
-          "quantity": 1
-        },
-        {
-          "price": 499000,
-          "option": "1",
-          "quantity": 4
-        },
-        {
-          "price": 504000,
-          "option": "1",
-          "quantity": 1
-        },
-        {
-          "price": 522000,
-          "option": "1",
-          "quantity": 1
-        },
-        {
-          "price": 562000,
-          "option": "1",
-          "quantity": 1
-        },
-        {
-          "price": 1411000,
-          "option": "1",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
       "bids": [],
       "totals": {
-        "sales": 1,
-        "asks": 7,
+        "sales": 0,
+        "asks": 0,
         "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 40,000원(-9.1%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "1",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MWL010EF0313480",
@@ -3214,191 +2334,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/225857",
       "market": {
-        "last_sale_price": 428000,
-        "lowest_ask": 424000,
-        "highest_bid": 221000,
-        "change_text": "▼ 40,000원(-9.1%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 428000,
-          "option": "2",
-          "date_created": "2026-03-08T14:20:08Z",
-          "date_text": "26/03/08",
-          "is_immediate": false
-        },
-        {
-          "price": 429000,
-          "option": "2",
-          "date_created": "2026-02-24T08:34:58Z",
-          "date_text": "26/02/24",
-          "is_immediate": false
-        },
-        {
-          "price": 429000,
-          "option": "2",
-          "date_created": "2025-07-14T02:39:49Z",
-          "date_text": "25/07/14",
-          "is_immediate": false
-        },
-        {
-          "price": 445000,
-          "option": "2",
-          "date_created": "2025-07-09T20:56:38Z",
-          "date_text": "25/07/10",
-          "is_immediate": false
-        },
-        {
-          "price": 445000,
-          "option": "2",
-          "date_created": "2025-04-27T03:12:09Z",
-          "date_text": "25/04/27",
-          "is_immediate": false
-        },
-        {
-          "price": 419000,
-          "option": "2",
-          "date_created": "2025-01-13T13:55:21Z",
-          "date_text": "25/01/13",
-          "is_immediate": false
-        },
-        {
-          "price": 419000,
-          "option": "2",
-          "date_created": "2024-12-19T19:59:24Z",
-          "date_text": "24/12/20",
-          "is_immediate": false
-        },
-        {
-          "price": 221000,
-          "option": "2",
-          "date_created": "2024-11-18T01:28:20Z",
-          "date_text": "24/11/18",
-          "is_immediate": false
-        },
-        {
-          "price": 459000,
-          "option": "2",
-          "date_created": "2024-11-04T06:45:01Z",
-          "date_text": "24/11/04",
-          "is_immediate": false
-        },
-        {
-          "price": 409000,
-          "option": "2",
-          "date_created": "2024-09-03T20:45:40Z",
-          "date_text": "24/09/04",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 424000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 431000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 459000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 460000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 477000,
-          "option": "2",
-          "quantity": 3
-        },
-        {
-          "price": 495000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 499000,
-          "option": "2",
-          "quantity": 5
-        },
-        {
-          "price": 504000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 520000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 522000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 562000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 1411000,
-          "option": "2",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 221000,
-          "option": "2",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 10,
-        "asks": 12,
-        "bids": 1
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 40,000원(-9.1%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "2",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MWL010EF0313480",
@@ -3410,196 +2362,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/225857",
       "market": {
-        "last_sale_price": 440000,
-        "lowest_ask": 477000,
-        "highest_bid": 270000,
-        "change_text": "▼ 40,000원(-9.1%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 440000,
-          "option": "3",
-          "date_created": "2026-05-26T07:58:52Z",
-          "date_text": "26/05/26",
-          "is_immediate": true
-        },
-        {
-          "price": 430000,
-          "option": "3",
-          "date_created": "2026-03-20T14:22:28Z",
-          "date_text": "26/03/20",
-          "is_immediate": false
-        },
-        {
-          "price": 425000,
-          "option": "3",
-          "date_created": "2026-03-10T05:09:11Z",
-          "date_text": "26/03/10",
-          "is_immediate": true
-        },
-        {
-          "price": 424000,
-          "option": "3",
-          "date_created": "2026-02-13T17:59:49Z",
-          "date_text": "26/02/14",
-          "is_immediate": true
-        },
-        {
-          "price": 405000,
-          "option": "3",
-          "date_created": "2026-01-14T06:46:56Z",
-          "date_text": "26/01/14",
-          "is_immediate": false
-        },
-        {
-          "price": 470000,
-          "option": "3",
-          "date_created": "2025-12-20T12:57:04Z",
-          "date_text": "25/12/20",
-          "is_immediate": false
-        },
-        {
-          "price": 433000,
-          "option": "3",
-          "date_created": "2025-11-11T02:03:01Z",
-          "date_text": "25/11/11",
-          "is_immediate": false
-        },
-        {
-          "price": 420000,
-          "option": "3",
-          "date_created": "2025-10-21T05:39:06Z",
-          "date_text": "25/10/21",
-          "is_immediate": false
-        },
-        {
-          "price": 376000,
-          "option": "3",
-          "date_created": "2025-09-30T12:04:09Z",
-          "date_text": "25/09/30",
-          "is_immediate": true
-        },
-        {
-          "price": 418000,
-          "option": "3",
-          "date_created": "2025-08-11T09:37:17Z",
-          "date_text": "25/08/11",
-          "is_immediate": false
-        },
-        {
-          "price": 399000,
-          "option": "3",
-          "date_created": "2025-02-18T00:59:03Z",
-          "date_text": "25/02/18",
-          "is_immediate": false
-        },
-        {
-          "price": 400000,
-          "option": "3",
-          "date_created": "2024-10-15T07:46:55Z",
-          "date_text": "24/10/15",
-          "is_immediate": false
-        },
-        {
-          "price": 430000,
-          "option": "3",
-          "date_created": "2024-09-29T16:42:22Z",
-          "date_text": "24/09/30",
-          "is_immediate": false
-        },
-        {
-          "price": 474000,
-          "option": "3",
-          "date_created": "2024-09-20T06:52:59Z",
-          "date_text": "24/09/20",
-          "is_immediate": false
-        },
-        {
-          "price": 524000,
-          "option": "3",
-          "date_created": "2024-03-25T12:01:45Z",
-          "date_text": "24/03/25",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 477000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 495000,
-          "option": "3",
-          "quantity": 2
-        },
-        {
-          "price": 499000,
-          "option": "3",
-          "quantity": 4
-        },
-        {
-          "price": 509000,
-          "option": "3",
-          "quantity": 2
-        },
-        {
-          "price": 521000,
-          "option": "3",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 270000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 230000,
-          "option": "3",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 15,
-        "asks": 5,
-        "bids": 2
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 40,000원(-9.1%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "3",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MWL010EF0313480",
@@ -3611,129 +2390,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/225857",
       "market": {
-        "last_sale_price": 430000,
-        "lowest_ask": 494000,
-        "highest_bid": 251000,
-        "change_text": "▼ 40,000원(-9.1%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 430000,
-          "option": "4",
-          "date_created": "2026-03-30T07:21:11Z",
-          "date_text": "26/03/30",
-          "is_immediate": true
-        },
-        {
-          "price": 419000,
-          "option": "4",
-          "date_created": "2026-03-10T12:33:11Z",
-          "date_text": "26/03/10",
-          "is_immediate": true
-        },
-        {
-          "price": 440000,
-          "option": "4",
-          "date_created": "2025-03-06T17:50:31Z",
-          "date_text": "25/03/07",
-          "is_immediate": false
-        },
-        {
-          "price": 466000,
-          "option": "4",
-          "date_created": "2024-05-26T10:24:40Z",
-          "date_text": "24/05/26",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 494000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 495000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 499000,
-          "option": "4",
-          "quantity": 3
-        },
-        {
-          "price": 504000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 509000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 522000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 562000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 1411000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 251000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 4,
-        "asks": 8,
-        "bids": 1
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 40,000원(-9.1%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "4",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MWL010EF0313480",
@@ -3745,141 +2418,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/225857",
       "market": {
-        "last_sale_price": 400000,
-        "lowest_ask": 451000,
-        "highest_bid": 250000,
-        "change_text": "▼ 40,000원(-9.1%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 400000,
-          "option": "5",
-          "date_created": "2026-06-28T05:54:33Z",
-          "date_text": "26/06/28",
-          "is_immediate": true
-        },
-        {
-          "price": 326000,
-          "option": "5",
-          "date_created": "2026-05-19T19:15:36Z",
-          "date_text": "26/05/20",
-          "is_immediate": false
-        },
-        {
-          "price": 388000,
-          "option": "5",
-          "date_created": "2026-04-29T00:24:01Z",
-          "date_text": "26/04/29",
-          "is_immediate": false
-        },
-        {
-          "price": 345000,
-          "option": "5",
-          "date_created": "2026-02-21T13:34:05Z",
-          "date_text": "26/02/21",
-          "is_immediate": false
-        },
-        {
-          "price": 383000,
-          "option": "5",
-          "date_created": "2026-01-18T14:30:59Z",
-          "date_text": "26/01/18",
-          "is_immediate": false
-        },
-        {
-          "price": 369000,
-          "option": "5",
-          "date_created": "2025-12-17T13:52:18Z",
-          "date_text": "25/12/17",
-          "is_immediate": false
-        },
-        {
-          "price": 433000,
-          "option": "5",
-          "date_created": "2025-06-04T02:29:59Z",
-          "date_text": "25/06/04",
-          "is_immediate": false
-        },
-        {
-          "price": 450000,
-          "option": "5",
-          "date_created": "2025-04-30T18:20:00Z",
-          "date_text": "25/05/01",
-          "is_immediate": false
-        },
-        {
-          "price": 474000,
-          "option": "5",
-          "date_created": "2024-09-27T04:46:22Z",
-          "date_text": "24/09/27",
-          "is_immediate": false
-        },
-        {
-          "price": 380000,
-          "option": "5",
-          "date_created": "2024-03-16T08:46:00Z",
-          "date_text": "24/03/16",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 451000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 479000,
-          "option": "5",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 250000,
-          "option": "5",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 10,
-        "asks": 2,
-        "bids": 1
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 40,000원(-9.1%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "5",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MJP193AJ0129100",
@@ -3891,82 +2446,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/332574",
       "market": {
-        "last_sale_price": 445000,
-        "lowest_ask": 443000,
+        "last_sale_price": null,
+        "lowest_ask": null,
         "highest_bid": null,
-        "change_text": "▼ 75,000원(-14.4%)"
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 445000,
-          "option": "4",
-          "date_created": "2025-04-28T12:13:01Z",
-          "date_text": "25/04/28",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 443000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 460000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 708000,
-          "option": "4",
-          "quantity": 2
-        },
-        {
-          "price": 718000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
       "bids": [],
       "totals": {
-        "sales": 1,
-        "asks": 4,
+        "sales": 0,
+        "asks": 0,
         "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 75,000원(-14.4%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "4",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MKA002AY1014058",
@@ -3978,153 +2474,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/94365",
       "market": {
-        "last_sale_price": 687000,
-        "lowest_ask": 758000,
-        "highest_bid": 200000,
-        "change_text": "▼ 195,000원(-22.1%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 687000,
-          "option": "2",
-          "date_created": "2025-12-29T14:46:11Z",
-          "date_text": "25/12/29",
-          "is_immediate": false
-        },
-        {
-          "price": 618000,
-          "option": "2",
-          "date_created": "2025-10-02T04:48:31Z",
-          "date_text": "25/10/02",
-          "is_immediate": true
-        },
-        {
-          "price": 357000,
-          "option": "2",
-          "date_created": "2025-08-20T08:09:28Z",
-          "date_text": "25/08/20",
-          "is_immediate": false
-        },
-        {
-          "price": 637000,
-          "option": "2",
-          "date_created": "2025-06-21T18:22:18Z",
-          "date_text": "25/06/22",
-          "is_immediate": false
-        },
-        {
-          "price": 659000,
-          "option": "2",
-          "date_created": "2025-06-01T06:08:32Z",
-          "date_text": "25/06/01",
-          "is_immediate": false
-        },
-        {
-          "price": 662000,
-          "option": "2",
-          "date_created": "2025-04-18T05:19:01Z",
-          "date_text": "25/04/18",
-          "is_immediate": false
-        },
-        {
-          "price": 734000,
-          "option": "2",
-          "date_created": "2024-10-21T22:19:11Z",
-          "date_text": "24/10/22",
-          "is_immediate": false
-        },
-        {
-          "price": 854000,
-          "option": "2",
-          "date_created": "2023-03-02T12:19:51Z",
-          "date_text": "23/03/02",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 758000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 773000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 776000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 865000,
-          "option": "2",
-          "quantity": 2
-        },
-        {
-          "price": 877000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 1032000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 1465000,
-          "option": "2",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 200000,
-          "option": "2",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 8,
-        "asks": 7,
-        "bids": 1
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 195,000원(-22.1%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "2",
-      "kream_options_available": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MTU335WF0576415",
@@ -4137,75 +2503,22 @@
       "product_url": "https://kream.co.kr/products/558342",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 653000,
+        "lowest_ask": null,
         "highest_bid": null,
-        "change_text": "-"
+        "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 653000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 709000,
-          "option": "3",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 2,
+        "asks": 0,
         "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0; ;tl_1;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "-",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": true,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#4E4E4E",
-            "type": "text"
-          },
-          {
-            "key": ";tl_1;",
-            "text": "0원(0%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#4E4E4E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "3",
-      "kream_options_available": [
-        "2",
-        "3",
-        "4"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MTU335WF0576415",
@@ -4218,70 +2531,22 @@
       "product_url": "https://kream.co.kr/products/558342",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 1299000,
+        "lowest_ask": null,
         "highest_bid": null,
-        "change_text": "-"
+        "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 1299000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 1,
+        "asks": 0,
         "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0; ;tl_1;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "-",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": true,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#4E4E4E",
-            "type": "text"
-          },
-          {
-            "key": ";tl_1;",
-            "text": "0원(0%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#4E4E4E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "4",
-      "kream_options_available": [
-        "2",
-        "3",
-        "4"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MJT554AJ0248415",
@@ -4294,43 +2559,22 @@
       "product_url": "https://kream.co.kr/products/829089",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 1017000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 1017000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 1319000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 1395000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 3,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "4",
-      "kream_options_available": [
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MJT554AJ0248415",
@@ -4343,43 +2587,22 @@
       "product_url": "https://kream.co.kr/products/829089",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 1318000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 1318000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 1319000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 1395000,
-          "option": "5",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 3,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "5",
-      "kream_options_available": [
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "FAS020B01690450",
@@ -4390,24 +2613,24 @@
       "error": "No KREAM match for SKU=\"FAS020B01690450\" SPU=\"FAS020B01690450\"",
       "candidates": [
         {
-          "product_id": 64739,
-          "text": "Thom Browne\n\n톰브라운 매트 나일론 사선 다운 봄버 자켓 네이비\n\n54%\n\n1,899,000원\n\n관심 555\n\n · 리뷰 25\n\n · 거래 84\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 496171,
+          "text": "Loewe\n\n(W) 로에베 소프트 카프스킨 페탈 아나그램 슬라이드 블랙\n\n18%\n\n898,000원\n\n관심 38\n\n · 거래 3"
         },
         {
-          "product_id": 97260,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 사선 숏 브이넥 가디건 네이비\n\n46%\n\n1,498,000원\n\n관심 41\n\n · 거래 1"
+          "product_id": 94841,
+          "text": "Loewe\n\n(W) 로에베 캔버스 아나그램 플랩 스니커즈 블랙\n\n699,000원\n\n관심 528\n\n · 리뷰 5\n\n · 거래 88"
         },
         {
-          "product_id": 64729,
-          "text": "Thom Browne\n\n톰브라운 테크 사선 드로우스트링 웨이스트 보드 스윔 쇼츠 미디움 그레이\n\n21%\n\n650,000원\n\n관심 293\n\n · 리뷰 8\n\n · 거래 111"
+          "product_id": 586941,
+          "text": "Loewe\n\n로에베 소프트 카프스킨 플렉스 애너그램 슬라이드 블랙\n\n35%\n\n779,000원\n\n관심 4\n\n · 거래 1"
         },
         {
-          "product_id": 179071,
-          "text": "Thom Browne\n\n톰브라운 셰틀랜드 울 래글런 사선 릴렉스드 브이넥 가디건 화이트\n\n33%\n\n1,090,000원\n\n관심 457\n\n · 리뷰 3\n\n · 거래 38"
+          "product_id": 621591,
+          "text": "Loewe\n\n로에베 코튼 릴렉스드 핏 티셔츠 블랙\n\n28%\n\n590,000원\n\n관심 5"
         },
         {
-          "product_id": 612364,
-          "text": "Thom Browne\n\n톰브라운 사선 울 폴로 셔츠 네이비\n\n1,625,000원\n\n관심 7"
+          "product_id": 425936,
+          "text": "Miu Miu\n\n(W) 미우 미우 타이어 테크니컬 패브릭 앤 스웨이드 발레리나 아이보리\n\n23%\n\n1,099,000원\n\n관심 322\n\n · 리뷰 4\n\n · 거래 15"
         }
       ]
     },
@@ -4504,24 +2727,24 @@
       "error": "No KREAM match for SKU=\"MWL430OF1098996\" SPU=\"MWL430OF1098996\"",
       "candidates": [
         {
-          "product_id": 813236,
-          "text": "Thom Browne\n\n톰브라운 클래식 옥스포드 버튼 다운 셔츠 라이트 블루\n\n260,000원\n\n관심 16\n\n · 리뷰 3\n\n · 거래 8"
-        },
-        {
           "product_id": 59013,
           "text": "Thom Browne\n\n톰브라운 솔리드 포플린 그로그랭 암밴드 클래식 롱슬리브 포인트 칼라 버튼 다운 셔츠 화이트\n\n36%\n\n499,000원\n\n관심 461\n\n · 리뷰 18\n\n · 거래 138\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 64160,
-          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 196182,
+          "text": "Thom Browne\n\n톰브라운 옥스포드 클래식 그로그랭 플래킷 셔츠 화이트\n\n44%\n\n414,000원\n\n관심 936\n\n · 리뷰 64\n\n · 거래 365\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 880641,
+          "text": "Loewe\n\n로에베 소프트 그레인 카프스킨 코인 카드 홀더 블랙\n\n534,000원\n\n관심 4"
         },
         {
           "product_id": 37599,
           "text": "Thom Browne\n\n톰브라운 그로그랭 플래킷 솔리드 포플린 셔츠 화이트\n\n443,000원\n\n관심 265\n\n · 리뷰 9\n\n · 거래 63"
         },
         {
-          "product_id": 66540,
-          "text": "Thom Browne\n\n톰브라운 더블집 레글런 자켓 네이비\n\n33%\n\n1,990,000원\n\n관심 22\n\n · 거래 1"
+          "product_id": 225857,
+          "text": "Thom Browne\n\n톰브라운 옥스포드 클래식 그로그랭 플래킷 셔츠 라이트 블루\n\n42%\n\n424,000원\n\n관심 65\n\n · 리뷰 13\n\n · 거래 40\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -4534,24 +2757,24 @@
       "error": "No KREAM match for SKU=\"MWL430OF1098996\" SPU=\"MWL430OF1098996\"",
       "candidates": [
         {
-          "product_id": 813236,
-          "text": "Thom Browne\n\n톰브라운 클래식 옥스포드 버튼 다운 셔츠 라이트 블루\n\n260,000원\n\n관심 16\n\n · 리뷰 3\n\n · 거래 8"
-        },
-        {
           "product_id": 59013,
           "text": "Thom Browne\n\n톰브라운 솔리드 포플린 그로그랭 암밴드 클래식 롱슬리브 포인트 칼라 버튼 다운 셔츠 화이트\n\n36%\n\n499,000원\n\n관심 461\n\n · 리뷰 18\n\n · 거래 138\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 64160,
-          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 196182,
+          "text": "Thom Browne\n\n톰브라운 옥스포드 클래식 그로그랭 플래킷 셔츠 화이트\n\n44%\n\n414,000원\n\n관심 936\n\n · 리뷰 64\n\n · 거래 365\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 880641,
+          "text": "Loewe\n\n로에베 소프트 그레인 카프스킨 코인 카드 홀더 블랙\n\n534,000원\n\n관심 4"
         },
         {
           "product_id": 37599,
           "text": "Thom Browne\n\n톰브라운 그로그랭 플래킷 솔리드 포플린 셔츠 화이트\n\n443,000원\n\n관심 265\n\n · 리뷰 9\n\n · 거래 63"
         },
         {
-          "product_id": 66540,
-          "text": "Thom Browne\n\n톰브라운 더블집 레글런 자켓 네이비\n\n33%\n\n1,990,000원\n\n관심 22\n\n · 거래 1"
+          "product_id": 225857,
+          "text": "Thom Browne\n\n톰브라운 옥스포드 클래식 그로그랭 플래킷 셔츠 라이트 블루\n\n42%\n\n424,000원\n\n관심 65\n\n · 리뷰 13\n\n · 거래 40\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -4564,24 +2787,24 @@
       "error": "No KREAM match for SKU=\"MWL430OF1098996\" SPU=\"MWL430OF1098996\"",
       "candidates": [
         {
-          "product_id": 813236,
-          "text": "Thom Browne\n\n톰브라운 클래식 옥스포드 버튼 다운 셔츠 라이트 블루\n\n260,000원\n\n관심 16\n\n · 리뷰 3\n\n · 거래 8"
-        },
-        {
           "product_id": 59013,
           "text": "Thom Browne\n\n톰브라운 솔리드 포플린 그로그랭 암밴드 클래식 롱슬리브 포인트 칼라 버튼 다운 셔츠 화이트\n\n36%\n\n499,000원\n\n관심 461\n\n · 리뷰 18\n\n · 거래 138\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 64160,
-          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 196182,
+          "text": "Thom Browne\n\n톰브라운 옥스포드 클래식 그로그랭 플래킷 셔츠 화이트\n\n44%\n\n414,000원\n\n관심 936\n\n · 리뷰 64\n\n · 거래 365\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 880641,
+          "text": "Loewe\n\n로에베 소프트 그레인 카프스킨 코인 카드 홀더 블랙\n\n534,000원\n\n관심 4"
         },
         {
           "product_id": 37599,
           "text": "Thom Browne\n\n톰브라운 그로그랭 플래킷 솔리드 포플린 셔츠 화이트\n\n443,000원\n\n관심 265\n\n · 리뷰 9\n\n · 거래 63"
         },
         {
-          "product_id": 66540,
-          "text": "Thom Browne\n\n톰브라운 더블집 레글런 자켓 네이비\n\n33%\n\n1,990,000원\n\n관심 22\n\n · 거래 1"
+          "product_id": 225857,
+          "text": "Thom Browne\n\n톰브라운 옥스포드 클래식 그로그랭 플래킷 셔츠 라이트 블루\n\n42%\n\n424,000원\n\n관심 65\n\n · 리뷰 13\n\n · 거래 40\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -4597,29 +2820,20 @@
       "market": {
         "last_sale_price": null,
         "lowest_ask": null,
-        "highest_bid": 350000,
+        "highest_bid": null,
         "change_text": null
       },
       "sales": [],
       "asks": [],
-      "bids": [
-        {
-          "price": 350000,
-          "option": "1",
-          "quantity": 1
-        }
-      ],
+      "bids": [],
       "totals": {
         "sales": 0,
         "asks": 0,
-        "bids": 1
+        "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "1",
-      "kream_options_available": [
-        "1",
-        "2"
-      ],
+      "kream_option": null,
+      "kream_options_available": [],
       "option_mismatch": true
     },
     {
@@ -4631,24 +2845,24 @@
       "error": "No KREAM match for SKU=\"FBC968TF1279001\" SPU=\"FBC968TF1279001\"",
       "candidates": [
         {
-          "product_id": 280218,
-          "text": "Nike\n\n나이키 코트 어드벤티지 드라이핏 7인치 테니스 쇼츠 블랙 - 아시아\n\n42%\n\n43,000원\n\n관심 38\n\n · 리뷰 1\n\n · 거래 14"
+          "product_id": 138478,
+          "text": "Prada\n\n(W) 프라다 퀼티드 나파 레더 슬라이드 블랙\n\n41%\n\n854,000원\n\n관심 12"
         },
         {
-          "product_id": 492993,
-          "text": "Nike\n\n나이키 코트 어드밴티지 드라이핏 6인치 테니스 쇼츠 블랙 화이트 - 아시아\n\n21%\n\n62,000원\n\n관심 64\n\n · 리뷰 6\n\n · 거래 32\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 92470,
+          "text": "Prada\n\n프라다 리나일론 다운 코트 블랙\n\n59%\n\n2,000,000원\n\n관심 59\n\n · 리뷰 2\n\n · 거래 10"
         },
         {
-          "product_id": 565516,
-          "text": "Nike\n\n나이키 코트 어드밴티지 드라이핏 테니스 폴로 블랙 화이트 - 아시아\n\n79,000원\n\n관심 115\n\n · 리뷰 7\n\n · 거래 42\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 52232,
+          "text": "Prada\n\n프라다 다운타운 레더 스니커즈 화이트 래커 레드\n\n34%\n\n957,000원\n\n관심 132\n\n · 리뷰 5\n\n · 거래 16"
         },
         {
-          "product_id": 638964,
-          "text": "Nike\n\n나이키 코트 헤리티지 테니스 자켓 블랙 - 아시아\n\n186,000원\n\n관심 28\n\n · 리뷰 1\n\n · 거래 6"
+          "product_id": 401852,
+          "text": "Prada\n\n(W) 프라다 메탈 로고 플라크 레더 슬리퍼 블랙\n\n790,000원\n\n관심 15"
         },
         {
-          "product_id": 492997,
-          "text": "Nike\n\n나이키 코트 어드밴티지 드라이핏 6인치 테니스 쇼츠 화이트 블랙 - 아시아\n\n13%\n\n68,000원\n\n관심 38\n\n · 거래 13"
+          "product_id": 409788,
+          "text": "Prada\n\n(W) 프라다 레더 슬리퍼 블랙\n\n17%\n\n1,298,000원\n\n관심 3\n\n · 거래 1"
         }
       ]
     },
@@ -4661,20 +2875,20 @@
       "error": "No KREAM match for SKU=\"MJR094A006455415\" SPU=\"MJR094A006455415\"",
       "candidates": [
         {
-          "product_id": 131431,
-          "text": "Thom Browne\n\n톰브라운 코튼 트윌 니트 심 사선 언컨스트럭티드 치노 트라우저 네이비\n\n43%\n\n658,000원\n\n관심 89\n\n · 리뷰 7\n\n · 거래 29"
-        },
-        {
           "product_id": 64738,
           "text": "Thom Browne\n\n톰브라운 라이트웨이트 보일드 울 엔지니어드 스트라이프 리버시블 퍼넬 넥 집업 자켓 미디움 그레이\n\n63%\n\n2,100,000원\n\n관심 13\n\n · 거래 1"
         },
         {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 85077,
+          "text": "Thom Browne\n\n톰브라운 폴리 트윌 다운 필 사선 스키 자켓 그레이\n\n4,446,000원\n\n관심 86\n\n · 리뷰 4\n\n · 거래 14"
         },
         {
-          "product_id": 64729,
-          "text": "Thom Browne\n\n톰브라운 테크 사선 드로우스트링 웨이스트 보드 스윔 쇼츠 미디움 그레이\n\n21%\n\n650,000원\n\n관심 293\n\n · 리뷰 8\n\n · 거래 111"
+          "product_id": 262858,
+          "text": "Thom Browne\n\n톰브라운 메리노 저지 세일 보트 인트라시아 사선 후드 집업 브라운\n\n2,043,000원\n\n관심 29\n\n · 거래 1"
+        },
+        {
+          "product_id": 102565,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 암밴드 후디 라이트 그레이\n\n70%\n\n790,000원\n\n관심 177\n\n · 리뷰 2\n\n · 거래 48"
         },
         {
           "product_id": 64739,
@@ -4691,20 +2905,20 @@
       "error": "No KREAM match for SKU=\"MJR094A006455415\" SPU=\"MJR094A006455415\"",
       "candidates": [
         {
-          "product_id": 131431,
-          "text": "Thom Browne\n\n톰브라운 코튼 트윌 니트 심 사선 언컨스트럭티드 치노 트라우저 네이비\n\n43%\n\n658,000원\n\n관심 89\n\n · 리뷰 7\n\n · 거래 29"
-        },
-        {
           "product_id": 64738,
           "text": "Thom Browne\n\n톰브라운 라이트웨이트 보일드 울 엔지니어드 스트라이프 리버시블 퍼넬 넥 집업 자켓 미디움 그레이\n\n63%\n\n2,100,000원\n\n관심 13\n\n · 거래 1"
         },
         {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 85077,
+          "text": "Thom Browne\n\n톰브라운 폴리 트윌 다운 필 사선 스키 자켓 그레이\n\n4,446,000원\n\n관심 86\n\n · 리뷰 4\n\n · 거래 14"
         },
         {
-          "product_id": 64729,
-          "text": "Thom Browne\n\n톰브라운 테크 사선 드로우스트링 웨이스트 보드 스윔 쇼츠 미디움 그레이\n\n21%\n\n650,000원\n\n관심 293\n\n · 리뷰 8\n\n · 거래 111"
+          "product_id": 262858,
+          "text": "Thom Browne\n\n톰브라운 메리노 저지 세일 보트 인트라시아 사선 후드 집업 브라운\n\n2,043,000원\n\n관심 29\n\n · 거래 1"
+        },
+        {
+          "product_id": 102565,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 암밴드 후디 라이트 그레이\n\n70%\n\n790,000원\n\n관심 177\n\n · 리뷰 2\n\n · 거래 48"
         },
         {
           "product_id": 64739,
@@ -4721,24 +2935,24 @@
       "error": "No KREAM match for SKU=\"FKK132BY1037100\" SPU=\"FKK132BY1037100\"",
       "candidates": [
         {
-          "product_id": 139715,
-          "text": "Thom Browne\n\n톰브라운 텍스처 스티치 코튼 숏슬리브 폴로 네이비\n\n62%\n\n700,000원\n\n관심 22\n\n · 거래 1"
+          "product_id": 791640,
+          "text": "Thom Browne Vintage\n\n톰브라운 FKA343A 그레이 퍼피 자수 사선완정 반팔 여성 니트 티셔츠aa60430\n\n868,000원\n\n관심 6\n\n무료배송"
         },
         {
-          "product_id": 773556,
-          "text": "AMI\n\n아미 블루 울 앤 코튼 슬리브리스 아미 드 하트 스웨터 잉크 오프 화이트\n\n34%\n\n385,000원\n\n관심 6\n\n · 리뷰 1\n\n · 거래 2"
+          "product_id": 68279,
+          "text": "Thom Browne\n\n(W) 톰브라운 하이 트위스트 코튼 크리켓 스트라이프 폴로 가디건 네이비\n\n60%\n\n862,000원\n\n관심 97\n\n · 거래 4"
         },
         {
-          "product_id": 834123,
-          "text": "Thom Browne\n\n톰브라운 크레스트 인타르시아 자카드 사선 럭비 핏 가디건 네이비\n\n14%\n\n2,391,000원\n\n관심 6"
+          "product_id": 293334,
+          "text": "Thom Browne\n\n(W) 톰브라운 청키 메리노 사선 폴로 가디건 자켓 네이비\n\n53%\n\n1,389,000원\n\n관심 82\n\n · 리뷰 2\n\n · 거래 1"
         },
         {
-          "product_id": 525932,
-          "text": "Thom Browne\n\n톰브라운 럭비 스트라이프 밀라노 스티치 폴로 네이비 화이트\n\n1,244,000원\n\n관심 9\n\n · 리뷰 1\n\n · 거래 3"
+          "product_id": 763545,
+          "text": "Prada Vintage\n\n프라다 자수로고 울 캐시미어 니트 다운 후드 패딩 자켓 화이트\n\n4%\n\n2,709,200원\n\n관심 2\n\n무료배송"
         },
         {
-          "product_id": 72186,
-          "text": "Thom Browne\n\n(W) 톰브라운 플레인 위브 미니 플리츠 사선 스커트 네이비\n\n997,000원\n\n관심 196\n\n · 리뷰 3\n\n · 거래 13"
+          "product_id": 132943,
+          "text": "Prada\n\n(W) 프라다 크롭 브이넥 코튼 스웨터 화이트\n\n61%\n\n690,000원\n\n관심 5"
         }
       ]
     },
@@ -4753,36 +2967,21 @@
       "product_url": "https://kream.co.kr/products/673358",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 1298000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 1298000,
-          "option": "38",
-          "quantity": 1
-        },
-        {
-          "price": 1331000,
-          "option": "38",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 2,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "38",
-      "kream_options_available": [
-        "38",
-        "40",
-        "42"
-      ],
+      "kream_option": null,
+      "kream_options_available": [],
       "option_mismatch": true
     },
     {
@@ -4794,24 +2993,24 @@
       "error": "No KREAM match for SKU=\"FBR062BF1002980\" SPU=\"FBR062BF1002980\"",
       "candidates": [
         {
-          "product_id": 139715,
-          "text": "Thom Browne\n\n톰브라운 텍스처 스티치 코튼 숏슬리브 폴로 네이비\n\n62%\n\n700,000원\n\n관심 22\n\n · 거래 1"
+          "product_id": 133144,
+          "text": "Givenchy\n\n(W) 지방시 코튼 아카타입 슬림핏 티셔츠 블랙\n\n66%\n\n239,000원\n\n관심 45\n\n · 리뷰 1\n\n · 거래 8"
         },
         {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 836567,
+          "text": "Thom Browne\n\n(W) 톰브라운 클래식 피케 사선 폴로 화이트\n\n640,000원"
         },
         {
-          "product_id": 453796,
-          "text": "Thom Browne\n\n톰브라운 코튼 사선 숏슬리브 폴로 라이트 그레이\n\n40%\n\n569,000원\n\n관심 28\n\n · 리뷰 3\n\n · 거래 4"
+          "product_id": 421836,
+          "text": "Diesel\n\n(W) 디젤 T-언큐티-롱-Od-Q1 컷아웃 오발 D 슬림 핏 티셔츠 화이트\n\n129,000원\n\n관심 497\n\n · 리뷰 6\n\n · 거래 63\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 797247,
-          "text": "Thom Browne\n\n톰브라운 사선 린넨 코튼 폴로 숏슬리브 티셔츠 다크 블루\n\n800,000원\n\n관심 1\n\n · 리뷰 2\n\n · 거래 3"
+          "product_id": 250082,
+          "text": "Givenchy\n\n(W) 지방시 코튼 아카타입 슬림핏 티셔츠 화이트 블랙\n\n58%\n\n297,000원\n\n관심 86\n\n · 리뷰 2\n\n · 거래 7"
         },
         {
-          "product_id": 767083,
-          "text": "Thom Browne\n\n톰브라운 플로트 리플 스티치 RWB 스트라이프 폴로 네이비\n\n36%\n\n1,137,000원\n\n관심 3\n\n · 리뷰 1"
+          "product_id": 369932,
+          "text": "Prada\n\n프라다 코튼 저지 티셔츠 블랙 (3개입)\n\n1,637,000원\n\n관심 2"
         }
       ]
     },
@@ -4824,24 +3023,24 @@
       "error": "No KREAM match for SKU=\"FBR062BF1002980\" SPU=\"FBR062BF1002980\"",
       "candidates": [
         {
-          "product_id": 139715,
-          "text": "Thom Browne\n\n톰브라운 텍스처 스티치 코튼 숏슬리브 폴로 네이비\n\n62%\n\n700,000원\n\n관심 22\n\n · 거래 1"
+          "product_id": 133144,
+          "text": "Givenchy\n\n(W) 지방시 코튼 아카타입 슬림핏 티셔츠 블랙\n\n66%\n\n239,000원\n\n관심 45\n\n · 리뷰 1\n\n · 거래 8"
         },
         {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 836567,
+          "text": "Thom Browne\n\n(W) 톰브라운 클래식 피케 사선 폴로 화이트\n\n640,000원"
         },
         {
-          "product_id": 453796,
-          "text": "Thom Browne\n\n톰브라운 코튼 사선 숏슬리브 폴로 라이트 그레이\n\n40%\n\n569,000원\n\n관심 28\n\n · 리뷰 3\n\n · 거래 4"
+          "product_id": 421836,
+          "text": "Diesel\n\n(W) 디젤 T-언큐티-롱-Od-Q1 컷아웃 오발 D 슬림 핏 티셔츠 화이트\n\n129,000원\n\n관심 497\n\n · 리뷰 6\n\n · 거래 63\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 797247,
-          "text": "Thom Browne\n\n톰브라운 사선 린넨 코튼 폴로 숏슬리브 티셔츠 다크 블루\n\n800,000원\n\n관심 1\n\n · 리뷰 2\n\n · 거래 3"
+          "product_id": 250082,
+          "text": "Givenchy\n\n(W) 지방시 코튼 아카타입 슬림핏 티셔츠 화이트 블랙\n\n58%\n\n297,000원\n\n관심 86\n\n · 리뷰 2\n\n · 거래 7"
         },
         {
-          "product_id": 767083,
-          "text": "Thom Browne\n\n톰브라운 플로트 리플 스티치 RWB 스트라이프 폴로 네이비\n\n36%\n\n1,137,000원\n\n관심 3\n\n · 리뷰 1"
+          "product_id": 369932,
+          "text": "Prada\n\n프라다 코튼 저지 티셔츠 블랙 (3개입)\n\n1,637,000원\n\n관심 2"
         }
       ]
     },
@@ -4855,106 +3054,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/322977",
       "market": {
-        "last_sale_price": 469000,
-        "lowest_ask": 485000,
+        "last_sale_price": null,
+        "lowest_ask": null,
         "highest_bid": null,
-        "change_text": "▲ 1,000원(+0.2%)"
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 469000,
-          "option": "4",
-          "date_created": "2026-02-25T08:18:25Z",
-          "date_text": "26/02/25",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 485000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 560000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 562000,
-          "option": "4",
-          "quantity": 3
-        },
-        {
-          "price": 579000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 580000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 609000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 624000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 656000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 709000,
-          "option": "4",
-          "quantity": 2
-        }
-      ],
+      "sales": [],
+      "asks": [],
       "bids": [],
       "totals": {
-        "sales": 1,
-        "asks": 9,
+        "sales": 0,
+        "asks": 0,
         "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▲ 1,000원(+0.2%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#F15746",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "4",
-      "kream_options_available": [
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MKC635AY3065415",
@@ -4967,38 +3083,22 @@
       "product_url": "https://kream.co.kr/products/715415",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 3620000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 3620000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 3621000,
-          "option": "2",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 2,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "2",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "5"
-      ],
-      "option_mismatch": false
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MKC635AY3065415",
@@ -5011,38 +3111,22 @@
       "product_url": "https://kream.co.kr/products/715415",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 3620000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 3620000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 3621000,
-          "option": "3",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 2,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "3",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "5"
-      ],
-      "option_mismatch": false
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MKC635AY3065415",
@@ -5055,37 +3139,21 @@
       "product_url": "https://kream.co.kr/products/715415",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 3620000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 3620000,
-          "option": "1",
-          "quantity": 1
-        },
-        {
-          "price": 3621000,
-          "option": "1",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 2,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "1",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "5"
-      ],
+      "kream_option": null,
+      "kream_options_available": [],
       "option_mismatch": true
     },
     {
@@ -5099,39 +3167,22 @@
       "product_url": "https://kream.co.kr/products/715415",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 3631000,
-        "highest_bid": 500000,
+        "lowest_ask": null,
+        "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 3631000,
-          "option": "5",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 500000,
-          "option": "5",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
+      "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 1,
-        "bids": 1
+        "asks": 0,
+        "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "5",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "5"
-      ],
-      "option_mismatch": false
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MKC635AY3065260",
@@ -5144,51 +3195,22 @@
       "product_url": "https://kream.co.kr/products/715416",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 2101000,
-        "highest_bid": 420000,
+        "lowest_ask": null,
+        "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 2101000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 2102000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 2108000,
-          "option": "3",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 420000,
-          "option": "3",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
+      "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 3,
-        "bids": 1
+        "asks": 0,
+        "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "3",
-      "kream_options_available": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "00"
-      ],
-      "option_mismatch": false
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MKC635AY3065260",
@@ -5201,35 +3223,22 @@
       "product_url": "https://kream.co.kr/products/715416",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 2890000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 2890000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 1,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "4",
-      "kream_options_available": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "00"
-      ],
-      "option_mismatch": false
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MWL010EF0313100",
@@ -5241,110 +3250,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/196182",
       "market": {
-        "last_sale_price": 498000,
-        "lowest_ask": 443000,
-        "highest_bid": 300000,
-        "change_text": "▼ 17,000원(-3.8%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 498000,
-          "option": "1",
-          "date_created": "2026-05-03T14:58:41Z",
-          "date_text": "26/05/03",
-          "is_immediate": true
-        },
-        {
-          "price": 498000,
-          "option": "1",
-          "date_created": "2026-04-29T04:34:26Z",
-          "date_text": "26/04/29",
-          "is_immediate": true
-        }
-      ],
-      "asks": [
-        {
-          "price": 443000,
-          "option": "1",
-          "quantity": 1
-        },
-        {
-          "price": 444000,
-          "option": "1",
-          "quantity": 1
-        },
-        {
-          "price": 458000,
-          "option": "1",
-          "quantity": 1
-        },
-        {
-          "price": 466000,
-          "option": "1",
-          "quantity": 1
-        },
-        {
-          "price": 477000,
-          "option": "1",
-          "quantity": 2
-        },
-        {
-          "price": 495000,
-          "option": "1",
-          "quantity": 2
-        },
-        {
-          "price": 519000,
-          "option": "1",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 300000,
-          "option": "1",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 2,
-        "asks": 7,
-        "bids": 1
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 17,000원(-3.8%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "1",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MWL010EF0313100",
@@ -5356,198 +3278,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/196182",
       "market": {
-        "last_sale_price": 539000,
-        "lowest_ask": 414000,
-        "highest_bid": 353000,
-        "change_text": "▼ 17,000원(-3.8%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 539000,
-          "option": "2",
-          "date_created": "2026-07-01T02:49:42Z",
-          "date_text": "26/07/01",
-          "is_immediate": true
-        },
-        {
-          "price": 469000,
-          "option": "2",
-          "date_created": "2026-06-24T07:44:02Z",
-          "date_text": "26/06/24",
-          "is_immediate": true
-        },
-        {
-          "price": 430000,
-          "option": "2",
-          "date_created": "2026-05-07T01:16:44Z",
-          "date_text": "26/05/07",
-          "is_immediate": false
-        },
-        {
-          "price": 399000,
-          "option": "2",
-          "date_created": "2026-04-25T11:24:46Z",
-          "date_text": "26/04/25",
-          "is_immediate": false
-        },
-        {
-          "price": 539000,
-          "option": "2",
-          "date_created": "2026-04-20T10:18:52Z",
-          "date_text": "26/04/20",
-          "is_immediate": true
-        },
-        {
-          "price": 389000,
-          "option": "2",
-          "date_created": "2026-04-02T00:18:15Z",
-          "date_text": "26/04/02",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 414000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 415000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 431000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 444000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 447000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 449000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 459000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 466000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 469000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 470000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 477000,
-          "option": "2",
-          "quantity": 6
-        },
-        {
-          "price": 480000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 483000,
-          "option": "2",
-          "quantity": 2
-        },
-        {
-          "price": 495000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 499000,
-          "option": "2",
-          "quantity": 2
-        },
-        {
-          "price": 520000,
-          "option": "2",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 353000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 352000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 350000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 119000,
-          "option": "2",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 6,
-        "asks": 16,
-        "bids": 4
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 17,000원(-3.8%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "2",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MWL010EF0313100",
@@ -5559,224 +3306,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/196182",
       "market": {
-        "last_sale_price": 446000,
-        "lowest_ask": 439000,
-        "highest_bid": 385000,
-        "change_text": "▼ 17,000원(-3.8%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 446000,
-          "option": "3",
-          "date_created": "2026-06-26T07:16:02Z",
-          "date_text": "26/06/26",
-          "is_immediate": false
-        },
-        {
-          "price": 446000,
-          "option": "3",
-          "date_created": "2026-06-25T12:59:38Z",
-          "date_text": "26/06/25",
-          "is_immediate": false
-        },
-        {
-          "price": 446000,
-          "option": "3",
-          "date_created": "2026-06-23T06:43:26Z",
-          "date_text": "26/06/23",
-          "is_immediate": false
-        },
-        {
-          "price": 428000,
-          "option": "3",
-          "date_created": "2026-06-16T12:29:35Z",
-          "date_text": "26/06/16",
-          "is_immediate": false
-        },
-        {
-          "price": 539000,
-          "option": "3",
-          "date_created": "2026-06-16T11:55:40Z",
-          "date_text": "26/06/16",
-          "is_immediate": true
-        },
-        {
-          "price": 428000,
-          "option": "3",
-          "date_created": "2026-06-16T09:10:17Z",
-          "date_text": "26/06/16",
-          "is_immediate": false
-        },
-        {
-          "price": 440000,
-          "option": "3",
-          "date_created": "2026-05-07T01:15:21Z",
-          "date_text": "26/05/07",
-          "is_immediate": false
-        },
-        {
-          "price": 539000,
-          "option": "3",
-          "date_created": "2026-05-07T00:57:58Z",
-          "date_text": "26/05/07",
-          "is_immediate": true
-        },
-        {
-          "price": 440000,
-          "option": "3",
-          "date_created": "2026-05-02T13:39:29Z",
-          "date_text": "26/05/02",
-          "is_immediate": false
-        },
-        {
-          "price": 484000,
-          "option": "3",
-          "date_created": "2026-05-02T08:43:56Z",
-          "date_text": "26/05/02",
-          "is_immediate": true
-        },
-        {
-          "price": 539000,
-          "option": "3",
-          "date_created": "2026-04-08T10:58:01Z",
-          "date_text": "26/04/08",
-          "is_immediate": true
-        },
-        {
-          "price": 420000,
-          "option": "3",
-          "date_created": "2026-04-05T15:54:06Z",
-          "date_text": "26/04/06",
-          "is_immediate": true
-        },
-        {
-          "price": 429000,
-          "option": "3",
-          "date_created": "2026-03-31T09:06:14Z",
-          "date_text": "26/03/31",
-          "is_immediate": false
-        },
-        {
-          "price": 428000,
-          "option": "3",
-          "date_created": "2026-03-31T09:05:34Z",
-          "date_text": "26/03/31",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 439000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 446000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 447000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 466000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 470000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 477000,
-          "option": "3",
-          "quantity": 7
-        },
-        {
-          "price": 483000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 489000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 499000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 520000,
-          "option": "3",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 385000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 310000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 300000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 119000,
-          "option": "3",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 14,
-        "asks": 10,
-        "bids": 4
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 17,000원(-3.8%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "3",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MWL010EF0313100",
@@ -5788,277 +3334,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/196182",
       "market": {
-        "last_sale_price": 429000,
-        "lowest_ask": 429000,
-        "highest_bid": 370000,
-        "change_text": "▼ 17,000원(-3.8%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 429000,
-          "option": "4",
-          "date_created": "2026-07-08T05:30:18Z",
-          "date_text": "26/07/08",
-          "is_immediate": false
-        },
-        {
-          "price": 446000,
-          "option": "4",
-          "date_created": "2026-07-06T06:59:39Z",
-          "date_text": "26/07/06",
-          "is_immediate": false
-        },
-        {
-          "price": 539000,
-          "option": "4",
-          "date_created": "2026-07-04T12:37:55Z",
-          "date_text": "26/07/04",
-          "is_immediate": true
-        },
-        {
-          "price": 469000,
-          "option": "4",
-          "date_created": "2026-06-26T14:00:44Z",
-          "date_text": "26/06/26",
-          "is_immediate": true
-        },
-        {
-          "price": 428000,
-          "option": "4",
-          "date_created": "2026-06-15T12:33:50Z",
-          "date_text": "26/06/15",
-          "is_immediate": false
-        },
-        {
-          "price": 495000,
-          "option": "4",
-          "date_created": "2026-06-15T12:31:54Z",
-          "date_text": "26/06/15",
-          "is_immediate": true
-        },
-        {
-          "price": 494000,
-          "option": "4",
-          "date_created": "2026-06-02T02:17:57Z",
-          "date_text": "26/06/02",
-          "is_immediate": true
-        },
-        {
-          "price": 428000,
-          "option": "4",
-          "date_created": "2026-05-30T04:54:24Z",
-          "date_text": "26/05/30",
-          "is_immediate": false
-        },
-        {
-          "price": 485000,
-          "option": "4",
-          "date_created": "2026-05-28T07:58:22Z",
-          "date_text": "26/05/28",
-          "is_immediate": true
-        },
-        {
-          "price": 428000,
-          "option": "4",
-          "date_created": "2026-05-24T15:29:08Z",
-          "date_text": "26/05/25",
-          "is_immediate": false
-        },
-        {
-          "price": 406000,
-          "option": "4",
-          "date_created": "2026-05-23T10:30:06Z",
-          "date_text": "26/05/23",
-          "is_immediate": false
-        },
-        {
-          "price": 430000,
-          "option": "4",
-          "date_created": "2026-05-11T06:54:30Z",
-          "date_text": "26/05/11",
-          "is_immediate": false
-        },
-        {
-          "price": 539000,
-          "option": "4",
-          "date_created": "2026-05-08T14:40:01Z",
-          "date_text": "26/05/08",
-          "is_immediate": true
-        },
-        {
-          "price": 430000,
-          "option": "4",
-          "date_created": "2026-05-05T16:46:47Z",
-          "date_text": "26/05/06",
-          "is_immediate": false
-        },
-        {
-          "price": 430000,
-          "option": "4",
-          "date_created": "2026-05-02T08:29:28Z",
-          "date_text": "26/05/02",
-          "is_immediate": false
-        },
-        {
-          "price": 430000,
-          "option": "4",
-          "date_created": "2026-04-30T15:43:09Z",
-          "date_text": "26/05/01",
-          "is_immediate": false
-        },
-        {
-          "price": 538000,
-          "option": "4",
-          "date_created": "2026-04-23T05:36:45Z",
-          "date_text": "26/04/23",
-          "is_immediate": true
-        },
-        {
-          "price": 430000,
-          "option": "4",
-          "date_created": "2026-04-22T01:54:34Z",
-          "date_text": "26/04/22",
-          "is_immediate": false
-        },
-        {
-          "price": 430000,
-          "option": "4",
-          "date_created": "2026-04-18T21:33:40Z",
-          "date_text": "26/04/19",
-          "is_immediate": false
-        },
-        {
-          "price": 430000,
-          "option": "4",
-          "date_created": "2026-04-13T23:58:29Z",
-          "date_text": "26/04/14",
-          "is_immediate": false
-        },
-        {
-          "price": 430000,
-          "option": "4",
-          "date_created": "2026-04-08T11:21:12Z",
-          "date_text": "26/04/08",
-          "is_immediate": false
-        },
-        {
-          "price": 430000,
-          "option": "4",
-          "date_created": "2026-04-06T16:35:54Z",
-          "date_text": "26/04/07",
-          "is_immediate": false
-        },
-        {
-          "price": 538000,
-          "option": "4",
-          "date_created": "2026-04-01T08:20:45Z",
-          "date_text": "26/04/01",
-          "is_immediate": true
-        }
-      ],
-      "asks": [
-        {
-          "price": 429000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 430000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 447000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 458000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 466000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 469000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 470000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 477000,
-          "option": "4",
-          "quantity": 3
-        },
-        {
-          "price": 483000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 489000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 370000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 160000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 23,
-        "asks": 10,
-        "bids": 2
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 17,000원(-3.8%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "4",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MWL010EF0313100",
@@ -6070,146 +3362,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/196182",
       "market": {
-        "last_sale_price": 539000,
-        "lowest_ask": 422000,
-        "highest_bid": 367000,
-        "change_text": "▼ 17,000원(-3.8%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 539000,
-          "option": "5",
-          "date_created": "2026-06-08T00:47:45Z",
-          "date_text": "26/06/08",
-          "is_immediate": true
-        },
-        {
-          "price": 367000,
-          "option": "5",
-          "date_created": "2026-04-18T11:29:27Z",
-          "date_text": "26/04/18",
-          "is_immediate": false
-        },
-        {
-          "price": 480000,
-          "option": "5",
-          "date_created": "2026-04-09T00:36:43Z",
-          "date_text": "26/04/09",
-          "is_immediate": true
-        },
-        {
-          "price": 480000,
-          "option": "5",
-          "date_created": "2026-04-08T05:04:23Z",
-          "date_text": "26/04/08",
-          "is_immediate": true
-        },
-        {
-          "price": 456000,
-          "option": "5",
-          "date_created": "2026-04-03T15:53:19Z",
-          "date_text": "26/04/04",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 422000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 447000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 457000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 458000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 466000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 477000,
-          "option": "5",
-          "quantity": 3
-        },
-        {
-          "price": 479000,
-          "option": "5",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 367000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 331000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 330000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 160000,
-          "option": "5",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 5,
-        "asks": 7,
-        "bids": 4
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 17,000원(-3.8%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "5",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MKA002AY1014038",
@@ -6221,168 +3390,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/64751",
       "market": {
-        "last_sale_price": 773000,
-        "lowest_ask": 792000,
-        "highest_bid": 380000,
-        "change_text": "▼ 30,000원(-3.7%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 773000,
-          "option": "2",
-          "date_created": "2026-07-05T16:52:06Z",
-          "date_text": "26/07/06",
-          "is_immediate": false
-        },
-        {
-          "price": 649000,
-          "option": "2",
-          "date_created": "2025-10-30T22:42:37Z",
-          "date_text": "25/10/31",
-          "is_immediate": false
-        },
-        {
-          "price": 620000,
-          "option": "2",
-          "date_created": "2025-10-19T06:14:54Z",
-          "date_text": "25/10/19",
-          "is_immediate": false
-        },
-        {
-          "price": 647000,
-          "option": "2",
-          "date_created": "2025-09-21T07:45:46Z",
-          "date_text": "25/09/21",
-          "is_immediate": false
-        },
-        {
-          "price": 555000,
-          "option": "2",
-          "date_created": "2025-09-08T09:50:34Z",
-          "date_text": "25/09/08",
-          "is_immediate": false
-        },
-        {
-          "price": 553000,
-          "option": "2",
-          "date_created": "2025-08-12T06:41:42Z",
-          "date_text": "25/08/12",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 792000,
-          "option": "2",
-          "quantity": 3
-        },
-        {
-          "price": 803000,
-          "option": "2",
-          "quantity": 2
-        },
-        {
-          "price": 831000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 848000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 872000,
-          "option": "2",
-          "quantity": 2
-        },
-        {
-          "price": 875000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 895000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 905000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 950000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 966000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 1020000,
-          "option": "2",
-          "quantity": 1
-        },
-        {
-          "price": 1132000,
-          "option": "2",
-          "quantity": 2
-        },
-        {
-          "price": 1134000,
-          "option": "2",
-          "quantity": 3
-        }
-      ],
-      "bids": [
-        {
-          "price": 380000,
-          "option": "2",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 6,
-        "asks": 13,
-        "bids": 1
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 30,000원(-3.7%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "2",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MJC001A00626035",
@@ -6394,71 +3418,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/385513",
       "market": {
-        "last_sale_price": 1450000,
-        "lowest_ask": 1948000,
+        "last_sale_price": null,
+        "lowest_ask": null,
         "highest_bid": null,
-        "change_text": "▼ 1,000원(-0.1%)"
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 1450000,
-          "option": "3",
-          "date_created": "2026-05-01T01:43:50Z",
-          "date_text": "26/05/01",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 1948000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 1949000,
-          "option": "3",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
       "bids": [],
       "totals": {
-        "sales": 1,
-        "asks": 2,
+        "sales": 0,
+        "asks": 0,
         "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 1,000원(-0.1%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "3",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "FFD143A00216001",
@@ -6469,24 +3445,24 @@
       "error": "No KREAM match for SKU=\"FFD143A00216001\" SPU=\"FFD143A00216001\"",
       "candidates": [
         {
-          "product_id": 767083,
-          "text": "Thom Browne\n\n톰브라운 플로트 리플 스티치 RWB 스트라이프 폴로 네이비\n\n36%\n\n1,137,000원\n\n관심 3\n\n · 리뷰 1"
+          "product_id": 555013,
+          "text": "Thom Browne\n\n(W) 톰브라운 파인 메리노 울 사선 티셔츠 네이비\n\n885,000원\n\n관심 33\n\n · 거래 3"
         },
         {
-          "product_id": 147846,
-          "text": "Thom Browne\n\n톰브라운 코튼 저지 스트라이프 브이넥 가디건 네이비\n\n45%\n\n780,000원\n\n관심 458\n\n · 리뷰 2\n\n · 거래 13"
+          "product_id": 310224,
+          "text": "Thom Browne\n\n(W) 톰브라운 울 사선 릴렉스드 폴로 블루\n\n40%\n\n986,000원\n\n관심 31"
         },
         {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 142288,
+          "text": "Thom Browne\n\n(W) 톰브라운 더블 페이스 사선 숏슬리브 풀오버 다크 그레이\n\n390,000원\n\n관심 78\n\n · 거래 4"
         },
         {
-          "product_id": 213739,
-          "text": "Thom Browne\n\n톰브라운 써멀 립 폴로 가디건 네이비\n\n46%\n\n691,000원\n\n관심 53\n\n · 거래 4"
+          "product_id": 791640,
+          "text": "Thom Browne Vintage\n\n톰브라운 FKA343A 그레이 퍼피 자수 사선완정 반팔 여성 니트 티셔츠aa60430\n\n868,000원\n\n관심 6\n\n무료배송"
         },
         {
-          "product_id": 96309,
-          "text": "Thom Browne\n\n톰브라운 저지 스티치 도네갈 사선 크루넥 풀오버 라이트 그레이\n\n56%\n\n560,000원\n\n관심 647\n\n · 리뷰 7\n\n · 거래 107"
+          "product_id": 206309,
+          "text": "Thom Browne\n\n(W) 톰브라운 메리노 모헤어 사선 폴로 칼라 봄버 자켓 블루\n\n46%\n\n1,972,000원\n\n관심 7"
         }
       ]
     },
@@ -6499,24 +3475,24 @@
       "error": "No KREAM match for SKU=\"FFD143A00216001\" SPU=\"FFD143A00216001\"",
       "candidates": [
         {
-          "product_id": 767083,
-          "text": "Thom Browne\n\n톰브라운 플로트 리플 스티치 RWB 스트라이프 폴로 네이비\n\n36%\n\n1,137,000원\n\n관심 3\n\n · 리뷰 1"
+          "product_id": 555013,
+          "text": "Thom Browne\n\n(W) 톰브라운 파인 메리노 울 사선 티셔츠 네이비\n\n885,000원\n\n관심 33\n\n · 거래 3"
         },
         {
-          "product_id": 147846,
-          "text": "Thom Browne\n\n톰브라운 코튼 저지 스트라이프 브이넥 가디건 네이비\n\n45%\n\n780,000원\n\n관심 458\n\n · 리뷰 2\n\n · 거래 13"
+          "product_id": 310224,
+          "text": "Thom Browne\n\n(W) 톰브라운 울 사선 릴렉스드 폴로 블루\n\n40%\n\n986,000원\n\n관심 31"
         },
         {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 142288,
+          "text": "Thom Browne\n\n(W) 톰브라운 더블 페이스 사선 숏슬리브 풀오버 다크 그레이\n\n390,000원\n\n관심 78\n\n · 거래 4"
         },
         {
-          "product_id": 213739,
-          "text": "Thom Browne\n\n톰브라운 써멀 립 폴로 가디건 네이비\n\n46%\n\n691,000원\n\n관심 53\n\n · 거래 4"
+          "product_id": 791640,
+          "text": "Thom Browne Vintage\n\n톰브라운 FKA343A 그레이 퍼피 자수 사선완정 반팔 여성 니트 티셔츠aa60430\n\n868,000원\n\n관심 6\n\n무료배송"
         },
         {
-          "product_id": 96309,
-          "text": "Thom Browne\n\n톰브라운 저지 스티치 도네갈 사선 크루넥 풀오버 라이트 그레이\n\n56%\n\n560,000원\n\n관심 647\n\n · 리뷰 7\n\n · 거래 107"
+          "product_id": 206309,
+          "text": "Thom Browne\n\n(W) 톰브라운 메리노 모헤어 사선 폴로 칼라 봄버 자켓 블루\n\n46%\n\n1,972,000원\n\n관심 7"
         }
       ]
     },
@@ -6529,24 +3505,24 @@
       "error": "No KREAM match for SKU=\"MWL420AF0325035\" SPU=\"MWL420AF0325035\"",
       "candidates": [
         {
-          "product_id": 58373,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 스트라이프 그로그랭 암밴드 클래식 셔츠 화이트\n\n58%\n\n300,000원\n\n관심 1,417\n\n · 리뷰 56\n\n · 거래 341\n\n빠른배송\n\n내일 도착 예정"
-        },
-        {
           "product_id": 59013,
           "text": "Thom Browne\n\n톰브라운 솔리드 포플린 그로그랭 암밴드 클래식 롱슬리브 포인트 칼라 버튼 다운 셔츠 화이트\n\n36%\n\n499,000원\n\n관심 461\n\n · 리뷰 18\n\n · 거래 138\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 453698,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 암밴드 셔츠 네이비\n\n70%\n\n390,000원\n\n관심 11\n\n · 거래 2"
+          "product_id": 58373,
+          "text": "Thom Browne\n\n톰브라운 옥스포드 스트라이프 그로그랭 암밴드 클래식 셔츠 화이트\n\n58%\n\n300,000원\n\n관심 1,418\n\n · 리뷰 56\n\n · 거래 341\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 64160,
-          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 836548,
+          "text": "Thom Browne\n\n(W) 톰브라운 사선 스트라이프 숏슬리브 화이트\n\n644,000원\n\n관심 13\n\n · 거래 1"
         },
         {
-          "product_id": 56574,
-          "text": "Thom Browne\n\n톰브라운 샴브레이 프린티드 사선 네임택 스트레이트 핏 셔츠 블루\n\n27%\n\n600,000원\n\n관심 182\n\n · 리뷰 13\n\n · 거래 52"
+          "product_id": 112282,
+          "text": "Thom Browne\n\n톰브라운 옥스포드 사선 오버사이즈 버튼 다운 셔츠 화이트 다크 그레이\n\n21%\n\n849,000원\n\n관심 627\n\n · 리뷰 15\n\n · 거래 140"
+        },
+        {
+          "product_id": 196182,
+          "text": "Thom Browne\n\n톰브라운 옥스포드 클래식 그로그랭 플래킷 셔츠 화이트\n\n44%\n\n414,000원\n\n관심 936\n\n · 리뷰 64\n\n · 거래 365\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -6587,24 +3563,24 @@
       "error": "No KREAM match for SKU=\"FGCA40UF1063260\" SPU=\"FGCA40UF1063260\"",
       "candidates": [
         {
+          "product_id": 262858,
+          "text": "Thom Browne\n\n톰브라운 메리노 저지 세일 보트 인트라시아 사선 후드 집업 브라운\n\n2,043,000원\n\n관심 29\n\n · 거래 1"
+        },
+        {
+          "product_id": 179071,
+          "text": "Thom Browne\n\n톰브라운 셰틀랜드 울 래글런 사선 릴렉스드 브이넥 가디건 화이트\n\n33%\n\n1,090,000원\n\n관심 457\n\n · 리뷰 3\n\n · 거래 38"
+        },
+        {
+          "product_id": 681221,
+          "text": "Thom Browne\n\n톰브라운 피쉬 아이콘 사선 집업 후드 네이비\n\n1,400,000원\n\n관심 5"
+        },
+        {
+          "product_id": 96315,
+          "text": "Thom Browne\n\n톰브라운 밀리터리 립스탑 메쉬 사선 패커블 집 후드 화이트\n\n35%\n\n1,223,000원\n\n관심 266\n\n · 리뷰 6\n\n · 거래 42\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
           "product_id": 91238,
           "text": "Thom Browne\n\n톰브라운 코튼 오토만 립 사선 후드 집업 네이비\n\n3,346,000원\n\n관심 8\n\n · 리뷰 1\n\n · 거래 2"
-        },
-        {
-          "product_id": 147846,
-          "text": "Thom Browne\n\n톰브라운 코튼 저지 스트라이프 브이넥 가디건 네이비\n\n45%\n\n780,000원\n\n관심 458\n\n · 리뷰 2\n\n · 거래 13"
-        },
-        {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
-        },
-        {
-          "product_id": 138165,
-          "text": "Thom Browne\n\n톰브라운 플레인 위브 수팅 사선 니트 블루종 자켓 미디움 그레이\n\n19%\n\n2,418,000원\n\n관심 69\n\n · 거래 10"
-        },
-        {
-          "product_id": 96309,
-          "text": "Thom Browne\n\n톰브라운 저지 스티치 도네갈 사선 크루넥 풀오버 라이트 그레이\n\n56%\n\n560,000원\n\n관심 647\n\n · 리뷰 7\n\n · 거래 107"
         }
       ]
     },
@@ -6617,24 +3593,24 @@
       "error": "No KREAM match for SKU=\"MTU328UF0175415\" SPU=\"MTU328UF0175415\"",
       "candidates": [
         {
-          "product_id": 67415,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 크루넥 스웨트셔츠 네이비\n\n54%\n\n495,000원\n\n관심 82\n\n · 리뷰 3\n\n · 거래 11"
+          "product_id": 206309,
+          "text": "Thom Browne\n\n(W) 톰브라운 메리노 모헤어 사선 폴로 칼라 봄버 자켓 블루\n\n46%\n\n1,972,000원\n\n관심 7"
         },
         {
-          "product_id": 59013,
-          "text": "Thom Browne\n\n톰브라운 솔리드 포플린 그로그랭 암밴드 클래식 롱슬리브 포인트 칼라 버튼 다운 셔츠 화이트\n\n36%\n\n499,000원\n\n관심 461\n\n · 리뷰 18\n\n · 거래 138\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 64738,
+          "text": "Thom Browne\n\n톰브라운 라이트웨이트 보일드 울 엔지니어드 스트라이프 리버시블 퍼넬 넥 집업 자켓 미디움 그레이\n\n63%\n\n2,100,000원\n\n관심 13\n\n · 거래 1"
         },
         {
-          "product_id": 453698,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 암밴드 셔츠 네이비\n\n70%\n\n390,000원\n\n관심 11\n\n · 거래 2"
+          "product_id": 220972,
+          "text": "Thom Browne\n\n(W) 톰브라운 버튼 다운 코튼 옥스포드 셔츠 화이트\n\n374,000원\n\n관심 154\n\n · 리뷰 5\n\n · 거래 29\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 56574,
-          "text": "Thom Browne\n\n톰브라운 샴브레이 프린티드 사선 네임택 스트레이트 핏 셔츠 블루\n\n27%\n\n600,000원\n\n관심 182\n\n · 리뷰 13\n\n · 거래 52"
+          "product_id": 70727,
+          "text": "Thom Browne\n\n(W) 톰브라운 옥스포드 그로그랭 암밴드 롱슬리브 셔츠 화이트\n\n44%\n\n463,000원\n\n관심 49\n\n · 리뷰 2\n\n · 거래 2"
         },
         {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 452471,
+          "text": "Thom Browne\n\n(W) 톰브라운 버진 울 폴로 셔츠 미디움 그레이\n\n40%\n\n986,000원\n\n관심 21\n\n · 리뷰 1\n\n · 거래 6"
         }
       ]
     },
@@ -6781,34 +3757,22 @@
       "product_url": "https://kream.co.kr/products/715421",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 2901000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 2901000,
-          "option": "2",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 1,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "2",
-      "kream_options_available": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "option_mismatch": false
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MKA580AY3065415",
@@ -6821,40 +3785,22 @@
       "product_url": "https://kream.co.kr/products/715421",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 2901000,
-        "highest_bid": 320000,
+        "lowest_ask": null,
+        "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 2901000,
-          "option": "3",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 320000,
-          "option": "3",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
+      "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 1,
-        "bids": 1
+        "asks": 0,
+        "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "3",
-      "kream_options_available": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "option_mismatch": false
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MKA580AY3065415",
@@ -6867,39 +3813,22 @@
       "product_url": "https://kream.co.kr/products/715421",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 2900000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 2900000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 2901000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 2,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "4",
-      "kream_options_available": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "option_mismatch": false
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "FLR005OF1004100",
@@ -6910,24 +3839,24 @@
       "error": "No KREAM match for SKU=\"FLR005OF1004100\" SPU=\"FLR005OF1004100\"",
       "candidates": [
         {
-          "product_id": 427034,
-          "text": "Thom Browne\n\n톰브라운 메리노 저지 세일 보트 인트라시아 사선 집업 후드 미디움 그레이\n\n2,039,000원\n\n관심 42\n\n · 리뷰 1\n\n · 거래 2"
+          "product_id": 756797,
+          "text": "Stone Island\n\n스톤 아일랜드 4100112 나일론 스메릴리아토-TC 쇼츠 후드 파카 안티 드롭 더스트 블루 - 26SS\n\n30%\n\n1,153,000원\n\n관심 8\n\n · 리뷰 1"
         },
         {
-          "product_id": 701136,
-          "text": "Stone Island\n\n스톤 아일랜드 1200032 수피마 코튼 트윌 스트레치-TC 후드 오버셔츠 네이비 블루 - 25FW\n\n669,000원\n\n관심 9"
+          "product_id": 854775,
+          "text": "Stone Island\n\n스톤 아일랜드 4100119 나일론 메탈 와트로-TC 에코닐 후드 자켓 라이트 워터 앤 윈드 레지스턴스 블랙 - 26SS\n\n26%\n\n1,010,000원\n\n관심 37\n\n · 리뷰 1\n\n · 거래 7"
         },
         {
-          "product_id": 134460,
-          "text": "Stone Island\n\n스톤 아일랜드 42999 리플렉티브 그리드 라미 TC 자켓 퓨터 그레이 - 21SS\n\n1,249,000원\n\n관심 31\n\n · 거래 2"
+          "product_id": 677451,
+          "text": "Miu Miu\n\n(W) 미우 미우 타이어 테크니컬 패브릭 앤 스웨이드 발레리나 블랙\n\n23%\n\n1,105,000원\n\n관심 21\n\n · 리뷰 1\n\n · 거래 2"
         },
         {
-          "product_id": 491510,
-          "text": "Stone Island\n\n스톤 아일랜드 4100004 멤브라나 3L TC 브리더블 앤 워터 레지스턴트 봄버 자켓 집 블랙 - 25SS\n\n41%\n\n819,000원\n\n관심 55\n\n · 리뷰 3\n\n · 거래 8"
+          "product_id": 883654,
+          "text": "Stone Island\n\n스톤 아일랜드 4100061 메탈 라미나 립스탑 히트 리액티브 벤틸레이션 플랩 후드 재킷 말라카이트\n\n28%\n\n1,899,000원\n\n관심 15\n\n · 리뷰 1"
         },
         {
-          "product_id": 611746,
-          "text": "Stone Island\n\n스톤 아일랜드 1200027 퍼포먼스 플란넬 스톤 아일랜드 고스트 컴포트 핏 집업 오버셔츠 윈드 레지스턴트 멤브레인 네이비 블루 - 25FW\n\n36%\n\n930,000원\n\n관심 17\n\n · 거래 1"
+          "product_id": 704358,
+          "text": "Stone Island\n\n스톤 아일랜드 4100005 멤브라나 3L TC 후드 패딩 자켓 워터-레지스턴트 멤브레인 블랙 - 26SS\n\n31%\n\n1,261,000원\n\n관심 36\n\n · 리뷰 4\n\n · 거래 1"
         }
       ]
     },
@@ -6940,24 +3869,24 @@
       "error": "No KREAM match for SKU=\"FLR005OF1004100\" SPU=\"FLR005OF1004100\"",
       "candidates": [
         {
-          "product_id": 427034,
-          "text": "Thom Browne\n\n톰브라운 메리노 저지 세일 보트 인트라시아 사선 집업 후드 미디움 그레이\n\n2,039,000원\n\n관심 42\n\n · 리뷰 1\n\n · 거래 2"
+          "product_id": 756797,
+          "text": "Stone Island\n\n스톤 아일랜드 4100112 나일론 스메릴리아토-TC 쇼츠 후드 파카 안티 드롭 더스트 블루 - 26SS\n\n30%\n\n1,153,000원\n\n관심 8\n\n · 리뷰 1"
         },
         {
-          "product_id": 701136,
-          "text": "Stone Island\n\n스톤 아일랜드 1200032 수피마 코튼 트윌 스트레치-TC 후드 오버셔츠 네이비 블루 - 25FW\n\n669,000원\n\n관심 9"
+          "product_id": 854775,
+          "text": "Stone Island\n\n스톤 아일랜드 4100119 나일론 메탈 와트로-TC 에코닐 후드 자켓 라이트 워터 앤 윈드 레지스턴스 블랙 - 26SS\n\n26%\n\n1,010,000원\n\n관심 37\n\n · 리뷰 1\n\n · 거래 7"
         },
         {
-          "product_id": 134460,
-          "text": "Stone Island\n\n스톤 아일랜드 42999 리플렉티브 그리드 라미 TC 자켓 퓨터 그레이 - 21SS\n\n1,249,000원\n\n관심 31\n\n · 거래 2"
+          "product_id": 677451,
+          "text": "Miu Miu\n\n(W) 미우 미우 타이어 테크니컬 패브릭 앤 스웨이드 발레리나 블랙\n\n23%\n\n1,105,000원\n\n관심 21\n\n · 리뷰 1\n\n · 거래 2"
         },
         {
-          "product_id": 491510,
-          "text": "Stone Island\n\n스톤 아일랜드 4100004 멤브라나 3L TC 브리더블 앤 워터 레지스턴트 봄버 자켓 집 블랙 - 25SS\n\n41%\n\n819,000원\n\n관심 55\n\n · 리뷰 3\n\n · 거래 8"
+          "product_id": 883654,
+          "text": "Stone Island\n\n스톤 아일랜드 4100061 메탈 라미나 립스탑 히트 리액티브 벤틸레이션 플랩 후드 재킷 말라카이트\n\n28%\n\n1,899,000원\n\n관심 15\n\n · 리뷰 1"
         },
         {
-          "product_id": 611746,
-          "text": "Stone Island\n\n스톤 아일랜드 1200027 퍼포먼스 플란넬 스톤 아일랜드 고스트 컴포트 핏 집업 오버셔츠 윈드 레지스턴트 멤브레인 네이비 블루 - 25FW\n\n36%\n\n930,000원\n\n관심 17\n\n · 거래 1"
+          "product_id": 704358,
+          "text": "Stone Island\n\n스톤 아일랜드 4100005 멤브라나 3L TC 후드 패딩 자켓 워터-레지스턴트 멤브레인 블랙 - 26SS\n\n31%\n\n1,261,000원\n\n관심 36\n\n · 리뷰 4\n\n · 거래 1"
         }
       ]
     },
@@ -8178,24 +5107,24 @@
       "error": "No KREAM match for SKU=\"MJO165OF0496055\" SPU=\"MJO165OF0496055\"",
       "candidates": [
         {
-          "product_id": 67415,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 크루넥 스웨트셔츠 네이비\n\n54%\n\n495,000원\n\n관심 82\n\n · 리뷰 3\n\n · 거래 11"
-        },
-        {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
-        },
-        {
-          "product_id": 91238,
-          "text": "Thom Browne\n\n톰브라운 코튼 오토만 립 사선 후드 집업 네이비\n\n3,346,000원\n\n관심 8\n\n · 리뷰 1\n\n · 거래 2"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 347\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
           "product_id": 138165,
           "text": "Thom Browne\n\n톰브라운 플레인 위브 수팅 사선 니트 블루종 자켓 미디움 그레이\n\n19%\n\n2,418,000원\n\n관심 69\n\n · 거래 10"
         },
         {
-          "product_id": 64160,
-          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 67409,
+          "text": "Thom Browne\n\n(W) 톰브라운 루프백 저지 니트 엔지니어드 사선 스트라이프 크루넥 풀오버 네이비\n\n55%\n\n484,000원\n\n관심 2,964\n\n · 리뷰 60\n\n · 거래 403\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 67408,
+          "text": "Thom Browne\n\n(W) 톰브라운 루프백 저지 니트 엔지니어드 사선 스트라이프 크루넥 풀오버 라이트 그레이\n\n61%\n\n420,000원\n\n관심 995\n\n · 리뷰 14\n\n · 거래 122\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 63828,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 센터 백 스트라이프 후드 집업 네이비\n\n41%\n\n850,000원\n\n관심 1,782\n\n · 리뷰 101\n\n · 거래 485\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -8208,24 +5137,24 @@
       "error": "No KREAM match for SKU=\"MJO165OF0496055\" SPU=\"MJO165OF0496055\"",
       "candidates": [
         {
-          "product_id": 67415,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 크루넥 스웨트셔츠 네이비\n\n54%\n\n495,000원\n\n관심 82\n\n · 리뷰 3\n\n · 거래 11"
-        },
-        {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
-        },
-        {
-          "product_id": 91238,
-          "text": "Thom Browne\n\n톰브라운 코튼 오토만 립 사선 후드 집업 네이비\n\n3,346,000원\n\n관심 8\n\n · 리뷰 1\n\n · 거래 2"
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 347\n\n · 리뷰 2\n\n · 거래 19"
         },
         {
           "product_id": 138165,
           "text": "Thom Browne\n\n톰브라운 플레인 위브 수팅 사선 니트 블루종 자켓 미디움 그레이\n\n19%\n\n2,418,000원\n\n관심 69\n\n · 거래 10"
         },
         {
-          "product_id": 64160,
-          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 67409,
+          "text": "Thom Browne\n\n(W) 톰브라운 루프백 저지 니트 엔지니어드 사선 스트라이프 크루넥 풀오버 네이비\n\n55%\n\n484,000원\n\n관심 2,964\n\n · 리뷰 60\n\n · 거래 403\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 67408,
+          "text": "Thom Browne\n\n(W) 톰브라운 루프백 저지 니트 엔지니어드 사선 스트라이프 크루넥 풀오버 라이트 그레이\n\n61%\n\n420,000원\n\n관심 995\n\n · 리뷰 14\n\n · 거래 122\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 63828,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 센터 백 스트라이프 후드 집업 네이비\n\n41%\n\n850,000원\n\n관심 1,782\n\n · 리뷰 101\n\n · 거래 485\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -8345,30 +5274,21 @@
       "product_url": "https://kream.co.kr/products/453251",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 2131000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 2131000,
-          "option": "0",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 1,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "0",
-      "kream_options_available": [
-        "0",
-        "5"
-      ],
+      "kream_option": null,
+      "kream_options_available": [],
       "option_mismatch": true
     },
     {
@@ -8382,98 +5302,22 @@
       "product_url": "https://kream.co.kr/products/419121",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 1057000,
-        "highest_bid": 380000,
-        "change_text": "-"
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 1057000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 1058000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 1110000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 1331000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 1673000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 380000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
+      "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 5,
-        "bids": 1
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0; ;tl_1;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "-",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": true,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#4E4E4E",
-            "type": "text"
-          },
-          {
-            "key": ";tl_1;",
-            "text": "0원(0%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#4E4E4E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "4",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MJP234AJ0248415",
@@ -8628,24 +5472,24 @@
       "error": "No KREAM match for SKU=\"MJT554AJ0248050\" SPU=\"MJT554AJ0248050\"",
       "candidates": [
         {
-          "product_id": 67415,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 크루넥 스웨트셔츠 네이비\n\n54%\n\n495,000원\n\n관심 82\n\n · 리뷰 3\n\n · 거래 11"
+          "product_id": 54265,
+          "text": "Thom Browne\n\n톰브라운 밀라노 스티치 사선 크루넥 풀오버 니트 미디움 그레이\n\n45%\n\n804,000원\n\n관심 2,400\n\n · 리뷰 122\n\n · 거래 895\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 64752,
+          "text": "Thom Browne\n\n톰브라운 파인 메리노 울 스티치 사선 클래식 크루넥 풀오버 니트 네이비\n\n758,000원\n\n관심 1,706\n\n · 리뷰 53\n\n · 거래 494\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 54266,
-          "text": "Thom Browne\n\n톰브라운 밀라노 스티치 사선 크루넥 풀오버 니트 네이비\n\n45%\n\n800,000원\n\n관심 1,708\n\n · 리뷰 112\n\n · 거래 889\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 138165,
+          "text": "Thom Browne\n\n톰브라운 플레인 위브 수팅 사선 니트 블루종 자켓 미디움 그레이\n\n19%\n\n2,418,000원\n\n관심 69\n\n · 거래 10"
         },
         {
-          "product_id": 64160,
-          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 49774,
+          "text": "Thom Browne\n\n톰브라운 밀라노 스티치 사선 가디건 네이비\n\n1,036,000원\n\n관심 1만\n\n · 리뷰 687\n\n · 거래 1.8만\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 91238,
-          "text": "Thom Browne\n\n톰브라운 코튼 오토만 립 사선 후드 집업 네이비\n\n3,346,000원\n\n관심 8\n\n · 리뷰 1\n\n · 거래 2"
+          "product_id": 49775,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 스웨트셔츠 라이트 그레이\n\n568,000원\n\n관심 3,352\n\n · 리뷰 195\n\n · 거래 1,551\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -8658,24 +5502,24 @@
       "error": "No KREAM match for SKU=\"MWL437OF1158960\" SPU=\"MWL437OF1158960\"",
       "candidates": [
         {
-          "product_id": 453698,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 암밴드 셔츠 네이비\n\n70%\n\n390,000원\n\n관심 11\n\n · 거래 2"
-        },
-        {
-          "product_id": 140794,
-          "text": "Thom Browne\n\n톰브라운 깅엄 옥스포드 암밴드 클래식 셔츠 미디움 그레이\n\n64%\n\n328,000원\n\n관심 24\n\n · 리뷰 3\n\n · 거래 12"
+          "product_id": 64160,
+          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
         },
         {
           "product_id": 56574,
           "text": "Thom Browne\n\n톰브라운 샴브레이 프린티드 사선 네임택 스트레이트 핏 셔츠 블루\n\n27%\n\n600,000원\n\n관심 182\n\n · 리뷰 13\n\n · 거래 52"
         },
         {
-          "product_id": 64160,
-          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 453698,
+          "text": "Thom Browne\n\n톰브라운 옥스포드 암밴드 셔츠 네이비\n\n70%\n\n390,000원\n\n관심 11\n\n · 거래 2"
         },
         {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 58373,
+          "text": "Thom Browne\n\n톰브라운 옥스포드 스트라이프 그로그랭 암밴드 클래식 셔츠 화이트\n\n58%\n\n300,000원\n\n관심 1,418\n\n · 리뷰 56\n\n · 거래 341\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 140794,
+          "text": "Thom Browne\n\n톰브라운 깅엄 옥스포드 암밴드 클래식 셔츠 미디움 그레이\n\n64%\n\n328,000원\n\n관심 24\n\n · 리뷰 3\n\n · 거래 12"
         }
       ]
     },
@@ -8688,24 +5532,24 @@
       "error": "No KREAM match for SKU=\"MWL437OF1158960\" SPU=\"MWL437OF1158960\"",
       "candidates": [
         {
-          "product_id": 453698,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 암밴드 셔츠 네이비\n\n70%\n\n390,000원\n\n관심 11\n\n · 거래 2"
-        },
-        {
-          "product_id": 140794,
-          "text": "Thom Browne\n\n톰브라운 깅엄 옥스포드 암밴드 클래식 셔츠 미디움 그레이\n\n64%\n\n328,000원\n\n관심 24\n\n · 리뷰 3\n\n · 거래 12"
+          "product_id": 64160,
+          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
         },
         {
           "product_id": 56574,
           "text": "Thom Browne\n\n톰브라운 샴브레이 프린티드 사선 네임택 스트레이트 핏 셔츠 블루\n\n27%\n\n600,000원\n\n관심 182\n\n · 리뷰 13\n\n · 거래 52"
         },
         {
-          "product_id": 64160,
-          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 453698,
+          "text": "Thom Browne\n\n톰브라운 옥스포드 암밴드 셔츠 네이비\n\n70%\n\n390,000원\n\n관심 11\n\n · 거래 2"
         },
         {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 58373,
+          "text": "Thom Browne\n\n톰브라운 옥스포드 스트라이프 그로그랭 암밴드 클래식 셔츠 화이트\n\n58%\n\n300,000원\n\n관심 1,418\n\n · 리뷰 56\n\n · 거래 341\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 140794,
+          "text": "Thom Browne\n\n톰브라운 깅엄 옥스포드 암밴드 클래식 셔츠 미디움 그레이\n\n64%\n\n328,000원\n\n관심 24\n\n · 리뷰 3\n\n · 거래 12"
         }
       ]
     },
@@ -8718,24 +5562,24 @@
       "error": "No KREAM match for SKU=\"MTU345SF1215480\" SPU=\"MTU345SF1215480\"",
       "candidates": [
         {
-          "product_id": 453698,
-          "text": "Thom Browne\n\n톰브라운 옥스포드 암밴드 셔츠 네이비\n\n70%\n\n390,000원\n\n관심 11\n\n · 거래 2"
+          "product_id": 56084,
+          "text": "Miu Miu\n\n(W) 미우 미우 가죽 페니 로퍼 블랙\n\n32%\n\n1,175,000원\n\n관심 3,258\n\n · 리뷰 58\n\n · 거래 446\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 369971,
+          "text": "Prada\n\n프라다 초콜릿 브러시드 레더 로퍼 시에나\n\n43%\n\n895,000원\n\n관심 20\n\n · 리뷰 1"
         },
         {
-          "product_id": 91238,
-          "text": "Thom Browne\n\n톰브라운 코튼 오토만 립 사선 후드 집업 네이비\n\n3,346,000원\n\n관심 8\n\n · 리뷰 1\n\n · 거래 2"
+          "product_id": 399325,
+          "text": "Miu Miu\n\n(W) 미우 미우 나파 레더 로퍼 블랙\n\n27%\n\n1,152,000원\n\n관심 229\n\n · 리뷰 3\n\n · 거래 16"
         },
         {
-          "product_id": 813236,
-          "text": "Thom Browne\n\n톰브라운 클래식 옥스포드 버튼 다운 셔츠 라이트 블루\n\n260,000원\n\n관심 16\n\n · 리뷰 3\n\n · 거래 8"
+          "product_id": 425936,
+          "text": "Miu Miu\n\n(W) 미우 미우 타이어 테크니컬 패브릭 앤 스웨이드 발레리나 아이보리\n\n23%\n\n1,099,000원\n\n관심 322\n\n · 리뷰 4\n\n · 거래 15"
         },
         {
-          "product_id": 140794,
-          "text": "Thom Browne\n\n톰브라운 깅엄 옥스포드 암밴드 클래식 셔츠 미디움 그레이\n\n64%\n\n328,000원\n\n관심 24\n\n · 리뷰 3\n\n · 거래 12"
+          "product_id": 258413,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n9%\n\n1,436,000원\n\n관심 71\n\n · 리뷰 4\n\n · 거래 1"
         }
       ]
     },
@@ -8751,7 +5595,7 @@
       "market": {
         "last_sale_price": 699000,
         "lowest_ask": 598000,
-        "highest_bid": 549000,
+        "highest_bid": 550000,
         "change_text": "▼ 55,000원(-9.0%)"
       },
       "sales": [
@@ -8887,7 +5731,7 @@
       ],
       "bids": [
         {
-          "price": 549000,
+          "price": 550000,
           "option": "2",
           "quantity": 1
         },
@@ -9210,103 +6054,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/72186",
       "market": {
-        "last_sale_price": 926000,
-        "lowest_ask": 1285000,
-        "highest_bid": 188000,
-        "change_text": "▲ 1,000원(+0.1%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 926000,
-          "option": "36",
-          "date_created": "2026-01-12T07:15:55Z",
-          "date_text": "26/01/12",
-          "is_immediate": false
-        },
-        {
-          "price": 890000,
-          "option": "36",
-          "date_created": "2025-01-13T23:22:05Z",
-          "date_text": "25/01/14",
-          "is_immediate": false
-        },
-        {
-          "price": 1128000,
-          "option": "36",
-          "date_created": "2024-05-03T08:26:51Z",
-          "date_text": "24/05/03",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 1285000,
-          "option": "36",
-          "quantity": 1
-        },
-        {
-          "price": 1286000,
-          "option": "36",
-          "quantity": 1
-        },
-        {
-          "price": 1365000,
-          "option": "36",
-          "quantity": 1
-        },
-        {
-          "price": 1690000,
-          "option": "36",
-          "quantity": 2
-        }
-      ],
-      "bids": [
-        {
-          "price": 188000,
-          "option": "36",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 3,
-        "asks": 4,
-        "bids": 1
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▲ 1,000원(+0.1%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#F15746",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "36",
-      "kream_options_available": [
-        "34",
-        "36",
-        "38",
-        "40",
-        "42",
-        "44"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "FGC402V06146415",
@@ -9318,86 +6082,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/72186",
       "market": {
-        "last_sale_price": 666000,
-        "lowest_ask": 1278000,
-        "highest_bid": 143000,
-        "change_text": "▲ 1,000원(+0.1%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 666000,
-          "option": "42",
-          "date_created": "2024-01-29T15:44:06Z",
-          "date_text": "24/01/30",
-          "is_immediate": false
-        },
-        {
-          "price": 1123000,
-          "option": "42",
-          "date_created": "2023-05-23T23:00:07Z",
-          "date_text": "23/05/24",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 1278000,
-          "option": "42",
-          "quantity": 1
-        },
-        {
-          "price": 1279000,
-          "option": "42",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 143000,
-          "option": "42",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 2,
-        "asks": 2,
-        "bids": 1
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▲ 1,000원(+0.1%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#F15746",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "42",
-      "kream_options_available": [
-        "34",
-        "36",
-        "38",
-        "40",
-        "42",
-        "44"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MKC002AY1014001",
@@ -9409,257 +6110,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/58779",
       "market": {
-        "last_sale_price": 900000,
-        "lowest_ask": 890000,
-        "highest_bid": 667000,
-        "change_text": "▼ 140,000원(-13.5%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 900000,
-          "option": "4",
-          "date_created": "2026-04-13T06:24:16Z",
-          "date_text": "26/04/13",
-          "is_immediate": true
-        },
-        {
-          "price": 924000,
-          "option": "4",
-          "date_created": "2026-03-28T01:15:33Z",
-          "date_text": "26/03/28",
-          "is_immediate": true
-        },
-        {
-          "price": 895000,
-          "option": "4",
-          "date_created": "2026-03-17T05:17:34Z",
-          "date_text": "26/03/17",
-          "is_immediate": true
-        },
-        {
-          "price": 890000,
-          "option": "4",
-          "date_created": "2026-01-20T12:07:30Z",
-          "date_text": "26/01/20",
-          "is_immediate": false
-        },
-        {
-          "price": 690000,
-          "option": "4",
-          "date_created": "2025-11-16T06:00:17Z",
-          "date_text": "25/11/16",
-          "is_immediate": false
-        },
-        {
-          "price": 898000,
-          "option": "4",
-          "date_created": "2025-10-22T10:08:20Z",
-          "date_text": "25/10/22",
-          "is_immediate": false
-        },
-        {
-          "price": 898000,
-          "option": "4",
-          "date_created": "2025-10-13T10:19:31Z",
-          "date_text": "25/10/13",
-          "is_immediate": false
-        },
-        {
-          "price": 720000,
-          "option": "4",
-          "date_created": "2025-09-24T21:49:50Z",
-          "date_text": "25/09/25",
-          "is_immediate": false
-        },
-        {
-          "price": 770000,
-          "option": "4",
-          "date_created": "2025-07-28T15:18:05Z",
-          "date_text": "25/07/29",
-          "is_immediate": true
-        },
-        {
-          "price": 748000,
-          "option": "4",
-          "date_created": "2025-04-24T01:53:43Z",
-          "date_text": "25/04/24",
-          "is_immediate": false
-        },
-        {
-          "price": 710000,
-          "option": "4",
-          "date_created": "2025-04-10T21:23:50Z",
-          "date_text": "25/04/11",
-          "is_immediate": false
-        },
-        {
-          "price": 750000,
-          "option": "4",
-          "date_created": "2025-04-04T04:02:59Z",
-          "date_text": "25/04/04",
-          "is_immediate": false
-        },
-        {
-          "price": 725000,
-          "option": "4",
-          "date_created": "2025-02-13T11:07:10Z",
-          "date_text": "25/02/13",
-          "is_immediate": false
-        },
-        {
-          "price": 727000,
-          "option": "4",
-          "date_created": "2025-02-05T01:14:47Z",
-          "date_text": "25/02/05",
-          "is_immediate": false
-        },
-        {
-          "price": 727000,
-          "option": "4",
-          "date_created": "2025-01-19T07:55:08Z",
-          "date_text": "25/01/19",
-          "is_immediate": false
-        },
-        {
-          "price": 693000,
-          "option": "4",
-          "date_created": "2025-01-12T10:18:57Z",
-          "date_text": "25/01/12",
-          "is_immediate": false
-        },
-        {
-          "price": 705000,
-          "option": "4",
-          "date_created": "2024-12-13T09:03:05Z",
-          "date_text": "24/12/13",
-          "is_immediate": false
-        },
-        {
-          "price": 750000,
-          "option": "4",
-          "date_created": "2024-11-28T07:16:21Z",
-          "date_text": "24/11/28",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 890000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 891000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 959000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 972000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 998000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 999000,
-          "option": "4",
-          "quantity": 2
-        },
-        {
-          "price": 1049000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 1050000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 1056000,
-          "option": "4",
-          "quantity": 3
-        },
-        {
-          "price": 1086000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 1115000,
-          "option": "4",
-          "quantity": 4
-        },
-        {
-          "price": 1246000,
-          "option": "4",
-          "quantity": 2
-        },
-        {
-          "price": 1257000,
-          "option": "4",
-          "quantity": 1
-        },
-        {
-          "price": 1790000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 667000,
-          "option": "4",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 18,
-        "asks": 14,
-        "bids": 1
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 140,000원(-13.5%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "4",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MKC002AY1014001",
@@ -9671,200 +6138,23 @@
       "product_name_ko": "Thom Browne",
       "product_url": "https://kream.co.kr/products/58779",
       "market": {
-        "last_sale_price": 1040000,
-        "lowest_ask": 950000,
-        "highest_bid": 650000,
-        "change_text": "▼ 140,000원(-13.5%)"
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
       },
-      "sales": [
-        {
-          "price": 1040000,
-          "option": "5",
-          "date_created": "2026-04-02T14:41:49Z",
-          "date_text": "26/04/02",
-          "is_immediate": false
-        },
-        {
-          "price": 789000,
-          "option": "5",
-          "date_created": "2026-02-28T20:09:42Z",
-          "date_text": "26/03/01",
-          "is_immediate": false
-        },
-        {
-          "price": 750000,
-          "option": "5",
-          "date_created": "2025-09-07T11:56:07Z",
-          "date_text": "25/09/07",
-          "is_immediate": false
-        },
-        {
-          "price": 747000,
-          "option": "5",
-          "date_created": "2025-06-27T06:14:49Z",
-          "date_text": "25/06/27",
-          "is_immediate": false
-        },
-        {
-          "price": 758000,
-          "option": "5",
-          "date_created": "2025-03-14T04:54:56Z",
-          "date_text": "25/03/14",
-          "is_immediate": false
-        },
-        {
-          "price": 759000,
-          "option": "5",
-          "date_created": "2025-03-07T02:18:12Z",
-          "date_text": "25/03/07",
-          "is_immediate": false
-        },
-        {
-          "price": 747000,
-          "option": "5",
-          "date_created": "2025-03-06T04:58:33Z",
-          "date_text": "25/03/06",
-          "is_immediate": false
-        },
-        {
-          "price": 680000,
-          "option": "5",
-          "date_created": "2025-03-01T07:49:07Z",
-          "date_text": "25/03/01",
-          "is_immediate": false
-        },
-        {
-          "price": 725000,
-          "option": "5",
-          "date_created": "2025-02-16T07:54:59Z",
-          "date_text": "25/02/16",
-          "is_immediate": false
-        },
-        {
-          "price": 735000,
-          "option": "5",
-          "date_created": "2025-01-14T09:22:50Z",
-          "date_text": "25/01/14",
-          "is_immediate": false
-        },
-        {
-          "price": 693000,
-          "option": "5",
-          "date_created": "2025-01-10T06:51:52Z",
-          "date_text": "25/01/10",
-          "is_immediate": false
-        },
-        {
-          "price": 705000,
-          "option": "5",
-          "date_created": "2024-12-08T11:52:00Z",
-          "date_text": "24/12/08",
-          "is_immediate": false
-        }
-      ],
-      "asks": [
-        {
-          "price": 950000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 1000000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 1050000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 1055000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 1056000,
-          "option": "5",
-          "quantity": 3
-        },
-        {
-          "price": 1155000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 1246000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 1257000,
-          "option": "5",
-          "quantity": 1
-        }
-      ],
-      "bids": [
-        {
-          "price": 650000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 610000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 604000,
-          "option": "5",
-          "quantity": 1
-        },
-        {
-          "price": 450000,
-          "option": "5",
-          "quantity": 1
-        }
-      ],
+      "sales": [],
+      "asks": [],
+      "bids": [],
       "totals": {
-        "sales": 12,
-        "asks": 8,
-        "bids": 4
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
       },
-      "raw_chart_recently": {
-        "text": ";tl_0;",
-        "lookups": [
-          {
-            "key": ";tl_0;",
-            "text": "▼ 140,000원(-13.5%)",
-            "is_italic": false,
-            "is_semibold": false,
-            "is_bold": false,
-            "is_strikethrough": false,
-            "is_underline": false,
-            "action_type": null,
-            "action_value": null,
-            "adjustment": 0,
-            "color": "#31B46E",
-            "type": "text"
-          }
-        ],
-        "action_type": null,
-        "action_value": null,
-        "action_parameters": null,
-        "color": "#222222",
-        "type": "text",
-        "number_of_lines": null
-      },
-      "kream_option": "5",
-      "kream_options_available": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "MJO165OF0496415",
@@ -9875,24 +6165,24 @@
       "error": "No KREAM match for SKU=\"MJO165OF0496415\" SPU=\"MJO165OF0496415\"",
       "candidates": [
         {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
-        },
-        {
-          "product_id": 67415,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 크루넥 스웨트셔츠 네이비\n\n54%\n\n495,000원\n\n관심 82\n\n · 리뷰 3\n\n · 거래 11"
-        },
-        {
           "product_id": 64160,
           "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 91238,
-          "text": "Thom Browne\n\n톰브라운 코튼 오토만 립 사선 후드 집업 네이비\n\n3,346,000원\n\n관심 8\n\n · 리뷰 1\n\n · 거래 2"
+          "product_id": 65594,
+          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
         },
         {
-          "product_id": 64738,
-          "text": "Thom Browne\n\n톰브라운 라이트웨이트 보일드 울 엔지니어드 스트라이프 리버시블 퍼넬 넥 집업 자켓 미디움 그레이\n\n63%\n\n2,100,000원\n\n관심 13\n\n · 거래 1"
+          "product_id": 49293,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 스웨트셔츠 네이비\n\n580,000원\n\n관심 5,842\n\n · 리뷰 350\n\n · 거래 3,961\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 138165,
+          "text": "Thom Browne\n\n톰브라운 플레인 위브 수팅 사선 니트 블루종 자켓 미디움 그레이\n\n19%\n\n2,416,000원\n\n관심 69\n\n · 거래 10"
+        },
+        {
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 347\n\n · 리뷰 2\n\n · 거래 19"
         }
       ]
     },
@@ -9905,24 +6195,24 @@
       "error": "No KREAM match for SKU=\"MJO165OF0496415\" SPU=\"MJO165OF0496415\"",
       "candidates": [
         {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
-        },
-        {
-          "product_id": 67415,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 크루넥 스웨트셔츠 네이비\n\n54%\n\n495,000원\n\n관심 82\n\n · 리뷰 3\n\n · 거래 11"
-        },
-        {
           "product_id": 64160,
           "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 91238,
-          "text": "Thom Browne\n\n톰브라운 코튼 오토만 립 사선 후드 집업 네이비\n\n3,346,000원\n\n관심 8\n\n · 리뷰 1\n\n · 거래 2"
+          "product_id": 65594,
+          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
         },
         {
-          "product_id": 64738,
-          "text": "Thom Browne\n\n톰브라운 라이트웨이트 보일드 울 엔지니어드 스트라이프 리버시블 퍼넬 넥 집업 자켓 미디움 그레이\n\n63%\n\n2,100,000원\n\n관심 13\n\n · 거래 1"
+          "product_id": 49293,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 스웨트셔츠 네이비\n\n580,000원\n\n관심 5,842\n\n · 리뷰 350\n\n · 거래 3,961\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 138165,
+          "text": "Thom Browne\n\n톰브라운 플레인 위브 수팅 사선 니트 블루종 자켓 미디움 그레이\n\n19%\n\n2,416,000원\n\n관심 69\n\n · 거래 10"
+        },
+        {
+          "product_id": 64907,
+          "text": "Thom Browne\n\n톰브라운 코튼 밀라노 스티치 RWB 암밴드 폴로 봄버 자켓 네이비\n\n1,630,000원\n\n관심 347\n\n · 리뷰 2\n\n · 거래 19"
         }
       ]
     },
@@ -10201,24 +6491,24 @@
       "error": "No KREAM match for SKU=\"FLL171A03113100\" SPU=\"FLL171A03113100\"",
       "candidates": [
         {
+          "product_id": 77069,
+          "text": "Thom Browne\n\n톰브라운 쉐도우 핀스트라이프 옥스포드 암밴드 롱슬리브 셔츠 레드 화이트 블루\n\n33%\n\n655,000원\n\n관심 106\n\n · 리뷰 4\n\n · 거래 21"
+        },
+        {
+          "product_id": 56574,
+          "text": "Thom Browne\n\n톰브라운 샴브레이 프린티드 사선 네임택 스트레이트 핏 셔츠 블루\n\n27%\n\n600,000원\n\n관심 182\n\n · 리뷰 13\n\n · 거래 52"
+        },
+        {
           "product_id": 453698,
           "text": "Thom Browne\n\n톰브라운 옥스포드 암밴드 셔츠 네이비\n\n70%\n\n390,000원\n\n관심 11\n\n · 거래 2"
         },
         {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 140794,
+          "text": "Thom Browne\n\n톰브라운 깅엄 옥스포드 암밴드 클래식 셔츠 미디움 그레이\n\n64%\n\n328,000원\n\n관심 24\n\n · 리뷰 3\n\n · 거래 12"
         },
         {
-          "product_id": 67415,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 크루넥 스웨트셔츠 네이비\n\n54%\n\n495,000원\n\n관심 82\n\n · 리뷰 3\n\n · 거래 11"
-        },
-        {
-          "product_id": 91238,
-          "text": "Thom Browne\n\n톰브라운 코튼 오토만 립 사선 후드 집업 네이비\n\n3,346,000원\n\n관심 8\n\n · 리뷰 1\n\n · 거래 2"
-        },
-        {
-          "product_id": 64160,
-          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 59013,
+          "text": "Thom Browne\n\n톰브라운 솔리드 포플린 그로그랭 암밴드 클래식 롱슬리브 포인트 칼라 버튼 다운 셔츠 화이트\n\n36%\n\n499,000원\n\n관심 461\n\n · 리뷰 18\n\n · 거래 138\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -10342,20 +6632,20 @@
       "error": "No KREAM match for SKU=\"MJT569AJ0242415\" SPU=\"MJT569AJ0242415\"",
       "candidates": [
         {
-          "product_id": 67415,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 크루넥 스웨트셔츠 네이비\n\n54%\n\n495,000원\n\n관심 82\n\n · 리뷰 3\n\n · 거래 11"
+          "product_id": 453698,
+          "text": "Thom Browne\n\n톰브라운 옥스포드 암밴드 셔츠 네이비\n\n70%\n\n390,000원\n\n관심 11\n\n · 거래 2"
         },
         {
-          "product_id": 54266,
-          "text": "Thom Browne\n\n톰브라운 밀라노 스티치 사선 크루넥 풀오버 니트 네이비\n\n45%\n\n800,000원\n\n관심 1,708\n\n · 리뷰 112\n\n · 거래 889\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 64160,
+          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
         },
         {
           "product_id": 65594,
           "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
         },
         {
-          "product_id": 64160,
-          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 49293,
+          "text": "Thom Browne\n\n톰브라운 엔지니어드 사선 스웨트셔츠 네이비\n\n580,000원\n\n관심 5,842\n\n · 리뷰 350\n\n · 거래 3,961\n\n빠른배송\n\n내일 도착 예정"
         },
         {
           "product_id": 91238,
@@ -10372,24 +6662,24 @@
       "error": "No KREAM match for SKU=\"MKA581AY3014415\" SPU=\"MKA581AY3014415\"",
       "candidates": [
         {
-          "product_id": 67415,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 크루넥 스웨트셔츠 네이비\n\n54%\n\n495,000원\n\n관심 82\n\n · 리뷰 3\n\n · 거래 11"
+          "product_id": 65594,
+          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 56574,
+          "text": "Thom Browne\n\n톰브라운 샴브레이 프린티드 사선 네임택 스트레이트 핏 셔츠 블루\n\n27%\n\n600,000원\n\n관심 182\n\n · 리뷰 13\n\n · 거래 52"
         },
         {
           "product_id": 453698,
           "text": "Thom Browne\n\n톰브라운 옥스포드 암밴드 셔츠 네이비\n\n70%\n\n390,000원\n\n관심 11\n\n · 거래 2"
         },
         {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 67415,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 크루넥 스웨트셔츠 네이비\n\n54%\n\n495,000원\n\n관심 82\n\n · 리뷰 3\n\n · 거래 11"
         },
         {
-          "product_id": 610749,
-          "text": "Thom Browne\n\n톰브라운 애니멀 아이콘 사선 크루넥 스웨트셔츠 네이비\n\n842,000원\n\n관심 4"
-        },
-        {
-          "product_id": 54265,
-          "text": "Thom Browne\n\n톰브라운 밀라노 스티치 사선 크루넥 풀오버 니트 미디움 그레이\n\n45%\n\n804,000원\n\n관심 2,400\n\n · 리뷰 122\n\n · 거래 895\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 64160,
+          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -10402,24 +6692,24 @@
       "error": "No KREAM match for SKU=\"MKA581AY3014415\" SPU=\"MKA581AY3014415\"",
       "candidates": [
         {
-          "product_id": 67415,
-          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 크루넥 스웨트셔츠 네이비\n\n54%\n\n495,000원\n\n관심 82\n\n · 리뷰 3\n\n · 거래 11"
+          "product_id": 65594,
+          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 56574,
+          "text": "Thom Browne\n\n톰브라운 샴브레이 프린티드 사선 네임택 스트레이트 핏 셔츠 블루\n\n27%\n\n600,000원\n\n관심 182\n\n · 리뷰 13\n\n · 거래 52"
         },
         {
           "product_id": 453698,
           "text": "Thom Browne\n\n톰브라운 옥스포드 암밴드 셔츠 네이비\n\n70%\n\n390,000원\n\n관심 11\n\n · 거래 2"
         },
         {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
+          "product_id": 67415,
+          "text": "Thom Browne\n\n톰브라운 코튼 루프백 릴렉스 핏 토날 사선 크루넥 스웨트셔츠 네이비\n\n54%\n\n495,000원\n\n관심 82\n\n · 리뷰 3\n\n · 거래 11"
         },
         {
-          "product_id": 610749,
-          "text": "Thom Browne\n\n톰브라운 애니멀 아이콘 사선 크루넥 스웨트셔츠 네이비\n\n842,000원\n\n관심 4"
-        },
-        {
-          "product_id": 54265,
-          "text": "Thom Browne\n\n톰브라운 밀라노 스티치 사선 크루넥 풀오버 니트 미디움 그레이\n\n45%\n\n804,000원\n\n관심 2,400\n\n · 리뷰 122\n\n · 거래 895\n\n빠른배송\n\n내일 도착 예정"
+          "product_id": 64160,
+          "text": "Thom Browne\n\n톰브라운 솔리드 플란넬 사선 스트레이트 핏 셔츠 네이비\n\n29%\n\n589,000원\n\n관심 1,211\n\n · 리뷰 44\n\n · 거래 244\n\n빠른배송\n\n내일 도착 예정"
         }
       ]
     },
@@ -10462,45 +6752,22 @@
       "product_url": "https://kream.co.kr/products/793115",
       "market": {
         "last_sale_price": null,
-        "lowest_ask": 1071000,
+        "lowest_ask": null,
         "highest_bid": null,
         "change_text": null
       },
       "sales": [],
-      "asks": [
-        {
-          "price": 1071000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 1072000,
-          "option": "3",
-          "quantity": 1
-        },
-        {
-          "price": 1084000,
-          "option": "3",
-          "quantity": 1
-        }
-      ],
+      "asks": [],
       "bids": [],
       "totals": {
         "sales": 0,
-        "asks": 3,
+        "asks": 0,
         "bids": 0
       },
       "raw_chart_recently": null,
-      "kream_option": "3",
-      "kream_options_available": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "option_mismatch": false
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "FGCA42A06455415",
@@ -10511,24 +6778,24 @@
       "error": "No KREAM match for SKU=\"FGCA42A06455415\" SPU=\"FGCA42A06455415\"",
       "candidates": [
         {
-          "product_id": 91238,
-          "text": "Thom Browne\n\n톰브라운 코튼 오토만 립 사선 후드 집업 네이비\n\n3,346,000원\n\n관심 8\n\n · 리뷰 1\n\n · 거래 2"
-        },
-        {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
-        },
-        {
-          "product_id": 64738,
-          "text": "Thom Browne\n\n톰브라운 라이트웨이트 보일드 울 엔지니어드 스트라이프 리버시블 퍼넬 넥 집업 자켓 미디움 그레이\n\n63%\n\n2,100,000원\n\n관심 13\n\n · 거래 1"
+          "product_id": 451557,
+          "text": "Thom Browne\n\n톰브라운 박스 카프 클래식 롱윙 브로그 브라운\n\n51%\n\n868,000원\n\n관심 1\n\n · 거래 2"
         },
         {
           "product_id": 147846,
           "text": "Thom Browne\n\n톰브라운 코튼 저지 스트라이프 브이넥 가디건 네이비\n\n45%\n\n780,000원\n\n관심 458\n\n · 리뷰 2\n\n · 거래 13"
         },
         {
-          "product_id": 93129,
-          "text": "Thom Browne\n\n톰브라운 매트 나일론 사선 스트라이프 다운필 퀼티드 후드 자켓 블랙\n\n1,584,000원\n\n관심 264\n\n · 리뷰 2\n\n · 거래 17"
+          "product_id": 56574,
+          "text": "Thom Browne\n\n톰브라운 샴브레이 프린티드 사선 네임택 스트레이트 핏 셔츠 블루\n\n27%\n\n600,000원\n\n관심 182\n\n · 리뷰 13\n\n · 거래 52"
+        },
+        {
+          "product_id": 77066,
+          "text": "Thom Browne\n\n톰브라운 브이넥 가디건 바시티 피케 네이비\n\n950,000원\n\n관심 224\n\n · 리뷰 2\n\n · 거래 19"
+        },
+        {
+          "product_id": 77069,
+          "text": "Thom Browne\n\n톰브라운 쉐도우 핀스트라이프 옥스포드 암밴드 롱슬리브 셔츠 레드 화이트 블루\n\n33%\n\n655,000원\n\n관심 106\n\n · 리뷰 4\n\n · 거래 21"
         }
       ]
     },
@@ -10541,24 +6808,24 @@
       "error": "No KREAM match for SKU=\"FGCA42A06455415\" SPU=\"FGCA42A06455415\"",
       "candidates": [
         {
-          "product_id": 91238,
-          "text": "Thom Browne\n\n톰브라운 코튼 오토만 립 사선 후드 집업 네이비\n\n3,346,000원\n\n관심 8\n\n · 리뷰 1\n\n · 거래 2"
-        },
-        {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
-        },
-        {
-          "product_id": 64738,
-          "text": "Thom Browne\n\n톰브라운 라이트웨이트 보일드 울 엔지니어드 스트라이프 리버시블 퍼넬 넥 집업 자켓 미디움 그레이\n\n63%\n\n2,100,000원\n\n관심 13\n\n · 거래 1"
+          "product_id": 451557,
+          "text": "Thom Browne\n\n톰브라운 박스 카프 클래식 롱윙 브로그 브라운\n\n51%\n\n868,000원\n\n관심 1\n\n · 거래 2"
         },
         {
           "product_id": 147846,
           "text": "Thom Browne\n\n톰브라운 코튼 저지 스트라이프 브이넥 가디건 네이비\n\n45%\n\n780,000원\n\n관심 458\n\n · 리뷰 2\n\n · 거래 13"
         },
         {
-          "product_id": 93129,
-          "text": "Thom Browne\n\n톰브라운 매트 나일론 사선 스트라이프 다운필 퀼티드 후드 자켓 블랙\n\n1,584,000원\n\n관심 264\n\n · 리뷰 2\n\n · 거래 17"
+          "product_id": 56574,
+          "text": "Thom Browne\n\n톰브라운 샴브레이 프린티드 사선 네임택 스트레이트 핏 셔츠 블루\n\n27%\n\n600,000원\n\n관심 182\n\n · 리뷰 13\n\n · 거래 52"
+        },
+        {
+          "product_id": 77066,
+          "text": "Thom Browne\n\n톰브라운 브이넥 가디건 바시티 피케 네이비\n\n950,000원\n\n관심 224\n\n · 리뷰 2\n\n · 거래 19"
+        },
+        {
+          "product_id": 77069,
+          "text": "Thom Browne\n\n톰브라운 쉐도우 핀스트라이프 옥스포드 암밴드 롱슬리브 셔츠 레드 화이트 블루\n\n33%\n\n655,000원\n\n관심 106\n\n · 리뷰 4\n\n · 거래 21"
         }
       ]
     },
@@ -10571,24 +6838,24 @@
       "error": "No KREAM match for SKU=\"FGCA42A06455415\" SPU=\"FGCA42A06455415\"",
       "candidates": [
         {
-          "product_id": 91238,
-          "text": "Thom Browne\n\n톰브라운 코튼 오토만 립 사선 후드 집업 네이비\n\n3,346,000원\n\n관심 8\n\n · 리뷰 1\n\n · 거래 2"
-        },
-        {
-          "product_id": 65594,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 피케 사선 미스터 톰 하프 드롭 자수 스웨트셔츠 네이비\n\n70%\n\n1,050,000원\n\n관심 79\n\n · 리뷰 1\n\n · 거래 4"
-        },
-        {
-          "product_id": 64738,
-          "text": "Thom Browne\n\n톰브라운 라이트웨이트 보일드 울 엔지니어드 스트라이프 리버시블 퍼넬 넥 집업 자켓 미디움 그레이\n\n63%\n\n2,100,000원\n\n관심 13\n\n · 거래 1"
+          "product_id": 451557,
+          "text": "Thom Browne\n\n톰브라운 박스 카프 클래식 롱윙 브로그 브라운\n\n51%\n\n868,000원\n\n관심 1\n\n · 거래 2"
         },
         {
           "product_id": 147846,
           "text": "Thom Browne\n\n톰브라운 코튼 저지 스트라이프 브이넥 가디건 네이비\n\n45%\n\n780,000원\n\n관심 458\n\n · 리뷰 2\n\n · 거래 13"
         },
         {
-          "product_id": 93129,
-          "text": "Thom Browne\n\n톰브라운 매트 나일론 사선 스트라이프 다운필 퀼티드 후드 자켓 블랙\n\n1,584,000원\n\n관심 264\n\n · 리뷰 2\n\n · 거래 17"
+          "product_id": 56574,
+          "text": "Thom Browne\n\n톰브라운 샴브레이 프린티드 사선 네임택 스트레이트 핏 셔츠 블루\n\n27%\n\n600,000원\n\n관심 182\n\n · 리뷰 13\n\n · 거래 52"
+        },
+        {
+          "product_id": 77066,
+          "text": "Thom Browne\n\n톰브라운 브이넥 가디건 바시티 피케 네이비\n\n950,000원\n\n관심 224\n\n · 리뷰 2\n\n · 거래 19"
+        },
+        {
+          "product_id": 77069,
+          "text": "Thom Browne\n\n톰브라운 쉐도우 핀스트라이프 옥스포드 암밴드 롱슬리브 셔츠 레드 화이트 블루\n\n33%\n\n655,000원\n\n관심 106\n\n · 리뷰 4\n\n · 거래 21"
         }
       ]
     },
@@ -10601,24 +6868,24 @@
       "error": "No KREAM match for SKU=\"FKV231AY3014472\" SPU=\"FKV231AY3014472\"",
       "candidates": [
         {
-          "product_id": 64738,
-          "text": "Thom Browne\n\n톰브라운 라이트웨이트 보일드 울 엔지니어드 스트라이프 리버시블 퍼넬 넥 집업 자켓 미디움 그레이\n\n63%\n\n2,100,000원\n\n관심 13\n\n · 거래 1"
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 823\n\n · 리뷰 12\n\n · 거래 47"
         },
         {
-          "product_id": 97260,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 사선 숏 브이넥 가디건 네이비\n\n46%\n\n1,498,000원\n\n관심 41\n\n · 거래 1"
+          "product_id": 56085,
+          "text": "Miu Miu\n\n(W) 미우 미우 가죽 페니 로퍼 블랙 화이트\n\n45%\n\n950,000원\n\n관심 1,050\n\n · 리뷰 16\n\n · 거래 102\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 138165,
-          "text": "Thom Browne\n\n톰브라운 플레인 위브 수팅 사선 니트 블루종 자켓 미디움 그레이\n\n19%\n\n2,418,000원\n\n관심 69\n\n · 거래 10"
+          "product_id": 369971,
+          "text": "Prada\n\n프라다 초콜릿 브러시드 레더 로퍼 시에나\n\n43%\n\n895,000원\n\n관심 20\n\n · 리뷰 1"
         },
         {
-          "product_id": 64744,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 사선 크루넥 풀오버 니트 미디움 그레이\n\n55%\n\n1,128,000원\n\n관심 72\n\n · 리뷰 4\n\n · 거래 12"
+          "product_id": 72220,
+          "text": "Thom Browne\n\n(W) 톰브라운 라이트웨이트 솔 페니 로퍼 블랙\n\n549,000원\n\n관심 141\n\n · 리뷰 5\n\n · 거래 19"
         },
         {
-          "product_id": 147846,
-          "text": "Thom Browne\n\n톰브라운 코튼 저지 스트라이프 브이넥 가디건 네이비\n\n45%\n\n780,000원\n\n관심 458\n\n · 리뷰 2\n\n · 거래 13"
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n41%\n\n959,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 6"
         }
       ]
     },
@@ -10631,24 +6898,24 @@
       "error": "No KREAM match for SKU=\"FKV231AY3014472\" SPU=\"FKV231AY3014472\"",
       "candidates": [
         {
-          "product_id": 64738,
-          "text": "Thom Browne\n\n톰브라운 라이트웨이트 보일드 울 엔지니어드 스트라이프 리버시블 퍼넬 넥 집업 자켓 미디움 그레이\n\n63%\n\n2,100,000원\n\n관심 13\n\n · 거래 1"
+          "product_id": 95995,
+          "text": "Saint Laurent\n\n(W) 생로랑 톨토이즈쉘 페이턴트 레더 르 로퍼 페니 슬리퍼 블랙\n\n46%\n\n735,000원\n\n관심 823\n\n · 리뷰 12\n\n · 거래 47"
         },
         {
-          "product_id": 97260,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 사선 숏 브이넥 가디건 네이비\n\n46%\n\n1,498,000원\n\n관심 41\n\n · 거래 1"
+          "product_id": 56085,
+          "text": "Miu Miu\n\n(W) 미우 미우 가죽 페니 로퍼 블랙 화이트\n\n45%\n\n950,000원\n\n관심 1,050\n\n · 리뷰 16\n\n · 거래 102\n\n빠른배송\n\n내일 도착 예정"
         },
         {
-          "product_id": 138165,
-          "text": "Thom Browne\n\n톰브라운 플레인 위브 수팅 사선 니트 블루종 자켓 미디움 그레이\n\n19%\n\n2,418,000원\n\n관심 69\n\n · 거래 10"
+          "product_id": 369971,
+          "text": "Prada\n\n프라다 초콜릿 브러시드 레더 로퍼 시에나\n\n43%\n\n895,000원\n\n관심 20\n\n · 리뷰 1"
         },
         {
-          "product_id": 64744,
-          "text": "Thom Browne\n\n톰브라운 캐시미어 사선 크루넥 풀오버 니트 미디움 그레이\n\n55%\n\n1,128,000원\n\n관심 72\n\n · 리뷰 4\n\n · 거래 12"
+          "product_id": 72220,
+          "text": "Thom Browne\n\n(W) 톰브라운 라이트웨이트 솔 페니 로퍼 블랙\n\n549,000원\n\n관심 141\n\n · 리뷰 5\n\n · 거래 19"
         },
         {
-          "product_id": 147846,
-          "text": "Thom Browne\n\n톰브라운 코튼 저지 스트라이프 브이넥 가디건 네이비\n\n45%\n\n780,000원\n\n관심 458\n\n · 리뷰 2\n\n · 거래 13"
+          "product_id": 357938,
+          "text": "Prada\n\n(W) 프라다 브러쉬드 레더 로퍼 블랙\n\n41%\n\n959,000원\n\n관심 29\n\n · 리뷰 3\n\n · 거래 6"
         }
       ]
     },
@@ -10905,7 +7172,7 @@
       "product_url": "https://kream.co.kr/products/68293",
       "market": {
         "last_sale_price": 968000,
-        "lowest_ask": 1247000,
+        "lowest_ask": 1245000,
         "highest_bid": null,
         "change_text": "▼ 124,000원(-13.8%)"
       },
@@ -10927,12 +7194,12 @@
       ],
       "asks": [
         {
-          "price": 1247000,
+          "price": 1245000,
           "option": "42",
           "quantity": 1
         },
         {
-          "price": 1248000,
+          "price": 1246000,
           "option": "42",
           "quantity": 1
         }
