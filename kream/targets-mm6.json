@@ -589,7 +589,7 @@
     "brand": "MM6 MAISON MARGIELA",
     "name": "'Numeric Signature MM6' T-shirt",
     "option": "S",
-    "stock": 10,
+    "stock": 9,
     "eur_price": 101.23,
     "eur_retail": 155.74
   },
@@ -1039,8 +1039,19 @@
     "b2b_sku": "S59WU0235P3628T8013",
     "brand": "MM6 MAISON MARGIELA",
     "name": "'Anatomic' Ankle Boot",
+    "option": "36.5",
+    "stock": 1,
+    "eur_price": 303.69,
+    "eur_retail": 467.21
+  },
+  {
+    "sku": "S59WU0235P3628T8013",
+    "spu": "S59WU0235P3628T8013",
+    "b2b_sku": "S59WU0235P3628T8013",
+    "brand": "MM6 MAISON MARGIELA",
+    "name": "'Anatomic' Ankle Boot",
     "option": "37",
-    "stock": 2,
+    "stock": 3,
     "eur_price": 303.69,
     "eur_retail": 467.21
   },
@@ -1051,7 +1062,7 @@
     "brand": "MM6 MAISON MARGIELA",
     "name": "'Anatomic' Ankle Boot",
     "option": "37.5",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 303.69,
     "eur_retail": 467.21
   },
@@ -1062,7 +1073,7 @@
     "brand": "MM6 MAISON MARGIELA",
     "name": "'Anatomic' Ankle Boot",
     "option": "38",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 303.69,
     "eur_retail": 467.21
   },
@@ -1139,7 +1150,7 @@
     "brand": "MM6 MAISON MARGIELA",
     "name": "'Ballet' ballet flats",
     "option": "36",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 314.35,
     "eur_retail": 483.61
   },
@@ -1623,28 +1634,6 @@
     "brand": "MM6 MAISON MARGIELA",
     "name": "'Numeric Signature MM6' jacket",
     "option": "38 IT",
-    "stock": 1,
-    "eur_price": 282.78,
-    "eur_retail": 565.57
-  },
-  {
-    "sku": "S62AN0180M30058961",
-    "spu": "S62AN0180M30058961",
-    "b2b_sku": "S62AN0180M30058961",
-    "brand": "MM6 MAISON MARGIELA",
-    "name": "'Numeric Signature MM6' jacket",
-    "option": "40 IT",
-    "stock": 1,
-    "eur_price": 282.78,
-    "eur_retail": 565.57
-  },
-  {
-    "sku": "S62AN0180M30058961",
-    "spu": "S62AN0180M30058961",
-    "b2b_sku": "S62AN0180M30058961",
-    "brand": "MM6 MAISON MARGIELA",
-    "name": "'Numeric Signature MM6' jacket",
-    "option": "42 IT",
     "stock": 1,
     "eur_price": 282.78,
     "eur_retail": 565.57
@@ -2623,17 +2612,6 @@
     "b2b_sku": "SH0GC0069S24311101",
     "brand": "MM6 MAISON MARGIELA",
     "name": "'etichette' patch t-shirt",
-    "option": "S",
-    "stock": 1,
-    "eur_price": 102.46,
-    "eur_retail": 204.92
-  },
-  {
-    "sku": "SH0GC0069S24311101",
-    "spu": "SH0GC0069S24311101",
-    "b2b_sku": "SH0GC0069S24311101",
-    "brand": "MM6 MAISON MARGIELA",
-    "name": "'etichette' patch t-shirt",
     "option": "XL",
     "stock": 1,
     "eur_price": 102.46,
@@ -2849,6 +2827,28 @@
     "eur_retail": 401.64
   },
   {
+    "sku": "S59WZ0099P3628T8013",
+    "spu": "S59WZ0099P3628T8013",
+    "b2b_sku": "S59WZ0099P3628T8013",
+    "brand": "MM6 MAISON MARGIELA",
+    "name": "'Anatomic' ballet flats",
+    "option": "39",
+    "stock": 3,
+    "eur_price": 261.07,
+    "eur_retail": 401.64
+  },
+  {
+    "sku": "S59WZ0099P3628T8013",
+    "spu": "S59WZ0099P3628T8013",
+    "b2b_sku": "S59WZ0099P3628T8013",
+    "brand": "MM6 MAISON MARGIELA",
+    "name": "'Anatomic' ballet flats",
+    "option": "39.5",
+    "stock": 1,
+    "eur_price": 261.07,
+    "eur_retail": 401.64
+  },
+  {
     "sku": "S52AM0314M30016961",
     "spu": "S52AM0314M30016961",
     "b2b_sku": "S52AM0314M30016961",
@@ -3053,6 +3053,28 @@
     "brand": "MM6 MAISON MARGIELA",
     "name": "'Biker' lace up shoes",
     "option": "42",
+    "stock": 1,
+    "eur_price": 367.62,
+    "eur_retail": 565.57
+  },
+  {
+    "sku": "SH1WQ0007P7431T8013",
+    "spu": "SH1WQ0007P7431T8013",
+    "b2b_sku": "SH1WQ0007P7431T8013",
+    "brand": "MM6 MAISON MARGIELA",
+    "name": "'Biker' lace up shoes",
+    "option": "43",
+    "stock": 1,
+    "eur_price": 367.62,
+    "eur_retail": 565.57
+  },
+  {
+    "sku": "SH1WQ0007P7431T8013",
+    "spu": "SH1WQ0007P7431T8013",
+    "b2b_sku": "SH1WQ0007P7431T8013",
+    "brand": "MM6 MAISON MARGIELA",
+    "name": "'Biker' lace up shoes",
+    "option": "44",
     "stock": 1,
     "eur_price": 367.62,
     "eur_retail": 565.57
@@ -3283,7 +3305,7 @@
     "b2b_sku": "S59WZ0092P7561T8013",
     "brand": "MM6 MAISON MARGIELA",
     "name": "'Anatomic' ballet flats",
-    "option": "36.5",
+    "option": "37.5",
     "stock": 1,
     "eur_price": 261.07,
     "eur_retail": 401.64
@@ -3317,17 +3339,6 @@
     "brand": "MM6 MAISON MARGIELA",
     "name": "'Factory' sabots",
     "option": "41",
-    "stock": 1,
-    "eur_price": 202.87,
-    "eur_retail": 368.85
-  },
-  {
-    "sku": "SH1WX0010P7561T8013",
-    "spu": "SH1WX0010P7561T8013",
-    "b2b_sku": "SH1WX0010P7561T8013",
-    "brand": "MM6 MAISON MARGIELA",
-    "name": "'Factory' sabots",
-    "option": "42",
     "stock": 1,
     "eur_price": 202.87,
     "eur_retail": 368.85
@@ -3485,5 +3496,49 @@
     "stock": 1,
     "eur_price": 314.35,
     "eur_retail": 483.61
+  },
+  {
+    "sku": "S52MU0141M30058963",
+    "spu": "S52MU0141M30058963",
+    "b2b_sku": "S52MU0141M30058963",
+    "brand": "MM6 MAISON MARGIELA",
+    "name": "White carré bermuda shorts",
+    "option": "25",
+    "stock": 1,
+    "eur_price": 239.75,
+    "eur_retail": 368.85
+  },
+  {
+    "sku": "S52MU0141M30058963",
+    "spu": "S52MU0141M30058963",
+    "b2b_sku": "S52MU0141M30058963",
+    "brand": "MM6 MAISON MARGIELA",
+    "name": "White carré bermuda shorts",
+    "option": "26",
+    "stock": 2,
+    "eur_price": 239.75,
+    "eur_retail": 368.85
+  },
+  {
+    "sku": "S52MU0141M30058963",
+    "spu": "S52MU0141M30058963",
+    "b2b_sku": "S52MU0141M30058963",
+    "brand": "MM6 MAISON MARGIELA",
+    "name": "White carré bermuda shorts",
+    "option": "27",
+    "stock": 2,
+    "eur_price": 239.75,
+    "eur_retail": 368.85
+  },
+  {
+    "sku": "S52MU0141M30058963",
+    "spu": "S52MU0141M30058963",
+    "b2b_sku": "S52MU0141M30058963",
+    "brand": "MM6 MAISON MARGIELA",
+    "name": "White carré bermuda shorts",
+    "option": "28",
+    "stock": 1,
+    "eur_price": 239.75,
+    "eur_retail": 368.85
   }
 ]
