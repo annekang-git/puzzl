@@ -500,7 +500,7 @@
     "b2b_sku": "L1S156100060S0051V008F",
     "brand": "STONE ISLAND",
     "name": "'6100060' sweatshirt",
-    "option": "XXL",
+    "option": "XL",
     "stock": 1,
     "eur_price": 127.87,
     "eur_retail": 213.11
@@ -691,17 +691,6 @@
     "stock": 1,
     "eur_price": 300,
     "eur_retail": 500
-  },
-  {
-    "sku": "L1S1561000-60S0051-V0093",
-    "spu": "L1S156100060S0051V0093",
-    "b2b_sku": "L1S156100060S0051V0093",
-    "brand": "STONE ISLAND",
-    "name": "'6100060' sweatshirt",
-    "option": "L",
-    "stock": 1,
-    "eur_price": 127.87,
-    "eur_retail": 213.11
   },
   {
     "sku": "L1S1561000-60S0051-V0093",
@@ -1139,7 +1128,7 @@
     "brand": "STONE ISLAND",
     "name": "'6100031' hoodie",
     "option": "XL",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 172.13,
     "eur_retail": 286.89
   },
@@ -1150,7 +1139,7 @@
     "brand": "STONE ISLAND",
     "name": "'3100035' joggers",
     "option": "32",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 243.44,
     "eur_retail": 405.74
   },
@@ -1551,6 +1540,17 @@
     "eur_retail": 487.7
   },
   {
+    "sku": "L1S1561000-62S0051-V0029",
+    "spu": "L1S156100062S0051V0029",
+    "b2b_sku": "L1S156100062S0051V0029",
+    "brand": "STONE ISLAND",
+    "name": "'6100062' hoodie",
+    "option": "L",
+    "stock": 1,
+    "eur_price": 165.16,
+    "eur_retail": 254.1
+  },
+  {
     "sku": "L2S1522000-10S0018-V0029",
     "spu": "L2S152200010S0018V0029",
     "b2b_sku": "L2S152200010S0018V0029",
@@ -1767,17 +1767,6 @@
     "name": "'1200013' overshirt",
     "option": "M",
     "stock": 2,
-    "eur_price": 213.94,
-    "eur_retail": 356.56
-  },
-  {
-    "sku": "L1S1512000-13S0A10-V0055",
-    "spu": "L1S151200013S0A10V0055",
-    "b2b_sku": "L1S151200013S0A10V0055",
-    "brand": "STONE ISLAND",
-    "name": "'1200013' overshirt",
-    "option": "XL",
-    "stock": 1,
     "eur_price": 213.94,
     "eur_retail": 356.56
   },
@@ -2022,72 +2011,6 @@
     "stock": 1,
     "eur_price": 295.08,
     "eur_retail": 393.44
-  },
-  {
-    "sku": "L2S14J1000-05S0J24-V0029",
-    "spu": "L2S14J100005S0J24V0029",
-    "b2b_sku": "L2S14J100005S0J24V0029",
-    "brand": "STONE ISLAND",
-    "name": "'J100005' jeans",
-    "option": "31",
-    "stock": 1,
-    "eur_price": 196.72,
-    "eur_retail": 262.3
-  },
-  {
-    "sku": "L2S14J1000-05S0J24-V0029",
-    "spu": "L2S14J100005S0J24V0029",
-    "b2b_sku": "L2S14J100005S0J24V0029",
-    "brand": "STONE ISLAND",
-    "name": "'J100005' jeans",
-    "option": "32",
-    "stock": 3,
-    "eur_price": 196.72,
-    "eur_retail": 262.3
-  },
-  {
-    "sku": "L2S14J1000-05S0J24-V0029",
-    "spu": "L2S14J100005S0J24V0029",
-    "b2b_sku": "L2S14J100005S0J24V0029",
-    "brand": "STONE ISLAND",
-    "name": "'J100005' jeans",
-    "option": "33",
-    "stock": 2,
-    "eur_price": 196.72,
-    "eur_retail": 262.3
-  },
-  {
-    "sku": "L2S14J1000-05S0J24-V0029",
-    "spu": "L2S14J100005S0J24V0029",
-    "b2b_sku": "L2S14J100005S0J24V0029",
-    "brand": "STONE ISLAND",
-    "name": "'J100005' jeans",
-    "option": "34",
-    "stock": 3,
-    "eur_price": 196.72,
-    "eur_retail": 262.3
-  },
-  {
-    "sku": "L2S14J1000-05S0J24-V0029",
-    "spu": "L2S14J100005S0J24V0029",
-    "b2b_sku": "L2S14J100005S0J24V0029",
-    "brand": "STONE ISLAND",
-    "name": "'J100005' jeans",
-    "option": "36",
-    "stock": 2,
-    "eur_price": 196.72,
-    "eur_retail": 262.3
-  },
-  {
-    "sku": "L2S14J1000-05S0J24-V0029",
-    "spu": "L2S14J100005S0J24V0029",
-    "b2b_sku": "L2S14J100005S0J24V0029",
-    "brand": "STONE ISLAND",
-    "name": "'J100005' jeans",
-    "option": "38",
-    "stock": 2,
-    "eur_price": 196.72,
-    "eur_retail": 262.3
   },
   {
     "sku": "K2S15J1000-07S0J12-VJ201",
