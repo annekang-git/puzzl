@@ -1,0 +1,497 @@
+{
+  "fetched_at": "2026-07-10T19:06:29.798Z",
+  "input_file": "targets-therow.json",
+  "total_targets": 61,
+  "matched": 0,
+  "failed": 61,
+  "results": [
+    {
+      "sku": "120K291WHT",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 186.89,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1340K628BLK",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1340K628BLK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1340K628GYM",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1330W2861BQE",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 951.23,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1454W5073WBR",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 614.75,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F2076SL3BLACK",
+      "option": "44",
+      "stock": 2,
+      "eur_price": 780.32,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1241Y120FOG",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 704.26,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1401K767BLK",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 295.08,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1437Y710BLK",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1437Y710BLK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1437Y710BLK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "11128W4570LTB",
+      "option": "0",
+      "stock": 1,
+      "eur_price": 688.52,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "11128W4570LTB",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 688.52,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "11128W4570LTB",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 688.52,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "11128W4570LTB",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 688.52,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "11007W4496SBU",
+      "option": "2",
+      "stock": 2,
+      "eur_price": 2100,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "11007W4496SBU",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 2100,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1024Y960FBK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 916.72,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "6525W3654BLK",
+      "option": "25",
+      "stock": 1,
+      "eur_price": 595.08,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "6525W3654BLK",
+      "option": "27",
+      "stock": 1,
+      "eur_price": 595.08,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "6525W3654BLK",
+      "option": "29",
+      "stock": 1,
+      "eur_price": 595.08,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1261Y876CHO",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 829.51,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1461W4503BLK",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1461W4503BLK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1461W4503BLK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 826.23,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "42",
+      "stock": 2,
+      "eur_price": 585.25,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "43",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "44",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F2153L805CIG",
+      "option": "45",
+      "stock": 1,
+      "eur_price": 585.25,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "W1273L129DAT",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1849.18,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1210W3856OWH",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 743.61,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1210W3856OWH",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 743.61,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1175W4252OTT",
+      "option": "40 FR",
+      "stock": 1,
+      "eur_price": 2848.53,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "7370W4327BLK",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 747.54,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "10865W4369BLK",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 742.62,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "10865W4369BLK",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 742.62,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1437Y710CHK",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1437Y710CHK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1437Y710CHK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "W2154W27TE",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 1777.05,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F2109L302LQB",
+      "option": "44",
+      "stock": 2,
+      "eur_price": 711.47,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1261Y876BLK",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 904.92,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "1261Y876BLK",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 904.92,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "697W4450LBB",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 635.66,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "697W4450LBB",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 635.66,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "11216W4466DRN",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 2257.38,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "11216W4466DRN",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 2257.38,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F2170L805BLK",
+      "option": "42",
+      "stock": 1,
+      "eur_price": 906.56,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F2170L805BLK",
+      "option": "42.5",
+      "stock": 1,
+      "eur_price": 906.56,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F2170L805BLK",
+      "option": "43",
+      "stock": 2,
+      "eur_price": 906.56,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F1236N60BLK",
+      "option": "38",
+      "stock": 1,
+      "eur_price": 579.51,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "11035W5027WHT",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 796.72,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "W2173W27TE",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 1068.86,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F1883SH07LQB",
+      "option": "37",
+      "stock": 2,
+      "eur_price": 711.47,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F1883SH07LQB",
+      "option": "38",
+      "stock": 2,
+      "eur_price": 711.47,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F1883SH07LQB",
+      "option": "39",
+      "stock": 2,
+      "eur_price": 711.47,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F1883SH07LQB",
+      "option": "40",
+      "stock": 2,
+      "eur_price": 711.47,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "F1883SH07LQB",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 711.47,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    }
+  ]
+}
