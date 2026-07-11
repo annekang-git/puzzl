@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-07-10T19:06:57.347Z",
+  "fetched_at": "2026-07-11T04:47:34.596Z",
   "input_file": "targets-viviennewestwood.json",
   "total_targets": 135,
-  "matched": 0,
-  "failed": 135,
+  "matched": 48,
+  "failed": 87,
   "results": [
     {
       "sku": "14010087W00R0P204",
@@ -11,7 +11,29 @@
       "stock": 1,
       "eur_price": 530.74,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"14010087W00R0P204\" SPU=\"14010087W00R0P204\"",
+      "candidates": [
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 22053,
+          "text": "Vans\n\n반스 x 비비안 웨스트우드 스타일 53 ORB 블랙\n\n450,000원\n\n관심 1,341\n\n · 리뷰 28\n\n · 거래 128"
+        },
+        {
+          "product_id": 578847,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 그레인드 디어스킨 스니커즈 초크\n\n954,000원\n\n관심 3"
+        },
+        {
+          "product_id": 500460,
+          "text": "Brunello Cucinelli\n\n(W) 브루넬로 쿠치넬리 모닐리 스웨이드 카프스킨 러너 화이트\n\n56%\n\n668,000원\n\n관심 21\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 548856,
+          "text": "Brunello Cucinelli\n\n(W) 브루넬로 쿠치넬리 프레셔스 토 코튼 니트 스웨이드 스니커즈 화이트\n\n1,209,000원\n\n관심 3\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "14010087W00R0P204",
@@ -19,31 +41,176 @@
       "stock": 1,
       "eur_price": 530.74,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"14010087W00R0P204\" SPU=\"14010087W00R0P204\"",
+      "candidates": [
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 22053,
+          "text": "Vans\n\n반스 x 비비안 웨스트우드 스타일 53 ORB 블랙\n\n450,000원\n\n관심 1,341\n\n · 리뷰 28\n\n · 거래 128"
+        },
+        {
+          "product_id": 578847,
+          "text": "Brunello Cucinelli\n\n브루넬로 쿠치넬리 그레인드 디어스킨 스니커즈 초크\n\n954,000원\n\n관심 3"
+        },
+        {
+          "product_id": 500460,
+          "text": "Brunello Cucinelli\n\n(W) 브루넬로 쿠치넬리 모닐리 스웨이드 카프스킨 러너 화이트\n\n56%\n\n668,000원\n\n관심 21\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 548856,
+          "text": "Brunello Cucinelli\n\n(W) 브루넬로 쿠치넬리 프레셔스 토 코튼 니트 스웨이드 스니커즈 화이트\n\n1,209,000원\n\n관심 3\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "3G010056J00B9N401",
       "option": "M",
       "stock": 3,
       "eur_price": 81.96,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 988271,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/988271",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 125000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 125000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 126000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 399000,
+          "option": "M",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "M",
+      "kream_options_available": [
+        "L",
+        "M",
+        "S",
+        "XS"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "3G010056J00B9N401",
       "option": "S",
       "stock": 3,
       "eur_price": 81.96,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 988271,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/988271",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 125000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 125000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 126000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 399000,
+          "option": "S",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "S",
+      "kream_options_available": [
+        "L",
+        "M",
+        "S",
+        "XS"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "3G010056J00B9N401",
       "option": "XS",
       "stock": 1,
       "eur_price": 81.96,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 988271,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/988271",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 125000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 125000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 126000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 399000,
+          "option": "XS",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "XS",
+      "kream_options_available": [
+        "L",
+        "M",
+        "S",
+        "XS"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002PY003FC409",
@@ -51,7 +218,29 @@
       "stock": 1,
       "eur_price": 135.24,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002PY003FC409\" SPU=\"1803002PY003FC409\"",
+      "candidates": [
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 118832,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 레드\n\n170,000원\n\n관심 221\n\n · 리뷰 4\n\n · 거래 32"
+        },
+        {
+          "product_id": 152296,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 라운드 넥 니트 블랙\n\n276,000원\n\n관심 804\n\n · 리뷰 13\n\n · 거래 79"
+        },
+        {
+          "product_id": 152293,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 블랙\n\n380,000원\n\n관심 6,307\n\n · 리뷰 94\n\n · 거래 1,172\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 103733,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 내츄럴\n\n70%\n\n222,000원\n\n관심 365\n\n · 거래 18"
+        }
+      ]
     },
     {
       "sku": "1803002PY003FC409",
@@ -59,7 +248,29 @@
       "stock": 1,
       "eur_price": 135.24,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002PY003FC409\" SPU=\"1803002PY003FC409\"",
+      "candidates": [
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 118832,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 레드\n\n170,000원\n\n관심 221\n\n · 리뷰 4\n\n · 거래 32"
+        },
+        {
+          "product_id": 152296,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 라운드 넥 니트 블랙\n\n276,000원\n\n관심 804\n\n · 리뷰 13\n\n · 거래 79"
+        },
+        {
+          "product_id": 152293,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 블랙\n\n380,000원\n\n관심 6,307\n\n · 리뷰 94\n\n · 거래 1,172\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 103733,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 내츄럴\n\n70%\n\n222,000원\n\n관심 365\n\n · 거래 18"
+        }
+      ]
     },
     {
       "sku": "1803002PY003FC409",
@@ -67,7 +278,29 @@
       "stock": 1,
       "eur_price": 135.24,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002PY003FC409\" SPU=\"1803002PY003FC409\"",
+      "candidates": [
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 118832,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 레드\n\n170,000원\n\n관심 221\n\n · 리뷰 4\n\n · 거래 32"
+        },
+        {
+          "product_id": 152296,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 라운드 넥 니트 블랙\n\n276,000원\n\n관심 804\n\n · 리뷰 13\n\n · 거래 79"
+        },
+        {
+          "product_id": 152293,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 블랙\n\n380,000원\n\n관심 6,307\n\n · 리뷰 94\n\n · 거래 1,172\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 103733,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 내츄럴\n\n70%\n\n222,000원\n\n관심 365\n\n · 거래 18"
+        }
+      ]
     },
     {
       "sku": "1G010012J009CA401",
@@ -75,7 +308,29 @@
       "stock": 3,
       "eur_price": 96.31,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1G010012J009CA401\" SPU=\"1G010012J009CA401\"",
+      "candidates": [
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 118832,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 레드\n\n170,000원\n\n관심 221\n\n · 리뷰 4\n\n · 거래 32"
+        },
+        {
+          "product_id": 860628,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 오브 알렉스 마코 코튼 숏슬리브 니트 크림\n\n305,000원\n\n관심 5"
+        },
+        {
+          "product_id": 106074,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 오브 그래픽 프린팅 티셔츠 블랙\n\n238,000원\n\n관심 210\n\n · 거래 10"
+        },
+        {
+          "product_id": 781401,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 핑크\n\n365,000원\n\n관심 34\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "1G010012J009CA401",
@@ -83,7 +338,29 @@
       "stock": 3,
       "eur_price": 96.31,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1G010012J009CA401\" SPU=\"1G010012J009CA401\"",
+      "candidates": [
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 118832,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 레드\n\n170,000원\n\n관심 221\n\n · 리뷰 4\n\n · 거래 32"
+        },
+        {
+          "product_id": 860628,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 오브 알렉스 마코 코튼 숏슬리브 니트 크림\n\n305,000원\n\n관심 5"
+        },
+        {
+          "product_id": 106074,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 오브 그래픽 프린팅 티셔츠 블랙\n\n238,000원\n\n관심 210\n\n · 거래 10"
+        },
+        {
+          "product_id": 781401,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 핑크\n\n365,000원\n\n관심 34\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "1G010012J009CA401",
@@ -91,7 +368,29 @@
       "stock": 3,
       "eur_price": 96.31,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1G010012J009CA401\" SPU=\"1G010012J009CA401\"",
+      "candidates": [
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 118832,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 레드\n\n170,000원\n\n관심 221\n\n · 리뷰 4\n\n · 거래 32"
+        },
+        {
+          "product_id": 860628,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 오브 알렉스 마코 코튼 숏슬리브 니트 크림\n\n305,000원\n\n관심 5"
+        },
+        {
+          "product_id": 106074,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 오브 그래픽 프린팅 티셔츠 블랙\n\n238,000원\n\n관심 210\n\n · 거래 10"
+        },
+        {
+          "product_id": 781401,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 핑크\n\n365,000원\n\n관심 34\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "15010067W01ELA301",
@@ -99,7 +398,29 @@
       "stock": 1,
       "eur_price": 180.33,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"15010067W01ELA301\" SPU=\"15010067W01ELA301\"",
+      "candidates": [
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 860628,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 오브 알렉스 마코 코튼 숏슬리브 니트 크림\n\n305,000원\n\n관심 5"
+        },
+        {
+          "product_id": 781401,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 핑크\n\n365,000원\n\n관심 34\n\n · 거래 1"
+        },
+        {
+          "product_id": 535324,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 로고 폴로 셔츠 블랙\n\n352,000원\n\n관심 5"
+        },
+        {
+          "product_id": 106074,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 오브 그래픽 프린팅 티셔츠 블랙\n\n238,000원\n\n관심 210\n\n · 거래 10"
+        }
+      ]
     },
     {
       "sku": "7501004KWW018XO215",
@@ -107,7 +428,29 @@
       "stock": 1,
       "eur_price": 116.8,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"7501004KWW018XO215\" SPU=\"7501004KWW018XO215\"",
+      "candidates": [
+        {
+          "product_id": 863235,
+          "text": "Balenciaga\n\n(W) 발렌시아가 파리 로우탑 슬립 온 워시드 화이트 코튼\n\n449,000원\n\n관심 10"
+        },
+        {
+          "product_id": 835197,
+          "text": "Dior Vintage\n\n디올 KDP618ACAS11X 투톤 브러쉬드 카프스킨 퍼포 키튼 힐 여성 펌프스 구두 37\n\n281,800원\n\n관심 14\n\n무료배송"
+        },
+        {
+          "product_id": 944495,
+          "text": "Balenciaga Vintage\n\n발렌시아가 여성 파리 BB 모노그램 하이탑 스니커즈 다크 그레이\n\n421,200원\n\n무료배송"
+        },
+        {
+          "product_id": 98695,
+          "text": "Valentino\n\n(W) 발렌티노 레이스업 블랙\n\n440,000원\n\n관심 9\n\n · 거래 1"
+        },
+        {
+          "product_id": 835237,
+          "text": "Roger Vivier Vintage\n\n로저비비에 블랙 레더 메탈 버클 트럼펫 펌프스 여성구두 35\n\n342,700원\n\n관심 5\n\n무료배송"
+        }
+      ]
     },
     {
       "sku": "7501004KWW018XO215",
@@ -115,7 +458,29 @@
       "stock": 2,
       "eur_price": 116.8,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"7501004KWW018XO215\" SPU=\"7501004KWW018XO215\"",
+      "candidates": [
+        {
+          "product_id": 863235,
+          "text": "Balenciaga\n\n(W) 발렌시아가 파리 로우탑 슬립 온 워시드 화이트 코튼\n\n449,000원\n\n관심 10"
+        },
+        {
+          "product_id": 835197,
+          "text": "Dior Vintage\n\n디올 KDP618ACAS11X 투톤 브러쉬드 카프스킨 퍼포 키튼 힐 여성 펌프스 구두 37\n\n281,800원\n\n관심 14\n\n무료배송"
+        },
+        {
+          "product_id": 944495,
+          "text": "Balenciaga Vintage\n\n발렌시아가 여성 파리 BB 모노그램 하이탑 스니커즈 다크 그레이\n\n421,200원\n\n무료배송"
+        },
+        {
+          "product_id": 98695,
+          "text": "Valentino\n\n(W) 발렌티노 레이스업 블랙\n\n440,000원\n\n관심 9\n\n · 거래 1"
+        },
+        {
+          "product_id": 835237,
+          "text": "Roger Vivier Vintage\n\n로저비비에 블랙 레더 메탈 버클 트럼펫 펌프스 여성구두 35\n\n342,700원\n\n관심 5\n\n무료배송"
+        }
+      ]
     },
     {
       "sku": "7501004KWW018XO215",
@@ -123,7 +488,29 @@
       "stock": 1,
       "eur_price": 116.8,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"7501004KWW018XO215\" SPU=\"7501004KWW018XO215\"",
+      "candidates": [
+        {
+          "product_id": 863235,
+          "text": "Balenciaga\n\n(W) 발렌시아가 파리 로우탑 슬립 온 워시드 화이트 코튼\n\n449,000원\n\n관심 10"
+        },
+        {
+          "product_id": 835197,
+          "text": "Dior Vintage\n\n디올 KDP618ACAS11X 투톤 브러쉬드 카프스킨 퍼포 키튼 힐 여성 펌프스 구두 37\n\n281,800원\n\n관심 14\n\n무료배송"
+        },
+        {
+          "product_id": 944495,
+          "text": "Balenciaga Vintage\n\n발렌시아가 여성 파리 BB 모노그램 하이탑 스니커즈 다크 그레이\n\n421,200원\n\n무료배송"
+        },
+        {
+          "product_id": 98695,
+          "text": "Valentino\n\n(W) 발렌티노 레이스업 블랙\n\n440,000원\n\n관심 9\n\n · 거래 1"
+        },
+        {
+          "product_id": 835237,
+          "text": "Roger Vivier Vintage\n\n로저비비에 블랙 레더 메탈 버클 트럼펫 펌프스 여성구두 35\n\n342,700원\n\n관심 5\n\n무료배송"
+        }
+      ]
     },
     {
       "sku": "5801000JWW001YN401",
@@ -131,7 +518,29 @@
       "stock": 3,
       "eur_price": 206.56,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"5801000JWW001YN401\" SPU=\"5801000JWW001YN401\"",
+      "candidates": [
+        {
+          "product_id": 770368,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 체인 로고 숄더백 블랙\n\n268,000원\n\n관심 97\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 339667,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 숄더백 블랙\n\n449,000원\n\n관심 2,142\n\n · 리뷰 10\n\n · 거래 98"
+        },
+        {
+          "product_id": 466980,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 에바 미디움 체인 클러치 블랙\n\n605,000원\n\n관심 254\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 576772,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 힐러리 스몰 버킷백 블랙\n\n347,000원\n\n관심 233\n\n · 리뷰 3\n\n · 거래 16"
+        },
+        {
+          "product_id": 339691,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 펄스 스몰 체인백 블랙\n\n238,000원\n\n관심 880\n\n · 리뷰 5\n\n · 거래 29"
+        }
+      ]
     },
     {
       "sku": "1504000AJ00BLJ405",
@@ -139,7 +548,29 @@
       "stock": 2,
       "eur_price": 90.57,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1504000AJ00BLJ405\" SPU=\"1504000AJ00BLJ405\"",
+      "candidates": [
+        {
+          "product_id": 201153,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 오브 페루 티셔츠 화이트\n\n99,000원\n\n관심 930\n\n · 리뷰 32\n\n · 거래 267\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 172784,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 헤보 탑 화이트\n\n41%\n\n195,000원\n\n관심 5,351\n\n · 리뷰 8\n\n · 거래 118\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 172787,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 헤보 탑 블랙\n\n44%\n\n184,000원\n\n관심 1,288\n\n · 리뷰 7\n\n · 거래 63\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 842002,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 립 저지 베이비 페루 크롭 티셔츠 블랙\n\n180,000원\n\n관심 479\n\n · 리뷰 6\n\n · 거래 34"
+        }
+      ]
     },
     {
       "sku": "1504000AJ00BLJ405",
@@ -147,7 +578,29 @@
       "stock": 3,
       "eur_price": 90.57,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1504000AJ00BLJ405\" SPU=\"1504000AJ00BLJ405\"",
+      "candidates": [
+        {
+          "product_id": 201153,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 오브 페루 티셔츠 화이트\n\n99,000원\n\n관심 930\n\n · 리뷰 32\n\n · 거래 267\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 172784,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 헤보 탑 화이트\n\n41%\n\n195,000원\n\n관심 5,351\n\n · 리뷰 8\n\n · 거래 118\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 172787,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 헤보 탑 블랙\n\n44%\n\n184,000원\n\n관심 1,288\n\n · 리뷰 7\n\n · 거래 63\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 842002,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 립 저지 베이비 페루 크롭 티셔츠 블랙\n\n180,000원\n\n관심 479\n\n · 리뷰 6\n\n · 거래 34"
+        }
+      ]
     },
     {
       "sku": "1504000AJ00BLJ405",
@@ -155,7 +608,29 @@
       "stock": 2,
       "eur_price": 90.57,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1504000AJ00BLJ405\" SPU=\"1504000AJ00BLJ405\"",
+      "candidates": [
+        {
+          "product_id": 201153,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 오브 페루 티셔츠 화이트\n\n99,000원\n\n관심 930\n\n · 리뷰 32\n\n · 거래 267\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 172784,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 헤보 탑 화이트\n\n41%\n\n195,000원\n\n관심 5,351\n\n · 리뷰 8\n\n · 거래 118\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 172787,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 헤보 탑 블랙\n\n44%\n\n184,000원\n\n관심 1,288\n\n · 리뷰 7\n\n · 거래 63\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 842002,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 립 저지 베이비 페루 크롭 티셔츠 블랙\n\n180,000원\n\n관심 479\n\n · 리뷰 6\n\n · 거래 34"
+        }
+      ]
     },
     {
       "sku": "1401007PW018QE206",
@@ -163,7 +638,29 @@
       "stock": 1,
       "eur_price": 507.17,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1401007PW018QE206\" SPU=\"1401007PW018QE206\"",
+      "candidates": [
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 339667,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 숄더백 블랙\n\n449,000원\n\n관심 2,142\n\n · 리뷰 10\n\n · 거래 98"
+        },
+        {
+          "product_id": 252119,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 리비건 그레인 크리시 미디움 버킷백\n\n54%\n\n401,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 846245,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 핸드백 블랙\n\n400,000원\n\n관심 58\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "1401007PW018QE206",
@@ -171,15 +668,90 @@
       "stock": 1,
       "eur_price": 507.17,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1401007PW018QE206\" SPU=\"1401007PW018QE206\"",
+      "candidates": [
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 339667,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 숄더백 블랙\n\n449,000원\n\n관심 2,142\n\n · 리뷰 10\n\n · 거래 98"
+        },
+        {
+          "product_id": 252119,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 리비건 그레인 크리시 미디움 버킷백\n\n54%\n\n401,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 846245,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 핸드백 블랙\n\n400,000원\n\n관심 58\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "5C010005WS000DN403",
       "option": "U",
       "stock": 10,
       "eur_price": 172.13,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 951002,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/951002",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 375000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 375000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 376000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 381000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 408000,
+          "option": "ONE SIZE",
+          "quantity": 12
+        },
+        {
+          "price": 410000,
+          "option": "ONE SIZE",
+          "quantity": 8
+        },
+        {
+          "price": 737000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 6,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803007QY004SA408",
@@ -187,7 +759,29 @@
       "stock": 1,
       "eur_price": 202.87,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803007QY004SA408\" SPU=\"1803007QY004SA408\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 103733,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 내츄럴\n\n70%\n\n222,000원\n\n관심 365\n\n · 거래 18"
+        }
+      ]
     },
     {
       "sku": "1803007QY004SA408",
@@ -195,7 +789,29 @@
       "stock": 2,
       "eur_price": 202.87,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803007QY004SA408\" SPU=\"1803007QY004SA408\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 103733,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 내츄럴\n\n70%\n\n222,000원\n\n관심 365\n\n · 거래 18"
+        }
+      ]
     },
     {
       "sku": "1803007QY004SA408",
@@ -203,7 +819,29 @@
       "stock": 1,
       "eur_price": 202.87,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803007QY004SA408\" SPU=\"1803007QY004SA408\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 103733,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 내츄럴\n\n70%\n\n222,000원\n\n관심 365\n\n · 거래 18"
+        }
+      ]
     },
     {
       "sku": "75020063WW015BN402",
@@ -211,7 +849,29 @@
       "stock": 2,
       "eur_price": 102.46,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"75020063WW015BN402\" SPU=\"75020063WW015BN402\"",
+      "candidates": [
+        {
+          "product_id": 822080,
+          "text": "Balenciaga\n\n(W) 발렌시아가 카골 앵클 부츠 블랙\n\n520,000원\n\n관심 9"
+        },
+        {
+          "product_id": 138875,
+          "text": "Balenciaga\n\n(W) 발렌시아가 파리 뮬 블랙\n\n54%\n\n370,000원\n\n관심 76\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 94673,
+          "text": "Balenciaga\n\n(W) 발렌시아가 HD 레이스업 스니커즈 블랙\n\n47%\n\n500,000원\n\n관심 58\n\n · 리뷰 6\n\n · 거래 7"
+        },
+        {
+          "product_id": 42996,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 트레이너 리사이클드 니트 블랙\n\n40%\n\n623,000원\n\n관심 119\n\n · 리뷰 5\n\n · 거래 27"
+        },
+        {
+          "product_id": 136811,
+          "text": "Balenciaga\n\n발렌시아가 파리 로우탑 스니커즈 화이트\n\n46%\n\n429,000원\n\n관심 55\n\n · 리뷰 9\n\n · 거래 4"
+        }
+      ]
     },
     {
       "sku": "75020063WW015BN402",
@@ -219,7 +879,29 @@
       "stock": 3,
       "eur_price": 102.46,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"75020063WW015BN402\" SPU=\"75020063WW015BN402\"",
+      "candidates": [
+        {
+          "product_id": 822080,
+          "text": "Balenciaga\n\n(W) 발렌시아가 카골 앵클 부츠 블랙\n\n520,000원\n\n관심 9"
+        },
+        {
+          "product_id": 138875,
+          "text": "Balenciaga\n\n(W) 발렌시아가 파리 뮬 블랙\n\n54%\n\n370,000원\n\n관심 76\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 94673,
+          "text": "Balenciaga\n\n(W) 발렌시아가 HD 레이스업 스니커즈 블랙\n\n47%\n\n500,000원\n\n관심 58\n\n · 리뷰 6\n\n · 거래 7"
+        },
+        {
+          "product_id": 42996,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 트레이너 리사이클드 니트 블랙\n\n40%\n\n623,000원\n\n관심 119\n\n · 리뷰 5\n\n · 거래 27"
+        },
+        {
+          "product_id": 136811,
+          "text": "Balenciaga\n\n발렌시아가 파리 로우탑 스니커즈 화이트\n\n46%\n\n429,000원\n\n관심 55\n\n · 리뷰 9\n\n · 거래 4"
+        }
+      ]
     },
     {
       "sku": "75020063WW015BN402",
@@ -227,7 +909,29 @@
       "stock": 1,
       "eur_price": 102.46,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"75020063WW015BN402\" SPU=\"75020063WW015BN402\"",
+      "candidates": [
+        {
+          "product_id": 822080,
+          "text": "Balenciaga\n\n(W) 발렌시아가 카골 앵클 부츠 블랙\n\n520,000원\n\n관심 9"
+        },
+        {
+          "product_id": 138875,
+          "text": "Balenciaga\n\n(W) 발렌시아가 파리 뮬 블랙\n\n54%\n\n370,000원\n\n관심 76\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 94673,
+          "text": "Balenciaga\n\n(W) 발렌시아가 HD 레이스업 스니커즈 블랙\n\n47%\n\n500,000원\n\n관심 58\n\n · 리뷰 6\n\n · 거래 7"
+        },
+        {
+          "product_id": 42996,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 트레이너 리사이클드 니트 블랙\n\n40%\n\n623,000원\n\n관심 119\n\n · 리뷰 5\n\n · 거래 27"
+        },
+        {
+          "product_id": 136811,
+          "text": "Balenciaga\n\n발렌시아가 파리 로우탑 스니커즈 화이트\n\n46%\n\n429,000원\n\n관심 55\n\n · 리뷰 9\n\n · 거래 4"
+        }
+      ]
     },
     {
       "sku": "75020063WW015BN402",
@@ -235,7 +939,29 @@
       "stock": 4,
       "eur_price": 102.46,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"75020063WW015BN402\" SPU=\"75020063WW015BN402\"",
+      "candidates": [
+        {
+          "product_id": 822080,
+          "text": "Balenciaga\n\n(W) 발렌시아가 카골 앵클 부츠 블랙\n\n520,000원\n\n관심 9"
+        },
+        {
+          "product_id": 138875,
+          "text": "Balenciaga\n\n(W) 발렌시아가 파리 뮬 블랙\n\n54%\n\n370,000원\n\n관심 76\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 94673,
+          "text": "Balenciaga\n\n(W) 발렌시아가 HD 레이스업 스니커즈 블랙\n\n47%\n\n500,000원\n\n관심 58\n\n · 리뷰 6\n\n · 거래 7"
+        },
+        {
+          "product_id": 42996,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 트레이너 리사이클드 니트 블랙\n\n40%\n\n623,000원\n\n관심 119\n\n · 리뷰 5\n\n · 거래 27"
+        },
+        {
+          "product_id": 136811,
+          "text": "Balenciaga\n\n발렌시아가 파리 로우탑 스니커즈 화이트\n\n46%\n\n429,000원\n\n관심 55\n\n · 리뷰 9\n\n · 거래 4"
+        }
+      ]
     },
     {
       "sku": "75020063WW015BN402",
@@ -243,7 +969,29 @@
       "stock": 3,
       "eur_price": 102.46,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"75020063WW015BN402\" SPU=\"75020063WW015BN402\"",
+      "candidates": [
+        {
+          "product_id": 822080,
+          "text": "Balenciaga\n\n(W) 발렌시아가 카골 앵클 부츠 블랙\n\n520,000원\n\n관심 9"
+        },
+        {
+          "product_id": 138875,
+          "text": "Balenciaga\n\n(W) 발렌시아가 파리 뮬 블랙\n\n54%\n\n370,000원\n\n관심 76\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 94673,
+          "text": "Balenciaga\n\n(W) 발렌시아가 HD 레이스업 스니커즈 블랙\n\n47%\n\n500,000원\n\n관심 58\n\n · 리뷰 6\n\n · 거래 7"
+        },
+        {
+          "product_id": 42996,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 트레이너 리사이클드 니트 블랙\n\n40%\n\n623,000원\n\n관심 119\n\n · 리뷰 5\n\n · 거래 27"
+        },
+        {
+          "product_id": 136811,
+          "text": "Balenciaga\n\n발렌시아가 파리 로우탑 스니커즈 화이트\n\n46%\n\n429,000원\n\n관심 55\n\n · 리뷰 9\n\n · 거래 4"
+        }
+      ]
     },
     {
       "sku": "75020063WW015BN402",
@@ -251,47 +999,243 @@
       "stock": 2,
       "eur_price": 102.46,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"75020063WW015BN402\" SPU=\"75020063WW015BN402\"",
+      "candidates": [
+        {
+          "product_id": 822080,
+          "text": "Balenciaga\n\n(W) 발렌시아가 카골 앵클 부츠 블랙\n\n520,000원\n\n관심 9"
+        },
+        {
+          "product_id": 138875,
+          "text": "Balenciaga\n\n(W) 발렌시아가 파리 뮬 블랙\n\n54%\n\n370,000원\n\n관심 76\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 94673,
+          "text": "Balenciaga\n\n(W) 발렌시아가 HD 레이스업 스니커즈 블랙\n\n47%\n\n500,000원\n\n관심 58\n\n · 리뷰 6\n\n · 거래 7"
+        },
+        {
+          "product_id": 42996,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 트레이너 리사이클드 니트 블랙\n\n40%\n\n623,000원\n\n관심 119\n\n · 리뷰 5\n\n · 거래 27"
+        },
+        {
+          "product_id": 136811,
+          "text": "Balenciaga\n\n발렌시아가 파리 로우탑 스니커즈 화이트\n\n46%\n\n429,000원\n\n관심 55\n\n · 리뷰 9\n\n · 거래 4"
+        }
+      ]
     },
     {
       "sku": "4B01001GWW01D0B402",
       "option": "U",
       "stock": 2,
       "eur_price": 157.79,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 997983,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/997983",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "1803002PY001VN402",
       "option": "L",
       "stock": 2,
       "eur_price": 194.47,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 975707,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/975707",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 766000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 766000,
+          "option": "L",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "L",
+      "kream_options_available": [
+        "M",
+        "XS",
+        "S",
+        "L"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002PY001VN402",
       "option": "M",
       "stock": 2,
       "eur_price": 194.47,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 975707,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/975707",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 416000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 416000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 417000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 766000,
+          "option": "M",
+          "quantity": 3
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "M",
+      "kream_options_available": [
+        "M",
+        "XS",
+        "S",
+        "L"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002PY001VN402",
       "option": "S",
       "stock": 2,
       "eur_price": 194.47,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 975707,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/975707",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 482000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 482000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 483000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 766000,
+          "option": "S",
+          "quantity": 3
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "S",
+      "kream_options_available": [
+        "M",
+        "XS",
+        "S",
+        "L"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002PY001VN402",
       "option": "XS",
       "stock": 2,
       "eur_price": 194.47,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 975707,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/975707",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 416000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 416000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 417000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 766000,
+          "option": "XS",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "XS",
+      "kream_options_available": [
+        "M",
+        "XS",
+        "S",
+        "L"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002QY001VN402",
@@ -299,7 +1243,29 @@
       "stock": 2,
       "eur_price": 175.82,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002QY001VN402\" SPU=\"1803002QY001VN402\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 263932,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 55\n\n · 거래 2"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 118832,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 레드\n\n170,000원\n\n관심 221\n\n · 리뷰 4\n\n · 거래 32"
+        }
+      ]
     },
     {
       "sku": "1803002QY001VN402",
@@ -307,7 +1273,29 @@
       "stock": 2,
       "eur_price": 175.82,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002QY001VN402\" SPU=\"1803002QY001VN402\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 263932,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 55\n\n · 거래 2"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 118832,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 레드\n\n170,000원\n\n관심 221\n\n · 리뷰 4\n\n · 거래 32"
+        }
+      ]
     },
     {
       "sku": "1803002QY001VN402",
@@ -315,7 +1303,29 @@
       "stock": 2,
       "eur_price": 175.82,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002QY001VN402\" SPU=\"1803002QY001VN402\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 263932,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 55\n\n · 거래 2"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 118832,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 레드\n\n170,000원\n\n관심 221\n\n · 리뷰 4\n\n · 거래 32"
+        }
+      ]
     },
     {
       "sku": "1803002QY001VN402",
@@ -323,7 +1333,29 @@
       "stock": 2,
       "eur_price": 175.82,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002QY001VN402\" SPU=\"1803002QY001VN402\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 263932,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 55\n\n · 거래 2"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 118832,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 레드\n\n170,000원\n\n관심 221\n\n · 리뷰 4\n\n · 거래 32"
+        }
+      ]
     },
     {
       "sku": "1803002QY001VM402",
@@ -331,7 +1363,29 @@
       "stock": 2,
       "eur_price": 175.82,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002QY001VM402\" SPU=\"1803002QY001VM402\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 263932,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 55\n\n · 거래 2"
+        },
+        {
+          "product_id": 234687,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 106\n\n · 거래 8"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        }
+      ]
     },
     {
       "sku": "1803002QY001VM402",
@@ -339,7 +1393,29 @@
       "stock": 2,
       "eur_price": 175.82,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002QY001VM402\" SPU=\"1803002QY001VM402\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 263932,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 55\n\n · 거래 2"
+        },
+        {
+          "product_id": 234687,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 106\n\n · 거래 8"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        }
+      ]
     },
     {
       "sku": "1803002QY001VM402",
@@ -347,15 +1423,248 @@
       "stock": 2,
       "eur_price": 175.82,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002QY001VM402\" SPU=\"1803002QY001VM402\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 263932,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 55\n\n · 거래 2"
+        },
+        {
+          "product_id": 234687,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 106\n\n · 거래 8"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        }
+      ]
     },
     {
       "sku": "3G010017J001MA401",
       "option": "S",
       "stock": 1,
       "eur_price": 69.67,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 201153,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/201153",
+      "market": {
+        "last_sale_price": 135000,
+        "lowest_ask": 139000,
+        "highest_bid": null,
+        "change_text": "▼ 25,000원(-18.5%)"
+      },
+      "sales": [
+        {
+          "price": 135000,
+          "option": "S",
+          "date_created": "2026-06-23T03:40:34Z",
+          "date_text": "26/06/23",
+          "is_immediate": false
+        },
+        {
+          "price": 135000,
+          "option": "S",
+          "date_created": "2026-06-20T07:49:52Z",
+          "date_text": "26/06/20",
+          "is_immediate": false
+        },
+        {
+          "price": 135000,
+          "option": "S",
+          "date_created": "2026-06-20T06:50:39Z",
+          "date_text": "26/06/20",
+          "is_immediate": false
+        },
+        {
+          "price": 130000,
+          "option": "S",
+          "date_created": "2026-06-13T18:04:55Z",
+          "date_text": "26/06/14",
+          "is_immediate": false
+        },
+        {
+          "price": 109000,
+          "option": "S",
+          "date_created": "2026-06-08T04:24:02Z",
+          "date_text": "26/06/08",
+          "is_immediate": true
+        },
+        {
+          "price": 119000,
+          "option": "S",
+          "date_created": "2026-06-08T03:11:16Z",
+          "date_text": "26/06/08",
+          "is_immediate": true
+        },
+        {
+          "price": 129000,
+          "option": "S",
+          "date_created": "2026-06-05T06:54:23Z",
+          "date_text": "26/06/05",
+          "is_immediate": true
+        },
+        {
+          "price": 105000,
+          "option": "S",
+          "date_created": "2026-05-27T06:37:25Z",
+          "date_text": "26/05/27",
+          "is_immediate": false
+        },
+        {
+          "price": 113000,
+          "option": "S",
+          "date_created": "2026-05-27T06:02:58Z",
+          "date_text": "26/05/27",
+          "is_immediate": false
+        },
+        {
+          "price": 128000,
+          "option": "S",
+          "date_created": "2026-05-18T12:28:56Z",
+          "date_text": "26/05/18",
+          "is_immediate": false
+        },
+        {
+          "price": 132000,
+          "option": "S",
+          "date_created": "2026-05-11T16:15:19Z",
+          "date_text": "26/05/12",
+          "is_immediate": false
+        },
+        {
+          "price": 130000,
+          "option": "S",
+          "date_created": "2026-05-10T13:32:14Z",
+          "date_text": "26/05/10",
+          "is_immediate": false
+        },
+        {
+          "price": 131000,
+          "option": "S",
+          "date_created": "2026-04-26T02:15:11Z",
+          "date_text": "26/04/26",
+          "is_immediate": false
+        },
+        {
+          "price": 132000,
+          "option": "S",
+          "date_created": "2026-04-18T13:41:31Z",
+          "date_text": "26/04/18",
+          "is_immediate": false
+        },
+        {
+          "price": 149000,
+          "option": "S",
+          "date_created": "2026-04-16T18:30:29Z",
+          "date_text": "26/04/17",
+          "is_immediate": true
+        },
+        {
+          "price": 132000,
+          "option": "S",
+          "date_created": "2026-04-15T11:42:49Z",
+          "date_text": "26/04/15",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 139000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 140000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 145000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 150000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 155000,
+          "option": "S",
+          "quantity": 10
+        },
+        {
+          "price": 156000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 161000,
+          "option": "S",
+          "quantity": 5
+        },
+        {
+          "price": 163000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 166000,
+          "option": "S",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 16,
+        "asks": 9,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 25,000원(-18.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "S",
+      "kream_options_available": [
+        "M",
+        "XXL",
+        "XS",
+        "L",
+        "S",
+        "XL",
+        "XXS"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "4B01000CWW01F4N401",
@@ -363,15 +1672,146 @@
       "stock": 3,
       "eur_price": 152.46,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"4B01000CWW01F4N401\" SPU=\"4B01000CWW01F4N401\"",
+      "candidates": [
+        {
+          "product_id": 770368,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 체인 로고 숄더백 블랙\n\n268,000원\n\n관심 97\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 339667,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 숄더백 블랙\n\n449,000원\n\n관심 2,142\n\n · 리뷰 10\n\n · 거래 98"
+        },
+        {
+          "product_id": 839198,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 타샤 숄더 폰 백 블랙\n\n431,000원\n\n관심 46\n\n · 거래 4"
+        },
+        {
+          "product_id": 252119,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 리비건 그레인 크리시 미디움 버킷백\n\n54%\n\n401,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 470451,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 샘 그레인 버킷백 블랙\n\n449,000원\n\n관심 50\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "4B01001BWS000DN403",
       "option": "U",
       "stock": 5,
       "eur_price": 145.08,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 770359,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/770359",
+      "market": {
+        "last_sale_price": 314000,
+        "lowest_ask": 298000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 314000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-25T08:30:35Z",
+          "date_text": "26/04/25",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 298000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 299000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 302000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 309000,
+          "option": "ONE SIZE",
+          "quantity": 12
+        },
+        {
+          "price": 313000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 321000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 387000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 399000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 8,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "4602000WWS000DN403",
@@ -379,7 +1819,29 @@
       "stock": 14,
       "eur_price": 233.6,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"4602000WWS000DN403\" SPU=\"4602000WWS000DN403\"",
+      "candidates": [
+        {
+          "product_id": 770368,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 체인 로고 숄더백 블랙\n\n268,000원\n\n관심 97\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 339667,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 숄더백 블랙\n\n449,000원\n\n관심 2,142\n\n · 리뷰 10\n\n · 거래 98"
+        },
+        {
+          "product_id": 798040,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 페이던트 헤이즐 숄더백 블랙\n\n681,000원\n\n관심 62"
+        },
+        {
+          "product_id": 339691,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 펄스 스몰 체인백 블랙\n\n238,000원\n\n관심 880\n\n · 리뷰 5\n\n · 거래 29"
+        },
+        {
+          "product_id": 466980,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 에바 미디움 체인 클러치 블랙\n\n605,000원\n\n관심 254\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "1803002UY003FC404",
@@ -387,7 +1849,29 @@
       "stock": 1,
       "eur_price": 135.24,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002UY003FC404\" SPU=\"1803002UY003FC404\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 103733,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 내츄럴\n\n70%\n\n222,000원\n\n관심 365\n\n · 거래 18"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        }
+      ]
     },
     {
       "sku": "1803002UY003FC404",
@@ -395,7 +1879,29 @@
       "stock": 1,
       "eur_price": 135.24,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002UY003FC404\" SPU=\"1803002UY003FC404\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 103733,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 내츄럴\n\n70%\n\n222,000원\n\n관심 365\n\n · 거래 18"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        }
+      ]
     },
     {
       "sku": "1803002UY003FC404",
@@ -403,7 +1909,29 @@
       "stock": 3,
       "eur_price": 135.24,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002UY003FC404\" SPU=\"1803002UY003FC404\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 103733,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 내츄럴\n\n70%\n\n222,000원\n\n관심 365\n\n · 거래 18"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        }
+      ]
     },
     {
       "sku": "1501000CW01ETO201",
@@ -411,15 +1939,83 @@
       "stock": 2,
       "eur_price": 180.33,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1501000CW01ETO201\" SPU=\"1501000CW01ETO201\"",
+      "candidates": [
+        {
+          "product_id": 500196,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 숏 슬리브 티셔츠 블랙\n\n164,000원\n\n관심 24\n\n · 거래 1"
+        },
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 363812,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 골드톤 스몰 핸드백 블랙\n\n490,000원\n\n관심 30"
+        }
+      ]
     },
     {
       "sku": "3G01003ZJ009CA401",
       "option": "M",
       "stock": 2,
       "eur_price": 77.87,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 988282,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/988282",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 200000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 200000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 201000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 219000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 399000,
+          "option": "M",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 4,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "M",
+      "kream_options_available": [
+        "L",
+        "M",
+        "S",
+        "XS"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "18030082Y001VA405",
@@ -427,7 +2023,29 @@
       "stock": 1,
       "eur_price": 221.1,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"18030082Y001VA405\" SPU=\"18030082Y001VA405\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        }
+      ]
     },
     {
       "sku": "18030082Y001VA405",
@@ -435,7 +2053,29 @@
       "stock": 2,
       "eur_price": 221.1,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"18030082Y001VA405\" SPU=\"18030082Y001VA405\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        }
+      ]
     },
     {
       "sku": "18030082Y001VA405",
@@ -443,7 +2083,29 @@
       "stock": 1,
       "eur_price": 221.1,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"18030082Y001VA405\" SPU=\"18030082Y001VA405\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        }
+      ]
     },
     {
       "sku": "4703000MWS000DN403",
@@ -451,7 +2113,29 @@
       "stock": 6,
       "eur_price": 236.06,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"4703000MWS000DN403\" SPU=\"4703000MWS000DN403\"",
+      "candidates": [
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 339667,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 숄더백 블랙\n\n449,000원\n\n관심 2,142\n\n · 리뷰 10\n\n · 거래 98"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 209547,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n313,000원\n\n관심 1,426\n\n · 리뷰 20\n\n · 거래 227\n\n빠른배송\n\n7/13(월) 도착 예정"
+        }
+      ]
     },
     {
       "sku": "5C010005WW01F4N401",
@@ -459,7 +2143,29 @@
       "stock": 9,
       "eur_price": 191.8,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"5C010005WW01F4N401\" SPU=\"5C010005WW01F4N401\"",
+      "candidates": [
+        {
+          "product_id": 339667,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 숄더백 블랙\n\n449,000원\n\n관심 2,142\n\n · 리뷰 10\n\n · 거래 98"
+        },
+        {
+          "product_id": 770368,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 체인 로고 숄더백 블랙\n\n268,000원\n\n관심 97\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 94340,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 사피아노 스몰 체인 퍼스 블랙\n\n29%\n\n255,000원\n\n관심 2,208\n\n · 리뷰 10\n\n · 거래 148\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 339691,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 펄스 스몰 체인백 블랙\n\n238,000원\n\n관심 880\n\n · 리뷰 5\n\n · 거래 29"
+        },
+        {
+          "product_id": 406826,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 미디움 숄더백 블랙\n\n670,000원\n\n관심 1,138\n\n · 리뷰 8\n\n · 거래 51\n\n빠른배송\n\n7/13(월) 도착 예정"
+        }
+      ]
     },
     {
       "sku": "1803007FY001AH406",
@@ -467,7 +2173,29 @@
       "stock": 2,
       "eur_price": 188.52,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803007FY001AH406\" SPU=\"1803007FY001AH406\"",
+      "candidates": [
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 516210,
+          "text": "Aviemuah\n\n(W) 아비에무아 팬시 숏 슬리브 니트 가디건 아이보리\n\n218,000원\n\n관심 7"
+        },
+        {
+          "product_id": 118832,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 레드\n\n170,000원\n\n관심 221\n\n · 리뷰 4\n\n · 거래 32"
+        },
+        {
+          "product_id": 234687,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 106\n\n · 거래 8"
+        }
+      ]
     },
     {
       "sku": "1803007FY001AH406",
@@ -475,15 +2203,78 @@
       "stock": 1,
       "eur_price": 188.52,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803007FY001AH406\" SPU=\"1803007FY001AH406\"",
+      "candidates": [
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 516210,
+          "text": "Aviemuah\n\n(W) 아비에무아 팬시 숏 슬리브 니트 가디건 아이보리\n\n218,000원\n\n관심 7"
+        },
+        {
+          "product_id": 118832,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 레드\n\n170,000원\n\n관심 221\n\n · 리뷰 4\n\n · 거래 32"
+        },
+        {
+          "product_id": 234687,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 106\n\n · 거래 8"
+        }
+      ]
     },
     {
       "sku": "3G01003ZJ009CN401",
       "option": "XS",
       "stock": 1,
       "eur_price": 77.87,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 988281,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/988281",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 200000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 200000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 201000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 399000,
+          "option": "XS",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "XS",
+      "kream_options_available": [
+        "L",
+        "M",
+        "S",
+        "XS"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002PY001VG406",
@@ -491,7 +2282,29 @@
       "stock": 2,
       "eur_price": 194.47,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002PY001VG406\" SPU=\"1803002PY001VG406\"",
+      "candidates": [
+        {
+          "product_id": 263932,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 55\n\n · 거래 2"
+        },
+        {
+          "product_id": 234687,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 106\n\n · 거래 8"
+        },
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 209547,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n313,000원\n\n관심 1,426\n\n · 리뷰 20\n\n · 거래 227\n\n빠른배송\n\n7/13(월) 도착 예정"
+        }
+      ]
     },
     {
       "sku": "1803002PY001VG406",
@@ -499,7 +2312,29 @@
       "stock": 2,
       "eur_price": 194.47,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002PY001VG406\" SPU=\"1803002PY001VG406\"",
+      "candidates": [
+        {
+          "product_id": 263932,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 55\n\n · 거래 2"
+        },
+        {
+          "product_id": 234687,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 106\n\n · 거래 8"
+        },
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 209547,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n313,000원\n\n관심 1,426\n\n · 리뷰 20\n\n · 거래 227\n\n빠른배송\n\n7/13(월) 도착 예정"
+        }
+      ]
     },
     {
       "sku": "1803002PY001VG406",
@@ -507,7 +2342,29 @@
       "stock": 2,
       "eur_price": 194.47,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002PY001VG406\" SPU=\"1803002PY001VG406\"",
+      "candidates": [
+        {
+          "product_id": 263932,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 55\n\n · 거래 2"
+        },
+        {
+          "product_id": 234687,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 106\n\n · 거래 8"
+        },
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 209547,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n313,000원\n\n관심 1,426\n\n · 리뷰 20\n\n · 거래 227\n\n빠른배송\n\n7/13(월) 도착 예정"
+        }
+      ]
     },
     {
       "sku": "1501005PW00RUA102",
@@ -515,7 +2372,29 @@
       "stock": 2,
       "eur_price": 256.76,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1501005PW00RUA102\" SPU=\"1501005PW00RUA102\"",
+      "candidates": [
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 118832,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 레드\n\n170,000원\n\n관심 221\n\n · 리뷰 4\n\n · 거래 32"
+        },
+        {
+          "product_id": 201153,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 오브 페루 티셔츠 화이트\n\n99,000원\n\n관심 930\n\n · 리뷰 32\n\n · 거래 267\n\n빠른배송\n\n7/13(월) 도착 예정"
+        }
+      ]
     },
     {
       "sku": "49030001WW01F4N401",
@@ -523,15 +2402,146 @@
       "stock": 2,
       "eur_price": 243.44,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"49030001WW01F4N401\" SPU=\"49030001WW01F4N401\"",
+      "candidates": [
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 241426,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n362,000원\n\n관심 1,673\n\n · 리뷰 13\n\n · 거래 136"
+        },
+        {
+          "product_id": 152293,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 블랙\n\n380,000원\n\n관심 6,307\n\n · 리뷰 94\n\n · 거래 1,172\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 618691,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 스무스 레더 스트랩 카드 홀더 블랙\n\n201,000원\n\n관심 90"
+        },
+        {
+          "product_id": 484837,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 오브 로고 가디건 블랙\n\n300,000원\n\n관심 51\n\n · 리뷰 1\n\n · 거래 3"
+        }
+      ]
     },
     {
       "sku": "4603000WWS000DN403",
       "option": "U",
       "stock": 7,
       "eur_price": 189.34,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 846245,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/846245",
+      "market": {
+        "last_sale_price": 450000,
+        "lowest_ask": 400000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 450000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-25T13:42:16Z",
+          "date_text": "26/05/25",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 400000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 408000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 409000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 491000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 492000,
+          "option": "ONE SIZE",
+          "quantity": 6
+        },
+        {
+          "price": 579000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 580000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 806000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 8,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "81020023W01C6O102",
@@ -539,7 +2549,29 @@
       "stock": 4,
       "eur_price": 100.82,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"81020023W01C6O102\" SPU=\"81020023W01C6O102\"",
+      "candidates": [
+        {
+          "product_id": 629858,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 더블 로고 머플러 미네랄 그레이\n\n183,000원\n\n관심 4,390\n\n · 리뷰 1\n\n · 거래 937"
+        },
+        {
+          "product_id": 375147,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 자수 로고 머플러 블랙 와인\n\n56%\n\n111,000원\n\n관심 6,636\n\n · 리뷰 6\n\n · 거래 1,599\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 402574,
+          "text": "Burberry\n\n버버리 체크 캐시미어 머플러 블랙\n\n12%\n\n688,000원\n\n관심 470\n\n · 거래 27"
+        },
+        {
+          "product_id": 242811,
+          "text": "Burberry\n\n버버리 빈티지 체크 캐시미어 머플러 베이지\n\n430,000원\n\n관심 779\n\n · 리뷰 6\n\n · 거래 89\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 89429,
+          "text": "Gucci\n\n(W) 구찌 GG 울 실크 자카드 스카프 다크 브라운\n\n235,000원\n\n관심 1,507\n\n · 리뷰 9\n\n · 거래 722\n\n빠른배송\n\n7/13(월) 도착 예정"
+        }
+      ]
     },
     {
       "sku": "4D01000LUW01D0B402",
@@ -547,7 +2579,29 @@
       "stock": 1,
       "eur_price": 284.01,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"4D01000LUW01D0B402\" SPU=\"4D01000LUW01D0B402\"",
+      "candidates": [
+        {
+          "product_id": 770368,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 체인 로고 숄더백 블랙\n\n268,000원\n\n관심 97\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 339691,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 펄스 스몰 체인백 블랙\n\n238,000원\n\n관심 880\n\n · 리뷰 5\n\n · 거래 29"
+        },
+        {
+          "product_id": 252119,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 리비건 그레인 크리시 미디움 버킷백\n\n54%\n\n401,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 339667,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 숄더백 블랙\n\n449,000원\n\n관심 2,142\n\n · 리뷰 10\n\n · 거래 98"
+        },
+        {
+          "product_id": 773021,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 스웨이드 미니 야스민 백 블랙\n\n283,000원\n\n관심 201\n\n · 리뷰 1\n\n · 거래 4"
+        }
+      ]
     },
     {
       "sku": "1803002QY001VG406",
@@ -555,7 +2609,29 @@
       "stock": 2,
       "eur_price": 175.82,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002QY001VG406\" SPU=\"1803002QY001VG406\"",
+      "candidates": [
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 241426,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n362,000원\n\n관심 1,673\n\n · 리뷰 13\n\n · 거래 136"
+        },
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        }
+      ]
     },
     {
       "sku": "1803002QY001VG406",
@@ -563,7 +2639,29 @@
       "stock": 2,
       "eur_price": 175.82,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002QY001VG406\" SPU=\"1803002QY001VG406\"",
+      "candidates": [
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 241426,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n362,000원\n\n관심 1,673\n\n · 리뷰 13\n\n · 거래 136"
+        },
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        }
+      ]
     },
     {
       "sku": "1803002QY001VG406",
@@ -571,55 +2669,478 @@
       "stock": 2,
       "eur_price": 175.82,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002QY001VG406\" SPU=\"1803002QY001VG406\"",
+      "candidates": [
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 241426,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n362,000원\n\n관심 1,673\n\n · 리뷰 13\n\n · 거래 136"
+        },
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        }
+      ]
     },
     {
       "sku": "1803002QY001AN402",
       "option": "XS",
       "stock": 2,
       "eur_price": 162.29,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 265584,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/265584",
+      "market": {
+        "last_sale_price": 304000,
+        "lowest_ask": 322000,
+        "highest_bid": 120000,
+        "change_text": "▼ 1,000원(-0.3%)"
+      },
+      "sales": [
+        {
+          "price": 304000,
+          "option": "XS",
+          "date_created": "2026-02-21T07:15:18Z",
+          "date_text": "26/02/21",
+          "is_immediate": false
+        },
+        {
+          "price": 288000,
+          "option": "XS",
+          "date_created": "2024-11-28T13:58:45Z",
+          "date_text": "24/11/28",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 322000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 323000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 325000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 343000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 374000,
+          "option": "XS",
+          "quantity": 6
+        }
+      ],
+      "bids": [
+        {
+          "price": 120000,
+          "option": "XS",
+          "quantity": 2
+        }
+      ],
+      "totals": {
+        "sales": 2,
+        "asks": 5,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 1,000원(-0.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "XS",
+      "kream_options_available": [
+        "L",
+        "M",
+        "S",
+        "XS",
+        "XL"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "3J010016J00A4F407",
       "option": "M",
       "stock": 1,
       "eur_price": 122.95,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 783492,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/783492",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 325000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 325000,
+          "option": "M",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "M",
+      "kream_options_available": [
+        "M",
+        "S"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "5801000JWS0021N401",
       "option": "U",
       "stock": 6,
       "eur_price": 197.95,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 839198,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/839198",
+      "market": {
+        "last_sale_price": 348000,
+        "lowest_ask": 431000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 348000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-14T14:51:23Z",
+          "date_text": "26/05/14",
+          "is_immediate": false
+        },
+        {
+          "price": 348000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-01T03:59:10Z",
+          "date_text": "26/05/01",
+          "is_immediate": false
+        },
+        {
+          "price": 348000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-25T05:53:04Z",
+          "date_text": "26/04/25",
+          "is_immediate": false
+        },
+        {
+          "price": 348000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-15T10:02:15Z",
+          "date_text": "26/04/15",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 431000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 432000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 599000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 4,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002PY001AH406",
       "option": "L",
       "stock": 1,
       "eur_price": 161.88,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 348355,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/348355",
+      "market": {
+        "last_sale_price": 269000,
+        "lowest_ask": 354000,
+        "highest_bid": null,
+        "change_text": "▼ 9,000원(-2.5%)"
+      },
+      "sales": [
+        {
+          "price": 269000,
+          "option": "L",
+          "date_created": "2024-12-18T09:45:16Z",
+          "date_text": "24/12/18",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 354000,
+          "option": "L",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 9,000원(-2.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "L",
+      "kream_options_available": [
+        "L",
+        "M",
+        "S",
+        "XXS",
+        "XS"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002UY001AG401",
       "option": "M",
       "stock": 1,
       "eur_price": 161.88,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 784729,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/784729",
+      "market": {
+        "last_sale_price": 450000,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 450000,
+          "option": "S",
+          "date_created": "2026-03-15T11:47:21Z",
+          "date_text": "26/03/15",
+          "is_immediate": false
+        }
+      ],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "S",
+      "kream_options_available": [
+        "S"
+      ],
+      "option_mismatch": true
     },
     {
       "sku": "4B01001BWW01F4N401",
       "option": "U",
       "stock": 1,
       "eur_price": 167.21,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 866741,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/866741",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 356000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 356000,
+          "option": "ONE SIZE",
+          "quantity": 11
+        },
+        {
+          "price": 357000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 404000,
+          "option": "ONE SIZE",
+          "quantity": 18
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803007FY001AG401",
@@ -627,7 +3148,29 @@
       "stock": 2,
       "eur_price": 188.52,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803007FY001AG401\" SPU=\"1803007FY001AG401\"",
+      "candidates": [
+        {
+          "product_id": 629858,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 더블 로고 머플러 미네랄 그레이\n\n183,000원\n\n관심 4,390\n\n · 리뷰 1\n\n · 거래 937"
+        },
+        {
+          "product_id": 375147,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 자수 로고 머플러 블랙 와인\n\n56%\n\n111,000원\n\n관심 6,636\n\n · 리뷰 6\n\n · 거래 1,599\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 344118,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 더블 로고 머플러 블랙\n\n199,000원\n\n관심 1.4만\n\n · 리뷰 17\n\n · 거래 3,138"
+        },
+        {
+          "product_id": 671246,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 자수 로고 머플러 라이트 그레이 와인\n\n64%\n\n100,000원\n\n관심 1,091\n\n · 거래 219"
+        },
+        {
+          "product_id": 382230,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 자수 로고 머플러 화이트 와인\n\n144,000원\n\n관심 1.2만\n\n · 리뷰 20\n\n · 거래 3,690"
+        }
+      ]
     },
     {
       "sku": "1803007FY001AG401",
@@ -635,7 +3178,29 @@
       "stock": 1,
       "eur_price": 188.52,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803007FY001AG401\" SPU=\"1803007FY001AG401\"",
+      "candidates": [
+        {
+          "product_id": 629858,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 더블 로고 머플러 미네랄 그레이\n\n183,000원\n\n관심 4,390\n\n · 리뷰 1\n\n · 거래 937"
+        },
+        {
+          "product_id": 375147,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 자수 로고 머플러 블랙 와인\n\n56%\n\n111,000원\n\n관심 6,636\n\n · 리뷰 6\n\n · 거래 1,599\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 344118,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 더블 로고 머플러 블랙\n\n199,000원\n\n관심 1.4만\n\n · 리뷰 17\n\n · 거래 3,138"
+        },
+        {
+          "product_id": 671246,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 자수 로고 머플러 라이트 그레이 와인\n\n64%\n\n100,000원\n\n관심 1,091\n\n · 거래 219"
+        },
+        {
+          "product_id": 382230,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 자수 로고 머플러 화이트 와인\n\n144,000원\n\n관심 1.2만\n\n · 리뷰 20\n\n · 거래 3,690"
+        }
+      ]
     },
     {
       "sku": "1803007EY001AG401",
@@ -643,7 +3208,29 @@
       "stock": 1,
       "eur_price": 174.18,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803007EY001AG401\" SPU=\"1803007EY001AG401\"",
+      "candidates": [
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 344118,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 더블 로고 머플러 블랙\n\n199,000원\n\n관심 1.4만\n\n · 리뷰 17\n\n · 거래 3,138"
+        },
+        {
+          "product_id": 671246,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 자수 로고 머플러 라이트 그레이 와인\n\n64%\n\n100,000원\n\n관심 1,091\n\n · 거래 219"
+        },
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        }
+      ]
     },
     {
       "sku": "1803007EY001AG401",
@@ -651,7 +3238,29 @@
       "stock": 2,
       "eur_price": 174.18,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803007EY001AG401\" SPU=\"1803007EY001AG401\"",
+      "candidates": [
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 344118,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 더블 로고 머플러 블랙\n\n199,000원\n\n관심 1.4만\n\n · 리뷰 17\n\n · 거래 3,138"
+        },
+        {
+          "product_id": 671246,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 자수 로고 머플러 라이트 그레이 와인\n\n64%\n\n100,000원\n\n관심 1,091\n\n · 거래 219"
+        },
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        }
+      ]
     },
     {
       "sku": "1803007RY004SA408",
@@ -659,7 +3268,29 @@
       "stock": 2,
       "eur_price": 170.08,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803007RY004SA408\" SPU=\"1803007RY004SA408\"",
+      "candidates": [
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 241426,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n362,000원\n\n관심 1,673\n\n · 리뷰 13\n\n · 거래 136"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 103733,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 내츄럴\n\n70%\n\n222,000원\n\n관심 365\n\n · 거래 18"
+        },
+        {
+          "product_id": 152295,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n289,000원\n\n관심 1,537\n\n · 리뷰 15\n\n · 거래 60"
+        }
+      ]
     },
     {
       "sku": "1803007RY004SA408",
@@ -667,87 +3298,628 @@
       "stock": 2,
       "eur_price": 170.08,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803007RY004SA408\" SPU=\"1803007RY004SA408\"",
+      "candidates": [
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 241426,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n362,000원\n\n관심 1,673\n\n · 리뷰 13\n\n · 거래 136"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 103733,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 내츄럴\n\n70%\n\n222,000원\n\n관심 365\n\n · 거래 18"
+        },
+        {
+          "product_id": 152295,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n289,000원\n\n관심 1,537\n\n · 리뷰 15\n\n · 거래 60"
+        }
+      ]
     },
     {
       "sku": "5C01000XWS0026N401",
       "option": "U",
       "stock": 10,
       "eur_price": 126.23,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 996749,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/996749",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 309000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 309000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 320000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002UY001AN402",
       "option": "M",
       "stock": 2,
       "eur_price": 178.07,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 428969,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/428969",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "1803002UY001AN402",
       "option": "S",
       "stock": 4,
       "eur_price": 178.07,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 428969,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/428969",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "4B010007WL001NN402",
       "option": "U",
       "stock": 23,
       "eur_price": 154.92,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 416509,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/416509",
+      "market": {
+        "last_sale_price": 229000,
+        "lowest_ask": 271000,
+        "highest_bid": 100000,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 229000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-09T17:21:12Z",
+          "date_text": "25/10/10",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 271000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 272000,
+          "option": "ONE SIZE",
+          "quantity": 13
+        },
+        {
+          "price": 276000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 296000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 298000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 300000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 324000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 328000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 329000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 340000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 345000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 390000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 573000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        }
+      ],
+      "bids": [
+        {
+          "price": 100000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 1,
+        "asks": 13,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "4603000XWS000DN403",
       "option": "U",
       "stock": 2,
       "eur_price": 189.34,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 988474,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/988474",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 462000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 462000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 463000,
+          "option": "ONE SIZE",
+          "quantity": 8
+        },
+        {
+          "price": 486000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "4B010007WS000DN403",
       "option": "U",
       "stock": 13,
       "eur_price": 134.83,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 812747,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/812747",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "1501000CW009QA401",
       "option": "38 IT",
       "stock": 2,
       "eur_price": 218.45,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 172760,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/172760",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 856000,
+        "highest_bid": null,
+        "change_text": "▼ 66,000원(-16.5%)"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 856000,
+          "option": "38",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 66,000원(-16.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "38",
+      "kream_options_available": [
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1501000CW009QA401",
       "option": "40 IT",
       "stock": 3,
       "eur_price": 218.45,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 172760,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/172760",
+      "market": {
+        "last_sale_price": 399000,
+        "lowest_ask": 856000,
+        "highest_bid": null,
+        "change_text": "▼ 66,000원(-16.5%)"
+      },
+      "sales": [
+        {
+          "price": 399000,
+          "option": "40",
+          "date_created": "2024-02-20T07:43:36Z",
+          "date_text": "24/02/20",
+          "is_immediate": false
+        },
+        {
+          "price": 399000,
+          "option": "40",
+          "date_created": "2024-01-06T11:05:09Z",
+          "date_text": "24/01/06",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 856000,
+          "option": "40",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 2,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 66,000원(-16.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "40",
+      "kream_options_available": [
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1501000CW009QA401",
       "option": "42 IT",
       "stock": 2,
       "eur_price": 218.45,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 172760,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/172760",
+      "market": {
+        "last_sale_price": 333000,
+        "lowest_ask": 450000,
+        "highest_bid": null,
+        "change_text": "▼ 66,000원(-16.5%)"
+      },
+      "sales": [
+        {
+          "price": 333000,
+          "option": "42",
+          "date_created": "2025-02-23T09:42:39Z",
+          "date_text": "25/02/23",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 450000,
+          "option": "42",
+          "quantity": 1
+        },
+        {
+          "price": 856000,
+          "option": "42",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 66,000원(-16.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "42",
+      "kream_options_available": [
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1501000CW009QA401",
       "option": "44 IT",
       "stock": 1,
       "eur_price": 218.45,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 172760,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/172760",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 856000,
+        "highest_bid": null,
+        "change_text": "▼ 66,000원(-16.5%)"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 856000,
+          "option": "44",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 66,000원(-16.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "44",
+      "kream_options_available": [
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002PY003FK404",
@@ -755,7 +3927,29 @@
       "stock": 1,
       "eur_price": 135.24,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002PY003FK404\" SPU=\"1803002PY003FK404\"",
+      "candidates": [
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 103732,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 네이비\n\n73%\n\n200,000원\n\n관심 369\n\n · 리뷰 1\n\n · 거래 18\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 241426,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n362,000원\n\n관심 1,673\n\n · 리뷰 13\n\n · 거래 136"
+        }
+      ]
     },
     {
       "sku": "1803002PY003FK404",
@@ -763,7 +3957,29 @@
       "stock": 2,
       "eur_price": 135.24,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002PY003FK404\" SPU=\"1803002PY003FK404\"",
+      "candidates": [
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 103732,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 네이비\n\n73%\n\n200,000원\n\n관심 369\n\n · 리뷰 1\n\n · 거래 18\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 241426,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n362,000원\n\n관심 1,673\n\n · 리뷰 13\n\n · 거래 136"
+        }
+      ]
     },
     {
       "sku": "1803002QY003FC409",
@@ -771,7 +3987,29 @@
       "stock": 1,
       "eur_price": 120.9,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002QY003FC409\" SPU=\"1803002QY003FC409\"",
+      "candidates": [
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 103732,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 네이비\n\n73%\n\n200,000원\n\n관심 369\n\n · 리뷰 1\n\n · 거래 18\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        }
+      ]
     },
     {
       "sku": "1803002QY003FC409",
@@ -779,7 +4017,29 @@
       "stock": 1,
       "eur_price": 120.9,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002QY003FC409\" SPU=\"1803002QY003FC409\"",
+      "candidates": [
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 103732,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 네이비\n\n73%\n\n200,000원\n\n관심 369\n\n · 리뷰 1\n\n · 거래 18\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        }
+      ]
     },
     {
       "sku": "1803002QY003FC409",
@@ -787,7 +4047,29 @@
       "stock": 1,
       "eur_price": 120.9,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002QY003FC409\" SPU=\"1803002QY003FC409\"",
+      "candidates": [
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 103732,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 네이비\n\n73%\n\n200,000원\n\n관심 369\n\n · 리뷰 1\n\n · 거래 18\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        },
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        }
+      ]
     },
     {
       "sku": "7501004KWW015BN402",
@@ -795,7 +4077,29 @@
       "stock": 2,
       "eur_price": 110.66,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"7501004KWW015BN402\" SPU=\"7501004KWW015BN402\"",
+      "candidates": [
+        {
+          "product_id": 839198,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 타샤 숄더 폰 백 블랙\n\n431,000원\n\n관심 46\n\n · 거래 4"
+        },
+        {
+          "product_id": 339667,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 숄더백 블랙\n\n449,000원\n\n관심 2,142\n\n · 리뷰 10\n\n · 거래 98"
+        },
+        {
+          "product_id": 252119,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 리비건 그레인 크리시 미디움 버킷백\n\n54%\n\n401,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 836928,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 힐러리 스몰 버킷백 블랙\n\n297,000원\n\n관심 35"
+        },
+        {
+          "product_id": 846245,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 핸드백 블랙\n\n400,000원\n\n관심 58\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "7501004KWW015BN402",
@@ -803,7 +4107,29 @@
       "stock": 4,
       "eur_price": 110.66,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"7501004KWW015BN402\" SPU=\"7501004KWW015BN402\"",
+      "candidates": [
+        {
+          "product_id": 839198,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 타샤 숄더 폰 백 블랙\n\n431,000원\n\n관심 46\n\n · 거래 4"
+        },
+        {
+          "product_id": 339667,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 숄더백 블랙\n\n449,000원\n\n관심 2,142\n\n · 리뷰 10\n\n · 거래 98"
+        },
+        {
+          "product_id": 252119,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 리비건 그레인 크리시 미디움 버킷백\n\n54%\n\n401,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 836928,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 힐러리 스몰 버킷백 블랙\n\n297,000원\n\n관심 35"
+        },
+        {
+          "product_id": 846245,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 핸드백 블랙\n\n400,000원\n\n관심 58\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "7501004KWW015BN402",
@@ -811,7 +4137,29 @@
       "stock": 4,
       "eur_price": 110.66,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"7501004KWW015BN402\" SPU=\"7501004KWW015BN402\"",
+      "candidates": [
+        {
+          "product_id": 839198,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 타샤 숄더 폰 백 블랙\n\n431,000원\n\n관심 46\n\n · 거래 4"
+        },
+        {
+          "product_id": 339667,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 숄더백 블랙\n\n449,000원\n\n관심 2,142\n\n · 리뷰 10\n\n · 거래 98"
+        },
+        {
+          "product_id": 252119,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 리비건 그레인 크리시 미디움 버킷백\n\n54%\n\n401,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 836928,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 힐러리 스몰 버킷백 블랙\n\n297,000원\n\n관심 35"
+        },
+        {
+          "product_id": 846245,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 핸드백 블랙\n\n400,000원\n\n관심 58\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "7501004KWW015BN402",
@@ -819,7 +4167,29 @@
       "stock": 1,
       "eur_price": 110.66,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"7501004KWW015BN402\" SPU=\"7501004KWW015BN402\"",
+      "candidates": [
+        {
+          "product_id": 839198,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 타샤 숄더 폰 백 블랙\n\n431,000원\n\n관심 46\n\n · 거래 4"
+        },
+        {
+          "product_id": 339667,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 숄더백 블랙\n\n449,000원\n\n관심 2,142\n\n · 리뷰 10\n\n · 거래 98"
+        },
+        {
+          "product_id": 252119,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 리비건 그레인 크리시 미디움 버킷백\n\n54%\n\n401,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 836928,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 힐러리 스몰 버킷백 블랙\n\n297,000원\n\n관심 35"
+        },
+        {
+          "product_id": 846245,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 핸드백 블랙\n\n400,000원\n\n관심 58\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "7501004KWW015BN402",
@@ -827,7 +4197,29 @@
       "stock": 1,
       "eur_price": 110.66,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"7501004KWW015BN402\" SPU=\"7501004KWW015BN402\"",
+      "candidates": [
+        {
+          "product_id": 839198,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 타샤 숄더 폰 백 블랙\n\n431,000원\n\n관심 46\n\n · 거래 4"
+        },
+        {
+          "product_id": 339667,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 숄더백 블랙\n\n449,000원\n\n관심 2,142\n\n · 리뷰 10\n\n · 거래 98"
+        },
+        {
+          "product_id": 252119,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 리비건 그레인 크리시 미디움 버킷백\n\n54%\n\n401,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 836928,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 힐러리 스몰 버킷백 블랙\n\n297,000원\n\n관심 35"
+        },
+        {
+          "product_id": 846245,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 핸드백 블랙\n\n400,000원\n\n관심 58\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "1803002PY001VM402",
@@ -835,7 +4227,29 @@
       "stock": 1,
       "eur_price": 194.47,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002PY001VM402\" SPU=\"1803002PY001VM402\"",
+      "candidates": [
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 263932,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 55\n\n · 거래 2"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 241426,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n362,000원\n\n관심 1,673\n\n · 리뷰 13\n\n · 거래 136"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        }
+      ]
     },
     {
       "sku": "1803002PY001VM402",
@@ -843,7 +4257,29 @@
       "stock": 2,
       "eur_price": 194.47,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002PY001VM402\" SPU=\"1803002PY001VM402\"",
+      "candidates": [
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 263932,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 55\n\n · 거래 2"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 241426,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n362,000원\n\n관심 1,673\n\n · 리뷰 13\n\n · 거래 136"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        }
+      ]
     },
     {
       "sku": "1803002PY001VM402",
@@ -851,7 +4287,29 @@
       "stock": 2,
       "eur_price": 194.47,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002PY001VM402\" SPU=\"1803002PY001VM402\"",
+      "candidates": [
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 263932,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 55\n\n · 거래 2"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 241426,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n362,000원\n\n관심 1,673\n\n · 리뷰 13\n\n · 거래 136"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        }
+      ]
     },
     {
       "sku": "1803002PY001VM402",
@@ -859,63 +4317,510 @@
       "stock": 2,
       "eur_price": 194.47,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002PY001VM402\" SPU=\"1803002PY001VM402\"",
+      "candidates": [
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 263932,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 55\n\n · 거래 2"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 241426,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n362,000원\n\n관심 1,673\n\n · 리뷰 13\n\n · 거래 136"
+        },
+        {
+          "product_id": 100807,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 점퍼 블랙\n\n185,000원\n\n관심 473\n\n · 리뷰 2\n\n · 거래 35"
+        }
+      ]
     },
     {
       "sku": "15010060W009QA401",
       "option": "38 IT",
       "stock": 2,
       "eur_price": 157.17,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 470438,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/470438",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": 150000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [
+        {
+          "price": 150000,
+          "option": "40",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "40",
+      "kream_options_available": [
+        "40"
+      ],
+      "option_mismatch": true
     },
     {
       "sku": "15010060W009QA401",
       "option": "40 IT",
       "stock": 1,
       "eur_price": 157.17,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 470438,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/470438",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": 150000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [
+        {
+          "price": 150000,
+          "option": "40",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "40",
+      "kream_options_available": [
+        "40"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "15010060W009QA401",
       "option": "42 IT",
       "stock": 2,
       "eur_price": 157.17,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 470438,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/470438",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": 150000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [
+        {
+          "price": 150000,
+          "option": "40",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "40",
+      "kream_options_available": [
+        "40"
+      ],
+      "option_mismatch": true
     },
     {
       "sku": "15010060W009QA401",
       "option": "44 IT",
       "stock": 1,
       "eur_price": 157.17,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 470438,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/470438",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": 150000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [
+        {
+          "price": 150000,
+          "option": "40",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "40",
+      "kream_options_available": [
+        "40"
+      ],
+      "option_mismatch": true
     },
     {
       "sku": "1803002UY001AP403",
       "option": "M",
       "stock": 3,
       "eur_price": 161.88,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 770348,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/770348",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 345000,
+        "highest_bid": 170000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 345000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 349000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 359000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 410000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 442000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 474000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 826000,
+          "option": "M",
+          "quantity": 3
+        }
+      ],
+      "bids": [
+        {
+          "price": 170000,
+          "option": "M",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 7,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "M",
+      "kream_options_available": [
+        "XS",
+        "M",
+        "S",
+        "L"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002UY001AP403",
       "option": "S",
       "stock": 3,
       "eur_price": 161.88,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 770348,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/770348",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 350000,
+        "highest_bid": 160000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 350000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 364000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 380000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 408000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 410000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 442000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 474000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 826000,
+          "option": "S",
+          "quantity": 3
+        }
+      ],
+      "bids": [
+        {
+          "price": 160000,
+          "option": "S",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 8,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "S",
+      "kream_options_available": [
+        "XS",
+        "M",
+        "S",
+        "L"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002UY001AP403",
       "option": "XS",
       "stock": 2,
       "eur_price": 161.88,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 770348,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/770348",
+      "market": {
+        "last_sale_price": 372000,
+        "lowest_ask": 335000,
+        "highest_bid": 150000,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 372000,
+          "option": "XS",
+          "date_created": "2026-04-24T17:52:04Z",
+          "date_text": "26/04/25",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 335000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 371000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 411000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 442000,
+          "option": "XS",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 150000,
+          "option": "XS",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 1,
+        "asks": 4,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "XS",
+      "kream_options_available": [
+        "XS",
+        "M",
+        "S",
+        "L"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "4B01000CWS000DN403",
@@ -923,15 +4828,105 @@
       "stock": 12,
       "eur_price": 160.66,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"4B01000CWS000DN403\" SPU=\"4B01000CWS000DN403\"",
+      "candidates": [
+        {
+          "product_id": 339667,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤이즐 스몰 숄더백 블랙\n\n449,000원\n\n관심 2,142\n\n · 리뷰 10\n\n · 거래 98"
+        },
+        {
+          "product_id": 770368,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 체인 로고 숄더백 블랙\n\n268,000원\n\n관심 97\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 339691,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 펄스 스몰 체인백 블랙\n\n238,000원\n\n관심 880\n\n · 리뷰 5\n\n · 거래 29"
+        },
+        {
+          "product_id": 839198,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 타샤 숄더 폰 백 블랙\n\n431,000원\n\n관심 46\n\n · 거래 4"
+        },
+        {
+          "product_id": 252119,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 리비건 그레인 크리시 미디움 버킷백\n\n54%\n\n401,000원\n\n관심 21\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "57010007UW01F4N401",
       "option": "U",
       "stock": 6,
       "eur_price": 181.97,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 864603,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/864603",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 370000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 370000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 384000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 393000,
+          "option": "ONE SIZE",
+          "quantity": 13
+        },
+        {
+          "price": 420000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 426000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 428000,
+          "option": "ONE SIZE",
+          "quantity": 21
+        },
+        {
+          "price": 441000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 458000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 770000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 9,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "14010083W01CDO215",
@@ -939,7 +4934,29 @@
       "stock": 1,
       "eur_price": 395.49,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"14010083W01CDO215\" SPU=\"14010083W01CDO215\"",
+      "candidates": [
+        {
+          "product_id": 252119,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 리비건 그레인 크리시 미디움 버킷백\n\n54%\n\n401,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 864603,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 드로우스트링 숄더백 블랙\n\n370,000원\n\n관심 8"
+        },
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 621540,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤더 체크 숄더백 블랙\n\n450,000원\n\n관심 42"
+        }
+      ]
     },
     {
       "sku": "14010083W01CDO215",
@@ -947,7 +4964,29 @@
       "stock": 1,
       "eur_price": 395.49,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"14010083W01CDO215\" SPU=\"14010083W01CDO215\"",
+      "candidates": [
+        {
+          "product_id": 252119,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 리비건 그레인 크리시 미디움 버킷백\n\n54%\n\n401,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 864603,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 드로우스트링 숄더백 블랙\n\n370,000원\n\n관심 8"
+        },
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 621540,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 헤더 체크 숄더백 블랙\n\n450,000원\n\n관심 42"
+        }
+      ]
     },
     {
       "sku": "110103A4W01C6O102",
@@ -955,7 +4994,29 @@
       "stock": 1,
       "eur_price": 479.51,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"110103A4W01C6O102\" SPU=\"110103A4W01C6O102\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 241426,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n362,000원\n\n관심 1,673\n\n · 리뷰 13\n\n · 거래 136"
+        },
+        {
+          "product_id": 152293,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 블랙\n\n380,000원\n\n관심 6,307\n\n · 리뷰 94\n\n · 거래 1,172\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 91486,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 고스트 셔츠 화이트\n\n31%\n\n248,000원\n\n관심 120\n\n · 리뷰 2\n\n · 거래 14"
+        }
+      ]
     },
     {
       "sku": "110103A4W01C6O102",
@@ -963,7 +5024,29 @@
       "stock": 1,
       "eur_price": 479.51,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"110103A4W01C6O102\" SPU=\"110103A4W01C6O102\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 241426,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n362,000원\n\n관심 1,673\n\n · 리뷰 13\n\n · 거래 136"
+        },
+        {
+          "product_id": 152293,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 블랙\n\n380,000원\n\n관심 6,307\n\n · 리뷰 94\n\n · 거래 1,172\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 91486,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 고스트 셔츠 화이트\n\n31%\n\n248,000원\n\n관심 120\n\n · 리뷰 2\n\n · 거래 14"
+        }
+      ]
     },
     {
       "sku": "110103A4W01C6O102",
@@ -971,15 +5054,161 @@
       "stock": 1,
       "eur_price": 479.51,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"110103A4W01C6O102\" SPU=\"110103A4W01C6O102\"",
+      "candidates": [
+        {
+          "product_id": 153998,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 틸\n\n366,000원\n\n관심 106\n\n · 리뷰 7\n\n · 거래 11"
+        },
+        {
+          "product_id": 103830,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 인디고\n\n53%\n\n372,000원\n\n관심 287\n\n · 리뷰 7\n\n · 거래 37"
+        },
+        {
+          "product_id": 241426,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n362,000원\n\n관심 1,673\n\n · 리뷰 13\n\n · 거래 136"
+        },
+        {
+          "product_id": 152293,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 블랙\n\n380,000원\n\n관심 6,307\n\n · 리뷰 94\n\n · 거래 1,172\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 91486,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 고스트 셔츠 화이트\n\n31%\n\n248,000원\n\n관심 120\n\n · 리뷰 2\n\n · 거래 14"
+        }
+      ]
     },
     {
       "sku": "1803002UY003FN401",
       "option": "M",
       "stock": 1,
       "eur_price": 148.77,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 486534,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/486534",
+      "market": {
+        "last_sale_price": 280000,
+        "lowest_ask": 325000,
+        "highest_bid": null,
+        "change_text": "▲ 51,000원(+14.7%)"
+      },
+      "sales": [
+        {
+          "price": 280000,
+          "option": "M",
+          "date_created": "2025-09-10T11:54:21Z",
+          "date_text": "25/09/10",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 325000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 330000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 335000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 350000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 354000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 357000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 358000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 360000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 377000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 398000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 411000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 418000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 692000,
+          "option": "M",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 13,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 51,000원(+14.7%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "M",
+      "kream_options_available": [
+        "M",
+        "S",
+        "XS",
+        "XXS",
+        "L"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002PY003FC404",
@@ -987,7 +5216,29 @@
       "stock": 1,
       "eur_price": 135.24,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002PY003FC404\" SPU=\"1803002PY003FC404\"",
+      "candidates": [
+        {
+          "product_id": 486534,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n325,000원\n\n관심 74\n\n · 리뷰 1\n\n · 거래 6"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 312074,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n319,000원\n\n관심 1,605\n\n · 리뷰 54\n\n · 거래 331\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 74245,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 블랙 - 22FW\n\n339,000원\n\n관심 2,654\n\n · 리뷰 17\n\n · 거래 431"
+        },
+        {
+          "product_id": 103732,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 네이비\n\n73%\n\n200,000원\n\n관심 369\n\n · 리뷰 1\n\n · 거래 18\n\n빠른배송\n\n7/13(월) 도착 예정"
+        }
+      ]
     },
     {
       "sku": "1803002PY003FC404",
@@ -995,39 +5246,351 @@
       "stock": 2,
       "eur_price": 135.24,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1803002PY003FC404\" SPU=\"1803002PY003FC404\"",
+      "candidates": [
+        {
+          "product_id": 486534,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n325,000원\n\n관심 74\n\n · 리뷰 1\n\n · 거래 6"
+        },
+        {
+          "product_id": 189256,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 버진 울 가디건 블랙\n\n319,000원\n\n관심 4,512\n\n · 리뷰 94\n\n · 거래 776\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 312074,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 크롭 가디건 블랙\n\n319,000원\n\n관심 1,605\n\n · 리뷰 54\n\n · 거래 331\n\n빠른배송\n\n7/13(월) 도착 예정"
+        },
+        {
+          "product_id": 74245,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 가디건 블랙 - 22FW\n\n339,000원\n\n관심 2,654\n\n · 리뷰 17\n\n · 거래 431"
+        },
+        {
+          "product_id": 103732,
+          "text": "Vivienne Westwood\n\n비비안 웨스트우드 가디건 네이비\n\n73%\n\n200,000원\n\n관심 369\n\n · 리뷰 1\n\n · 거래 18\n\n빠른배송\n\n7/13(월) 도착 예정"
+        }
+      ]
     },
     {
       "sku": "1803002QY003FN401",
       "option": "L",
       "stock": 1,
       "eur_price": 120.9,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 528221,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/528221",
+      "market": {
+        "last_sale_price": 295000,
+        "lowest_ask": 310000,
+        "highest_bid": 200000,
+        "change_text": "▲ 20,000원(+7.3%)"
+      },
+      "sales": [
+        {
+          "price": 295000,
+          "option": "L",
+          "date_created": "2026-07-05T10:20:11Z",
+          "date_text": "26/07/05",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 310000,
+          "option": "L",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 200000,
+          "option": "L",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 1,
+        "asks": 1,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 20,000원(+7.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "L",
+      "kream_options_available": [
+        "L",
+        "M",
+        "S",
+        "XS"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002QY003FN401",
       "option": "M",
       "stock": 3,
       "eur_price": 120.9,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 528221,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/528221",
+      "market": {
+        "last_sale_price": 275000,
+        "lowest_ask": 280000,
+        "highest_bid": null,
+        "change_text": "▲ 20,000원(+7.3%)"
+      },
+      "sales": [
+        {
+          "price": 275000,
+          "option": "M",
+          "date_created": "2026-06-30T07:00:54Z",
+          "date_text": "26/06/30",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 280000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 295000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 315000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 320000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 348000,
+          "option": "M",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 5,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 20,000원(+7.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "M",
+      "kream_options_available": [
+        "L",
+        "M",
+        "S",
+        "XS"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002QY003FN401",
       "option": "S",
       "stock": 2,
       "eur_price": 120.9,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 528221,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/528221",
+      "market": {
+        "last_sale_price": 272000,
+        "lowest_ask": 295000,
+        "highest_bid": null,
+        "change_text": "▲ 20,000원(+7.3%)"
+      },
+      "sales": [
+        {
+          "price": 272000,
+          "option": "S",
+          "date_created": "2025-09-11T03:31:09Z",
+          "date_text": "25/09/11",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 295000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 329000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 348000,
+          "option": "S",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 20,000원(+7.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "S",
+      "kream_options_available": [
+        "L",
+        "M",
+        "S",
+        "XS"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002QY003FN401",
       "option": "XS",
       "stock": 3,
       "eur_price": 120.9,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 528221,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/528221",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 290000,
+        "highest_bid": null,
+        "change_text": "▲ 20,000원(+7.3%)"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 290000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 329000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 348000,
+          "option": "XS",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 20,000원(+7.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "XS",
+      "kream_options_available": [
+        "L",
+        "M",
+        "S",
+        "XS"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "3G010056J00B9A401",
@@ -1035,7 +5598,29 @@
       "stock": 3,
       "eur_price": 81.96,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"3G010056J00B9A401\" SPU=\"3G010056J00B9A401\"",
+      "candidates": [
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 263932,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 55\n\n · 거래 2"
+        },
+        {
+          "product_id": 858075,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 빅 오브 베이비 페루 티셔츠 블랙\n\n237,000원\n\n관심 14\n\n · 거래 1"
+        },
+        {
+          "product_id": 118832,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 레드\n\n170,000원\n\n관심 221\n\n · 리뷰 4\n\n · 거래 32"
+        }
+      ]
     },
     {
       "sku": "3G010056J00B9A401",
@@ -1043,47 +5628,332 @@
       "stock": 2,
       "eur_price": 81.96,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"3G010056J00B9A401\" SPU=\"3G010056J00B9A401\"",
+      "candidates": [
+        {
+          "product_id": 465963,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 아폴로 로우탑 스니커즈 블랙\n\n249,000원\n\n관심 13"
+        },
+        {
+          "product_id": 844469,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 미니 클래식 폴로 티셔츠 블랙\n\n205,000원\n\n관심 15"
+        },
+        {
+          "product_id": 263932,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 블랙\n\n300,000원\n\n관심 55\n\n · 거래 2"
+        },
+        {
+          "product_id": 858075,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 빅 오브 베이비 페루 티셔츠 블랙\n\n237,000원\n\n관심 14\n\n · 거래 1"
+        },
+        {
+          "product_id": 118832,
+          "text": "Vivienne Westwood\n\n(W) 비비안 웨스트우드 베아 탑 레드\n\n170,000원\n\n관심 221\n\n · 리뷰 4\n\n · 거래 32"
+        }
+      ]
     },
     {
       "sku": "1803002UY003FK404",
       "option": "M",
       "stock": 1,
       "eur_price": 135.24,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 889059,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/889059",
+      "market": {
+        "last_sale_price": 378000,
+        "lowest_ask": 378000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 378000,
+          "option": "M",
+          "date_created": "2026-04-30T06:55:31Z",
+          "date_text": "26/04/30",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 378000,
+          "option": "M",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "M",
+      "kream_options_available": [
+        "XS",
+        "M",
+        "L",
+        "S"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1803002UY003FK404",
       "option": "S",
       "stock": 1,
       "eur_price": 135.24,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 889059,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/889059",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 378000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 378000,
+          "option": "S",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "S",
+      "kream_options_available": [
+        "XS",
+        "M",
+        "L",
+        "S"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1504000AJ00BLN401",
       "option": "XS",
       "stock": 2,
       "eur_price": 90.57,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 996694,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/996694",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 245000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 245000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 264000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 379000,
+          "option": "XS",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "XS",
+      "kream_options_available": [
+        "M",
+        "S",
+        "XS"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1504000AJ00BLA401",
       "option": "S",
       "stock": 2,
       "eur_price": 90.57,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 996690,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/996690",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 245000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 245000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 260000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 379000,
+          "option": "S",
+          "quantity": 3
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "S",
+      "kream_options_available": [
+        "M",
+        "S",
+        "XS",
+        "L"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1504000AJ00BLA401",
       "option": "XS",
       "stock": 2,
       "eur_price": 90.57,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 996690,
+      "product_name_ko": "Vivienne Westwood",
+      "product_url": "https://kream.co.kr/products/996690",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 245000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 245000,
+          "option": "XS",
+          "quantity": 1
+        },
+        {
+          "price": 260000,
+          "option": "XS",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "XS",
+      "kream_options_available": [
+        "M",
+        "S",
+        "XS",
+        "L"
+      ],
+      "option_mismatch": false
     }
   ]
 }
