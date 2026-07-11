@@ -253,6 +253,17 @@
     "eur_retail": 97.54
   },
   {
+    "sku": "I0322388902",
+    "spu": "I0322388902",
+    "b2b_sku": "I0322388902",
+    "brand": "CARHARTT WIP",
+    "name": "'OG Active (Winter)' jacket",
+    "option": "S",
+    "stock": 1,
+    "eur_price": 129.1,
+    "eur_retail": 172.13
+  },
+  {
     "sku": "I0342378906",
     "spu": "I0342378906",
     "b2b_sku": "I0342378906",
@@ -1826,6 +1837,61 @@
     "eur_retail": 45.08
   },
   {
+    "sku": "I03043702XX",
+    "spu": "I03043702XX",
+    "b2b_sku": "I03043702XX",
+    "brand": "CARHARTT WIP",
+    "name": "'L/S Pocket' T-shirt",
+    "option": "L",
+    "stock": 1,
+    "eur_price": 24.59,
+    "eur_retail": 32.79
+  },
+  {
+    "sku": "I03043702XX",
+    "spu": "I03043702XX",
+    "b2b_sku": "I03043702XX",
+    "brand": "CARHARTT WIP",
+    "name": "'L/S Pocket' T-shirt",
+    "option": "M",
+    "stock": 2,
+    "eur_price": 24.59,
+    "eur_retail": 32.79
+  },
+  {
+    "sku": "I03043702XX",
+    "spu": "I03043702XX",
+    "b2b_sku": "I03043702XX",
+    "brand": "CARHARTT WIP",
+    "name": "'L/S Pocket' T-shirt",
+    "option": "S",
+    "stock": 1,
+    "eur_price": 24.59,
+    "eur_retail": 32.79
+  },
+  {
+    "sku": "I03043702XX",
+    "spu": "I03043702XX",
+    "b2b_sku": "I03043702XX",
+    "brand": "CARHARTT WIP",
+    "name": "'L/S Pocket' T-shirt",
+    "option": "XL",
+    "stock": 4,
+    "eur_price": 24.59,
+    "eur_retail": 32.79
+  },
+  {
+    "sku": "I03043702XX",
+    "spu": "I03043702XX",
+    "b2b_sku": "I03043702XX",
+    "brand": "CARHARTT WIP",
+    "name": "'L/S Pocket' T-shirt",
+    "option": "XXL",
+    "stock": 2,
+    "eur_price": 24.59,
+    "eur_retail": 32.79
+  },
+  {
     "sku": "I027942HZ02",
     "spu": "I027942HZ02",
     "b2b_sku": "I027942HZ02",
@@ -3102,6 +3168,39 @@
     "eur_retail": 31.97
   },
   {
+    "sku": "I0326440M4XX",
+    "spu": "I0326440M4XX",
+    "b2b_sku": "I0326440M4XX",
+    "brand": "CARHARTT WIP",
+    "name": "'Casey' hoodie",
+    "option": "M",
+    "stock": 1,
+    "eur_price": 52.25,
+    "eur_retail": 69.67
+  },
+  {
+    "sku": "I0326440M4XX",
+    "spu": "I0326440M4XX",
+    "b2b_sku": "I0326440M4XX",
+    "brand": "CARHARTT WIP",
+    "name": "'Casey' hoodie",
+    "option": "S",
+    "stock": 3,
+    "eur_price": 52.25,
+    "eur_retail": 69.67
+  },
+  {
+    "sku": "I0326440M4XX",
+    "spu": "I0326440M4XX",
+    "b2b_sku": "I0326440M4XX",
+    "brand": "CARHARTT WIP",
+    "name": "'Casey' hoodie",
+    "option": "XS",
+    "stock": 4,
+    "eur_price": 52.25,
+    "eur_retail": 69.67
+  },
+  {
     "sku": "I0347972OT4O",
     "spu": "I0347972OT4O",
     "b2b_sku": "I0347972OT4O",
@@ -4350,17 +4449,6 @@
     "b2b_sku": "I03631189B7",
     "brand": "CARHARTT WIP",
     "name": "'Brandon' pants",
-    "option": "XL",
-    "stock": 1,
-    "eur_price": 68.36,
-    "eur_retail": 113.93
-  },
-  {
-    "sku": "I03631189B7",
-    "spu": "I03631189B7",
-    "b2b_sku": "I03631189B7",
-    "brand": "CARHARTT WIP",
-    "name": "'Brandon' pants",
     "option": "XS",
     "stock": 1,
     "eur_price": 68.36,
@@ -5190,17 +5278,6 @@
     "stock": 2,
     "eur_price": 68.36,
     "eur_retail": 113.93
-  },
-  {
-    "sku": "I03595789B7",
-    "spu": "I03595789B7",
-    "b2b_sku": "I03595789B7",
-    "brand": "CARHARTT WIP",
-    "name": "'Torion Pocket' T-shirt",
-    "option": "M",
-    "stock": 1,
-    "eur_price": 33.94,
-    "eur_retail": 56.56
   },
   {
     "sku": "I03606433G60",
@@ -7189,7 +7266,7 @@
     "brand": "CARHARTT WIP",
     "name": "'American Script' T-shirt",
     "option": "M",
-    "stock": 6,
+    "stock": 5,
     "eur_price": 24.59,
     "eur_retail": 32.79
   },

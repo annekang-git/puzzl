@@ -754,7 +754,7 @@
     "brand": "PRADA",
     "name": "Leather sneakers",
     "option": "8",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 547.13,
     "eur_retail": 729.51
   },
@@ -1160,17 +1160,6 @@
     "b2b_sku": "230767SOOO1WQ8F0002",
     "brand": "PRADA",
     "name": "Re-Nylon dress",
-    "option": "36 IT",
-    "stock": 1,
-    "eur_price": 983.61,
-    "eur_retail": 1229.51
-  },
-  {
-    "sku": "2307671WQ8F0002",
-    "spu": "230767SOOO1WQ8F0002",
-    "b2b_sku": "230767SOOO1WQ8F0002",
-    "brand": "PRADA",
-    "name": "Re-Nylon dress",
     "option": "38 IT",
     "stock": 2,
     "eur_price": 983.61,
@@ -1260,7 +1249,7 @@
     "brand": "PRADA",
     "name": "Saffiano logo card holder",
     "option": "U",
-    "stock": 6,
+    "stock": 5,
     "eur_price": 341.39,
     "eur_retail": 401.64
   },
@@ -3537,7 +3526,7 @@
     "brand": "PRADA",
     "name": "Re-Nylon shoulder strap",
     "option": "U",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 1602.46,
     "eur_retail": 1885.25
   },
@@ -3661,6 +3650,17 @@
     "stock": 6,
     "eur_price": 344.26,
     "eur_retail": 459.02
+  },
+  {
+    "sku": "1BG8872A4AF0036",
+    "spu": "1BG887VOOG2A4AF0036",
+    "b2b_sku": "1BG887VOOG2A4AF0036",
+    "brand": "PRADA",
+    "name": "Saffiano handbag",
+    "option": "U",
+    "stock": 1,
+    "eur_price": 2397.54,
+    "eur_retail": 3196.72
   },
   {
     "sku": "1BH204NZVF0632",
@@ -3903,17 +3903,6 @@
     "stock": 1,
     "eur_price": 428.28,
     "eur_retail": 778.69
-  },
-  {
-    "sku": "1CC6258NQF03CW",
-    "spu": "1CC6258NQF03CW",
-    "b2b_sku": "1CC6258NQF03CW",
-    "brand": "PRADA",
-    "name": "Leather belt",
-    "option": "75 cm",
-    "stock": 1,
-    "eur_price": 319.67,
-    "eur_retail": 426.23
   },
   {
     "sku": "1CC6258NQF03CW",
@@ -4862,6 +4851,17 @@
     "eur_retail": 2131.15
   },
   {
+    "sku": "1BB1372CYRF0002",
+    "spu": "1BB137VOOO2CYRF0002",
+    "b2b_sku": "1BB137VOOO2CYRF0002",
+    "brand": "PRADA",
+    "name": "'Dangle' top case",
+    "option": "U",
+    "stock": 1,
+    "eur_price": 1385.25,
+    "eur_retail": 2131.15
+  },
+  {
     "sku": "P24Q2N16SUF0040",
     "spu": "P24Q2NSOOO16SUF0040",
     "b2b_sku": "P24Q2NSOOO16SUF0040",
@@ -5011,7 +5011,7 @@
     "brand": "PRADA",
     "name": "Triangle logo shoulder bag",
     "option": "U",
-    "stock": 5,
+    "stock": 6,
     "eur_price": 675.82,
     "eur_retail": 795.08
   },
@@ -5418,7 +5418,7 @@
     "brand": "PRADA",
     "name": "Raffia handbag",
     "option": "U",
-    "stock": 5,
+    "stock": 4,
     "eur_price": 860.66,
     "eur_retail": 1147.54
   },
@@ -5476,17 +5476,6 @@
     "stock": 1,
     "eur_price": 586.06,
     "eur_retail": 1065.57
-  },
-  {
-    "sku": "1D270N53LOLF0401",
-    "spu": "1D270NFB0253LOLF0401",
-    "b2b_sku": "1D270NFB0253LOLF0401",
-    "brand": "PRADA",
-    "name": "Suede sabots",
-    "option": "37",
-    "stock": 1,
-    "eur_price": 497.95,
-    "eur_retail": 663.93
   },
   {
     "sku": "56A242180OF0134",
@@ -6561,17 +6550,6 @@
     "b2b_sku": "SGB684SOOO1WQ8F0002",
     "brand": "PRADA",
     "name": "Re-nylon jacket",
-    "option": "46 IT",
-    "stock": 1,
-    "eur_price": 1245.9,
-    "eur_retail": 1557.38
-  },
-  {
-    "sku": "SGB6841WQ8F0002",
-    "spu": "SGB684SOOO1WQ8F0002",
-    "b2b_sku": "SGB684SOOO1WQ8F0002",
-    "brand": "PRADA",
-    "name": "Re-nylon jacket",
     "option": "48 IT",
     "stock": 2,
     "eur_price": 1245.9,
@@ -6782,7 +6760,7 @@
     "brand": "PRADA",
     "name": "Crochet raffia shopping bag",
     "option": "U",
-    "stock": 5,
+    "stock": 4,
     "eur_price": 1106.56,
     "eur_retail": 1475.41
   },
@@ -7826,17 +7804,6 @@
     "b2b_sku": "2EE429FG000038F0632",
     "brand": "PRADA",
     "name": "'Prada Re-Edition 2001' sneakers",
-    "option": "8.5",
-    "stock": 1,
-    "eur_price": 389.34,
-    "eur_retail": 778.69
-  },
-  {
-    "sku": "2EE4290038F0632",
-    "spu": "2EE429FG000038F0632",
-    "b2b_sku": "2EE429FG000038F0632",
-    "brand": "PRADA",
-    "name": "'Prada Re-Edition 2001' sneakers",
     "option": "9",
     "stock": 2,
     "eur_price": 389.34,
@@ -8776,6 +8743,17 @@
     "stock": 2,
     "eur_price": 534.83,
     "eur_retail": 713.11
+  },
+  {
+    "sku": "1F927N2ACSF0P9G",
+    "spu": "1F927NF0052ACSF0P9G",
+    "b2b_sku": "1F927NF0052ACSF0P9G",
+    "brand": "PRADA",
+    "name": "Crochet ballet flats",
+    "option": "38",
+    "stock": 1,
+    "eur_price": 608.61,
+    "eur_retail": 811.48
   },
   {
     "sku": "1BG6002HFQF0002",
