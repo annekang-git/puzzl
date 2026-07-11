@@ -1,0 +1,1177 @@
+{
+  "fetched_at": "2026-07-11T19:01:39.673Z",
+  "input_file": "targets-tombrown.json",
+  "total_targets": 146,
+  "matched": 0,
+  "failed": 146,
+  "results": [
+    {
+      "sku": "FFD104B07524001",
+      "option": "39.5",
+      "stock": 1,
+      "eur_price": 326.43,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL010E03113100",
+      "option": "2",
+      "stock": 2,
+      "eur_price": 245.9,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL010E03113100",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 245.9,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL010E03113100",
+      "option": "4",
+      "stock": 2,
+      "eur_price": 245.9,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJS010A01454100",
+      "option": "4",
+      "stock": 3,
+      "eur_price": 168.04,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJS010A01454100",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 168.04,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MAC019LL0044415",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 377.05,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJT022H00535068",
+      "option": "2",
+      "stock": 4,
+      "eur_price": 381.15,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKQ016AY2001415",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 331.97,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKQ016AY2001415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 331.97,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKQ016AY2001415",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 331.97,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL407CF0351415",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 286.88,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC160A00014415",
+      "option": "3",
+      "stock": 3,
+      "eur_price": 659.02,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJT545AJ0233415",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 676.23,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "UAW085A00198250",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 118.04,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA581AY3014100",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 424.18,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJP244EJ0251415",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 284.02,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "UAW090A00198001",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 157.78,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC647AY1506415",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 422.95,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC647AY1506415",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 422.95,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC647AY1506415",
+      "option": "4",
+      "stock": 2,
+      "eur_price": 422.95,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC647AY1506415",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 422.95,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL150EF0313100",
+      "option": "1",
+      "stock": 4,
+      "eur_price": 233.6,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL150EF0313100",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 233.6,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL150EF0313100",
+      "option": "3",
+      "stock": 3,
+      "eur_price": 233.6,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL150EF0313100",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 233.6,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJQ008H00535068",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 336.06,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJQ008H00535068",
+      "option": "5",
+      "stock": 2,
+      "eur_price": 336.06,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL010EF0313480",
+      "option": "1",
+      "stock": 2,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL010EF0313480",
+      "option": "2",
+      "stock": 3,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL010EF0313480",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL010EF0313480",
+      "option": "4",
+      "stock": 3,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL010EF0313480",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 275.41,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJP193AJ0129100",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 317.21,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA002AY1014058",
+      "option": "2",
+      "stock": 3,
+      "eur_price": 430.33,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MTU335WF0576415",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 282.78,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MTU335WF0576415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 282.78,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJT554AJ0248415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 395.49,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJT554AJ0248415",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 395.49,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FAS020B01690450",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 62.7,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC641AY3016035",
+      "option": "1",
+      "stock": 1,
+      "eur_price": 527.46,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC641AY3016035",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 527.46,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC641AY3016035",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 527.46,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL430OF1098996",
+      "option": "1",
+      "stock": 1,
+      "eur_price": 390.98,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL430OF1098996",
+      "option": "2",
+      "stock": 2,
+      "eur_price": 390.98,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL430OF1098996",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 390.98,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MTU349CF1095415",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 409.84,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MTU349CF1095415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 409.84,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FBC968TF1279001",
+      "option": "40 IT",
+      "stock": 1,
+      "eur_price": 1421.31,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKP166AY1018982",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 659.02,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKP166AY1018982",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 659.02,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKP166AY1018982",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 659.02,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJR094A006455415",
+      "option": "0",
+      "stock": 1,
+      "eur_price": 609.84,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJR094A006455415",
+      "option": "1",
+      "stock": 1,
+      "eur_price": 609.84,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FKK132BY1037100",
+      "option": "40 IT",
+      "stock": 2,
+      "eur_price": 265.58,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FJT388AJ0215415",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 357.79,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FBR062BF1002980",
+      "option": "38 IT",
+      "stock": 1,
+      "eur_price": 1536.88,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FBR062BF1002980",
+      "option": "40 IT",
+      "stock": 1,
+      "eur_price": 1536.88,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJS245A07323100",
+      "option": "4",
+      "stock": 3,
+      "eur_price": 221.31,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC635AY3065415",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 579.92,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC635AY3065415",
+      "option": "3",
+      "stock": 3,
+      "eur_price": 579.92,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC635AY3065415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 579.92,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC635AY3065415",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 579.92,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC635AY3065260",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 521.93,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC635AY3065260",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 521.93,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL010EF0313100",
+      "option": "1",
+      "stock": 3,
+      "eur_price": 229.51,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL010EF0313100",
+      "option": "2",
+      "stock": 3,
+      "eur_price": 229.51,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL010EF0313100",
+      "option": "3",
+      "stock": 4,
+      "eur_price": 229.51,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL010EF0313100",
+      "option": "4",
+      "stock": 3,
+      "eur_price": 229.51,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL010EF0313100",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 229.51,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA002AY1014038",
+      "option": "2",
+      "stock": 3,
+      "eur_price": 422.13,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJC001A00626035",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 889.34,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FFD143A00216001",
+      "option": "37",
+      "stock": 2,
+      "eur_price": 295.49,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FFD143A00216001",
+      "option": "38",
+      "stock": 1,
+      "eur_price": 295.49,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL420AF0325035",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 285.24,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "UAG259A00198250",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 501.64,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FGCA40UF1063260",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 490.57,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC650AY1018982",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 786.89,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC650AY1018982",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 786.89,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC650AY1018982",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 786.89,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MTU328UF0175415",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 280.33,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MTC159A00626415",
+      "option": "1",
+      "stock": 1,
+      "eur_price": 312.7,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKL007BY1051001",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 350.82,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA580AY3065415",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 459.02,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA580AY3065415",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 459.02,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA580AY3065415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 459.02,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FLR005OF1004100",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 261.89,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FLR005OF1004100",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 261.89,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJO030A06146415",
+      "option": "1",
+      "stock": 1,
+      "eur_price": 918.04,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJO030A06146415",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 918.04,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA002AY1014415",
+      "option": "1",
+      "stock": 1,
+      "eur_price": 422.13,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA002AY1014415",
+      "option": "2",
+      "stock": 5,
+      "eur_price": 422.13,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA002AY1014415",
+      "option": "3",
+      "stock": 7,
+      "eur_price": 422.13,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA002AY1014415",
+      "option": "4",
+      "stock": 5,
+      "eur_price": 422.13,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA002AY1014415",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 422.13,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJO165OF0496055",
+      "option": "1",
+      "stock": 1,
+      "eur_price": 756.15,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJO165OF0496055",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 756.15,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA580AY3065260",
+      "option": "3",
+      "stock": 3,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA580AY3065260",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 413.11,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJQ222A03037415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 298.77,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC581AY3043415",
+      "option": "4",
+      "stock": 2,
+      "eur_price": 528.69,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJP234AJ0248415",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 313.52,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJP234AJ0248415",
+      "option": "4",
+      "stock": 3,
+      "eur_price": 313.52,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJP234AJ0248415",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 313.52,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJT554AJ0248050",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 395.49,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL437OF1158960",
+      "option": "2",
+      "stock": 2,
+      "eur_price": 261.89,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MWL437OF1158960",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 261.89,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MTU345SF1215480",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 432.79,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJT021H00535461",
+      "option": "2",
+      "stock": 4,
+      "eur_price": 334.43,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJT021H00535461",
+      "option": "3",
+      "stock": 5,
+      "eur_price": 334.43,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FGC402V06146415",
+      "option": "36 IT",
+      "stock": 1,
+      "eur_price": 639.34,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FGC402V06146415",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 639.34,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC002AY1014001",
+      "option": "4",
+      "stock": 2,
+      "eur_price": 580.33,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC002AY1014001",
+      "option": "5",
+      "stock": 2,
+      "eur_price": 580.33,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJO165OF0496415",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 756.15,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJO165OF0496415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 756.15,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MFE007B05584100",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 274.59,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MFE007B05584100",
+      "option": "8.5",
+      "stock": 1,
+      "eur_price": 274.59,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJP209AJ0199100",
+      "option": "1",
+      "stock": 1,
+      "eur_price": 319.67,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJP209AJ0199100",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 319.67,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJP209AJ0199100",
+      "option": "4",
+      "stock": 2,
+      "eur_price": 319.67,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FLL171A03113100",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 319.67,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC612AY2001055",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 1006.97,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC612AY2001055",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 1006.97,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC612AY2001055",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 1006.97,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJT569AJ0242415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 700.82,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA581AY3014415",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 424.18,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MJU586OF0672960",
+      "option": "2",
+      "stock": 1,
+      "eur_price": 1755.74,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MTU345SF1101415",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 265.57,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FGCA42A06455415",
+      "option": "38 IT",
+      "stock": 1,
+      "eur_price": 490.57,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FGCA42A06455415",
+      "option": "40 IT",
+      "stock": 1,
+      "eur_price": 490.57,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FGCA42A06455415",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 490.57,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FKV231AY3014472",
+      "option": "40 IT",
+      "stock": 1,
+      "eur_price": 357.79,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FKV231AY3014472",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 357.79,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FGC402V00626035",
+      "option": "36 IT",
+      "stock": 1,
+      "eur_price": 463.12,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FGC402V00626035",
+      "option": "38 IT",
+      "stock": 4,
+      "eur_price": 463.12,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FGC402V00626035",
+      "option": "40 IT",
+      "stock": 4,
+      "eur_price": 463.12,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FGC402V00626035",
+      "option": "42 IT",
+      "stock": 1,
+      "eur_price": 463.12,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FGC402V00626035",
+      "option": "44 IT",
+      "stock": 1,
+      "eur_price": 463.12,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MTT030A06146415",
+      "option": "3",
+      "stock": 1,
+      "eur_price": 463.12,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MTT030A06146415",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 463.12,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKC002AY1014415",
+      "option": "4",
+      "stock": 3,
+      "eur_price": 580.33,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "FGC402V06146035",
+      "option": "38 IT",
+      "stock": 1,
+      "eur_price": 532.78,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA326AY3001055",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 555.74,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA326AY3001055",
+      "option": "4",
+      "stock": 3,
+      "eur_price": 555.74,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    },
+    {
+      "sku": "MKA326AY3001055",
+      "option": "5",
+      "stock": 1,
+      "eur_price": 555.74,
+      "matched": false,
+      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+    }
+  ]
+}
