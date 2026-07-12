@@ -1,17 +1,47 @@
 {
-  "fetched_at": "2026-07-11T19:06:19.981Z",
+  "fetched_at": "2026-07-12T04:11:33.289Z",
   "input_file": "targets-therow.json",
   "total_targets": 62,
-  "matched": 0,
-  "failed": 62,
+  "matched": 18,
+  "failed": 44,
   "results": [
     {
       "sku": "120K291WHT",
       "option": "XL",
       "stock": 1,
       "eur_price": 186.89,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 626577,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/626577",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 790000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 790000,
+          "option": "L",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "L",
+      "kream_options_available": [
+        "L",
+        "M",
+        "S"
+      ],
+      "option_mismatch": true
     },
     {
       "sku": "1340K628BLK",
@@ -19,7 +49,29 @@
       "stock": 2,
       "eur_price": 826.23,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1340K628BLK\" SPU=\"1340K628BLK\"",
+      "candidates": [
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 67903,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 벨트 블랙\n\n30%\n\n560,000원\n\n관심 2,462\n\n · 리뷰 50\n\n · 거래 1,011\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 518830,
+          "text": "Saint Laurent\n\n생로랑 로고 레더 벨트 블랙\n\n410,000원\n\n관심 20\n\n · 거래 1"
+        },
+        {
+          "product_id": 97070,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 씬 벨트 블랙\n\n28%\n\n403,000원\n\n관심 145\n\n · 거래 18"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        }
+      ]
     },
     {
       "sku": "1340K628BLK",
@@ -27,7 +79,29 @@
       "stock": 1,
       "eur_price": 826.23,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1340K628BLK\" SPU=\"1340K628BLK\"",
+      "candidates": [
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 67903,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 벨트 블랙\n\n30%\n\n560,000원\n\n관심 2,462\n\n · 리뷰 50\n\n · 거래 1,011\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 518830,
+          "text": "Saint Laurent\n\n생로랑 로고 레더 벨트 블랙\n\n410,000원\n\n관심 20\n\n · 거래 1"
+        },
+        {
+          "product_id": 97070,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 씬 벨트 블랙\n\n28%\n\n403,000원\n\n관심 145\n\n · 거래 18"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        }
+      ]
     },
     {
       "sku": "1340K628GYM",
@@ -35,7 +109,29 @@
       "stock": 1,
       "eur_price": 826.23,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1340K628GYM\" SPU=\"1340K628GYM\"",
+      "candidates": [
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 518830,
+          "text": "Saint Laurent\n\n생로랑 로고 레더 벨트 블랙\n\n410,000원\n\n관심 20\n\n · 거래 1"
+        },
+        {
+          "product_id": 67903,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 벨트 블랙\n\n30%\n\n560,000원\n\n관심 2,462\n\n · 리뷰 50\n\n · 거래 1,011\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 97070,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 씬 벨트 블랙\n\n28%\n\n403,000원\n\n관심 145\n\n · 거래 18"
+        }
+      ]
     },
     {
       "sku": "1330W2861BQE",
@@ -43,7 +139,29 @@
       "stock": 1,
       "eur_price": 951.23,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1330W2861BQE\" SPU=\"1330W2861BQE\"",
+      "candidates": [
+        {
+          "product_id": 67896,
+          "text": "Montblanc\n\n몽블랑 홀스슈 버클 30mm 리버시블 레더 블랙 브라운\n\n29%\n\n275,000원\n\n관심 1,176\n\n · 리뷰 5\n\n · 거래 926\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        },
+        {
+          "product_id": 50858,
+          "text": "Saint Laurent\n\n생로랑 매트 레더 타이니 실버 모노그램 카드 케이스 블랙\n\n28%\n\n337,000원\n\n관심 7,505\n\n · 리뷰 112\n\n · 거래 1,407\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        }
+      ]
     },
     {
       "sku": "1454W5073WBR",
@@ -51,7 +169,29 @@
       "stock": 2,
       "eur_price": 614.75,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1454W5073WBR\" SPU=\"1454W5073WBR\"",
+      "candidates": [
+        {
+          "product_id": 819038,
+          "text": "Saint Laurent\n\n생로랑 엔벨로프 그레인 램스킨 크로스바디백 블랙\n\n1,507,000원\n\n관심 6"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 93621,
+          "text": "Saint Laurent\n\n(W) 생로랑 래커드 레더 카산드라 스퀘어 버클 씬 벨트 블랙\n\n560,000원\n\n관심 213\n\n · 리뷰 1\n\n · 거래 25"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        },
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        }
+      ]
     },
     {
       "sku": "F2076SL3BLACK",
@@ -59,7 +199,29 @@
       "stock": 2,
       "eur_price": 780.32,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"F2076SL3BLACK\" SPU=\"F2076SL3BLACK\"",
+      "candidates": [
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 76530,
+          "text": "Ferragamo\n\n페라가모 리버시블 어드저스터블 텍스쳐드 카프스킨 레더 간치니 벨트 블랙 히코리\n\n41%\n\n459,000원\n\n관심 85\n\n · 거래 51\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 518830,
+          "text": "Saint Laurent\n\n생로랑 로고 레더 벨트 블랙\n\n410,000원\n\n관심 20\n\n · 거래 1"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "1241Y120FOG",
@@ -67,7 +229,29 @@
       "stock": 1,
       "eur_price": 704.26,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1241Y120FOG\" SPU=\"1241Y120FOG\"",
+      "candidates": [
+        {
+          "product_id": 91298,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 골드 모노그램 카산드라 플랫 샌들 블랙\n\n64%\n\n529,000원\n\n관심 1,172\n\n · 리뷰 13\n\n · 거래 84\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        },
+        {
+          "product_id": 421772,
+          "text": "Saint Laurent\n\n생로랑 르 5 아 7 서플 스몰 그레인드 레더 느와르\n\n3,537,000원\n\n관심 228\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 93621,
+          "text": "Saint Laurent\n\n(W) 생로랑 래커드 레더 카산드라 스퀘어 버클 씬 벨트 블랙\n\n560,000원\n\n관심 213\n\n · 리뷰 1\n\n · 거래 25"
+        }
+      ]
     },
     {
       "sku": "1401K767BLK",
@@ -75,7 +259,29 @@
       "stock": 1,
       "eur_price": 295.08,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1401K767BLK\" SPU=\"1401K767BLK\"",
+      "candidates": [
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        },
+        {
+          "product_id": 518830,
+          "text": "Saint Laurent\n\n생로랑 로고 레더 벨트 블랙\n\n410,000원\n\n관심 20\n\n · 거래 1"
+        },
+        {
+          "product_id": 67903,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 벨트 블랙\n\n30%\n\n560,000원\n\n관심 2,462\n\n · 리뷰 50\n\n · 거래 1,011\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
     },
     {
       "sku": "1437Y710BLK",
@@ -83,7 +289,29 @@
       "stock": 1,
       "eur_price": 1037.71,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1437Y710BLK\" SPU=\"1437Y710BLK\"",
+      "candidates": [
+        {
+          "product_id": 120589,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 오피움 하트 참 브레이슬릿 에이지드 브라스 골드\n\n36%\n\n419,000원\n\n관심 6,419\n\n · 리뷰 4\n\n · 거래 846\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n37%\n\n408,000원\n\n관심 2,164\n\n · 거래 231\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "1437Y710BLK",
@@ -91,7 +319,29 @@
       "stock": 1,
       "eur_price": 1037.71,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1437Y710BLK\" SPU=\"1437Y710BLK\"",
+      "candidates": [
+        {
+          "product_id": 120589,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 오피움 하트 참 브레이슬릿 에이지드 브라스 골드\n\n36%\n\n419,000원\n\n관심 6,419\n\n · 리뷰 4\n\n · 거래 846\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n37%\n\n408,000원\n\n관심 2,164\n\n · 거래 231\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "1437Y710BLK",
@@ -99,7 +349,29 @@
       "stock": 1,
       "eur_price": 1037.71,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1437Y710BLK\" SPU=\"1437Y710BLK\"",
+      "candidates": [
+        {
+          "product_id": 120589,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 오피움 하트 참 브레이슬릿 에이지드 브라스 골드\n\n36%\n\n419,000원\n\n관심 6,419\n\n · 리뷰 4\n\n · 거래 846\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n37%\n\n408,000원\n\n관심 2,164\n\n · 거래 231\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        }
+      ]
     },
     {
       "sku": "11128W4570LTB",
@@ -107,7 +379,29 @@
       "stock": 1,
       "eur_price": 688.52,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"11128W4570LTB\" SPU=\"11128W4570LTB\"",
+      "candidates": [
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        },
+        {
+          "product_id": 77442,
+          "text": "Celine\n\n셀린느 카프스킨 세인투론 스트랩 웨스턴 25mm 벨트 블랙\n\n9%\n\n700,000원\n\n관심 41\n\n · 거래 3"
+        },
+        {
+          "product_id": 67896,
+          "text": "Montblanc\n\n몽블랑 홀스슈 버클 30mm 리버시블 레더 블랙 브라운\n\n29%\n\n275,000원\n\n관심 1,176\n\n · 리뷰 5\n\n · 거래 926\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 67897,
+          "text": "Montblanc\n\n몽블랑 렉탱귤러 버클 35mm 보빈 레더 블랙\n\n24%\n\n318,000원\n\n관심 159\n\n · 거래 42"
+        }
+      ]
     },
     {
       "sku": "11128W4570LTB",
@@ -115,7 +409,29 @@
       "stock": 1,
       "eur_price": 688.52,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"11128W4570LTB\" SPU=\"11128W4570LTB\"",
+      "candidates": [
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        },
+        {
+          "product_id": 77442,
+          "text": "Celine\n\n셀린느 카프스킨 세인투론 스트랩 웨스턴 25mm 벨트 블랙\n\n9%\n\n700,000원\n\n관심 41\n\n · 거래 3"
+        },
+        {
+          "product_id": 67896,
+          "text": "Montblanc\n\n몽블랑 홀스슈 버클 30mm 리버시블 레더 블랙 브라운\n\n29%\n\n275,000원\n\n관심 1,176\n\n · 리뷰 5\n\n · 거래 926\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 67897,
+          "text": "Montblanc\n\n몽블랑 렉탱귤러 버클 35mm 보빈 레더 블랙\n\n24%\n\n318,000원\n\n관심 159\n\n · 거래 42"
+        }
+      ]
     },
     {
       "sku": "11128W4570LTB",
@@ -123,7 +439,29 @@
       "stock": 1,
       "eur_price": 688.52,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"11128W4570LTB\" SPU=\"11128W4570LTB\"",
+      "candidates": [
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        },
+        {
+          "product_id": 77442,
+          "text": "Celine\n\n셀린느 카프스킨 세인투론 스트랩 웨스턴 25mm 벨트 블랙\n\n9%\n\n700,000원\n\n관심 41\n\n · 거래 3"
+        },
+        {
+          "product_id": 67896,
+          "text": "Montblanc\n\n몽블랑 홀스슈 버클 30mm 리버시블 레더 블랙 브라운\n\n29%\n\n275,000원\n\n관심 1,176\n\n · 리뷰 5\n\n · 거래 926\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 67897,
+          "text": "Montblanc\n\n몽블랑 렉탱귤러 버클 35mm 보빈 레더 블랙\n\n24%\n\n318,000원\n\n관심 159\n\n · 거래 42"
+        }
+      ]
     },
     {
       "sku": "11128W4570LTB",
@@ -131,7 +469,29 @@
       "stock": 1,
       "eur_price": 688.52,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"11128W4570LTB\" SPU=\"11128W4570LTB\"",
+      "candidates": [
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        },
+        {
+          "product_id": 77442,
+          "text": "Celine\n\n셀린느 카프스킨 세인투론 스트랩 웨스턴 25mm 벨트 블랙\n\n9%\n\n700,000원\n\n관심 41\n\n · 거래 3"
+        },
+        {
+          "product_id": 67896,
+          "text": "Montblanc\n\n몽블랑 홀스슈 버클 30mm 리버시블 레더 블랙 브라운\n\n29%\n\n275,000원\n\n관심 1,176\n\n · 리뷰 5\n\n · 거래 926\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 67897,
+          "text": "Montblanc\n\n몽블랑 렉탱귤러 버클 35mm 보빈 레더 블랙\n\n24%\n\n318,000원\n\n관심 159\n\n · 거래 42"
+        }
+      ]
     },
     {
       "sku": "11007W4496SBU",
@@ -139,7 +499,29 @@
       "stock": 2,
       "eur_price": 2100,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"11007W4496SBU\" SPU=\"11007W4496SBU\"",
+      "candidates": [
+        {
+          "product_id": 290416,
+          "text": "Celine\n\n셀린느 클라라 백 트리옹프 캔버스 카프스킨 탄\n\n38%\n\n2,020,000원\n\n관심 882\n\n · 리뷰 7\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 55468,
+          "text": "Celine\n\n셀린느 라피아 & 카프스킨 미디움 트리옹프 셀린느 클래식 파니에 탄\n\n7%\n\n848,000원\n\n관심 623\n\n · 리뷰 4\n\n · 거래 25"
+        },
+        {
+          "product_id": 160168,
+          "text": "Celine\n\n셀린느 틴 셀린느 클래식 파니에 팜 리프 카프스킨 탄\n\n10%\n\n859,000원\n\n관심 1,542\n\n · 리뷰 13\n\n · 거래 89\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 893814,
+          "text": "Celine\n\n셀린느 스몰 호보 서플 스무스 카프스킨 블랙\n\n23%\n\n2,489,000원\n\n관심 28\n\n · 거래 2"
+        },
+        {
+          "product_id": 146444,
+          "text": "Celine\n\n셀린느 미디움 아바 트리옹프 백 스무스 카프스킨 탄\n\n35%\n\n2,388,000원\n\n관심 1,272\n\n · 리뷰 16\n\n · 거래 66\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
     },
     {
       "sku": "11007W4496SBU",
@@ -147,7 +529,29 @@
       "stock": 1,
       "eur_price": 2100,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"11007W4496SBU\" SPU=\"11007W4496SBU\"",
+      "candidates": [
+        {
+          "product_id": 290416,
+          "text": "Celine\n\n셀린느 클라라 백 트리옹프 캔버스 카프스킨 탄\n\n38%\n\n2,020,000원\n\n관심 882\n\n · 리뷰 7\n\n · 거래 60\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 55468,
+          "text": "Celine\n\n셀린느 라피아 & 카프스킨 미디움 트리옹프 셀린느 클래식 파니에 탄\n\n7%\n\n848,000원\n\n관심 623\n\n · 리뷰 4\n\n · 거래 25"
+        },
+        {
+          "product_id": 160168,
+          "text": "Celine\n\n셀린느 틴 셀린느 클래식 파니에 팜 리프 카프스킨 탄\n\n10%\n\n859,000원\n\n관심 1,542\n\n · 리뷰 13\n\n · 거래 89\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 893814,
+          "text": "Celine\n\n셀린느 스몰 호보 서플 스무스 카프스킨 블랙\n\n23%\n\n2,489,000원\n\n관심 28\n\n · 거래 2"
+        },
+        {
+          "product_id": 146444,
+          "text": "Celine\n\n셀린느 미디움 아바 트리옹프 백 스무스 카프스킨 탄\n\n35%\n\n2,388,000원\n\n관심 1,272\n\n · 리뷰 16\n\n · 거래 66\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
     },
     {
       "sku": "1024Y960FBK",
@@ -155,7 +559,29 @@
       "stock": 1,
       "eur_price": 916.72,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1024Y960FBK\" SPU=\"1024Y960FBK\"",
+      "candidates": [
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        },
+        {
+          "product_id": 67913,
+          "text": "Celine\n\n(W) 셀린느 미디움 트리옹프 벨트 토리옹 레더 블랙\n\n33%\n\n614,000원\n\n관심 3,581\n\n · 리뷰 34\n\n · 거래 558\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 67903,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 벨트 블랙\n\n30%\n\n560,000원\n\n관심 2,462\n\n · 리뷰 50\n\n · 거래 1,011\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        }
+      ]
     },
     {
       "sku": "6525W3654BLK",
@@ -163,7 +589,29 @@
       "stock": 1,
       "eur_price": 595.08,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 58593,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 골드 모노그램 카산드라 샌들 블랙\n\n36%\n\n746,000원\n\n관심 193\n\n · 리뷰 5\n\n · 거래 10"
+        },
+        {
+          "product_id": 91298,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 골드 모노그램 카산드라 플랫 샌들 블랙\n\n64%\n\n529,000원\n\n관심 1,172\n\n · 리뷰 13\n\n · 거래 84\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 637009,
+          "text": "Saint Laurent\n\n(W) 생로랑 카산드라 스무스 레더 샌들 블랙\n\n67%\n\n484,000원\n\n관심 23\n\n · 거래 2"
+        },
+        {
+          "product_id": 69121,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫 뮬 블랙\n\n65%\n\n400,000원\n\n관심 815\n\n · 리뷰 12\n\n · 거래 71\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 69269,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 블랙 모노그램 카산드라 플랫 샌들 블랙\n\n46%\n\n650,000원\n\n관심 114\n\n · 거래 9"
+        }
+      ]
     },
     {
       "sku": "6525W3654BLK",
@@ -171,7 +619,29 @@
       "stock": 1,
       "eur_price": 595.08,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 58593,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 골드 모노그램 카산드라 샌들 블랙\n\n36%\n\n746,000원\n\n관심 193\n\n · 리뷰 5\n\n · 거래 10"
+        },
+        {
+          "product_id": 91298,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 골드 모노그램 카산드라 플랫 샌들 블랙\n\n64%\n\n529,000원\n\n관심 1,172\n\n · 리뷰 13\n\n · 거래 84\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 637009,
+          "text": "Saint Laurent\n\n(W) 생로랑 카산드라 스무스 레더 샌들 블랙\n\n67%\n\n484,000원\n\n관심 23\n\n · 거래 2"
+        },
+        {
+          "product_id": 69121,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫 뮬 블랙\n\n65%\n\n400,000원\n\n관심 815\n\n · 리뷰 12\n\n · 거래 71\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 69269,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 블랙 모노그램 카산드라 플랫 샌들 블랙\n\n46%\n\n650,000원\n\n관심 114\n\n · 거래 9"
+        }
+      ]
     },
     {
       "sku": "6525W3654BLK",
@@ -179,7 +649,29 @@
       "stock": 1,
       "eur_price": 595.08,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 58593,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 골드 모노그램 카산드라 샌들 블랙\n\n36%\n\n746,000원\n\n관심 193\n\n · 리뷰 5\n\n · 거래 10"
+        },
+        {
+          "product_id": 91298,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 골드 모노그램 카산드라 플랫 샌들 블랙\n\n64%\n\n529,000원\n\n관심 1,172\n\n · 리뷰 13\n\n · 거래 84\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 637009,
+          "text": "Saint Laurent\n\n(W) 생로랑 카산드라 스무스 레더 샌들 블랙\n\n67%\n\n484,000원\n\n관심 23\n\n · 거래 2"
+        },
+        {
+          "product_id": 69121,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫 뮬 블랙\n\n65%\n\n400,000원\n\n관심 815\n\n · 리뷰 12\n\n · 거래 71\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 69269,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 블랙 모노그램 카산드라 플랫 샌들 블랙\n\n46%\n\n650,000원\n\n관심 114\n\n · 거래 9"
+        }
+      ]
     },
     {
       "sku": "6525W3654BLK",
@@ -187,7 +679,29 @@
       "stock": 1,
       "eur_price": 595.08,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 58593,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 골드 모노그램 카산드라 샌들 블랙\n\n36%\n\n746,000원\n\n관심 193\n\n · 리뷰 5\n\n · 거래 10"
+        },
+        {
+          "product_id": 91298,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 골드 모노그램 카산드라 플랫 샌들 블랙\n\n64%\n\n529,000원\n\n관심 1,172\n\n · 리뷰 13\n\n · 거래 84\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 637009,
+          "text": "Saint Laurent\n\n(W) 생로랑 카산드라 스무스 레더 샌들 블랙\n\n67%\n\n484,000원\n\n관심 23\n\n · 거래 2"
+        },
+        {
+          "product_id": 69121,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫 뮬 블랙\n\n65%\n\n400,000원\n\n관심 815\n\n · 리뷰 12\n\n · 거래 71\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 69269,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 블랙 모노그램 카산드라 플랫 샌들 블랙\n\n46%\n\n650,000원\n\n관심 114\n\n · 거래 9"
+        }
+      ]
     },
     {
       "sku": "1261Y876CHO",
@@ -195,7 +709,29 @@
       "stock": 1,
       "eur_price": 829.51,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1261Y876CHO\" SPU=\"1261Y876CHO\"",
+      "candidates": [
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        },
+        {
+          "product_id": 67897,
+          "text": "Montblanc\n\n몽블랑 렉탱귤러 버클 35mm 보빈 레더 블랙\n\n24%\n\n318,000원\n\n관심 159\n\n · 거래 42"
+        },
+        {
+          "product_id": 67895,
+          "text": "Montblanc\n\n몽블랑 렉탱귤러 버클 30mm 리버시블 레더 벨트 블랙 브라운\n\n16%\n\n384,000원\n\n관심 113\n\n · 거래 48"
+        },
+        {
+          "product_id": 78355,
+          "text": "Saint Laurent\n\n생로랑 그레인드 레더 실버 모노그램 슬림 벨트 블랙\n\n38%\n\n412,000원\n\n관심 1,873\n\n · 리뷰 42\n\n · 거래 241"
+        }
+      ]
     },
     {
       "sku": "1461W4503BLK",
@@ -203,7 +739,29 @@
       "stock": 1,
       "eur_price": 826.23,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1461W4503BLK\" SPU=\"1461W4503BLK\"",
+      "candidates": [
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 266622,
+          "text": "Dr. Martens\n\n닥터마틴 1461 WS 블랙 스무스\n\n14%\n\n179,000원\n\n관심 7,291\n\n · 리뷰 505\n\n · 거래 2,300\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 313144,
+          "text": "Dr. Martens\n\n닥터마틴 1461 모노 스무스 블랙\n\n10%\n\n206,100원\n\n관심 1,422\n\n · 리뷰 69\n\n적립\n\n무료배송"
+        },
+        {
+          "product_id": 145287,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 폴리 스무스 블랙\n\n19%\n\n169,000원\n\n관심 1,837\n\n · 리뷰 24\n\n · 거래 189\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
     },
     {
       "sku": "1461W4503BLK",
@@ -211,7 +769,29 @@
       "stock": 1,
       "eur_price": 826.23,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1461W4503BLK\" SPU=\"1461W4503BLK\"",
+      "candidates": [
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 266622,
+          "text": "Dr. Martens\n\n닥터마틴 1461 WS 블랙 스무스\n\n14%\n\n179,000원\n\n관심 7,291\n\n · 리뷰 505\n\n · 거래 2,300\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 313144,
+          "text": "Dr. Martens\n\n닥터마틴 1461 모노 스무스 블랙\n\n10%\n\n206,100원\n\n관심 1,422\n\n · 리뷰 69\n\n적립\n\n무료배송"
+        },
+        {
+          "product_id": 145287,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 폴리 스무스 블랙\n\n19%\n\n169,000원\n\n관심 1,837\n\n · 리뷰 24\n\n · 거래 189\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
     },
     {
       "sku": "1461W4503BLK",
@@ -219,63 +799,239 @@
       "stock": 1,
       "eur_price": 826.23,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1461W4503BLK\" SPU=\"1461W4503BLK\"",
+      "candidates": [
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 266622,
+          "text": "Dr. Martens\n\n닥터마틴 1461 WS 블랙 스무스\n\n14%\n\n179,000원\n\n관심 7,291\n\n · 리뷰 505\n\n · 거래 2,300\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 313144,
+          "text": "Dr. Martens\n\n닥터마틴 1461 모노 스무스 블랙\n\n10%\n\n206,100원\n\n관심 1,422\n\n · 리뷰 69\n\n적립\n\n무료배송"
+        },
+        {
+          "product_id": 145287,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 폴리 스무스 블랙\n\n19%\n\n169,000원\n\n관심 1,837\n\n · 리뷰 24\n\n · 거래 189\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
     },
     {
       "sku": "F2153L805CIG",
       "option": "40",
       "stock": 1,
       "eur_price": 585.25,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "F2153L805CIG",
       "option": "41",
       "stock": 1,
       "eur_price": 585.25,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "F2153L805CIG",
       "option": "42",
       "stock": 2,
       "eur_price": 585.25,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "F2153L805CIG",
       "option": "43",
       "stock": 1,
       "eur_price": 585.25,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "F2153L805CIG",
       "option": "44",
       "stock": 1,
       "eur_price": 585.25,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "F2153L805CIG",
       "option": "45",
       "stock": 1,
       "eur_price": 585.25,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "W1273L129DAT",
       "option": "U",
       "stock": 3,
       "eur_price": 1849.18,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 521041,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/521041",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 4699000,
+        "highest_bid": 2000000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 4699000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 2000000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "1210W3856OWH",
@@ -283,7 +1039,29 @@
       "stock": 1,
       "eur_price": 743.61,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1210W3856OWH\" SPU=\"1210W3856OWH\"",
+      "candidates": [
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 67913,
+          "text": "Celine\n\n(W) 셀린느 미디움 트리옹프 벨트 토리옹 레더 블랙\n\n33%\n\n614,000원\n\n관심 3,581\n\n · 리뷰 34\n\n · 거래 558\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 93621,
+          "text": "Saint Laurent\n\n(W) 생로랑 래커드 레더 카산드라 스퀘어 버클 씬 벨트 블랙\n\n560,000원\n\n관심 213\n\n · 리뷰 1\n\n · 거래 25"
+        },
+        {
+          "product_id": 145795,
+          "text": "Celine\n\n(W) 셀린느 스몰 토리옹 레더 웨스턴 벨트 블랙\n\n750,000원\n\n관심 52"
+        }
+      ]
     },
     {
       "sku": "1210W3856OWH",
@@ -291,7 +1069,29 @@
       "stock": 1,
       "eur_price": 743.61,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1210W3856OWH\" SPU=\"1210W3856OWH\"",
+      "candidates": [
+        {
+          "product_id": 573538,
+          "text": "Saint Laurent\n\n생로랑 램스킨 카산드라 벨트 블랙\n\n17%\n\n702,000원\n\n관심 10\n\n · 거래 1"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 67913,
+          "text": "Celine\n\n(W) 셀린느 미디움 트리옹프 벨트 토리옹 레더 블랙\n\n33%\n\n614,000원\n\n관심 3,581\n\n · 리뷰 34\n\n · 거래 558\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 93621,
+          "text": "Saint Laurent\n\n(W) 생로랑 래커드 레더 카산드라 스퀘어 버클 씬 벨트 블랙\n\n560,000원\n\n관심 213\n\n · 리뷰 1\n\n · 거래 25"
+        },
+        {
+          "product_id": 145795,
+          "text": "Celine\n\n(W) 셀린느 스몰 토리옹 레더 웨스턴 벨트 블랙\n\n750,000원\n\n관심 52"
+        }
+      ]
     },
     {
       "sku": "1175W4252OTT",
@@ -299,7 +1099,29 @@
       "stock": 1,
       "eur_price": 2848.53,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1175W4252OTT\" SPU=\"1175W4252OTT\"",
+      "candidates": [
+        {
+          "product_id": 446287,
+          "text": "UGG\n\n(W) 어그 골든스타 글라이드 체스트넛\n\n131,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 12"
+        },
+        {
+          "product_id": 196161,
+          "text": "UGG\n\n(W) 어그 골든스타 클로그 블랙\n\n25%\n\n145,000원\n\n관심 446\n\n · 리뷰 7\n\n · 거래 65"
+        },
+        {
+          "product_id": 93623,
+          "text": "Saint Laurent\n\n생로랑 카산드라 그레인 레더 스퀘어 버클 벨트 블랙\n\n39%\n\n436,000원\n\n관심 95\n\n · 거래 12"
+        },
+        {
+          "product_id": 154485,
+          "text": "Saint Laurent\n\n(W) 생로랑 르 로퍼 페니 슬리퍼 페이턴트 레더 블랙\n\n55%\n\n691,000원\n\n관심 16\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 82339,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫폼 샌들 블랙\n\n25%\n\n990,000원\n\n관심 8\n\n · 거래 2"
+        }
+      ]
     },
     {
       "sku": "7370W4327BLK",
@@ -307,7 +1129,29 @@
       "stock": 1,
       "eur_price": 747.54,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"7370W4327BLK\" SPU=\"7370W4327BLK\"",
+      "candidates": [
+        {
+          "product_id": 86029,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스피드 2.0 트레이너 샤이니 블랙\n\n70%\n\n390,000원\n\n관심 706\n\n · 리뷰 68\n\n · 거래 262\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 75077,
+          "text": "Balenciaga\n\n(W) 발렌시아가 아레나 램스킨 카골 50mm 샌들 블랙\n\n40%\n\n655,000원\n\n관심 104\n\n · 거래 2"
+        },
+        {
+          "product_id": 145959,
+          "text": "Balenciaga\n\n발렌시아가 투어리스트 샌들 블랙\n\n65%\n\n370,000원\n\n관심 25\n\n · 리뷰 3\n\n · 거래 17\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 66855,
+          "text": "Balenciaga\n\n(W) 발렌시아가 풀 슬라이드 블랙 화이트\n\n288,000원\n\n관심 37\n\n · 거래 9\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 318400,
+          "text": "Balenciaga\n\n발렌시아가 러버 몰드 클로즈드 그레이\n\n52%\n\n300,000원\n\n관심 50\n\n · 리뷰 4\n\n · 거래 6"
+        }
+      ]
     },
     {
       "sku": "10865W4369BLK",
@@ -315,7 +1159,29 @@
       "stock": 1,
       "eur_price": 742.62,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"10865W4369BLK\" SPU=\"10865W4369BLK\"",
+      "candidates": [
+        {
+          "product_id": 136960,
+          "text": "Balenciaga\n\n발렌시아가 HD 뮬 그레이\n\n63%\n\n325,000원\n\n관심 17\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 138875,
+          "text": "Balenciaga\n\n(W) 발렌시아가 파리 뮬 블랙\n\n54%\n\n370,000원\n\n관심 76\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 318400,
+          "text": "Balenciaga\n\n발렌시아가 러버 몰드 클로즈드 그레이\n\n52%\n\n300,000원\n\n관심 50\n\n · 리뷰 4\n\n · 거래 6"
+        },
+        {
+          "product_id": 456045,
+          "text": "Balenciaga\n\n발렌시아가 젠 스니커즈 블랙 화이트\n\n449,000원\n\n관심 2,439\n\n · 리뷰 58\n\n · 거래 160\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 75077,
+          "text": "Balenciaga\n\n(W) 발렌시아가 아레나 램스킨 카골 50mm 샌들 블랙\n\n40%\n\n655,000원\n\n관심 104\n\n · 거래 2"
+        }
+      ]
     },
     {
       "sku": "10865W4369BLK",
@@ -323,7 +1189,29 @@
       "stock": 1,
       "eur_price": 742.62,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"10865W4369BLK\" SPU=\"10865W4369BLK\"",
+      "candidates": [
+        {
+          "product_id": 136960,
+          "text": "Balenciaga\n\n발렌시아가 HD 뮬 그레이\n\n63%\n\n325,000원\n\n관심 17\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 138875,
+          "text": "Balenciaga\n\n(W) 발렌시아가 파리 뮬 블랙\n\n54%\n\n370,000원\n\n관심 76\n\n · 리뷰 4\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 318400,
+          "text": "Balenciaga\n\n발렌시아가 러버 몰드 클로즈드 그레이\n\n52%\n\n300,000원\n\n관심 50\n\n · 리뷰 4\n\n · 거래 6"
+        },
+        {
+          "product_id": 456045,
+          "text": "Balenciaga\n\n발렌시아가 젠 스니커즈 블랙 화이트\n\n449,000원\n\n관심 2,439\n\n · 리뷰 58\n\n · 거래 160\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 75077,
+          "text": "Balenciaga\n\n(W) 발렌시아가 아레나 램스킨 카골 50mm 샌들 블랙\n\n40%\n\n655,000원\n\n관심 104\n\n · 거래 2"
+        }
+      ]
     },
     {
       "sku": "1437Y710CHK",
@@ -331,7 +1219,29 @@
       "stock": 1,
       "eur_price": 1037.71,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1437Y710CHK\" SPU=\"1437Y710CHK\"",
+      "candidates": [
+        {
+          "product_id": 69121,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫 뮬 블랙\n\n65%\n\n400,000원\n\n관심 815\n\n · 리뷰 12\n\n · 거래 71\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 120589,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 오피움 하트 참 브레이슬릿 에이지드 브라스 골드\n\n36%\n\n419,000원\n\n관심 6,419\n\n · 리뷰 4\n\n · 거래 846\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n37%\n\n408,000원\n\n관심 2,164\n\n · 거래 231\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 154099,
+          "text": "Saint Laurent\n\n(W) 생로랑 트리뷰트 뮬 스무스 레더 화이트\n\n65%\n\n400,000원\n\n관심 84\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 91298,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 골드 모노그램 카산드라 플랫 샌들 블랙\n\n64%\n\n529,000원\n\n관심 1,172\n\n · 리뷰 13\n\n · 거래 84\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
     },
     {
       "sku": "1437Y710CHK",
@@ -339,7 +1249,29 @@
       "stock": 1,
       "eur_price": 1037.71,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1437Y710CHK\" SPU=\"1437Y710CHK\"",
+      "candidates": [
+        {
+          "product_id": 69121,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫 뮬 블랙\n\n65%\n\n400,000원\n\n관심 815\n\n · 리뷰 12\n\n · 거래 71\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 120589,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 오피움 하트 참 브레이슬릿 에이지드 브라스 골드\n\n36%\n\n419,000원\n\n관심 6,419\n\n · 리뷰 4\n\n · 거래 846\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n37%\n\n408,000원\n\n관심 2,164\n\n · 거래 231\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 154099,
+          "text": "Saint Laurent\n\n(W) 생로랑 트리뷰트 뮬 스무스 레더 화이트\n\n65%\n\n400,000원\n\n관심 84\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 91298,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 골드 모노그램 카산드라 플랫 샌들 블랙\n\n64%\n\n529,000원\n\n관심 1,172\n\n · 리뷰 13\n\n · 거래 84\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
     },
     {
       "sku": "1437Y710CHK",
@@ -347,15 +1279,65 @@
       "stock": 1,
       "eur_price": 1037.71,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1437Y710CHK\" SPU=\"1437Y710CHK\"",
+      "candidates": [
+        {
+          "product_id": 69121,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫 뮬 블랙\n\n65%\n\n400,000원\n\n관심 815\n\n · 리뷰 12\n\n · 거래 71\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 120589,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 오피움 하트 참 브레이슬릿 에이지드 브라스 골드\n\n36%\n\n419,000원\n\n관심 6,419\n\n · 리뷰 4\n\n · 거래 846\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 271075,
+          "text": "Saint Laurent\n\n(W) 생로랑 메탈 앤 라인스톤 오피움 참 브레이슬릿 크리스탈 골드\n\n37%\n\n408,000원\n\n관심 2,164\n\n · 거래 231\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 154099,
+          "text": "Saint Laurent\n\n(W) 생로랑 트리뷰트 뮬 스무스 레더 화이트\n\n65%\n\n400,000원\n\n관심 84\n\n · 리뷰 1\n\n · 거래 4"
+        },
+        {
+          "product_id": 91298,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 골드 모노그램 카산드라 플랫 샌들 블랙\n\n64%\n\n529,000원\n\n관심 1,172\n\n · 리뷰 13\n\n · 거래 84\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
     },
     {
       "sku": "W2154W27TE",
       "option": "U",
       "stock": 5,
       "eur_price": 1777.05,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 949331,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/949331",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 6038000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 6038000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
     },
     {
       "sku": "F2109L302LQB",
@@ -363,7 +1345,29 @@
       "stock": 2,
       "eur_price": 711.47,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"F2109L302LQB\" SPU=\"F2109L302LQB\"",
+      "candidates": [
+        {
+          "product_id": 637009,
+          "text": "Saint Laurent\n\n(W) 생로랑 카산드라 스무스 레더 샌들 블랙\n\n67%\n\n484,000원\n\n관심 23\n\n · 거래 2"
+        },
+        {
+          "product_id": 67897,
+          "text": "Montblanc\n\n몽블랑 렉탱귤러 버클 35mm 보빈 레더 블랙\n\n24%\n\n318,000원\n\n관심 159\n\n · 거래 42"
+        },
+        {
+          "product_id": 123514,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 클라리사 II 레더 스트랩 샌들 블랙\n\n10%\n\n175,000원\n\n관심 48\n\n · 리뷰 5\n\n · 거래 4"
+        },
+        {
+          "product_id": 67895,
+          "text": "Montblanc\n\n몽블랑 렉탱귤러 버클 30mm 리버시블 레더 벨트 블랙 브라운\n\n16%\n\n384,000원\n\n관심 113\n\n · 거래 48"
+        },
+        {
+          "product_id": 71678,
+          "text": "Montblanc\n\n몽블랑 레더 스트랩 벨트 블랙\n\n25%\n\n314,000원\n\n관심 110\n\n · 리뷰 1\n\n · 거래 49"
+        }
+      ]
     },
     {
       "sku": "1261Y876BLK",
@@ -371,7 +1375,29 @@
       "stock": 1,
       "eur_price": 904.92,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1261Y876BLK\" SPU=\"1261Y876BLK\"",
+      "candidates": [
+        {
+          "product_id": 82339,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫폼 샌들 블랙\n\n25%\n\n990,000원\n\n관심 8\n\n · 거래 2"
+        },
+        {
+          "product_id": 150936,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 클라리사 II 레더 플랫폼 샌들 블랙\n\n29%\n\n149,000원\n\n관심 71\n\n · 리뷰 1\n\n · 거래 7"
+        },
+        {
+          "product_id": 123514,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 클라리사 II 레더 스트랩 샌들 블랙\n\n10%\n\n175,000원\n\n관심 48\n\n · 리뷰 5\n\n · 거래 4"
+        },
+        {
+          "product_id": 123512,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 블레어 페이턴트 레더 스트랩 샌들 블랙\n\n12%\n\n145,000원\n\n관심 31\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 835077,
+          "text": "MOODNIGHT\n\n무드나잇 르네 피셔맨 스트랩 플랫폼 샌들 l 블랙\n\n168,000원\n\n관심 1\n\n적립\n\n무료배송"
+        }
+      ]
     },
     {
       "sku": "1261Y876BLK",
@@ -379,7 +1405,29 @@
       "stock": 1,
       "eur_price": 904.92,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"1261Y876BLK\" SPU=\"1261Y876BLK\"",
+      "candidates": [
+        {
+          "product_id": 82339,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫폼 샌들 블랙\n\n25%\n\n990,000원\n\n관심 8\n\n · 거래 2"
+        },
+        {
+          "product_id": 150936,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 클라리사 II 레더 플랫폼 샌들 블랙\n\n29%\n\n149,000원\n\n관심 71\n\n · 리뷰 1\n\n · 거래 7"
+        },
+        {
+          "product_id": 123514,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 클라리사 II 레더 스트랩 샌들 블랙\n\n10%\n\n175,000원\n\n관심 48\n\n · 리뷰 5\n\n · 거래 4"
+        },
+        {
+          "product_id": 123512,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 블레어 페이턴트 레더 스트랩 샌들 블랙\n\n12%\n\n145,000원\n\n관심 31\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 835077,
+          "text": "MOODNIGHT\n\n무드나잇 르네 피셔맨 스트랩 플랫폼 샌들 l 블랙\n\n168,000원\n\n관심 1\n\n적립\n\n무료배송"
+        }
+      ]
     },
     {
       "sku": "697W4450LBB",
@@ -387,7 +1435,29 @@
       "stock": 1,
       "eur_price": 635.66,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"697W4450LBB\" SPU=\"697W4450LBB\"",
+      "candidates": [
+        {
+          "product_id": 57659,
+          "text": "Balenciaga\n\n(W) 발렌시아가 풀 슬라이드 더블 블랙\n\n341,000원\n\n관심 25\n\n · 거래 1"
+        },
+        {
+          "product_id": 151352,
+          "text": "Gucci\n\n(W) 구찌 홀스빗 플랫폼 샌들 블랙 러버\n\n50%\n\n480,000원\n\n관심 29\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 75077,
+          "text": "Balenciaga\n\n(W) 발렌시아가 아레나 램스킨 카골 50mm 샌들 블랙\n\n40%\n\n655,000원\n\n관심 104\n\n · 거래 2"
+        },
+        {
+          "product_id": 72115,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스무스 카프스킨 라운드 플랫 샌들 블랙 화이트\n\n43%\n\n450,000원\n\n관심 143\n\n · 거래 14"
+        },
+        {
+          "product_id": 71462,
+          "text": "Balenciaga\n\n(W) 발렌시아가 박스 샌들 화이트 블랙\n\n369,000원\n\n관심 28\n\n · 거래 3"
+        }
+      ]
     },
     {
       "sku": "697W4450LBB",
@@ -395,7 +1465,29 @@
       "stock": 1,
       "eur_price": 635.66,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"697W4450LBB\" SPU=\"697W4450LBB\"",
+      "candidates": [
+        {
+          "product_id": 57659,
+          "text": "Balenciaga\n\n(W) 발렌시아가 풀 슬라이드 더블 블랙\n\n341,000원\n\n관심 25\n\n · 거래 1"
+        },
+        {
+          "product_id": 151352,
+          "text": "Gucci\n\n(W) 구찌 홀스빗 플랫폼 샌들 블랙 러버\n\n50%\n\n480,000원\n\n관심 29\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 75077,
+          "text": "Balenciaga\n\n(W) 발렌시아가 아레나 램스킨 카골 50mm 샌들 블랙\n\n40%\n\n655,000원\n\n관심 104\n\n · 거래 2"
+        },
+        {
+          "product_id": 72115,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스무스 카프스킨 라운드 플랫 샌들 블랙 화이트\n\n43%\n\n450,000원\n\n관심 143\n\n · 거래 14"
+        },
+        {
+          "product_id": 71462,
+          "text": "Balenciaga\n\n(W) 발렌시아가 박스 샌들 화이트 블랙\n\n369,000원\n\n관심 28\n\n · 거래 3"
+        }
+      ]
     },
     {
       "sku": "11216W4466DRN",
@@ -403,7 +1495,29 @@
       "stock": 1,
       "eur_price": 2257.38,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"11216W4466DRN\" SPU=\"11216W4466DRN\"",
+      "candidates": [
+        {
+          "product_id": 123514,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 클라리사 II 레더 스트랩 샌들 블랙\n\n10%\n\n175,000원\n\n관심 48\n\n · 리뷰 5\n\n · 거래 4"
+        },
+        {
+          "product_id": 64021,
+          "text": "Moncler\n\n(W) 몽클레르 잔느 슬라이드 화이트 - 22SS\n\n36%\n\n240,000원\n\n관심 52\n\n · 리뷰 1\n\n · 거래 18"
+        },
+        {
+          "product_id": 82339,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫폼 샌들 블랙\n\n25%\n\n990,000원\n\n관심 8\n\n · 거래 2"
+        },
+        {
+          "product_id": 603231,
+          "text": "UGG\n\n(W) 어그 엘리아 슬립온 블랙\n\n30%\n\n130,000원\n\n관심 52\n\n · 리뷰 3\n\n · 거래 13"
+        },
+        {
+          "product_id": 88264,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스무스 나파 램스킨 드레이피 80mm 뮬 블랙\n\n25%\n\n736,000원\n\n관심 16"
+        }
+      ]
     },
     {
       "sku": "11216W4466DRN",
@@ -411,31 +1525,113 @@
       "stock": 1,
       "eur_price": 2257.38,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"11216W4466DRN\" SPU=\"11216W4466DRN\"",
+      "candidates": [
+        {
+          "product_id": 123514,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 클라리사 II 레더 스트랩 샌들 블랙\n\n10%\n\n175,000원\n\n관심 48\n\n · 리뷰 5\n\n · 거래 4"
+        },
+        {
+          "product_id": 64021,
+          "text": "Moncler\n\n(W) 몽클레르 잔느 슬라이드 화이트 - 22SS\n\n36%\n\n240,000원\n\n관심 52\n\n · 리뷰 1\n\n · 거래 18"
+        },
+        {
+          "product_id": 82339,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 트리뷰트 플랫폼 샌들 블랙\n\n25%\n\n990,000원\n\n관심 8\n\n · 거래 2"
+        },
+        {
+          "product_id": 603231,
+          "text": "UGG\n\n(W) 어그 엘리아 슬립온 블랙\n\n30%\n\n130,000원\n\n관심 52\n\n · 리뷰 3\n\n · 거래 13"
+        },
+        {
+          "product_id": 88264,
+          "text": "Balenciaga\n\n(W) 발렌시아가 스무스 나파 램스킨 드레이피 80mm 뮬 블랙\n\n25%\n\n736,000원\n\n관심 16"
+        }
+      ]
     },
     {
       "sku": "F2170L805BLK",
       "option": "42",
       "stock": 1,
       "eur_price": 906.56,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "F2170L805BLK",
       "option": "42.5",
       "stock": 1,
       "eur_price": 906.56,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "F2170L805BLK",
       "option": "43",
       "stock": 2,
       "eur_price": 906.56,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "F1236N60BLK",
@@ -443,7 +1639,29 @@
       "stock": 1,
       "eur_price": 579.51,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"F1236N60BLK\" SPU=\"F1236N60BLK\"",
+      "candidates": [
+        {
+          "product_id": 151352,
+          "text": "Gucci\n\n(W) 구찌 홀스빗 플랫폼 샌들 블랙 러버\n\n50%\n\n480,000원\n\n관심 29\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 583392,
+          "text": "Moncler\n\n(W) 몽클레르 릴로 퀼티드 에바 슬라이더 블랙 - 25SS\n\n42%\n\n270,000원\n\n관심 5\n\n · 거래 1"
+        },
+        {
+          "product_id": 558373,
+          "text": "Tory Burch\n\n(W) 토리버치 멜로우 뮬 블랙\n\n338,000원\n\n관심 13\n\n · 거래 1"
+        },
+        {
+          "product_id": 456758,
+          "text": "MOODNIGHT\n\n무드나잇 브로디 웨지 플랫폼 클로그 l 블랙\n\n216,000원\n\n관심 107\n\n적립\n\n무료배송"
+        },
+        {
+          "product_id": 143962,
+          "text": "Bottega Veneta\n\n(W) 보테가 베네타 쿠션 슬라이드 블랙\n\n52%\n\n675,000원\n\n관심 10"
+        }
+      ]
     },
     {
       "sku": "11035W5027WHT",
@@ -451,55 +1669,197 @@
       "stock": 1,
       "eur_price": 796.72,
       "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "error": "No KREAM match for SKU=\"11035W5027WHT\" SPU=\"11035W5027WHT\"",
+      "candidates": [
+        {
+          "product_id": 150936,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 클라리사 II 레더 플랫폼 샌들 블랙\n\n29%\n\n149,000원\n\n관심 71\n\n · 리뷰 1\n\n · 거래 7"
+        },
+        {
+          "product_id": 943913,
+          "text": "MOODNIGHT\n\n무드나잇 클리프 플랫폼 클로그 샌들 l 블랙\n\n181,000원\n\n관심 1\n\n적립\n\n무료배송"
+        },
+        {
+          "product_id": 64021,
+          "text": "Moncler\n\n(W) 몽클레르 잔느 슬라이드 화이트 - 22SS\n\n36%\n\n240,000원\n\n관심 52\n\n · 리뷰 1\n\n · 거래 18"
+        },
+        {
+          "product_id": 943901,
+          "text": "MOODNIGHT\n\n무드나잇 클리프 플랫폼 클로그 샌들 l 베이지 스웨이드\n\n181,000원\n\n관심 2\n\n적립\n\n무료배송"
+        },
+        {
+          "product_id": 943908,
+          "text": "MOODNIGHT\n\n무드나잇 클리프 플랫폼 클로그 샌들 l 다크브라운 스웨이드\n\n181,000원\n\n관심 1\n\n적립\n\n무료배송"
+        }
+      ]
     },
     {
       "sku": "W2173W27TE",
       "option": "U",
       "stock": 4,
       "eur_price": 1068.86,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 949329,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/949329",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "F1883SH07LQB",
       "option": "37",
       "stock": 1,
       "eur_price": 711.47,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 911843,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911843",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "F1883SH07LQB",
       "option": "38",
       "stock": 2,
       "eur_price": 711.47,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 911843,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911843",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "F1883SH07LQB",
       "option": "39",
       "stock": 2,
       "eur_price": 711.47,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 911843,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911843",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "F1883SH07LQB",
       "option": "40",
       "stock": 2,
       "eur_price": 711.47,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 911843,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911843",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     },
     {
       "sku": "F1883SH07LQB",
       "option": "41",
       "stock": 1,
       "eur_price": 711.47,
-      "matched": false,
-      "error": "chunk crash: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kream.co.kr/\nCall log:\n  - navigating to \"ht"
+      "matched": true,
+      "product_id": 911843,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911843",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
     }
   ]
 }
