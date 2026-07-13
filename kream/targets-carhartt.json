@@ -341,17 +341,6 @@
     "eur_retail": 122.13
   },
   {
-    "sku": "I0356358901",
-    "spu": "I0356358901",
-    "b2b_sku": "I0356358901",
-    "brand": "CARHARTT WIP",
-    "name": "'Ray Single Knee' pants",
-    "option": "S",
-    "stock": 1,
-    "eur_price": 67.17,
-    "eur_retail": 122.13
-  },
-  {
     "sku": "I03564005AXX",
     "spu": "I03564005AXX",
     "b2b_sku": "I03564005AXX",
@@ -600,7 +589,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Pocket' T-shirt",
     "option": "XL",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 17.21,
     "eur_retail": 28.69
   },
@@ -713,6 +702,28 @@
     "stock": 2,
     "eur_price": 63.44,
     "eur_retail": 105.74
+  },
+  {
+    "sku": "I0348138906",
+    "spu": "I0348138906",
+    "b2b_sku": "I0348138906",
+    "brand": "CARHARTT WIP",
+    "name": "'Marv' bermuda shorts",
+    "option": "L",
+    "stock": 1,
+    "eur_price": 53.6,
+    "eur_retail": 89.34
+  },
+  {
+    "sku": "I0348138906",
+    "spu": "I0348138906",
+    "b2b_sku": "I0348138906",
+    "brand": "CARHARTT WIP",
+    "name": "'Marv' bermuda shorts",
+    "option": "M",
+    "stock": 1,
+    "eur_price": 53.6,
+    "eur_retail": 89.34
   },
   {
     "sku": "I0348138906",
@@ -1270,19 +1281,8 @@
     "b2b_sku": "I03520889XX",
     "brand": "CARHARTT WIP",
     "name": "'Jake Garcia' T-shirt",
-    "option": "M",
-    "stock": 1,
-    "eur_price": 26.64,
-    "eur_retail": 53.28
-  },
-  {
-    "sku": "I03520889XX",
-    "spu": "I03520889XX",
-    "b2b_sku": "I03520889XX",
-    "brand": "CARHARTT WIP",
-    "name": "'Jake Garcia' T-shirt",
     "option": "S",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 26.64,
     "eur_retail": 53.28
   },
@@ -1606,13 +1606,24 @@
     "eur_retail": 40.16
   },
   {
+    "sku": "I033345014L",
+    "spu": "I033345014L",
+    "b2b_sku": "I033345014L",
+    "brand": "CARHARTT WIP",
+    "name": "'Alta' bermuda shorts",
+    "option": "M",
+    "stock": 1,
+    "eur_price": 48.69,
+    "eur_retail": 81.15
+  },
+  {
     "sku": "I03673000BXX",
     "spu": "I03673000BXX",
     "b2b_sku": "I03673000BXX",
     "brand": "CARHARTT WIP",
     "name": "'Madison' cap",
     "option": "U",
-    "stock": 3,
+    "stock": 2,
     "eur_price": 24.59,
     "eur_retail": 32.79
   },
@@ -1722,6 +1733,17 @@
     "brand": "CARHARTT WIP",
     "name": "'Tyers' shirt",
     "option": "XL",
+    "stock": 1,
+    "eur_price": 61.48,
+    "eur_retail": 81.97
+  },
+  {
+    "sku": "I0368053T5XX",
+    "spu": "I0368053T5XX",
+    "b2b_sku": "I0368053T5XX",
+    "brand": "CARHARTT WIP",
+    "name": "'Keene Stripe' shirt",
+    "option": "M",
     "stock": 1,
     "eur_price": 61.48,
     "eur_retail": 81.97
@@ -2591,7 +2613,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Kickflip' backpack",
     "option": "U",
-    "stock": 3,
+    "stock": 2,
     "eur_price": 51.06,
     "eur_retail": 72.95
   },
@@ -2748,6 +2770,28 @@
     "stock": 2,
     "eur_price": 31.97,
     "eur_retail": 53.28
+  },
+  {
+    "sku": "I0361873LEXX",
+    "spu": "I0361873LEXX",
+    "b2b_sku": "I0361873LEXX",
+    "brand": "CARHARTT WIP",
+    "name": "'Delray' polo shirt",
+    "option": "L",
+    "stock": 1,
+    "eur_price": 38.85,
+    "eur_retail": 64.75
+  },
+  {
+    "sku": "I0365932XNUR",
+    "spu": "I0365932XNUR",
+    "b2b_sku": "I0365932XNUR",
+    "brand": "CARHARTT WIP",
+    "name": "'OG Detroit' jacket",
+    "option": "L",
+    "stock": 1,
+    "eur_price": 107.71,
+    "eur_retail": 179.51
   },
   {
     "sku": "I03719308XX",
@@ -3547,17 +3591,6 @@
     "b2b_sku": "I0330513IOGD",
     "brand": "CARHARTT WIP",
     "name": "'Nelson' T-shirt",
-    "option": "L",
-    "stock": 1,
-    "eur_price": 22.13,
-    "eur_retail": 36.89
-  },
-  {
-    "sku": "I0330513IOGD",
-    "spu": "I0330513IOGD",
-    "b2b_sku": "I0330513IOGD",
-    "brand": "CARHARTT WIP",
-    "name": "'Nelson' T-shirt",
     "option": "M",
     "stock": 1,
     "eur_price": 22.13,
@@ -3581,6 +3614,17 @@
     "brand": "CARHARTT WIP",
     "name": "'Brandon' jeans",
     "option": "L",
+    "stock": 1,
+    "eur_price": 63.44,
+    "eur_retail": 105.74
+  },
+  {
+    "sku": "I03654401ZO",
+    "spu": "I03654401ZO",
+    "b2b_sku": "I03654401ZO",
+    "brand": "CARHARTT WIP",
+    "name": "'Brandon' jeans",
+    "option": "M",
     "stock": 1,
     "eur_price": 63.44,
     "eur_retail": 105.74
@@ -3723,6 +3767,28 @@
     "b2b_sku": "I03479807E4O",
     "brand": "CARHARTT WIP",
     "name": "'Single Knee' pants",
+    "option": "30",
+    "stock": 1,
+    "eur_price": 73.28,
+    "eur_retail": 122.13
+  },
+  {
+    "sku": "I03479807E4O",
+    "spu": "I03479807E4O",
+    "b2b_sku": "I03479807E4O",
+    "brand": "CARHARTT WIP",
+    "name": "'Single Knee' pants",
+    "option": "31",
+    "stock": 1,
+    "eur_price": 73.28,
+    "eur_retail": 122.13
+  },
+  {
+    "sku": "I03479807E4O",
+    "spu": "I03479807E4O",
+    "b2b_sku": "I03479807E4O",
+    "brand": "CARHARTT WIP",
+    "name": "'Single Knee' pants",
     "option": "32",
     "stock": 1,
     "eur_price": 73.28,
@@ -3856,7 +3922,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Landon' shorts",
     "option": "30",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 67.62,
     "eur_retail": 90.16
   },
@@ -3867,7 +3933,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Landon' shorts",
     "option": "31",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 67.62,
     "eur_retail": 90.16
   },
@@ -3894,6 +3960,17 @@
     "eur_retail": 90.16
   },
   {
+    "sku": "I03702801EJ",
+    "spu": "I03702801EJ",
+    "b2b_sku": "I03702801EJ",
+    "brand": "CARHARTT WIP",
+    "name": "'Landon' shorts",
+    "option": "34",
+    "stock": 1,
+    "eur_price": 67.62,
+    "eur_retail": 90.16
+  },
+  {
     "sku": "I03691347EJ",
     "spu": "I03691347EJ",
     "b2b_sku": "I03691347EJ",
@@ -3911,7 +3988,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Painter' sweatshirt",
     "option": "M",
-    "stock": 3,
+    "stock": 2,
     "eur_price": 98.36,
     "eur_retail": 131.15
   },
@@ -4521,17 +4598,6 @@
     "eur_retail": 90.16
   },
   {
-    "sku": "I0301302LRGD",
-    "spu": "I0301302LRGD",
-    "b2b_sku": "I0301302LRGD",
-    "brand": "CARHARTT WIP",
-    "name": "'Nelson Sweat' bermuda shorts",
-    "option": "M",
-    "stock": 1,
-    "eur_price": 38.85,
-    "eur_retail": 64.75
-  },
-  {
     "sku": "I03013089GD",
     "spu": "I03013089GD",
     "b2b_sku": "I03013089GD",
@@ -4585,6 +4651,28 @@
     "stock": 2,
     "eur_price": 31.97,
     "eur_retail": 53.28
+  },
+  {
+    "sku": "I0362033K5XX",
+    "spu": "I0362033K5XX",
+    "b2b_sku": "I0362033K5XX",
+    "brand": "CARHARTT WIP",
+    "name": "'Leavel' shirt",
+    "option": "L",
+    "stock": 1,
+    "eur_price": 43.77,
+    "eur_retail": 72.95
+  },
+  {
+    "sku": "I0362033K5XX",
+    "spu": "I0362033K5XX",
+    "b2b_sku": "I0362033K5XX",
+    "brand": "CARHARTT WIP",
+    "name": "'Leavel' shirt",
+    "option": "M",
+    "stock": 1,
+    "eur_price": 43.77,
+    "eur_retail": 72.95
   },
   {
     "sku": "I0371610112",
@@ -4813,7 +4901,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Cheese Toast' T-shirt ",
     "option": "S",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 30.74,
     "eur_retail": 40.98
   },
@@ -4992,17 +5080,6 @@
     "stock": 1,
     "eur_price": 36.88,
     "eur_retail": 73.77
-  },
-  {
-    "sku": "I0348362LP06",
-    "spu": "I0348362LP06",
-    "b2b_sku": "I0348362LP06",
-    "brand": "CARHARTT WIP",
-    "name": "'Maeve Double Knee' skirt",
-    "option": "S",
-    "stock": 1,
-    "eur_price": 40.98,
-    "eur_retail": 81.97
   },
   {
     "sku": "I03397534IXX",
@@ -5368,6 +5445,39 @@
     "eur_retail": 122.13
   },
   {
+    "sku": "I03626002XX",
+    "spu": "I03626002XX",
+    "b2b_sku": "I03626002XX",
+    "brand": "CARHARTT WIP",
+    "name": "'Spoiled' T-shirt",
+    "option": "L",
+    "stock": 1,
+    "eur_price": 27.05,
+    "eur_retail": 45.08
+  },
+  {
+    "sku": "I03626002XX",
+    "spu": "I03626002XX",
+    "b2b_sku": "I03626002XX",
+    "brand": "CARHARTT WIP",
+    "name": "'Spoiled' T-shirt",
+    "option": "M",
+    "stock": 1,
+    "eur_price": 27.05,
+    "eur_retail": 45.08
+  },
+  {
+    "sku": "I03626002XX",
+    "spu": "I03626002XX",
+    "b2b_sku": "I03626002XX",
+    "brand": "CARHARTT WIP",
+    "name": "'Spoiled' T-shirt",
+    "option": "XL",
+    "stock": 1,
+    "eur_price": 27.05,
+    "eur_retail": 45.08
+  },
+  {
     "sku": "I0339753QVXX",
     "spu": "I0339753QVXX",
     "b2b_sku": "I0339753QVXX",
@@ -5531,6 +5641,17 @@
     "stock": 2,
     "eur_price": 43.04,
     "eur_retail": 57.38
+  },
+  {
+    "sku": "I03689502XX",
+    "spu": "I03689502XX",
+    "b2b_sku": "I03689502XX",
+    "brand": "CARHARTT WIP",
+    "name": "'Playing Cards' T-shirt ",
+    "option": "L",
+    "stock": 1,
+    "eur_price": 27.67,
+    "eur_retail": 36.89
   },
   {
     "sku": "I0350623S4XX",
@@ -6281,17 +6402,6 @@
     "eur_retail": 105.74
   },
   {
-    "sku": "I03160289XX",
-    "spu": "I03160289XX",
-    "b2b_sku": "I03160289XX",
-    "brand": "CARHARTT WIP",
-    "name": "'Skyler Liner' jacket",
-    "option": "M",
-    "stock": 1,
-    "eur_price": 73.28,
-    "eur_retail": 122.13
-  },
-  {
     "sku": "I0348203IT4O",
     "spu": "I0348203IT4O",
     "b2b_sku": "I0348203IT4O",
@@ -6529,7 +6639,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Chase' swimsuit",
     "option": "S",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 31.97,
     "eur_retail": 53.28
   },
@@ -6829,6 +6939,28 @@
     "stock": 6,
     "eur_price": 74.02,
     "eur_retail": 105.74
+  },
+  {
+    "sku": "I03624589XX",
+    "spu": "I03624589XX",
+    "b2b_sku": "I03624589XX",
+    "brand": "CARHARTT WIP",
+    "name": "'Harlequin BBQ' T-shirt",
+    "option": "M",
+    "stock": 1,
+    "eur_price": 24.1,
+    "eur_retail": 40.16
+  },
+  {
+    "sku": "I03624589XX",
+    "spu": "I03624589XX",
+    "b2b_sku": "I03624589XX",
+    "brand": "CARHARTT WIP",
+    "name": "'Harlequin BBQ' T-shirt",
+    "option": "S",
+    "stock": 1,
+    "eur_price": 24.1,
+    "eur_retail": 40.16
   },
   {
     "sku": "I036487J0GD",

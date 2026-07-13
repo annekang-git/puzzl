@@ -875,7 +875,7 @@
     "brand": "MAISON MARGIELA",
     "name": "'Tabi' babouche",
     "option": "40",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 487.7,
     "eur_retail": 696.72
   },
@@ -963,7 +963,7 @@
     "brand": "MAISON MARGIELA",
     "name": "'Replica' sneakers",
     "option": "38",
-    "stock": 19,
+    "stock": 20,
     "eur_price": 330.33,
     "eur_retail": 508.2
   },
@@ -1381,7 +1381,7 @@
     "brand": "MAISON MARGIELA",
     "name": "'Anonymity of the Lining' skirt",
     "option": "42 FR",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 368.85,
     "eur_retail": 614.75
   },
@@ -1716,6 +1716,17 @@
     "eur_retail": 1844.26
   },
   {
+    "sku": "SA3VX0008P4455T8013",
+    "spu": "SA3VX0008P4455T8013",
+    "b2b_sku": "SA3VX0008P4455T8013",
+    "brand": "MAISON MARGIELA",
+    "name": "'Four Stitches' card holder",
+    "option": "U",
+    "stock": 6,
+    "eur_price": 175.82,
+    "eur_retail": 270.49
+  },
+  {
     "sku": "S67LA0031STZ092962",
     "spu": "S67LA0031STZ092962",
     "b2b_sku": "S67LA0031STZ092962",
@@ -1815,6 +1826,17 @@
     "eur_retail": 811.48
   },
   {
+    "sku": "S36UI0416P4455T8013",
+    "spu": "S36UI0416P4455T8013",
+    "b2b_sku": "S36UI0416P4455T8013",
+    "brand": "MAISON MARGIELA",
+    "name": "Stitching wallet",
+    "option": "U",
+    "stock": 8,
+    "eur_price": 215.78,
+    "eur_retail": 331.97
+  },
+  {
     "sku": "S58WU0246P3753T8013",
     "spu": "S58WU0246P3753T8013",
     "b2b_sku": "S58WU0246P3753T8013",
@@ -1899,6 +1921,17 @@
     "name": "'Tabi' ankle boots",
     "option": "39",
     "stock": 4,
+    "eur_price": 682.79,
+    "eur_retail": 975.41
+  },
+  {
+    "sku": "S58WU0246P3753T8013",
+    "spu": "S58WU0246P3753T8013",
+    "b2b_sku": "S58WU0246P3753T8013",
+    "brand": "MAISON MARGIELA",
+    "name": "'Tabi' ankle boots",
+    "option": "39.5",
+    "stock": 1,
     "eur_price": 682.79,
     "eur_retail": 975.41
   },
@@ -2022,17 +2055,6 @@
     "stock": 3,
     "eur_price": 568.04,
     "eur_retail": 811.48
-  },
-  {
-    "sku": "S50BN0527M35032900",
-    "spu": "S50BN0527M35032900",
-    "b2b_sku": "S50BN0527M35032900",
-    "brand": "MAISON MARGIELA",
-    "name": "Double-breasted blazer",
-    "option": "44 IT",
-    "stock": 1,
-    "eur_price": 594.26,
-    "eur_retail": 2377.05
   },
   {
     "sku": "S57WS0515P7383HA316",
@@ -2211,17 +2233,6 @@
     "eur_retail": 901.64
   },
   {
-    "sku": "S39WL0180P7684T1003",
-    "spu": "S39WL0180P7684T1003",
-    "b2b_sku": "S39WL0180P7684T1003",
-    "brand": "MAISON MARGIELA",
-    "name": "'Heel-Less' pumps",
-    "option": "40",
-    "stock": 1,
-    "eur_price": 540.98,
-    "eur_retail": 901.64
-  },
-  {
     "sku": "S51TF0052M36053900S",
     "spu": "S51TF0052M36053900S",
     "b2b_sku": "S51TF0052M36053900S",
@@ -2316,7 +2327,7 @@
     "brand": "MAISON MARGIELA",
     "name": "'Tabi' babouche ",
     "option": "40",
-    "stock": 2,
+    "stock": 3,
     "eur_price": 487.7,
     "eur_retail": 696.72
   },
@@ -2338,17 +2349,6 @@
     "brand": "MAISON MARGIELA",
     "name": "'Tabi' babouche ",
     "option": "42",
-    "stock": 3,
-    "eur_price": 487.7,
-    "eur_retail": 696.72
-  },
-  {
-    "sku": "S57WR0051P7805T8013",
-    "spu": "S57WR0051P7805T8013",
-    "b2b_sku": "S57WR0051P7805T8013",
-    "brand": "MAISON MARGIELA",
-    "name": "'Tabi' babouche ",
-    "option": "43",
     "stock": 4,
     "eur_price": 487.7,
     "eur_retail": 696.72
@@ -2359,8 +2359,19 @@
     "b2b_sku": "S57WR0051P7805T8013",
     "brand": "MAISON MARGIELA",
     "name": "'Tabi' babouche ",
+    "option": "43",
+    "stock": 5,
+    "eur_price": 487.7,
+    "eur_retail": 696.72
+  },
+  {
+    "sku": "S57WR0051P7805T8013",
+    "spu": "S57WR0051P7805T8013",
+    "b2b_sku": "S57WR0051P7805T8013",
+    "brand": "MAISON MARGIELA",
+    "name": "'Tabi' babouche ",
     "option": "44",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 487.7,
     "eur_retail": 696.72
   },
@@ -2569,7 +2580,7 @@
     "brand": "MAISON MARGIELA",
     "name": "'Stitching' wallet",
     "option": "U",
-    "stock": 1,
+    "stock": 10,
     "eur_price": 205.12,
     "eur_retail": 315.57
   },
@@ -2602,7 +2613,7 @@
     "brand": "MAISON MARGIELA",
     "name": "'Stitching' card holder",
     "option": "U",
-    "stock": 1,
+    "stock": 3,
     "eur_price": 138.52,
     "eur_retail": 213.11
   },
@@ -2910,7 +2921,7 @@
     "brand": "MAISON MARGIELA",
     "name": "'Replica' sneakers",
     "option": "42.5",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 442.62,
     "eur_retail": 590.16
   },
@@ -3009,7 +3020,7 @@
     "brand": "MAISON MARGIELA",
     "name": "'Silver Maillons' bracelet",
     "option": "5",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 506.15,
     "eur_retail": 778.69
   },
@@ -3196,7 +3207,7 @@
     "brand": "MAISON MARGIELA",
     "name": "Four Stitches Wallet on Chain",
     "option": "U",
-    "stock": 8,
+    "stock": 7,
     "eur_price": 399.59,
     "eur_retail": 614.75
   },
@@ -3207,7 +3218,7 @@
     "brand": "MAISON MARGIELA",
     "name": "'Stitching' card holder",
     "option": "U",
-    "stock": 39,
+    "stock": 45,
     "eur_price": 133.2,
     "eur_retail": 204.92
   },
@@ -4191,6 +4202,28 @@
     "eur_retail": 278.69
   },
   {
+    "sku": "SM1UQ0122P8865102",
+    "spu": "SM1UQ0122P8865102",
+    "b2b_sku": "SM1UQ0122P8865102",
+    "brand": "MAISON MARGIELA",
+    "name": "Logo ring",
+    "option": "3",
+    "stock": 1,
+    "eur_price": 165.16,
+    "eur_retail": 254.1
+  },
+  {
+    "sku": "SM1UQ0122P8865102",
+    "spu": "SM1UQ0122P8865102",
+    "b2b_sku": "SM1UQ0122P8865102",
+    "brand": "MAISON MARGIELA",
+    "name": "Logo ring",
+    "option": "4",
+    "stock": 1,
+    "eur_price": 165.16,
+    "eur_retail": 254.1
+  },
+  {
     "sku": "SM1UU0065P8863101",
     "spu": "SM1UU0065P8863101",
     "b2b_sku": "SM1UU0065P8863101",
@@ -4505,7 +4538,7 @@
     "brand": "MAISON MARGIELA",
     "name": "'Four Stitches' card holder",
     "option": "U",
-    "stock": 7,
+    "stock": 6,
     "eur_price": 109.22,
     "eur_retail": 168.03
   },

@@ -22,24 +22,13 @@
     "eur_retail": 778.69
   },
   {
-    "sku": "713300XKCNA2668",
-    "spu": "713300XKCNA2668",
-    "b2b_sku": "713300XKCNA2668",
-    "brand": "GUCCI",
-    "name": "GG tweed bouclè cardigan",
-    "option": "XS",
-    "stock": 1,
-    "eur_price": 721.31,
-    "eur_retail": 1311.48
-  },
-  {
     "sku": "742707ZAM7G2580",
     "spu": "742707ZAM7G2580",
     "b2b_sku": "742707ZAM7G2580",
     "brand": "GUCCI",
     "name": "'GG' shirt",
     "option": "48 IT",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 506.15,
     "eur_retail": 778.69
   },
@@ -214,19 +203,8 @@
     "b2b_sku": "837130FAB102543",
     "brand": "GUCCI",
     "name": "Horsebit sabot",
-    "option": "35",
-    "stock": 1,
-    "eur_price": 383.6,
-    "eur_retail": 590.16
-  },
-  {
-    "sku": "837130FAB102543",
-    "spu": "837130FAB102543",
-    "b2b_sku": "837130FAB102543",
-    "brand": "GUCCI",
-    "name": "Horsebit sabot",
     "option": "36",
-    "stock": 5,
+    "stock": 4,
     "eur_price": 383.6,
     "eur_retail": 590.16
   },
@@ -385,6 +363,17 @@
     "eur_retail": 221.31
   },
   {
+    "sku": "835828FAFGT4746",
+    "spu": "835828FAFGT4746",
+    "b2b_sku": "835828FAFGT4746",
+    "brand": "GUCCI",
+    "name": "'Morsetto' slides",
+    "option": "37",
+    "stock": 1,
+    "eur_price": 295.08,
+    "eur_retail": 491.8
+  },
+  {
     "sku": "853709AAGGM9251",
     "spu": "853709AAGGM9251",
     "b2b_sku": "853709AAGGM9251",
@@ -460,6 +449,17 @@
     "stock": 2,
     "eur_price": 586.06,
     "eur_retail": 1065.57
+  },
+  {
+    "sku": "8555393GA489877",
+    "spu": "8555393GA489877",
+    "b2b_sku": "8555393GA489877",
+    "brand": "GUCCI",
+    "name": "Wool and silk shawl GG",
+    "option": "U",
+    "stock": 1,
+    "eur_price": 303.69,
+    "eur_retail": 467.21
   },
   {
     "sku": "814560Z7AVS4030",
@@ -704,6 +704,17 @@
     "eur_retail": 532.79
   },
   {
+    "sku": "854632XJHOG4002",
+    "spu": "854632XJHOG4002",
+    "b2b_sku": "854632XJHOG4002",
+    "brand": "GUCCI",
+    "name": "Contrast collar polo shirt",
+    "option": "XXL",
+    "stock": 1,
+    "eur_price": 293.03,
+    "eur_retail": 532.79
+  },
+  {
     "sku": "849862AAFDV1000",
     "spu": "849862AAFDV1000",
     "b2b_sku": "849862AAFDV1000",
@@ -902,61 +913,6 @@
     "eur_retail": 1516.39
   },
   {
-    "sku": "837931XJHQV9733",
-    "spu": "837931XJHQV9733",
-    "b2b_sku": "837931XJHQV9733",
-    "brand": "GUCCI",
-    "name": "Embroidery sweatshirt",
-    "option": "S",
-    "stock": 1,
-    "eur_price": 540.99,
-    "eur_retail": 983.61
-  },
-  {
-    "sku": "865402FAFZD9167",
-    "spu": "865402FAFZD9167",
-    "b2b_sku": "865402FAFZD9167",
-    "brand": "GUCCI",
-    "name": "'Vittoria' ballet flats",
-    "option": "36.5",
-    "stock": 1,
-    "eur_price": 510.66,
-    "eur_retail": 729.51
-  },
-  {
-    "sku": "865402FAFZD9167",
-    "spu": "865402FAFZD9167",
-    "b2b_sku": "865402FAFZD9167",
-    "brand": "GUCCI",
-    "name": "'Vittoria' ballet flats",
-    "option": "37",
-    "stock": 1,
-    "eur_price": 510.66,
-    "eur_retail": 729.51
-  },
-  {
-    "sku": "865402FAFZD9167",
-    "spu": "865402FAFZD9167",
-    "b2b_sku": "865402FAFZD9167",
-    "brand": "GUCCI",
-    "name": "'Vittoria' ballet flats",
-    "option": "39",
-    "stock": 1,
-    "eur_price": 510.66,
-    "eur_retail": 729.51
-  },
-  {
-    "sku": "865402FAFZD9167",
-    "spu": "865402FAFZD9167",
-    "b2b_sku": "865402FAFZD9167",
-    "brand": "GUCCI",
-    "name": "'Vittoria' ballet flats",
-    "option": "39.5",
-    "stock": 1,
-    "eur_price": 510.66,
-    "eur_retail": 729.51
-  },
-  {
     "sku": "850187AAFDV1000",
     "spu": "850187AAFDV1000",
     "b2b_sku": "850187AAFDV1000",
@@ -1061,6 +1017,17 @@
     "b2b_sku": "826575ZAF4S2580",
     "brand": "GUCCI",
     "name": "'GG' bomber jacket",
+    "option": "48 IT",
+    "stock": 1,
+    "eur_price": 1118.85,
+    "eur_retail": 1721.31
+  },
+  {
+    "sku": "826575ZAF4S2580",
+    "spu": "826575ZAF4S2580",
+    "b2b_sku": "826575ZAF4S2580",
+    "brand": "GUCCI",
+    "name": "'GG' bomber jacket",
     "option": "54 IT",
     "stock": 2,
     "eur_price": 1118.85,
@@ -1150,7 +1117,7 @@
     "brand": "GUCCI",
     "name": "'GG' slingback",
     "option": "36",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 504.92,
     "eur_retail": 721.31
   },
@@ -1172,7 +1139,7 @@
     "brand": "GUCCI",
     "name": "'GG' slingback",
     "option": "37",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 504.92,
     "eur_retail": 721.31
   },
@@ -1226,7 +1193,7 @@
     "b2b_sku": "7946872HK809763",
     "brand": "GUCCI",
     "name": "'Morsetto' slingback",
-    "option": "37",
+    "option": "38",
     "stock": 1,
     "eur_price": 504.92,
     "eur_retail": 721.31
@@ -1237,8 +1204,8 @@
     "b2b_sku": "7946872HK809763",
     "brand": "GUCCI",
     "name": "'Morsetto' slingback",
-    "option": "38",
-    "stock": 2,
+    "option": "41",
+    "stock": 1,
     "eur_price": 504.92,
     "eur_retail": 721.31
   },
@@ -1348,7 +1315,7 @@
     "brand": "GUCCI",
     "name": "GG Slides",
     "option": "7",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 266.4,
     "eur_retail": 532.79
   },
@@ -1472,17 +1439,6 @@
     "stock": 1,
     "eur_price": 401.23,
     "eur_retail": 729.51
-  },
-  {
-    "sku": "852714ZAUBA4061",
-    "spu": "852714ZAUBA4061",
-    "b2b_sku": "852714ZAUBA4061",
-    "brand": "GUCCI",
-    "name": "Gucci fil coupé shirt",
-    "option": "42 cm",
-    "stock": 1,
-    "eur_price": 396.72,
-    "eur_retail": 721.31
   },
   {
     "sku": "837267AAE383020",
@@ -1623,7 +1579,7 @@
     "brand": "GUCCI",
     "name": "'Incrocio GG' sandals - 'Gucci Lido' line",
     "option": "39",
-    "stock": 4,
+    "stock": 3,
     "eur_price": 258.2,
     "eur_retail": 368.85
   },
@@ -1634,7 +1590,7 @@
     "brand": "GUCCI",
     "name": "'Incrocio GG' sandals - 'Gucci Lido' line",
     "option": "40",
-    "stock": 5,
+    "stock": 4,
     "eur_price": 258.2,
     "eur_retail": 368.85
   },
@@ -1958,6 +1914,28 @@
     "eur_retail": 2049.18
   },
   {
+    "sku": "855038XDDD99000",
+    "spu": "855038XDDD99000",
+    "b2b_sku": "855038XDDD99000",
+    "brand": "GUCCI",
+    "name": "'Morsetto' jacket",
+    "option": "52 IT",
+    "stock": 1,
+    "eur_price": 721.31,
+    "eur_retail": 1311.48
+  },
+  {
+    "sku": "855038XDDD99000",
+    "spu": "855038XDDD99000",
+    "b2b_sku": "855038XDDD99000",
+    "brand": "GUCCI",
+    "name": "'Morsetto' jacket",
+    "option": "54 IT",
+    "stock": 1,
+    "eur_price": 721.31,
+    "eur_retail": 1311.48
+  },
+  {
     "sku": "853533XJGSE2003",
     "spu": "853533XJGSE2003",
     "b2b_sku": "853533XJGSE2003",
@@ -2151,7 +2129,7 @@
     "brand": "GUCCI",
     "name": "'Original GG' cap",
     "option": "L",
-    "stock": 5,
+    "stock": 4,
     "eur_price": 295.08,
     "eur_retail": 368.85
   },
@@ -2242,50 +2220,6 @@
     "stock": 1,
     "eur_price": 319.67,
     "eur_retail": 426.23
-  },
-  {
-    "sku": "765859AADQ41000",
-    "spu": "765859AADQ41000",
-    "b2b_sku": "765859AADQ41000",
-    "brand": "GUCCI",
-    "name": "'Morsetto' loafers",
-    "option": "7.5",
-    "stock": 1,
-    "eur_price": 415.57,
-    "eur_retail": 639.34
-  },
-  {
-    "sku": "765859AADQ41000",
-    "spu": "765859AADQ41000",
-    "b2b_sku": "765859AADQ41000",
-    "brand": "GUCCI",
-    "name": "'Morsetto' loafers",
-    "option": "8",
-    "stock": 2,
-    "eur_price": 415.57,
-    "eur_retail": 639.34
-  },
-  {
-    "sku": "765859AADQ41000",
-    "spu": "765859AADQ41000",
-    "b2b_sku": "765859AADQ41000",
-    "brand": "GUCCI",
-    "name": "'Morsetto' loafers",
-    "option": "8.5",
-    "stock": 1,
-    "eur_price": 415.57,
-    "eur_retail": 639.34
-  },
-  {
-    "sku": "765859AADQ41000",
-    "spu": "765859AADQ41000",
-    "b2b_sku": "765859AADQ41000",
-    "brand": "GUCCI",
-    "name": "'Morsetto' loafers",
-    "option": "9.5",
-    "stock": 1,
-    "eur_price": 415.57,
-    "eur_retail": 639.34
   },
   {
     "sku": "816818FAD7V9055",
@@ -2525,7 +2459,7 @@
     "brand": "GUCCI",
     "name": "'Morsetto' loafers",
     "option": "10",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 490.16,
     "eur_retail": 754.1
   },
@@ -2536,17 +2470,6 @@
     "brand": "GUCCI",
     "name": "'Morsetto' loafers",
     "option": "7",
-    "stock": 2,
-    "eur_price": 490.16,
-    "eur_retail": 754.1
-  },
-  {
-    "sku": "851398AAFAR1000",
-    "spu": "851398AAFAR1000",
-    "b2b_sku": "851398AAFAR1000",
-    "brand": "GUCCI",
-    "name": "'Morsetto' loafers",
-    "option": "8",
     "stock": 1,
     "eur_price": 490.16,
     "eur_retail": 754.1
@@ -2558,7 +2481,7 @@
     "brand": "GUCCI",
     "name": "'Morsetto' loafers",
     "option": "8.5",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 490.16,
     "eur_retail": 754.1
   },
@@ -2618,6 +2541,28 @@
     "eur_retail": 803.28
   },
   {
+    "sku": "837930XJHM09051",
+    "spu": "837930XJHM09051",
+    "b2b_sku": "837930XJHM09051",
+    "brand": "GUCCI",
+    "name": "'Morsetto Gucci' embroidery hoodie",
+    "option": "S",
+    "stock": 2,
+    "eur_price": 495.9,
+    "eur_retail": 901.64
+  },
+  {
+    "sku": "837930XJHM09051",
+    "spu": "837930XJHM09051",
+    "b2b_sku": "837930XJHM09051",
+    "brand": "GUCCI",
+    "name": "'Morsetto Gucci' embroidery hoodie",
+    "option": "XS",
+    "stock": 2,
+    "eur_price": 495.9,
+    "eur_retail": 901.64
+  },
+  {
     "sku": "867524XHALP9413",
     "spu": "867524XHALP9413",
     "b2b_sku": "867524XHALP9413",
@@ -2668,7 +2613,7 @@
     "brand": "GUCCI",
     "name": "'Web Horsebit Gucci' card holder",
     "option": "U",
-    "stock": 6,
+    "stock": 4,
     "eur_price": 276.64,
     "eur_retail": 368.85
   },
@@ -2750,6 +2695,17 @@
     "eur_retail": 983.61
   },
   {
+    "sku": "837280AAE385753",
+    "spu": "837280AAE385753",
+    "b2b_sku": "837280AAE385753",
+    "brand": "GUCCI",
+    "name": "'GG Marmont' small shoulder bag",
+    "option": "U",
+    "stock": 1,
+    "eur_price": 1118.85,
+    "eur_retail": 1721.31
+  },
+  {
     "sku": "846682ZARWY1000",
     "spu": "846682ZARWY1000",
     "b2b_sku": "846682ZARWY1000",
@@ -2781,6 +2737,28 @@
     "stock": 1,
     "eur_price": 1217.21,
     "eur_retail": 2213.11
+  },
+  {
+    "sku": "795174XJEOX4794",
+    "spu": "795174XJEOX4794",
+    "b2b_sku": "795174XJEOX4794",
+    "brand": "GUCCI",
+    "name": "'Nastro Web' polo shirt",
+    "option": "XL",
+    "stock": 3,
+    "eur_price": 279.51,
+    "eur_retail": 508.2
+  },
+  {
+    "sku": "795174XJEOX4794",
+    "spu": "795174XJEOX4794",
+    "b2b_sku": "795174XJEOX4794",
+    "brand": "GUCCI",
+    "name": "'Nastro Web' polo shirt",
+    "option": "XXL",
+    "stock": 1,
+    "eur_price": 279.51,
+    "eur_retail": 508.2
   },
   {
     "sku": "851254ZAT3D1000",
@@ -2822,7 +2800,7 @@
     "brand": "GUCCI",
     "name": "'Jordaan' loafers",
     "option": "36",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 437.71,
     "eur_retail": 729.51
   },
@@ -2832,18 +2810,7 @@
     "b2b_sku": "431467KY9809763",
     "brand": "GUCCI",
     "name": "'Jordaan' loafers",
-    "option": "37",
-    "stock": 2,
-    "eur_price": 437.71,
-    "eur_retail": 729.51
-  },
-  {
-    "sku": "431467KY9809763",
-    "spu": "431467KY9809763",
-    "b2b_sku": "431467KY9809763",
-    "brand": "GUCCI",
-    "name": "'Jordaan' loafers",
-    "option": "38",
+    "option": "39",
     "stock": 1,
     "eur_price": 437.71,
     "eur_retail": 729.51
@@ -3245,6 +3212,28 @@
     "eur_retail": 557.38
   },
   {
+    "sku": "8575924HBIZ2566",
+    "spu": "8575924HBIZ2566",
+    "b2b_sku": "8575924HBIZ2566",
+    "brand": "GUCCI",
+    "name": "Web Tape bucket hat ",
+    "option": "M",
+    "stock": 9,
+    "eur_price": 261.07,
+    "eur_retail": 401.64
+  },
+  {
+    "sku": "8575924HBIZ2566",
+    "spu": "8575924HBIZ2566",
+    "b2b_sku": "8575924HBIZ2566",
+    "brand": "GUCCI",
+    "name": "Web Tape bucket hat ",
+    "option": "S",
+    "stock": 6,
+    "eur_price": 261.07,
+    "eur_retail": 401.64
+  },
+  {
     "sku": "857889FAFEN1077",
     "spu": "857889FAFEN1077",
     "b2b_sku": "857889FAFEN1077",
@@ -3273,7 +3262,7 @@
     "brand": "GUCCI",
     "name": "'GG Marmont' reversible belt",
     "option": "80 cm",
-    "stock": 3,
+    "stock": 2,
     "eur_price": 239.75,
     "eur_retail": 368.85
   },
@@ -3377,24 +3366,13 @@
     "eur_retail": 1065.57
   },
   {
-    "sku": "863136AAGDZ2007",
-    "spu": "863136AAGDZ2007",
-    "b2b_sku": "863136AAGDZ2007",
-    "brand": "GUCCI",
-    "name": "'Gucci Jackie 1961' medium shoulder bag",
-    "option": "U",
-    "stock": 3,
-    "eur_price": 1690.58,
-    "eur_retail": 2254.1
-  },
-  {
     "sku": "856477XJHQM9066",
     "spu": "856477XJHQM9066",
     "b2b_sku": "856477XJHQM9066",
     "brand": "GUCCI",
     "name": "'Gucci' T-shirt",
     "option": "M",
-    "stock": 4,
+    "stock": 2,
     "eur_price": 220.9,
     "eur_retail": 401.64
   },
@@ -3470,8 +3448,30 @@
     "b2b_sku": "854304ZAUJI2630",
     "brand": "GUCCI",
     "name": "Workwear jacket",
+    "option": "48 IT",
+    "stock": 1,
+    "eur_price": 946.72,
+    "eur_retail": 1721.31
+  },
+  {
+    "sku": "854304ZAUJI2630",
+    "spu": "854304ZAUJI2630",
+    "b2b_sku": "854304ZAUJI2630",
+    "brand": "GUCCI",
+    "name": "Workwear jacket",
     "option": "50 IT",
     "stock": 2,
+    "eur_price": 946.72,
+    "eur_retail": 1721.31
+  },
+  {
+    "sku": "854304ZAUJI2630",
+    "spu": "854304ZAUJI2630",
+    "b2b_sku": "854304ZAUJI2630",
+    "brand": "GUCCI",
+    "name": "Workwear jacket",
+    "option": "52 IT",
+    "stock": 1,
     "eur_price": 946.72,
     "eur_retail": 1721.31
   },
@@ -3515,7 +3515,7 @@
     "brand": "GUCCI",
     "name": "Silk elastic band GG",
     "option": "U",
-    "stock": 15,
+    "stock": 13,
     "eur_price": 129.1,
     "eur_retail": 172.13
   },
@@ -3536,7 +3536,40 @@
     "b2b_sku": "6774239SFR02587",
     "brand": "GUCCI",
     "name": "'Screener' sneakers",
+    "option": "35",
+    "stock": 1,
+    "eur_price": 481.97,
+    "eur_retail": 803.28
+  },
+  {
+    "sku": "6774239SFR02587",
+    "spu": "6774239SFR02587",
+    "b2b_sku": "6774239SFR02587",
+    "brand": "GUCCI",
+    "name": "'Screener' sneakers",
     "option": "35.5",
+    "stock": 1,
+    "eur_price": 481.97,
+    "eur_retail": 803.28
+  },
+  {
+    "sku": "6774239SFR02587",
+    "spu": "6774239SFR02587",
+    "b2b_sku": "6774239SFR02587",
+    "brand": "GUCCI",
+    "name": "'Screener' sneakers",
+    "option": "37",
+    "stock": 1,
+    "eur_price": 481.97,
+    "eur_retail": 803.28
+  },
+  {
+    "sku": "6774239SFR02587",
+    "spu": "6774239SFR02587",
+    "b2b_sku": "6774239SFR02587",
+    "brand": "GUCCI",
+    "name": "'Screener' sneakers",
+    "option": "37.5",
     "stock": 1,
     "eur_price": 481.97,
     "eur_retail": 803.28
@@ -3584,6 +3617,17 @@
     "stock": 1,
     "eur_price": 1831.96,
     "eur_retail": 2442.62
+  },
+  {
+    "sku": "757892AACAG9055",
+    "spu": "757892AACAG9055",
+    "b2b_sku": "757892AACAG9055",
+    "brand": "GUCCI",
+    "name": "'Ace' sneakers",
+    "option": "7.5",
+    "stock": 1,
+    "eur_price": 346.31,
+    "eur_retail": 532.79
   },
   {
     "sku": "772176FACUL8573",
@@ -3672,17 +3716,6 @@
     "stock": 1,
     "eur_price": 573.77,
     "eur_retail": 1147.54
-  },
-  {
-    "sku": "784049Z7AJV1000",
-    "spu": "784049Z7AJV1000",
-    "b2b_sku": "784049Z7AJV1000",
-    "brand": "GUCCI",
-    "name": "Nastro Web twill pants",
-    "option": "48 IT",
-    "stock": 1,
-    "eur_price": 288.52,
-    "eur_retail": 721.31
   },
   {
     "sku": "784049Z7AJV1000",
@@ -4048,17 +4081,6 @@
     "eur_retail": 180.33
   },
   {
-    "sku": "792082FADJA1042",
-    "spu": "792082FADJA1042",
-    "b2b_sku": "792082FADJA1042",
-    "brand": "GUCCI",
-    "name": "'GG Supreme' crossbody bag",
-    "option": "U",
-    "stock": 2,
-    "eur_price": 786.89,
-    "eur_retail": 983.61
-  },
-  {
     "sku": "798785AADU09094",
     "spu": "798785AADU09094",
     "b2b_sku": "798785AADU09094",
@@ -4077,6 +4099,17 @@
     "name": "'Screener' sneakers",
     "option": "12",
     "stock": 3,
+    "eur_price": 418.03,
+    "eur_retail": 696.72
+  },
+  {
+    "sku": "798785AADU09094",
+    "spu": "798785AADU09094",
+    "b2b_sku": "798785AADU09094",
+    "brand": "GUCCI",
+    "name": "'Screener' sneakers",
+    "option": "8",
+    "stock": 1,
     "eur_price": 418.03,
     "eur_retail": 696.72
   },
@@ -4367,13 +4400,46 @@
     "eur_retail": 680.33
   },
   {
+    "sku": "7748033G0094976",
+    "spu": "7748033G0094976",
+    "b2b_sku": "7748033G0094976",
+    "brand": "GUCCI",
+    "name": "Double-face silk ribbon",
+    "option": "U",
+    "stock": 1,
+    "eur_price": 111.88,
+    "eur_retail": 172.13
+  },
+  {
     "sku": "857018AAF1X2750",
     "spu": "857018AAF1X2750",
     "b2b_sku": "857018AAF1X2750",
     "brand": "GUCCI",
     "name": "'Gucci Shift' sneakers",
-    "option": "11",
+    "option": "10",
+    "stock": 2,
+    "eur_price": 476.23,
+    "eur_retail": 680.33
+  },
+  {
+    "sku": "857018AAF1X2750",
+    "spu": "857018AAF1X2750",
+    "b2b_sku": "857018AAF1X2750",
+    "brand": "GUCCI",
+    "name": "'Gucci Shift' sneakers",
+    "option": "8",
     "stock": 1,
+    "eur_price": 476.23,
+    "eur_retail": 680.33
+  },
+  {
+    "sku": "857018AAF1X2750",
+    "spu": "857018AAF1X2750",
+    "b2b_sku": "857018AAF1X2750",
+    "brand": "GUCCI",
+    "name": "'Gucci Shift' sneakers",
+    "option": "9",
+    "stock": 2,
     "eur_price": 476.23,
     "eur_retail": 680.33
   },
@@ -4411,17 +4477,6 @@
     "eur_retail": 278.69
   },
   {
-    "sku": "864233CVE0W1000",
-    "spu": "864233CVE0W1000",
-    "b2b_sku": "864233CVE0W1000",
-    "brand": "GUCCI",
-    "name": "'Marmont' belt",
-    "option": "100 cm",
-    "stock": 1,
-    "eur_price": 304.3,
-    "eur_retail": 405.74
-  },
-  {
     "sku": "865689J16911012",
     "spu": "865689J16911012",
     "b2b_sku": "865689J16911012",
@@ -4450,6 +4505,17 @@
     "brand": "GUCCI",
     "name": "'Web' shirt",
     "option": "38 IT",
+    "stock": 1,
+    "eur_price": 676.23,
+    "eur_retail": 1229.51
+  },
+  {
+    "sku": "855879ZAUGG9669",
+    "spu": "855879ZAUGG9669",
+    "b2b_sku": "855879ZAUGG9669",
+    "brand": "GUCCI",
+    "name": "'Web' shirt",
+    "option": "40 IT",
     "stock": 1,
     "eur_price": 676.23,
     "eur_retail": 1229.51
@@ -4681,7 +4747,7 @@
     "brand": "GUCCI",
     "name": "'GG' dress",
     "option": "42 IT",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 1221.31,
     "eur_retail": 2442.62
   },
@@ -4747,17 +4813,6 @@
     "brand": "GUCCI",
     "name": "'Morsetto' pumps",
     "option": "37.5",
-    "stock": 1,
-    "eur_price": 452.46,
-    "eur_retail": 754.1
-  },
-  {
-    "sku": "853318AAD4U6207",
-    "spu": "853318AAD4U6207",
-    "b2b_sku": "853318AAD4U6207",
-    "brand": "GUCCI",
-    "name": "'Morsetto' pumps",
-    "option": "40",
     "stock": 1,
     "eur_price": 452.46,
     "eur_retail": 754.1
@@ -4895,17 +4950,6 @@
     "eur_retail": 680.33
   },
   {
-    "sku": "838083HAAL08444",
-    "spu": "838083HAAL08444",
-    "b2b_sku": "838083HAAL08444",
-    "brand": "GUCCI",
-    "name": "'Incrocio GG' sandals",
-    "option": "7",
-    "stock": 1,
-    "eur_price": 452.46,
-    "eur_retail": 565.57
-  },
-  {
     "sku": "851724XKFBC1000",
     "spu": "851724XKFBC1000",
     "b2b_sku": "851724XKFBC1000",
@@ -5005,24 +5049,13 @@
     "eur_retail": 983.61
   },
   {
-    "sku": "8251213G0019060",
-    "spu": "8251213G0019060",
-    "b2b_sku": "8251213G0019060",
-    "brand": "GUCCI",
-    "name": "'Gucci Flora' scarf",
-    "option": "U",
-    "stock": 1,
-    "eur_price": 129.1,
-    "eur_retail": 172.13
-  },
-  {
     "sku": "831830FAFPY8473",
     "spu": "831830FAFPY8473",
     "b2b_sku": "831830FAFPY8473",
     "brand": "GUCCI",
     "name": "GG denim slides",
     "option": "10",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 487.7,
     "eur_retail": 696.72
   },
@@ -5087,51 +5120,7 @@
     "b2b_sku": "865056AAGFF9099",
     "brand": "GUCCI",
     "name": "'Stretch' sneakers",
-    "option": "37",
-    "stock": 2,
-    "eur_price": 447.54,
-    "eur_retail": 639.34
-  },
-  {
-    "sku": "865056AAGFF9099",
-    "spu": "865056AAGFF9099",
-    "b2b_sku": "865056AAGFF9099",
-    "brand": "GUCCI",
-    "name": "'Stretch' sneakers",
-    "option": "38",
-    "stock": 2,
-    "eur_price": 447.54,
-    "eur_retail": 639.34
-  },
-  {
-    "sku": "865056AAGFF9099",
-    "spu": "865056AAGFF9099",
-    "b2b_sku": "865056AAGFF9099",
-    "brand": "GUCCI",
-    "name": "'Stretch' sneakers",
     "option": "39",
-    "stock": 2,
-    "eur_price": 447.54,
-    "eur_retail": 639.34
-  },
-  {
-    "sku": "865056AAGFF9099",
-    "spu": "865056AAGFF9099",
-    "b2b_sku": "865056AAGFF9099",
-    "brand": "GUCCI",
-    "name": "'Stretch' sneakers",
-    "option": "40",
-    "stock": 1,
-    "eur_price": 447.54,
-    "eur_retail": 639.34
-  },
-  {
-    "sku": "865056AAGFF9099",
-    "spu": "865056AAGFF9099",
-    "b2b_sku": "865056AAGFF9099",
-    "brand": "GUCCI",
-    "name": "'Stretch' sneakers",
-    "option": "41",
     "stock": 1,
     "eur_price": 447.54,
     "eur_retail": 639.34
@@ -5212,6 +5201,17 @@
     "stock": 1,
     "eur_price": 698.77,
     "eur_retail": 1270.49
+  },
+  {
+    "sku": "8548829SF102544",
+    "spu": "8548829SF102544",
+    "b2b_sku": "8548829SF102544",
+    "brand": "GUCCI",
+    "name": "'Morsetto' slides",
+    "option": "41",
+    "stock": 1,
+    "eur_price": 372.95,
+    "eur_retail": 532.79
   },
   {
     "sku": "854080AAFU21060",
