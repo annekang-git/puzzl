@@ -640,6 +640,17 @@ async function openContext(isHeadless) {
   });
   const page = ctx.pages()[0] || (await ctx.newPage());
   await page.addInitScript(() => Object.defineProperty(navigator, 'webdriver', { get: () => undefined }));
+
+  // 이미지/폰트/미디어 차단 — 프록시 대역폭 ~80% 절감 + 페이지 로드 가속.
+  // 시세 데이터는 API JSON 이라 영향 없음. KREAM_BLOCK_ASSETS=0 으로 끌 수 있음 (캡차 수동 처리 등).
+  if (process.env.KREAM_BLOCK_ASSETS !== '0') {
+    const BLOCK_TYPES = new Set(['image', 'font', 'media']);
+    await ctx.route('**/*', (route) => {
+      if (BLOCK_TYPES.has(route.request().resourceType())) return route.abort();
+      return route.continue();
+    });
+    console.log('🚫 이미지/폰트/미디어 차단 활성 (KREAM_BLOCK_ASSETS=0 으로 해제)');
+  }
   return { ctx, page };
 }
 
