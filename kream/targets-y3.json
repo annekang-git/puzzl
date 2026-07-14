@@ -435,7 +435,7 @@
     "brand": "Y-3",
     "name": "'Y-3 Regular' T-shirt",
     "option": "L",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 44.26,
     "eur_retail": 73.77
   },
@@ -699,7 +699,18 @@
     "brand": "Y-3",
     "name": "' Y-3 Gradient' pants",
     "option": "M",
-    "stock": 2,
+    "stock": 3,
+    "eur_price": 137.71,
+    "eur_retail": 229.51
+  },
+  {
+    "sku": "HZ9641",
+    "spu": "HZ9641BLACK",
+    "b2b_sku": "HZ9641BLACK",
+    "brand": "Y-3",
+    "name": "' Y-3 Gradient' pants",
+    "option": "S",
+    "stock": 1,
     "eur_price": 137.71,
     "eur_retail": 229.51
   },
@@ -1359,7 +1370,7 @@
     "brand": "Y-3",
     "name": "'Y-3 3 strisce' T-shirt",
     "option": "XS",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 73.77,
     "eur_retail": 147.54
   },
@@ -1524,7 +1535,7 @@
     "brand": "Y-3",
     "name": "Shopping Cordura® ",
     "option": "U",
-    "stock": 8,
+    "stock": 9,
     "eur_price": 44.26,
     "eur_retail": 73.77
   },
