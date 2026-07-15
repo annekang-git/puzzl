@@ -99,17 +99,6 @@
     "eur_retail": 467.21
   },
   {
-    "sku": "S52GC0327M20170101",
-    "spu": "S52GC0327M20170101",
-    "b2b_sku": "S52GC0327M20170101",
-    "brand": "MM6 MAISON MARGIELA",
-    "name": "'Numeric Signature MM6' T-shirt",
-    "option": "M",
-    "stock": 1,
-    "eur_price": 85.66,
-    "eur_retail": 155.74
-  },
-  {
     "sku": "S52KA0563M25025900",
     "spu": "S52KA0563M25025900",
     "b2b_sku": "S52KA0563M25025900",
@@ -284,6 +273,17 @@
     "stock": 1,
     "eur_price": 200.82,
     "eur_retail": 401.64
+  },
+  {
+    "sku": "S66WZ0037P7706HB495",
+    "spu": "S66WZ0037P7706HB495",
+    "b2b_sku": "S66WZ0037P7706HB495",
+    "brand": "MM6 MAISON MARGIELA",
+    "name": "Square toe ballet flats",
+    "option": "37",
+    "stock": 1,
+    "eur_price": 314.35,
+    "eur_retail": 483.61
   },
   {
     "sku": "S62GD0212M20108224",
@@ -468,7 +468,7 @@
     "brand": "MM6 MAISON MARGIELA",
     "name": "Back-to-back construction jeans",
     "option": "28",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 240.98,
     "eur_retail": 401.64
   },
@@ -611,7 +611,7 @@
     "brand": "MM6 MAISON MARGIELA",
     "name": "Jeans Wide-Leg",
     "option": "26",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 221.31,
     "eur_retail": 368.85
   },
@@ -627,13 +627,24 @@
     "eur_retail": 368.85
   },
   {
+    "sku": "S52LA0238M30055994",
+    "spu": "S52LA0238M30055994",
+    "b2b_sku": "S52LA0238M30055994",
+    "brand": "MM6 MAISON MARGIELA",
+    "name": "Jeans Wide-Leg",
+    "option": "28",
+    "stock": 1,
+    "eur_price": 221.31,
+    "eur_retail": 368.85
+  },
+  {
     "sku": "SH0GC0071M20258101",
     "spu": "SH0GC0071M20258101",
     "b2b_sku": "SH0GC0071M20258101",
     "brand": "MM6 MAISON MARGIELA",
     "name": "'Numeric Signature MM6' T-shirt",
     "option": "L",
-    "stock": 4,
+    "stock": 3,
     "eur_price": 93.44,
     "eur_retail": 155.74
   },
@@ -666,17 +677,6 @@
     "brand": "MM6 MAISON MARGIELA",
     "name": "'Numeric Signature MM6' T-shirt",
     "option": "XL",
-    "stock": 2,
-    "eur_price": 93.44,
-    "eur_retail": 155.74
-  },
-  {
-    "sku": "SH0GC0071M20258101",
-    "spu": "SH0GC0071M20258101",
-    "b2b_sku": "SH0GC0071M20258101",
-    "brand": "MM6 MAISON MARGIELA",
-    "name": "'Numeric Signature MM6' T-shirt",
-    "option": "XXL",
     "stock": 1,
     "eur_price": 93.44,
     "eur_retail": 155.74
@@ -1109,17 +1109,6 @@
     "stock": 1,
     "eur_price": 327.05,
     "eur_retail": 467.21
-  },
-  {
-    "sku": "S52HA0285M13044900",
-    "spu": "S52HA0285M13044900",
-    "b2b_sku": "S52HA0285M13044900",
-    "brand": "MM6 MAISON MARGIELA",
-    "name": "Distressed sweater",
-    "option": "S",
-    "stock": 1,
-    "eur_price": 180.74,
-    "eur_retail": 401.64
   },
   {
     "sku": "S52KA0546M25025900",
@@ -1612,17 +1601,6 @@
     "brand": "MM6 MAISON MARGIELA",
     "name": "Jacquard label shirt",
     "option": "50 IT",
-    "stock": 1,
-    "eur_price": 241.8,
-    "eur_retail": 483.61
-  },
-  {
-    "sku": "SH0DT0025MTN135961",
-    "spu": "SH0DT0025MTN135961",
-    "b2b_sku": "SH0DT0025MTN135961",
-    "brand": "MM6 MAISON MARGIELA",
-    "name": "'Numeric Signature MM6' shirt",
-    "option": "48 IT",
     "stock": 1,
     "eur_price": 241.8,
     "eur_retail": 483.61
@@ -2756,7 +2734,7 @@
     "brand": "MM6 MAISON MARGIELA",
     "name": "Asymmetrical construction skirt",
     "option": "38 IT",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 225.41,
     "eur_retail": 450.82
   },
@@ -2948,17 +2926,6 @@
     "eur_retail": 401.64
   },
   {
-    "sku": "S59WZ0099P3628T8013",
-    "spu": "S59WZ0099P3628T8013",
-    "b2b_sku": "S59WZ0099P3628T8013",
-    "brand": "MM6 MAISON MARGIELA",
-    "name": "'Anatomic' ballet flats",
-    "option": "39",
-    "stock": 1,
-    "eur_price": 281.15,
-    "eur_retail": 401.64
-  },
-  {
     "sku": "S52AM0314M30016961",
     "spu": "S52AM0314M30016961",
     "b2b_sku": "S52AM0314M30016961",
@@ -3042,7 +3009,7 @@
     "brand": "MM6 MAISON MARGIELA",
     "name": "Bi-material shirt",
     "option": "48 IT",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 225.41,
     "eur_retail": 450.82
   },
@@ -3153,17 +3120,6 @@
     "name": "'XT4 Mule' sneakers MM6 Maison Margiela x Salomon",
     "option": "38 2/3",
     "stock": 2,
-    "eur_price": 206.56,
-    "eur_retail": 295.08
-  },
-  {
-    "sku": "S59WS0240P8163HB424",
-    "spu": "S59WS0240P8163HB424",
-    "b2b_sku": "S59WS0240P8163HB424",
-    "brand": "MM6 MAISON MARGIELA",
-    "name": "'XT4 Mule' sneakers MM6 Maison Margiela x Salomon",
-    "option": "39 1/3",
-    "stock": 1,
     "eur_price": 206.56,
     "eur_retail": 295.08
   },
