@@ -784,7 +784,10 @@ async function main() {
   });
 
   // 결과 파일을 미리 정해두고 chunk 마다 덮어쓰기 (incremental save)
-  const outFile = path.join(RESULTS_DIR, `kream_market_${nowKstStamp()}.json`);
+  // KREAM_OUT_FILE 지정 시 그 경로로 직접 저장 (병렬 실행 시 파일명 충돌 방지)
+  const outFile = process.env.KREAM_OUT_FILE
+    ? path.resolve(__dirname, process.env.KREAM_OUT_FILE)
+    : path.join(RESULTS_DIR, `kream_market_${nowKstStamp()}.json`);
   const saveProgress = () => {
     const out = {
       fetched_at: new Date().toISOString(),

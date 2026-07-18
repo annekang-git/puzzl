@@ -387,8 +387,11 @@ for (let i = 0; i < targets.length; i++) {
 
 const elapsed = ((Date.now() - t0) / 1000).toFixed(0);
 const matched = results.filter((r) => r.matched).length;
-// 파일명은 브라우저 버전과 동일 패턴 — daily 스크립트의 rename 로직이 그대로 인식
-const outFile = path.join(RESULTS_DIR, `kream_market_${nowKstStamp()}.json`);
+// KREAM_OUT_FILE 지정 시 그 경로로 직접 저장 (병렬 실행 시 파일명 충돌 방지).
+// 미지정 시 브라우저 버전과 동일 패턴 — daily 스크립트의 rename 로직이 그대로 인식.
+const outFile = process.env.KREAM_OUT_FILE
+  ? path.resolve(__dirname, process.env.KREAM_OUT_FILE)
+  : path.join(RESULTS_DIR, `kream_market_${nowKstStamp()}.json`);
 fs.writeFileSync(outFile, JSON.stringify({
   fetched_at: new Date().toISOString(), mode: 'api-direct',
   total_targets: targets.length, matched, failed: targets.length - matched,
