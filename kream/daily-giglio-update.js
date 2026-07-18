@@ -124,7 +124,9 @@ try {
     console.log(`\n\n${'─'.repeat(60)}\n🏷  ${b.brand} → ${b.slug}\n${'─'.repeat(60)}`);
     const tBrand = Date.now();
     try {
-      run('node', ['fetch-product-market.js', `targets-${b.slug}.json`]);
+      // API 직접 호출 모드 (2026-07-18 전환) — 브라우저 방식 fallback: KREAM_FETCH_BROWSER=1
+      const fetchScript = process.env.KREAM_FETCH_BROWSER === '1' ? 'fetch-product-market.js' : 'fetch-product-market-api.js';
+      run('node', [fetchScript, `targets-${b.slug}.json`]);
 
       const created = fs.readdirSync(RESULTS_DIR)
         .filter((f) => /^kream_market_\d{4}-\d{2}-\d{2}_/.test(f) && f.endsWith('.json'))

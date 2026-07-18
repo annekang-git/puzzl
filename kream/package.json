@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "csv-parse": "^7.0.1",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "undici": "^8.7.0"
   },
   "devDependencies": {
     "playwright": "^1.50.0"

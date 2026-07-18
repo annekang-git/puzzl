@@ -213,7 +213,9 @@ for (const b of BRANDS) {
   console.log(`\n\n${'─'.repeat(60)}\n🏷  ${label}\n${'─'.repeat(60)}`);
   try {
     // fetch 실행
-    run('node', ['fetch-product-market.js', `targets-${b.slug}.json`]);
+    // API 직접 호출 모드 (2026-07-18 전환) — 브라우저 방식 fallback: KREAM_FETCH_BROWSER=1
+    const fetchScript = process.env.KREAM_FETCH_BROWSER === '1' ? 'fetch-product-market.js' : 'fetch-product-market-api.js';
+    run('node', [fetchScript, `targets-${b.slug}.json`]);
 
     // fetch 가 만든 최신 kream_market_YYYY-* 파일 찾기
     const created = fs.readdirSync(RESULTS_DIR)
