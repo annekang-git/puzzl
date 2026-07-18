@@ -51,7 +51,15 @@ const rk = () => crypto.randomUUID();
 
 // ── 프록시 (VPS 용 — KREAM 이 datacenter IP 차단) ──
 // fetch: undici ProxyAgent / 브라우저 harvest: playwright proxy 옵션
+// KREAM_PROXY_LIST (Webshare 형식, 콤마 구분) 있으면 무작위 1개 선택 — IP 부하 분산
 function getProxyConfig() {
+  const list = (process.env.KREAM_PROXY_LIST || '').split(/[,\s]+/).map((s) => s.trim()).filter(Boolean);
+  if (list.length > 0) {
+    const pick = list[Math.floor(Math.random() * list.length)];
+    const [host, port, username, password] = pick.split(':');
+    console.log(`🎲 프록시 로테이션: ${list.length}개 중 ${host}:${port} 선택`);
+    return { server: `http://${host}:${port}`, ...(username ? { username, password: password || '' } : {}) };
+  }
   const server = process.env.KREAM_PROXY_SERVER;
   if (!server) return null;
   return {

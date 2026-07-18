@@ -611,14 +611,27 @@ const CHUNK_SIZE = Number(process.env.KREAM_CHUNK_SIZE ?? 50);
 //   KREAM_PROXY_USER=username-country-kr
 //   KREAM_PROXY_PASS=password
 // 설정 안 되어 있으면 프록시 없이 직접 접속 (Mac mini, 한국 IP 환경).
+// KREAM_PROXY_LIST="ip:port:user:pass,ip:port:user:pass,..." (Webshare 다운로드 형식) 가 있으면
+// 프로세스마다 무작위 1개 선택 — 단일 IP 에 부하가 집중돼 차단당하는 것 방지 (매 run 마다 다른 IP).
+// 없으면 기존 KREAM_PROXY_SERVER/USER/PASS 단일 설정 사용.
+let _chosenProxy;
 function getProxyConfig() {
+  if (_chosenProxy !== undefined) return _chosenProxy;
+  const list = (process.env.KREAM_PROXY_LIST || '').split(/[,\s]+/).map((s) => s.trim()).filter(Boolean);
+  if (list.length > 0) {
+    const pick = list[Math.floor(Math.random() * list.length)];
+    const [host, port, username, password] = pick.split(':');
+    _chosenProxy = { server: `http://${host}:${port}`, ...(username ? { username, password: password || '' } : {}) };
+    console.log(`🎲 프록시 로테이션: ${list.length}개 중 ${host}:${port} 선택`);
+    return _chosenProxy;
+  }
   const server = process.env.KREAM_PROXY_SERVER;
-  if (!server) return null;
-  return {
+  _chosenProxy = server ? {
     server,
     ...(process.env.KREAM_PROXY_USER ? { username: process.env.KREAM_PROXY_USER } : {}),
     ...(process.env.KREAM_PROXY_PASS ? { password: process.env.KREAM_PROXY_PASS } : {}),
-  };
+  } : null;
+  return _chosenProxy;
 }
 
 // 브라우저 컨텍스트 열기 — chunk 마다 호출
