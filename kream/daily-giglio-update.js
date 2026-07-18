@@ -26,6 +26,7 @@ const BRANDS = [
   { brand: 'MIU MIU',        slug: 'giglio_miumiu' },
   { brand: 'C.P. COMPANY',   slug: 'giglio_cpcompany' },
   { brand: 'OFF-WHITE',      slug: 'giglio_offwhite' },
+  { brand: 'DIOR',           slug: 'giglio_dior' },
 ];
 const KEEP_DAYS = 2;
 
