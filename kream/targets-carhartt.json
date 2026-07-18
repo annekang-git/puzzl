@@ -154,6 +154,17 @@
     "eur_retail": 90.16
   },
   {
+    "sku": "I0304680160",
+    "spu": "I0304680160",
+    "b2b_sku": "I0304680160",
+    "brand": "CARHARTT WIP",
+    "name": "'Landon' jeans",
+    "option": "34",
+    "stock": 1,
+    "eur_price": 67.62,
+    "eur_retail": 90.16
+  },
+  {
     "sku": "I03397534HXX",
     "spu": "I03397534HXX",
     "b2b_sku": "I03397534HXX",
@@ -1441,17 +1452,6 @@
     "eur_retail": 130.33
   },
   {
-    "sku": "I0350623H4XX",
-    "spu": "I0350623H4XX",
-    "b2b_sku": "I0350623H4XX",
-    "brand": "CARHARTT WIP",
-    "name": "'Chase' swimsuit",
-    "option": "M",
-    "stock": 1,
-    "eur_price": 29.3,
-    "eur_retail": 53.28
-  },
-  {
     "sku": "I03366400JXX",
     "spu": "I03366400JXX",
     "b2b_sku": "I03366400JXX",
@@ -1791,6 +1791,28 @@
     "stock": 8,
     "eur_price": 33.81,
     "eur_retail": 45.08
+  },
+  {
+    "sku": "I03715300KXX",
+    "spu": "I03715300KXX",
+    "b2b_sku": "I03715300KXX",
+    "brand": "CARHARTT WIP",
+    "name": "'Small Heart' jacket",
+    "option": "M",
+    "stock": 1,
+    "eur_price": 73.77,
+    "eur_retail": 98.36
+  },
+  {
+    "sku": "I03715300KXX",
+    "spu": "I03715300KXX",
+    "b2b_sku": "I03715300KXX",
+    "brand": "CARHARTT WIP",
+    "name": "'Small Heart' jacket",
+    "option": "S",
+    "stock": 1,
+    "eur_price": 73.77,
+    "eur_retail": 98.36
   },
   {
     "sku": "I03043702XX",
@@ -2607,17 +2629,6 @@
     "eur_retail": 48.36
   },
   {
-    "sku": "I0350623RJXX",
-    "spu": "I0350623RJXX",
-    "b2b_sku": "I0350623RJXX",
-    "brand": "CARHARTT WIP",
-    "name": "'Chase' swimsuit",
-    "option": "L",
-    "stock": 1,
-    "eur_price": 29.3,
-    "eur_retail": 53.28
-  },
-  {
     "sku": "I03146811XX",
     "spu": "I03146811XX",
     "b2b_sku": "I03146811XX",
@@ -2726,6 +2737,17 @@
     "stock": 1,
     "eur_price": 53.65,
     "eur_retail": 97.54
+  },
+  {
+    "sku": "I03618505GD",
+    "spu": "I03618505GD",
+    "b2b_sku": "I03618505GD",
+    "brand": "CARHARTT WIP",
+    "name": "'Nelson Waffle' T-shirt",
+    "option": "L",
+    "stock": 1,
+    "eur_price": 39.59,
+    "eur_retail": 56.56
   },
   {
     "sku": "I03641189XX",
@@ -3199,6 +3221,17 @@
     "stock": 1,
     "eur_price": 53.28,
     "eur_retail": 106.56
+  },
+  {
+    "sku": "I0321281WZXX",
+    "spu": "I0321281WZXX",
+    "b2b_sku": "I0321281WZXX",
+    "brand": "CARHARTT WIP",
+    "name": "'Pocket Heart' T-shirt",
+    "option": "XL",
+    "stock": 1,
+    "eur_price": 25.82,
+    "eur_retail": 36.89
   },
   {
     "sku": "I03467089XX",
@@ -3779,7 +3812,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Single Knee' pants",
     "option": "34",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 67.17,
     "eur_retail": 122.13
   },
@@ -4145,6 +4178,17 @@
     "stock": 3,
     "eur_price": 39.96,
     "eur_retail": 53.28
+  },
+  {
+    "sku": "I0279428902",
+    "spu": "I0279428902",
+    "b2b_sku": "I0279428902",
+    "brand": "CARHARTT WIP",
+    "name": "'Single Knee' bermuda shorts",
+    "option": "33",
+    "stock": 1,
+    "eur_price": 56.8,
+    "eur_retail": 81.15
   },
   {
     "sku": "I0349128902",
@@ -4614,17 +4658,6 @@
     "b2b_sku": "I0362033K5XX",
     "brand": "CARHARTT WIP",
     "name": "'Leavel' shirt",
-    "option": "L",
-    "stock": 1,
-    "eur_price": 40.12,
-    "eur_retail": 72.95
-  },
-  {
-    "sku": "I0362033K5XX",
-    "spu": "I0362033K5XX",
-    "b2b_sku": "I0362033K5XX",
-    "brand": "CARHARTT WIP",
-    "name": "'Leavel' shirt",
     "option": "M",
     "stock": 1,
     "eur_price": 40.12,
@@ -4926,6 +4959,50 @@
     "stock": 2,
     "eur_price": 27.67,
     "eur_retail": 36.89
+  },
+  {
+    "sku": "I0326441DQXX",
+    "spu": "I0326441DQXX",
+    "b2b_sku": "I0326441DQXX",
+    "brand": "CARHARTT WIP",
+    "name": "'Casey' hoodie",
+    "option": "L",
+    "stock": 1,
+    "eur_price": 52.25,
+    "eur_retail": 69.67
+  },
+  {
+    "sku": "I0326441DQXX",
+    "spu": "I0326441DQXX",
+    "b2b_sku": "I0326441DQXX",
+    "brand": "CARHARTT WIP",
+    "name": "'Casey' hoodie",
+    "option": "M",
+    "stock": 2,
+    "eur_price": 52.25,
+    "eur_retail": 69.67
+  },
+  {
+    "sku": "I0326441DQXX",
+    "spu": "I0326441DQXX",
+    "b2b_sku": "I0326441DQXX",
+    "brand": "CARHARTT WIP",
+    "name": "'Casey' hoodie",
+    "option": "S",
+    "stock": 3,
+    "eur_price": 52.25,
+    "eur_retail": 69.67
+  },
+  {
+    "sku": "I0326441DQXX",
+    "spu": "I0326441DQXX",
+    "b2b_sku": "I0326441DQXX",
+    "brand": "CARHARTT WIP",
+    "name": "'Casey' hoodie",
+    "option": "XS",
+    "stock": 1,
+    "eur_price": 52.25,
+    "eur_retail": 69.67
   },
   {
     "sku": "I02639100FXX",
@@ -5231,7 +5308,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Dog Bed' kennel",
     "option": "U",
-    "stock": 5,
+    "stock": 4,
     "eur_price": 58.52,
     "eur_retail": 97.54
   },
@@ -5429,7 +5506,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Single Knee' pants",
     "option": "33",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 67.17,
     "eur_retail": 122.13
   },
@@ -5440,7 +5517,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Single Knee' pants",
     "option": "34",
-    "stock": 3,
+    "stock": 2,
     "eur_price": 67.17,
     "eur_retail": 122.13
   },
@@ -5462,17 +5539,6 @@
     "brand": "CARHARTT WIP",
     "name": "'Spoiled' T-shirt",
     "option": "L",
-    "stock": 1,
-    "eur_price": 24.79,
-    "eur_retail": 45.08
-  },
-  {
-    "sku": "I03626002XX",
-    "spu": "I03626002XX",
-    "b2b_sku": "I03626002XX",
-    "brand": "CARHARTT WIP",
-    "name": "'Spoiled' T-shirt",
-    "option": "M",
     "stock": 1,
     "eur_price": 24.79,
     "eur_retail": 45.08
@@ -6166,7 +6232,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Wiptopia' T-shirt",
     "option": "M",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 20.08,
     "eur_retail": 40.16
   },
@@ -6496,7 +6562,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Aron' pants",
     "option": "32",
-    "stock": 3,
+    "stock": 4,
     "eur_price": 67.62,
     "eur_retail": 90.16
   },
@@ -6925,7 +6991,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Shattered' T-shirt",
     "option": "XL",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 24.79,
     "eur_retail": 45.08
   },
@@ -7057,7 +7123,7 @@
     "brand": "CARHARTT WIP",
     "name": "'OG Single Knee' pants",
     "option": "XL",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 49.14,
     "eur_retail": 89.34
   },
@@ -7134,7 +7200,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Mercer' shopping bag",
     "option": "U",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 40.12,
     "eur_retail": 72.95
   },
@@ -7390,6 +7456,17 @@
     "stock": 1,
     "eur_price": 92.21,
     "eur_retail": 122.95
+  },
+  {
+    "sku": "I03717000AXX",
+    "spu": "I03717000AXX",
+    "b2b_sku": "I03717000AXX",
+    "brand": "CARHARTT WIP",
+    "name": "'Small Heart' T-shirt",
+    "option": "XS",
+    "stock": 2,
+    "eur_price": 27.67,
+    "eur_retail": 36.89
   },
   {
     "sku": "I02995602XX",
