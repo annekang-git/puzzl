@@ -641,15 +641,22 @@ async function openContext(isHeadless) {
   const page = ctx.pages()[0] || (await ctx.newPage());
   await page.addInitScript(() => Object.defineProperty(navigator, 'webdriver', { get: () => undefined }));
 
-  // 이미지/폰트/미디어 차단 — 프록시 대역폭 ~80% 절감 + 페이지 로드 가속.
-  // 시세 데이터는 API JSON 이라 영향 없음. KREAM_BLOCK_ASSETS=0 으로 끌 수 있음 (캡차 수동 처리 등).
+  // 이미지/폰트 차단 — CDP Network.setBlockedURLs 사용.
+  // 주의: Playwright 의 ctx.route() 는 브라우저 HTTP 캐시를 무력화해서 (JS 번들 15MB+ 매번 재다운로드)
+  // 대역폭이 오히려 늘어남 (실측 +64%). CDP 차단은 나머지 요청을 인터셉트하지 않아 캐시 유지됨.
+  // KREAM_BLOCK_ASSETS=0 으로 끌 수 있음 (캡차 수동 처리 등).
   if (process.env.KREAM_BLOCK_ASSETS !== '0') {
-    const BLOCK_TYPES = new Set(['image', 'font', 'media']);
-    await ctx.route('**/*', (route) => {
-      if (BLOCK_TYPES.has(route.request().resourceType())) return route.abort();
-      return route.continue();
-    });
-    console.log('🚫 이미지/폰트/미디어 차단 활성 (KREAM_BLOCK_ASSETS=0 으로 해제)');
+    try {
+      const cdp = await ctx.newCDPSession(page);
+      await cdp.send('Network.enable');
+      await cdp.send('Network.setBlockedURLs', {
+        urls: ['*.jpg', '*.jpeg', '*.png', '*.webp', '*.gif', '*.avif', '*.svg',
+               '*.woff', '*.woff2', '*.ttf', '*.otf', '*.mp4', '*.webm'],
+      });
+      console.log('🚫 이미지/폰트 차단 활성 (CDP, 캐시 유지 — KREAM_BLOCK_ASSETS=0 으로 해제)');
+    } catch (e) {
+      console.log(`   ⚠️  CDP 차단 설정 실패 (무시하고 계속): ${e.message.slice(0, 60)}`);
+    }
   }
   return { ctx, page };
 }
