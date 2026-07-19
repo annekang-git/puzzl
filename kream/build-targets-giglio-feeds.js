@@ -63,7 +63,7 @@ const BRAND_SPECS = specs.length > 0
       { brand: 'BOTTEGA VENETA', slug: 'giglio_bottega' },
       { brand: 'MIU MIU', slug: 'giglio_miumiu' },
       { brand: 'C.P. COMPANY', slug: 'giglio_cpcompany' },
-      { brand: 'OFF-WHITE', slug: 'giglio_offwhite' },
+      { brand: 'MONCLER', slug: 'giglio_moncler' },
       { brand: 'DIOR', slug: 'giglio_dior' },
     ];
 const WANTED = new Map(BRAND_SPECS.map((b) => [b.brand, b.slug]));

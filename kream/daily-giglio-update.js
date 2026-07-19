@@ -27,7 +27,7 @@ const RESULTS_DIR = path.join(__dirname, 'results');
 // VPS 2 vCPU / 4GB RAM 기준 2 레인이 최적 (부하 균형: 큰 브랜드를 서로 다른 레인에 배치).
 const LANES = [
   [ // 레인 0
-    { brand: 'OFF-WHITE', slug: 'giglio_offwhite' },
+    { brand: 'MONCLER', slug: 'giglio_moncler' },
   ],
   [ // 레인 1
     { brand: 'C.P. COMPANY',   slug: 'giglio_cpcompany' },
