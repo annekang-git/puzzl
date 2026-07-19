@@ -106,9 +106,23 @@ const CP_EXCLUDE = new Set([
   'FELPA', 'PANTALONE', 'PANTALONI', 'GIACCA', 'GIUBBOTTO', 'CAPPELLO',
 ]);
 
+// MONCLER: 액세서리만 제외 (2026-07-19). 의류+신발은 유지.
+// 제외 = 모자/가방류/선글라스/안경테/지갑/키링/스카프/담요/커버 등 비의류.
+const MONCLER_EXCLUDE = new Set([
+  'HAT', 'SUNGLASSES', 'OPTICAL FRAMES', 'SCARF', 'WALLET', 'KEYRING', 'KEY CHAIN',
+  'HANDBAG', 'MINI BAG', 'BACKPACK', 'TRAVEL BAG', 'TOTE BAG', 'CROSSBODY BAG',
+  'SHOULDER BAG', 'BAG', 'BRIEFCASE', 'BELT BAG', 'CLUTCH', 'BLANKET SET', 'COVER',
+  // IT
+  'CAPPELLO', 'OCCHIALI DA SOLE', 'SCIARPA', 'PORTAFOGLIO', 'PORTACHIAVI',
+  'BORSA', 'ZAINO', 'POCHETTE', 'MARSUPIO', 'TRACOLLA',
+]);
+// bags 변형 방어 — BAG/BORSA 포함되면 액세서리로 간주 (의류/신발엔 이 토큰 없음)
+const MONCLER_EXCLUDE_KEYWORDS = ['BAG', 'BORSA'];
+
 const BRAND_CATEGORY_EXCLUDE = {
   'BOTTEGA VENETA': BV_EXCLUDE,
   'C.P. COMPANY': CP_EXCLUDE,
+  'MONCLER': MONCLER_EXCLUDE,
 };
 
 // MIU MIU: 가방만 크롤 (include 방식 — 이 키워드에 안 걸리는 카테고리는 전부 제외)
@@ -128,6 +142,7 @@ function shouldSkipCategory(brand, category) {
   if (!ex) return false;
   if (ex.has(c)) return true;
   if (brand === 'BOTTEGA VENETA' && BV_EXCLUDE_KEYWORDS.some((k) => c.includes(k))) return true;
+  if (brand === 'MONCLER' && MONCLER_EXCLUDE_KEYWORDS.some((k) => c.includes(k))) return true;
   return false;
 }
 
