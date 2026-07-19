@@ -33,7 +33,6 @@ const BRANDS = [
   { dresscode: 'TOM FORD',          slug: 'tomford', source: 'dresscode' },
   { dresscode: 'MONCLER',           slug: 'moncler', source: 'dresscode' },
   { dresscode: 'GUCCI',             slug: 'gucci', source: 'dresscode' },
-  { dresscode: 'SAINT LAURENT',     slug: 'saintlaurent', source: 'dresscode' },
   { dresscode: 'THE ROW',           slug: 'therow', source: 'dresscode' },
   { dresscode: 'KITON',             slug: 'kiton', source: 'dresscode' },
   { dresscode: 'VIVIENNE WESTWOOD', slug: 'viviennewestwood', source: 'dresscode' },

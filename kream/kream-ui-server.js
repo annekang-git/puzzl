@@ -101,6 +101,34 @@ app.get('/api/honey-data', (req, res) => {
   res.json({ fetched_at: new Date().toISOString(), brands: brandsList, total_with_bid: allResults.length, results: allResults });
 });
 
+// 🎯 자동입찰: 모든 브랜드 최신 파일에서 매칭+EUR가격 있는 상품 전체 반환
+//    (빈집=판매입찰 없음 도 포함해야 하므로 bid 필터 없음. 조건 판정은 frontend)
+app.get('/api/autobid-data', (req, res) => {
+  if (!fs.existsSync(RESULTS_DIR)) return res.json({ brands: [], results: [] });
+  const BRAND_RE = /^kream_market_([a-z0-9_]+)_(\d{4})\.json$/;
+  const files = fs.readdirSync(RESULTS_DIR)
+    .filter((f) => BRAND_RE.test(f))
+    .map((f) => { const m = f.match(BRAND_RE); return { f, slug: m[1], date: m[2] }; });
+  const latestPerBrand = {};
+  for (const item of files) {
+    if (!latestPerBrand[item.slug] || latestPerBrand[item.slug].date < item.date) latestPerBrand[item.slug] = item;
+  }
+  const allResults = [];
+  const brandsList = [];
+  for (const slug of Object.keys(latestPerBrand).sort()) {
+    const info = latestPerBrand[slug];
+    brandsList.push({ slug, file: info.f, date: info.date });
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(RESULTS_DIR, info.f), 'utf-8'));
+      for (const r of (data.results || [])) {
+        if (!r.matched || r.eur_price == null) continue;
+        allResults.push({ ...r, brand_slug: slug, _file: info.f });
+      }
+    } catch (_) {}
+  }
+  res.json({ fetched_at: new Date().toISOString(), brands: brandsList, total: allResults.length, results: allResults });
+});
+
 // 메인 UI
 app.get('/', (req, res) => {
   res.set('Content-Type', 'text/html; charset=utf-8');
@@ -195,6 +223,7 @@ const HTML = `<!DOCTYPE html>
   <div class="tabs">
     <button class="tab active" data-tab="normal" onclick="switchTab('normal')">📊 브랜드별</button>
     <button class="tab"        data-tab="honey"  onclick="switchTab('honey')">🍯 꿀단지</button>
+    <button class="tab"        data-tab="autobid" onclick="switchTab('autobid')">🎯 자동입찰</button>
   </div>
 
   <div id="tab-normal" class="tab-content active">
@@ -276,6 +305,47 @@ const HTML = `<!DOCTYPE html>
       <div class="empty">꿀단지 로딩중...</div>
     </div>
   </div><!-- /tab-honey -->
+
+  <div id="tab-autobid" class="tab-content">
+    <div class="controls">
+      <div class="control-group">
+        <label>EUR → KRW 환율</label>
+        <input id="ab-eur-rate" type="number" value="1740" step="10" onchange="renderAutobid()">
+      </div>
+      <div class="control-group">
+        <label>브랜드 필터</label>
+        <select id="ab-brand-filter" onchange="renderAutobid()">
+          <option value="">전체 브랜드</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label>SKU 검색</label>
+        <input id="ab-sku-filter" type="text" placeholder="필터..." oninput="renderAutobid()">
+      </div>
+      <div class="control-group">
+        <label>조건 필터 (하나라도 충족 시 표시)</label>
+        <div style="display:flex; gap:12px; padding-top:4px;">
+          <label style="font-weight:400; text-transform:none; font-size:13px; cursor:pointer;"><input type="checkbox" id="ab-c1" checked onchange="renderAutobid()"> ① 순마진 25%↑</label>
+          <label style="font-weight:400; text-transform:none; font-size:13px; cursor:pointer;"><input type="checkbox" id="ab-c2" checked onchange="renderAutobid()"> ② 절대마진 15만↑</label>
+          <label style="font-weight:400; text-transform:none; font-size:13px; cursor:pointer;"><input type="checkbox" id="ab-c3" checked onchange="renderAutobid()"> ③ 빈집</label>
+        </div>
+      </div>
+      <div class="stat">전체 매칭: <strong id="ab-total">0</strong></div>
+      <div class="stat">표시: <strong id="ab-shown">0</strong></div>
+    </div>
+
+    <div style="font-size:12px; color:#777; margin-bottom:10px; line-height:1.7;">
+      ① <b>순마진 25%↑</b> — 즉시매도 기준 최종 순마진 25% 이상 (빠른 판매 후보) ·
+      ② <b>절대마진 15만↑</b> — 순이익 150,000원 이상 (고수익) ·
+      ③ <b>빈집</b> — 판매입찰 없음(경쟁 판매자 X):
+      <span style="color:#d4a017;">★★★★★ 구매입찰 있음</span>(즉시 진입) /
+      <span style="color:#999;">★★★☆☆ 구매입찰 없음</span>(시장 선점)
+    </div>
+
+    <div id="ab-table-container">
+      <div class="empty">자동입찰 로딩중...</div>
+    </div>
+  </div><!-- /tab-autobid -->
 </main>
 
 <script>
@@ -568,6 +638,7 @@ async function switchTab(name) {
   document.querySelectorAll('.tab').forEach((b) => b.classList.toggle('active', b.dataset.tab === name));
   document.querySelectorAll('.tab-content').forEach((c) => c.classList.toggle('active', c.id === 'tab-' + name));
   if (name === 'honey' && !HONEY) await loadHoneyData();
+  if (name === 'autobid' && !AUTOBID) await loadAutobidData();
 }
 
 async function loadHoneyData() {
@@ -714,6 +785,165 @@ function renderHoney() {
   }
   html += '</tbody></table>';
   document.getElementById('honey-table-container').innerHTML = html;
+}
+
+// ─────────────────────────────────────────────
+// 🎯 자동입찰 탭 — 순마진/절대마진/빈집 조건
+// ─────────────────────────────────────────────
+let AUTOBID = null;
+let AB_SORT_KEY = 'netProfit';
+let AB_SORT_DESC = true;
+
+async function loadAutobidData() {
+  document.getElementById('ab-table-container').innerHTML = '<div class="empty">자동입찰 데이터 수집중...</div>';
+  const r = await fetch('/api/autobid-data');
+  if (!r.ok) { document.getElementById('ab-table-container').innerHTML = '<div class="empty">에러: ' + r.status + '</div>'; return; }
+  AUTOBID = await r.json();
+  const sel = document.getElementById('ab-brand-filter');
+  sel.innerHTML = '<option value="">전체 브랜드 (' + (AUTOBID.brands?.length || 0) + ')</option>';
+  for (const b of (AUTOBID.brands || [])) {
+    const o = document.createElement('option');
+    o.value = b.slug; o.textContent = b.slug + '  (' + b.date + ')';
+    sel.appendChild(o);
+  }
+  renderAutobid();
+}
+
+function sortAutobid(key) {
+  if (AB_SORT_KEY === key) AB_SORT_DESC = !AB_SORT_DESC;
+  else { AB_SORT_KEY = key; AB_SORT_DESC = true; }
+  renderAutobid();
+}
+
+// 자동입찰 판정: 각 row 에 조건/빈집등급 계산.
+// 순익 = (판매금-매입액) - 5000 - 판매금×5.7%.  판매금 = 즉시매도(구매입찰 highest_bid).
+function abCompute(r, eurRate) {
+  const cost = (r.eur_price || 0) * eurRate;
+  const ask = r.market?.lowest_ask;
+  const bid = r.market?.highest_bid;
+  const hasAsk = ask != null && ask > 0;   // 판매입찰(경쟁 판매자) 존재
+  const hasBid = bid != null && bid > 0;   // 구매입찰(대기 수요) 존재
+  const emptyHouse = !hasAsk;              // 빈집 = 판매입찰 없음
+  // 순마진 — 즉시매도(구매입찰) 가격 기준. 구매입찰 없으면 계산 불가.
+  let netProfit = null, netPct = null;
+  if (hasBid && cost > 0) {
+    netProfit = Math.round((bid - cost) - 5000 - bid * 0.057);
+    netPct = netProfit / cost * 100;
+  }
+  const c1 = netPct != null && netPct >= 25;      // ① 순마진 25%↑
+  const c2 = netProfit != null && netProfit >= 150000; // ② 절대마진 15만↑
+  const c3 = emptyHouse;                            // ③ 빈집
+  const stars = emptyHouse ? (hasBid ? 5 : 3) : 0;  // ★★★★★ 구매입찰있음 / ★★★☆☆ 없음
+  return { cost, ask, bid, hasAsk, hasBid, emptyHouse, netProfit, netPct, c1, c2, c3, stars };
+}
+
+function renderAutobid() {
+  if (!AUTOBID) return;
+  const eurRate = Number(document.getElementById('ab-eur-rate').value) || 0;
+  const brandFilter = document.getElementById('ab-brand-filter').value;
+  const skuFilter = document.getElementById('ab-sku-filter').value.toUpperCase().trim();
+  const useC1 = document.getElementById('ab-c1').checked;
+  const useC2 = document.getElementById('ab-c2').checked;
+  const useC3 = document.getElementById('ab-c3').checked;
+
+  let rows = (AUTOBID.results || []).map((r) => ({ ...r, _ab: abCompute(r, eurRate), _optOk: isOptionEffectivelyMatched(r) }));
+
+  // 조건: 선택된 것 중 하나라도 충족 (OR)
+  rows = rows.filter((r) => {
+    const a = r._ab;
+    return (useC1 && a.c1) || (useC2 && a.c2) || (useC3 && a.c3);
+  });
+  if (brandFilter) rows = rows.filter((r) => r.brand_slug === brandFilter);
+  if (skuFilter) rows = rows.filter((r) => (r.sku || '').toUpperCase().includes(skuFilter) || (r.b2b_sku || '').toUpperCase().includes(skuFilter));
+
+  rows.sort((a, b) => {
+    const get = (r) => {
+      switch (AB_SORT_KEY) {
+        case 'brand':     return r.brand_slug || '';
+        case 'sku':       return r.sku || '';
+        case 'stock':     return r.stock ?? -1;
+        case 'cost':      return r._ab.cost ?? -1;
+        case 'ask':       return r.market?.lowest_ask ?? -1;
+        case 'bid':       return r.market?.highest_bid ?? -1;
+        case 'netProfit': return r._ab.netProfit ?? -Infinity;
+        case 'netPct':    return r._ab.netPct ?? -Infinity;
+        case 'stars':     return r._ab.stars ?? -1;
+        default: return 0;
+      }
+    };
+    const av = get(a), bv = get(b);
+    if (typeof av === 'number') return AB_SORT_DESC ? bv - av : av - bv;
+    return AB_SORT_DESC ? String(bv).localeCompare(String(av)) : String(av).localeCompare(String(bv));
+  });
+
+  document.getElementById('ab-total').textContent = (AUTOBID.results || []).length;
+  document.getElementById('ab-shown').textContent = rows.length;
+
+  const ths = (key, label) => {
+    const cls = key === AB_SORT_KEY ? 'sorted ' + (AB_SORT_DESC ? '' : 'asc') : '';
+    return '<th class="' + cls + '" onclick="sortAutobid(\\'' + key + '\\')">' + label + '</th>';
+  };
+
+  let html = '<table><thead><tr>';
+  html += ths('brand', '브랜드');
+  html += ths('sku', 'SKU');
+  html += '<th>옵션</th>';
+  html += ths('stock', '재고');
+  html += '<th>상품명</th>';
+  html += ths('cost', '원가(₩)');
+  html += ths('ask', '판매입찰');
+  html += ths('bid', '구매입찰');
+  html += ths('netProfit', '수수료제외 순익');
+  html += ths('netPct', '순 마진%');
+  html += ths('stars', '빈집');
+  html += '<th>조건</th>';
+  html += '<th>상세</th>';
+  html += '</tr></thead><tbody>';
+
+  if (rows.length === 0) {
+    html += '<tr><td colspan="13" class="empty">조건에 맞는 상품이 없습니다</td></tr>';
+  } else {
+    for (const r of rows) {
+      const a = r._ab;
+      const stockCell = r.stock != null
+        ? '<span style="' + (r.stock <= 1 ? 'color:#cc3344;font-weight:600;' : '') + '">' + r.stock + '</span>' : '-';
+      let optionCell = escapeHtml(r.option || '-');
+      if (r.option_mismatch && r._optOk) optionCell += ' <span style="color:#888;font-size:11px;">→' + escapeHtml(r.kream_option) + '</span>';
+      else if (r.option_mismatch && !r._optOk) optionCell += ' <span class="badge warn">옵션≠</span>';
+
+      // 빈집 별점
+      let starCell = '-';
+      if (a.emptyHouse) {
+        starCell = a.stars === 5
+          ? '<span title="구매입찰 있음 — 즉시 진입" style="color:#d4a017;font-weight:700;">★★★★★</span>'
+          : '<span title="구매입찰 없음 — 시장 선점" style="color:#999;">★★★☆☆</span>';
+      }
+      // 조건 뱃지
+      let condCell = '';
+      if (a.c1) condCell += '<span class="badge" style="background:#e8f7ee;color:#22aa55;">①25%↑</span> ';
+      if (a.c2) condCell += '<span class="badge" style="background:#fff3e0;color:#e6820e;">②15만↑</span> ';
+      if (a.c3) condCell += '<span class="badge" style="background:#eef3fc;color:#4a76c4;">③빈집</span>';
+
+      const npCls = a.netProfit == null ? '' : (a.netProfit >= 0 ? 'positive' : 'negative');
+      html += '<tr>';
+      html += '<td class="brand">' + escapeHtml(r.brand_slug) + '</td>';
+      html += '<td class="sku">' + b2bLink(r) + '</td>';
+      html += '<td>' + optionCell + '</td>';
+      html += '<td class="num">' + stockCell + '</td>';
+      html += '<td class="name"><a href="' + (r.product_url || '#') + '" target="_blank">' + escapeHtml(r.product_name_ko || ('pid=' + r.product_id)) + '</a></td>';
+      html += '<td class="num">' + fmt(Math.round(a.cost)) + '</td>';
+      html += '<td class="num">' + (a.hasAsk ? fmt(a.ask) : '<span style="color:#4a76c4;">없음</span>') + '</td>';
+      html += '<td class="num">' + (a.hasBid ? fmt(a.bid) : '-') + '</td>';
+      html += '<td class="num">' + (a.netProfit != null ? fmt(a.netProfit) : '-') + '</td>';
+      html += '<td class="num">' + (a.netPct != null ? '<span class="margin ' + npCls + '">' + fmtPct(a.netPct) + '</span>' : '-') + '</td>';
+      html += '<td class="num">' + starCell + '</td>';
+      html += '<td>' + condCell + '</td>';
+      html += '<td><details><summary>📊</summary>' + renderDetail(r) + '</details></td>';
+      html += '</tr>';
+    }
+  }
+  html += '</tbody></table>';
+  document.getElementById('ab-table-container').innerHTML = html;
 }
 
 (async () => {
