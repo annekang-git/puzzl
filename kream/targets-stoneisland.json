@@ -104,17 +104,6 @@
     "b2b_sku": "L1S15B100004S0043V005H",
     "brand": "STONE ISLAND",
     "name": "'B100004' swimsuit",
-    "option": "L",
-    "stock": 2,
-    "eur_price": 87.91,
-    "eur_retail": 159.84
-  },
-  {
-    "sku": "L1S15B1000-04S0043-V005H",
-    "spu": "L1S15B100004S0043V005H",
-    "b2b_sku": "L1S15B100004S0043V005H",
-    "brand": "STONE ISLAND",
-    "name": "'B100004' swimsuit",
     "option": "M",
     "stock": 1,
     "eur_price": 87.91,
@@ -127,17 +116,6 @@
     "brand": "STONE ISLAND",
     "name": "'B100004' swimsuit",
     "option": "S",
-    "stock": 1,
-    "eur_price": 87.91,
-    "eur_retail": 159.84
-  },
-  {
-    "sku": "L1S15B1000-04S0043-V005H",
-    "spu": "L1S15B100004S0043V005H",
-    "b2b_sku": "L1S15B100004S0043V005H",
-    "brand": "STONE ISLAND",
-    "name": "'B100004' swimsuit",
-    "option": "XL",
     "stock": 1,
     "eur_price": 87.91,
     "eur_retail": 159.84
@@ -522,6 +500,17 @@
     "b2b_sku": "L1S155100052S00B0V008E",
     "brand": "STONE ISLAND",
     "name": "'5100052' sweater",
+    "option": "S",
+    "stock": 1,
+    "eur_price": 142.01,
+    "eur_retail": 258.2
+  },
+  {
+    "sku": "L1S1551000-52S00B0-V008E",
+    "spu": "L1S155100052S00B0V008E",
+    "b2b_sku": "L1S155100052S00B0V008E",
+    "brand": "STONE ISLAND",
+    "name": "'5100052' sweater",
     "option": "XL",
     "stock": 3,
     "eur_price": 142.01,
@@ -622,7 +611,7 @@
     "brand": "STONE ISLAND",
     "name": "'5100024' polo shirt",
     "option": "M",
-    "stock": 3,
+    "stock": 2,
     "eur_price": 202.87,
     "eur_retail": 368.85
   },
@@ -1540,17 +1529,6 @@
     "eur_retail": 352.46
   },
   {
-    "sku": "L1S1512000-08S00WN-V0129",
-    "spu": "L1S151200008S00WNV0129",
-    "b2b_sku": "L1S151200008S00WNV0129",
-    "brand": "STONE ISLAND",
-    "name": "'1200008' overshirt",
-    "option": "XL",
-    "stock": 1,
-    "eur_price": 202.87,
-    "eur_retail": 368.85
-  },
-  {
     "sku": "L1S1512000-03S0069-V0024",
     "spu": "L1S151200003S0069V0024",
     "b2b_sku": "L1S151200003S0069V0024",
@@ -1601,7 +1579,7 @@
     "brand": "STONE ISLAND",
     "name": "'4100106' down jacket",
     "option": "XXL",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 358.4,
     "eur_retail": 651.64
   },
