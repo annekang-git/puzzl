@@ -139,6 +139,7 @@ const HTML = `<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KREAM 시세 비교</title>
 <style>
   * { box-sizing: border-box; }
@@ -208,6 +209,38 @@ const HTML = `<!DOCTYPE html>
 
   /* 꿀단지 — 브랜드 컬럼 강조 */
   td.brand { font-size: 11px; font-weight: 700; color: #ef6253; text-transform: uppercase; white-space: nowrap; }
+
+  /* 넓은 테이블은 컨테이너 안에서 가로 스크롤 (페이지 자체는 안 깨지게) */
+  #table-container, #honey-table-container, #ab-table-container {
+    overflow-x: auto; -webkit-overflow-scrolling: touch;
+  }
+
+  /* ── 모바일 (≤768px) ── */
+  @media (max-width: 768px) {
+    body { font-size: 13px; }
+    header { padding: 12px 14px; flex-wrap: wrap; gap: 8px; }
+    header h1 { font-size: 16px; }
+    main { padding: 12px 10px; }
+
+    /* 탭 — 가로 스크롤 가능하게 */
+    .tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .tab { padding: 9px 14px; font-size: 13px; white-space: nowrap; }
+
+    /* 컨트롤 — 세로로 쌓고 input 폭 100% */
+    .controls { padding: 12px; gap: 12px; }
+    .control-group { flex: 1 1 100%; min-width: 0; }
+    .control-group input, .control-group select { width: 100%; min-width: 0; }
+    .stat { flex: 1 1 45%; text-align: center; }
+
+    /* 테이블 — 셀 여백/폰트 축소, 상품명 폭 제한 완화 */
+    th, td { padding: 7px 8px; }
+    th { font-size: 10px; }
+    td.name { max-width: 160px; }
+    td.sku { font-size: 11px; }
+
+    /* 자동입찰 조건 체크박스 줄바꿈 */
+    .control-group > div { flex-wrap: wrap; }
+  }
 </style>
 </head>
 <body>
