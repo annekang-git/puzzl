@@ -128,8 +128,10 @@ function deriveSearchSku(brandNorm, ref) {
 
 // 브랜드별 카테고리(type) 제외 — KREAM 에 잘 안 잡히는 노이즈 카테고리 차단
 //   TOM FORD: 'Clothing' 제외 (의류는 KREAM Tom Ford 카탈로그에 거의 없음, 매칭률 5%)
+//   MM6: 'Clothing' 제외 (2026-07-20 검토 — 의류 233타겟 매칭 9%/유효 4%, 신발·가방만 유효)
 const BRAND_TYPE_EXCLUDE = {
   'TOM FORD': new Set(['Clothing']),
+  'MM6 MAISON MARGIELA': new Set(['Clothing']),
 };
 function shouldSkipForType(brandNorm, productType) {
   const ex = BRAND_TYPE_EXCLUDE[brandNorm];
