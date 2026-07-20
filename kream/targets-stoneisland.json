@@ -110,17 +110,6 @@
     "eur_retail": 159.84
   },
   {
-    "sku": "L1S15B1000-04S0043-V005H",
-    "spu": "L1S15B100004S0043V005H",
-    "b2b_sku": "L1S15B100004S0043V005H",
-    "brand": "STONE ISLAND",
-    "name": "'B100004' swimsuit",
-    "option": "S",
-    "stock": 1,
-    "eur_price": 87.91,
-    "eur_retail": 159.84
-  },
-  {
     "sku": "L1SFWS1000-10S0448-V009B",
     "spu": "L1SFWS100010S0448V009B",
     "b2b_sku": "L1SFWS100010S0448V009B",
@@ -996,6 +985,28 @@
     "brand": "STONE ISLAND",
     "name": "'2200010' polo shirt",
     "option": "L",
+    "stock": 8,
+    "eur_price": 110.66,
+    "eur_retail": 147.54
+  },
+  {
+    "sku": "L2S1522000-10S0018-V0020",
+    "spu": "L2S152200010S0018V0020",
+    "b2b_sku": "L2S152200010S0018V0020",
+    "brand": "STONE ISLAND",
+    "name": "'2200010' polo shirt",
+    "option": "M",
+    "stock": 5,
+    "eur_price": 110.66,
+    "eur_retail": 147.54
+  },
+  {
+    "sku": "L2S1522000-10S0018-V0020",
+    "spu": "L2S152200010S0018V0020",
+    "b2b_sku": "L2S152200010S0018V0020",
+    "brand": "STONE ISLAND",
+    "name": "'2200010' polo shirt",
+    "option": "XL",
     "stock": 7,
     "eur_price": 110.66,
     "eur_retail": 147.54
@@ -1006,30 +1017,8 @@
     "b2b_sku": "L2S152200010S0018V0020",
     "brand": "STONE ISLAND",
     "name": "'2200010' polo shirt",
-    "option": "M",
-    "stock": 4,
-    "eur_price": 110.66,
-    "eur_retail": 147.54
-  },
-  {
-    "sku": "L2S1522000-10S0018-V0020",
-    "spu": "L2S152200010S0018V0020",
-    "b2b_sku": "L2S152200010S0018V0020",
-    "brand": "STONE ISLAND",
-    "name": "'2200010' polo shirt",
-    "option": "XL",
-    "stock": 6,
-    "eur_price": 110.66,
-    "eur_retail": 147.54
-  },
-  {
-    "sku": "L2S1522000-10S0018-V0020",
-    "spu": "L2S152200010S0018V0020",
-    "b2b_sku": "L2S152200010S0018V0020",
-    "brand": "STONE ISLAND",
-    "name": "'2200010' polo shirt",
     "option": "XXL",
-    "stock": 4,
+    "stock": 5,
     "eur_price": 110.66,
     "eur_retail": 147.54
   },
@@ -1073,7 +1062,7 @@
     "brand": "STONE ISLAND",
     "name": "'2200010' polo shirt",
     "option": "L",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 110.66,
     "eur_retail": 147.54
   },
@@ -1084,7 +1073,7 @@
     "brand": "STONE ISLAND",
     "name": "'2200010' polo shirt",
     "option": "M",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 110.66,
     "eur_retail": 147.54
   },
@@ -1095,7 +1084,7 @@
     "brand": "STONE ISLAND",
     "name": "'2200010' polo shirt",
     "option": "XL",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 110.66,
     "eur_retail": 147.54
   },
@@ -1722,7 +1711,7 @@
     "brand": "STONE ISLAND",
     "name": "'2200010' polo shirt",
     "option": "L",
-    "stock": 6,
+    "stock": 7,
     "eur_price": 110.66,
     "eur_retail": 147.54
   },
@@ -1733,7 +1722,7 @@
     "brand": "STONE ISLAND",
     "name": "'2200010' polo shirt",
     "option": "M",
-    "stock": 3,
+    "stock": 4,
     "eur_price": 110.66,
     "eur_retail": 147.54
   },
@@ -1744,7 +1733,7 @@
     "brand": "STONE ISLAND",
     "name": "'2200010' polo shirt",
     "option": "XL",
-    "stock": 6,
+    "stock": 7,
     "eur_price": 110.66,
     "eur_retail": 147.54
   },
@@ -1755,7 +1744,7 @@
     "brand": "STONE ISLAND",
     "name": "'2200010' polo shirt",
     "option": "XXL",
-    "stock": 3,
+    "stock": 4,
     "eur_price": 110.66,
     "eur_retail": 147.54
   },
@@ -1832,28 +1821,6 @@
     "brand": "STONE ISLAND",
     "name": "Light bull denim jeans",
     "option": "30",
-    "stock": 1,
-    "eur_price": 170.5,
-    "eur_retail": 262.3
-  },
-  {
-    "sku": "L1S14J1000-05S0J24-V0029",
-    "spu": "L1S14J100005S0J24V0029",
-    "b2b_sku": "L1S14J100005S0J24V0029",
-    "brand": "STONE ISLAND",
-    "name": "Light bull denim jeans",
-    "option": "32",
-    "stock": 1,
-    "eur_price": 170.5,
-    "eur_retail": 262.3
-  },
-  {
-    "sku": "L1S14J1000-05S0J24-V0029",
-    "spu": "L1S14J100005S0J24V0029",
-    "b2b_sku": "L1S14J100005S0J24V0029",
-    "brand": "STONE ISLAND",
-    "name": "Light bull denim jeans",
-    "option": "33",
     "stock": 1,
     "eur_price": 170.5,
     "eur_retail": 262.3
@@ -2297,17 +2264,6 @@
     "stock": 1,
     "eur_price": 268.24,
     "eur_retail": 487.7
-  },
-  {
-    "sku": "L1S1522000-10S0018-V1001",
-    "spu": "L1S152200010S0018V1001",
-    "b2b_sku": "L1S152200010S0018V1001",
-    "brand": "STONE ISLAND",
-    "name": "'2200010' polo shirt",
-    "option": "S",
-    "stock": 1,
-    "eur_price": 81.15,
-    "eur_retail": 147.54
   },
   {
     "sku": "L1S1531000-20S0A10-V009A",
