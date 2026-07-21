@@ -166,7 +166,7 @@ const HTML = `<!DOCTYPE html>
   .stat { background: #f4f4f4; padding: 6px 12px; border-radius: 6px; font-size: 12px; }
   .stat strong { color: #ef6253; }
 
-  table { width: 100%; background: #fff; border-collapse: collapse; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; }
+  table { width: 100%; background: #fff; border-collapse: collapse; border: 1px solid #e0e0e0; border-radius: 8px; }
   thead { background: #f8f8f8; }
   th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #ebebeb; }
   th { font-size: 11px; color: #666; font-weight: 700; text-transform: uppercase; cursor: pointer; user-select: none; white-space: nowrap; }
@@ -193,7 +193,16 @@ const HTML = `<!DOCTYPE html>
 
   details summary { cursor: pointer; color: #666; }
   details summary:hover { color: #222; }
-  details .sales-list { font-size: 12px; color: #555; margin-top: 6px; padding-left: 12px; }
+  /* 상세는 좁은 셀에 안 갇히게 팝오버로 — 셀 폭과 무관하게 읽히도록 */
+  td details { position: relative; }
+  details[open] .sales-list {
+    position: absolute; z-index: 20; right: 0; top: 100%;
+    background: #fff; border: 1px solid #ddd; border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+    padding: 12px 14px; min-width: 260px; max-width: 340px;
+    max-height: 420px; overflow-y: auto; text-align: left;
+  }
+  details .sales-list { font-size: 12px; color: #555; margin-top: 6px; padding-left: 0; white-space: normal; }
   details .sales-list div { margin: 2px 0; }
 
   .empty { padding: 60px; text-align: center; color: #888; }
