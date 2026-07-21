@@ -1,0 +1,427 @@
+{
+  "fetched_at": "2026-07-21T21:23:42.835Z",
+  "input_file": "targets-giglio_dior.json",
+  "total_targets": 14,
+  "matched": 1,
+  "failed": 13,
+  "results": [
+    {
+      "sku": "3BO359ZDU900",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 639.34,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3BO359ZDU900\" SPU=\"3BO359ZDU ~ 900\"",
+      "candidates": [
+        {
+          "product_id": 57740,
+          "text": "Bottega Veneta\n\n보테가 베네타 러버 플래쉬 클로그 블랙\n\n45%\n\n450,000원\n\n관심 1,529\n\n · 리뷰 54\n\n · 거래 317"
+        },
+        {
+          "product_id": 60938,
+          "text": "Bottega Veneta\n\n보테가 베네타 러버 플래쉬 클로그 폰덴테\n\n51%\n\n400,000원\n\n관심 441\n\n · 리뷰 25\n\n · 거래 102"
+        },
+        {
+          "product_id": 143848,
+          "text": "Bottega Veneta\n\n보테가 베네타 러그 레이스업 부츠 블랙\n\n61%\n\n828,000원\n\n관심 18\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 143795,
+          "text": "Bottega Veneta\n\n보테가 베네타 러그 셔링 블랙\n\n44%\n\n1,200,000원\n\n관심 5"
+        },
+        {
+          "product_id": 524389,
+          "text": "Rick Owens\n\n릭 오웬스 브래드 레더 자켓 블랙\n\n2,300,000원\n\n관심 18"
+        }
+      ]
+    },
+    {
+      "sku": "3BO359ZDU900",
+      "option": "45",
+      "stock": 1,
+      "eur_price": 639.34,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3BO359ZDU900\" SPU=\"3BO359ZDU ~ 900\"",
+      "candidates": [
+        {
+          "product_id": 57740,
+          "text": "Bottega Veneta\n\n보테가 베네타 러버 플래쉬 클로그 블랙\n\n45%\n\n450,000원\n\n관심 1,529\n\n · 리뷰 54\n\n · 거래 317"
+        },
+        {
+          "product_id": 60938,
+          "text": "Bottega Veneta\n\n보테가 베네타 러버 플래쉬 클로그 폰덴테\n\n51%\n\n400,000원\n\n관심 441\n\n · 리뷰 25\n\n · 거래 102"
+        },
+        {
+          "product_id": 143848,
+          "text": "Bottega Veneta\n\n보테가 베네타 러그 레이스업 부츠 블랙\n\n61%\n\n828,000원\n\n관심 18\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 143795,
+          "text": "Bottega Veneta\n\n보테가 베네타 러그 셔링 블랙\n\n44%\n\n1,200,000원\n\n관심 5"
+        },
+        {
+          "product_id": 524389,
+          "text": "Rick Owens\n\n릭 오웬스 브래드 레더 자켓 블랙\n\n2,300,000원\n\n관심 18"
+        }
+      ]
+    },
+    {
+      "sku": "3BO359ZDU900",
+      "option": "40½",
+      "stock": 1,
+      "eur_price": 639.34,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3BO359ZDU900\" SPU=\"3BO359ZDU ~ 900\"",
+      "candidates": [
+        {
+          "product_id": 57740,
+          "text": "Bottega Veneta\n\n보테가 베네타 러버 플래쉬 클로그 블랙\n\n45%\n\n450,000원\n\n관심 1,529\n\n · 리뷰 54\n\n · 거래 317"
+        },
+        {
+          "product_id": 60938,
+          "text": "Bottega Veneta\n\n보테가 베네타 러버 플래쉬 클로그 폰덴테\n\n51%\n\n400,000원\n\n관심 441\n\n · 리뷰 25\n\n · 거래 102"
+        },
+        {
+          "product_id": 143848,
+          "text": "Bottega Veneta\n\n보테가 베네타 러그 레이스업 부츠 블랙\n\n61%\n\n828,000원\n\n관심 18\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 143795,
+          "text": "Bottega Veneta\n\n보테가 베네타 러그 셔링 블랙\n\n44%\n\n1,200,000원\n\n관심 5"
+        },
+        {
+          "product_id": 524389,
+          "text": "Rick Owens\n\n릭 오웬스 브래드 레더 자켓 블랙\n\n2,300,000원\n\n관심 18"
+        }
+      ]
+    },
+    {
+      "sku": "3BO359ZDU900",
+      "option": "44",
+      "stock": 1,
+      "eur_price": 639.34,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3BO359ZDU900\" SPU=\"3BO359ZDU ~ 900\"",
+      "candidates": [
+        {
+          "product_id": 57740,
+          "text": "Bottega Veneta\n\n보테가 베네타 러버 플래쉬 클로그 블랙\n\n45%\n\n450,000원\n\n관심 1,529\n\n · 리뷰 54\n\n · 거래 317"
+        },
+        {
+          "product_id": 60938,
+          "text": "Bottega Veneta\n\n보테가 베네타 러버 플래쉬 클로그 폰덴테\n\n51%\n\n400,000원\n\n관심 441\n\n · 리뷰 25\n\n · 거래 102"
+        },
+        {
+          "product_id": 143848,
+          "text": "Bottega Veneta\n\n보테가 베네타 러그 레이스업 부츠 블랙\n\n61%\n\n828,000원\n\n관심 18\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 143795,
+          "text": "Bottega Veneta\n\n보테가 베네타 러그 셔링 블랙\n\n44%\n\n1,200,000원\n\n관심 5"
+        },
+        {
+          "product_id": 524389,
+          "text": "Rick Owens\n\n릭 오웬스 브래드 레더 자켓 블랙\n\n2,300,000원\n\n관심 18"
+        }
+      ]
+    },
+    {
+      "sku": "CDIORB6I10A1",
+      "option": "56",
+      "stock": 1,
+      "eur_price": 288.94,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"CDIORB6I10A1\" SPU=\"CDIORB6I ~ 10A1\"",
+      "candidates": [
+        {
+          "product_id": 57740,
+          "text": "Bottega Veneta\n\n보테가 베네타 러버 플래쉬 클로그 블랙\n\n45%\n\n450,000원\n\n관심 1,529\n\n · 리뷰 54\n\n · 거래 317"
+        },
+        {
+          "product_id": 604972,
+          "text": "Bottega Veneta\n\n보테가 베네타 선데이 슬리퍼 블랙\n\n38%\n\n1,344,000원\n\n관심 8"
+        },
+        {
+          "product_id": 143795,
+          "text": "Bottega Veneta\n\n보테가 베네타 러그 셔링 블랙\n\n44%\n\n1,200,000원\n\n관심 5"
+        },
+        {
+          "product_id": 60938,
+          "text": "Bottega Veneta\n\n보테가 베네타 러버 플래쉬 클로그 폰덴테\n\n51%\n\n400,000원\n\n관심 441\n\n · 리뷰 25\n\n · 거래 102"
+        },
+        {
+          "product_id": 326508,
+          "text": "Bottega Veneta\n\n보테가 베네타 트립 샌들 블랙\n\n949,000원\n\n관심 8"
+        }
+      ]
+    },
+    {
+      "sku": "DIORTRIBALESB2UB0F2",
+      "option": "61",
+      "stock": 1,
+      "eur_price": 331.97,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DIORTRIBALESB2UB0F2\" SPU=\"DIORTRIBALESB2U ~ B0F2\"",
+      "candidates": [
+        {
+          "product_id": 357748,
+          "text": "Dior\n\n디올 크리스찬 쿠튀르 캡 블랙 코튼 캔버스\n\n14%\n\n953,000원\n\n관심 21\n\n · 거래 4"
+        },
+        {
+          "product_id": 780082,
+          "text": "Dior\n\n디올 B30 카운트다운 스니커즈 스무스 카프스킨 테크니컬 메쉬 블랙\n\n20%\n\n1,350,000원\n\n관심 5"
+        },
+        {
+          "product_id": 866036,
+          "text": "Dior\n\n디올 스쿼시 스니커즈 스웨이드 카프스킨 & 테크니컬 패브릭 블랙 그레이\n\n1,768,000원"
+        },
+        {
+          "product_id": 866077,
+          "text": "Dior\n\n디올 B35 NXXT 스니커즈 스웨이드 카프스킨 테크니컬 패브릭 & 테크니컬 메쉬 블랙\n\n2,800,000원"
+        },
+        {
+          "product_id": 821539,
+          "text": "Dior\n\n디올 B01 매치포인트 스니커즈 스톤워시드 데님 블루\n\n2,175,000원\n\n관심 2"
+        }
+      ]
+    },
+    {
+      "sku": "DIORBLACKSUITA4U10A0",
+      "option": "53",
+      "stock": 1,
+      "eur_price": 233.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DIORBLACKSUITA4U10A0\" SPU=\"DIORBLACKSUITA4U ~ 10A0\"",
+      "candidates": [
+        {
+          "product_id": 326012,
+          "text": "Dior\n\n(W) 디올 디올시그니쳐 B8U 블랙 오벌 선글라스\n\n21%\n\n600,000원\n\n관심 59\n\n · 거래 4"
+        },
+        {
+          "product_id": 752193,
+          "text": "Dior\n\n(W) 디올 클로버 B1F 오발 선글라스 샤이니 블랙\n\n1,335,000원\n\n관심 12"
+        },
+        {
+          "product_id": 845025,
+          "text": "Dior\n\n(W) 디올 오블리크 B1F 선글라스 버터플라이 글로시 블랙\n\n1,110,000원\n\n관심 7"
+        },
+        {
+          "product_id": 605067,
+          "text": "Dior\n\n디올 꾸뛰르 후드 자켓 블랙\n\n3,499,000원\n\n관심 7"
+        },
+        {
+          "product_id": 914711,
+          "text": "Dior\n\n(W) 디올 뉴 디올 B1U 버터플라이 선글라스 블랙\n\n870,000원\n\n관심 4"
+        }
+      ]
+    },
+    {
+      "sku": "DIORPRISMEOS5I1000",
+      "option": "50",
+      "stock": 1,
+      "eur_price": 233.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DIORPRISMEOS5I1000\" SPU=\"DIORPRISMEOS5I ~ 1000\"",
+      "candidates": [
+        {
+          "product_id": 752193,
+          "text": "Dior\n\n(W) 디올 클로버 B1F 오발 선글라스 샤이니 블랙\n\n1,335,000원\n\n관심 12"
+        },
+        {
+          "product_id": 326012,
+          "text": "Dior\n\n(W) 디올 디올시그니쳐 B8U 블랙 오벌 선글라스\n\n21%\n\n600,000원\n\n관심 59\n\n · 거래 4"
+        },
+        {
+          "product_id": 845025,
+          "text": "Dior\n\n(W) 디올 오블리크 B1F 선글라스 버터플라이 글로시 블랙\n\n1,110,000원\n\n관심 7"
+        },
+        {
+          "product_id": 647360,
+          "text": "Dior\n\n(W) 디올 디올트레저 R1F 선글라스 오발 블랙\n\n830,000원\n\n관심 9"
+        },
+        {
+          "product_id": 814456,
+          "text": "Dior\n\n(W) 디올글로우 B3I 버터플라이 선글라스 샤이니 블랙\n\n825,000원\n\n관심 24\n\n · 리뷰 1"
+        }
+      ]
+    },
+    {
+      "sku": "DIORTAILORINGN1I20A1",
+      "option": "57",
+      "stock": 1,
+      "eur_price": 319.67,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DIORTAILORINGN1I20A1\" SPU=\"DIORTAILORINGN1I ~ 20A1\"",
+      "candidates": [
+        {
+          "product_id": 752193,
+          "text": "Dior\n\n(W) 디올 클로버 B1F 오발 선글라스 샤이니 블랙\n\n1,335,000원\n\n관심 12"
+        },
+        {
+          "product_id": 845025,
+          "text": "Dior\n\n(W) 디올 오블리크 B1F 선글라스 버터플라이 글로시 블랙\n\n1,110,000원\n\n관심 7"
+        },
+        {
+          "product_id": 326012,
+          "text": "Dior\n\n(W) 디올 디올시그니쳐 B8U 블랙 오벌 선글라스\n\n21%\n\n600,000원\n\n관심 59\n\n · 거래 4"
+        },
+        {
+          "product_id": 647360,
+          "text": "Dior\n\n(W) 디올 디올트레저 R1F 선글라스 오발 블랙\n\n830,000원\n\n관심 9"
+        },
+        {
+          "product_id": 782403,
+          "text": "Dior\n\n디올 블랙수트 Xl S4F 선글라스 스퀘어 블랙\n\n1,080,000원\n\n관심 1"
+        }
+      ]
+    },
+    {
+      "sku": "DIORTAILORINGN1I10A1",
+      "option": "57",
+      "stock": 1,
+      "eur_price": 319.67,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DIORTAILORINGN1I10A1\" SPU=\"DIORTAILORINGN1I ~ 10A1\"",
+      "candidates": [
+        {
+          "product_id": 752193,
+          "text": "Dior\n\n(W) 디올 클로버 B1F 오발 선글라스 샤이니 블랙\n\n1,335,000원\n\n관심 12"
+        },
+        {
+          "product_id": 845025,
+          "text": "Dior\n\n(W) 디올 오블리크 B1F 선글라스 버터플라이 글로시 블랙\n\n1,110,000원\n\n관심 7"
+        },
+        {
+          "product_id": 326012,
+          "text": "Dior\n\n(W) 디올 디올시그니쳐 B8U 블랙 오벌 선글라스\n\n21%\n\n600,000원\n\n관심 59\n\n · 거래 4"
+        },
+        {
+          "product_id": 647360,
+          "text": "Dior\n\n(W) 디올 디올트레저 R1F 선글라스 오발 블랙\n\n830,000원\n\n관심 9"
+        },
+        {
+          "product_id": 782403,
+          "text": "Dior\n\n디올 블랙수트 Xl S4F 선글라스 스퀘어 블랙\n\n1,080,000원\n\n관심 1"
+        }
+      ]
+    },
+    {
+      "sku": "DIORTAILORINGS1I10A1",
+      "option": "54",
+      "stock": 1,
+      "eur_price": 319.67,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DIORTAILORINGS1I10A1\" SPU=\"DIORTAILORINGS1I ~ 10A1\"",
+      "candidates": [
+        {
+          "product_id": 752193,
+          "text": "Dior\n\n(W) 디올 클로버 B1F 오발 선글라스 샤이니 블랙\n\n1,335,000원\n\n관심 12"
+        },
+        {
+          "product_id": 845025,
+          "text": "Dior\n\n(W) 디올 오블리크 B1F 선글라스 버터플라이 글로시 블랙\n\n1,110,000원\n\n관심 7"
+        },
+        {
+          "product_id": 326012,
+          "text": "Dior\n\n(W) 디올 디올시그니쳐 B8U 블랙 오벌 선글라스\n\n21%\n\n600,000원\n\n관심 59\n\n · 거래 4"
+        },
+        {
+          "product_id": 647360,
+          "text": "Dior\n\n(W) 디올 디올트레저 R1F 선글라스 오발 블랙\n\n830,000원\n\n관심 9"
+        },
+        {
+          "product_id": 814456,
+          "text": "Dior\n\n(W) 디올글로우 B3I 버터플라이 선글라스 샤이니 블랙\n\n825,000원\n\n관심 24\n\n · 리뷰 1"
+        }
+      ]
+    },
+    {
+      "sku": "DIORGLOWA1I10A1",
+      "option": "55",
+      "stock": 1,
+      "eur_price": 239.75,
+      "matched": true,
+      "product_id": 445440,
+      "product_name_ko": "Dior",
+      "product_url": "https://kream.co.kr/products/445440",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "DIORPACIFICR1I10A0",
+      "option": "52",
+      "stock": 1,
+      "eur_price": 233.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DIORPACIFICR1I10A0\" SPU=\"DIORPACIFICR1I ~ 10A0\"",
+      "candidates": [
+        {
+          "product_id": 752193,
+          "text": "Dior\n\n(W) 디올 클로버 B1F 오발 선글라스 샤이니 블랙\n\n1,335,000원\n\n관심 12"
+        },
+        {
+          "product_id": 326012,
+          "text": "Dior\n\n(W) 디올 디올시그니쳐 B8U 블랙 오벌 선글라스\n\n21%\n\n600,000원\n\n관심 59\n\n · 거래 4"
+        },
+        {
+          "product_id": 845025,
+          "text": "Dior\n\n(W) 디올 오블리크 B1F 선글라스 버터플라이 글로시 블랙\n\n1,110,000원\n\n관심 7"
+        },
+        {
+          "product_id": 647360,
+          "text": "Dior\n\n(W) 디올 디올트레저 R1F 선글라스 오발 블랙\n\n830,000원\n\n관심 9"
+        },
+        {
+          "product_id": 814456,
+          "text": "Dior\n\n(W) 디올글로우 B3I 버터플라이 선글라스 샤이니 블랙\n\n825,000원\n\n관심 24\n\n · 리뷰 1"
+        }
+      ]
+    },
+    {
+      "sku": "DIORPACIFICS3I20F0T",
+      "option": "52",
+      "stock": 1,
+      "eur_price": 233.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DIORPACIFICS3I20F0T\" SPU=\"DIORPACIFICS3I ~ 20F0T\"",
+      "candidates": [
+        {
+          "product_id": 752193,
+          "text": "Dior\n\n(W) 디올 클로버 B1F 오발 선글라스 샤이니 블랙\n\n1,335,000원\n\n관심 12"
+        },
+        {
+          "product_id": 845025,
+          "text": "Dior\n\n(W) 디올 오블리크 B1F 선글라스 버터플라이 글로시 블랙\n\n1,110,000원\n\n관심 7"
+        },
+        {
+          "product_id": 326012,
+          "text": "Dior\n\n(W) 디올 디올시그니쳐 B8U 블랙 오벌 선글라스\n\n21%\n\n600,000원\n\n관심 59\n\n · 거래 4"
+        },
+        {
+          "product_id": 106332,
+          "text": "Dior\n\n디올 클레어 D 룬 브레이슬릿 실버 피니쉬 메탈 & 화이트 크리스탈\n\n849,000원\n\n관심 4,077\n\n · 리뷰 11\n\n · 거래 227\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 647360,
+          "text": "Dior\n\n(W) 디올 디올트레저 R1F 선글라스 오발 블랙\n\n830,000원\n\n관심 9"
+        }
+      ]
+    }
+  ]
+}
