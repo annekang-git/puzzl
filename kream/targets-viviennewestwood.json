@@ -104,17 +104,6 @@
     "b2b_sku": "7501004KWW018XO215",
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Plimsoll' sneakers",
-    "option": "36",
-    "stock": 1,
-    "eur_price": 105.12,
-    "eur_retail": 233.61
-  },
-  {
-    "sku": "7501004KWW018XO215",
-    "spu": "7501004KWW018XO215",
-    "b2b_sku": "7501004KWW018XO215",
-    "brand": "VIVIENNE WESTWOOD",
-    "name": "'Plimsoll' sneakers",
     "option": "37",
     "stock": 2,
     "eur_price": 105.12,
@@ -633,7 +622,7 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Hazel' small shoulder bag",
     "option": "U",
-    "stock": 6,
+    "stock": 7,
     "eur_price": 189.34,
     "eur_retail": 315.57
   },
@@ -792,6 +781,17 @@
     "eur_retail": 348.36
   },
   {
+    "sku": "1803007EY001AG401",
+    "spu": "1803007EY001AG401",
+    "b2b_sku": "1803007EY001AG401",
+    "brand": "VIVIENNE WESTWOOD",
+    "name": "'Pamela' sweater",
+    "option": "XS",
+    "stock": 1,
+    "eur_price": 174.18,
+    "eur_retail": 348.36
+  },
+  {
     "sku": "1803007RY004SA408",
     "spu": "1803007RY004SA408",
     "b2b_sku": "1803007RY004SA408",
@@ -864,7 +864,7 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Hazel' small shoulder bag",
     "option": "U",
-    "stock": 2,
+    "stock": 3,
     "eur_price": 189.34,
     "eur_retail": 315.57
   },
@@ -1128,7 +1128,7 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Bea' cardigan",
     "option": "S",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 161.88,
     "eur_retail": 323.77
   },
@@ -1186,6 +1186,17 @@
     "stock": 1,
     "eur_price": 395.49,
     "eur_retail": 790.98
+  },
+  {
+    "sku": "110103A4W01C6O102",
+    "spu": "110103A4W01C6O102",
+    "b2b_sku": "110103A4W01C6O102",
+    "brand": "VIVIENNE WESTWOOD",
+    "name": "'Marta' dress",
+    "option": "38 IT",
+    "stock": 1,
+    "eur_price": 479.51,
+    "eur_retail": 959.02
   },
   {
     "sku": "110103A4W01C6O102",
@@ -1315,7 +1326,7 @@
     "brand": "VIVIENNE WESTWOOD",
     "name": "'Hebo' top",
     "option": "XS",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 90.57,
     "eur_retail": 139.34
   },

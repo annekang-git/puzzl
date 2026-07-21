@@ -572,6 +572,17 @@
     "eur_retail": 1106.56
   },
   {
+    "sku": "FXT011B13FF1VHL",
+    "spu": "FXT011B13FF1VHL",
+    "b2b_sku": "FXT011B13FF1VHL",
+    "brand": "FENDI",
+    "name": "Double-sided 'Wrappy' bandeau",
+    "option": "U",
+    "stock": 7,
+    "eur_price": 109.02,
+    "eur_retail": 155.74
+  },
+  {
     "sku": "7E1688AQ6IF1PXA",
     "spu": "7E1688AQ6IF1PXA",
     "b2b_sku": "7E1688AQ6IF1PXA",
@@ -589,17 +600,6 @@
     "brand": "FENDI",
     "name": "'Fendi Match' sneakers",
     "option": "7",
-    "stock": 1,
-    "eur_price": 470.49,
-    "eur_retail": 672.13
-  },
-  {
-    "sku": "7E1688AQ6IF1PXA",
-    "spu": "7E1688AQ6IF1PXA",
-    "b2b_sku": "7E1688AQ6IF1PXA",
-    "brand": "FENDI",
-    "name": "'Fendi Match' sneakers",
-    "option": "8",
     "stock": 1,
     "eur_price": 470.49,
     "eur_retail": 672.13
@@ -677,7 +677,7 @@
     "brand": "FENDI",
     "name": "'Fendi Match' sneakers",
     "option": "40",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 383.2,
     "eur_retail": 696.72
   },
@@ -1221,6 +1221,28 @@
     "eur_retail": 647.54
   },
   {
+    "sku": "7VA672ASIHF0H3A",
+    "spu": "7VA672ASIHF0H3A",
+    "b2b_sku": "7VA672ASIHF0H3A",
+    "brand": "FENDI",
+    "name": "'Fendi Lui' medium shoulder bag",
+    "option": "U",
+    "stock": 1,
+    "eur_price": 1170.49,
+    "eur_retail": 1721.31
+  },
+  {
+    "sku": "FXT091B13KF1WSF",
+    "spu": "FXT091B13KF1WSF",
+    "b2b_sku": "FXT091B13KF1WSF",
+    "brand": "FENDI",
+    "name": "'Pequin' silk scarf",
+    "option": "U",
+    "stock": 2,
+    "eur_price": 240.98,
+    "eur_retail": 344.26
+  },
+  {
     "sku": "FZDC60ASJKF1PNO",
     "spu": "FZDC60ASJKF1PNO",
     "b2b_sku": "FZDC60ASJKF1PNO",
@@ -1557,7 +1579,7 @@
     "brand": "FENDI",
     "name": "'Fendi F-Light' sneakers",
     "option": "38",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 401.23,
     "eur_retail": 729.51
   },
@@ -1721,17 +1743,6 @@
     "b2b_sku": "FR6754AMETF1WXC",
     "brand": "FENDI",
     "name": "'Venetian Stripes' shorts",
-    "option": "38 IT",
-    "stock": 1,
-    "eur_price": 696.72,
-    "eur_retail": 1024.59
-  },
-  {
-    "sku": "FR6754AMETF1WXC",
-    "spu": "FR6754AMETF1WXC",
-    "b2b_sku": "FR6754AMETF1WXC",
-    "brand": "FENDI",
-    "name": "'Venetian Stripes' shorts",
     "option": "40 IT",
     "stock": 1,
     "eur_price": 696.72,
@@ -1765,10 +1776,98 @@
     "b2b_sku": "FY0936AUIAF0PTH",
     "brand": "FENDI",
     "name": "'FF stitching' T-shirt",
-    "option": "M",
+    "option": "L",
     "stock": 1,
     "eur_price": 306.56,
     "eur_retail": 450.82
+  },
+  {
+    "sku": "FY0936AUIAF0PTH",
+    "spu": "FY0936AUIAF0PTH",
+    "b2b_sku": "FY0936AUIAF0PTH",
+    "brand": "FENDI",
+    "name": "'FF stitching' T-shirt",
+    "option": "M",
+    "stock": 2,
+    "eur_price": 306.56,
+    "eur_retail": 450.82
+  },
+  {
+    "sku": "FY0936AUIAF0PTH",
+    "spu": "FY0936AUIAF0PTH",
+    "b2b_sku": "FY0936AUIAF0PTH",
+    "brand": "FENDI",
+    "name": "'FF stitching' T-shirt",
+    "option": "XL",
+    "stock": 2,
+    "eur_price": 306.56,
+    "eur_retail": 450.82
+  },
+  {
+    "sku": "FY0936AUIAF0PTH",
+    "spu": "FY0936AUIAF0PTH",
+    "b2b_sku": "FY0936AUIAF0PTH",
+    "brand": "FENDI",
+    "name": "'FF stitching' T-shirt",
+    "option": "XXL",
+    "stock": 1,
+    "eur_price": 306.56,
+    "eur_retail": 450.82
+  },
+  {
+    "sku": "8C0778A0KKF0KUR",
+    "spu": "8C0778A0KKF0KUR",
+    "b2b_sku": "8C0778A0KKF0KUR",
+    "brand": "FENDI",
+    "name": "FF belt",
+    "option": "75 cm",
+    "stock": 3,
+    "eur_price": 338.53,
+    "eur_retail": 483.61
+  },
+  {
+    "sku": "8C0778A0KKF0KUR",
+    "spu": "8C0778A0KKF0KUR",
+    "b2b_sku": "8C0778A0KKF0KUR",
+    "brand": "FENDI",
+    "name": "FF belt",
+    "option": "80 cm",
+    "stock": 3,
+    "eur_price": 338.53,
+    "eur_retail": 483.61
+  },
+  {
+    "sku": "8C0778A0KKF0KUR",
+    "spu": "8C0778A0KKF0KUR",
+    "b2b_sku": "8C0778A0KKF0KUR",
+    "brand": "FENDI",
+    "name": "FF belt",
+    "option": "85 cm",
+    "stock": 3,
+    "eur_price": 338.53,
+    "eur_retail": 483.61
+  },
+  {
+    "sku": "8C0778A0KKF0KUR",
+    "spu": "8C0778A0KKF0KUR",
+    "b2b_sku": "8C0778A0KKF0KUR",
+    "brand": "FENDI",
+    "name": "FF belt",
+    "option": "90 cm",
+    "stock": 1,
+    "eur_price": 338.53,
+    "eur_retail": 483.61
+  },
+  {
+    "sku": "8C0778A0KKF0KUR",
+    "spu": "8C0778A0KKF0KUR",
+    "b2b_sku": "8C0778A0KKF0KUR",
+    "brand": "FENDI",
+    "name": "FF belt",
+    "option": "95 cm",
+    "stock": 2,
+    "eur_price": 338.53,
+    "eur_retail": 483.61
   },
   {
     "sku": "7E1553AJZXF0R7V",
@@ -1833,17 +1932,6 @@
     "name": "'Fendi Flow’ sneakers",
     "option": "10",
     "stock": 3,
-    "eur_price": 418.03,
-    "eur_retail": 696.72
-  },
-  {
-    "sku": "7E1392AK1QF1HGQ",
-    "spu": "7E1392AK1QF1HGQ",
-    "b2b_sku": "7E1392AK1QF1HGQ",
-    "brand": "FENDI",
-    "name": "'Fendi Flow’ sneakers",
-    "option": "11",
-    "stock": 1,
     "eur_price": 418.03,
     "eur_retail": 696.72
   },
@@ -2011,6 +2099,17 @@
     "stock": 6,
     "eur_price": 403.28,
     "eur_retail": 672.13
+  },
+  {
+    "sku": "8E8035AJZHF1MDC",
+    "spu": "8E8035AJZHF1MDC",
+    "b2b_sku": "8E8035AJZHF1MDC",
+    "brand": "FENDI",
+    "name": "'Flow' sneakers",
+    "option": "36",
+    "stock": 1,
+    "eur_price": 452.87,
+    "eur_retail": 696.72
   },
   {
     "sku": "8E8035AJZHF1MDC",
@@ -2486,17 +2585,6 @@
     "eur_retail": 696.72
   },
   {
-    "sku": "8E8620AYF9F1TYW",
-    "spu": "8E8620AYF9F1TYW",
-    "b2b_sku": "8E8620AYF9F1TYW",
-    "brand": "FENDI",
-    "name": "'Fendi Flow' sneakers",
-    "option": "39",
-    "stock": 1,
-    "eur_price": 452.87,
-    "eur_retail": 696.72
-  },
-  {
     "sku": "8E8942AY1IF1WCF",
     "spu": "8E8942AY1IF1WCF",
     "b2b_sku": "8E8942AY1IF1WCF",
@@ -2525,7 +2613,7 @@
     "brand": "FENDI",
     "name": "Maxi button shirt",
     "option": "38 IT",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 529.51,
     "eur_retail": 778.69
   },
@@ -2931,6 +3019,17 @@
     "b2b_sku": "8X8710AY9RF1TOO",
     "brand": "FENDI",
     "name": "'Fendi Feel' sandals",
+    "option": "38.5",
+    "stock": 1,
+    "eur_price": 389.34,
+    "eur_retail": 778.69
+  },
+  {
+    "sku": "8X8710AY9RF1TOO",
+    "spu": "8X8710AY9RF1TOO",
+    "b2b_sku": "8X8710AY9RF1TOO",
+    "brand": "FENDI",
+    "name": "'Fendi Feel' sandals",
     "option": "40",
     "stock": 1,
     "eur_price": 389.34,
@@ -2998,6 +3097,17 @@
     "brand": "FENDI",
     "name": "'Fendi Arco' slingback",
     "option": "37.5",
+    "stock": 1,
+    "eur_price": 401.23,
+    "eur_retail": 729.51
+  },
+  {
+    "sku": "8X8880AYFAF1UG2",
+    "spu": "8X8880AYFAF1UG2",
+    "b2b_sku": "8X8880AYFAF1UG2",
+    "brand": "FENDI",
+    "name": "'Fendi Arco' slingback",
+    "option": "38.5",
     "stock": 1,
     "eur_price": 401.23,
     "eur_retail": 729.51
@@ -3086,7 +3196,7 @@
     "brand": "FENDI",
     "name": "'Fendi Force' sneakers",
     "option": "8",
-    "stock": 7,
+    "stock": 6,
     "eur_price": 356.15,
     "eur_retail": 647.54
   },
@@ -3144,17 +3254,6 @@
     "stock": 1,
     "eur_price": 486.89,
     "eur_retail": 811.48
-  },
-  {
-    "sku": "8C0771B00WF1WLM",
-    "spu": "8C0771B00WF1WLM",
-    "b2b_sku": "8C0771B00WF1WLM",
-    "brand": "FENDI",
-    "name": "FF reversible belt",
-    "option": "85 cm",
-    "stock": 1,
-    "eur_price": 265.99,
-    "eur_retail": 483.61
   },
   {
     "sku": "8C0771B00WF1WLM",
@@ -3388,6 +3487,28 @@
     "eur_retail": 1065.57
   },
   {
+    "sku": "FXT069AJW7F0GGG",
+    "spu": "FXT069AJW7F0GGG",
+    "b2b_sku": "FXT069AJW7F0GGG",
+    "brand": "FENDI",
+    "name": "FF shawl",
+    "option": "U",
+    "stock": 7,
+    "eur_price": 258.2,
+    "eur_retail": 368.85
+  },
+  {
+    "sku": "8BN327B11CF1X2K",
+    "spu": "8BN327B11CF1X2K",
+    "b2b_sku": "8BN327B11CF1X2K",
+    "brand": "FENDI",
+    "name": "'Pekaboo Iseeu' handbag ",
+    "option": "U",
+    "stock": 1,
+    "eur_price": 3442.62,
+    "eur_retail": 4918.03
+  },
+  {
     "sku": "FJ7474ARU5F1NY8",
     "spu": "FJ7474ARU5F1NY8",
     "b2b_sku": "FJ7474ARU5F1NY8",
@@ -3441,17 +3562,6 @@
     "stock": 2,
     "eur_price": 481.97,
     "eur_retail": 803.28
-  },
-  {
-    "sku": "7E1643AOMNF1RT4",
-    "spu": "7E1643AOMNF1RT4",
-    "b2b_sku": "7E1643AOMNF1RT4",
-    "brand": "FENDI",
-    "name": "'Fendi Match' sneakers",
-    "option": "10",
-    "stock": 1,
-    "eur_price": 403.28,
-    "eur_retail": 672.13
   },
   {
     "sku": "FW1321AUAGF1RXI",
@@ -3582,17 +3692,6 @@
     "name": "'Flow' sneakers",
     "option": "9",
     "stock": 2,
-    "eur_price": 441.8,
-    "eur_retail": 803.28
-  },
-  {
-    "sku": "7E1766AU2OF1SVP",
-    "spu": "7E1766AU2OF1SVP",
-    "b2b_sku": "7E1766AU2OF1SVP",
-    "brand": "FENDI",
-    "name": "'Fendi Flow' sneakers",
-    "option": "11",
-    "stock": 1,
     "eur_price": 441.8,
     "eur_retail": 803.28
   },
@@ -3960,17 +4059,6 @@
     "eur_retail": 983.61
   },
   {
-    "sku": "FXX956B13KF1WSF",
-    "spu": "FXX956B13KF1WSF",
-    "b2b_sku": "FXX956B13KF1WSF",
-    "brand": "FENDI",
-    "name": "'Pequin' print poncho",
-    "option": "U",
-    "stock": 2,
-    "eur_price": 512.79,
-    "eur_retail": 754.1
-  },
-  {
     "sku": "FQ7744AWADF1WX3",
     "spu": "FQ7744AWADF1WX3",
     "b2b_sku": "FQ7744AWADF1WX3",
@@ -4002,6 +4090,17 @@
     "stock": 1,
     "eur_price": 836.07,
     "eur_retail": 1229.51
+  },
+  {
+    "sku": "FXT011B13GF1WSF",
+    "spu": "FXT011B13GF1WSF",
+    "b2b_sku": "FXT011B13GF1WSF",
+    "brand": "FENDI",
+    "name": "Double-sided 'Wrappy' bandeau",
+    "option": "U",
+    "stock": 7,
+    "eur_price": 109.02,
+    "eur_retail": 155.74
   },
   {
     "sku": "FDD185AJYEF0GME",
@@ -4526,10 +4625,54 @@
     "b2b_sku": "FY0936AUR1F0QA2",
     "brand": "FENDI",
     "name": "'FF' piquet t-shirt",
-    "option": "M",
-    "stock": 1,
+    "option": "L",
+    "stock": 2,
     "eur_price": 362.3,
     "eur_retail": 532.79
+  },
+  {
+    "sku": "FY0936AUR1F0QA2",
+    "spu": "FY0936AUR1F0QA2",
+    "b2b_sku": "FY0936AUR1F0QA2",
+    "brand": "FENDI",
+    "name": "'FF' piquet t-shirt",
+    "option": "M",
+    "stock": 3,
+    "eur_price": 362.3,
+    "eur_retail": 532.79
+  },
+  {
+    "sku": "FY0936AUR1F0QA2",
+    "spu": "FY0936AUR1F0QA2",
+    "b2b_sku": "FY0936AUR1F0QA2",
+    "brand": "FENDI",
+    "name": "'FF' piquet t-shirt",
+    "option": "S",
+    "stock": 2,
+    "eur_price": 362.3,
+    "eur_retail": 532.79
+  },
+  {
+    "sku": "FY0936AUR1F0QA2",
+    "spu": "FY0936AUR1F0QA2",
+    "b2b_sku": "FY0936AUR1F0QA2",
+    "brand": "FENDI",
+    "name": "'FF' piquet t-shirt",
+    "option": "XL",
+    "stock": 2,
+    "eur_price": 362.3,
+    "eur_retail": 532.79
+  },
+  {
+    "sku": "8R8136AQY2F1WYD",
+    "spu": "8R8136AQY2F1WYD",
+    "b2b_sku": "8R8136AQY2F1WYD",
+    "brand": "FENDI",
+    "name": "'Baguette' slides",
+    "option": "36",
+    "stock": 2,
+    "eur_price": 411.88,
+    "eur_retail": 549.18
   },
   {
     "sku": "8R8136AQY2F1WYD",
@@ -4637,7 +4780,7 @@
     "brand": "FENDI",
     "name": "'Baguette' slides",
     "option": "38",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 485.66,
     "eur_retail": 647.54
   },
@@ -4706,6 +4849,105 @@
     "stock": 1,
     "eur_price": 496.07,
     "eur_retail": 729.51
+  },
+  {
+    "sku": "FY0936B05IF0H0G",
+    "spu": "FY0936B05IF0H0G",
+    "b2b_sku": "FY0936B05IF0H0G",
+    "brand": "FENDI",
+    "name": "T-shirt patch Fendi",
+    "option": "L",
+    "stock": 2,
+    "eur_price": 384.59,
+    "eur_retail": 565.57
+  },
+  {
+    "sku": "FY0936B05IF0H0G",
+    "spu": "FY0936B05IF0H0G",
+    "b2b_sku": "FY0936B05IF0H0G",
+    "brand": "FENDI",
+    "name": "T-shirt patch Fendi",
+    "option": "M",
+    "stock": 1,
+    "eur_price": 384.59,
+    "eur_retail": 565.57
+  },
+  {
+    "sku": "FY0936B05IF0H0G",
+    "spu": "FY0936B05IF0H0G",
+    "b2b_sku": "FY0936B05IF0H0G",
+    "brand": "FENDI",
+    "name": "T-shirt patch Fendi",
+    "option": "XL",
+    "stock": 2,
+    "eur_price": 384.59,
+    "eur_retail": 565.57
+  },
+  {
+    "sku": "FY0936B05IF0H0G",
+    "spu": "FY0936B05IF0H0G",
+    "b2b_sku": "FY0936B05IF0H0G",
+    "brand": "FENDI",
+    "name": "T-shirt patch Fendi",
+    "option": "XXL",
+    "stock": 1,
+    "eur_price": 384.59,
+    "eur_retail": 565.57
+  },
+  {
+    "sku": "8C0778A0KKF1UJK",
+    "spu": "8C0778A0KKF1UJK",
+    "b2b_sku": "8C0778A0KKF1UJK",
+    "brand": "FENDI",
+    "name": "FF belt",
+    "option": "75 cm",
+    "stock": 3,
+    "eur_price": 258.2,
+    "eur_retail": 368.85
+  },
+  {
+    "sku": "8C0778A0KKF1UJK",
+    "spu": "8C0778A0KKF1UJK",
+    "b2b_sku": "8C0778A0KKF1UJK",
+    "brand": "FENDI",
+    "name": "FF belt",
+    "option": "80 cm",
+    "stock": 3,
+    "eur_price": 258.2,
+    "eur_retail": 368.85
+  },
+  {
+    "sku": "8C0778A0KKF1UJK",
+    "spu": "8C0778A0KKF1UJK",
+    "b2b_sku": "8C0778A0KKF1UJK",
+    "brand": "FENDI",
+    "name": "FF belt",
+    "option": "85 cm",
+    "stock": 2,
+    "eur_price": 258.2,
+    "eur_retail": 368.85
+  },
+  {
+    "sku": "8C0778A0KKF1UJK",
+    "spu": "8C0778A0KKF1UJK",
+    "b2b_sku": "8C0778A0KKF1UJK",
+    "brand": "FENDI",
+    "name": "FF belt",
+    "option": "90 cm",
+    "stock": 1,
+    "eur_price": 258.2,
+    "eur_retail": 368.85
+  },
+  {
+    "sku": "8C0778A0KKF1UJK",
+    "spu": "8C0778A0KKF1UJK",
+    "b2b_sku": "8C0778A0KKF1UJK",
+    "brand": "FENDI",
+    "name": "FF belt",
+    "option": "95 cm",
+    "stock": 2,
+    "eur_price": 258.2,
+    "eur_retail": 368.85
   },
   {
     "sku": "FJ0797AR8SF04V6",
@@ -5066,7 +5308,7 @@
     "brand": "FENDI",
     "name": "'Fendi Feel' sandals",
     "option": "8",
-    "stock": 3,
+    "stock": 1,
     "eur_price": 403.28,
     "eur_retail": 672.13
   },
@@ -5132,7 +5374,7 @@
     "brand": "FENDI",
     "name": "'Mamma Baguette' large shoulder bag",
     "option": "U",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 1704.92,
     "eur_retail": 2622.95
   },
@@ -5539,7 +5781,29 @@
     "brand": "FENDI",
     "name": "'FF Stitching' nylon swimsuit",
     "option": "48 IT",
-    "stock": 1,
+    "stock": 2,
+    "eur_price": 384.59,
+    "eur_retail": 565.57
+  },
+  {
+    "sku": "FXB143AUD4F0QG0",
+    "spu": "FXB143AUD4F0QG0",
+    "b2b_sku": "FXB143AUD4F0QG0",
+    "brand": "FENDI",
+    "name": "'FF Stitching' nylon swimsuit",
+    "option": "50 IT",
+    "stock": 2,
+    "eur_price": 384.59,
+    "eur_retail": 565.57
+  },
+  {
+    "sku": "FXB143AUD4F0QG0",
+    "spu": "FXB143AUD4F0QG0",
+    "b2b_sku": "FXB143AUD4F0QG0",
+    "brand": "FENDI",
+    "name": "'FF Stitching' nylon swimsuit",
+    "option": "52 IT",
+    "stock": 2,
     "eur_price": 384.59,
     "eur_retail": 565.57
   }

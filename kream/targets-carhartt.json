@@ -484,17 +484,6 @@
     "eur_retail": 45.08
   },
   {
-    "sku": "I03673489XX",
-    "spu": "I03673489XX",
-    "b2b_sku": "I03673489XX",
-    "brand": "CARHARTT WIP",
-    "name": "'Hot Cob' T-shirt",
-    "option": "XL",
-    "stock": 1,
-    "eur_price": 22.09,
-    "eur_retail": 40.16
-  },
-  {
     "sku": "I036065J060",
     "spu": "I036065J060",
     "b2b_sku": "I036065J060",
@@ -702,17 +691,6 @@
     "stock": 3,
     "eur_price": 119.92,
     "eur_retail": 171.31
-  },
-  {
-    "sku": "I0338303IOGD",
-    "spu": "I0338303IOGD",
-    "b2b_sku": "I0338303IOGD",
-    "brand": "CARHARTT WIP",
-    "name": "'Nelson' hoodie",
-    "option": "M",
-    "stock": 1,
-    "eur_price": 58.16,
-    "eur_retail": 105.74
   },
   {
     "sku": "I0338303IOGD",
@@ -985,7 +963,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Waves' T-shirt",
     "option": "L",
-    "stock": 3,
+    "stock": 2,
     "eur_price": 27.67,
     "eur_retail": 36.89
   },
@@ -1227,7 +1205,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Jake Garcia' T-shirt",
     "option": "L",
-    "stock": 3,
+    "stock": 2,
     "eur_price": 26.64,
     "eur_retail": 53.28
   },
@@ -1436,7 +1414,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Chase' hoodie",
     "option": "XL",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 42.83,
     "eur_retail": 77.87
   },
@@ -1942,17 +1920,6 @@
     "brand": "CARHARTT WIP",
     "name": "'American Script' skirt",
     "option": "L",
-    "stock": 1,
-    "eur_price": 32.78,
-    "eur_retail": 65.57
-  },
-  {
-    "sku": "I034491482XX",
-    "spu": "I034491482XX",
-    "b2b_sku": "I034491482XX",
-    "brand": "CARHARTT WIP",
-    "name": "'American Script' skirt",
-    "option": "M",
     "stock": 1,
     "eur_price": 32.78,
     "eur_retail": 65.57
@@ -2503,7 +2470,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Aaron' jeans",
     "option": "31",
-    "stock": 1,
+    "stock": 2,
     "eur_price": 58.52,
     "eur_retail": 97.54
   },
@@ -2591,7 +2558,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Barbwire C' T-shirt",
     "option": "L",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 20.29,
     "eur_retail": 36.89
   },
@@ -3124,6 +3091,72 @@
     "eur_retail": 90.16
   },
   {
+    "sku": "I03745800FXX",
+    "spu": "I03745800FXX",
+    "b2b_sku": "I03745800FXX",
+    "brand": "CARHARTT WIP",
+    "name": "'Chase' sweatshirt pants",
+    "option": "L",
+    "stock": 3,
+    "eur_price": 52.25,
+    "eur_retail": 69.67
+  },
+  {
+    "sku": "I03745800FXX",
+    "spu": "I03745800FXX",
+    "b2b_sku": "I03745800FXX",
+    "brand": "CARHARTT WIP",
+    "name": "'Chase' sweatshirt pants",
+    "option": "M",
+    "stock": 5,
+    "eur_price": 52.25,
+    "eur_retail": 69.67
+  },
+  {
+    "sku": "I03745800FXX",
+    "spu": "I03745800FXX",
+    "b2b_sku": "I03745800FXX",
+    "brand": "CARHARTT WIP",
+    "name": "'Chase' sweatshirt pants",
+    "option": "S",
+    "stock": 3,
+    "eur_price": 52.25,
+    "eur_retail": 69.67
+  },
+  {
+    "sku": "I03745800FXX",
+    "spu": "I03745800FXX",
+    "b2b_sku": "I03745800FXX",
+    "brand": "CARHARTT WIP",
+    "name": "'Chase' sweatshirt pants",
+    "option": "XL",
+    "stock": 3,
+    "eur_price": 52.25,
+    "eur_retail": 69.67
+  },
+  {
+    "sku": "I03745800FXX",
+    "spu": "I03745800FXX",
+    "b2b_sku": "I03745800FXX",
+    "brand": "CARHARTT WIP",
+    "name": "'Chase' sweatshirt pants",
+    "option": "XS",
+    "stock": 2,
+    "eur_price": 52.25,
+    "eur_retail": 69.67
+  },
+  {
+    "sku": "I0367301Q5XX",
+    "spu": "I0367301Q5XX",
+    "b2b_sku": "I0367301Q5XX",
+    "brand": "CARHARTT WIP",
+    "name": "'Madison' hat",
+    "option": "U",
+    "stock": 3,
+    "eur_price": 24.59,
+    "eur_retail": 32.79
+  },
+  {
     "sku": "I028279482XX",
     "spu": "I028279482XX",
     "b2b_sku": "I028279482XX",
@@ -3383,7 +3416,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Spiral' T-shirt",
     "option": "L",
-    "stock": 2,
+    "stock": 1,
     "eur_price": 18.44,
     "eur_retail": 36.89
   },
@@ -4230,7 +4263,7 @@
     "brand": "CARHARTT WIP",
     "name": "'Kickflip' backpack",
     "option": "U",
-    "stock": 5,
+    "stock": 4,
     "eur_price": 58.4,
     "eur_retail": 77.87
   },
@@ -4299,6 +4332,17 @@
     "stock": 3,
     "eur_price": 39.96,
     "eur_retail": 53.28
+  },
+  {
+    "sku": "I0279428902",
+    "spu": "I0279428902",
+    "b2b_sku": "I0279428902",
+    "brand": "CARHARTT WIP",
+    "name": "'Single Knee' bermuda shorts",
+    "option": "32",
+    "stock": 1,
+    "eur_price": 56.8,
+    "eur_retail": 81.15
   },
   {
     "sku": "I0279428902",
@@ -5518,6 +5562,17 @@
     "name": "'Faded Pond Corps' T-shirt",
     "option": "M",
     "stock": 2,
+    "eur_price": 26.6,
+    "eur_retail": 48.36
+  },
+  {
+    "sku": "I03606433G60",
+    "spu": "I03606433G60",
+    "b2b_sku": "I03606433G60",
+    "brand": "CARHARTT WIP",
+    "name": "'Faded Pond Corps' T-shirt",
+    "option": "XL",
+    "stock": 1,
     "eur_price": 26.6,
     "eur_retail": 48.36
   },

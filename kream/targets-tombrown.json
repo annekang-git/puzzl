@@ -396,17 +396,6 @@
     "eur_retail": 790.98
   },
   {
-    "sku": "MJT554AJ0248415",
-    "spu": "MJT554AJ0248415",
-    "b2b_sku": "MJT554AJ0248415",
-    "brand": "THOM BROWNE",
-    "name": "4BAR cardigan",
-    "option": "5",
-    "stock": 1,
-    "eur_price": 395.49,
-    "eur_retail": 790.98
-  },
-  {
     "sku": "FAS020B01690450",
     "spu": "FAS020B01690450",
     "b2b_sku": "FAS020B01690450",
@@ -913,17 +902,6 @@
     "eur_retail": 918.03
   },
   {
-    "sku": "FLR005OF1004100",
-    "spu": "FLR005OF1004100",
-    "b2b_sku": "FLR005OF1004100",
-    "brand": "THOM BROWNE",
-    "name": "Button-down shirt",
-    "option": "44 IT",
-    "stock": 1,
-    "eur_price": 261.89,
-    "eur_retail": 581.97
-  },
-  {
     "sku": "MJO030A06146415",
     "spu": "MJO030A06146415",
     "b2b_sku": "MJO030A06146415",
@@ -990,6 +968,17 @@
     "eur_retail": 844.26
   },
   {
+    "sku": "MJP022A01455100",
+    "spu": "MJP022A01455100",
+    "b2b_sku": "MJP022A01455100",
+    "brand": "THOM BROWNE",
+    "name": "rwb polo shirt",
+    "option": "1",
+    "stock": 1,
+    "eur_price": 154.92,
+    "eur_retail": 344.26
+  },
+  {
     "sku": "MJO165OF0496055",
     "spu": "MJO165OF0496055",
     "b2b_sku": "MJO165OF0496055",
@@ -1030,6 +1019,17 @@
     "name": "'4BAR' sweater",
     "option": "4",
     "stock": 2,
+    "eur_price": 413.11,
+    "eur_retail": 918.03
+  },
+  {
+    "sku": "MKA580AY3065260",
+    "spu": "MKA580AY3065260",
+    "b2b_sku": "MKA580AY3065260",
+    "brand": "THOM BROWNE",
+    "name": "'4BAR' sweater",
+    "option": "5",
+    "stock": 1,
     "eur_price": 413.11,
     "eur_retail": 918.03
   },
@@ -1425,7 +1425,7 @@
     "brand": "THOM BROWNE",
     "name": "'Uniform' mini skirt",
     "option": "38 IT",
-    "stock": 4,
+    "stock": 5,
     "eur_price": 463.12,
     "eur_retail": 926.23
   },
