@@ -306,6 +306,10 @@ const HTML = `<!DOCTYPE html>
         <option value="failed">실패만</option>
       </select>
     </div>
+    <div class="control-group">
+      <label>옵션 불일치</label>
+      <label style="font-weight:400;text-transform:none;font-size:13px;cursor:pointer;padding-top:4px;"><input type="checkbox" id="opt-mismatch-show" checked onchange="render()"> 표시</label>
+    </div>
     <div class="stat">총: <strong id="stat-total">0</strong></div>
     <div class="stat">표시: <strong id="stat-shown">0</strong></div>
   </div>
@@ -339,6 +343,10 @@ const HTML = `<!DOCTYPE html>
         <label>SKU 검색</label>
         <input id="honey-sku-filter" type="text" placeholder="필터..." oninput="renderHoney()">
       </div>
+      <div class="control-group">
+        <label>옵션 불일치</label>
+        <label style="font-weight:400;text-transform:none;font-size:13px;cursor:pointer;padding-top:4px;"><input type="checkbox" id="honey-opt-mismatch-show" checked onchange="renderHoney()"> 표시</label>
+      </div>
       <div class="stat">전체 입찰존재: <strong id="honey-total">0</strong></div>
       <div class="stat">표시(흑자): <strong id="honey-shown">0</strong></div>
     </div>
@@ -363,6 +371,10 @@ const HTML = `<!DOCTYPE html>
       <div class="control-group">
         <label>SKU 검색</label>
         <input id="ab-sku-filter" type="text" placeholder="필터..." oninput="renderAutobid()">
+      </div>
+      <div class="control-group">
+        <label>옵션 불일치</label>
+        <label style="font-weight:400;text-transform:none;font-size:13px;cursor:pointer;padding-top:4px;"><input type="checkbox" id="ab-opt-mismatch-show" checked onchange="renderAutobid()"> 표시</label>
       </div>
       <div class="control-group">
         <label>조건 필터 (하나라도 충족 시 표시)</label>
@@ -491,6 +503,7 @@ function render() {
   const basis = document.getElementById('margin-basis').value;
   const skuFilter = document.getElementById('sku-filter').value.toUpperCase().trim();
   const statusFilter = document.getElementById('status-filter').value;
+  const showMismatch = document.getElementById('opt-mismatch-show').checked;
 
   // 마진 계산 & 필터
   let rows = (RAW.results || []).map((r) => {
@@ -501,6 +514,8 @@ function render() {
 
   if (statusFilter === 'matched') rows = rows.filter((r) => r.matched);
   if (statusFilter === 'failed') rows = rows.filter((r) => !r.matched);
+  // 옵션 불일치 (매칭됐지만 요청 사이즈가 KREAM 에 없어 대체된 행) 숨기기
+  if (!showMismatch) rows = rows.filter((r) => !(r.matched && !r._optOk));
   if (skuFilter) rows = rows.filter((r) => (r.sku || '').toUpperCase().includes(skuFilter) || (r.b2b_sku || '').toUpperCase().includes(skuFilter));
   if (minMargin !== '') {
     const min = Number(minMargin);
@@ -716,6 +731,7 @@ function renderHoney() {
   const minMargin = Number(document.getElementById('honey-min-margin').value);
   const brandFilter = document.getElementById('honey-brand-filter').value;
   const skuFilter = document.getElementById('honey-sku-filter').value.toUpperCase().trim();
+  const showMismatch = document.getElementById('honey-opt-mismatch-show').checked;
 
   // 각 row 의 즉시매도 마진 계산 + 옵션 매칭 보정
   let rows = (HONEY.results || []).map((r) => {
@@ -734,6 +750,7 @@ function renderHoney() {
   rows = rows.filter((r) => r._bidPct != null && r._bidPct >= minMargin);
   if (brandFilter) rows = rows.filter((r) => r.brand_slug === brandFilter);
   if (skuFilter)   rows = rows.filter((r) => (r.sku || '').toUpperCase().includes(skuFilter) || (r.b2b_sku || '').toUpperCase().includes(skuFilter));
+  if (!showMismatch) rows = rows.filter((r) => r._optOk);
 
   // 정렬
   rows.sort((a, b) => {
@@ -887,6 +904,7 @@ function renderAutobid() {
   const useC1 = document.getElementById('ab-c1').checked;
   const useC2 = document.getElementById('ab-c2').checked;
   const useC3 = document.getElementById('ab-c3').checked;
+  const showMismatch = document.getElementById('ab-opt-mismatch-show').checked;
 
   let rows = (AUTOBID.results || []).map((r) => ({ ...r, _ab: abCompute(r, eurRate), _optOk: isOptionEffectivelyMatched(r) }));
 
@@ -895,6 +913,7 @@ function renderAutobid() {
     const a = r._ab;
     return (useC1 && a.c1) || (useC2 && a.c2) || (useC3 && a.c3);
   });
+  if (!showMismatch) rows = rows.filter((r) => r._optOk);
   if (brandFilter) rows = rows.filter((r) => r.brand_slug === brandFilter);
   if (skuFilter) rows = rows.filter((r) => (r.sku || '').toUpperCase().includes(skuFilter) || (r.b2b_sku || '').toUpperCase().includes(skuFilter));
 
