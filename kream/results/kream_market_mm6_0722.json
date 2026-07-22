@@ -1,0 +1,5739 @@
+{
+  "fetched_at": "2026-07-22T06:12:15.875Z",
+  "input_file": "targets-mm6.json",
+  "total_targets": 91,
+  "matched": 75,
+  "failed": 16,
+  "results": [
+    {
+      "sku": "SB6WD0026P6414T8013",
+      "spu": "SB6WD0026P6414T8013",
+      "b2b_sku": "SB6WD0026P6414T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Japanese Mesh' crossbody bag",
+      "option": "U",
+      "stock": 69,
+      "eur_price": 144.26,
+      "eur_retail": 262.3,
+      "matched": true,
+      "product_id": 370986,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/370986",
+      "market": {
+        "last_sale_price": 332000,
+        "lowest_ask": 334000,
+        "highest_bid": 321000,
+        "change_text": "▲ 1,000원(+0.3%)"
+      },
+      "sales": [
+        {
+          "price": 332000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-21T13:55:44Z",
+          "date_text": "16시간 전",
+          "is_immediate": true
+        },
+        {
+          "price": 331000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-16T01:55:14Z",
+          "date_text": "26/07/16",
+          "is_immediate": true
+        },
+        {
+          "price": 332000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-13T03:07:28Z",
+          "date_text": "26/07/13",
+          "is_immediate": true
+        },
+        {
+          "price": 332000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-12T03:52:56Z",
+          "date_text": "26/07/12",
+          "is_immediate": true
+        },
+        {
+          "price": 331000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-09T22:18:03Z",
+          "date_text": "26/07/10",
+          "is_immediate": true
+        },
+        {
+          "price": 330000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-05T11:08:31Z",
+          "date_text": "26/07/05",
+          "is_immediate": true
+        },
+        {
+          "price": 330000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-28T08:17:41Z",
+          "date_text": "26/06/28",
+          "is_immediate": true
+        },
+        {
+          "price": 332000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-25T08:00:13Z",
+          "date_text": "26/06/25",
+          "is_immediate": true
+        },
+        {
+          "price": 333000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-24T08:16:46Z",
+          "date_text": "26/06/24",
+          "is_immediate": true
+        },
+        {
+          "price": 333000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-23T14:16:17Z",
+          "date_text": "26/06/23",
+          "is_immediate": true
+        },
+        {
+          "price": 340000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-17T08:36:49Z",
+          "date_text": "26/06/17",
+          "is_immediate": true
+        },
+        {
+          "price": 344000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-03T11:27:22Z",
+          "date_text": "26/06/03",
+          "is_immediate": false
+        },
+        {
+          "price": 399000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-25T03:01:36Z",
+          "date_text": "26/05/25",
+          "is_immediate": true
+        },
+        {
+          "price": 395000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-23T16:27:28Z",
+          "date_text": "26/05/24",
+          "is_immediate": true
+        },
+        {
+          "price": 340000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-15T08:00:04Z",
+          "date_text": "26/05/15",
+          "is_immediate": false
+        },
+        {
+          "price": 340000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-15T03:28:25Z",
+          "date_text": "26/05/15",
+          "is_immediate": false
+        },
+        {
+          "price": 368000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-01T15:18:12Z",
+          "date_text": "26/05/02",
+          "is_immediate": false
+        },
+        {
+          "price": 378000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-28T18:42:53Z",
+          "date_text": "26/04/29",
+          "is_immediate": true
+        },
+        {
+          "price": 377000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-20T13:37:32Z",
+          "date_text": "26/04/20",
+          "is_immediate": true
+        },
+        {
+          "price": 345000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-14T03:50:34Z",
+          "date_text": "26/04/14",
+          "is_immediate": false
+        },
+        {
+          "price": 344000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-14T03:28:38Z",
+          "date_text": "26/04/14",
+          "is_immediate": false
+        },
+        {
+          "price": 344000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-07T08:27:48Z",
+          "date_text": "26/04/07",
+          "is_immediate": false
+        },
+        {
+          "price": 349000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-27T07:00:33Z",
+          "date_text": "26/03/27",
+          "is_immediate": false
+        },
+        {
+          "price": 375000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-26T03:21:18Z",
+          "date_text": "26/03/26",
+          "is_immediate": true
+        },
+        {
+          "price": 349000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-25T02:18:09Z",
+          "date_text": "26/03/25",
+          "is_immediate": false
+        },
+        {
+          "price": 375000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-23T00:17:05Z",
+          "date_text": "26/03/23",
+          "is_immediate": true
+        },
+        {
+          "price": 399000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-14T00:14:30Z",
+          "date_text": "26/03/14",
+          "is_immediate": true
+        },
+        {
+          "price": 350000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-06T00:59:50Z",
+          "date_text": "26/03/06",
+          "is_immediate": true
+        },
+        {
+          "price": 351000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-04T02:35:16Z",
+          "date_text": "26/03/04",
+          "is_immediate": true
+        },
+        {
+          "price": 382000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-21T02:46:32Z",
+          "date_text": "26/02/21",
+          "is_immediate": false
+        },
+        {
+          "price": 349000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-04T06:43:43Z",
+          "date_text": "26/02/04",
+          "is_immediate": false
+        },
+        {
+          "price": 349000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-02T02:27:28Z",
+          "date_text": "26/02/02",
+          "is_immediate": false
+        },
+        {
+          "price": 350000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-13T04:23:13Z",
+          "date_text": "26/01/13",
+          "is_immediate": false
+        },
+        {
+          "price": 349000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-12T03:06:04Z",
+          "date_text": "26/01/12",
+          "is_immediate": false
+        },
+        {
+          "price": 300000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-09T14:22:46Z",
+          "date_text": "26/01/09",
+          "is_immediate": false
+        },
+        {
+          "price": 446000,
+          "option": "ONE SIZE",
+          "date_created": "2025-11-02T16:24:11Z",
+          "date_text": "25/11/03",
+          "is_immediate": false
+        },
+        {
+          "price": 406000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-13T01:17:40Z",
+          "date_text": "25/10/13",
+          "is_immediate": false
+        },
+        {
+          "price": 320000,
+          "option": "ONE SIZE",
+          "date_created": "2025-07-15T02:36:05Z",
+          "date_text": "25/07/15",
+          "is_immediate": false
+        },
+        {
+          "price": 320000,
+          "option": "ONE SIZE",
+          "date_created": "2025-07-10T07:03:33Z",
+          "date_text": "25/07/10",
+          "is_immediate": false
+        },
+        {
+          "price": 320000,
+          "option": "ONE SIZE",
+          "date_created": "2025-07-08T00:22:25Z",
+          "date_text": "25/07/08",
+          "is_immediate": false
+        },
+        {
+          "price": 320000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-12T01:20:46Z",
+          "date_text": "25/06/12",
+          "is_immediate": false
+        },
+        {
+          "price": 300000,
+          "option": "ONE SIZE",
+          "date_created": "2025-05-20T22:01:50Z",
+          "date_text": "25/05/21",
+          "is_immediate": false
+        },
+        {
+          "price": 309000,
+          "option": "ONE SIZE",
+          "date_created": "2025-05-08T14:21:08Z",
+          "date_text": "25/05/08",
+          "is_immediate": false
+        },
+        {
+          "price": 305000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-24T06:37:17Z",
+          "date_text": "25/04/24",
+          "is_immediate": false
+        },
+        {
+          "price": 305000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-24T04:50:36Z",
+          "date_text": "25/04/24",
+          "is_immediate": false
+        },
+        {
+          "price": 346000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-16T06:22:07Z",
+          "date_text": "25/04/16",
+          "is_immediate": true
+        },
+        {
+          "price": 345000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-15T02:07:08Z",
+          "date_text": "25/04/15",
+          "is_immediate": true
+        },
+        {
+          "price": 345000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-03T14:57:21Z",
+          "date_text": "25/04/03",
+          "is_immediate": true
+        },
+        {
+          "price": 344000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-11T14:18:39Z",
+          "date_text": "25/03/11",
+          "is_immediate": true
+        },
+        {
+          "price": 345000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-04T12:27:42Z",
+          "date_text": "25/03/04",
+          "is_immediate": true
+        }
+      ],
+      "asks": [
+        {
+          "price": 334000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 335000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 346000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 347000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 348000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 359000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 360000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 362000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 371000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 375000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 376000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 380000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 389000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 390000,
+          "option": "ONE SIZE",
+          "quantity": 4
+        },
+        {
+          "price": 395000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 399000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 409000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 419000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 425000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 435000,
+          "option": "ONE SIZE",
+          "quantity": 7
+        }
+      ],
+      "bids": [
+        {
+          "price": 321000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 310000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 263000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 262000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 50,
+        "asks": 20,
+        "bids": 4
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 1,000원(+0.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "S66WS0106P6435T1003",
+      "spu": "S66WS0106P6435T1003",
+      "b2b_sku": "S66WS0106P6435T1003",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' sneakers",
+      "option": "36",
+      "stock": 2,
+      "eur_price": 240.98,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 525320,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/525320",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 536000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 536000,
+          "option": "EU 36",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "EU 36",
+      "kream_options_available": [
+        "EU 36",
+        "EU 37",
+        "EU 38"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "S66WS0106P6435T1003",
+      "spu": "S66WS0106P6435T1003",
+      "b2b_sku": "S66WS0106P6435T1003",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' sneakers",
+      "option": "39",
+      "stock": 1,
+      "eur_price": 240.98,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 525320,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/525320",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 536000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 536000,
+          "option": "EU 36",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "EU 36",
+      "kream_options_available": [
+        "EU 36",
+        "EU 37",
+        "EU 38"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S66WS0106P6435T1003",
+      "spu": "S66WS0106P6435T1003",
+      "b2b_sku": "S66WS0106P6435T1003",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' sneakers",
+      "option": "40",
+      "stock": 2,
+      "eur_price": 240.98,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 525320,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/525320",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 536000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 536000,
+          "option": "EU 36",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "EU 36",
+      "kream_options_available": [
+        "EU 36",
+        "EU 37",
+        "EU 38"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SM7UY0086P7105952",
+      "spu": "SM7UY0086P7105952",
+      "b2b_sku": "SM7UY0086P7105952",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Numeric Signature MM6' bracelet",
+      "option": "4",
+      "stock": 3,
+      "eur_price": 200.82,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 778041,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/778041",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S66WZ0037P7706HB495",
+      "spu": "S66WZ0037P7706HB495",
+      "b2b_sku": "S66WZ0037P7706HB495",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "Square toe ballet flats",
+      "option": "37",
+      "stock": 1,
+      "eur_price": 241.8,
+      "eur_retail": 483.61,
+      "matched": true,
+      "product_id": 863663,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/863663",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH1WS0020P6303HB420",
+      "spu": "SH1WS0020P6303HB420",
+      "b2b_sku": "SH1WS0020P6303HB420",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'XT' sneakers MM6 Maison Margiela x Salomon",
+      "option": "42",
+      "stock": 3,
+      "eur_price": 224.27,
+      "eur_retail": 311.48,
+      "matched": true,
+      "product_id": 1009673,
+      "product_name_ko": "Salomon",
+      "product_url": "https://kream.co.kr/products/1009673",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 524000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 524000,
+          "option": "260",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "260",
+      "kream_options_available": [
+        "260",
+        "265",
+        "270",
+        "275",
+        "280",
+        "285",
+        "290"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH1WS0020P6303HB420",
+      "spu": "SH1WS0020P6303HB420",
+      "b2b_sku": "SH1WS0020P6303HB420",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'XT' sneakers MM6 Maison Margiela x Salomon",
+      "option": "42 2/3",
+      "stock": 3,
+      "eur_price": 224.27,
+      "eur_retail": 311.48,
+      "matched": true,
+      "product_id": 1009673,
+      "product_name_ko": "Salomon",
+      "product_url": "https://kream.co.kr/products/1009673",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 524000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 524000,
+          "option": "260",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "260",
+      "kream_options_available": [
+        "260",
+        "265",
+        "270",
+        "275",
+        "280",
+        "285",
+        "290"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH1WS0020P6303HB420",
+      "spu": "SH1WS0020P6303HB420",
+      "b2b_sku": "SH1WS0020P6303HB420",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'XT' sneakers MM6 Maison Margiela x Salomon",
+      "option": "43 1/3",
+      "stock": 3,
+      "eur_price": 224.27,
+      "eur_retail": 311.48,
+      "matched": true,
+      "product_id": 1009673,
+      "product_name_ko": "Salomon",
+      "product_url": "https://kream.co.kr/products/1009673",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 524000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 524000,
+          "option": "260",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "260",
+      "kream_options_available": [
+        "260",
+        "265",
+        "270",
+        "275",
+        "280",
+        "285",
+        "290"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH1WS0020P6303HB420",
+      "spu": "SH1WS0020P6303HB420",
+      "b2b_sku": "SH1WS0020P6303HB420",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'XT' sneakers MM6 Maison Margiela x Salomon",
+      "option": "44",
+      "stock": 3,
+      "eur_price": 224.27,
+      "eur_retail": 311.48,
+      "matched": true,
+      "product_id": 1009673,
+      "product_name_ko": "Salomon",
+      "product_url": "https://kream.co.kr/products/1009673",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 524000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 524000,
+          "option": "260",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "260",
+      "kream_options_available": [
+        "260",
+        "265",
+        "270",
+        "275",
+        "280",
+        "285",
+        "290"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH1WS0020P6303HB420",
+      "spu": "SH1WS0020P6303HB420",
+      "b2b_sku": "SH1WS0020P6303HB420",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'XT' sneakers MM6 Maison Margiela x Salomon",
+      "option": "44 2/3",
+      "stock": 1,
+      "eur_price": 224.27,
+      "eur_retail": 311.48,
+      "matched": true,
+      "product_id": 1009673,
+      "product_name_ko": "Salomon",
+      "product_url": "https://kream.co.kr/products/1009673",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 524000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 524000,
+          "option": "260",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "260",
+      "kream_options_available": [
+        "260",
+        "265",
+        "270",
+        "275",
+        "280",
+        "285",
+        "290"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH1WS0020P6303HB420",
+      "spu": "SH1WS0020P6303HB420",
+      "b2b_sku": "SH1WS0020P6303HB420",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'XT' sneakers MM6 Maison Margiela x Salomon",
+      "option": "45 1/3",
+      "stock": 1,
+      "eur_price": 224.27,
+      "eur_retail": 311.48,
+      "matched": true,
+      "product_id": 1009673,
+      "product_name_ko": "Salomon",
+      "product_url": "https://kream.co.kr/products/1009673",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 524000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 524000,
+          "option": "260",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "260",
+      "kream_options_available": [
+        "260",
+        "265",
+        "270",
+        "275",
+        "280",
+        "285",
+        "290"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WP0213P3628T8013",
+      "spu": "S59WP0213P3628T8013",
+      "b2b_sku": "S59WP0213P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic Numeric' slingback",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 265.99,
+      "eur_retail": 483.61,
+      "matched": true,
+      "product_id": 778033,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/778033",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SM6VG0111P7105952",
+      "spu": "SM6VG0111P7105952",
+      "b2b_sku": "SM6VG0111P7105952",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Earring Key' earrings",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 143.44,
+      "eur_retail": 286.89,
+      "matched": true,
+      "product_id": 778036,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/778036",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH1WX0012P7812T2291",
+      "spu": "SH1WX0012P7812T2291",
+      "b2b_sku": "SH1WX0012P7812T2291",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Biker' mules",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 407.21,
+      "eur_retail": 565.57,
+      "matched": true,
+      "product_id": 966768,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/966768",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH1WX0012P7812T2291",
+      "spu": "SH1WX0012P7812T2291",
+      "b2b_sku": "SH1WX0012P7812T2291",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Biker' mules",
+      "option": "42",
+      "stock": 1,
+      "eur_price": 407.21,
+      "eur_retail": 565.57,
+      "matched": true,
+      "product_id": 966768,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/966768",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH1WX0012P7812T2291",
+      "spu": "SH1WX0012P7812T2291",
+      "b2b_sku": "SH1WX0012P7812T2291",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Biker' mules",
+      "option": "43",
+      "stock": 2,
+      "eur_price": 407.21,
+      "eur_retail": 565.57,
+      "matched": true,
+      "product_id": 966768,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/966768",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH1WX0012P7812T2291",
+      "spu": "SH1WX0012P7812T2291",
+      "b2b_sku": "SH1WX0012P7812T2291",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Biker' mules",
+      "option": "44",
+      "stock": 1,
+      "eur_price": 407.21,
+      "eur_retail": 565.57,
+      "matched": true,
+      "product_id": 966768,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/966768",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WU0235P3628T8013",
+      "spu": "S59WU0235P3628T8013",
+      "b2b_sku": "S59WU0235P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' Ankle Boot",
+      "option": "35.5",
+      "stock": 1,
+      "eur_price": 336.39,
+      "eur_retail": 467.21,
+      "matched": true,
+      "product_id": 281087,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/281087",
+      "market": {
+        "last_sale_price": 527000,
+        "lowest_ask": 682000,
+        "highest_bid": null,
+        "change_text": "▲ 7,000원(+1.3%)"
+      },
+      "sales": [
+        {
+          "price": 527000,
+          "option": "EU 37.5W",
+          "date_created": "2024-09-06T06:49:05Z",
+          "date_text": "24/09/06",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 682000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        },
+        {
+          "price": 683000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        },
+        {
+          "price": 870000,
+          "option": "EU 37.5W",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 7,000원(+1.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 37.5W",
+      "kream_options_available": [
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 41W",
+        "EU 36W",
+        "EU 38.5W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WU0235P3628T8013",
+      "spu": "S59WU0235P3628T8013",
+      "b2b_sku": "S59WU0235P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' Ankle Boot",
+      "option": "36",
+      "stock": 3,
+      "eur_price": 336.39,
+      "eur_retail": 467.21,
+      "matched": true,
+      "product_id": 281087,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/281087",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 870000,
+        "highest_bid": null,
+        "change_text": "▲ 7,000원(+1.3%)"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 870000,
+          "option": "EU 36W",
+          "quantity": 3
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 7,000원(+1.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 36W",
+      "kream_options_available": [
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 41W",
+        "EU 36W",
+        "EU 38.5W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WU0235P3628T8013",
+      "spu": "S59WU0235P3628T8013",
+      "b2b_sku": "S59WU0235P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' Ankle Boot",
+      "option": "36.5",
+      "stock": 2,
+      "eur_price": 336.39,
+      "eur_retail": 467.21,
+      "matched": true,
+      "product_id": 281087,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/281087",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 881000,
+        "highest_bid": null,
+        "change_text": "▲ 7,000원(+1.3%)"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 881000,
+          "option": "EU 36.5W",
+          "quantity": 1
+        },
+        {
+          "price": 882000,
+          "option": "EU 36.5W",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 7,000원(+1.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 36.5W",
+      "kream_options_available": [
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 41W",
+        "EU 36W",
+        "EU 38.5W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WU0235P3628T8013",
+      "spu": "S59WU0235P3628T8013",
+      "b2b_sku": "S59WU0235P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' Ankle Boot",
+      "option": "37",
+      "stock": 7,
+      "eur_price": 336.39,
+      "eur_retail": 467.21,
+      "matched": true,
+      "product_id": 281087,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/281087",
+      "market": {
+        "last_sale_price": 527000,
+        "lowest_ask": 682000,
+        "highest_bid": null,
+        "change_text": "▲ 7,000원(+1.3%)"
+      },
+      "sales": [
+        {
+          "price": 527000,
+          "option": "EU 37.5W",
+          "date_created": "2024-09-06T06:49:05Z",
+          "date_text": "24/09/06",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 682000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        },
+        {
+          "price": 683000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        },
+        {
+          "price": 870000,
+          "option": "EU 37.5W",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 7,000원(+1.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 37.5W",
+      "kream_options_available": [
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 41W",
+        "EU 36W",
+        "EU 38.5W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WU0235P3628T8013",
+      "spu": "S59WU0235P3628T8013",
+      "b2b_sku": "S59WU0235P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' Ankle Boot",
+      "option": "37.5",
+      "stock": 3,
+      "eur_price": 336.39,
+      "eur_retail": 467.21,
+      "matched": true,
+      "product_id": 281087,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/281087",
+      "market": {
+        "last_sale_price": 527000,
+        "lowest_ask": 682000,
+        "highest_bid": null,
+        "change_text": "▲ 7,000원(+1.3%)"
+      },
+      "sales": [
+        {
+          "price": 527000,
+          "option": "EU 37.5W",
+          "date_created": "2024-09-06T06:49:05Z",
+          "date_text": "24/09/06",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 682000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        },
+        {
+          "price": 683000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        },
+        {
+          "price": 870000,
+          "option": "EU 37.5W",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 7,000원(+1.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 37.5W",
+      "kream_options_available": [
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 41W",
+        "EU 36W",
+        "EU 38.5W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WU0235P3628T8013",
+      "spu": "S59WU0235P3628T8013",
+      "b2b_sku": "S59WU0235P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' Ankle Boot",
+      "option": "38",
+      "stock": 5,
+      "eur_price": 336.39,
+      "eur_retail": 467.21,
+      "matched": true,
+      "product_id": 281087,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/281087",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 682000,
+        "highest_bid": null,
+        "change_text": "▲ 7,000원(+1.3%)"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 682000,
+          "option": "EU 38W",
+          "quantity": 1
+        },
+        {
+          "price": 683000,
+          "option": "EU 38W",
+          "quantity": 1
+        },
+        {
+          "price": 870000,
+          "option": "EU 38W",
+          "quantity": 3
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 7,000원(+1.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 38W",
+      "kream_options_available": [
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 41W",
+        "EU 36W",
+        "EU 38.5W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WU0235P3628T8013",
+      "spu": "S59WU0235P3628T8013",
+      "b2b_sku": "S59WU0235P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' Ankle Boot",
+      "option": "38.5",
+      "stock": 3,
+      "eur_price": 336.39,
+      "eur_retail": 467.21,
+      "matched": true,
+      "product_id": 281087,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/281087",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 870000,
+        "highest_bid": null,
+        "change_text": "▲ 7,000원(+1.3%)"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 870000,
+          "option": "EU 38.5W",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 7,000원(+1.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 38.5W",
+      "kream_options_available": [
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 41W",
+        "EU 36W",
+        "EU 38.5W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WU0235P3628T8013",
+      "spu": "S59WU0235P3628T8013",
+      "b2b_sku": "S59WU0235P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' Ankle Boot",
+      "option": "39",
+      "stock": 4,
+      "eur_price": 336.39,
+      "eur_retail": 467.21,
+      "matched": true,
+      "product_id": 281087,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/281087",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 870000,
+        "highest_bid": null,
+        "change_text": "▲ 7,000원(+1.3%)"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 870000,
+          "option": "EU 39W",
+          "quantity": 3
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 7,000원(+1.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 39W",
+      "kream_options_available": [
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 41W",
+        "EU 36W",
+        "EU 38.5W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WU0235P3628T8013",
+      "spu": "S59WU0235P3628T8013",
+      "b2b_sku": "S59WU0235P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' Ankle Boot",
+      "option": "39.5",
+      "stock": 1,
+      "eur_price": 336.39,
+      "eur_retail": 467.21,
+      "matched": true,
+      "product_id": 281087,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/281087",
+      "market": {
+        "last_sale_price": 527000,
+        "lowest_ask": 682000,
+        "highest_bid": null,
+        "change_text": "▲ 7,000원(+1.3%)"
+      },
+      "sales": [
+        {
+          "price": 527000,
+          "option": "EU 37.5W",
+          "date_created": "2024-09-06T06:49:05Z",
+          "date_text": "24/09/06",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 682000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        },
+        {
+          "price": 683000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        },
+        {
+          "price": 870000,
+          "option": "EU 37.5W",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 7,000원(+1.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 37.5W",
+      "kream_options_available": [
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 41W",
+        "EU 36W",
+        "EU 38.5W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WU0235P3628T8013",
+      "spu": "S59WU0235P3628T8013",
+      "b2b_sku": "S59WU0235P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' Ankle Boot",
+      "option": "40",
+      "stock": 3,
+      "eur_price": 336.39,
+      "eur_retail": 467.21,
+      "matched": true,
+      "product_id": 281087,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/281087",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 870000,
+        "highest_bid": null,
+        "change_text": "▲ 7,000원(+1.3%)"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 870000,
+          "option": "EU 40W",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 7,000원(+1.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 40W",
+      "kream_options_available": [
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 41W",
+        "EU 36W",
+        "EU 38.5W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WU0235P3628T8013",
+      "spu": "S59WU0235P3628T8013",
+      "b2b_sku": "S59WU0235P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' Ankle Boot",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 336.39,
+      "eur_retail": 467.21,
+      "matched": true,
+      "product_id": 281087,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/281087",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 773000,
+        "highest_bid": null,
+        "change_text": "▲ 7,000원(+1.3%)"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 773000,
+          "option": "EU 41W",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 7,000원(+1.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 41W",
+      "kream_options_available": [
+        "EU 37.5W",
+        "EU 37W",
+        "EU 38W",
+        "EU 41W",
+        "EU 36W",
+        "EU 38.5W",
+        "EU 39W",
+        "EU 40W",
+        "EU 36.5W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S66WU0131P7439HB099",
+      "spu": "S66WU0131P7439HB099",
+      "b2b_sku": "S66WU0131P7439HB099",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' ankle boots",
+      "option": "37",
+      "stock": 1,
+      "eur_price": 311.06,
+      "eur_retail": 565.57,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"S66WU0131P7439HB099\" SPU=\"S66WU0131P7439HB099\"",
+      "candidates": [
+        {
+          "product_id": 66155,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 카프스킨 레플리카 스니커즈 블랙\n\n22%\n\n599,000원\n\n관심 290\n\n · 리뷰 23\n\n · 거래 98\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 88172,
+          "text": "Maison Margiela\n\n메종 마르지엘라 타비 하이 블랙\n\n500,000원\n\n관심 33\n\n · 리뷰 2\n\n · 거래 4"
+        },
+        {
+          "product_id": 778022,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 팩토리 사보 블랙\n\n44%\n\n486,000원\n\n관심 15\n\n · 거래 1"
+        },
+        {
+          "product_id": 757124,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 타비 뉴 발레리나 블랙\n\n13%\n\n1,275,000원\n\n관심 251\n\n · 리뷰 3\n\n · 거래 6"
+        },
+        {
+          "product_id": 683880,
+          "text": "Maison Margiela\n\n메종 마르지엘라 하이테크 미디움 백팩 블랙\n\n33%\n\n2,230,000원\n\n관심 428\n\n · 리뷰 1\n\n · 거래 6\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "S59WZ0103P7561T8013",
+      "spu": "S59WZ0103P7561T8013",
+      "b2b_sku": "S59WZ0103P7561T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Ballet' ballet flats",
+      "option": "37",
+      "stock": 1,
+      "eur_price": 241.8,
+      "eur_retail": 483.61,
+      "matched": true,
+      "product_id": 997873,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/997873",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 753000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 753000,
+          "option": "EU 37",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "EU 37",
+      "kream_options_available": [
+        "EU 35",
+        "EU 36",
+        "EU 38",
+        "EU 38.5",
+        "EU 39",
+        "EU 40",
+        "EU 36.5",
+        "EU 37",
+        "EU 37.5"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "S59WZ0103P7561T8013",
+      "spu": "S59WZ0103P7561T8013",
+      "b2b_sku": "S59WZ0103P7561T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Ballet' ballet flats",
+      "option": "38",
+      "stock": 2,
+      "eur_price": 241.8,
+      "eur_retail": 483.61,
+      "matched": true,
+      "product_id": 997873,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/997873",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 652000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 652000,
+          "option": "EU 38",
+          "quantity": 1
+        },
+        {
+          "price": 753000,
+          "option": "EU 38",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "EU 38",
+      "kream_options_available": [
+        "EU 35",
+        "EU 36",
+        "EU 38",
+        "EU 38.5",
+        "EU 39",
+        "EU 40",
+        "EU 36.5",
+        "EU 37",
+        "EU 37.5"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "S59WZ0103P7561T8013",
+      "spu": "S59WZ0103P7561T8013",
+      "b2b_sku": "S59WZ0103P7561T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Ballet' ballet flats",
+      "option": "39",
+      "stock": 1,
+      "eur_price": 241.8,
+      "eur_retail": 483.61,
+      "matched": true,
+      "product_id": 997873,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/997873",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 652000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 652000,
+          "option": "EU 39",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "EU 39",
+      "kream_options_available": [
+        "EU 35",
+        "EU 36",
+        "EU 38",
+        "EU 38.5",
+        "EU 39",
+        "EU 40",
+        "EU 36.5",
+        "EU 37",
+        "EU 37.5"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "S54WD0039P6414T8013",
+      "spu": "S54WD0039P6414T8013",
+      "b2b_sku": "S54WD0039P6414T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Classic japanese' shoulder bag",
+      "option": "U",
+      "stock": 50,
+      "eur_price": 186.48,
+      "eur_retail": 286.89,
+      "matched": true,
+      "product_id": 302726,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/302726",
+      "market": {
+        "last_sale_price": 345000,
+        "lowest_ask": 353000,
+        "highest_bid": 300000,
+        "change_text": "▲ 15,000원(+4.5%)"
+      },
+      "sales": [
+        {
+          "price": 345000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-21T06:42:50Z",
+          "date_text": "23시간 전",
+          "is_immediate": false
+        },
+        {
+          "price": 330000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-20T04:13:24Z",
+          "date_text": "26/07/20",
+          "is_immediate": true
+        },
+        {
+          "price": 330000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-16T01:39:26Z",
+          "date_text": "26/07/16",
+          "is_immediate": true
+        },
+        {
+          "price": 320000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-15T17:48:44Z",
+          "date_text": "26/07/16",
+          "is_immediate": false
+        },
+        {
+          "price": 334000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-14T08:27:54Z",
+          "date_text": "26/07/14",
+          "is_immediate": true
+        },
+        {
+          "price": 337000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-10T06:33:52Z",
+          "date_text": "26/07/10",
+          "is_immediate": true
+        },
+        {
+          "price": 335000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-05T11:30:21Z",
+          "date_text": "26/06/05",
+          "is_immediate": false
+        },
+        {
+          "price": 340000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-05T08:23:31Z",
+          "date_text": "26/06/05",
+          "is_immediate": false
+        },
+        {
+          "price": 340000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-18T00:09:31Z",
+          "date_text": "26/05/18",
+          "is_immediate": false
+        },
+        {
+          "price": 338000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-13T02:14:03Z",
+          "date_text": "26/05/13",
+          "is_immediate": false
+        },
+        {
+          "price": 399000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-06T06:32:25Z",
+          "date_text": "26/05/06",
+          "is_immediate": true
+        },
+        {
+          "price": 351000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-24T03:51:57Z",
+          "date_text": "26/04/24",
+          "is_immediate": false
+        },
+        {
+          "price": 352000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-18T15:44:00Z",
+          "date_text": "26/04/19",
+          "is_immediate": false
+        },
+        {
+          "price": 352000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-04T12:06:37Z",
+          "date_text": "26/04/04",
+          "is_immediate": false
+        },
+        {
+          "price": 352000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-30T04:04:03Z",
+          "date_text": "26/03/30",
+          "is_immediate": false
+        },
+        {
+          "price": 352000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-05T01:17:46Z",
+          "date_text": "26/03/05",
+          "is_immediate": false
+        },
+        {
+          "price": 354000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-12T08:55:36Z",
+          "date_text": "26/01/12",
+          "is_immediate": false
+        },
+        {
+          "price": 369000,
+          "option": "ONE SIZE",
+          "date_created": "2025-07-10T10:12:04Z",
+          "date_text": "25/07/10",
+          "is_immediate": false
+        },
+        {
+          "price": 310000,
+          "option": "ONE SIZE",
+          "date_created": "2024-06-18T04:11:37Z",
+          "date_text": "24/06/18",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 353000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 355000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 359000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 360000,
+          "option": "ONE SIZE",
+          "quantity": 10
+        },
+        {
+          "price": 365000,
+          "option": "ONE SIZE",
+          "quantity": 15
+        },
+        {
+          "price": 367000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 369000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 379000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 388000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 397000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 401000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 403000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 438000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 300000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 200000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 19,
+        "asks": 13,
+        "bids": 2
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 15,000원(+4.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "S59WS0240P8163HB425",
+      "spu": "S59WS0240P8163HB425",
+      "b2b_sku": "S59WS0240P8163HB425",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'XT4 Mule' sneakers MM6 Maison Margiela x Salomon",
+      "option": "38 2/3",
+      "stock": 1,
+      "eur_price": 212.46,
+      "eur_retail": 295.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"S59WS0240P8163HB425\" SPU=\"S59WS0240P8163HB425\"",
+      "candidates": [
+        {
+          "product_id": 778022,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 팩토리 사보 블랙\n\n44%\n\n486,000원\n\n관심 15\n\n · 거래 1"
+        },
+        {
+          "product_id": 35004,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 반달 타비 실크 로우 스니커즈 블랙\n\n450,000원\n\n관심 84\n\n · 리뷰 1\n\n · 거래 5"
+        },
+        {
+          "product_id": 892321,
+          "text": "Salomon\n\n살로몬 x MM6 메종 마르지엘라 XT 블랙\n\n40%\n\n397,000원\n\n관심 314\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 54000,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 타비 레더 슬립온 블랙\n\n1,054,000원\n\n관심 292\n\n · 리뷰 5\n\n · 거래 21"
+        },
+        {
+          "product_id": 778070,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 아나토믹 트래블 발레리나 블랙\n\n40%\n\n632,000원\n\n관심 16"
+        }
+      ]
+    },
+    {
+      "sku": "S59WS0240P8163HB425",
+      "spu": "S59WS0240P8163HB425",
+      "b2b_sku": "S59WS0240P8163HB425",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'XT4 Mule' sneakers MM6 Maison Margiela x Salomon",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 212.46,
+      "eur_retail": 295.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"S59WS0240P8163HB425\" SPU=\"S59WS0240P8163HB425\"",
+      "candidates": [
+        {
+          "product_id": 778022,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 팩토리 사보 블랙\n\n44%\n\n486,000원\n\n관심 15\n\n · 거래 1"
+        },
+        {
+          "product_id": 35004,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 반달 타비 실크 로우 스니커즈 블랙\n\n450,000원\n\n관심 84\n\n · 리뷰 1\n\n · 거래 5"
+        },
+        {
+          "product_id": 892321,
+          "text": "Salomon\n\n살로몬 x MM6 메종 마르지엘라 XT 블랙\n\n40%\n\n397,000원\n\n관심 314\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 54000,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 타비 레더 슬립온 블랙\n\n1,054,000원\n\n관심 292\n\n · 리뷰 5\n\n · 거래 21"
+        },
+        {
+          "product_id": 778070,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 아나토믹 트래블 발레리나 블랙\n\n40%\n\n632,000원\n\n관심 16"
+        }
+      ]
+    },
+    {
+      "sku": "S59WS0240P8163HB425",
+      "spu": "S59WS0240P8163HB425",
+      "b2b_sku": "S59WS0240P8163HB425",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'XT4 Mule' sneakers MM6 Maison Margiela x Salomon",
+      "option": "40 2/3",
+      "stock": 1,
+      "eur_price": 212.46,
+      "eur_retail": 295.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"S59WS0240P8163HB425\" SPU=\"S59WS0240P8163HB425\"",
+      "candidates": [
+        {
+          "product_id": 778022,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 팩토리 사보 블랙\n\n44%\n\n486,000원\n\n관심 15\n\n · 거래 1"
+        },
+        {
+          "product_id": 35004,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 반달 타비 실크 로우 스니커즈 블랙\n\n450,000원\n\n관심 84\n\n · 리뷰 1\n\n · 거래 5"
+        },
+        {
+          "product_id": 892321,
+          "text": "Salomon\n\n살로몬 x MM6 메종 마르지엘라 XT 블랙\n\n40%\n\n397,000원\n\n관심 314\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 54000,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 타비 레더 슬립온 블랙\n\n1,054,000원\n\n관심 292\n\n · 리뷰 5\n\n · 거래 21"
+        },
+        {
+          "product_id": 778070,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 아나토믹 트래블 발레리나 블랙\n\n40%\n\n632,000원\n\n관심 16"
+        }
+      ]
+    },
+    {
+      "sku": "S59WS0214P6163HB006",
+      "spu": "S59WS0214P6163HB006",
+      "b2b_sku": "S59WS0214P6163HB006",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'ACS PRO' sneakers MM6 Maison Margiela x Salomon",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 157.38,
+      "eur_retail": 262.3,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"S59WS0214P6163HB006\" SPU=\"S59WS0214P6163HB006\"",
+      "candidates": [
+        {
+          "product_id": 66155,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 카프스킨 레플리카 스니커즈 블랙\n\n22%\n\n599,000원\n\n관심 290\n\n · 리뷰 23\n\n · 거래 98\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 35004,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 반달 타비 실크 로우 스니커즈 블랙\n\n450,000원\n\n관심 84\n\n · 리뷰 1\n\n · 거래 5"
+        },
+        {
+          "product_id": 892321,
+          "text": "Salomon\n\n살로몬 x MM6 메종 마르지엘라 XT 블랙\n\n40%\n\n397,000원\n\n관심 314\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 778022,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 팩토리 사보 블랙\n\n44%\n\n486,000원\n\n관심 15\n\n · 거래 1"
+        },
+        {
+          "product_id": 86950,
+          "text": "Maison Margiela\n\n메종 마르지엘라 뉴 에볼루션 스니커즈 블랙\n\n41%\n\n529,000원\n\n관심 242\n\n · 리뷰 11\n\n · 거래 50"
+        }
+      ]
+    },
+    {
+      "sku": "SH3WS0012P6435T1003",
+      "spu": "SH3WS0012P6435T1003",
+      "b2b_sku": "SH3WS0012P6435T1003",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' sneakers",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 220.9,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 558460,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/558460",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 517000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 517000,
+          "option": "40",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "40",
+      "kream_options_available": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "SH3WS0012P6435T1003",
+      "spu": "SH3WS0012P6435T1003",
+      "b2b_sku": "SH3WS0012P6435T1003",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' sneakers",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 220.9,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 558460,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/558460",
+      "market": {
+        "last_sale_price": 396000,
+        "lowest_ask": 395000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 396000,
+          "option": "41",
+          "date_created": "2025-09-26T03:16:36Z",
+          "date_text": "25/09/26",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 395000,
+          "option": "41",
+          "quantity": 1
+        },
+        {
+          "price": 517000,
+          "option": "41",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "41",
+      "kream_options_available": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "SH3WS0012P6435T1003",
+      "spu": "SH3WS0012P6435T1003",
+      "b2b_sku": "SH3WS0012P6435T1003",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' sneakers",
+      "option": "42",
+      "stock": 2,
+      "eur_price": 220.9,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 558460,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/558460",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 395000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 395000,
+          "option": "42",
+          "quantity": 1
+        },
+        {
+          "price": 517000,
+          "option": "42",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "42",
+      "kream_options_available": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "SH3WS0012P6435T1003",
+      "spu": "SH3WS0012P6435T1003",
+      "b2b_sku": "SH3WS0012P6435T1003",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' sneakers",
+      "option": "43",
+      "stock": 2,
+      "eur_price": 220.9,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 558460,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/558460",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 395000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 395000,
+          "option": "43",
+          "quantity": 1
+        },
+        {
+          "price": 517000,
+          "option": "43",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "43",
+      "kream_options_available": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "SH3WS0012P6435T1003",
+      "spu": "SH3WS0012P6435T1003",
+      "b2b_sku": "SH3WS0012P6435T1003",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' sneakers",
+      "option": "45",
+      "stock": 1,
+      "eur_price": 220.9,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 558460,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/558460",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 517000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 517000,
+          "option": "45",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "45",
+      "kream_options_available": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "S59WP0212P3628T8013",
+      "spu": "S59WP0212P3628T8013",
+      "b2b_sku": "S59WP0212P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Opentoe Tabi' slingback",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 225.41,
+      "eur_retail": 450.82,
+      "matched": true,
+      "product_id": 778047,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/778047",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 530000,
+        "highest_bid": null,
+        "change_text": "▲ 19,000원(+3.7%)"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 530000,
+          "option": "EU 36W",
+          "quantity": 1
+        },
+        {
+          "price": 538000,
+          "option": "EU 36W",
+          "quantity": 1
+        },
+        {
+          "price": 575000,
+          "option": "EU 36W",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 19,000원(+3.7%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 36W",
+      "kream_options_available": [
+        "EU 37W",
+        "EU 36W",
+        "EU 36.5W",
+        "EU 39W",
+        "EU 40W",
+        "EU 37.5W",
+        "EU 38W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WP0212P3628T8013",
+      "spu": "S59WP0212P3628T8013",
+      "b2b_sku": "S59WP0212P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Opentoe Tabi' slingback",
+      "option": "37.5",
+      "stock": 1,
+      "eur_price": 225.41,
+      "eur_retail": 450.82,
+      "matched": true,
+      "product_id": 778047,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/778047",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 599000,
+        "highest_bid": null,
+        "change_text": "▲ 19,000원(+3.7%)"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 599000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        },
+        {
+          "price": 610000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        },
+        {
+          "price": 640000,
+          "option": "EU 37.5W",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 19,000원(+3.7%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 37.5W",
+      "kream_options_available": [
+        "EU 37W",
+        "EU 36W",
+        "EU 36.5W",
+        "EU 39W",
+        "EU 40W",
+        "EU 37.5W",
+        "EU 38W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WP0212P3628T8013",
+      "spu": "S59WP0212P3628T8013",
+      "b2b_sku": "S59WP0212P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Opentoe Tabi' slingback",
+      "option": "38",
+      "stock": 1,
+      "eur_price": 225.41,
+      "eur_retail": 450.82,
+      "matched": true,
+      "product_id": 778047,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/778047",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 638000,
+        "highest_bid": null,
+        "change_text": "▲ 19,000원(+3.7%)"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 638000,
+          "option": "EU 38W",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 19,000원(+3.7%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 38W",
+      "kream_options_available": [
+        "EU 37W",
+        "EU 36W",
+        "EU 36.5W",
+        "EU 39W",
+        "EU 40W",
+        "EU 37.5W",
+        "EU 38W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SM6TW0015P8860951",
+      "spu": "SM6TW0015P8860951",
+      "b2b_sku": "SM6TW0015P8860951",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Numeric' hair clip",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 112.71,
+      "eur_retail": 204.92,
+      "matched": true,
+      "product_id": 798012,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/798012",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 279000,
+        "highest_bid": 20000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 279000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 288000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 20000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "SB6WD0043P7560T8243",
+      "spu": "SB6WD0043P7560T8243",
+      "b2b_sku": "SB6WD0043P7560T8243",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Japanese Classic' handbag",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 348.36,
+      "eur_retail": 696.72,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"SB6WD0043P7560T8243\" SPU=\"SB6WD0043P7560T8243\"",
+      "candidates": [
+        {
+          "product_id": 784898,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 재패니즈 크로스바디백 블랙\n\n42%\n\n402,000원\n\n관심 4,264\n\n · 리뷰 74\n\n · 거래 617\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 177698,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 재패니즈 클래식 크로스바디백 블랙\n\n17%\n\n521,000원\n\n관심 1.7만\n\n · 리뷰 478\n\n · 거래 3,109\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 302726,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 재패니즈 백 클래식 크로스바디 블랙\n\n40%\n\n353,000원\n\n관심 510\n\n · 리뷰 3\n\n · 거래 19"
+        },
+        {
+          "product_id": 302727,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 재패니즈 백 클래식 스몰 블랙\n\n55%\n\n245,000원\n\n관심 281\n\n · 리뷰 3\n\n · 거래 9\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 95357,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 재패니즈 포우 레더 백 블랙\n\n410,000원\n\n관심 1,501\n\n · 리뷰 16\n\n · 거래 144\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "S59WU0276P6385T2154",
+      "spu": "S59WU0276P6385T2154",
+      "b2b_sku": "S59WU0276P6385T2154",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' stitch-toe ankle boots",
+      "option": "36",
+      "stock": 1,
+      "eur_price": 383.61,
+      "eur_retail": 532.79,
+      "matched": true,
+      "product_id": 997464,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/997464",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 986000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 986000,
+          "option": "EU 36W",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "EU 36W",
+      "kream_options_available": [
+        "EU 36W",
+        "EU 37W",
+        "EU 38W",
+        "EU 40W",
+        "EU 41W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WU0276P6385T2154",
+      "spu": "S59WU0276P6385T2154",
+      "b2b_sku": "S59WU0276P6385T2154",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' stitch-toe ankle boots",
+      "option": "37",
+      "stock": 1,
+      "eur_price": 383.61,
+      "eur_retail": 532.79,
+      "matched": true,
+      "product_id": 997464,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/997464",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 986000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 986000,
+          "option": "EU 37W",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "EU 37W",
+      "kream_options_available": [
+        "EU 36W",
+        "EU 37W",
+        "EU 38W",
+        "EU 40W",
+        "EU 41W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WU0276P6385T2154",
+      "spu": "S59WU0276P6385T2154",
+      "b2b_sku": "S59WU0276P6385T2154",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' stitch-toe ankle boots",
+      "option": "38",
+      "stock": 2,
+      "eur_price": 383.61,
+      "eur_retail": 532.79,
+      "matched": true,
+      "product_id": 997464,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/997464",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 986000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 986000,
+          "option": "EU 38W",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "EU 38W",
+      "kream_options_available": [
+        "EU 36W",
+        "EU 37W",
+        "EU 38W",
+        "EU 40W",
+        "EU 41W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S52TL0040M13295733",
+      "spu": "S52TL0040M13295733",
+      "b2b_sku": "S52TL0040M13295733",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Numeric Signature MM6' socks",
+      "option": "M",
+      "stock": 4,
+      "eur_price": 47.95,
+      "eur_retail": 73.77,
+      "matched": true,
+      "product_id": 966785,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/966785",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S52TL0040M13295733",
+      "spu": "S52TL0040M13295733",
+      "b2b_sku": "S52TL0040M13295733",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Numeric Signature MM6' socks",
+      "option": "S",
+      "stock": 6,
+      "eur_price": 47.95,
+      "eur_retail": 73.77,
+      "matched": true,
+      "product_id": 966785,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/966785",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S52TB0017M13285697",
+      "spu": "S52TB0017M13285697",
+      "b2b_sku": "S52TB0017M13285697",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Numeric Signature MM6' balaclava",
+      "option": "S",
+      "stock": 5,
+      "eur_price": 154.5,
+      "eur_retail": 237.7,
+      "matched": true,
+      "product_id": 966786,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/966786",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S52TL0040M13295860M",
+      "spu": "S52TL0040M13295860M",
+      "b2b_sku": "S52TL0040M13295860M",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Numeric Signature MM6' socks",
+      "option": "M",
+      "stock": 4,
+      "eur_price": 47.95,
+      "eur_retail": 73.77,
+      "matched": true,
+      "product_id": 966801,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/966801",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S52TL0040M13295860M",
+      "spu": "S52TL0040M13295860M",
+      "b2b_sku": "S52TL0040M13295860M",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Numeric Signature MM6' socks",
+      "option": "S",
+      "stock": 6,
+      "eur_price": 47.95,
+      "eur_retail": 73.77,
+      "matched": true,
+      "product_id": 966801,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/966801",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WX0087P7808T2064",
+      "spu": "S59WX0087P7808T2064",
+      "b2b_sku": "S59WX0087P7808T2064",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Numeric Signature MM6' sabots",
+      "option": "37",
+      "stock": 2,
+      "eur_price": 324.59,
+      "eur_retail": 450.82,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"S59WX0087P7808T2064\" SPU=\"S59WX0087P7808T2064\"",
+      "candidates": [
+        {
+          "product_id": 778022,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 팩토리 사보 블랙\n\n44%\n\n486,000원\n\n관심 15\n\n · 거래 1"
+        },
+        {
+          "product_id": 778070,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 아나토믹 트래블 발레리나 블랙\n\n40%\n\n632,000원\n\n관심 16"
+        },
+        {
+          "product_id": 324697,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 아나토믹 클로그 슬리퍼 블랙\n\n9%\n\n500,000원\n\n관심 32\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 54000,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 타비 레더 슬립온 블랙\n\n1,054,000원\n\n관심 292\n\n · 리뷰 5\n\n · 거래 21"
+        },
+        {
+          "product_id": 778047,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 아나토믹 뉴메릭 슬링백 블랙\n\n50%\n\n530,000원\n\n관심 72\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "S59WX0087P7808T2064",
+      "spu": "S59WX0087P7808T2064",
+      "b2b_sku": "S59WX0087P7808T2064",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Numeric Signature MM6' sabots",
+      "option": "38",
+      "stock": 2,
+      "eur_price": 324.59,
+      "eur_retail": 450.82,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"S59WX0087P7808T2064\" SPU=\"S59WX0087P7808T2064\"",
+      "candidates": [
+        {
+          "product_id": 778022,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 팩토리 사보 블랙\n\n44%\n\n486,000원\n\n관심 15\n\n · 거래 1"
+        },
+        {
+          "product_id": 778070,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 아나토믹 트래블 발레리나 블랙\n\n40%\n\n632,000원\n\n관심 16"
+        },
+        {
+          "product_id": 324697,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 아나토믹 클로그 슬리퍼 블랙\n\n9%\n\n500,000원\n\n관심 32\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 54000,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 타비 레더 슬립온 블랙\n\n1,054,000원\n\n관심 292\n\n · 리뷰 5\n\n · 거래 21"
+        },
+        {
+          "product_id": 778047,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 아나토믹 뉴메릭 슬링백 블랙\n\n50%\n\n530,000원\n\n관심 72\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "S59WX0087P7808T2064",
+      "spu": "S59WX0087P7808T2064",
+      "b2b_sku": "S59WX0087P7808T2064",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Numeric Signature MM6' sabots",
+      "option": "39",
+      "stock": 2,
+      "eur_price": 324.59,
+      "eur_retail": 450.82,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"S59WX0087P7808T2064\" SPU=\"S59WX0087P7808T2064\"",
+      "candidates": [
+        {
+          "product_id": 778022,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 팩토리 사보 블랙\n\n44%\n\n486,000원\n\n관심 15\n\n · 거래 1"
+        },
+        {
+          "product_id": 778070,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 아나토믹 트래블 발레리나 블랙\n\n40%\n\n632,000원\n\n관심 16"
+        },
+        {
+          "product_id": 324697,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 아나토믹 클로그 슬리퍼 블랙\n\n9%\n\n500,000원\n\n관심 32\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 54000,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 타비 레더 슬립온 블랙\n\n1,054,000원\n\n관심 292\n\n · 리뷰 5\n\n · 거래 21"
+        },
+        {
+          "product_id": 778047,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 아나토믹 뉴메릭 슬링백 블랙\n\n50%\n\n530,000원\n\n관심 72\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "S59WX0087P7808T2064",
+      "spu": "S59WX0087P7808T2064",
+      "b2b_sku": "S59WX0087P7808T2064",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Numeric Signature MM6' sabots",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 324.59,
+      "eur_retail": 450.82,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"S59WX0087P7808T2064\" SPU=\"S59WX0087P7808T2064\"",
+      "candidates": [
+        {
+          "product_id": 778022,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 팩토리 사보 블랙\n\n44%\n\n486,000원\n\n관심 15\n\n · 거래 1"
+        },
+        {
+          "product_id": 778070,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 아나토믹 트래블 발레리나 블랙\n\n40%\n\n632,000원\n\n관심 16"
+        },
+        {
+          "product_id": 324697,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 아나토믹 클로그 슬리퍼 블랙\n\n9%\n\n500,000원\n\n관심 32\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 54000,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 타비 레더 슬립온 블랙\n\n1,054,000원\n\n관심 292\n\n · 리뷰 5\n\n · 거래 21"
+        },
+        {
+          "product_id": 778047,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 아나토믹 뉴메릭 슬링백 블랙\n\n50%\n\n530,000원\n\n관심 72\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "S52TB0017M13285900",
+      "spu": "S52TB0017M13285900",
+      "b2b_sku": "S52TB0017M13285900",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Numeric Signature MM6' balaclava",
+      "option": "S",
+      "stock": 5,
+      "eur_price": 154.5,
+      "eur_retail": 237.7,
+      "matched": true,
+      "product_id": 966800,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/966800",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S54WD0043P6414T8013",
+      "spu": "S54WD0043P6414T8013",
+      "b2b_sku": "S54WD0043P6414T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Japanese bag classic small' shoulder bag",
+      "option": "U",
+      "stock": 86,
+      "eur_price": 144.26,
+      "eur_retail": 262.3,
+      "matched": true,
+      "product_id": 302727,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/302727",
+      "market": {
+        "last_sale_price": 265000,
+        "lowest_ask": 245000,
+        "highest_bid": 210000,
+        "change_text": "▼ 45,000원(-14.5%)"
+      },
+      "sales": [
+        {
+          "price": 265000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-18T03:59:36Z",
+          "date_text": "26/07/18",
+          "is_immediate": false
+        },
+        {
+          "price": 310000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-28T09:00:18Z",
+          "date_text": "26/04/28",
+          "is_immediate": false
+        },
+        {
+          "price": 337000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-15T12:05:54Z",
+          "date_text": "26/04/15",
+          "is_immediate": false
+        },
+        {
+          "price": 317000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-02T22:07:48Z",
+          "date_text": "26/04/03",
+          "is_immediate": false
+        },
+        {
+          "price": 337000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-19T14:17:28Z",
+          "date_text": "26/02/19",
+          "is_immediate": false
+        },
+        {
+          "price": 310000,
+          "option": "ONE SIZE",
+          "date_created": "2025-12-13T06:05:55Z",
+          "date_text": "25/12/13",
+          "is_immediate": false
+        },
+        {
+          "price": 259000,
+          "option": "ONE SIZE",
+          "date_created": "2025-02-09T11:06:16Z",
+          "date_text": "25/02/09",
+          "is_immediate": false
+        },
+        {
+          "price": 255000,
+          "option": "ONE SIZE",
+          "date_created": "2024-08-15T15:27:50Z",
+          "date_text": "24/08/16",
+          "is_immediate": false
+        },
+        {
+          "price": 260000,
+          "option": "ONE SIZE",
+          "date_created": "2024-08-07T07:27:55Z",
+          "date_text": "24/08/07",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 245000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 249000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 293000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 294000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 295000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 300000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 339000,
+          "option": "ONE SIZE",
+          "quantity": 19
+        },
+        {
+          "price": 341000,
+          "option": "ONE SIZE",
+          "quantity": 22
+        },
+        {
+          "price": 344000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 355000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 359000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 360000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 368000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 371000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 390000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 395000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 210000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 200000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 9,
+        "asks": 16,
+        "bids": 2
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 45,000원(-14.5%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "S59WZ0099P3628T8013",
+      "spu": "S59WZ0099P3628T8013",
+      "b2b_sku": "S59WZ0099P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' ballet flats",
+      "option": "35",
+      "stock": 2,
+      "eur_price": 289.18,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 563010,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/563010",
+      "market": {
+        "last_sale_price": 595000,
+        "lowest_ask": 635000,
+        "highest_bid": 565000,
+        "change_text": "▲ 46,000원(+7.7%)"
+      },
+      "sales": [
+        {
+          "price": 595000,
+          "option": "EU 38.5",
+          "date_created": "2026-05-24T08:45:58Z",
+          "date_text": "26/05/24",
+          "is_immediate": false
+        },
+        {
+          "price": 666000,
+          "option": "EU 38.5",
+          "date_created": "2026-05-05T12:16:31Z",
+          "date_text": "26/05/05",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 635000,
+          "option": "EU 38.5",
+          "quantity": 1
+        },
+        {
+          "price": 766000,
+          "option": "EU 38.5",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 565000,
+          "option": "EU 38.5",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 2,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 46,000원(+7.7%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 38.5",
+      "kream_options_available": [
+        "EU 38.5",
+        "EU 36.5",
+        "EU 39",
+        "EU 37",
+        "EU 37.5",
+        "EU 36",
+        "EU 38",
+        "EU 40",
+        "EU 39.5"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WZ0099P3628T8013",
+      "spu": "S59WZ0099P3628T8013",
+      "b2b_sku": "S59WZ0099P3628T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' ballet flats",
+      "option": "35.5",
+      "stock": 1,
+      "eur_price": 289.18,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 563010,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/563010",
+      "market": {
+        "last_sale_price": 595000,
+        "lowest_ask": 635000,
+        "highest_bid": 565000,
+        "change_text": "▲ 46,000원(+7.7%)"
+      },
+      "sales": [
+        {
+          "price": 595000,
+          "option": "EU 38.5",
+          "date_created": "2026-05-24T08:45:58Z",
+          "date_text": "26/05/24",
+          "is_immediate": false
+        },
+        {
+          "price": 666000,
+          "option": "EU 38.5",
+          "date_created": "2026-05-05T12:16:31Z",
+          "date_text": "26/05/05",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 635000,
+          "option": "EU 38.5",
+          "quantity": 1
+        },
+        {
+          "price": 766000,
+          "option": "EU 38.5",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 565000,
+          "option": "EU 38.5",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 2,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 46,000원(+7.7%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 38.5",
+      "kream_options_available": [
+        "EU 38.5",
+        "EU 36.5",
+        "EU 39",
+        "EU 37",
+        "EU 37.5",
+        "EU 36",
+        "EU 38",
+        "EU 40",
+        "EU 39.5"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S52TS0043M13135103",
+      "spu": "S52TS0043M13135103",
+      "b2b_sku": "S52TS0043M13135103",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Numeric signature MM6' gloves",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 85.66,
+      "eur_retail": 155.74,
+      "matched": true,
+      "product_id": 558425,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/558425",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 177000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 177000,
+          "option": "M",
+          "quantity": 5
+        },
+        {
+          "price": 179000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 191000,
+          "option": "M",
+          "quantity": 1
+        },
+        {
+          "price": 192000,
+          "option": "M",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 4,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "M",
+      "kream_options_available": [
+        "L",
+        "M",
+        "S"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "S52TS0043M13135103",
+      "spu": "S52TS0043M13135103",
+      "b2b_sku": "S52TS0043M13135103",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Numeric signature MM6' gloves",
+      "option": "S",
+      "stock": 2,
+      "eur_price": 85.66,
+      "eur_retail": 155.74,
+      "matched": true,
+      "product_id": 558425,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/558425",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 177000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 177000,
+          "option": "S",
+          "quantity": 1
+        },
+        {
+          "price": 179000,
+          "option": "S",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "S",
+      "kream_options_available": [
+        "L",
+        "M",
+        "S"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "S66WU0131P7439HB098",
+      "spu": "S66WU0131P7439HB098",
+      "b2b_sku": "S66WU0131P7439HB098",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' ankle boots",
+      "option": "36.5",
+      "stock": 1,
+      "eur_price": 282.78,
+      "eur_retail": 565.57,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"S66WU0131P7439HB098\" SPU=\"S66WU0131P7439HB098\"",
+      "candidates": [
+        {
+          "product_id": 778022,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 팩토리 사보 블랙\n\n44%\n\n486,000원\n\n관심 15\n\n · 거래 1"
+        },
+        {
+          "product_id": 66155,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 카프스킨 레플리카 스니커즈 블랙\n\n22%\n\n599,000원\n\n관심 290\n\n · 리뷰 23\n\n · 거래 98\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 324697,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 아나토믹 클로그 슬리퍼 블랙\n\n9%\n\n500,000원\n\n관심 32\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 778070,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 아나토믹 트래블 발레리나 블랙\n\n40%\n\n632,000원\n\n관심 16"
+        },
+        {
+          "product_id": 89254,
+          "text": "Maison Margiela\n\n메종 마르지엘라 타비 레이스 업 슈즈 블랙\n\n31%\n\n950,000원\n\n관심 431\n\n · 리뷰 18\n\n · 거래 56"
+        }
+      ]
+    },
+    {
+      "sku": "S66WP0126P7706HB496",
+      "spu": "S66WP0126P7706HB496",
+      "b2b_sku": "S66WP0126P7706HB496",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "Squared toe sandals",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 225.41,
+      "eur_retail": 450.82,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"S66WP0126P7706HB496\" SPU=\"S66WP0126P7706HB496\"",
+      "candidates": [
+        {
+          "product_id": 778022,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 팩토리 사보 블랙\n\n44%\n\n486,000원\n\n관심 15\n\n · 거래 1"
+        },
+        {
+          "product_id": 778070,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 아나토믹 트래블 발레리나 블랙\n\n40%\n\n632,000원\n\n관심 16"
+        },
+        {
+          "product_id": 324697,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 아나토믹 클로그 슬리퍼 블랙\n\n9%\n\n500,000원\n\n관심 32\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 35004,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 반달 타비 실크 로우 스니커즈 블랙\n\n450,000원\n\n관심 84\n\n · 리뷰 1\n\n · 거래 5"
+        },
+        {
+          "product_id": 778047,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 아나토믹 뉴메릭 슬링백 블랙\n\n50%\n\n530,000원\n\n관심 72\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "S59WS0243P6303HB420",
+      "spu": "S59WS0243P6303HB420",
+      "b2b_sku": "S59WS0243P6303HB420",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'XT' sneakers MM6 Maison Margiela x Salomon",
+      "option": "36 2/3",
+      "stock": 1,
+      "eur_price": 224.27,
+      "eur_retail": 311.48,
+      "matched": true,
+      "product_id": 956400,
+      "product_name_ko": "(W) 살로몬 x MM6 메종 마르지엘라 XT 라임 그린 | Salomon",
+      "product_url": "https://kream.co.kr/products/956400",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 498000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 498000,
+          "option": "230",
+          "quantity": 1
+        },
+        {
+          "price": 499000,
+          "option": "230",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "230",
+      "kream_options_available": [
+        "230",
+        "235",
+        "240",
+        "245",
+        "250",
+        "255"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WS0243P6303HB420",
+      "spu": "S59WS0243P6303HB420",
+      "b2b_sku": "S59WS0243P6303HB420",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'XT' sneakers MM6 Maison Margiela x Salomon",
+      "option": "38",
+      "stock": 3,
+      "eur_price": 224.27,
+      "eur_retail": 311.48,
+      "matched": true,
+      "product_id": 956400,
+      "product_name_ko": "(W) 살로몬 x MM6 메종 마르지엘라 XT 라임 그린 | Salomon",
+      "product_url": "https://kream.co.kr/products/956400",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 498000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 498000,
+          "option": "230",
+          "quantity": 1
+        },
+        {
+          "price": 499000,
+          "option": "230",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "230",
+      "kream_options_available": [
+        "230",
+        "235",
+        "240",
+        "245",
+        "250",
+        "255"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WS0243P6303HB420",
+      "spu": "S59WS0243P6303HB420",
+      "b2b_sku": "S59WS0243P6303HB420",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'XT' sneakers MM6 Maison Margiela x Salomon",
+      "option": "38 2/3",
+      "stock": 3,
+      "eur_price": 224.27,
+      "eur_retail": 311.48,
+      "matched": true,
+      "product_id": 956400,
+      "product_name_ko": "(W) 살로몬 x MM6 메종 마르지엘라 XT 라임 그린 | Salomon",
+      "product_url": "https://kream.co.kr/products/956400",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 498000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 498000,
+          "option": "230",
+          "quantity": 1
+        },
+        {
+          "price": 499000,
+          "option": "230",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "230",
+      "kream_options_available": [
+        "230",
+        "235",
+        "240",
+        "245",
+        "250",
+        "255"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WS0243P6303HB420",
+      "spu": "S59WS0243P6303HB420",
+      "b2b_sku": "S59WS0243P6303HB420",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'XT' sneakers MM6 Maison Margiela x Salomon",
+      "option": "39 1/3",
+      "stock": 1,
+      "eur_price": 224.27,
+      "eur_retail": 311.48,
+      "matched": true,
+      "product_id": 956400,
+      "product_name_ko": "(W) 살로몬 x MM6 메종 마르지엘라 XT 라임 그린 | Salomon",
+      "product_url": "https://kream.co.kr/products/956400",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 498000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 498000,
+          "option": "230",
+          "quantity": 1
+        },
+        {
+          "price": 499000,
+          "option": "230",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "230",
+      "kream_options_available": [
+        "230",
+        "235",
+        "240",
+        "245",
+        "250",
+        "255"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH1WS0017P8163HB425",
+      "spu": "SH1WS0017P8163HB425",
+      "b2b_sku": "SH1WS0017P8163HB425",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'XT4 Mule' sneakers MM6 Maison Margiela x Salomon",
+      "option": "40 2/3",
+      "stock": 1,
+      "eur_price": 212.46,
+      "eur_retail": 295.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"SH1WS0017P8163HB425\" SPU=\"SH1WS0017P8163HB425\"",
+      "candidates": [
+        {
+          "product_id": 892321,
+          "text": "Salomon\n\n살로몬 x MM6 메종 마르지엘라 XT 블랙\n\n40%\n\n397,000원\n\n관심 314\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 778022,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 팩토리 사보 블랙\n\n44%\n\n486,000원\n\n관심 15\n\n · 거래 1"
+        },
+        {
+          "product_id": 705005,
+          "text": "Salomon\n\n살로몬 x MM6 메종 마르지엘라 테크니컬 플리스 스웨트셔츠 블랙\n\n300,000원\n\n관심 25"
+        },
+        {
+          "product_id": 324697,
+          "text": "Maison Margiela\n\n(W) 메종 마르지엘라 아나토믹 클로그 슬리퍼 블랙\n\n9%\n\n500,000원\n\n관심 32\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 894893,
+          "text": "Salomon\n\n살로몬 x MM6 메종 마르지엘라 XT 써니 라임 블랙\n\n39%\n\n398,000원\n\n관심 42\n\n · 리뷰 1\n\n · 거래 8"
+        }
+      ]
+    },
+    {
+      "sku": "SH1WQ0007P7431T8013",
+      "spu": "SH1WQ0007P7431T8013",
+      "b2b_sku": "SH1WQ0007P7431T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Biker' lace up shoes",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 407.21,
+      "eur_retail": 565.57,
+      "matched": true,
+      "product_id": 997407,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/997407",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH1WQ0007P7431T8013",
+      "spu": "SH1WQ0007P7431T8013",
+      "b2b_sku": "SH1WQ0007P7431T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Biker' lace up shoes",
+      "option": "42",
+      "stock": 1,
+      "eur_price": 407.21,
+      "eur_retail": 565.57,
+      "matched": true,
+      "product_id": 997407,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/997407",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH1WQ0007P7431T8013",
+      "spu": "SH1WQ0007P7431T8013",
+      "b2b_sku": "SH1WQ0007P7431T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Biker' lace up shoes",
+      "option": "43",
+      "stock": 1,
+      "eur_price": 407.21,
+      "eur_retail": 565.57,
+      "matched": true,
+      "product_id": 997407,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/997407",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH1WQ0007P7431T8013",
+      "spu": "SH1WQ0007P7431T8013",
+      "b2b_sku": "SH1WQ0007P7431T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Biker' lace up shoes",
+      "option": "44",
+      "stock": 1,
+      "eur_price": 407.21,
+      "eur_retail": 565.57,
+      "matched": true,
+      "product_id": 997407,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/997407",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH1WQ0007P7431T8013",
+      "spu": "SH1WQ0007P7431T8013",
+      "b2b_sku": "SH1WQ0007P7431T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Biker' lace up shoes",
+      "option": "45",
+      "stock": 1,
+      "eur_price": 407.21,
+      "eur_retail": 565.57,
+      "matched": true,
+      "product_id": 997407,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/997407",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SB6WD0026P8396T2164",
+      "spu": "SB6WD0026P8396T2164",
+      "b2b_sku": "SB6WD0026P8396T2164",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Japanese' crossbody bag",
+      "option": "U",
+      "stock": 9,
+      "eur_price": 207.79,
+      "eur_retail": 319.67,
+      "matched": true,
+      "product_id": 680135,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/680135",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH3WS0012P6435T8013",
+      "spu": "SH3WS0012P6435T8013",
+      "b2b_sku": "SH3WS0012P6435T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' sneakers",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 240.98,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 558450,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/558450",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 399000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 399000,
+          "option": "40",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "40",
+      "kream_options_available": [
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "42.5"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "SH3WS0012P6435T8013",
+      "spu": "SH3WS0012P6435T8013",
+      "b2b_sku": "SH3WS0012P6435T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' sneakers",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 240.98,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 558450,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/558450",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 399000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 399000,
+          "option": "41",
+          "quantity": 1
+        },
+        {
+          "price": 505000,
+          "option": "41",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "41",
+      "kream_options_available": [
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "42.5"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "SH3WS0012P6435T8013",
+      "spu": "SH3WS0012P6435T8013",
+      "b2b_sku": "SH3WS0012P6435T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' sneakers",
+      "option": "42",
+      "stock": 1,
+      "eur_price": 240.98,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 558450,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/558450",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 399000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 399000,
+          "option": "42",
+          "quantity": 1
+        },
+        {
+          "price": 505000,
+          "option": "42",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "42",
+      "kream_options_available": [
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "42.5"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "SH3WS0012P6435T8013",
+      "spu": "SH3WS0012P6435T8013",
+      "b2b_sku": "SH3WS0012P6435T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' sneakers",
+      "option": "44",
+      "stock": 1,
+      "eur_price": 240.98,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 558450,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/558450",
+      "market": {
+        "last_sale_price": 414000,
+        "lowest_ask": 399000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 414000,
+          "option": "39",
+          "date_created": "2026-03-02T04:14:43Z",
+          "date_text": "26/03/02",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 399000,
+          "option": "39",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "39",
+      "kream_options_available": [
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "42.5"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SM7UY0089P7355950",
+      "spu": "SM7UY0089P7355950",
+      "b2b_sku": "SM7UY0089P7355950",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Chevalière' bracelet",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 200.82,
+      "eur_retail": 401.64,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"SM7UY0089P7355950\" SPU=\"SM7UY0089P7355950\"",
+      "candidates": [
+        {
+          "product_id": 548012,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 클래식 체인 브레이슬릿 그레이\n\n49%\n\n219,000원\n\n관심 1,583\n\n · 리뷰 7\n\n · 거래 275\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 563388,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 체인 브레이슬릿 실버\n\n35%\n\n382,000원\n\n관심 56\n\n · 거래 1"
+        },
+        {
+          "product_id": 344080,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 뉴메릭 미니멀 시그니쳐 커프 브레이슬릿 폴리쉬드 팔라디오\n\n28%\n\n216,000원\n\n관심 2,669\n\n · 리뷰 3\n\n · 거래 218\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 820244,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 뉴메릭 미니멀 시그니쳐 커프 브레이슬릿 실버\n\n219,000원\n\n관심 260\n\n · 거래 28"
+        },
+        {
+          "product_id": 139953,
+          "text": "Maison Margiela\n\n메종 마르지엘라 뉴메리컬 커프 브레이슬릿 실버\n\n42%\n\n399,000원\n\n관심 310\n\n · 거래 24"
+        }
+      ]
+    },
+    {
+      "sku": "SM7UY0089P7355951",
+      "spu": "SM7UY0089P7355951",
+      "b2b_sku": "SM7UY0089P7355951",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Chevalière' bracelet",
+      "option": "3",
+      "stock": 2,
+      "eur_price": 200.82,
+      "eur_retail": 401.64,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"SM7UY0089P7355951\" SPU=\"SM7UY0089P7355951\"",
+      "candidates": [
+        {
+          "product_id": 548012,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 클래식 체인 브레이슬릿 그레이\n\n49%\n\n219,000원\n\n관심 1,583\n\n · 리뷰 7\n\n · 거래 275\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 563388,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 체인 브레이슬릿 실버\n\n35%\n\n382,000원\n\n관심 56\n\n · 거래 1"
+        },
+        {
+          "product_id": 344080,
+          "text": "MM6 Maison Margiela\n\n(W) MM6 메종 마르지엘라 뉴메릭 미니멀 시그니쳐 커프 브레이슬릿 폴리쉬드 팔라디오\n\n28%\n\n216,000원\n\n관심 2,669\n\n · 리뷰 3\n\n · 거래 218\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 820244,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 뉴메릭 미니멀 시그니쳐 커프 브레이슬릿 실버\n\n219,000원\n\n관심 260\n\n · 거래 28"
+        },
+        {
+          "product_id": 113360,
+          "text": "Maison Margiela\n\n메종 마르지엘라 뉴메리컬 밴드 실버 링 실버\n\n40%\n\n336,000원\n\n관심 2,427\n\n · 리뷰 47\n\n · 거래 622\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "S59WZ0092P7561T8013",
+      "spu": "S59WZ0092P7561T8013",
+      "b2b_sku": "S59WZ0092P7561T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' ballet flats",
+      "option": "36.5",
+      "stock": 1,
+      "eur_price": 289.18,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 778035,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/778035",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 766000,
+        "highest_bid": 390000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 766000,
+          "option": "EU 36.5W",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 390000,
+          "option": "EU 36.5W",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "EU 36.5W",
+      "kream_options_available": [
+        "EU 37W",
+        "EU 36.5W",
+        "EU 38W",
+        "EU 36W",
+        "EU 37.5W",
+        "EU 38.5W",
+        "EU 39W",
+        "EU 40W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "S59WZ0092P7561T8013",
+      "spu": "S59WZ0092P7561T8013",
+      "b2b_sku": "S59WZ0092P7561T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Anatomic' ballet flats",
+      "option": "38.5",
+      "stock": 1,
+      "eur_price": 289.18,
+      "eur_retail": 401.64,
+      "matched": true,
+      "product_id": 778035,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/778035",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 766000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 766000,
+          "option": "EU 38.5W",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "EU 38.5W",
+      "kream_options_available": [
+        "EU 37W",
+        "EU 36.5W",
+        "EU 38W",
+        "EU 36W",
+        "EU 37.5W",
+        "EU 38.5W",
+        "EU 39W",
+        "EU 40W"
+      ],
+      "option_mismatch": true
+    },
+    {
+      "sku": "SH1WX0010P7561T8013",
+      "spu": "SH1WX0010P7561T8013",
+      "b2b_sku": "SH1WX0010P7561T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Factory' sabots",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 202.87,
+      "eur_retail": 368.85,
+      "matched": true,
+      "product_id": 778022,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/778022",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 486000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 486000,
+          "option": "EU 40",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "271,900원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 40",
+      "kream_options_available": [
+        "EU 43",
+        "EU 41",
+        "EU 42",
+        "EU 40",
+        "EU 44"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "SH1WX0010P7561T8013",
+      "spu": "SH1WX0010P7561T8013",
+      "b2b_sku": "SH1WX0010P7561T8013",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Factory' sabots",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 202.87,
+      "eur_retail": 368.85,
+      "matched": true,
+      "product_id": 778022,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/778022",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 486000,
+        "highest_bid": 410000,
+        "change_text": "-"
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 486000,
+          "option": "EU 41",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 410000,
+          "option": "EU 41",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "271,900원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "EU 41",
+      "kream_options_available": [
+        "EU 43",
+        "EU 41",
+        "EU 42",
+        "EU 40",
+        "EU 44"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "S54WD0043P8396T9002",
+      "spu": "S54WD0043P8396T9002",
+      "b2b_sku": "S54WD0043P8396T9002",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Japanese Small' handbag",
+      "option": "U",
+      "stock": 12,
+      "eur_price": 159.84,
+      "eur_retail": 319.67,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"S54WD0043P8396T9002\" SPU=\"S54WD0043P8396T9002\"",
+      "candidates": [
+        {
+          "product_id": 778022,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 팩토리 사보 블랙\n\n44%\n\n486,000원\n\n관심 15\n\n · 거래 1"
+        },
+        {
+          "product_id": 892321,
+          "text": "Salomon\n\n살로몬 x MM6 메종 마르지엘라 XT 블랙\n\n40%\n\n397,000원\n\n관심 314\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 302727,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 재패니즈 백 클래식 스몰 블랙\n\n55%\n\n245,000원\n\n관심 281\n\n · 리뷰 3\n\n · 거래 9\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 84889,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 재패니즈백 블랙\n\n12%\n\n347,000원\n\n관심 239\n\n · 거래 10"
+        },
+        {
+          "product_id": 177698,
+          "text": "MM6 Maison Margiela\n\nMM6 메종 마르지엘라 재패니즈 클래식 크로스바디백 블랙\n\n17%\n\n521,000원\n\n관심 1.7만\n\n · 리뷰 478\n\n · 거래 3,109\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "S54WD0039P8396T2164",
+      "spu": "S54WD0039P8396T2164",
+      "b2b_sku": "S54WD0039P8396T2164",
+      "brand": "MM6 MAISON MARGIELA",
+      "name": "'Japanese Classic' medium handbag",
+      "option": "U",
+      "stock": 8,
+      "eur_price": 223.77,
+      "eur_retail": 344.26,
+      "matched": true,
+      "product_id": 863634,
+      "product_name_ko": "MM6 Maison Margiela",
+      "product_url": "https://kream.co.kr/products/863634",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 652000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 652000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    }
+  ]
+}
