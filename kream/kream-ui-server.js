@@ -218,6 +218,8 @@ const HTML = `<!DOCTYPE html>
 
   /* 꿀단지 — 브랜드 컬럼 강조 */
   td.brand { font-size: 11px; font-weight: 700; color: #ef6253; text-transform: uppercase; white-space: nowrap; }
+  /* 출처 컬럼 */
+  td.src { font-size: 11px; font-weight: 600; color: #666; white-space: nowrap; }
 
   /* 넓은 테이블은 컨테이너 안에서 가로 스크롤 (페이지 자체는 안 깨지게) */
   #table-container, #honey-table-container, #ab-table-container {
@@ -675,6 +677,11 @@ function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
 
+// 출처 라벨 — giglio 피드 브랜드(slug 이 giglio_ 로 시작)면 'giglio', 나머지 dresscode 는 'julian'
+function srcLabel(slug) {
+  return String(slug || '').startsWith('giglio_') ? 'giglio' : 'julian';
+}
+
 // SKU 클릭 시 b2bfashion 검색 페이지로 이동.
 // 검색어는 원본 reference (b2b_sku) 우선, 없으면 sku.
 function b2bLink(row) {
@@ -788,6 +795,7 @@ function renderHoney() {
 
   let html = '<table><thead><tr>';
   html += ths('brand', '브랜드');
+  html += '<th>출처</th>';
   html += ths('sku', 'SKU');
   html += ths('option', '옵션');
   html += ths('stock', '재고');
@@ -805,7 +813,7 @@ function renderHoney() {
   html += '</tr></thead><tbody>';
 
   if (rows.length === 0) {
-    html += '<tr><td colspan="15" class="empty">표시할 행이 없습니다 (흑자 즉시매도 없음)</td></tr>';
+    html += '<tr><td colspan="16" class="empty">표시할 행이 없습니다 (흑자 즉시매도 없음)</td></tr>';
   } else {
     for (const r of rows) {
       const stockCell = r.stock != null
@@ -820,6 +828,7 @@ function renderHoney() {
       }
       html += '<tr>';
       html += '<td class="brand">' + escapeHtml(r.brand_slug) + '</td>';
+      html += '<td class="src">' + srcLabel(r.brand_slug) + '</td>';
       html += '<td class="sku">' + b2bLink(r) + '</td>';
       html += '<td>' + optionCell + '</td>';
       html += '<td class="num">' + stockCell + '</td>';
@@ -947,6 +956,7 @@ function renderAutobid() {
 
   let html = '<table><thead><tr>';
   html += ths('brand', '브랜드');
+  html += '<th>출처</th>';
   html += ths('sku', 'SKU');
   html += '<th>옵션</th>';
   html += ths('stock', '재고');
@@ -962,7 +972,7 @@ function renderAutobid() {
   html += '</tr></thead><tbody>';
 
   if (rows.length === 0) {
-    html += '<tr><td colspan="13" class="empty">조건에 맞는 상품이 없습니다</td></tr>';
+    html += '<tr><td colspan="14" class="empty">조건에 맞는 상품이 없습니다</td></tr>';
   } else {
     for (const r of rows) {
       const a = r._ab;
@@ -988,6 +998,7 @@ function renderAutobid() {
       const npCls = a.netProfit == null ? '' : (a.netProfit >= 0 ? 'positive' : 'negative');
       html += '<tr>';
       html += '<td class="brand">' + escapeHtml(r.brand_slug) + '</td>';
+      html += '<td class="src">' + srcLabel(r.brand_slug) + '</td>';
       html += '<td class="sku">' + b2bLink(r) + '</td>';
       html += '<td>' + optionCell + '</td>';
       html += '<td class="num">' + stockCell + '</td>';
