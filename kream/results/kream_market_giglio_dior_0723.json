@@ -1,0 +1,497 @@
+{
+  "fetched_at": "2026-07-22T20:29:20.735Z",
+  "input_file": "targets-giglio_dior.json",
+  "total_targets": 14,
+  "matched": 1,
+  "failed": 13,
+  "results": [
+    {
+      "sku": "3BO359ZDU900",
+      "spu": "3BO359ZDU ~ 900",
+      "b2b_sku": "H14397",
+      "brand": "DIOR",
+      "name": "Boots men Dior",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 639.34,
+      "eur_retail": 983.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3BO359ZDU900\" SPU=\"3BO359ZDU ~ 900\"",
+      "candidates": [
+        {
+          "product_id": 863533,
+          "text": "Celine\n\n셀린느 트리옹프 파인 코튼 폴로 티셔츠 네이비\n\n1,141,000원\n\n관심 24\n\n · 거래 5"
+        },
+        {
+          "product_id": 135946,
+          "text": "Saint Laurent\n\n생로랑 리브 고쉬 티셔츠 화이트\n\n61%\n\n271,000원\n\n관심 308\n\n · 리뷰 7\n\n · 거래 31"
+        },
+        {
+          "product_id": 830416,
+          "text": "Stone Island\n\n스톤 아일랜드 2200011 50/2 레귤러 핏 오가닉 코튼 피케 컴퍼스 패치 숏슬리브 폴로 블랙 - 26SS\n\n18%\n\n248,000원\n\n관심 10\n\n · 거래 4"
+        },
+        {
+          "product_id": 829789,
+          "text": "Stone Island\n\n스톤 아일랜드 2200008 슬림 PK 폴로 티셔츠 세이지 그린 - 26SS\n\n37%\n\n239,000원\n\n관심 2\n\n · 거래 1"
+        },
+        {
+          "product_id": 829764,
+          "text": "Stone Island\n\n스톤 아일랜드 2200008 슬림 PK 폴로 티셔츠 화이트 - 26SS\n\n48%\n\n198,000원\n\n관심 9\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "3BO359ZDU900",
+      "spu": "3BO359ZDU ~ 900",
+      "b2b_sku": "H14397",
+      "brand": "DIOR",
+      "name": "Boots men Dior",
+      "option": "45",
+      "stock": 1,
+      "eur_price": 639.34,
+      "eur_retail": 983.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3BO359ZDU900\" SPU=\"3BO359ZDU ~ 900\"",
+      "candidates": [
+        {
+          "product_id": 863533,
+          "text": "Celine\n\n셀린느 트리옹프 파인 코튼 폴로 티셔츠 네이비\n\n1,141,000원\n\n관심 24\n\n · 거래 5"
+        },
+        {
+          "product_id": 135946,
+          "text": "Saint Laurent\n\n생로랑 리브 고쉬 티셔츠 화이트\n\n61%\n\n271,000원\n\n관심 308\n\n · 리뷰 7\n\n · 거래 31"
+        },
+        {
+          "product_id": 830416,
+          "text": "Stone Island\n\n스톤 아일랜드 2200011 50/2 레귤러 핏 오가닉 코튼 피케 컴퍼스 패치 숏슬리브 폴로 블랙 - 26SS\n\n18%\n\n248,000원\n\n관심 10\n\n · 거래 4"
+        },
+        {
+          "product_id": 829789,
+          "text": "Stone Island\n\n스톤 아일랜드 2200008 슬림 PK 폴로 티셔츠 세이지 그린 - 26SS\n\n37%\n\n239,000원\n\n관심 2\n\n · 거래 1"
+        },
+        {
+          "product_id": 829764,
+          "text": "Stone Island\n\n스톤 아일랜드 2200008 슬림 PK 폴로 티셔츠 화이트 - 26SS\n\n48%\n\n198,000원\n\n관심 9\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "3BO359ZDU900",
+      "spu": "3BO359ZDU ~ 900",
+      "b2b_sku": "H14397",
+      "brand": "DIOR",
+      "name": "Boots men Dior",
+      "option": "40½",
+      "stock": 1,
+      "eur_price": 639.34,
+      "eur_retail": 983.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3BO359ZDU900\" SPU=\"3BO359ZDU ~ 900\"",
+      "candidates": [
+        {
+          "product_id": 863533,
+          "text": "Celine\n\n셀린느 트리옹프 파인 코튼 폴로 티셔츠 네이비\n\n1,141,000원\n\n관심 24\n\n · 거래 5"
+        },
+        {
+          "product_id": 135946,
+          "text": "Saint Laurent\n\n생로랑 리브 고쉬 티셔츠 화이트\n\n61%\n\n271,000원\n\n관심 308\n\n · 리뷰 7\n\n · 거래 31"
+        },
+        {
+          "product_id": 830416,
+          "text": "Stone Island\n\n스톤 아일랜드 2200011 50/2 레귤러 핏 오가닉 코튼 피케 컴퍼스 패치 숏슬리브 폴로 블랙 - 26SS\n\n18%\n\n248,000원\n\n관심 10\n\n · 거래 4"
+        },
+        {
+          "product_id": 829789,
+          "text": "Stone Island\n\n스톤 아일랜드 2200008 슬림 PK 폴로 티셔츠 세이지 그린 - 26SS\n\n37%\n\n239,000원\n\n관심 2\n\n · 거래 1"
+        },
+        {
+          "product_id": 829764,
+          "text": "Stone Island\n\n스톤 아일랜드 2200008 슬림 PK 폴로 티셔츠 화이트 - 26SS\n\n48%\n\n198,000원\n\n관심 9\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "3BO359ZDU900",
+      "spu": "3BO359ZDU ~ 900",
+      "b2b_sku": "H14397",
+      "brand": "DIOR",
+      "name": "Boots men Dior",
+      "option": "44",
+      "stock": 1,
+      "eur_price": 639.34,
+      "eur_retail": 983.61,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"3BO359ZDU900\" SPU=\"3BO359ZDU ~ 900\"",
+      "candidates": [
+        {
+          "product_id": 863533,
+          "text": "Celine\n\n셀린느 트리옹프 파인 코튼 폴로 티셔츠 네이비\n\n1,141,000원\n\n관심 24\n\n · 거래 5"
+        },
+        {
+          "product_id": 135946,
+          "text": "Saint Laurent\n\n생로랑 리브 고쉬 티셔츠 화이트\n\n61%\n\n271,000원\n\n관심 308\n\n · 리뷰 7\n\n · 거래 31"
+        },
+        {
+          "product_id": 830416,
+          "text": "Stone Island\n\n스톤 아일랜드 2200011 50/2 레귤러 핏 오가닉 코튼 피케 컴퍼스 패치 숏슬리브 폴로 블랙 - 26SS\n\n18%\n\n248,000원\n\n관심 10\n\n · 거래 4"
+        },
+        {
+          "product_id": 829789,
+          "text": "Stone Island\n\n스톤 아일랜드 2200008 슬림 PK 폴로 티셔츠 세이지 그린 - 26SS\n\n37%\n\n239,000원\n\n관심 2\n\n · 거래 1"
+        },
+        {
+          "product_id": 829764,
+          "text": "Stone Island\n\n스톤 아일랜드 2200008 슬림 PK 폴로 티셔츠 화이트 - 26SS\n\n48%\n\n198,000원\n\n관심 9\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "CDIORB6I10A1",
+      "spu": "CDIORB6I ~ 10A1",
+      "b2b_sku": "H42484",
+      "brand": "DIOR",
+      "name": "Cat-Eye Acetate Sunglasses Dior",
+      "option": "56",
+      "stock": 1,
+      "eur_price": 288.94,
+      "eur_retail": 385.25,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"CDIORB6I10A1\" SPU=\"CDIORB6I ~ 10A1\"",
+      "candidates": [
+        {
+          "product_id": 983894,
+          "text": "Dior\n\n디올 클레어 D 룬 브레이슬릿 실버 피니쉬 메탈 스파클링 크리스탈\n\n707,000원\n\n관심 3\n\n · 거래 1"
+        },
+        {
+          "product_id": 102901,
+          "text": "Dior\n\n디올 크리스찬 디올 아뜰리에 스웨터 블랙\n\n6%\n\n1,450,000원\n\n관심 40\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 677770,
+          "text": "Dior\n\n디올 CD 아이콘 우븐 레더 더블 브레이슬릿 램스킨 & 피니쉬 브래스 브라운 실버\n\n8%\n\n583,000원\n\n관심 22"
+        },
+        {
+          "product_id": 693541,
+          "text": "Dior\n\n(W) 디올 크리스찬 디올 브레이슬릿 디올 오블리크 코튼 골드 (2개 세트)\n\n39%\n\n381,000원\n\n관심 7"
+        },
+        {
+          "product_id": 510318,
+          "text": "Dior\n\n디올 까나쥬 브레이디드 레더 브레이슬릿 램스킨 실버 피니쉬 브래스 앤 래커 블랙\n\n622,000원\n\n관심 32"
+        }
+      ]
+    },
+    {
+      "sku": "DIORTRIBALESB2UB0F2",
+      "spu": "DIORTRIBALESB2U ~ B0F2",
+      "b2b_sku": "I21705",
+      "brand": "DIOR",
+      "name": "Tribales B2U Metal Sunglasses Dior",
+      "option": "61",
+      "stock": 1,
+      "eur_price": 331.97,
+      "eur_retail": 442.62,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DIORTRIBALESB2UB0F2\" SPU=\"DIORTRIBALESB2U ~ B0F2\"",
+      "candidates": [
+        {
+          "product_id": 677775,
+          "text": "Dior\n\n디올 크리스찬 디올 꾸뛰르 컷 링 레진 실버 블랙\n\n690,000원\n\n관심 17"
+        },
+        {
+          "product_id": 122031,
+          "text": "Dior\n\n(W) 디올 CD 네이비 브레이슬릿 실버 피니쉬 메탈\n\n45%\n\n650,000원\n\n관심 45"
+        },
+        {
+          "product_id": 677770,
+          "text": "Dior\n\n디올 CD 아이콘 우븐 레더 더블 브레이슬릿 램스킨 & 피니쉬 브래스 브라운 실버\n\n8%\n\n583,000원\n\n관심 22"
+        },
+        {
+          "product_id": 959780,
+          "text": "Dior Vintage\n\n디올 CD 실버 팔찌 A-B53636\n\n361,600원\n\n관심 12\n\n무료배송"
+        },
+        {
+          "product_id": 573686,
+          "text": "Dior\n\n디올 CD 아이콘 브레이디드 레더 브레이슬릿 램스킨 앤 루테늄 피니쉬 브래스 블랙\n\n766,000원\n\n관심 33"
+        }
+      ]
+    },
+    {
+      "sku": "DIORBLACKSUITA4U10A0",
+      "spu": "DIORBLACKSUITA4U ~ 10A0",
+      "b2b_sku": "I21704",
+      "brand": "DIOR",
+      "name": "DiorBlackSuit A4U Shiny Black Pilot Sunglasses Dior",
+      "option": "53",
+      "stock": 1,
+      "eur_price": 233.61,
+      "eur_retail": 311.48,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DIORBLACKSUITA4U10A0\" SPU=\"DIORBLACKSUITA4U ~ 10A0\"",
+      "candidates": [
+        {
+          "product_id": 122031,
+          "text": "Dior\n\n(W) 디올 CD 네이비 브레이슬릿 실버 피니쉬 메탈\n\n45%\n\n650,000원\n\n관심 45"
+        },
+        {
+          "product_id": 677775,
+          "text": "Dior\n\n디올 크리스찬 디올 꾸뛰르 컷 링 레진 실버 블랙\n\n690,000원\n\n관심 17"
+        },
+        {
+          "product_id": 677770,
+          "text": "Dior\n\n디올 CD 아이콘 우븐 레더 더블 브레이슬릿 램스킨 & 피니쉬 브래스 브라운 실버\n\n8%\n\n583,000원\n\n관심 22"
+        },
+        {
+          "product_id": 432796,
+          "text": "Dior\n\n디올 B27 S1I 선글라스 블랙\n\n590,000원\n\n관심 14\n\n · 거래 1"
+        },
+        {
+          "product_id": 677759,
+          "text": "Dior\n\n디올 CD 아이콘 우븐 레더 더블 브레이슬릿 램스킨 & 피니쉬 브래스 베이지 실버\n\n10%\n\n570,000원\n\n관심 8"
+        }
+      ]
+    },
+    {
+      "sku": "DIORPRISMEOS5I1000",
+      "spu": "DIORPRISMEOS5I ~ 1000",
+      "b2b_sku": "I22588",
+      "brand": "DIOR",
+      "name": "DiorPrismeO Dior Acetate Optical Glasses",
+      "option": "50",
+      "stock": 1,
+      "eur_price": 233.61,
+      "eur_retail": 311.48,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DIORPRISMEOS5I1000\" SPU=\"DIORPRISMEOS5I ~ 1000\"",
+      "candidates": [
+        {
+          "product_id": 122031,
+          "text": "Dior\n\n(W) 디올 CD 네이비 브레이슬릿 실버 피니쉬 메탈\n\n45%\n\n650,000원\n\n관심 45"
+        },
+        {
+          "product_id": 518425,
+          "text": "Dior\n\n디올 그리 디올 리미티드 에디션 오 드 퍼퓸 100ml\n\n610,000원\n\n관심 32\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 70674,
+          "text": "Dior\n\n디올 쟈도르 오 드 퍼퓸 100ml\n\n33%\n\n195,000원\n\n관심 458\n\n · 리뷰 2\n\n · 거래 77\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 983894,
+          "text": "Dior\n\n디올 클레어 D 룬 브레이슬릿 실버 피니쉬 메탈 스파클링 크리스탈\n\n707,000원\n\n관심 3\n\n · 거래 1"
+        },
+        {
+          "product_id": 510856,
+          "text": "Dior\n\n디올 사쿠라 오 드 퍼퓸 50ml\n\n5%\n\n319,000원\n\n관심 62\n\n · 거래 4"
+        }
+      ]
+    },
+    {
+      "sku": "DIORTAILORINGN1I20A1",
+      "spu": "DIORTAILORINGN1I ~ 20A1",
+      "b2b_sku": "I50617",
+      "brand": "DIOR",
+      "name": "Sunglasses men Dior",
+      "option": "57",
+      "stock": 1,
+      "eur_price": 319.67,
+      "eur_retail": 426.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DIORTAILORINGN1I20A1\" SPU=\"DIORTAILORINGN1I ~ 20A1\"",
+      "candidates": [
+        {
+          "product_id": 510856,
+          "text": "Dior\n\n디올 사쿠라 오 드 퍼퓸 50ml\n\n5%\n\n319,000원\n\n관심 62\n\n · 거래 4"
+        },
+        {
+          "product_id": 518425,
+          "text": "Dior\n\n디올 그리 디올 리미티드 에디션 오 드 퍼퓸 100ml\n\n610,000원\n\n관심 32\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 122031,
+          "text": "Dior\n\n(W) 디올 CD 네이비 브레이슬릿 실버 피니쉬 메탈\n\n45%\n\n650,000원\n\n관심 45"
+        },
+        {
+          "product_id": 677775,
+          "text": "Dior\n\n디올 크리스찬 디올 꾸뛰르 컷 링 레진 실버 블랙\n\n690,000원\n\n관심 17"
+        },
+        {
+          "product_id": 973311,
+          "text": "Dior Vintage\n\n디올 S사이즈 네이비 CD 골드 반지 A-B59797\n\n542,400원\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "DIORTAILORINGN1I10A1",
+      "spu": "DIORTAILORINGN1I ~ 10A1",
+      "b2b_sku": "I50617",
+      "brand": "DIOR",
+      "name": "Sunglasses men Dior",
+      "option": "57",
+      "stock": 1,
+      "eur_price": 319.67,
+      "eur_retail": 426.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DIORTAILORINGN1I10A1\" SPU=\"DIORTAILORINGN1I ~ 10A1\"",
+      "candidates": [
+        {
+          "product_id": 510856,
+          "text": "Dior\n\n디올 사쿠라 오 드 퍼퓸 50ml\n\n5%\n\n319,000원\n\n관심 62\n\n · 거래 4"
+        },
+        {
+          "product_id": 518425,
+          "text": "Dior\n\n디올 그리 디올 리미티드 에디션 오 드 퍼퓸 100ml\n\n610,000원\n\n관심 32\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 845851,
+          "text": "Dior Vintage\n\n디올 레브디인피니 반지\n\n420,000원\n\n관심 8\n\n무료배송"
+        },
+        {
+          "product_id": 581312,
+          "text": "Dior\n\n디올 미스 디올 에쌍스 드 퍼퓸 80ml\n\n18%\n\n263,000원\n\n관심 48\n\n · 리뷰 1\n\n · 거래 10\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 939431,
+          "text": "Dior\n\n디올 글래시 글로우 스틱 041 글레이즈드 로지\n\n72,000원\n\n관심 6"
+        }
+      ]
+    },
+    {
+      "sku": "DIORTAILORINGS1I10A1",
+      "spu": "DIORTAILORINGS1I ~ 10A1",
+      "b2b_sku": "I50615",
+      "brand": "DIOR",
+      "name": "Sunglasses men Dior",
+      "option": "54",
+      "stock": 1,
+      "eur_price": 319.67,
+      "eur_retail": 426.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DIORTAILORINGS1I10A1\" SPU=\"DIORTAILORINGS1I ~ 10A1\"",
+      "candidates": [
+        {
+          "product_id": 973311,
+          "text": "Dior Vintage\n\n디올 S사이즈 네이비 CD 골드 반지 A-B59797\n\n542,400원\n\n무료배송"
+        },
+        {
+          "product_id": 510856,
+          "text": "Dior\n\n디올 사쿠라 오 드 퍼퓸 50ml\n\n5%\n\n319,000원\n\n관심 62\n\n · 거래 4"
+        },
+        {
+          "product_id": 518425,
+          "text": "Dior\n\n디올 그리 디올 리미티드 에디션 오 드 퍼퓸 100ml\n\n610,000원\n\n관심 32\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 122031,
+          "text": "Dior\n\n(W) 디올 CD 네이비 브레이슬릿 실버 피니쉬 메탈\n\n45%\n\n650,000원\n\n관심 45"
+        },
+        {
+          "product_id": 845851,
+          "text": "Dior Vintage\n\n디올 레브디인피니 반지\n\n420,000원\n\n관심 8\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "DIORGLOWA1I10A1",
+      "spu": "DIORGLOWA1I ~ 10A1",
+      "b2b_sku": "I65887",
+      "brand": "DIOR",
+      "name": "Sunglasses men Dior",
+      "option": "55",
+      "stock": 1,
+      "eur_price": 239.75,
+      "eur_retail": 319.67,
+      "matched": true,
+      "product_id": 445440,
+      "product_name_ko": "Dior",
+      "product_url": "https://kream.co.kr/products/445440",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "DIORPACIFICR1I10A0",
+      "spu": "DIORPACIFICR1I ~ 10A0",
+      "b2b_sku": "I70903",
+      "brand": "DIOR",
+      "name": "Sunglasses woman Dior",
+      "option": "52",
+      "stock": 1,
+      "eur_price": 233.61,
+      "eur_retail": 311.48,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DIORPACIFICR1I10A0\" SPU=\"DIORPACIFICR1I ~ 10A0\"",
+      "candidates": [
+        {
+          "product_id": 510856,
+          "text": "Dior\n\n디올 사쿠라 오 드 퍼퓸 50ml\n\n5%\n\n319,000원\n\n관심 62\n\n · 거래 4"
+        },
+        {
+          "product_id": 518425,
+          "text": "Dior\n\n디올 그리 디올 리미티드 에디션 오 드 퍼퓸 100ml\n\n610,000원\n\n관심 32\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 449962,
+          "text": "Dior\n\n디올 그리 디올 오 드 퍼퓸 50ml\n\n15%\n\n284,000원\n\n관심 353\n\n · 리뷰 3\n\n · 거래 58\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 70674,
+          "text": "Dior\n\n디올 쟈도르 오 드 퍼퓸 100ml\n\n33%\n\n195,000원\n\n관심 458\n\n · 리뷰 2\n\n · 거래 77\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 581312,
+          "text": "Dior\n\n디올 미스 디올 에쌍스 드 퍼퓸 80ml\n\n18%\n\n263,000원\n\n관심 48\n\n · 리뷰 1\n\n · 거래 10\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "DIORPACIFICS3I20F0T",
+      "spu": "DIORPACIFICS3I ~ 20F0T",
+      "b2b_sku": "I70904",
+      "brand": "DIOR",
+      "name": "Sunglasses woman Dior",
+      "option": "52",
+      "stock": 1,
+      "eur_price": 233.61,
+      "eur_retail": 311.48,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"DIORPACIFICS3I20F0T\" SPU=\"DIORPACIFICS3I ~ 20F0T\"",
+      "candidates": [
+        {
+          "product_id": 510856,
+          "text": "Dior\n\n디올 사쿠라 오 드 퍼퓸 50ml\n\n5%\n\n319,000원\n\n관심 62\n\n · 거래 4"
+        },
+        {
+          "product_id": 518425,
+          "text": "Dior\n\n디올 그리 디올 리미티드 에디션 오 드 퍼퓸 100ml\n\n610,000원\n\n관심 32\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 449962,
+          "text": "Dior\n\n디올 그리 디올 오 드 퍼퓸 50ml\n\n15%\n\n284,000원\n\n관심 353\n\n · 리뷰 3\n\n · 거래 58\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 581312,
+          "text": "Dior\n\n디올 미스 디올 에쌍스 드 퍼퓸 80ml\n\n18%\n\n263,000원\n\n관심 48\n\n · 리뷰 1\n\n · 거래 10\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 272641,
+          "text": "Dior\n\n디올 옴므 인텐스 오 드 퍼퓸 인텐스 100ml\n\n5%\n\n205,000원\n\n관심 1,303\n\n · 리뷰 7\n\n · 거래 294\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    }
+  ]
+}
