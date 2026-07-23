@@ -1,0 +1,1892 @@
+{
+  "fetched_at": "2026-07-23T03:59:03.969Z",
+  "input_file": "targets-therow.json",
+  "total_targets": 54,
+  "matched": 17,
+  "failed": 37,
+  "results": [
+    {
+      "sku": "11010W4566BLK",
+      "spu": "11010W4566BLK",
+      "b2b_sku": "11010W4566BLK",
+      "brand": "THE ROW",
+      "name": "'Fabien' pants",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 663.94,
+      "eur_retail": 1106.56,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11010W4566BLK\" SPU=\"11010W4566BLK\"",
+      "candidates": [
+        {
+          "product_id": 876351,
+          "text": "Crocs\n\n크록스 퀵 트레일 클로그 블랙\n\n33%\n\n60,000원\n\n관심 3\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 244286,
+          "text": "Crocs\n\n크록스 퀵 트레일 로우 블랙\n\n97,000원\n\n관심 756\n\n · 리뷰 25\n\n · 거래 135"
+        },
+        {
+          "product_id": 888701,
+          "text": "Brooks Running\n\n브룩스 러닝 아드레날린 GTS 25 블랙 -4E 와이드\n\n189,000원\n\n관심 1\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 836855,
+          "text": "안정화\n\nBrooks Running\n\n(W) 브룩스 러닝 아드레날린 GTS 25 화이트 - D 와이드\n\n196,000원\n\n관심 8\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 902694,
+          "text": "Brooks Running\n\n(W) 브룩스 러닝 글리세린 GTS 23 화이트 - B 미디움\n\n209,000원\n\n관심 5"
+        }
+      ]
+    },
+    {
+      "sku": "1340K628BLK",
+      "spu": "1340K628BLK",
+      "b2b_sku": "1340K628BLK",
+      "brand": "THE ROW",
+      "name": "'Ry top' polo shirt",
+      "option": "L",
+      "stock": 2,
+      "eur_price": 826.23,
+      "eur_retail": 1377.05,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1340K628BLK\" SPU=\"1340K628BLK\"",
+      "candidates": [
+        {
+          "product_id": 258690,
+          "text": "Gucci\n\n구찌 테크니컬 저지 집 자켓 블랙\n\n40%\n\n1,215,000원\n\n관심 51"
+        },
+        {
+          "product_id": 458398,
+          "text": "Celine\n\n셀린느 텍스처드 울  잭슨 테디 후드 자켓 블랙\n\n5,841,000원\n\n관심 39\n\n · 리뷰 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 213746,
+          "text": "Gucci\n\n구찌 오버사이즈 테크니컬 저지 자켓 블랙\n\n61%\n\n999,000원\n\n관심 79\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 298482,
+          "text": "Gucci\n\n구찌 점보 GG 데님 자켓 블루\n\n74%\n\n1,190,000원\n\n관심 83\n\n · 리뷰 2\n\n · 거래 4"
+        },
+        {
+          "product_id": 581836,
+          "text": "Gucci Vintage\n\n구찌 x 아디다스 남성 삼선 봄버 바람막이 트랙 자켓\n\n1,144,800원\n\n관심 10\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "1340K628BLK",
+      "spu": "1340K628BLK",
+      "b2b_sku": "1340K628BLK",
+      "brand": "THE ROW",
+      "name": "'Ry top' polo shirt",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 826.23,
+      "eur_retail": 1377.05,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1340K628BLK\" SPU=\"1340K628BLK\"",
+      "candidates": [
+        {
+          "product_id": 258690,
+          "text": "Gucci\n\n구찌 테크니컬 저지 집 자켓 블랙\n\n40%\n\n1,215,000원\n\n관심 51"
+        },
+        {
+          "product_id": 458398,
+          "text": "Celine\n\n셀린느 텍스처드 울  잭슨 테디 후드 자켓 블랙\n\n5,841,000원\n\n관심 39\n\n · 리뷰 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 213746,
+          "text": "Gucci\n\n구찌 오버사이즈 테크니컬 저지 자켓 블랙\n\n61%\n\n999,000원\n\n관심 79\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 298482,
+          "text": "Gucci\n\n구찌 점보 GG 데님 자켓 블루\n\n74%\n\n1,190,000원\n\n관심 83\n\n · 리뷰 2\n\n · 거래 4"
+        },
+        {
+          "product_id": 581836,
+          "text": "Gucci Vintage\n\n구찌 x 아디다스 남성 삼선 봄버 바람막이 트랙 자켓\n\n1,144,800원\n\n관심 10\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "1340K628GYM",
+      "spu": "1340K628GYM",
+      "b2b_sku": "1340K628GYM",
+      "brand": "THE ROW",
+      "name": "'Ry top' polo shirt",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 826.23,
+      "eur_retail": 1377.05,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1340K628GYM\" SPU=\"1340K628GYM\"",
+      "candidates": [
+        {
+          "product_id": 458398,
+          "text": "Celine\n\n셀린느 텍스처드 울  잭슨 테디 후드 자켓 블랙\n\n5,841,000원\n\n관심 39\n\n · 리뷰 3\n\n · 거래 2"
+        },
+        {
+          "product_id": 258690,
+          "text": "Gucci\n\n구찌 테크니컬 저지 집 자켓 블랙\n\n40%\n\n1,215,000원\n\n관심 51"
+        },
+        {
+          "product_id": 286876,
+          "text": "Gucci\n\n구찌 테크니컬 저지 후드 스웨트셔츠 미드나잇 블루 테크니컬 저지\n\n40%\n\n1,718,000원\n\n관심 56\n\n · 거래 2"
+        },
+        {
+          "product_id": 213746,
+          "text": "Gucci\n\n구찌 오버사이즈 테크니컬 저지 자켓 블랙\n\n61%\n\n999,000원\n\n관심 79\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 298482,
+          "text": "Gucci\n\n구찌 점보 GG 데님 자켓 블루\n\n74%\n\n1,190,000원\n\n관심 83\n\n · 리뷰 2\n\n · 거래 4"
+        }
+      ]
+    },
+    {
+      "sku": "1330W2861BQE",
+      "spu": "1330W2861BQE",
+      "b2b_sku": "1330W2861BQE",
+      "brand": "THE ROW",
+      "name": "'Piou' shirt",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 864.76,
+      "eur_retail": 1729.51,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1330W2861BQE\" SPU=\"1330W2861BQE\"",
+      "candidates": [
+        {
+          "product_id": 180892,
+          "text": "Burberry\n\n버버리 슬라이스 체크 후드 자켓 블랙\n\n54%\n\n1,467,000원\n\n관심 19"
+        },
+        {
+          "product_id": 286876,
+          "text": "Gucci\n\n구찌 테크니컬 저지 후드 스웨트셔츠 미드나잇 블루 테크니컬 저지\n\n40%\n\n1,718,000원\n\n관심 56\n\n · 거래 2"
+        },
+        {
+          "product_id": 298482,
+          "text": "Gucci\n\n구찌 점보 GG 데님 자켓 블루\n\n74%\n\n1,190,000원\n\n관심 83\n\n · 리뷰 2\n\n · 거래 4"
+        },
+        {
+          "product_id": 258690,
+          "text": "Gucci\n\n구찌 테크니컬 저지 집 자켓 블랙\n\n40%\n\n1,215,000원\n\n관심 51"
+        },
+        {
+          "product_id": 67389,
+          "text": "Burberry\n\n버버리 로고 아플리케 라이트웨이트 후드 자켓 블랙\n\n42%\n\n968,000원\n\n관심 11\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "1454W5073WBR",
+      "spu": "1454W5073WBR",
+      "b2b_sku": "1454W5073WBR",
+      "brand": "THE ROW",
+      "name": "'Pompeo' shirt",
+      "option": "M",
+      "stock": 2,
+      "eur_price": 614.75,
+      "eur_retail": 1024.59,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1454W5073WBR\" SPU=\"1454W5073WBR\"",
+      "candidates": [
+        {
+          "product_id": 298482,
+          "text": "Gucci\n\n구찌 점보 GG 데님 자켓 블루\n\n74%\n\n1,190,000원\n\n관심 83\n\n · 리뷰 2\n\n · 거래 4"
+        },
+        {
+          "product_id": 47936,
+          "text": "Gucci\n\n구찌 x 발렌시아가 해커 프로젝트 스몰 구찌 홀스빗 1955 핸드백 베이지 에보니\n\n45%\n\n1,999,000원\n\n관심 78\n\n · 리뷰 5\n\n · 거래 11"
+        },
+        {
+          "product_id": 213746,
+          "text": "Gucci\n\n구찌 오버사이즈 테크니컬 저지 자켓 블랙\n\n61%\n\n999,000원\n\n관심 79\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 258690,
+          "text": "Gucci\n\n구찌 테크니컬 저지 집 자켓 블랙\n\n40%\n\n1,215,000원\n\n관심 51"
+        },
+        {
+          "product_id": 286876,
+          "text": "Gucci\n\n구찌 테크니컬 저지 후드 스웨트셔츠 미드나잇 블루 테크니컬 저지\n\n40%\n\n1,718,000원\n\n관심 56\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "F2076SL3BLACK",
+      "spu": "F2076SL3BLACK",
+      "b2b_sku": "F2076SL3BLACK",
+      "brand": "THE ROW",
+      "name": "'Mica' sneakers",
+      "option": "44",
+      "stock": 2,
+      "eur_price": 780.32,
+      "eur_retail": 1114.75,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"F2076SL3BLACK\" SPU=\"F2076SL3BLACK\"",
+      "candidates": [
+        {
+          "product_id": 286876,
+          "text": "Gucci\n\n구찌 테크니컬 저지 후드 스웨트셔츠 미드나잇 블루 테크니컬 저지\n\n40%\n\n1,718,000원\n\n관심 56\n\n · 거래 2"
+        },
+        {
+          "product_id": 258690,
+          "text": "Gucci\n\n구찌 테크니컬 저지 집 자켓 블랙\n\n40%\n\n1,215,000원\n\n관심 51"
+        },
+        {
+          "product_id": 213746,
+          "text": "Gucci\n\n구찌 오버사이즈 테크니컬 저지 자켓 블랙\n\n61%\n\n999,000원\n\n관심 79\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 268724,
+          "text": "Gucci\n\n(W) 구찌 x 아디다스 코튼 후드 스웨트셔츠 화이트\n\n420,000원\n\n관심 36\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 298482,
+          "text": "Gucci\n\n구찌 점보 GG 데님 자켓 블루\n\n74%\n\n1,190,000원\n\n관심 83\n\n · 리뷰 2\n\n · 거래 4"
+        }
+      ]
+    },
+    {
+      "sku": "1241Y120FOG",
+      "spu": "1241Y120FOG",
+      "b2b_sku": "1241Y120FOG",
+      "brand": "THE ROW",
+      "name": "'Leach' polo shirt",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 704.26,
+      "eur_retail": 1467.21,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1241Y120FOG\" SPU=\"1241Y120FOG\"",
+      "candidates": [
+        {
+          "product_id": 56298,
+          "text": "Gucci\n\n(W) 구찌 조던 레더 로퍼 블랙\n\n16%\n\n980,000원\n\n관심 609\n\n · 리뷰 18\n\n · 거래 54"
+        },
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n29%\n\n820,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 50016,
+          "text": "Gucci\n\n구찌 홀스빗 1955 숄더백 베이지 에보니\n\n53%\n\n2,000,000원\n\n관심 1,162\n\n · 리뷰 31\n\n · 거래 55\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 533464,
+          "text": "Gucci\n\n구찌 홀스빗 1953 로퍼 블랙\n\n45%\n\n800,000원\n\n관심 20\n\n · 거래 1"
+        },
+        {
+          "product_id": 716932,
+          "text": "Gucci Vintage\n\n구찌 마몽 블랙 마틀라세 금장 여성 로퍼 38\n\n718,000원\n\n관심 6\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "1401K767BLK",
+      "spu": "1401K767BLK",
+      "b2b_sku": "1401K767BLK",
+      "brand": "THE ROW",
+      "name": "'Madoc' T-shirt",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 295.08,
+      "eur_retail": 491.8,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1401K767BLK\" SPU=\"1401K767BLK\"",
+      "candidates": [
+        {
+          "product_id": 943703,
+          "text": "Gucci Vintage\n\n구찌 블랙 시어링 트리밍 레더 남성 무스탕 자켓aa63519\n\n1,618,000원\n\n관심 1\n\n무료배송"
+        },
+        {
+          "product_id": 544010,
+          "text": "Gucci\n\n(W) 구찌 리버시블 GG 울 자카드 폴로 셔츠 블랙 화이트\n\n50%\n\n1,310,000원\n\n관심 5\n\n · 거래 1"
+        },
+        {
+          "product_id": 58115,
+          "text": "Saint Laurent\n\n생로랑 마틀라세 레더 골드 모노그램 도큐먼트 홀더 블랙\n\n39%\n\n780,000원\n\n관심 474\n\n · 리뷰 12\n\n · 거래 83\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 64244,
+          "text": "Thom Browne\n\n톰브라운 비텔로 카프 레더 플렉서블 레더 솔 소프트 페니 로퍼 블랙\n\n62%\n\n500,000원\n\n관심 403\n\n · 리뷰 5\n\n · 거래 48"
+        },
+        {
+          "product_id": 125680,
+          "text": "Saint Laurent\n\n생로랑 램스킨 클래식 모터사이클 자켓 블랙\n\n60%\n\n2,900,000원\n\n관심 197\n\n · 리뷰 4\n\n · 거래 7"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710BLK",
+      "spu": "1437Y710BLK",
+      "b2b_sku": "1437Y710BLK",
+      "brand": "THE ROW",
+      "name": "'Ravi' polo shirt",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "eur_retail": 1729.51,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710BLK\" SPU=\"1437Y710BLK\"",
+      "candidates": [
+        {
+          "product_id": 58115,
+          "text": "Saint Laurent\n\n생로랑 마틀라세 레더 골드 모노그램 도큐먼트 홀더 블랙\n\n39%\n\n780,000원\n\n관심 474\n\n · 리뷰 12\n\n · 거래 83\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 50564,
+          "text": "Saint Laurent\n\n생로랑 마틀라세 레더 골드 모노그램 A5 파우치 블랙\n\n26%\n\n739,000원\n\n관심 1,152\n\n · 리뷰 17\n\n · 거래 183\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 61321,
+          "text": "Saint Laurent\n\n생로랑 퀼티드 레더 골드 모노그램 카산드라 마틀라세 태블릿 파우치 블랙\n\n30%\n\n850,000원\n\n관심 843\n\n · 리뷰 20\n\n · 거래 165\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 58908,
+          "text": "Saint Laurent\n\n생로랑 퀼티드 그랑 드 뿌드르 엠보스 레더 카산드라 마틀라세 플랩 파우치 블랙\n\n22%\n\n769,000원\n\n관심 153\n\n · 리뷰 1\n\n · 거래 10"
+        },
+        {
+          "product_id": 157832,
+          "text": "Saint Laurent\n\n생로랑 르 5 아 7 서플 라지 그레인드 레더 블랙\n\n34%\n\n2,949,000원\n\n관심 1,484\n\n · 리뷰 23\n\n · 거래 97\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710BLK",
+      "spu": "1437Y710BLK",
+      "b2b_sku": "1437Y710BLK",
+      "brand": "THE ROW",
+      "name": "'Ravi' polo shirt",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "eur_retail": 1729.51,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710BLK\" SPU=\"1437Y710BLK\"",
+      "candidates": [
+        {
+          "product_id": 58115,
+          "text": "Saint Laurent\n\n생로랑 마틀라세 레더 골드 모노그램 도큐먼트 홀더 블랙\n\n39%\n\n780,000원\n\n관심 474\n\n · 리뷰 12\n\n · 거래 83\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 50564,
+          "text": "Saint Laurent\n\n생로랑 마틀라세 레더 골드 모노그램 A5 파우치 블랙\n\n26%\n\n739,000원\n\n관심 1,152\n\n · 리뷰 17\n\n · 거래 183\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 61321,
+          "text": "Saint Laurent\n\n생로랑 퀼티드 레더 골드 모노그램 카산드라 마틀라세 태블릿 파우치 블랙\n\n30%\n\n850,000원\n\n관심 843\n\n · 리뷰 20\n\n · 거래 165\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 58908,
+          "text": "Saint Laurent\n\n생로랑 퀼티드 그랑 드 뿌드르 엠보스 레더 카산드라 마틀라세 플랩 파우치 블랙\n\n22%\n\n769,000원\n\n관심 153\n\n · 리뷰 1\n\n · 거래 10"
+        },
+        {
+          "product_id": 157832,
+          "text": "Saint Laurent\n\n생로랑 르 5 아 7 서플 라지 그레인드 레더 블랙\n\n34%\n\n2,949,000원\n\n관심 1,484\n\n · 리뷰 23\n\n · 거래 97\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710BLK",
+      "spu": "1437Y710BLK",
+      "b2b_sku": "1437Y710BLK",
+      "brand": "THE ROW",
+      "name": "'Ravi' polo shirt",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "eur_retail": 1729.51,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710BLK\" SPU=\"1437Y710BLK\"",
+      "candidates": [
+        {
+          "product_id": 58115,
+          "text": "Saint Laurent\n\n생로랑 마틀라세 레더 골드 모노그램 도큐먼트 홀더 블랙\n\n39%\n\n780,000원\n\n관심 474\n\n · 리뷰 12\n\n · 거래 83\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 50564,
+          "text": "Saint Laurent\n\n생로랑 마틀라세 레더 골드 모노그램 A5 파우치 블랙\n\n26%\n\n739,000원\n\n관심 1,152\n\n · 리뷰 17\n\n · 거래 183\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 61321,
+          "text": "Saint Laurent\n\n생로랑 퀼티드 레더 골드 모노그램 카산드라 마틀라세 태블릿 파우치 블랙\n\n30%\n\n850,000원\n\n관심 843\n\n · 리뷰 20\n\n · 거래 165\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 58908,
+          "text": "Saint Laurent\n\n생로랑 퀼티드 그랑 드 뿌드르 엠보스 레더 카산드라 마틀라세 플랩 파우치 블랙\n\n22%\n\n769,000원\n\n관심 153\n\n · 리뷰 1\n\n · 거래 10"
+        },
+        {
+          "product_id": 157832,
+          "text": "Saint Laurent\n\n생로랑 르 5 아 7 서플 라지 그레인드 레더 블랙\n\n34%\n\n2,949,000원\n\n관심 1,484\n\n · 리뷰 23\n\n · 거래 97\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "11128W4570LTB",
+      "spu": "11128W4570LTB",
+      "b2b_sku": "11128W4570LTB",
+      "brand": "THE ROW",
+      "name": "'Elva' shirt",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 688.52,
+      "eur_retail": 1147.54,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11128W4570LTB\" SPU=\"11128W4570LTB\"",
+      "candidates": [
+        {
+          "product_id": 55915,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 불 트리옹프 체인 마가렛 로퍼 블랙\n\n35%\n\n1,100,000원\n\n관심 184\n\n · 리뷰 7\n\n · 거래 15"
+        },
+        {
+          "product_id": 72220,
+          "text": "Thom Browne\n\n(W) 톰브라운 라이트웨이트 솔 페니 로퍼 블랙\n\n549,000원\n\n관심 139\n\n · 리뷰 5\n\n · 거래 19"
+        },
+        {
+          "product_id": 350652,
+          "text": "Celine\n\n(W) 셀린느 말라케 트리옹프 로퍼 폴리쉬드 불스킨 블랙\n\n33%\n\n999,000원\n\n관심 72\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 56970,
+          "text": "Celine\n\n(W) 셀린느 캔버스 & 카프스킨 제인 로우 레이스업 스니커즈 옵틱 화이트\n\n809,000원\n\n관심 1,143\n\n · 리뷰 2\n\n · 거래 19"
+        },
+        {
+          "product_id": 71628,
+          "text": "Thom Browne\n\n(W) 톰브라운 페블 그레인 레더 라이트웨이트 러버 솔 롱윙 브로그 로퍼 블랙\n\n46%\n\n670,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 2"
+        }
+      ]
+    },
+    {
+      "sku": "11007W4496SBU",
+      "spu": "11007W4496SBU",
+      "b2b_sku": "11007W4496SBU",
+      "brand": "THE ROW",
+      "name": "'Amapola' trench coat",
+      "option": "2",
+      "stock": 2,
+      "eur_price": 2100,
+      "eur_retail": 3500,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11007W4496SBU\" SPU=\"11007W4496SBU\"",
+      "candidates": [
+        {
+          "product_id": 72220,
+          "text": "Thom Browne\n\n(W) 톰브라운 라이트웨이트 솔 페니 로퍼 블랙\n\n549,000원\n\n관심 139\n\n · 리뷰 5\n\n · 거래 19"
+        },
+        {
+          "product_id": 55915,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 불 트리옹프 체인 마가렛 로퍼 블랙\n\n35%\n\n1,100,000원\n\n관심 184\n\n · 리뷰 7\n\n · 거래 15"
+        },
+        {
+          "product_id": 71628,
+          "text": "Thom Browne\n\n(W) 톰브라운 페블 그레인 레더 라이트웨이트 러버 솔 롱윙 브로그 로퍼 블랙\n\n46%\n\n670,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 19\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 154485,
+          "text": "Saint Laurent\n\n(W) 생로랑 르 로퍼 페니 슬리퍼 페이턴트 레더 블랙\n\n55%\n\n692,000원\n\n관심 20\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "11007W4496SBU",
+      "spu": "11007W4496SBU",
+      "b2b_sku": "11007W4496SBU",
+      "brand": "THE ROW",
+      "name": "'Amapola' trench coat",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 2100,
+      "eur_retail": 3500,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11007W4496SBU\" SPU=\"11007W4496SBU\"",
+      "candidates": [
+        {
+          "product_id": 72220,
+          "text": "Thom Browne\n\n(W) 톰브라운 라이트웨이트 솔 페니 로퍼 블랙\n\n549,000원\n\n관심 139\n\n · 리뷰 5\n\n · 거래 19"
+        },
+        {
+          "product_id": 55915,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 불 트리옹프 체인 마가렛 로퍼 블랙\n\n35%\n\n1,100,000원\n\n관심 184\n\n · 리뷰 7\n\n · 거래 15"
+        },
+        {
+          "product_id": 71628,
+          "text": "Thom Browne\n\n(W) 톰브라운 페블 그레인 레더 라이트웨이트 러버 솔 롱윙 브로그 로퍼 블랙\n\n46%\n\n670,000원\n\n관심 30\n\n · 리뷰 2\n\n · 거래 2"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 19\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 154485,
+          "text": "Saint Laurent\n\n(W) 생로랑 르 로퍼 페니 슬리퍼 페이턴트 레더 블랙\n\n55%\n\n692,000원\n\n관심 20\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "6525W3654BLK",
+      "spu": "6525W3654BLK",
+      "b2b_sku": "6525W3654BLK",
+      "brand": "THE ROW",
+      "name": "'Eglitta' jeans",
+      "option": "25",
+      "stock": 1,
+      "eur_price": 595.08,
+      "eur_retail": 991.8,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 951814,
+          "text": "Gucci Vintage\n\n구찌 423694 GG 로고 마몬트 여성 블로퍼aa64485\n\n285,000원\n\n관심 3\n\n무료배송"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 19\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 64641,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 모노그램 페니 로퍼 펄\n\n46%\n\n558,000원\n\n관심 389\n\n · 리뷰 7\n\n · 거래 35"
+        },
+        {
+          "product_id": 965451,
+          "text": "Saint Laurent\n\n생로랑 로퍼 스웨이드 스너프\n\n45%\n\n872,000원"
+        },
+        {
+          "product_id": 56085,
+          "text": "Miu Miu\n\n(W) 미우 미우 가죽 페니 로퍼 블랙 화이트\n\n45%\n\n950,000원\n\n관심 1,049\n\n · 리뷰 16\n\n · 거래 102\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "6525W3654BLK",
+      "spu": "6525W3654BLK",
+      "b2b_sku": "6525W3654BLK",
+      "brand": "THE ROW",
+      "name": "'Eglitta' jeans",
+      "option": "26",
+      "stock": 1,
+      "eur_price": 595.08,
+      "eur_retail": 991.8,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 951814,
+          "text": "Gucci Vintage\n\n구찌 423694 GG 로고 마몬트 여성 블로퍼aa64485\n\n285,000원\n\n관심 3\n\n무료배송"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 19\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 64641,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 모노그램 페니 로퍼 펄\n\n46%\n\n558,000원\n\n관심 389\n\n · 리뷰 7\n\n · 거래 35"
+        },
+        {
+          "product_id": 965451,
+          "text": "Saint Laurent\n\n생로랑 로퍼 스웨이드 스너프\n\n45%\n\n872,000원"
+        },
+        {
+          "product_id": 56085,
+          "text": "Miu Miu\n\n(W) 미우 미우 가죽 페니 로퍼 블랙 화이트\n\n45%\n\n950,000원\n\n관심 1,049\n\n · 리뷰 16\n\n · 거래 102\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "6525W3654BLK",
+      "spu": "6525W3654BLK",
+      "b2b_sku": "6525W3654BLK",
+      "brand": "THE ROW",
+      "name": "'Eglitta' jeans",
+      "option": "29",
+      "stock": 1,
+      "eur_price": 595.08,
+      "eur_retail": 991.8,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"6525W3654BLK\" SPU=\"6525W3654BLK\"",
+      "candidates": [
+        {
+          "product_id": 951814,
+          "text": "Gucci Vintage\n\n구찌 423694 GG 로고 마몬트 여성 블로퍼aa64485\n\n285,000원\n\n관심 3\n\n무료배송"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 19\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 64641,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 모노그램 페니 로퍼 펄\n\n46%\n\n558,000원\n\n관심 389\n\n · 리뷰 7\n\n · 거래 35"
+        },
+        {
+          "product_id": 965451,
+          "text": "Saint Laurent\n\n생로랑 로퍼 스웨이드 스너프\n\n45%\n\n872,000원"
+        },
+        {
+          "product_id": 56085,
+          "text": "Miu Miu\n\n(W) 미우 미우 가죽 페니 로퍼 블랙 화이트\n\n45%\n\n950,000원\n\n관심 1,049\n\n · 리뷰 16\n\n · 거래 102\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "1461W4503BLK",
+      "spu": "1461W4503BLK",
+      "b2b_sku": "1461W4503BLK",
+      "brand": "THE ROW",
+      "name": "'Perlo' shirt",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 826.23,
+      "eur_retail": 1377.05,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1461W4503BLK\" SPU=\"1461W4503BLK\"",
+      "candidates": [
+        {
+          "product_id": 145287,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 폴리 스무스 블랙\n\n19%\n\n170,000원\n\n관심 1,858\n\n · 리뷰 24\n\n · 거래 193\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 373257,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 8065 스무스 레더 메리 제인 블랙\n\n165,000원\n\n관심 2,527\n\n · 리뷰 60\n\n · 거래 298\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 64641,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 모노그램 페니 로퍼 펄\n\n46%\n\n558,000원\n\n관심 389\n\n · 리뷰 7\n\n · 거래 35"
+        },
+        {
+          "product_id": 411426,
+          "text": "Dr. Martens\n\n닥터마틴 펜톤 레더 로퍼 블랙\n\n45%\n\n200,000원\n\n관심 161\n\n · 리뷰 1\n\n · 거래 10\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 627616,
+          "text": "Dr. Martens\n\n닥터마틴 폴리 블랙\n\n28%\n\n150,000원\n\n관심 41"
+        }
+      ]
+    },
+    {
+      "sku": "1461W4503BLK",
+      "spu": "1461W4503BLK",
+      "b2b_sku": "1461W4503BLK",
+      "brand": "THE ROW",
+      "name": "'Perlo' shirt",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 826.23,
+      "eur_retail": 1377.05,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1461W4503BLK\" SPU=\"1461W4503BLK\"",
+      "candidates": [
+        {
+          "product_id": 145287,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 폴리 스무스 블랙\n\n19%\n\n170,000원\n\n관심 1,858\n\n · 리뷰 24\n\n · 거래 193\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 373257,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 8065 스무스 레더 메리 제인 블랙\n\n165,000원\n\n관심 2,527\n\n · 리뷰 60\n\n · 거래 298\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 64641,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 모노그램 페니 로퍼 펄\n\n46%\n\n558,000원\n\n관심 389\n\n · 리뷰 7\n\n · 거래 35"
+        },
+        {
+          "product_id": 411426,
+          "text": "Dr. Martens\n\n닥터마틴 펜톤 레더 로퍼 블랙\n\n45%\n\n200,000원\n\n관심 161\n\n · 리뷰 1\n\n · 거래 10\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 627616,
+          "text": "Dr. Martens\n\n닥터마틴 폴리 블랙\n\n28%\n\n150,000원\n\n관심 41"
+        }
+      ]
+    },
+    {
+      "sku": "1461W4503BLK",
+      "spu": "1461W4503BLK",
+      "b2b_sku": "1461W4503BLK",
+      "brand": "THE ROW",
+      "name": "'Perlo' shirt",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 826.23,
+      "eur_retail": 1377.05,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1461W4503BLK\" SPU=\"1461W4503BLK\"",
+      "candidates": [
+        {
+          "product_id": 145287,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 폴리 스무스 블랙\n\n19%\n\n170,000원\n\n관심 1,858\n\n · 리뷰 24\n\n · 거래 193\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 373257,
+          "text": "Dr. Martens\n\n(W) 닥터마틴 8065 스무스 레더 메리 제인 블랙\n\n165,000원\n\n관심 2,527\n\n · 리뷰 60\n\n · 거래 298\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 64641,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 모노그램 페니 로퍼 펄\n\n46%\n\n558,000원\n\n관심 389\n\n · 리뷰 7\n\n · 거래 35"
+        },
+        {
+          "product_id": 411426,
+          "text": "Dr. Martens\n\n닥터마틴 펜톤 레더 로퍼 블랙\n\n45%\n\n200,000원\n\n관심 161\n\n · 리뷰 1\n\n · 거래 10\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 627616,
+          "text": "Dr. Martens\n\n닥터마틴 폴리 블랙\n\n28%\n\n150,000원\n\n관심 41"
+        }
+      ]
+    },
+    {
+      "sku": "F2153L805CIG",
+      "spu": "F2153L805CIG",
+      "b2b_sku": "F2153L805CIG",
+      "brand": "THE ROW",
+      "name": "'Casa' slippers",
+      "option": "40",
+      "stock": 1,
+      "eur_price": 536.48,
+      "eur_retail": 975.41,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "spu": "F2153L805CIG",
+      "b2b_sku": "F2153L805CIG",
+      "brand": "THE ROW",
+      "name": "'Casa' slippers",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 536.48,
+      "eur_retail": 975.41,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "spu": "F2153L805CIG",
+      "b2b_sku": "F2153L805CIG",
+      "brand": "THE ROW",
+      "name": "'Casa' slippers",
+      "option": "42",
+      "stock": 2,
+      "eur_price": 536.48,
+      "eur_retail": 975.41,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "spu": "F2153L805CIG",
+      "b2b_sku": "F2153L805CIG",
+      "brand": "THE ROW",
+      "name": "'Casa' slippers",
+      "option": "43",
+      "stock": 1,
+      "eur_price": 536.48,
+      "eur_retail": 975.41,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "spu": "F2153L805CIG",
+      "b2b_sku": "F2153L805CIG",
+      "brand": "THE ROW",
+      "name": "'Casa' slippers",
+      "option": "44",
+      "stock": 1,
+      "eur_price": 536.48,
+      "eur_retail": 975.41,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2153L805CIG",
+      "spu": "F2153L805CIG",
+      "b2b_sku": "F2153L805CIG",
+      "brand": "THE ROW",
+      "name": "'Casa' slippers",
+      "option": "45",
+      "stock": 1,
+      "eur_price": 536.48,
+      "eur_retail": 975.41,
+      "matched": true,
+      "product_id": 911859,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911859",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "W1273L129DAT",
+      "spu": "W1273L129DAT",
+      "b2b_sku": "W1273L129DAT",
+      "brand": "THE ROW",
+      "name": "'Park N/S' large shopping bag",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1849.18,
+      "eur_retail": 2311.48,
+      "matched": true,
+      "product_id": 521041,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/521041",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 5641000,
+        "highest_bid": 2000000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 5641000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 5642000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 2000000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "1210W3856OWH",
+      "spu": "1210W3856OWH",
+      "b2b_sku": "1210W3856OWH",
+      "brand": "THE ROW",
+      "name": "'Granada' shirt",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 743.61,
+      "eur_retail": 1549.18,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1210W3856OWH\" SPU=\"1210W3856OWH\"",
+      "candidates": [
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n29%\n\n820,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 72220,
+          "text": "Thom Browne\n\n(W) 톰브라운 라이트웨이트 솔 페니 로퍼 블랙\n\n549,000원\n\n관심 139\n\n · 리뷰 5\n\n · 거래 19"
+        },
+        {
+          "product_id": 69268,
+          "text": "Saint Laurent\n\n(W) 생로랑 캔버스 자수 에스파드리유 내츄럴 베이지\n\n25%\n\n534,000원\n\n관심 15\n\n · 거래 2"
+        },
+        {
+          "product_id": 64641,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 모노그램 페니 로퍼 펄\n\n46%\n\n558,000원\n\n관심 389\n\n · 리뷰 7\n\n · 거래 35"
+        },
+        {
+          "product_id": 56970,
+          "text": "Celine\n\n(W) 셀린느 캔버스 & 카프스킨 제인 로우 레이스업 스니커즈 옵틱 화이트\n\n809,000원\n\n관심 1,143\n\n · 리뷰 2\n\n · 거래 19"
+        }
+      ]
+    },
+    {
+      "sku": "1210W3856OWH",
+      "spu": "1210W3856OWH",
+      "b2b_sku": "1210W3856OWH",
+      "brand": "THE ROW",
+      "name": "'Granada' shirt",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 743.61,
+      "eur_retail": 1549.18,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1210W3856OWH\" SPU=\"1210W3856OWH\"",
+      "candidates": [
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n29%\n\n820,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 72220,
+          "text": "Thom Browne\n\n(W) 톰브라운 라이트웨이트 솔 페니 로퍼 블랙\n\n549,000원\n\n관심 139\n\n · 리뷰 5\n\n · 거래 19"
+        },
+        {
+          "product_id": 69268,
+          "text": "Saint Laurent\n\n(W) 생로랑 캔버스 자수 에스파드리유 내츄럴 베이지\n\n25%\n\n534,000원\n\n관심 15\n\n · 거래 2"
+        },
+        {
+          "product_id": 64641,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 모노그램 페니 로퍼 펄\n\n46%\n\n558,000원\n\n관심 389\n\n · 리뷰 7\n\n · 거래 35"
+        },
+        {
+          "product_id": 56970,
+          "text": "Celine\n\n(W) 셀린느 캔버스 & 카프스킨 제인 로우 레이스업 스니커즈 옵틱 화이트\n\n809,000원\n\n관심 1,143\n\n · 리뷰 2\n\n · 거래 19"
+        }
+      ]
+    },
+    {
+      "sku": "1175W4252OTT",
+      "spu": "1175W4252OTT",
+      "b2b_sku": "1175W4252OTT",
+      "brand": "THE ROW",
+      "name": "'Kenet' coat",
+      "option": "40 FR",
+      "stock": 1,
+      "eur_price": 2848.53,
+      "eur_retail": 5934.43,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1175W4252OTT\" SPU=\"1175W4252OTT\"",
+      "candidates": [
+        {
+          "product_id": 55915,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 불 트리옹프 체인 마가렛 로퍼 블랙\n\n35%\n\n1,100,000원\n\n관심 184\n\n · 리뷰 7\n\n · 거래 15"
+        },
+        {
+          "product_id": 55918,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 카프스킨 루코 트리옹프 로퍼 블랙\n\n10%\n\n990,000원\n\n관심 521\n\n · 리뷰 15\n\n · 거래 89"
+        },
+        {
+          "product_id": 350652,
+          "text": "Celine\n\n(W) 셀린느 말라케 트리옹프 로퍼 폴리쉬드 불스킨 블랙\n\n33%\n\n999,000원\n\n관심 72\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 669417,
+          "text": "UGG\n\n어그 x 사카이 로퍼 블랙\n\n669,000원\n\n관심 76\n\n · 리뷰 7\n\n · 거래 14"
+        },
+        {
+          "product_id": 521370,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 불 타탄 유니버시테 트리옹프 체인 로퍼 블랙 레드\n\n895,000원\n\n관심 1"
+        }
+      ]
+    },
+    {
+      "sku": "7370W4327BLK",
+      "spu": "7370W4327BLK",
+      "b2b_sku": "7370W4327BLK",
+      "brand": "THE ROW",
+      "name": "'Bartelle' skirt",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 747.54,
+      "eur_retail": 1245.9,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"7370W4327BLK\" SPU=\"7370W4327BLK\"",
+      "candidates": [
+        {
+          "product_id": 56300,
+          "text": "Gucci\n\n(W) 구찌 힐 폴드 홀스빗 레더 로퍼 블랙\n\n29%\n\n820,000원\n\n관심 138\n\n · 리뷰 3\n\n · 거래 11"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 19\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 64641,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 모노그램 페니 로퍼 펄\n\n46%\n\n558,000원\n\n관심 389\n\n · 리뷰 7\n\n · 거래 35"
+        },
+        {
+          "product_id": 642627,
+          "text": "Balenciaga\n\n(W) 발렌시아가 팬텀 스니커즈 블랙 화이트\n\n57%\n\n500,000원\n\n관심 5\n\n · 거래 1"
+        },
+        {
+          "product_id": 74767,
+          "text": "Balenciaga\n\n(W) 발렌시아가 퍼리 슬라이드 샌들 블랙\n\n24%\n\n655,000원\n\n관심 140\n\n · 리뷰 2\n\n · 거래 21"
+        }
+      ]
+    },
+    {
+      "sku": "10865W4369BLK",
+      "spu": "10865W4369BLK",
+      "b2b_sku": "10865W4369BLK",
+      "brand": "THE ROW",
+      "name": "'Lior' pants",
+      "option": "4",
+      "stock": 1,
+      "eur_price": 742.62,
+      "eur_retail": 1237.7,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"10865W4369BLK\" SPU=\"10865W4369BLK\"",
+      "candidates": [
+        {
+          "product_id": 74767,
+          "text": "Balenciaga\n\n(W) 발렌시아가 퍼리 슬라이드 샌들 블랙\n\n24%\n\n655,000원\n\n관심 140\n\n · 리뷰 2\n\n · 거래 21"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 19\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 55915,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 불 트리옹프 체인 마가렛 로퍼 블랙\n\n35%\n\n1,100,000원\n\n관심 184\n\n · 리뷰 7\n\n · 거래 15"
+        },
+        {
+          "product_id": 64641,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 모노그램 페니 로퍼 펄\n\n46%\n\n558,000원\n\n관심 389\n\n · 리뷰 7\n\n · 거래 35"
+        },
+        {
+          "product_id": 154485,
+          "text": "Saint Laurent\n\n(W) 생로랑 르 로퍼 페니 슬리퍼 페이턴트 레더 블랙\n\n55%\n\n692,000원\n\n관심 20\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "10865W4369BLK",
+      "spu": "10865W4369BLK",
+      "b2b_sku": "10865W4369BLK",
+      "brand": "THE ROW",
+      "name": "'Lior' pants",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 742.62,
+      "eur_retail": 1237.7,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"10865W4369BLK\" SPU=\"10865W4369BLK\"",
+      "candidates": [
+        {
+          "product_id": 74767,
+          "text": "Balenciaga\n\n(W) 발렌시아가 퍼리 슬라이드 샌들 블랙\n\n24%\n\n655,000원\n\n관심 140\n\n · 리뷰 2\n\n · 거래 21"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 19\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 55915,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 불 트리옹프 체인 마가렛 로퍼 블랙\n\n35%\n\n1,100,000원\n\n관심 184\n\n · 리뷰 7\n\n · 거래 15"
+        },
+        {
+          "product_id": 64641,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 모노그램 페니 로퍼 펄\n\n46%\n\n558,000원\n\n관심 389\n\n · 리뷰 7\n\n · 거래 35"
+        },
+        {
+          "product_id": 154485,
+          "text": "Saint Laurent\n\n(W) 생로랑 르 로퍼 페니 슬리퍼 페이턴트 레더 블랙\n\n55%\n\n692,000원\n\n관심 20\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710CHK",
+      "spu": "1437Y710CHK",
+      "b2b_sku": "1437Y710CHK",
+      "brand": "THE ROW",
+      "name": "'Ravi' polo shirt",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "eur_retail": 1729.51,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710CHK\" SPU=\"1437Y710CHK\"",
+      "candidates": [
+        {
+          "product_id": 154485,
+          "text": "Saint Laurent\n\n(W) 생로랑 르 로퍼 페니 슬리퍼 페이턴트 레더 블랙\n\n55%\n\n692,000원\n\n관심 20\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 64641,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 모노그램 페니 로퍼 펄\n\n46%\n\n558,000원\n\n관심 389\n\n · 리뷰 7\n\n · 거래 35"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 19\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 79049,
+          "text": "Saint Laurent\n\n(W) 생로랑 울 테디 자켓 블랙\n\n76%\n\n876,000원\n\n관심 397\n\n · 리뷰 13\n\n · 거래 28"
+        },
+        {
+          "product_id": 965451,
+          "text": "Saint Laurent\n\n생로랑 로퍼 스웨이드 스너프\n\n45%\n\n872,000원"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710CHK",
+      "spu": "1437Y710CHK",
+      "b2b_sku": "1437Y710CHK",
+      "brand": "THE ROW",
+      "name": "'Ravi' polo shirt",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "eur_retail": 1729.51,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710CHK\" SPU=\"1437Y710CHK\"",
+      "candidates": [
+        {
+          "product_id": 154485,
+          "text": "Saint Laurent\n\n(W) 생로랑 르 로퍼 페니 슬리퍼 페이턴트 레더 블랙\n\n55%\n\n692,000원\n\n관심 20\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 64641,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 모노그램 페니 로퍼 펄\n\n46%\n\n558,000원\n\n관심 389\n\n · 리뷰 7\n\n · 거래 35"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 19\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 79049,
+          "text": "Saint Laurent\n\n(W) 생로랑 울 테디 자켓 블랙\n\n76%\n\n876,000원\n\n관심 397\n\n · 리뷰 13\n\n · 거래 28"
+        },
+        {
+          "product_id": 965451,
+          "text": "Saint Laurent\n\n생로랑 로퍼 스웨이드 스너프\n\n45%\n\n872,000원"
+        }
+      ]
+    },
+    {
+      "sku": "1437Y710CHK",
+      "spu": "1437Y710CHK",
+      "b2b_sku": "1437Y710CHK",
+      "brand": "THE ROW",
+      "name": "'Ravi' polo shirt",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 1037.71,
+      "eur_retail": 1729.51,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1437Y710CHK\" SPU=\"1437Y710CHK\"",
+      "candidates": [
+        {
+          "product_id": 154485,
+          "text": "Saint Laurent\n\n(W) 생로랑 르 로퍼 페니 슬리퍼 페이턴트 레더 블랙\n\n55%\n\n692,000원\n\n관심 20\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 64641,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 모노그램 페니 로퍼 펄\n\n46%\n\n558,000원\n\n관심 389\n\n · 리뷰 7\n\n · 거래 35"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 19\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 79049,
+          "text": "Saint Laurent\n\n(W) 생로랑 울 테디 자켓 블랙\n\n76%\n\n876,000원\n\n관심 397\n\n · 리뷰 13\n\n · 거래 28"
+        },
+        {
+          "product_id": 965451,
+          "text": "Saint Laurent\n\n생로랑 로퍼 스웨이드 스너프\n\n45%\n\n872,000원"
+        }
+      ]
+    },
+    {
+      "sku": "W2154W27TE",
+      "spu": "W2154W27TE",
+      "b2b_sku": "W2154W27TE",
+      "brand": "THE ROW",
+      "name": "'Georgica' handbag",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 1777.05,
+      "eur_retail": 2221.31,
+      "matched": true,
+      "product_id": 949331,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/949331",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 4382000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 4382000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "F2109L302LQB",
+      "spu": "F2109L302LQB",
+      "b2b_sku": "F2109L302LQB",
+      "brand": "THE ROW",
+      "name": "'Hugh' slides",
+      "option": "44",
+      "stock": 1,
+      "eur_price": 711.47,
+      "eur_retail": 1016.39,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"F2109L302LQB\" SPU=\"F2109L302LQB\"",
+      "candidates": [
+        {
+          "product_id": 817536,
+          "text": "Celine\n\n셀린느 아우라 로퍼 고트스킨 블랙\n\n41%\n\n850,000원\n\n관심 17\n\n · 리뷰 1\n\n · 거래 1"
+        },
+        {
+          "product_id": 55918,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 카프스킨 루코 트리옹프 로퍼 블랙\n\n10%\n\n990,000원\n\n관심 521\n\n · 리뷰 15\n\n · 거래 89"
+        },
+        {
+          "product_id": 521370,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 불 타탄 유니버시테 트리옹프 체인 로퍼 블랙 레드\n\n895,000원\n\n관심 1"
+        },
+        {
+          "product_id": 272287,
+          "text": "The Row\n\n(W) 더 로우 아담 버팔로 그레인드 로퍼 아이보리\n\n59%\n\n650,000원\n\n관심 29\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 350652,
+          "text": "Celine\n\n(W) 셀린느 말라케 트리옹프 로퍼 폴리쉬드 불스킨 블랙\n\n33%\n\n999,000원\n\n관심 72\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "1261Y876BLK",
+      "spu": "1261Y876BLK",
+      "b2b_sku": "1261Y876BLK",
+      "brand": "THE ROW",
+      "name": "'Borges top' polo shirt",
+      "option": "M",
+      "stock": 1,
+      "eur_price": 904.92,
+      "eur_retail": 1508.2,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1261Y876BLK\" SPU=\"1261Y876BLK\"",
+      "candidates": [
+        {
+          "product_id": 64641,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 모노그램 페니 로퍼 펄\n\n46%\n\n558,000원\n\n관심 389\n\n · 리뷰 7\n\n · 거래 35"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 19\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 951814,
+          "text": "Gucci Vintage\n\n구찌 423694 GG 로고 마몬트 여성 블로퍼aa64485\n\n285,000원\n\n관심 3\n\n무료배송"
+        },
+        {
+          "product_id": 53964,
+          "text": "Tod's\n\n(W) 토즈 케이트 메탈 로고 레더 로퍼 블랙\n\n43%\n\n600,000원\n\n관심 513\n\n · 리뷰 13\n\n · 거래 87"
+        },
+        {
+          "product_id": 154485,
+          "text": "Saint Laurent\n\n(W) 생로랑 르 로퍼 페니 슬리퍼 페이턴트 레더 블랙\n\n55%\n\n692,000원\n\n관심 20\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "1261Y876BLK",
+      "spu": "1261Y876BLK",
+      "b2b_sku": "1261Y876BLK",
+      "brand": "THE ROW",
+      "name": "'Borges top' polo shirt",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 904.92,
+      "eur_retail": 1508.2,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"1261Y876BLK\" SPU=\"1261Y876BLK\"",
+      "candidates": [
+        {
+          "product_id": 64641,
+          "text": "Saint Laurent\n\n(W) 생로랑 스무스 레더 모노그램 페니 로퍼 펄\n\n46%\n\n558,000원\n\n관심 389\n\n · 리뷰 7\n\n · 거래 35"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 19\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 951814,
+          "text": "Gucci Vintage\n\n구찌 423694 GG 로고 마몬트 여성 블로퍼aa64485\n\n285,000원\n\n관심 3\n\n무료배송"
+        },
+        {
+          "product_id": 53964,
+          "text": "Tod's\n\n(W) 토즈 케이트 메탈 로고 레더 로퍼 블랙\n\n43%\n\n600,000원\n\n관심 513\n\n · 리뷰 13\n\n · 거래 87"
+        },
+        {
+          "product_id": 154485,
+          "text": "Saint Laurent\n\n(W) 생로랑 르 로퍼 페니 슬리퍼 페이턴트 레더 블랙\n\n55%\n\n692,000원\n\n관심 20\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "697W4450LBB",
+      "spu": "697W4450LBB",
+      "b2b_sku": "697W4450LBB",
+      "brand": "THE ROW",
+      "name": "'Kardiff' shirt",
+      "option": "L",
+      "stock": 1,
+      "eur_price": 577.87,
+      "eur_retail": 1155.74,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"697W4450LBB\" SPU=\"697W4450LBB\"",
+      "candidates": [
+        {
+          "product_id": 165483,
+          "text": "The Row\n\n(W) 더 로우 지퍼 부츠 블랙\n\n36%\n\n1,400,000원\n\n관심 24"
+        },
+        {
+          "product_id": 963213,
+          "text": "The Row\n\n더 로우 알마 숄더백 블랙\n\n4,938,000원\n\n관심 1"
+        },
+        {
+          "product_id": 789682,
+          "text": "The Row\n\n더 로우 인그리드 핸드백 블랙\n\n4,825,000원\n\n관심 30"
+        },
+        {
+          "product_id": 451743,
+          "text": "Gucci\n\n구찌 재키 1961 스몰 숄더백 블랙\n\n6,239,000원\n\n관심 41\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 845758,
+          "text": "Balenciaga\n\n발렌시아가 참 지퍼 파우치 블랙\n\n570,000원\n\n관심 33\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "697W4450LBB",
+      "spu": "697W4450LBB",
+      "b2b_sku": "697W4450LBB",
+      "brand": "THE ROW",
+      "name": "'Kardiff' shirt",
+      "option": "XL",
+      "stock": 1,
+      "eur_price": 577.87,
+      "eur_retail": 1155.74,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"697W4450LBB\" SPU=\"697W4450LBB\"",
+      "candidates": [
+        {
+          "product_id": 165483,
+          "text": "The Row\n\n(W) 더 로우 지퍼 부츠 블랙\n\n36%\n\n1,400,000원\n\n관심 24"
+        },
+        {
+          "product_id": 963213,
+          "text": "The Row\n\n더 로우 알마 숄더백 블랙\n\n4,938,000원\n\n관심 1"
+        },
+        {
+          "product_id": 789682,
+          "text": "The Row\n\n더 로우 인그리드 핸드백 블랙\n\n4,825,000원\n\n관심 30"
+        },
+        {
+          "product_id": 451743,
+          "text": "Gucci\n\n구찌 재키 1961 스몰 숄더백 블랙\n\n6,239,000원\n\n관심 41\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 845758,
+          "text": "Balenciaga\n\n발렌시아가 참 지퍼 파우치 블랙\n\n570,000원\n\n관심 33\n\n · 리뷰 1\n\n · 거래 1"
+        }
+      ]
+    },
+    {
+      "sku": "11216W4466DRN",
+      "spu": "11216W4466DRN",
+      "b2b_sku": "11216W4466DRN",
+      "brand": "THE ROW",
+      "name": "'Paden' blazer",
+      "option": "6",
+      "stock": 1,
+      "eur_price": 2257.38,
+      "eur_retail": 3762.3,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11216W4466DRN\" SPU=\"11216W4466DRN\"",
+      "candidates": [
+        {
+          "product_id": 55918,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 카프스킨 루코 트리옹프 로퍼 블랙\n\n10%\n\n990,000원\n\n관심 521\n\n · 리뷰 15\n\n · 거래 89"
+        },
+        {
+          "product_id": 55915,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 불 트리옹프 체인 마가렛 로퍼 블랙\n\n35%\n\n1,100,000원\n\n관심 184\n\n · 리뷰 7\n\n · 거래 15"
+        },
+        {
+          "product_id": 350652,
+          "text": "Celine\n\n(W) 셀린느 말라케 트리옹프 로퍼 폴리쉬드 불스킨 블랙\n\n33%\n\n999,000원\n\n관심 72\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 19\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 521370,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 불 타탄 유니버시테 트리옹프 체인 로퍼 블랙 레드\n\n895,000원\n\n관심 1"
+        }
+      ]
+    },
+    {
+      "sku": "11216W4466DRN",
+      "spu": "11216W4466DRN",
+      "b2b_sku": "11216W4466DRN",
+      "brand": "THE ROW",
+      "name": "'Paden' blazer",
+      "option": "8",
+      "stock": 1,
+      "eur_price": 2257.38,
+      "eur_retail": 3762.3,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"11216W4466DRN\" SPU=\"11216W4466DRN\"",
+      "candidates": [
+        {
+          "product_id": 55918,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 카프스킨 루코 트리옹프 로퍼 블랙\n\n10%\n\n990,000원\n\n관심 521\n\n · 리뷰 15\n\n · 거래 89"
+        },
+        {
+          "product_id": 55915,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 불 트리옹프 체인 마가렛 로퍼 블랙\n\n35%\n\n1,100,000원\n\n관심 184\n\n · 리뷰 7\n\n · 거래 15"
+        },
+        {
+          "product_id": 350652,
+          "text": "Celine\n\n(W) 셀린느 말라케 트리옹프 로퍼 폴리쉬드 불스킨 블랙\n\n33%\n\n999,000원\n\n관심 72\n\n · 거래 4\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 70664,
+          "text": "Saint Laurent\n\n(W) 생로랑 페이턴트 레더 르 로퍼 모노그램 페니 슬리퍼 블랙 브라이트 화이트\n\n47%\n\n550,000원\n\n관심 19\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 521370,
+          "text": "Celine\n\n(W) 셀린느 폴리쉬드 불 타탄 유니버시테 트리옹프 체인 로퍼 블랙 레드\n\n895,000원\n\n관심 1"
+        }
+      ]
+    },
+    {
+      "sku": "F2170L805BLK",
+      "spu": "F2170L805BLK",
+      "b2b_sku": "F2170L805BLK",
+      "brand": "THE ROW",
+      "name": "'Soft Two' loafers",
+      "option": "42",
+      "stock": 1,
+      "eur_price": 906.56,
+      "eur_retail": 1295.08,
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2170L805BLK",
+      "spu": "F2170L805BLK",
+      "b2b_sku": "F2170L805BLK",
+      "brand": "THE ROW",
+      "name": "'Soft Two' loafers",
+      "option": "42.5",
+      "stock": 1,
+      "eur_price": 906.56,
+      "eur_retail": 1295.08,
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F2170L805BLK",
+      "spu": "F2170L805BLK",
+      "b2b_sku": "F2170L805BLK",
+      "brand": "THE ROW",
+      "name": "'Soft Two' loafers",
+      "option": "43",
+      "stock": 2,
+      "eur_price": 906.56,
+      "eur_retail": 1295.08,
+      "matched": true,
+      "product_id": 911866,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911866",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "W2173W27TE",
+      "spu": "W2173W27TE",
+      "b2b_sku": "W2173W27TE",
+      "brand": "THE ROW",
+      "name": "'Alma' shoulder bag",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1068.86,
+      "eur_retail": 1336.07,
+      "matched": true,
+      "product_id": 949329,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/949329",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F1883SH07LQB",
+      "spu": "F1883SH07LQB",
+      "b2b_sku": "F1883SH07LQB",
+      "brand": "THE ROW",
+      "name": "'Lucca' slippers",
+      "option": "37",
+      "stock": 1,
+      "eur_price": 711.47,
+      "eur_retail": 1016.39,
+      "matched": true,
+      "product_id": 911843,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911843",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F1883SH07LQB",
+      "spu": "F1883SH07LQB",
+      "b2b_sku": "F1883SH07LQB",
+      "brand": "THE ROW",
+      "name": "'Lucca' slippers",
+      "option": "38",
+      "stock": 2,
+      "eur_price": 711.47,
+      "eur_retail": 1016.39,
+      "matched": true,
+      "product_id": 911843,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911843",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F1883SH07LQB",
+      "spu": "F1883SH07LQB",
+      "b2b_sku": "F1883SH07LQB",
+      "brand": "THE ROW",
+      "name": "'Lucca' slippers",
+      "option": "39",
+      "stock": 2,
+      "eur_price": 711.47,
+      "eur_retail": 1016.39,
+      "matched": true,
+      "product_id": 911843,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911843",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F1883SH07LQB",
+      "spu": "F1883SH07LQB",
+      "b2b_sku": "F1883SH07LQB",
+      "brand": "THE ROW",
+      "name": "'Lucca' slippers",
+      "option": "40",
+      "stock": 2,
+      "eur_price": 711.47,
+      "eur_retail": 1016.39,
+      "matched": true,
+      "product_id": 911843,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911843",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "F1883SH07LQB",
+      "spu": "F1883SH07LQB",
+      "b2b_sku": "F1883SH07LQB",
+      "brand": "THE ROW",
+      "name": "'Lucca' slippers",
+      "option": "41",
+      "stock": 1,
+      "eur_price": 711.47,
+      "eur_retail": 1016.39,
+      "matched": true,
+      "product_id": 911843,
+      "product_name_ko": "The Row",
+      "product_url": "https://kream.co.kr/products/911843",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    }
+  ]
+}
