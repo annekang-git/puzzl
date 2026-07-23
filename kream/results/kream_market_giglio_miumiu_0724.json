@@ -1,0 +1,5601 @@
+{
+  "fetched_at": "2026-07-23T22:00:40.376Z",
+  "input_file": "targets-giglio_miumiu.json",
+  "total_targets": 74,
+  "matched": 38,
+  "failed": 36,
+  "results": [
+    {
+      "sku": "5BB142AN88F098L",
+      "spu": "5BB142AN88 ~ F098L",
+      "b2b_sku": "H83626",
+      "brand": "MIU MIU",
+      "name": "Arcadie Matelassé Nappa Leather Bag Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1844.26,
+      "eur_retail": 2049.18,
+      "matched": true,
+      "product_id": 504813,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/504813",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 3421000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 3421000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3791000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 3830000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4742000,
+          "option": "ONE SIZE",
+          "quantity": 6
+        },
+        {
+          "price": 4954000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 5,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1172CSSF0003",
+      "spu": "5BB1172CSS ~ F0003",
+      "b2b_sku": "H83729",
+      "brand": "MIU MIU",
+      "name": "Beau Suede Bag Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2286.89,
+      "eur_retail": 2540.98,
+      "matched": true,
+      "product_id": 634053,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/634053",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 3058000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 3058000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3300000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3569000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4291000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4477000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 5,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1172CSSF0393",
+      "spu": "5BB1172CSS ~ F0393",
+      "b2b_sku": "H83729",
+      "brand": "MIU MIU",
+      "name": "Beau Suede Bag Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1778.69,
+      "eur_retail": 2540.98,
+      "matched": true,
+      "product_id": 478539,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/478539",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 3797000,
+        "highest_bid": 2000000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 3797000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4233000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 2000000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB179AF81F0401",
+      "spu": "5BB179AF81 ~ F0401",
+      "b2b_sku": "H89974",
+      "brand": "MIU MIU",
+      "name": "Miu Miu Corduroy Shoulder Bag",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1692.62,
+      "eur_retail": 2418.03,
+      "matched": true,
+      "product_id": 670436,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/670436",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "5BP100AN88F0236",
+      "spu": "5BP100AN88 ~ F0236",
+      "b2b_sku": "H92778",
+      "brand": "MIU MIU",
+      "name": "Miu Miu Matelassé Leather Handbag",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1004.1,
+      "eur_retail": 1434.43,
+      "matched": true,
+      "product_id": 967539,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/967539",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "5ND022AFPPF0002",
+      "spu": "5ND022AFPP ~ F0002",
+      "b2b_sku": "H92737",
+      "brand": "MIU MIU",
+      "name": "Miu Miu Matelassé Leather Bucket Bag",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 803.28,
+      "eur_retail": 1147.54,
+      "matched": true,
+      "product_id": 600735,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/600735",
+      "market": {
+        "last_sale_price": 1370000,
+        "lowest_ask": 1664000,
+        "highest_bid": 1201000,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 1370000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-01T14:02:12Z",
+          "date_text": "26/07/01",
+          "is_immediate": true
+        },
+        {
+          "price": 1370000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-29T05:39:12Z",
+          "date_text": "26/05/29",
+          "is_immediate": false
+        },
+        {
+          "price": 1320000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-22T23:54:08Z",
+          "date_text": "26/05/23",
+          "is_immediate": true
+        },
+        {
+          "price": 1500000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-30T20:26:59Z",
+          "date_text": "26/03/31",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 1664000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 1750000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1789000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1820000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1877000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2003000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2078000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2110000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2230000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2350000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 1201000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1200000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 4,
+        "asks": 10,
+        "bids": 2
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1822IEOF0002",
+      "spu": "5BB1822IEO ~ F0002",
+      "b2b_sku": "H92747",
+      "brand": "MIU MIU",
+      "name": "Miu Miu Leather Handbag with Logo",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 1536.89,
+      "eur_retail": 2049.18,
+      "matched": true,
+      "product_id": 585918,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/585918",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 3400000,
+        "highest_bid": 1500000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 3400000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3415000,
+          "option": "ONE SIZE",
+          "quantity": 5
+        },
+        {
+          "price": 3500000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4042000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4100000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4369000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 1500000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 6,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BE101VOOO2BBLF0316",
+      "spu": "5BE101VOOO2BBL ~ F0316",
+      "b2b_sku": "I14847",
+      "brand": "MIU MIU",
+      "name": "Aventure Leather Bag Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1598.36,
+      "eur_retail": 2131.15,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BE101VOOO2BBLF0316\" SPU=\"5BE101VOOO2BBL ~ F0316\"",
+      "candidates": [
+        {
+          "product_id": 670500,
+          "text": "Miu Miu\n\n미우 미우 아이비 스웨이드 백 다크 브라운\n\n2,593,000원\n\n관심 31"
+        },
+        {
+          "product_id": 300583,
+          "text": "Miu Miu\n\n(W) 미우 미우 아이비 레더 백 블랙\n\n19%\n\n2,241,000원\n\n관심 1,132\n\n · 리뷰 6\n\n · 거래 21"
+        },
+        {
+          "product_id": 708268,
+          "text": "Miu Miu\n\n미우 미우 나파 레더 포켓 백 카라멜\n\n56%\n\n2,010,000원\n\n관심 31"
+        },
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 771784,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 핸드백 블랙\n\n26%\n\n1,796,000원\n\n관심 16"
+        }
+      ]
+    },
+    {
+      "sku": "5BC195VOOO2IFLF0ZKS",
+      "spu": "5BC195VOOO2IFL ~ F0ZKS",
+      "b2b_sku": "I33106",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1586.07,
+      "eur_retail": 1762.3,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BC195VOOO2IFLF0ZKS\" SPU=\"5BC195VOOO2IFL ~ F0ZKS\"",
+      "candidates": [
+        {
+          "product_id": 771784,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 핸드백 블랙\n\n26%\n\n1,796,000원\n\n관심 16"
+        },
+        {
+          "product_id": 670500,
+          "text": "Miu Miu\n\n미우 미우 아이비 스웨이드 백 다크 브라운\n\n2,593,000원\n\n관심 31"
+        },
+        {
+          "product_id": 425930,
+          "text": "Miu Miu\n\n미우 미우 레더 보 스몰 백 블랙\n\n16%\n\n3,947,000원\n\n관심 206\n\n · 리뷰 1\n\n · 거래 3"
+        },
+        {
+          "product_id": 606846,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 호보백 와인\n\n2,072,000원\n\n관심 15"
+        },
+        {
+          "product_id": 708268,
+          "text": "Miu Miu\n\n미우 미우 나파 레더 포켓 백 카라멜\n\n56%\n\n2,010,000원\n\n관심 31"
+        }
+      ]
+    },
+    {
+      "sku": "5BG335VPOO2CSSF0003",
+      "spu": "5BG335VPOO2CSS ~ F0003",
+      "b2b_sku": "I51198",
+      "brand": "MIU MIU",
+      "name": "Miu Miu Suede Calfskin Shoulder Bag",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1836.07,
+      "eur_retail": 2295.08,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BG335VPOO2CSSF0003\" SPU=\"5BG335VPOO2CSS ~ F0003\"",
+      "candidates": [
+        {
+          "product_id": 708268,
+          "text": "Miu Miu\n\n미우 미우 나파 레더 포켓 백 카라멜\n\n56%\n\n2,010,000원\n\n관심 31"
+        },
+        {
+          "product_id": 670500,
+          "text": "Miu Miu\n\n미우 미우 아이비 스웨이드 백 다크 브라운\n\n2,593,000원\n\n관심 31"
+        },
+        {
+          "product_id": 560880,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더 백 파우더 핑크\n\n7%\n\n3,987,000원\n\n관심 30"
+        },
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 585921,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n5,988,000원\n\n관심 18"
+        }
+      ]
+    },
+    {
+      "sku": "5BB193VOOO2CRWF0002",
+      "spu": "5BB193VOOO2CRW ~ F0002",
+      "b2b_sku": "I58899",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1881.14,
+      "eur_retail": 2090.16,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB193VOOO2CRWF0002\" SPU=\"5BB193VOOO2CRW ~ F0002\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 634053,
+          "text": "Miu Miu\n\n(W) 미우 미우 스웨이드 보 백 다크 브라운\n\n55%\n\n3,058,000원\n\n관심 60"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n20%\n\n3,600,000원\n\n관심 2,453\n\n · 리뷰 39\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 585918,
+          "text": "Miu Miu\n\n미우 미우 레더 탑 핸들 백 블랙\n\n29%\n\n3,400,000원\n\n관심 71\n\n · 리뷰 2"
+        },
+        {
+          "product_id": 771784,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 핸드백 블랙\n\n26%\n\n1,796,000원\n\n관심 16"
+        }
+      ]
+    },
+    {
+      "sku": "5BB193VOOO2CRWF0NBL",
+      "spu": "5BB193VOOO2CRW ~ F0NBL",
+      "b2b_sku": "I58899",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1881.14,
+      "eur_retail": 2090.16,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB193VOOO2CRWF0NBL\" SPU=\"5BB193VOOO2CRW ~ F0NBL\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n20%\n\n3,600,000원\n\n관심 2,453\n\n · 리뷰 39\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 634053,
+          "text": "Miu Miu\n\n(W) 미우 미우 스웨이드 보 백 다크 브라운\n\n55%\n\n3,058,000원\n\n관심 60"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n16%\n\n3,450,000원\n\n관심 1,733\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 92662,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 나파 가죽 호보 미니백 블랙\n\n8%\n\n2,368,000원\n\n관심 5,274\n\n · 리뷰 13\n\n · 거래 137"
+        }
+      ]
+    },
+    {
+      "sku": "5BB193VOOO2CRWF0046",
+      "spu": "5BB193VOOO2CRW ~ F0046",
+      "b2b_sku": "I58899",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1881.14,
+      "eur_retail": 2090.16,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB193VOOO2CRWF0046\" SPU=\"5BB193VOOO2CRW ~ F0046\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n20%\n\n3,600,000원\n\n관심 2,453\n\n · 리뷰 39\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 92662,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 나파 가죽 호보 미니백 블랙\n\n8%\n\n2,368,000원\n\n관심 5,274\n\n · 리뷰 13\n\n · 거래 137"
+        },
+        {
+          "product_id": 401543,
+          "text": "Miu Miu\n\n미우 미우 라피아 미니 버킷백 베이지 꼬냑\n\n1,178,000원\n\n관심 10"
+        },
+        {
+          "product_id": 748302,
+          "text": "Miu Miu\n\n미우 미우 나파 레더 파우치 코드\n\n1,590,000원\n\n관심 280\n\n · 리뷰 2\n\n · 거래 3\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BG335VPOO2G7QF0002",
+      "spu": "5BG335VPOO2G7Q ~ F0002",
+      "b2b_sku": "I58918",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 2102.46,
+      "eur_retail": 2336.07,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BG335VPOO2G7QF0002\" SPU=\"5BG335VPOO2G7Q ~ F0002\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 540587,
+          "text": "Miu Miu\n\n미우 미우 우븐 패브릭 토트백 베이지 꼬냑\n\n10%\n\n1,300,000원\n\n관심 141\n\n · 거래 2"
+        },
+        {
+          "product_id": 921327,
+          "text": "Miu Miu\n\n미우 미우 레더 핸드백 블랙\n\n5%\n\n2,747,000원\n\n관심 2"
+        },
+        {
+          "product_id": 771784,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 핸드백 블랙\n\n26%\n\n1,796,000원\n\n관심 16"
+        },
+        {
+          "product_id": 560880,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더 백 파우더 핑크\n\n7%\n\n3,987,000원\n\n관심 30"
+        }
+      ]
+    },
+    {
+      "sku": "5NE8412IA7F04GM",
+      "spu": "5NE8412IA7 ~ F04GM",
+      "b2b_sku": "I58960",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 656.56,
+      "eur_retail": 729.51,
+      "matched": true,
+      "product_id": 425925,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/425925",
+      "market": {
+        "last_sale_price": 1116000,
+        "lowest_ask": 1373000,
+        "highest_bid": null,
+        "change_text": "▲ 21,000원(+1.9%)"
+      },
+      "sales": [
+        {
+          "price": 1116000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-23T15:14:39Z",
+          "date_text": "26/04/24",
+          "is_immediate": false
+        },
+        {
+          "price": 1095000,
+          "option": "ONE SIZE",
+          "date_created": "2025-05-07T21:57:44Z",
+          "date_text": "25/05/08",
+          "is_immediate": false
+        },
+        {
+          "price": 1090000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-22T06:02:12Z",
+          "date_text": "25/04/22",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 1373000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1592000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 3,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 21,000원(+1.9%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB192VOOO2CRWF0002",
+      "spu": "5BB192VOOO2CRW ~ F0002",
+      "b2b_sku": "I58948",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1438.52,
+      "eur_retail": 1598.36,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB192VOOO2CRWF0002\" SPU=\"5BB192VOOO2CRW ~ F0002\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 540587,
+          "text": "Miu Miu\n\n미우 미우 우븐 패브릭 토트백 베이지 꼬냑\n\n10%\n\n1,300,000원\n\n관심 141\n\n · 거래 2"
+        },
+        {
+          "product_id": 587022,
+          "text": "Miu Miu\n\n미우 미우 라피아 이펙트 우븐 호보백 베이지 꼬냑\n\n2,750,000원\n\n관심 29"
+        },
+        {
+          "product_id": 92662,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 나파 가죽 호보 미니백 블랙\n\n8%\n\n2,368,000원\n\n관심 5,274\n\n · 리뷰 13\n\n · 거래 137"
+        },
+        {
+          "product_id": 303983,
+          "text": "Miu Miu\n\n미우 미우 마테라쎄 나파 레더 핸드백 블랙\n\n2,807,000원\n\n관심 23\n\n · 리뷰 1"
+        }
+      ]
+    },
+    {
+      "sku": "5BB192VOOO2CRWF0046",
+      "spu": "5BB192VOOO2CRW ~ F0046",
+      "b2b_sku": "I58948",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 1438.52,
+      "eur_retail": 1598.36,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB192VOOO2CRWF0046\" SPU=\"5BB192VOOO2CRW ~ F0046\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 540587,
+          "text": "Miu Miu\n\n미우 미우 우븐 패브릭 토트백 베이지 꼬냑\n\n10%\n\n1,300,000원\n\n관심 141\n\n · 거래 2"
+        },
+        {
+          "product_id": 587022,
+          "text": "Miu Miu\n\n미우 미우 라피아 이펙트 우븐 호보백 베이지 꼬냑\n\n2,750,000원\n\n관심 29"
+        },
+        {
+          "product_id": 560882,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더 백 화이트\n\n7%\n\n3,990,000원\n\n관심 87"
+        },
+        {
+          "product_id": 92662,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 나파 가죽 호보 미니백 블랙\n\n8%\n\n2,368,000원\n\n관심 5,274\n\n · 리뷰 13\n\n · 거래 137"
+        }
+      ]
+    },
+    {
+      "sku": "5BC205VPOO2CSSF0324",
+      "spu": "5BC205VPOO2CSS ~ F0324",
+      "b2b_sku": "I58910",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 6,
+      "eur_price": 1954.92,
+      "eur_retail": 2172.13,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BC205VPOO2CSSF0324\" SPU=\"5BC205VPOO2CSS ~ F0324\"",
+      "candidates": [
+        {
+          "product_id": 303370,
+          "text": "Miu Miu\n\n미우 미우 우븐 패브릭 미니백 베이지 꼬냑\n\n12%\n\n1,298,000원\n\n관심 164\n\n · 리뷰 1\n\n · 거래 6"
+        },
+        {
+          "product_id": 688902,
+          "text": "Miu Miu\n\n미우 미우 마테라쎄 나파 레더 파우치 파우더 핑크\n\n2,820,000원\n\n관심 21"
+        },
+        {
+          "product_id": 451815,
+          "text": "Miu Miu\n\n미우 미우 레더 백팩 꼬냑\n\n16%\n\n3,699,000원\n\n관심 370\n\n · 리뷰 2\n\n · 거래 4"
+        },
+        {
+          "product_id": 540587,
+          "text": "Miu Miu\n\n미우 미우 우븐 패브릭 토트백 베이지 꼬냑\n\n10%\n\n1,300,000원\n\n관심 141\n\n · 거래 2"
+        },
+        {
+          "product_id": 587022,
+          "text": "Miu Miu\n\n미우 미우 라피아 이펙트 우븐 호보백 베이지 꼬냑\n\n2,750,000원\n\n관심 29"
+        }
+      ]
+    },
+    {
+      "sku": "5NE8412IA7F0Q1K",
+      "spu": "5NE8412IA7 ~ F0Q1K",
+      "b2b_sku": "I58960",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 7,
+      "eur_price": 656.56,
+      "eur_retail": 729.51,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5NE8412IA7F0Q1K\" SPU=\"5NE8412IA7 ~ F0Q1K\"",
+      "candidates": [
+        {
+          "product_id": 688902,
+          "text": "Miu Miu\n\n미우 미우 마테라쎄 나파 레더 파우치 파우더 핑크\n\n2,820,000원\n\n관심 21"
+        },
+        {
+          "product_id": 303370,
+          "text": "Miu Miu\n\n미우 미우 우븐 패브릭 미니백 베이지 꼬냑\n\n12%\n\n1,298,000원\n\n관심 164\n\n · 리뷰 1\n\n · 거래 6"
+        },
+        {
+          "product_id": 688918,
+          "text": "Miu Miu\n\n미우 미우 마테라쎄 나파 레더 파우치 블랙\n\n2,655,000원\n\n관심 17"
+        },
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 451815,
+          "text": "Miu Miu\n\n미우 미우 레더 백팩 꼬냑\n\n16%\n\n3,699,000원\n\n관심 370\n\n · 리뷰 2\n\n · 거래 4"
+        }
+      ]
+    },
+    {
+      "sku": "5BA2812CRWF0046",
+      "spu": "5BA2812CRW ~ F0046",
+      "b2b_sku": "I59750",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 1032.79,
+      "eur_retail": 1147.54,
+      "matched": true,
+      "product_id": 395342,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/395342",
+      "market": {
+        "last_sale_price": 1990000,
+        "lowest_ask": 1825000,
+        "highest_bid": 295000,
+        "change_text": "▲ 100,000원(+5.3%)"
+      },
+      "sales": [
+        {
+          "price": 1990000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-19T04:33:07Z",
+          "date_text": "25/10/19",
+          "is_immediate": false
+        },
+        {
+          "price": 1890000,
+          "option": "ONE SIZE",
+          "date_created": "2025-09-17T00:35:51Z",
+          "date_text": "25/09/17",
+          "is_immediate": true
+        },
+        {
+          "price": 1845000,
+          "option": "ONE SIZE",
+          "date_created": "2025-07-18T05:59:31Z",
+          "date_text": "25/07/18",
+          "is_immediate": true
+        },
+        {
+          "price": 1814000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-19T07:16:07Z",
+          "date_text": "25/04/19",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 1825000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1840000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1989000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2100000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2134000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2176000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 2217000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2510000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [
+        {
+          "price": 295000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 4,
+        "asks": 8,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 100,000원(+5.3%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BA2812CRWF0NBL",
+      "spu": "5BA2812CRW ~ F0NBL",
+      "b2b_sku": "I59750",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 1032.79,
+      "eur_retail": 1147.54,
+      "matched": true,
+      "product_id": 395341,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/395341",
+      "market": {
+        "last_sale_price": 2050000,
+        "lowest_ask": 1825000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 2050000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-26T00:22:35Z",
+          "date_text": "25/10/26",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 1825000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2510000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "600,800원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1962IERF0046",
+      "spu": "5BB1962IER ~ F0046",
+      "b2b_sku": "I59736",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2434.43,
+      "eur_retail": 2704.92,
+      "matched": true,
+      "product_id": 854896,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/854896",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 6331000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 6331000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5NE8412I0GF0ZIZ",
+      "spu": "5NE8412I0G ~ F0ZIZ",
+      "b2b_sku": "I59838",
+      "brand": "MIU MIU",
+      "name": "Tote bag woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 655.74,
+      "eur_retail": 819.67,
+      "matched": true,
+      "product_id": 958962,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/958962",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "5BB142AN88F0458",
+      "spu": "5BB142AN88 ~ F0458",
+      "b2b_sku": "I59572",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1881.14,
+      "eur_retail": 2090.16,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB142AN88F0458\" SPU=\"5BB142AN88 ~ F0458\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n20%\n\n3,600,000원\n\n관심 2,453\n\n · 리뷰 39\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 519575,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더 토트백 블랙\n\n3,054,000원\n\n관심 3"
+        },
+        {
+          "product_id": 288072,
+          "text": "Miu Miu\n\n미우 미우 가죽 탑 핸들백 코냑\n\n17%\n\n4,019,000원\n\n관심 1,778\n\n · 리뷰 17\n\n · 거래 30\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n16%\n\n3,450,000원\n\n관심 1,734\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BB142AN88F0002",
+      "spu": "5BB142AN88 ~ F0002",
+      "b2b_sku": "I59572",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1881.14,
+      "eur_retail": 2090.16,
+      "matched": true,
+      "product_id": 179859,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/179859",
+      "market": {
+        "last_sale_price": 3510000,
+        "lowest_ask": 3450000,
+        "highest_bid": 2900000,
+        "change_text": "▲ 1,000원(+0.0%)"
+      },
+      "sales": [
+        {
+          "price": 3510000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-28T14:28:51Z",
+          "date_text": "26/06/28",
+          "is_immediate": true
+        },
+        {
+          "price": 3509000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-14T14:02:32Z",
+          "date_text": "26/06/14",
+          "is_immediate": true
+        },
+        {
+          "price": 3479000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-08T17:05:41Z",
+          "date_text": "26/06/09",
+          "is_immediate": true
+        },
+        {
+          "price": 3260000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-11T03:25:14Z",
+          "date_text": "26/05/11",
+          "is_immediate": false
+        },
+        {
+          "price": 3650000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-03T04:58:05Z",
+          "date_text": "26/05/03",
+          "is_immediate": true
+        },
+        {
+          "price": 3850000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-11T12:38:59Z",
+          "date_text": "26/03/11",
+          "is_immediate": true
+        },
+        {
+          "price": 3489000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-10T00:39:32Z",
+          "date_text": "26/03/10",
+          "is_immediate": false
+        },
+        {
+          "price": 3169000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-26T02:35:06Z",
+          "date_text": "26/02/26",
+          "is_immediate": false
+        },
+        {
+          "price": 3540000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-29T10:25:47Z",
+          "date_text": "26/01/29",
+          "is_immediate": true
+        },
+        {
+          "price": 3470000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-08T10:06:27Z",
+          "date_text": "26/01/08",
+          "is_immediate": false
+        },
+        {
+          "price": 3179000,
+          "option": "ONE SIZE",
+          "date_created": "2025-12-04T04:49:58Z",
+          "date_text": "25/12/04",
+          "is_immediate": false
+        },
+        {
+          "price": 2897000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-26T14:41:54Z",
+          "date_text": "25/10/26",
+          "is_immediate": false
+        },
+        {
+          "price": 2897000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-08T08:32:12Z",
+          "date_text": "25/10/08",
+          "is_immediate": false
+        },
+        {
+          "price": 2909000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-28T13:23:09Z",
+          "date_text": "25/08/28",
+          "is_immediate": false
+        },
+        {
+          "price": 2987000,
+          "option": "ONE SIZE",
+          "date_created": "2025-07-27T15:50:23Z",
+          "date_text": "25/07/28",
+          "is_immediate": true
+        },
+        {
+          "price": 2950000,
+          "option": "ONE SIZE",
+          "date_created": "2025-07-18T06:27:43Z",
+          "date_text": "25/07/18",
+          "is_immediate": true
+        },
+        {
+          "price": 3095000,
+          "option": "ONE SIZE",
+          "date_created": "2025-07-13T18:11:37Z",
+          "date_text": "25/07/14",
+          "is_immediate": true
+        },
+        {
+          "price": 2999000,
+          "option": "ONE SIZE",
+          "date_created": "2025-05-01T06:04:32Z",
+          "date_text": "25/05/01",
+          "is_immediate": true
+        },
+        {
+          "price": 2856000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-27T09:41:15Z",
+          "date_text": "25/04/27",
+          "is_immediate": false
+        },
+        {
+          "price": 2910000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-08T23:49:17Z",
+          "date_text": "25/04/09",
+          "is_immediate": true
+        },
+        {
+          "price": 2550000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-30T15:59:41Z",
+          "date_text": "25/03/31",
+          "is_immediate": false
+        },
+        {
+          "price": 2760000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-25T08:32:35Z",
+          "date_text": "25/03/25",
+          "is_immediate": true
+        },
+        {
+          "price": 285000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-24T21:41:53Z",
+          "date_text": "25/03/25",
+          "is_immediate": true
+        },
+        {
+          "price": 2750000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-10T11:06:02Z",
+          "date_text": "25/03/10",
+          "is_immediate": false
+        },
+        {
+          "price": 2501000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-03T18:33:22Z",
+          "date_text": "25/03/04",
+          "is_immediate": false
+        },
+        {
+          "price": 2500000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-03T18:32:36Z",
+          "date_text": "25/03/04",
+          "is_immediate": false
+        },
+        {
+          "price": 2910000,
+          "option": "ONE SIZE",
+          "date_created": "2025-01-28T00:41:14Z",
+          "date_text": "25/01/28",
+          "is_immediate": true
+        },
+        {
+          "price": 2869000,
+          "option": "ONE SIZE",
+          "date_created": "2025-01-01T10:58:58Z",
+          "date_text": "25/01/01",
+          "is_immediate": false
+        },
+        {
+          "price": 2550000,
+          "option": "ONE SIZE",
+          "date_created": "2024-12-31T20:00:57Z",
+          "date_text": "25/01/01",
+          "is_immediate": true
+        },
+        {
+          "price": 2640000,
+          "option": "ONE SIZE",
+          "date_created": "2024-12-24T13:09:42Z",
+          "date_text": "24/12/24",
+          "is_immediate": true
+        },
+        {
+          "price": 2570000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-27T06:12:29Z",
+          "date_text": "24/11/27",
+          "is_immediate": false
+        },
+        {
+          "price": 2533000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-19T11:03:41Z",
+          "date_text": "24/11/19",
+          "is_immediate": false
+        },
+        {
+          "price": 2547000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-10T13:33:51Z",
+          "date_text": "24/11/10",
+          "is_immediate": false
+        },
+        {
+          "price": 2553000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-07T07:04:32Z",
+          "date_text": "24/11/07",
+          "is_immediate": false
+        },
+        {
+          "price": 2504000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-03T00:32:03Z",
+          "date_text": "24/11/03",
+          "is_immediate": false
+        },
+        {
+          "price": 2622000,
+          "option": "ONE SIZE",
+          "date_created": "2024-10-31T12:35:55Z",
+          "date_text": "24/10/31",
+          "is_immediate": false
+        },
+        {
+          "price": 2570000,
+          "option": "ONE SIZE",
+          "date_created": "2024-10-05T15:25:11Z",
+          "date_text": "24/10/06",
+          "is_immediate": false
+        },
+        {
+          "price": 2550000,
+          "option": "ONE SIZE",
+          "date_created": "2024-09-28T14:13:13Z",
+          "date_text": "24/09/28",
+          "is_immediate": false
+        },
+        {
+          "price": 2390000,
+          "option": "ONE SIZE",
+          "date_created": "2024-09-19T07:25:24Z",
+          "date_text": "24/09/19",
+          "is_immediate": false
+        },
+        {
+          "price": 2800000,
+          "option": "ONE SIZE",
+          "date_created": "2024-08-04T11:42:46Z",
+          "date_text": "24/08/04",
+          "is_immediate": false
+        },
+        {
+          "price": 2200000,
+          "option": "ONE SIZE",
+          "date_created": "2024-07-02T05:37:49Z",
+          "date_text": "24/07/02",
+          "is_immediate": true
+        },
+        {
+          "price": 2400000,
+          "option": "ONE SIZE",
+          "date_created": "2024-07-01T01:55:12Z",
+          "date_text": "24/07/01",
+          "is_immediate": false
+        },
+        {
+          "price": 2390000,
+          "option": "ONE SIZE",
+          "date_created": "2024-05-25T05:44:51Z",
+          "date_text": "24/05/25",
+          "is_immediate": false
+        },
+        {
+          "price": 2490000,
+          "option": "ONE SIZE",
+          "date_created": "2024-05-19T11:10:58Z",
+          "date_text": "24/05/19",
+          "is_immediate": false
+        },
+        {
+          "price": 2420000,
+          "option": "ONE SIZE",
+          "date_created": "2024-04-14T07:26:31Z",
+          "date_text": "24/04/14",
+          "is_immediate": true
+        },
+        {
+          "price": 2514000,
+          "option": "ONE SIZE",
+          "date_created": "2024-04-02T06:58:28Z",
+          "date_text": "24/04/02",
+          "is_immediate": false
+        },
+        {
+          "price": 2520000,
+          "option": "ONE SIZE",
+          "date_created": "2024-03-25T13:48:54Z",
+          "date_text": "24/03/25",
+          "is_immediate": false
+        },
+        {
+          "price": 2520000,
+          "option": "ONE SIZE",
+          "date_created": "2024-03-15T06:23:19Z",
+          "date_text": "24/03/15",
+          "is_immediate": false
+        },
+        {
+          "price": 2570000,
+          "option": "ONE SIZE",
+          "date_created": "2024-02-16T05:30:04Z",
+          "date_text": "24/02/16",
+          "is_immediate": false
+        },
+        {
+          "price": 2280000,
+          "option": "ONE SIZE",
+          "date_created": "2023-11-20T05:11:52Z",
+          "date_text": "23/11/20",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 3450000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3550000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3599000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3600000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3658000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 3698000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3699000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4142000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4307000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4819000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4954000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [
+        {
+          "price": 2900000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2550000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 50,
+        "asks": 11,
+        "bids": 2
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 1,000원(+0.0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB142AN88F0V98",
+      "spu": "5BB142AN88 ~ F0V98",
+      "b2b_sku": "I59572",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1881.14,
+      "eur_retail": 2090.16,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB142AN88F0V98\" SPU=\"5BB142AN88 ~ F0V98\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 519575,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더 토트백 블랙\n\n3,054,000원\n\n관심 3"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n20%\n\n3,600,000원\n\n관심 2,453\n\n · 리뷰 39\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n16%\n\n3,450,000원\n\n관심 1,734\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 958040,
+          "text": "Miu Miu Vintage\n\n미우미우 아르카디 마테라쎄 미니백 5BP088\n\n2,625,000원\n\n관심 22\n\n무료배송"
+        }
+      ]
+    },
+    {
+      "sku": "5BC125AN88F0011",
+      "spu": "5BC125AN88 ~ F0011",
+      "b2b_sku": "I59669",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1696.73,
+      "eur_retail": 1885.25,
+      "matched": true,
+      "product_id": 452694,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/452694",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 4475000,
+        "highest_bid": 1300000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 4475000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 1300000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BG2312CRWF0002",
+      "spu": "5BG2312CRW ~ F0002",
+      "b2b_sku": "I59622",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1254.1,
+      "eur_retail": 1393.44,
+      "matched": true,
+      "product_id": 300583,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/300583",
+      "market": {
+        "last_sale_price": 2140000,
+        "lowest_ask": 2241000,
+        "highest_bid": 2058000,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 2140000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-14T05:34:48Z",
+          "date_text": "26/07/14",
+          "is_immediate": false
+        },
+        {
+          "price": 2140000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-12T04:39:45Z",
+          "date_text": "26/07/12",
+          "is_immediate": false
+        },
+        {
+          "price": 2150000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-23T01:35:26Z",
+          "date_text": "26/06/23",
+          "is_immediate": false
+        },
+        {
+          "price": 2150000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-21T03:26:53Z",
+          "date_text": "26/06/21",
+          "is_immediate": false
+        },
+        {
+          "price": 2469000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-18T10:41:40Z",
+          "date_text": "26/06/18",
+          "is_immediate": true
+        },
+        {
+          "price": 2170000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-16T04:14:12Z",
+          "date_text": "26/06/16",
+          "is_immediate": false
+        },
+        {
+          "price": 2170000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-09T13:12:32Z",
+          "date_text": "26/06/09",
+          "is_immediate": false
+        },
+        {
+          "price": 2200000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-10T04:32:46Z",
+          "date_text": "26/05/10",
+          "is_immediate": false
+        },
+        {
+          "price": 2300000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-22T06:48:34Z",
+          "date_text": "26/04/22",
+          "is_immediate": true
+        },
+        {
+          "price": 2209000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-19T17:06:19Z",
+          "date_text": "26/03/20",
+          "is_immediate": false
+        },
+        {
+          "price": 2200000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-04T19:56:18Z",
+          "date_text": "26/02/05",
+          "is_immediate": false
+        },
+        {
+          "price": 2278000,
+          "option": "ONE SIZE",
+          "date_created": "2025-12-28T10:04:57Z",
+          "date_text": "25/12/28",
+          "is_immediate": false
+        },
+        {
+          "price": 2300000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-06T16:34:34Z",
+          "date_text": "25/10/07",
+          "is_immediate": false
+        },
+        {
+          "price": 1700000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-08T02:01:55Z",
+          "date_text": "25/08/08",
+          "is_immediate": false
+        },
+        {
+          "price": 1799000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-26T10:59:26Z",
+          "date_text": "25/06/26",
+          "is_immediate": false
+        },
+        {
+          "price": 2249000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-09T15:26:24Z",
+          "date_text": "25/06/10",
+          "is_immediate": false
+        },
+        {
+          "price": 2249000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-06T07:47:09Z",
+          "date_text": "25/06/06",
+          "is_immediate": false
+        },
+        {
+          "price": 2550000,
+          "option": "ONE SIZE",
+          "date_created": "2025-02-13T13:25:47Z",
+          "date_text": "25/02/13",
+          "is_immediate": false
+        },
+        {
+          "price": 2300000,
+          "option": "ONE SIZE",
+          "date_created": "2024-12-06T02:02:27Z",
+          "date_text": "24/12/06",
+          "is_immediate": false
+        },
+        {
+          "price": 1991000,
+          "option": "ONE SIZE",
+          "date_created": "2024-08-28T14:06:37Z",
+          "date_text": "24/08/28",
+          "is_immediate": false
+        },
+        {
+          "price": 2590000,
+          "option": "ONE SIZE",
+          "date_created": "2024-07-09T13:11:05Z",
+          "date_text": "24/07/09",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 2241000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2270000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2406000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2505000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2506000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2507000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2542000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2692000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 2703000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2759000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3067000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 2058000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1780000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1550000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 21,
+        "asks": 11,
+        "bids": 3
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BG2312CRWF0NBL",
+      "spu": "5BG2312CRW ~ F0NBL",
+      "b2b_sku": "I59622",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1254.1,
+      "eur_retail": 1393.44,
+      "matched": true,
+      "product_id": 395370,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/395370",
+      "market": {
+        "last_sale_price": 2682000,
+        "lowest_ask": 2636000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 2682000,
+          "option": "ONE SIZE",
+          "date_created": "2025-09-02T15:32:24Z",
+          "date_text": "25/09/03",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 2636000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2637000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3067000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "650,000원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BC125AN88F0002",
+      "spu": "5BC125AN88 ~ F0002",
+      "b2b_sku": "I59669",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1696.73,
+      "eur_retail": 1885.25,
+      "matched": true,
+      "product_id": 74825,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/74825",
+      "market": {
+        "last_sale_price": 2940000,
+        "lowest_ask": 2994000,
+        "highest_bid": 2850000,
+        "change_text": "▼ 150,000원(-4.9%)"
+      },
+      "sales": [
+        {
+          "price": 2940000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-23T08:15:31Z",
+          "date_text": "13시간 전",
+          "is_immediate": true
+        },
+        {
+          "price": 3090000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-22T07:34:38Z",
+          "date_text": "26/07/22",
+          "is_immediate": true
+        },
+        {
+          "price": 3118000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-15T15:07:56Z",
+          "date_text": "26/07/16",
+          "is_immediate": true
+        },
+        {
+          "price": 3057000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-14T07:48:26Z",
+          "date_text": "26/07/14",
+          "is_immediate": true
+        },
+        {
+          "price": 3090000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-08T03:23:18Z",
+          "date_text": "26/07/08",
+          "is_immediate": true
+        },
+        {
+          "price": 2865000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-25T01:54:37Z",
+          "date_text": "26/06/25",
+          "is_immediate": false
+        },
+        {
+          "price": 2865000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-24T03:51:50Z",
+          "date_text": "26/06/24",
+          "is_immediate": false
+        },
+        {
+          "price": 2860000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-20T04:50:00Z",
+          "date_text": "26/06/20",
+          "is_immediate": false
+        },
+        {
+          "price": 3150000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-20T03:14:13Z",
+          "date_text": "26/06/20",
+          "is_immediate": true
+        },
+        {
+          "price": 2980000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-13T05:01:33Z",
+          "date_text": "26/06/13",
+          "is_immediate": true
+        },
+        {
+          "price": 2800000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-09T03:29:57Z",
+          "date_text": "26/06/09",
+          "is_immediate": false
+        },
+        {
+          "price": 2945000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-08T23:15:00Z",
+          "date_text": "26/06/09",
+          "is_immediate": true
+        },
+        {
+          "price": 2765000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-07T15:29:15Z",
+          "date_text": "26/06/08",
+          "is_immediate": true
+        },
+        {
+          "price": 2765000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-07T05:14:07Z",
+          "date_text": "26/06/07",
+          "is_immediate": true
+        },
+        {
+          "price": 2763000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-30T15:58:42Z",
+          "date_text": "26/05/31",
+          "is_immediate": true
+        },
+        {
+          "price": 2700000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-26T03:44:50Z",
+          "date_text": "26/05/26",
+          "is_immediate": true
+        },
+        {
+          "price": 2599000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-21T11:08:31Z",
+          "date_text": "26/05/21",
+          "is_immediate": true
+        },
+        {
+          "price": 2786000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-19T15:35:20Z",
+          "date_text": "26/05/20",
+          "is_immediate": true
+        },
+        {
+          "price": 2804000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-12T15:15:28Z",
+          "date_text": "26/05/13",
+          "is_immediate": false
+        },
+        {
+          "price": 2770000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-03T05:15:52Z",
+          "date_text": "26/05/03",
+          "is_immediate": true
+        },
+        {
+          "price": 2453000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-28T10:24:57Z",
+          "date_text": "26/04/28",
+          "is_immediate": false
+        },
+        {
+          "price": 2769000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-27T13:24:55Z",
+          "date_text": "26/04/27",
+          "is_immediate": true
+        },
+        {
+          "price": 2700000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-22T06:30:33Z",
+          "date_text": "26/04/22",
+          "is_immediate": true
+        },
+        {
+          "price": 2694000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-17T11:51:35Z",
+          "date_text": "26/04/17",
+          "is_immediate": false
+        },
+        {
+          "price": 2800000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-16T02:52:06Z",
+          "date_text": "26/04/16",
+          "is_immediate": true
+        },
+        {
+          "price": 2700000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-12T09:21:54Z",
+          "date_text": "26/04/12",
+          "is_immediate": true
+        },
+        {
+          "price": 2780000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-31T09:55:12Z",
+          "date_text": "26/03/31",
+          "is_immediate": false
+        },
+        {
+          "price": 2700000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-27T06:43:40Z",
+          "date_text": "26/03/27",
+          "is_immediate": true
+        },
+        {
+          "price": 2650000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-25T03:38:32Z",
+          "date_text": "26/03/25",
+          "is_immediate": false
+        },
+        {
+          "price": 2700000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-20T10:25:00Z",
+          "date_text": "26/03/20",
+          "is_immediate": true
+        },
+        {
+          "price": 2701000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-16T04:02:07Z",
+          "date_text": "26/03/16",
+          "is_immediate": true
+        },
+        {
+          "price": 2779000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-13T13:45:41Z",
+          "date_text": "26/03/13",
+          "is_immediate": true
+        },
+        {
+          "price": 2749000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-12T17:08:22Z",
+          "date_text": "26/03/13",
+          "is_immediate": true
+        },
+        {
+          "price": 2649000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-11T01:28:49Z",
+          "date_text": "26/03/11",
+          "is_immediate": true
+        },
+        {
+          "price": 2676000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-08T16:12:14Z",
+          "date_text": "26/03/09",
+          "is_immediate": true
+        },
+        {
+          "price": 2743000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-27T07:59:16Z",
+          "date_text": "26/02/27",
+          "is_immediate": false
+        },
+        {
+          "price": 2630000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-20T16:11:07Z",
+          "date_text": "26/02/21",
+          "is_immediate": true
+        },
+        {
+          "price": 2599000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-20T12:25:26Z",
+          "date_text": "26/02/20",
+          "is_immediate": false
+        },
+        {
+          "price": 2598000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-19T11:19:39Z",
+          "date_text": "26/02/19",
+          "is_immediate": false
+        },
+        {
+          "price": 2638000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-19T04:41:49Z",
+          "date_text": "26/02/19",
+          "is_immediate": true
+        },
+        {
+          "price": 2637000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-18T06:08:20Z",
+          "date_text": "26/02/18",
+          "is_immediate": true
+        },
+        {
+          "price": 2599000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-11T05:56:55Z",
+          "date_text": "26/02/11",
+          "is_immediate": true
+        },
+        {
+          "price": 2671000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-09T13:11:21Z",
+          "date_text": "26/02/09",
+          "is_immediate": true
+        },
+        {
+          "price": 2697000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-04T09:14:58Z",
+          "date_text": "26/02/04",
+          "is_immediate": true
+        },
+        {
+          "price": 2590000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-01T11:11:23Z",
+          "date_text": "26/02/01",
+          "is_immediate": false
+        },
+        {
+          "price": 2744000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-26T01:05:54Z",
+          "date_text": "26/01/26",
+          "is_immediate": false
+        },
+        {
+          "price": 2433000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-20T03:59:58Z",
+          "date_text": "26/01/20",
+          "is_immediate": false
+        },
+        {
+          "price": 2800000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-14T14:08:56Z",
+          "date_text": "26/01/14",
+          "is_immediate": true
+        },
+        {
+          "price": 2598000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-13T03:19:49Z",
+          "date_text": "26/01/13",
+          "is_immediate": false
+        },
+        {
+          "price": 2850000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-05T18:28:02Z",
+          "date_text": "26/01/06",
+          "is_immediate": true
+        }
+      ],
+      "asks": [
+        {
+          "price": 2994000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3097000,
+          "option": "ONE SIZE",
+          "quantity": 5
+        },
+        {
+          "price": 3150000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3305000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3444000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        },
+        {
+          "price": 3500000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3599000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3633000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4475000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [
+        {
+          "price": 2850000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2702000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2701000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2601000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2572000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2474000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2469000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2434000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2300000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1800000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 50,
+        "asks": 9,
+        "bids": 10
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 150,000원(-4.9%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BC125AN88F098L",
+      "spu": "5BC125AN88 ~ F098L",
+      "b2b_sku": "I59669",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1696.73,
+      "eur_retail": 1885.25,
+      "matched": true,
+      "product_id": 432343,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/432343",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 3528000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 3528000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4475000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BC125AN88F0458",
+      "spu": "5BC125AN88 ~ F0458",
+      "b2b_sku": "I59669",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1696.73,
+      "eur_retail": 1885.25,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BC125AN88F0458\" SPU=\"5BC125AN88 ~ F0458\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n20%\n\n3,600,000원\n\n관심 2,453\n\n · 리뷰 39\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 401543,
+          "text": "Miu Miu\n\n미우 미우 라피아 미니 버킷백 베이지 꼬냑\n\n1,178,000원\n\n관심 10"
+        },
+        {
+          "product_id": 519575,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더 토트백 블랙\n\n3,054,000원\n\n관심 3"
+        },
+        {
+          "product_id": 288072,
+          "text": "Miu Miu\n\n미우 미우 가죽 탑 핸들백 코냑\n\n17%\n\n4,019,000원\n\n관심 1,778\n\n · 리뷰 17\n\n · 거래 30\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BG2312CRWF0046",
+      "spu": "5BG2312CRW ~ F0046",
+      "b2b_sku": "I59622",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1254.1,
+      "eur_retail": 1393.44,
+      "matched": true,
+      "product_id": 287213,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/287213",
+      "market": {
+        "last_sale_price": 2000000,
+        "lowest_ask": 2364000,
+        "highest_bid": 1700000,
+        "change_text": "▲ 1,000원(+0.1%)"
+      },
+      "sales": [
+        {
+          "price": 2000000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-29T06:45:24Z",
+          "date_text": "26/06/29",
+          "is_immediate": false
+        },
+        {
+          "price": 1999000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-22T11:33:06Z",
+          "date_text": "26/06/22",
+          "is_immediate": false
+        },
+        {
+          "price": 2314000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-23T08:33:41Z",
+          "date_text": "26/02/23",
+          "is_immediate": false
+        },
+        {
+          "price": 2313000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-23T06:13:58Z",
+          "date_text": "26/02/23",
+          "is_immediate": false
+        },
+        {
+          "price": 2245000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-26T05:58:11Z",
+          "date_text": "26/01/26",
+          "is_immediate": false
+        },
+        {
+          "price": 2423000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-15T04:56:01Z",
+          "date_text": "25/10/15",
+          "is_immediate": false
+        },
+        {
+          "price": 2220000,
+          "option": "ONE SIZE",
+          "date_created": "2025-07-02T06:33:04Z",
+          "date_text": "25/07/02",
+          "is_immediate": false
+        },
+        {
+          "price": 2189000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-16T15:32:35Z",
+          "date_text": "25/06/17",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 2364000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2365000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2811000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 3067000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 1700000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 8,
+        "asks": 4,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▲ 1,000원(+0.1%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#F15746",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BG231ACP8F0244",
+      "spu": "5BG231ACP8 ~ F0244",
+      "b2b_sku": "I59571",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1106.56,
+      "eur_retail": 1229.51,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BG231ACP8F0244\" SPU=\"5BG231ACP8 ~ F0244\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n20%\n\n3,600,000원\n\n관심 2,453\n\n · 리뷰 39\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 560880,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더 백 파우더 핑크\n\n7%\n\n3,987,000원\n\n관심 30"
+        },
+        {
+          "product_id": 519575,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더 토트백 블랙\n\n3,054,000원\n\n관심 3"
+        },
+        {
+          "product_id": 288072,
+          "text": "Miu Miu\n\n미우 미우 가죽 탑 핸들백 코냑\n\n17%\n\n4,019,000원\n\n관심 1,778\n\n · 리뷰 17\n\n · 거래 30\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BB1172CRWF0002",
+      "spu": "5BB1172CRW ~ F0002",
+      "b2b_sku": "I59520",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2176.23,
+      "eur_retail": 2418.03,
+      "matched": true,
+      "product_id": 315253,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/315253",
+      "market": {
+        "last_sale_price": 3475000,
+        "lowest_ask": 3620000,
+        "highest_bid": 3330000,
+        "change_text": "▼ 624,000원(-15.2%)"
+      },
+      "sales": [
+        {
+          "price": 3475000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-14T08:55:26Z",
+          "date_text": "26/07/14",
+          "is_immediate": false
+        },
+        {
+          "price": 4099000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-27T11:29:59Z",
+          "date_text": "26/06/27",
+          "is_immediate": true
+        },
+        {
+          "price": 3890000,
+          "option": "ONE SIZE",
+          "date_created": "2026-05-13T12:41:40Z",
+          "date_text": "26/05/13",
+          "is_immediate": false
+        },
+        {
+          "price": 4190000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-24T01:59:48Z",
+          "date_text": "26/04/24",
+          "is_immediate": true
+        },
+        {
+          "price": 3949000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-08T02:45:42Z",
+          "date_text": "26/04/08",
+          "is_immediate": false
+        },
+        {
+          "price": 3900000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-27T01:43:11Z",
+          "date_text": "26/02/27",
+          "is_immediate": true
+        },
+        {
+          "price": 3630000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-11T00:48:53Z",
+          "date_text": "26/02/11",
+          "is_immediate": true
+        },
+        {
+          "price": 3629000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-10T11:15:37Z",
+          "date_text": "26/02/10",
+          "is_immediate": true
+        },
+        {
+          "price": 3799000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-21T08:33:29Z",
+          "date_text": "26/01/21",
+          "is_immediate": false
+        },
+        {
+          "price": 3699000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-13T00:27:00Z",
+          "date_text": "26/01/13",
+          "is_immediate": false
+        },
+        {
+          "price": 3400000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-12T10:40:59Z",
+          "date_text": "26/01/12",
+          "is_immediate": true
+        },
+        {
+          "price": 3467000,
+          "option": "ONE SIZE",
+          "date_created": "2025-12-20T10:10:21Z",
+          "date_text": "25/12/20",
+          "is_immediate": false
+        },
+        {
+          "price": 3670000,
+          "option": "ONE SIZE",
+          "date_created": "2025-12-15T04:50:04Z",
+          "date_text": "25/12/15",
+          "is_immediate": false
+        },
+        {
+          "price": 3690000,
+          "option": "ONE SIZE",
+          "date_created": "2025-11-27T06:27:15Z",
+          "date_text": "25/11/27",
+          "is_immediate": false
+        },
+        {
+          "price": 3748000,
+          "option": "ONE SIZE",
+          "date_created": "2025-11-26T03:16:07Z",
+          "date_text": "25/11/26",
+          "is_immediate": true
+        },
+        {
+          "price": 3694000,
+          "option": "ONE SIZE",
+          "date_created": "2025-11-13T13:18:50Z",
+          "date_text": "25/11/13",
+          "is_immediate": true
+        },
+        {
+          "price": 3694000,
+          "option": "ONE SIZE",
+          "date_created": "2025-11-02T08:03:53Z",
+          "date_text": "25/11/02",
+          "is_immediate": true
+        },
+        {
+          "price": 3702000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-25T05:42:33Z",
+          "date_text": "25/10/25",
+          "is_immediate": true
+        },
+        {
+          "price": 3719000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-21T11:34:10Z",
+          "date_text": "25/10/21",
+          "is_immediate": true
+        },
+        {
+          "price": 3669000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-16T06:06:43Z",
+          "date_text": "25/10/16",
+          "is_immediate": true
+        },
+        {
+          "price": 3699000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-12T06:03:17Z",
+          "date_text": "25/10/12",
+          "is_immediate": true
+        },
+        {
+          "price": 3750000,
+          "option": "ONE SIZE",
+          "date_created": "2025-09-18T08:21:24Z",
+          "date_text": "25/09/18",
+          "is_immediate": false
+        },
+        {
+          "price": 3713000,
+          "option": "ONE SIZE",
+          "date_created": "2025-09-17T04:13:12Z",
+          "date_text": "25/09/17",
+          "is_immediate": false
+        },
+        {
+          "price": 3749000,
+          "option": "ONE SIZE",
+          "date_created": "2025-09-16T09:44:08Z",
+          "date_text": "25/09/16",
+          "is_immediate": false
+        },
+        {
+          "price": 3603000,
+          "option": "ONE SIZE",
+          "date_created": "2025-09-06T07:42:39Z",
+          "date_text": "25/09/06",
+          "is_immediate": false
+        },
+        {
+          "price": 3675000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-11T15:33:51Z",
+          "date_text": "25/08/12",
+          "is_immediate": false
+        },
+        {
+          "price": 3650000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-11T03:22:49Z",
+          "date_text": "25/08/11",
+          "is_immediate": false
+        },
+        {
+          "price": 3450000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-08T20:53:22Z",
+          "date_text": "25/08/09",
+          "is_immediate": false
+        },
+        {
+          "price": 4199000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-08T06:47:08Z",
+          "date_text": "25/08/08",
+          "is_immediate": true
+        },
+        {
+          "price": 3650000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-04T16:20:28Z",
+          "date_text": "25/08/05",
+          "is_immediate": false
+        },
+        {
+          "price": 3650000,
+          "option": "ONE SIZE",
+          "date_created": "2025-07-23T14:50:11Z",
+          "date_text": "25/07/23",
+          "is_immediate": true
+        },
+        {
+          "price": 3890000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-30T08:21:05Z",
+          "date_text": "25/06/30",
+          "is_immediate": true
+        },
+        {
+          "price": 3450000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-26T03:53:10Z",
+          "date_text": "25/06/26",
+          "is_immediate": false
+        },
+        {
+          "price": 3680000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-23T11:41:41Z",
+          "date_text": "25/06/23",
+          "is_immediate": false
+        },
+        {
+          "price": 3974000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-29T09:06:28Z",
+          "date_text": "25/04/29",
+          "is_immediate": false
+        },
+        {
+          "price": 3800000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-26T02:38:59Z",
+          "date_text": "25/03/26",
+          "is_immediate": false
+        },
+        {
+          "price": 4090000,
+          "option": "ONE SIZE",
+          "date_created": "2025-02-24T02:28:03Z",
+          "date_text": "25/02/24",
+          "is_immediate": false
+        },
+        {
+          "price": 4080000,
+          "option": "ONE SIZE",
+          "date_created": "2025-02-22T06:06:05Z",
+          "date_text": "25/02/22",
+          "is_immediate": true
+        },
+        {
+          "price": 4300000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-30T16:00:07Z",
+          "date_text": "24/12/01",
+          "is_immediate": false
+        },
+        {
+          "price": 4400000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-22T01:41:22Z",
+          "date_text": "24/11/22",
+          "is_immediate": false
+        },
+        {
+          "price": 4302000,
+          "option": "ONE SIZE",
+          "date_created": "2024-10-02T12:29:53Z",
+          "date_text": "24/10/02",
+          "is_immediate": false
+        },
+        {
+          "price": 3658000,
+          "option": "ONE SIZE",
+          "date_created": "2024-09-03T13:09:02Z",
+          "date_text": "24/09/03",
+          "is_immediate": false
+        },
+        {
+          "price": 3680000,
+          "option": "ONE SIZE",
+          "date_created": "2024-08-11T14:54:09Z",
+          "date_text": "24/08/11",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 3620000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 3679000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4009000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4010000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4030000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4049000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4099000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4193000,
+          "option": "ONE SIZE",
+          "quantity": 7
+        },
+        {
+          "price": 4222000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4257000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4266000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 4280000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4344000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4417000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4595000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 5897000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 3330000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 43,
+        "asks": 16,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "▼ 624,000원(-15.2%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#31B46E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1172CRWF0NBL",
+      "spu": "5BB1172CRW ~ F0NBL",
+      "b2b_sku": "I59520",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 2176.23,
+      "eur_retail": 2418.03,
+      "matched": true,
+      "product_id": 395378,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/395378",
+      "market": {
+        "last_sale_price": 3680000,
+        "lowest_ask": 4318000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 3680000,
+          "option": "ONE SIZE",
+          "date_created": "2025-11-21T06:06:05Z",
+          "date_text": "25/11/21",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 4318000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4319000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 5897000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "2,021,400원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BZ0422IBQF0DAB",
+      "spu": "5BZ0422IBQ ~ F0DAB",
+      "b2b_sku": "I59579",
+      "brand": "MIU MIU",
+      "name": "Backpack woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1438.52,
+      "eur_retail": 1598.36,
+      "matched": true,
+      "product_id": 748297,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/748297",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 2932000,
+        "highest_bid": 1490000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 2932000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3366000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3421000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3496000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 1490000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 4,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BZ0422IBQF0RS5",
+      "spu": "5BZ0422IBQ ~ F0RS5",
+      "b2b_sku": "I59579",
+      "brand": "MIU MIU",
+      "name": "Backpack woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1438.52,
+      "eur_retail": 1598.36,
+      "matched": true,
+      "product_id": 829075,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/829075",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 2867000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 2867000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2868000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2870000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 3319000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3496000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 5,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1172CRWF0046",
+      "spu": "5BB1172CRW ~ F0046",
+      "b2b_sku": "I59520",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2176.23,
+      "eur_retail": 2418.03,
+      "matched": true,
+      "product_id": 288072,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/288072",
+      "market": {
+        "last_sale_price": 4300000,
+        "lowest_ask": 4019000,
+        "highest_bid": 3411000,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 4300000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-13T01:11:58Z",
+          "date_text": "26/06/13",
+          "is_immediate": true
+        },
+        {
+          "price": 4300000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-13T01:11:27Z",
+          "date_text": "26/06/13",
+          "is_immediate": true
+        },
+        {
+          "price": 4020000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-14T11:33:01Z",
+          "date_text": "26/03/14",
+          "is_immediate": false
+        },
+        {
+          "price": 3920000,
+          "option": "ONE SIZE",
+          "date_created": "2026-03-05T13:02:28Z",
+          "date_text": "26/03/05",
+          "is_immediate": false
+        },
+        {
+          "price": 3880000,
+          "option": "ONE SIZE",
+          "date_created": "2026-02-05T04:02:07Z",
+          "date_text": "26/02/05",
+          "is_immediate": false
+        },
+        {
+          "price": 3756000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-17T12:36:17Z",
+          "date_text": "26/01/17",
+          "is_immediate": true
+        },
+        {
+          "price": 3740000,
+          "option": "ONE SIZE",
+          "date_created": "2026-01-13T08:38:21Z",
+          "date_text": "26/01/13",
+          "is_immediate": false
+        },
+        {
+          "price": 3718000,
+          "option": "ONE SIZE",
+          "date_created": "2025-12-23T04:11:47Z",
+          "date_text": "25/12/23",
+          "is_immediate": true
+        },
+        {
+          "price": 3462000,
+          "option": "ONE SIZE",
+          "date_created": "2025-11-03T05:56:32Z",
+          "date_text": "25/11/03",
+          "is_immediate": false
+        },
+        {
+          "price": 3500000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-22T02:42:20Z",
+          "date_text": "25/10/22",
+          "is_immediate": false
+        },
+        {
+          "price": 3615000,
+          "option": "ONE SIZE",
+          "date_created": "2025-10-08T17:23:16Z",
+          "date_text": "25/10/09",
+          "is_immediate": true
+        },
+        {
+          "price": 3799000,
+          "option": "ONE SIZE",
+          "date_created": "2025-09-17T11:03:44Z",
+          "date_text": "25/09/17",
+          "is_immediate": false
+        },
+        {
+          "price": 3750000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-18T02:50:55Z",
+          "date_text": "25/08/18",
+          "is_immediate": false
+        },
+        {
+          "price": 3862000,
+          "option": "ONE SIZE",
+          "date_created": "2025-08-13T02:10:21Z",
+          "date_text": "25/08/13",
+          "is_immediate": true
+        },
+        {
+          "price": 3705000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-17T17:07:57Z",
+          "date_text": "25/06/18",
+          "is_immediate": false
+        },
+        {
+          "price": 3705000,
+          "option": "ONE SIZE",
+          "date_created": "2025-06-05T09:23:21Z",
+          "date_text": "25/06/05",
+          "is_immediate": false
+        },
+        {
+          "price": 4100000,
+          "option": "ONE SIZE",
+          "date_created": "2025-05-27T01:11:28Z",
+          "date_text": "25/05/27",
+          "is_immediate": false
+        },
+        {
+          "price": 3799000,
+          "option": "ONE SIZE",
+          "date_created": "2025-05-19T05:29:29Z",
+          "date_text": "25/05/19",
+          "is_immediate": false
+        },
+        {
+          "price": 3701000,
+          "option": "ONE SIZE",
+          "date_created": "2025-05-08T03:25:14Z",
+          "date_text": "25/05/08",
+          "is_immediate": false
+        },
+        {
+          "price": 3977000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-28T23:03:53Z",
+          "date_text": "25/04/29",
+          "is_immediate": false
+        },
+        {
+          "price": 3970000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-26T15:47:58Z",
+          "date_text": "25/04/27",
+          "is_immediate": false
+        },
+        {
+          "price": 4600000,
+          "option": "ONE SIZE",
+          "date_created": "2025-04-04T14:36:42Z",
+          "date_text": "25/04/04",
+          "is_immediate": true
+        },
+        {
+          "price": 4289000,
+          "option": "ONE SIZE",
+          "date_created": "2025-03-15T01:07:00Z",
+          "date_text": "25/03/15",
+          "is_immediate": false
+        },
+        {
+          "price": 3600000,
+          "option": "ONE SIZE",
+          "date_created": "2025-02-17T03:06:20Z",
+          "date_text": "25/02/17",
+          "is_immediate": false
+        },
+        {
+          "price": 3880000,
+          "option": "ONE SIZE",
+          "date_created": "2025-02-02T08:51:44Z",
+          "date_text": "25/02/02",
+          "is_immediate": false
+        },
+        {
+          "price": 3889000,
+          "option": "ONE SIZE",
+          "date_created": "2025-01-13T12:20:34Z",
+          "date_text": "25/01/13",
+          "is_immediate": false
+        },
+        {
+          "price": 3939000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-19T02:20:48Z",
+          "date_text": "24/11/19",
+          "is_immediate": false
+        },
+        {
+          "price": 3900000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-17T10:27:51Z",
+          "date_text": "24/11/17",
+          "is_immediate": false
+        },
+        {
+          "price": 3850000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-15T11:14:28Z",
+          "date_text": "24/11/15",
+          "is_immediate": false
+        },
+        {
+          "price": 3968000,
+          "option": "ONE SIZE",
+          "date_created": "2024-11-08T04:57:23Z",
+          "date_text": "24/11/08",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 4019000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4067000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4200000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 4250000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4361000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 4425000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 5897000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 3411000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2710000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 420000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 30,
+        "asks": 7,
+        "bids": 3
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BG231ACP8F0324",
+      "spu": "5BG231ACP8 ~ F0324",
+      "b2b_sku": "I59571",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1106.56,
+      "eur_retail": 1229.51,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BG231ACP8F0324\" SPU=\"5BG231ACP8 ~ F0324\"",
+      "candidates": [
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n20%\n\n3,600,000원\n\n관심 2,453\n\n · 리뷰 39\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 560880,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더 백 파우더 핑크\n\n7%\n\n3,987,000원\n\n관심 30"
+        },
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 288072,
+          "text": "Miu Miu\n\n미우 미우 가죽 탑 핸들백 코냑\n\n17%\n\n4,019,000원\n\n관심 1,778\n\n · 리뷰 17\n\n · 거래 30\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 309743,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 블랙\n\n14%\n\n3,193,000원\n\n관심 3,090\n\n · 리뷰 23\n\n · 거래 119\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BB1922CRWF0002",
+      "spu": "5BB1922CRW ~ F0002",
+      "b2b_sku": "I59577",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 5,
+      "eur_price": 1438.52,
+      "eur_retail": 1598.36,
+      "matched": true,
+      "product_id": 801973,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/801973",
+      "market": {
+        "last_sale_price": 2756000,
+        "lowest_ask": 2739000,
+        "highest_bid": 419000,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 2756000,
+          "option": "ONE SIZE",
+          "date_created": "2026-04-30T00:54:58Z",
+          "date_text": "26/04/30",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 2739000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3000000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3120000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3158000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3503000,
+          "option": "ONE SIZE",
+          "quantity": 3
+        }
+      ],
+      "bids": [
+        {
+          "price": 419000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 1,
+        "asks": 5,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1922CRWF0036",
+      "spu": "5BB1922CRW ~ F0036",
+      "b2b_sku": "I59577",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1438.52,
+      "eur_retail": 1598.36,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB1922CRWF0036\" SPU=\"5BB1922CRW ~ F0036\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n20%\n\n3,600,000원\n\n관심 2,453\n\n · 리뷰 39\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 634053,
+          "text": "Miu Miu\n\n(W) 미우 미우 스웨이드 보 백 다크 브라운\n\n55%\n\n3,058,000원\n\n관심 60"
+        },
+        {
+          "product_id": 519575,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더 토트백 블랙\n\n3,054,000원\n\n관심 3"
+        },
+        {
+          "product_id": 288072,
+          "text": "Miu Miu\n\n미우 미우 가죽 탑 핸들백 코냑\n\n17%\n\n4,019,000원\n\n관심 1,778\n\n · 리뷰 17\n\n · 거래 30\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BB1922CRWF0NBL",
+      "spu": "5BB1922CRW ~ F0NBL",
+      "b2b_sku": "I59577",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 1438.52,
+      "eur_retail": 1598.36,
+      "matched": true,
+      "product_id": 921309,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/921309",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 3180000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 3180000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3366000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3503000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 3,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BA295VOL42IF9F0201",
+      "spu": "5BA295VOL42IF9 ~ F0201",
+      "b2b_sku": "I60960",
+      "brand": "MIU MIU",
+      "name": "Tote bag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1967.21,
+      "eur_retail": 2622.95,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BA295VOL42IF9F0201\" SPU=\"5BA295VOL42IF9 ~ F0201\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 634053,
+          "text": "Miu Miu\n\n(W) 미우 미우 스웨이드 보 백 다크 브라운\n\n55%\n\n3,058,000원\n\n관심 60"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n20%\n\n3,600,000원\n\n관심 2,453\n\n · 리뷰 39\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 757069,
+          "text": "Miu Miu\n\n(W) 미우 미우 보 레더 백 꼬냑\n\n18%\n\n3,930,000원\n\n관심 15"
+        },
+        {
+          "product_id": 560880,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더 백 파우더 핑크\n\n7%\n\n3,987,000원\n\n관심 30"
+        }
+      ]
+    },
+    {
+      "sku": "5BA281VOWR2IGMF0002",
+      "spu": "5BA281VOWR2IGM ~ F0002",
+      "b2b_sku": "I60963",
+      "brand": "MIU MIU",
+      "name": "Tote bag woman Miu Miu",
+      "option": "U",
+      "stock": 6,
+      "eur_price": 2397.54,
+      "eur_retail": 3196.72,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BA281VOWR2IGMF0002\" SPU=\"5BA281VOWR2IGM ~ F0002\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n20%\n\n3,600,000원\n\n관심 2,453\n\n · 리뷰 39\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 560880,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더 백 파우더 핑크\n\n7%\n\n3,987,000원\n\n관심 30"
+        },
+        {
+          "product_id": 921327,
+          "text": "Miu Miu\n\n미우 미우 레더 핸드백 블랙\n\n5%\n\n2,747,000원\n\n관심 2"
+        },
+        {
+          "product_id": 771784,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 핸드백 블랙\n\n26%\n\n1,796,000원\n\n관심 16"
+        }
+      ]
+    },
+    {
+      "sku": "5BB173VOWO2IFMF0316",
+      "spu": "5BB173VOWO2IFM ~ F0316",
+      "b2b_sku": "I60952",
+      "brand": "MIU MIU",
+      "name": "Tote bag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2090.16,
+      "eur_retail": 2786.89,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB173VOWO2IFMF0316\" SPU=\"5BB173VOWO2IFM ~ F0316\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n20%\n\n3,600,000원\n\n관심 2,453\n\n · 리뷰 39\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 634053,
+          "text": "Miu Miu\n\n(W) 미우 미우 스웨이드 보 백 다크 브라운\n\n55%\n\n3,058,000원\n\n관심 60"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n16%\n\n3,450,000원\n\n관심 1,734\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 560882,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더 백 화이트\n\n7%\n\n3,990,000원\n\n관심 87"
+        }
+      ]
+    },
+    {
+      "sku": "5BB117VMON2CSSF0393",
+      "spu": "5BB117VMON2CSS ~ F0393",
+      "b2b_sku": "I62484",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1905.74,
+      "eur_retail": 2540.98,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB117VMON2CSSF0393\" SPU=\"5BB117VMON2CSS ~ F0393\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n20%\n\n3,600,000원\n\n관심 2,453\n\n · 리뷰 39\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 634053,
+          "text": "Miu Miu\n\n(W) 미우 미우 스웨이드 보 백 다크 브라운\n\n55%\n\n3,058,000원\n\n관심 60"
+        },
+        {
+          "product_id": 179859,
+          "text": "Miu Miu\n\n미우 미우 아르카디 마테라쎄 나파 레더백 블랙\n\n16%\n\n3,450,000원\n\n관심 1,734\n\n · 리뷰 14\n\n · 거래 50\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 288072,
+          "text": "Miu Miu\n\n미우 미우 가죽 탑 핸들백 코냑\n\n17%\n\n4,019,000원\n\n관심 1,778\n\n · 리뷰 17\n\n · 거래 30\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BC1952IFLF0ZKS",
+      "spu": "5BC1952IFL ~ F0ZKS",
+      "b2b_sku": "I63511",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1290.98,
+      "eur_retail": 1721.31,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BC1952IFLF0ZKS\" SPU=\"5BC1952IFL ~ F0ZKS\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n20%\n\n3,600,000원\n\n관심 2,453\n\n · 리뷰 39\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 634053,
+          "text": "Miu Miu\n\n(W) 미우 미우 스웨이드 보 백 다크 브라운\n\n55%\n\n3,058,000원\n\n관심 60"
+        },
+        {
+          "product_id": 451815,
+          "text": "Miu Miu\n\n미우 미우 레더 백팩 꼬냑\n\n16%\n\n3,699,000원\n\n관심 370\n\n · 리뷰 2\n\n · 거래 4"
+        },
+        {
+          "product_id": 771784,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 핸드백 블랙\n\n26%\n\n1,796,000원\n\n관심 16"
+        }
+      ]
+    },
+    {
+      "sku": "5BC196VILO2I0GF0ZIZ",
+      "spu": "5BC196VILO2I0G ~ F0ZIZ",
+      "b2b_sku": "I63561",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 860.66,
+      "eur_retail": 1229.51,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BC196VILO2I0GF0ZIZ\" SPU=\"5BC196VILO2I0G ~ F0ZIZ\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 634053,
+          "text": "Miu Miu\n\n(W) 미우 미우 스웨이드 보 백 다크 브라운\n\n55%\n\n3,058,000원\n\n관심 60"
+        },
+        {
+          "product_id": 451815,
+          "text": "Miu Miu\n\n미우 미우 레더 백팩 꼬냑\n\n16%\n\n3,699,000원\n\n관심 370\n\n · 리뷰 2\n\n · 거래 4"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n20%\n\n3,600,000원\n\n관심 2,453\n\n · 리뷰 39\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        },
+        {
+          "product_id": 92662,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 나파 가죽 호보 미니백 블랙\n\n8%\n\n2,368,000원\n\n관심 5,274\n\n · 리뷰 13\n\n · 거래 137"
+        }
+      ]
+    },
+    {
+      "sku": "5BE107VILO2I0GF0ZIZ",
+      "spu": "5BE107VILO2I0G ~ F0ZIZ",
+      "b2b_sku": "I63562",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 1180.33,
+      "eur_retail": 1475.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BE107VILO2I0GF0ZIZ\" SPU=\"5BE107VILO2I0G ~ F0ZIZ\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 451815,
+          "text": "Miu Miu\n\n미우 미우 레더 백팩 꼬냑\n\n16%\n\n3,699,000원\n\n관심 370\n\n · 리뷰 2\n\n · 거래 4"
+        },
+        {
+          "product_id": 303370,
+          "text": "Miu Miu\n\n미우 미우 우븐 패브릭 미니백 베이지 꼬냑\n\n12%\n\n1,298,000원\n\n관심 164\n\n · 리뷰 1\n\n · 거래 6"
+        },
+        {
+          "product_id": 688902,
+          "text": "Miu Miu\n\n미우 미우 마테라쎄 나파 레더 파우치 파우더 핑크\n\n2,820,000원\n\n관심 21"
+        },
+        {
+          "product_id": 771784,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 핸드백 블랙\n\n26%\n\n1,796,000원\n\n관심 16"
+        }
+      ]
+    },
+    {
+      "sku": "5BE107VILO2I0GF0B9P",
+      "spu": "5BE107VILO2I0G ~ F0B9P",
+      "b2b_sku": "I63562",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1180.33,
+      "eur_retail": 1475.41,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BE107VILO2I0GF0B9P\" SPU=\"5BE107VILO2I0G ~ F0B9P\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 252016,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 나파 레더 미니 호보백 라군 블루\n\n12%\n\n2,404,000원\n\n관심 9\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 303370,
+          "text": "Miu Miu\n\n미우 미우 우븐 패브릭 미니백 베이지 꼬냑\n\n12%\n\n1,298,000원\n\n관심 164\n\n · 리뷰 1\n\n · 거래 6"
+        },
+        {
+          "product_id": 688902,
+          "text": "Miu Miu\n\n미우 미우 마테라쎄 나파 레더 파우치 파우더 핑크\n\n2,820,000원\n\n관심 21"
+        },
+        {
+          "product_id": 90340,
+          "text": "Miu Miu\n\n미우 미우 마테라쎄 나파 가죽 미니백 워터 릴리\n\n2,483,000원\n\n관심 55"
+        }
+      ]
+    },
+    {
+      "sku": "5BB191AN88F0002",
+      "spu": "5BB191AN88 ~ F0002",
+      "b2b_sku": "I64368",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1881.14,
+      "eur_retail": 2090.16,
+      "matched": true,
+      "product_id": 966227,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/966227",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 3763000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 3763000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 3994000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        },
+        {
+          "price": 3997000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4230000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 4930000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 5,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BC183VOOHAB7OF0393",
+      "spu": "5BC183VOOHAB7O ~ F0393",
+      "b2b_sku": "I64646",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1844.26,
+      "eur_retail": 2459.02,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BC183VOOHAB7OF0393\" SPU=\"5BC183VOOHAB7O ~ F0393\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 401543,
+          "text": "Miu Miu\n\n미우 미우 라피아 미니 버킷백 베이지 꼬냑\n\n1,178,000원\n\n관심 10"
+        },
+        {
+          "product_id": 451815,
+          "text": "Miu Miu\n\n미우 미우 레더 백팩 꼬냑\n\n16%\n\n3,699,000원\n\n관심 370\n\n · 리뷰 2\n\n · 거래 4"
+        },
+        {
+          "product_id": 303370,
+          "text": "Miu Miu\n\n미우 미우 우븐 패브릭 미니백 베이지 꼬냑\n\n12%\n\n1,298,000원\n\n관심 164\n\n · 리뷰 1\n\n · 거래 6"
+        },
+        {
+          "product_id": 333112,
+          "text": "Miu Miu\n\n미우 미우 아르카디 레더 백 꼬냑\n\n20%\n\n3,600,000원\n\n관심 2,453\n\n · 리뷰 39\n\n · 거래 62\n\n빠른배송\n\n내일 도착 예정"
+        }
+      ]
+    },
+    {
+      "sku": "5BP078VOL42IF9F0201",
+      "spu": "5BP078VOL42IF9 ~ F0201",
+      "b2b_sku": "I64436",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1782.79,
+      "eur_retail": 2377.05,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BP078VOL42IF9F0201\" SPU=\"5BP078VOL42IF9 ~ F0201\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 688902,
+          "text": "Miu Miu\n\n미우 미우 마테라쎄 나파 레더 파우치 파우더 핑크\n\n2,820,000원\n\n관심 21"
+        },
+        {
+          "product_id": 303370,
+          "text": "Miu Miu\n\n미우 미우 우븐 패브릭 미니백 베이지 꼬냑\n\n12%\n\n1,298,000원\n\n관심 164\n\n · 리뷰 1\n\n · 거래 6"
+        },
+        {
+          "product_id": 252016,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 나파 레더 미니 호보백 라군 블루\n\n12%\n\n2,404,000원\n\n관심 9\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 401543,
+          "text": "Miu Miu\n\n미우 미우 라피아 미니 버킷백 베이지 꼬냑\n\n1,178,000원\n\n관심 10"
+        }
+      ]
+    },
+    {
+      "sku": "5BA333VOOO2A44F0002",
+      "spu": "5BA333VOOO2A44 ~ F0002",
+      "b2b_sku": "I64395",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 3,
+      "eur_price": 1844.26,
+      "eur_retail": 2049.18,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BA333VOOO2A44F0002\" SPU=\"5BA333VOOO2A44 ~ F0002\"",
+      "candidates": [
+        {
+          "product_id": 451823,
+          "text": "Miu Miu\n\n미우 미우 보 레더 탑 핸들 백 꼬냑\n\n4,411,000원\n\n관심 139\n\n · 리뷰 1\n\n · 거래 2"
+        },
+        {
+          "product_id": 303370,
+          "text": "Miu Miu\n\n미우 미우 우븐 패브릭 미니백 베이지 꼬냑\n\n12%\n\n1,298,000원\n\n관심 164\n\n · 리뷰 1\n\n · 거래 6"
+        },
+        {
+          "product_id": 688902,
+          "text": "Miu Miu\n\n미우 미우 마테라쎄 나파 레더 파우치 파우더 핑크\n\n2,820,000원\n\n관심 21"
+        },
+        {
+          "product_id": 587022,
+          "text": "Miu Miu\n\n미우 미우 라피아 이펙트 우븐 호보백 베이지 꼬냑\n\n2,750,000원\n\n관심 29"
+        },
+        {
+          "product_id": 451815,
+          "text": "Miu Miu\n\n미우 미우 레더 백팩 꼬냑\n\n16%\n\n3,699,000원\n\n관심 370\n\n · 리뷰 2\n\n · 거래 4"
+        }
+      ]
+    },
+    {
+      "sku": "5BZ0432IBQF0RS5",
+      "spu": "5BZ0432IBQ ~ F0RS5",
+      "b2b_sku": "I64367",
+      "brand": "MIU MIU",
+      "name": "Backpack woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1254.1,
+      "eur_retail": 1393.44,
+      "matched": true,
+      "product_id": 829078,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/829078",
+      "market": {
+        "last_sale_price": 2460000,
+        "lowest_ask": 2390000,
+        "highest_bid": 20000,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 2460000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-19T06:13:54Z",
+          "date_text": "26/07/19",
+          "is_immediate": false
+        },
+        {
+          "price": 2460000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-11T03:28:28Z",
+          "date_text": "26/07/11",
+          "is_immediate": false
+        },
+        {
+          "price": 2460000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-29T10:27:49Z",
+          "date_text": "26/06/29",
+          "is_immediate": false
+        },
+        {
+          "price": 2459000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-28T00:19:24Z",
+          "date_text": "26/06/28",
+          "is_immediate": false
+        },
+        {
+          "price": 2584000,
+          "option": "ONE SIZE",
+          "date_created": "2026-06-08T07:47:29Z",
+          "date_text": "26/06/08",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 2390000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2460000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2579000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2753000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2838000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2936000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [
+        {
+          "price": 20000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 5,
+        "asks": 6,
+        "bids": 1
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "0원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BC125VOOYAB7OF0029",
+      "spu": "5BC125VOOYAB7O ~ F0029",
+      "b2b_sku": "I64435",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 1444.67,
+      "eur_retail": 1926.23,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BC125VOOYAB7OF0029\" SPU=\"5BC125VOOYAB7O ~ F0029\"",
+      "candidates": [
+        {
+          "product_id": 516834,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 실크 미니백 블랙\n\n10%\n\n2,450,000원\n\n관심 15"
+        },
+        {
+          "product_id": 771784,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 핸드백 블랙\n\n26%\n\n1,796,000원\n\n관심 16"
+        },
+        {
+          "product_id": 752026,
+          "text": "Miu Miu\n\n미우미우 아이비 레더 미니 핸드백 러스트\n\n1,924,000원\n\n관심 1"
+        },
+        {
+          "product_id": 451815,
+          "text": "Miu Miu\n\n미우 미우 레더 백팩 꼬냑\n\n16%\n\n3,699,000원\n\n관심 370\n\n · 리뷰 2\n\n · 거래 4"
+        },
+        {
+          "product_id": 303370,
+          "text": "Miu Miu\n\n미우 미우 우븐 패브릭 미니백 베이지 꼬냑\n\n12%\n\n1,298,000원\n\n관심 164\n\n · 리뷰 1\n\n · 거래 6"
+        }
+      ]
+    },
+    {
+      "sku": "5BB1992BBLF0002",
+      "spu": "5BB1992BBL ~ F0002",
+      "b2b_sku": "I68211",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2139.35,
+      "eur_retail": 2377.05,
+      "matched": true,
+      "product_id": 854893,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/854893",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 4671000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 4671000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 5640000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5NE8532IA7F0Q1K",
+      "spu": "5NE8532IA7 ~ F0Q1K",
+      "b2b_sku": "I71418",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 656.56,
+      "eur_retail": 729.51,
+      "matched": true,
+      "product_id": 751008,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/751008",
+      "market": {
+        "last_sale_price": 1464000,
+        "lowest_ask": 1492000,
+        "highest_bid": null,
+        "change_text": "-"
+      },
+      "sales": [
+        {
+          "price": 1464000,
+          "option": "ONE SIZE",
+          "date_created": "2026-07-22T02:58:17Z",
+          "date_text": "26/07/22",
+          "is_immediate": false
+        }
+      ],
+      "asks": [
+        {
+          "price": 1492000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2164000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 1,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": {
+        "text": ";tl_0; ;tl_1;",
+        "lookups": [
+          {
+            "key": ";tl_0;",
+            "text": "-",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": true,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          },
+          {
+            "key": ";tl_1;",
+            "text": "39,600원(0%)",
+            "is_italic": false,
+            "is_semibold": false,
+            "is_bold": false,
+            "is_strikethrough": false,
+            "is_underline": false,
+            "action_type": null,
+            "action_value": null,
+            "adjustment": 0,
+            "color": "#4E4E4E",
+            "type": "text"
+          }
+        ],
+        "action_type": null,
+        "action_value": null,
+        "action_parameters": null,
+        "color": "#222222",
+        "type": "text",
+        "number_of_lines": null
+      },
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5MT0482A44F0405",
+      "spu": "5MT0482A44 ~ F0405",
+      "b2b_sku": "I73404",
+      "brand": "MIU MIU",
+      "name": "Wallet woman Miu Miu",
+      "option": "U",
+      "stock": 7,
+      "eur_price": 545.9,
+      "eur_retail": 606.56,
+      "matched": true,
+      "product_id": 1015427,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/1015427",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 1317000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 1317000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1318000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5MT0482A44F0770",
+      "spu": "5MT0482A44 ~ F0770",
+      "b2b_sku": "I73404",
+      "brand": "MIU MIU",
+      "name": "Wallet woman Miu Miu",
+      "option": "U",
+      "stock": 1,
+      "eur_price": 545.9,
+      "eur_retail": 606.56,
+      "matched": true,
+      "product_id": 1015408,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/1015408",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 1317000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 1317000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 1318000,
+          "option": "ONE SIZE",
+          "quantity": 2
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BA292VOON2BBLF0316",
+      "spu": "5BA292VOON2BBL ~ F0316",
+      "b2b_sku": "I74916",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2176.23,
+      "eur_retail": 2418.03,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BA292VOON2BBLF0316\" SPU=\"5BA292VOON2BBL ~ F0316\"",
+      "candidates": [
+        {
+          "product_id": 516834,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 실크 미니백 블랙\n\n10%\n\n2,450,000원\n\n관심 15"
+        },
+        {
+          "product_id": 670471,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 백 블랙\n\n3,252,000원\n\n관심 9"
+        },
+        {
+          "product_id": 921327,
+          "text": "Miu Miu\n\n미우 미우 레더 핸드백 블랙\n\n5%\n\n2,747,000원\n\n관심 2"
+        },
+        {
+          "product_id": 688918,
+          "text": "Miu Miu\n\n미우 미우 마테라쎄 나파 레더 파우치 블랙\n\n2,655,000원\n\n관심 17"
+        },
+        {
+          "product_id": 451815,
+          "text": "Miu Miu\n\n미우 미우 레더 백팩 꼬냑\n\n16%\n\n3,699,000원\n\n관심 370\n\n · 리뷰 2\n\n · 거래 4"
+        }
+      ]
+    },
+    {
+      "sku": "5BC2172CSSF0379",
+      "spu": "5BC2172CSS ~ F0379",
+      "b2b_sku": "I75043",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1180.33,
+      "eur_retail": 1311.48,
+      "matched": true,
+      "product_id": 993670,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/993670",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 2828000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 2828000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 2950000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BG2912BBLF0NBL",
+      "spu": "5BG2912BBL ~ F0NBL",
+      "b2b_sku": "I75044",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2471.31,
+      "eur_retail": 2745.9,
+      "matched": true,
+      "product_id": 323937,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/323937",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 5250000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 5250000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        },
+        {
+          "price": 6774000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 2,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB1962CSSF0324",
+      "spu": "5BB1962CSS ~ F0324",
+      "b2b_sku": "I75538",
+      "brand": "MIU MIU",
+      "name": "Shoulder bag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2139.35,
+      "eur_retail": 2377.05,
+      "matched": true,
+      "product_id": 854895,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/854895",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 5600000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 5600000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BB197AN88F098L",
+      "spu": "5BB197AN88 ~ F098L",
+      "b2b_sku": "I80814",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2139.35,
+      "eur_retail": 2377.05,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB197AN88F098L\" SPU=\"5BB197AN88 ~ F098L\"",
+      "candidates": [
+        {
+          "product_id": 670473,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 백 블랙\n\n2,493,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 921327,
+          "text": "Miu Miu\n\n미우 미우 레더 핸드백 블랙\n\n5%\n\n2,747,000원\n\n관심 2"
+        },
+        {
+          "product_id": 670471,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 백 블랙\n\n3,252,000원\n\n관심 9"
+        },
+        {
+          "product_id": 540587,
+          "text": "Miu Miu\n\n미우 미우 우븐 패브릭 토트백 베이지 꼬냑\n\n10%\n\n1,300,000원\n\n관심 141\n\n · 거래 2"
+        },
+        {
+          "product_id": 300583,
+          "text": "Miu Miu\n\n(W) 미우 미우 아이비 레더 백 블랙\n\n19%\n\n2,241,000원\n\n관심 1,132\n\n · 리뷰 6\n\n · 거래 21"
+        }
+      ]
+    },
+    {
+      "sku": "5BB1952CSSF0324",
+      "spu": "5BB1952CSS ~ F0324",
+      "b2b_sku": "I80813",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2360.65,
+      "eur_retail": 2622.95,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BB1952CSSF0324\" SPU=\"5BB1952CSS ~ F0324\"",
+      "candidates": [
+        {
+          "product_id": 670473,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 백 블랙\n\n2,493,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 921327,
+          "text": "Miu Miu\n\n미우 미우 레더 핸드백 블랙\n\n5%\n\n2,747,000원\n\n관심 2"
+        },
+        {
+          "product_id": 670471,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 백 블랙\n\n3,252,000원\n\n관심 9"
+        },
+        {
+          "product_id": 395370,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 백 브라이어우드\n\n20%\n\n2,636,000원\n\n관심 91\n\n · 거래 1"
+        },
+        {
+          "product_id": 303983,
+          "text": "Miu Miu\n\n미우 미우 마테라쎄 나파 레더 핸드백 블랙\n\n2,807,000원\n\n관심 23\n\n · 리뷰 1"
+        }
+      ]
+    },
+    {
+      "sku": "5BG3212IEOF0003",
+      "spu": "5BG3212IEO ~ F0003",
+      "b2b_sku": "I80815",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 1549.18,
+      "eur_retail": 1721.31,
+      "matched": true,
+      "product_id": 670470,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/670470",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": 1000000,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [
+        {
+          "price": 1000000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 1
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BZ042AF6PF0R55",
+      "spu": "5BZ042AF6P ~ F0R55",
+      "b2b_sku": "I80818",
+      "brand": "MIU MIU",
+      "name": "Backpack woman Miu Miu",
+      "option": "U",
+      "stock": 2,
+      "eur_price": 2286.88,
+      "eur_retail": 2540.98,
+      "matched": true,
+      "product_id": 634027,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/634027",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": null,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 0,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": null,
+      "kream_options_available": [],
+      "option_mismatch": true
+    },
+    {
+      "sku": "5BA330VOLO2E6YF0D32",
+      "spu": "5BA330VOLO2E6Y ~ F0D32",
+      "b2b_sku": "I80809",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 1254.1,
+      "eur_retail": 1393.44,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BA330VOLO2E6YF0D32\" SPU=\"5BA330VOLO2E6Y ~ F0D32\"",
+      "candidates": [
+        {
+          "product_id": 670473,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 백 블랙\n\n2,493,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 921327,
+          "text": "Miu Miu\n\n미우 미우 레더 핸드백 블랙\n\n5%\n\n2,747,000원\n\n관심 2"
+        },
+        {
+          "product_id": 670471,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 백 블랙\n\n3,252,000원\n\n관심 9"
+        },
+        {
+          "product_id": 303983,
+          "text": "Miu Miu\n\n미우 미우 마테라쎄 나파 레더 핸드백 블랙\n\n2,807,000원\n\n관심 23\n\n · 리뷰 1"
+        },
+        {
+          "product_id": 300583,
+          "text": "Miu Miu\n\n(W) 미우 미우 아이비 레더 백 블랙\n\n19%\n\n2,241,000원\n\n관심 1,132\n\n · 리뷰 6\n\n · 거래 21"
+        }
+      ]
+    },
+    {
+      "sku": "5BA330VOLO2E6YF0770",
+      "spu": "5BA330VOLO2E6Y ~ F0770",
+      "b2b_sku": "I80809",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 7,
+      "eur_price": 1254.1,
+      "eur_retail": 1393.44,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BA330VOLO2E6YF0770\" SPU=\"5BA330VOLO2E6Y ~ F0770\"",
+      "candidates": [
+        {
+          "product_id": 670473,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 백 블랙\n\n2,493,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 921327,
+          "text": "Miu Miu\n\n미우 미우 레더 핸드백 블랙\n\n5%\n\n2,747,000원\n\n관심 2"
+        },
+        {
+          "product_id": 670471,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 백 블랙\n\n3,252,000원\n\n관심 9"
+        },
+        {
+          "product_id": 300583,
+          "text": "Miu Miu\n\n(W) 미우 미우 아이비 레더 백 블랙\n\n19%\n\n2,241,000원\n\n관심 1,132\n\n · 리뷰 6\n\n · 거래 21"
+        },
+        {
+          "product_id": 303983,
+          "text": "Miu Miu\n\n미우 미우 마테라쎄 나파 레더 핸드백 블랙\n\n2,807,000원\n\n관심 23\n\n · 리뷰 1"
+        }
+      ]
+    },
+    {
+      "sku": "5BA330VOLO2E6YF0002",
+      "spu": "5BA330VOLO2E6Y ~ F0002",
+      "b2b_sku": "I80809",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 21,
+      "eur_price": 1254.1,
+      "eur_retail": 1393.44,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BA330VOLO2E6YF0002\" SPU=\"5BA330VOLO2E6Y ~ F0002\"",
+      "candidates": [
+        {
+          "product_id": 921327,
+          "text": "Miu Miu\n\n미우 미우 레더 핸드백 블랙\n\n5%\n\n2,747,000원\n\n관심 2"
+        },
+        {
+          "product_id": 670473,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 백 블랙\n\n2,493,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 771784,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 핸드백 블랙\n\n26%\n\n1,796,000원\n\n관심 16"
+        },
+        {
+          "product_id": 670471,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 백 블랙\n\n3,252,000원\n\n관심 9"
+        },
+        {
+          "product_id": 516834,
+          "text": "Miu Miu\n\n미우 미우 완더 마테라쎄 실크 미니백 블랙\n\n10%\n\n2,450,000원\n\n관심 15"
+        }
+      ]
+    },
+    {
+      "sku": "5BG3402IERF0002",
+      "spu": "5BG3402IER ~ F0002",
+      "b2b_sku": "I80816",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 4,
+      "eur_price": 2360.65,
+      "eur_retail": 2622.95,
+      "matched": true,
+      "product_id": 996672,
+      "product_name_ko": "Miu Miu",
+      "product_url": "https://kream.co.kr/products/996672",
+      "market": {
+        "last_sale_price": null,
+        "lowest_ask": 5436000,
+        "highest_bid": null,
+        "change_text": null
+      },
+      "sales": [],
+      "asks": [
+        {
+          "price": 5436000,
+          "option": "ONE SIZE",
+          "quantity": 1
+        }
+      ],
+      "bids": [],
+      "totals": {
+        "sales": 0,
+        "asks": 1,
+        "bids": 0
+      },
+      "raw_chart_recently": null,
+      "kream_option": "ONE SIZE",
+      "kream_options_available": [
+        "ONE SIZE"
+      ],
+      "option_mismatch": false
+    },
+    {
+      "sku": "5BG3402IERF0046",
+      "spu": "5BG3402IER ~ F0046",
+      "b2b_sku": "I80816",
+      "brand": "MIU MIU",
+      "name": "Handbag woman Miu Miu",
+      "option": "U",
+      "stock": 6,
+      "eur_price": 2360.65,
+      "eur_retail": 2622.95,
+      "matched": false,
+      "error": "No KREAM match for SKU=\"5BG3402IERF0046\" SPU=\"5BG3402IER ~ F0046\"",
+      "candidates": [
+        {
+          "product_id": 670473,
+          "text": "Miu Miu\n\n미우 미우 아이비 레더 백 블랙\n\n2,493,000원\n\n관심 21\n\n · 거래 1"
+        },
+        {
+          "product_id": 670500,
+          "text": "Miu Miu\n\n미우 미우 아이비 스웨이드 백 다크 브라운\n\n2,593,000원\n\n관심 31"
+        },
+        {
+          "product_id": 300583,
+          "text": "Miu Miu\n\n(W) 미우 미우 아이비 레더 백 블랙\n\n19%\n\n2,241,000원\n\n관심 1,132\n\n · 리뷰 6\n\n · 거래 21"
+        },
+        {
+          "product_id": 921327,
+          "text": "Miu Miu\n\n미우 미우 레더 핸드백 블랙\n\n5%\n\n2,747,000원\n\n관심 2"
+        },
+        {
+          "product_id": 540587,
+          "text": "Miu Miu\n\n미우 미우 우븐 패브릭 토트백 베이지 꼬냑\n\n10%\n\n1,300,000원\n\n관심 141\n\n · 거래 2"
+        }
+      ]
+    }
+  ]
+}
